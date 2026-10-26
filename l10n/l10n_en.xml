@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+    <texts>
+        <!-- Diseases (full and short name) -->
+        <text name="fh_disease_cereal_mildew" text="Cereal powdery mildew" />
+        <text name="fh_disease_cereal_mildew_short" text="Powdery mildew" />
+        <text name="fh_disease_septoria" text="Septoria leaf blotch" />
+        <text name="fh_disease_septoria_short" text="Septoria" />
+        <text name="fh_disease_brown_rust" text="Brown rust" />
+        <text name="fh_disease_brown_rust_short" text="Brown rust" />
+        <text name="fh_disease_fusarium" text="Fusarium" />
+        <text name="fh_disease_fusarium_short" text="Fusarium" />
+        <text name="fh_disease_net_blotch" text="Net blotch" />
+        <text name="fh_disease_net_blotch_short" text="Net blotch" />
+        <text name="fh_disease_snow_mould" text="Snow mould" />
+        <text name="fh_disease_snow_mould_short" text="Snow mould" />
+        <text name="fh_disease_sclerotinia" text="Sclerotinia stem rot" />
+        <text name="fh_disease_sclerotinia_short" text="Sclerotinia" />
+        <text name="fh_disease_alternaria" text="Alternaria" />
+        <text name="fh_disease_alternaria_short" text="Alternaria" />
+        <text name="fh_disease_late_blight" text="Late blight" />
+        <text name="fh_disease_late_blight_short" text="Late blight" />
+        <text name="fh_disease_cercospora" text="Cercospora leaf spot" />
+        <text name="fh_disease_cercospora_short" text="Cercospora" />
+        <text name="fh_disease_grey_mould" text="Grey mould" />
+        <text name="fh_disease_grey_mould_short" text="Grey mould" />
+        <text name="fh_disease_yellow_rust" text="Yellow rust" />
+        <text name="fh_disease_yellow_rust_short" text="Yellow rust" />
+        <text name="fh_disease_tan_spot" text="Tan spot" />
+        <text name="fh_disease_tan_spot_short" text="Tan spot" />
+        <text name="fh_disease_eyespot" text="Eyespot" />
+        <text name="fh_disease_eyespot_short" text="Eyespot" />
+        <text name="fh_disease_rhynchosporium" text="Rhynchosporium leaf scald" />
+        <text name="fh_disease_rhynchosporium_short" text="Leaf scald" />
+        <text name="fh_disease_ramularia" text="Ramularia leaf spot" />
+        <text name="fh_disease_ramularia_short" text="Ramularia" />
+        <text name="fh_disease_stem_rust" text="Black stem rust" />
+        <text name="fh_disease_stem_rust_short" text="Stem rust" />
+        <text name="fh_disease_phoma" text="Phoma stem canker" />
+        <text name="fh_disease_phoma_short" text="Phoma" />
+        <text name="fh_disease_cylindrosporiosis" text="Light leaf spot" />
+        <text name="fh_disease_cylindrosporiosis_short" text="Light leaf spot" />
+        <text name="fh_disease_beet_mildew" text="Beet powdery mildew" />
+        <text name="fh_disease_beet_mildew_short" text="Beet mildew" />
+        <text name="fh_disease_ascochyta" text="Ascochyta blight" />
+        <text name="fh_disease_ascochyta_short" text="Ascochyta" />
+        <text name="fh_disease_downy_mildew" text="Downy mildew" />
+        <text name="fh_disease_downy_mildew_short" text="Downy mildew" />
+        <text name="fh_disease_corn_leaf_blight" text="Northern corn leaf blight" />
+        <text name="fh_disease_corn_leaf_blight_short" text="Corn leaf blight" />
+        <text name="fh_disease_crown_rust" text="Oat crown rust" />
+        <text name="fh_disease_crown_rust_short" text="Crown rust" />
+
+        <!-- Pests (full and short name) -->
+        <text name="fh_pest_aphids" text="Aphids" />
+        <text name="fh_pest_aphids_short" text="Aphids" />
+        <text name="fh_pest_leaf_beetle" text="Cereal leaf beetles" />
+        <text name="fh_pest_leaf_beetle_short" text="Leaf beetles" />
+        <text name="fh_pest_pollen_beetle" text="Pollen beetles" />
+        <text name="fh_pest_pollen_beetle_short" text="Pollen beetles" />
+        <text name="fh_pest_potato_beetle" text="Colorado potato beetles" />
+        <text name="fh_pest_potato_beetle_short" text="Potato beetles" />
+        <text name="fh_pest_corn_borer" text="European corn borer" />
+        <text name="fh_pest_corn_borer_short" text="Corn borer" />
+        <text name="fh_pest_wireworm" text="Wireworms" />
+        <text name="fh_pest_wireworm_short" text="Wireworms" />
+        <text name="fh_pest_stem_weevil" text="Rape stem weevils" />
+        <text name="fh_pest_stem_weevil_short" text="Stem weevils" />
+        <text name="fh_pest_seed_weevil" text="Cabbage seed weevil" />
+        <text name="fh_pest_seed_weevil_short" text="Seed weevil" />
+        <text name="fh_pest_flea_beetle" text="Flea beetles" />
+        <text name="fh_pest_flea_beetle_short" text="Flea beetles" />
+        <text name="fh_pest_turnip_sawfly" text="Turnip sawfly" />
+        <text name="fh_pest_turnip_sawfly_short" text="Turnip sawfly" />
+        <text name="fh_pest_frit_fly" text="Frit fly" />
+        <text name="fh_pest_frit_fly_short" text="Frit fly" />
+        <text name="fh_pest_wheat_midge" text="Wheat blossom midges" />
+        <text name="fh_pest_wheat_midge_short" text="Wheat midges" />
+        <text name="fh_pest_cutworm" text="Cutworms" />
+        <text name="fh_pest_cutworm_short" text="Cutworms" />
+        <text name="fh_pest_beet_fly" text="Mangold fly" />
+        <text name="fh_pest_beet_fly_short" text="Mangold fly" />
+        <text name="fh_pest_onion_fly" text="Onion fly" />
+        <text name="fh_pest_onion_fly_short" text="Onion fly" />
+        <text name="fh_pest_thrips" text="Thrips" />
+        <text name="fh_pest_thrips_short" text="Thrips" />
+        <text name="fh_pest_carrot_fly" text="Carrot fly" />
+        <text name="fh_pest_carrot_fly_short" text="Carrot fly" />
+        <text name="fh_pest_pea_leaf_weevil" text="Pea leaf weevils" />
+        <text name="fh_pest_pea_leaf_weevil_short" text="Pea weevils" />
+        <text name="fh_pest_rootworm" text="Western corn rootworm" />
+        <text name="fh_pest_rootworm_short" text="Corn rootworm" />
+        <text name="fh_pest_ground_beetle" text="Cereal ground beetle" />
+        <text name="fh_pest_ground_beetle_short" text="Ground beetle" />
+
+        <text name="fh_severity_low" text="low" />
+        <text name="fh_severity_medium" text="medium" />
+        <text name="fh_severity_high" text="severe" />
+
+        <!-- Field info (short, so nothing gets cut off) -->
+        <text name="fh_hud_threats" text="Crop threats" />
+        <text name="fh_hud_disease" text="Disease" />
+        <text name="fh_hud_pest" text="Pests" />
+        <text name="fh_hud_none" text="none" />
+        <text name="fh_hud_diseaseRisk" text="Disease risk" />
+        <text name="fh_hud_pestRisk" text="Pest risk" />
+        <text name="fh_hud_cause" text="Cause" />
+        <text name="fh_hud_protection" text="Crop protection" />
+        <text name="fh_hud_diseaseProtection" text="Disease protection" />
+        <text name="fh_hud_pestProtection" text="Pest protection" />
+        <text name="fh_hud_protected" text="active" />
+        <text name="fh_risk_low" text="low" />
+        <text name="fh_risk_normal" text="normal" />
+        <text name="fh_risk_elevated" text="elevated" />
+        <text name="fh_risk_high" text="high" />
+        <text name="fh_cause_fertilizer" text="no fertilizer" />
+        <text name="fh_cause_manure" text="fresh manure" />
+        <text name="fh_cause_fastNitrogen" text="fast nitrogen" />
+        <text name="fh_cause_nitrogenDeficit" text="low nitrogen" />
+        <text name="fh_cause_nitrogenExcess" text="too much nitrogen" />
+        <text name="fh_cause_lime" text="acidic soil" />
+        <text name="fh_cause_lightSoil" text="light soil" />
+        <text name="fh_cause_heavySoil" text="heavy soil" />
+        <text name="fh_cause_plowing" text="no plowing" />
+        <text name="fh_cause_stubble" text="stubble" />
+        <text name="fh_cause_rolling" text="no rolling" />
+        <text name="fh_cause_weeds" text="weeds" />
+        <text name="fh_cause_sameCrop" text="monoculture" />
+        <text name="fh_cause_cropFamily" text="similar crop" />
+        <text name="fh_cause_previousCrop" text="bad previous crop" />
+        <text name="fh_hint_fungicide" text="Treatment: spray fungicide" />
+        <text name="fh_hint_insecticide" text="Treatment: spray insecticide" />
+        <text name="fh_field_area" text="Field area" />
+        <text name="fh_potential_harvest" text="Potential harvest" />
+        <text name="fh_potential_yield" text="Potential yield" />
+
+        <!-- Notifications: field number, crop, threat, spray -->
+        <text name="fh_alert_new" text="Field %s (%s): new threat – %s. Spray: %s." />
+        <text name="fh_alert_severe" text="Field %s (%s): severe threat – %s, the crop is dying. Spray: %s." />
+        <text name="fh_alert_neighbour" text="Field %s (%s): %s – came from a neighbouring field. Spray: %s." />
+
+        <!-- Map -->
+        <text name="fh_map_page" text="Crop protection" />
+        <text name="fh_map_layerProtection" text="Protection" />
+        <text name="fh_map_layerDiseases" text="Diseases" />
+        <text name="fh_map_layerPests" text="Pests" />
+        <text name="fh_map_layerDiseaseTypes" text="Disease types" />
+        <text name="fh_map_layerPestTypes" text="Pest types" />
+        <text name="fh_map_notSprayed" text="Not protected" />
+        <text name="fh_map_oneProduct" text="One product" />
+        <text name="fh_map_bothProducts" text="Fungicide and insecticide" />
+        <text name="fh_map_healthy" text="Healthy crop" />
+        <text name="fh_map_low" text="Low" />
+        <text name="fh_map_medium" text="Medium" />
+        <text name="fh_map_high" text="Severe" />
+        <text name="fh_map_diseaseLabel" text="Disease:" />
+        <text name="fh_map_pestLabel" text="Pests:" />
+        <text name="fh_map_diseaseProtectionLabel" text="Disease protection:" />
+        <text name="fh_map_pestProtectionLabel" text="Pest protection:" />
+        <text name="fh_map_protectedUntilHarvest" text="active" />
+        <text name="input_FH_MINIMAP_LAYER" text="Field Health – crop protection layer on the minimap" />
+
+        <!-- Settings -->
+        <text name="fh_config_brand" text="Brand" />
+        <text name="fh_settings_header" text="Field Health – diseases and pests" />
+        <text name="fh_setting_enabled" text="Crop threats" />
+        <text name="fh_setting_enabled_desc" text="Main switch of the mod. When it is off, no new diseases or pests appear, and the existing ones stop developing and destroying crops. Spraying still works, so you can remove what is left on your fields." />
+        <text name="fh_setting_diseaseChance" text="Disease chance per season" />
+        <text name="fh_setting_diseaseChance_desc" text="Base chance that a normally farmed field gets a disease during one season (from sowing to harvest). It is only a starting point: good farming (manure, catch crops, crop rotation, right pH and nitrogen) lowers it, neglect (no fertilizer, monoculture, no plowing, acidic soil) raises it several times. Spraying fungicide before a disease appears reduces it to zero until harvest. 0% turns diseases off." />
+        <text name="fh_setting_pestChance" text="Pest chance per season" />
+        <text name="fh_setting_pestChance_desc" text="Base chance that pests appear on a normally farmed field during one season. Farming changes it: weeds, monoculture and no plowing raise it, catch crops and crop rotation lower it. Spraying insecticide before pests appear reduces it to zero until harvest. 0% turns pests off." />
+        <text name="fh_setting_careInfluence" text="Influence of farming" />
+        <text name="fh_setting_careInfluence_desc" text="How strongly the way you farm (fertilizing, soil work, crop rotation, catch crops, weeds, Precision Farming data) changes the base chances. None – only the base chance counts and all fields are equal. Low – mild differences. Normal (recommended) – good farming clearly pays off. High – neglected fields get sick very often, well kept ones almost never." />
+        <text name="fh_setting_weatherInfluence" text="Influence of weather" />
+        <text name="fh_setting_weatherInfluence_desc" text="How strongly the weather of the last days (temperature and rain) changes the chance of threats. Fungal diseases like rain and moisture, most pests like warm, dry weather, and every threat has its own temperature range. None – the weather does not count. Low – small differences. Normal (recommended) – clear differences. High – in favourable weather threats appear much more often, in unfavourable weather hardly at all." />
+        <text name="fh_setting_stubbleRisk" text="Risk from stubble" />
+        <text name="fh_setting_stubbleRisk_desc" text="Whether unmulched stubble after harvest raises the risk (mainly of corn borer and diseases surviving on residues). It counts only after a harvest on the field and when the field was not plowed. Tramlines and paths across the field never count as stubble. Off – stubble does not change the risk at all." />
+        <text name="fh_setting_fodderCrops" text="Threats on meadows and fodder crops" />
+        <text name="fh_setting_fodderCrops_desc" text="Whether meadows, grass, clover and alfalfa can get diseases and pests. Off (recommended) – these crops never get threats, and threats already on them disappear the next day. On – clover and alfalfa can get aphids; meadows and grass still never do." />
+        <text name="fh_setting_fieldInfo" text="Field info lines" />
+        <text name="fh_setting_fieldInfo_desc" text="Whether the field info box shows the threats, risk and protection of the field. Off – the box looks as without the mod; the map and the minimap still show the fields." />
+        <text name="fh_setting_progression" text="Threat progression" />
+        <text name="fh_setting_progression_desc" text="How fast an untreated threat reaches the next stage: low, then medium, then severe. Slow – every game month, Normal – every half month, Fast – every quarter month (at least one day). Only the severe stage destroys crops, so a slower pace gives you more time to spray." />
+        <text name="fh_setting_spread" text="Threat spread" />
+        <text name="fh_setting_spread_desc" text="How large a part of the field an untreated threat can cover. Small – up to 2.5%, Medium – up to 5%, Large – up to 10% of the field area. A patch grows unevenly at its edge, and now and then a new, smaller patch appears next to it – usually on the side the wind blows to that day. Spraying removes the threat completely." />
+        <text name="fh_setting_patchSize" text="Patch size" />
+        <text name="fh_setting_patchSize_desc" text="How large the patches are in which a new threat appears and grows. Every patch has an irregular shape and a random size – small ones are more common than large ones. Small – patches usually 5–12 m across, Normal – 8–20 m, Large – 12–30 m. On small fields patches are always smaller." />
+        <text name="fh_setting_neighbourSpread" text="Spread to neighbouring fields" />
+        <text name="fh_setting_neighbourSpread_desc" text="Whether a threat at the edge of a field can move to a neighbouring player field. This only happens when the fields touch or are separated by a very narrow strip, when the other field has a crop the threat attacks in the right growth stage, and when the other field is not sprayed. Pests move more often than diseases, and only from the medium stage on. NPC fields are never affected. Off, Rarely, Sometimes, Often – no, half, normal and double chance." />
+        <text name="fh_setting_damage" text="Crop damage" />
+        <text name="fh_setting_damage_desc" text="How much crop a severe threat destroys every day. Destroyed spots give nothing at harvest. Off – threats are only visible, the yield stays the same. Low, Normal, High – 1, 3 or 6 patches of a few meters per day, always only inside the infected area." />
+        <text name="fh_setting_protectionThreshold" text="Coverage for full protection" />
+        <text name="fh_setting_protectionThreshold_desc" text="How much of a field must be sprayed so that the whole field is protected against that kind of threat (diseases or pests). With less coverage a threat can still appear, but only on the unsprayed parts – sprayed areas are always protected. Default 90%. A lower threshold forgives missed corners and wedges, a higher one needs exact spraying." />
+        <text name="fh_setting_protectionDuration" text="Spray protection" />
+        <text name="fh_setting_protectionDuration_desc" text="How long fungicide and insecticide protect a field. Until harvest – one spraying with each product protects the field for the whole season (easiest). 2 months, 1 month, half a month – protection ends this long after the last spraying of the field and you have to spray again, like on a real farm." />
+        <text name="fh_setting_fungicideUsage" text="Fungicide rate" />
+        <text name="fh_setting_fungicideUsage_desc" text="How much fungicide a sprayer uses per hectare. 100% is about 290 litres of mixture per hectare (the same as herbicide), which is one 1 l bottle per hectare. A lower rate makes spraying cheaper with less refilling, a higher one makes it more expensive. The effect of spraying is always the same. The change applies at once, even while working." />
+        <text name="fh_setting_insecticideUsage" text="Insecticide rate" />
+        <text name="fh_setting_insecticideUsage_desc" text="How much insecticide a sprayer uses per hectare. 100% is about 290 litres of mixture per hectare (the same as herbicide), which is one 1 l bottle per 5 hectares. A lower rate makes spraying cheaper with less refilling, a higher one makes it more expensive. The effect of spraying is always the same. The change applies at once, even while working." />
+        <text name="fh_setting_fungicidePrice" text="Fungicide bottle price" />
+        <text name="fh_setting_fungicidePrice_desc" text="Shop price of one 1 l bottle of fungicide. A bottle is enough for 1 hectare (290 l of spray mixture). Default 50. The game converts currencies 1:1. The price per litre of mixture follows this price, e.g. when buying the liquid at a station. The change applies at once in the shop." />
+        <text name="fh_setting_insecticidePrice" text="Insecticide bottle price" />
+        <text name="fh_setting_insecticidePrice_desc" text="Shop price of one 1 l bottle of insecticide. A bottle is enough for 5 hectares (1450 l of spray mixture). Default 80. The game converts currencies 1:1. The price per litre of mixture follows this price, e.g. when buying the liquid at a station. The change applies at once in the shop." />
+        <text name="fh_setting_fungicideCanisterPrice" text="Fungicide 5 l canister price" />
+        <text name="fh_setting_fungicideCanisterPrice_desc" text="Shop price of one 5 l canister of fungicide. A canister is enough for 5 hectares (1450 l of spray mixture). Default 220, cheaper per litre than five 1 l bottles, like at a real dealer. The game converts currencies 1:1. The change applies at once in the shop." />
+        <text name="fh_setting_insecticideCanisterPrice" text="Insecticide 5 l canister price" />
+        <text name="fh_setting_insecticideCanisterPrice_desc" text="Shop price of one 5 l canister of insecticide. A canister is enough for 25 hectares (7250 l of spray mixture). Default 350, cheaper per litre than five 1 l bottles, like at a real dealer. The game converts currencies 1:1. The change applies at once in the shop." />
+        <text name="fh_setting_fungicideCanister20Price" text="Fungicide 20 l canister price" />
+        <text name="fh_setting_fungicideCanister20Price_desc" text="Shop price of one 20 l canister of fungicide. A canister is enough for 20 hectares (5800 l of spray mixture). Default 800, the cheapest per litre of all containers. The game converts currencies 1:1. The change applies at once in the shop." />
+        <text name="fh_setting_insecticideCanister20Price" text="Insecticide 20 l canister price" />
+        <text name="fh_setting_insecticideCanister20Price_desc" text="Shop price of one 20 l canister of insecticide. A canister is enough for 100 hectares (29,000 l of spray mixture). Default 1200, the cheapest per litre of all containers. The game converts currencies 1:1. The change applies at once in the shop." />
+        <text name="fh_setting_farmLimit" text="Threat limit per farm" />
+        <text name="fh_setting_farmLimit_desc" text="Maximum number of new threats on all fields of your farm per game year. Unlimited – every field has its own chance. Set for example 1 or 2 if you have many fields and want diseases and pests to be rare." />
+        <text name="fh_setting_notifications" text="Threat notifications" />
+        <text name="fh_setting_notifications_desc" text="Shows a message when a disease or pests appear on your field and when a threat becomes severe and starts destroying the crop. The message names the field, the crop, the threat and the product to spray." />
+        <text name="fh_set_on" text="On" />
+        <text name="fh_set_off" text="Off" />
+        <text name="fh_set_none" text="None" />
+        <text name="fh_set_low" text="Low" />
+        <text name="fh_set_normal" text="Normal" />
+        <text name="fh_set_high" text="High" />
+        <text name="fh_set_slow" text="Slow" />
+        <text name="fh_set_normalPace" text="Normal" />
+        <text name="fh_set_fast" text="Fast" />
+        <text name="fh_set_small" text="Small" />
+        <text name="fh_set_medium" text="Medium" />
+        <text name="fh_set_large" text="Large" />
+        <text name="fh_set_damageLow" text="Low" />
+        <text name="fh_set_damageNormal" text="Normal" />
+        <text name="fh_set_damageHigh" text="High" />
+        <text name="fh_set_untilHarvest" text="Until harvest" />
+        <text name="fh_set_twoMonths" text="2 months" />
+        <text name="fh_set_oneMonth" text="1 month" />
+        <text name="fh_set_halfMonth" text="Half a month" />
+        <text name="fh_set_unlimited" text="Unlimited" />
+        <text name="fh_set_patchSmall" text="Small" />
+        <text name="fh_set_patchNormal" text="Normal" />
+        <text name="fh_set_patchLarge" text="Large" />
+        <text name="fh_set_rarely" text="Rarely" />
+        <text name="fh_set_sometimes" text="Sometimes" />
+        <text name="fh_set_often" text="Often" />
+
+        <!-- Shop -->
+        <text name="fh_fillType_insecticide" text="Insecticide" />
+        <text name="fh_fillType_fungicide" text="Fungicide" />
+        <text name="fh_store_fungicideBottle" text="Fungicide 1 l" />
+        <text name="fh_store_insecticideBottle" text="Insecticide 1 l" />
+        <text name="fh_store_fungicideCanister" text="Fungicide 5 l" />
+        <text name="fh_store_insecticideCanister" text="Insecticide 5 l" />
+        <text name="fh_store_fungicideCanister20" text="Fungicide 20 l" />
+        <text name="fh_store_insecticideCanister20" text="Insecticide 20 l" />
+        <text name="fh_function_fungicideBottle" text="1 l bottle of concentrate, rate 1 l/ha. Enough for 1 ha, which is 290 l of spray mixture. Protects crops against all diseases. Put it next to a sprayer and fill the sprayer from it." />
+        <text name="fh_function_insecticideBottle" text="1 l bottle of concentrate, rate 0.2 l/ha. Enough for 5 ha, which is 1450 l of spray mixture. Protects crops against pests: aphids, leaf beetles, pollen beetles, potato beetles, corn borer and wireworms. Put it next to a sprayer and fill the sprayer from it." />
+        <text name="fh_function_fungicideCanister" text="5 l canister of concentrate, rate 1 l/ha. Enough for 5 ha, which is 1450 l of spray mixture. Protects crops against all diseases. Cheaper per litre than the 1 l bottles. Put it next to a sprayer and fill the sprayer from it." />
+        <text name="fh_function_insecticideCanister" text="5 l canister of concentrate, rate 0.2 l/ha. Enough for 25 ha, which is 7250 l of spray mixture. Protects crops against pests. Cheaper per litre than the 1 l bottles. Put it next to a sprayer and fill the sprayer from it." />
+        <text name="fh_function_fungicideCanister20" text="20 l canister of concentrate, rate 1 l/ha. Enough for 20 ha, which is 5800 l of spray mixture. Protects crops against all diseases. Cheapest per litre, for large farms. Put it next to a sprayer and fill the sprayer from it." />
+        <text name="fh_function_insecticideCanister20" text="20 l canister of concentrate, rate 0.2 l/ha. Enough for 100 ha, which is 29,000 l of spray mixture. Protects crops against pests. Cheapest per litre, for large farms. Put it next to a sprayer and fill the sprayer from it." />
+
+        <!-- Help (ESC → Help) -->
+        <text name="fh_help_header" text="Field Health – diseases and pests" />
+
+        <text name="fh_help_intro" text="Introduction" />
+        <text name="fh_help_intro_01" text="About the mod" />
+        <text name="fh_help_intro_02" text="Field Health brings the crop diseases and pests that farmers in Poland deal with every day into the game. They appear on the fields of your farm during the season, develop and – if you do not fight them – destroy part of the crop. Two products from the shop fight them: fungicide against diseases and insecticide against pests.
+The mod is realistic but forgiving for casual play: a threat never covers the whole field, crop is destroyed only in the most severe stage, and one well-done spraying with each product protects the field until the end of the season." />
+        <text name="fh_help_intro_03" text="The season step by step" />
+        <text name="fh_help_intro_04" text="1. Sowing starts the crop season. From that day the infection pressure on the field grows – fastest in the time of year and growth stage in which a threat attacks, in weather that suits it and on a neglected field.
+2. When the pressure passes the threshold rolled for the field, a patch of a disease or pests appears. You get a notification with the field number and the product to spray.
+3. An untreated threat gets one stage worse every half month and slowly spreads. In the severe stage it destroys crop in small patches every day.
+4. Spraying removes the threat and protects the sprayed spots. A field sprayed almost completely is immune to that kind of threat until harvest.
+5. Harvest ends the season: threats and protection disappear, and the harvested crop becomes the previous crop of the next one." />
+        <text name="fh_help_intro_05" text="Key numbers" />
+        <text name="fh_help_intro_06" text="Default values. The admin can change each of them in the settings (last column)." />
+        <text name="fh_help_intro_08" text="Where to check your fields" />
+        <text name="fh_help_intro_09" text="– Field info box (while you are on a field): threats with their severity, the risk and its main cause, the field's protection.
+– Map (ESC &gt; Map &gt; Crop protection): five layers – protection, diseases, pests, disease types and pest types.
+– Minimap: switch the layer with Left Alt + \.
+– Notifications: about a new threat, about the severe stage and about a threat that came from a neighbouring field." />
+        <text name="fh_help_origin" text="Where threats come from" />
+        <text name="fh_help_origin_01" text="Every player field with a growing crop can get at most one disease and one kind of pest per season. NPC fields, poplar and catch crops never get threats; meadows, grass, clover and alfalfa only when enabled in the settings.
+A threat does not appear on a random day. Every day the mod works out the infection pressure on the field and adds it to the sum of the days before. At the start of the season the field gets a random resistance threshold – when the sum of the pressure passes it, the field gets infected. That is why a threat appears early in one season, late in another and not at all in a third." />
+        <text name="fh_help_origin_02" text="What drives the pressure" />
+        <text name="fh_help_origin_03" text="1. The base chance from the settings – by default 15% for a disease and 10% for pests over a season.
+2. The field's risk, i.e. how you farm it: fertilizing, soil work, crop rotation and weeds (page “How you farm”).
+3. How common the threat is in Poland – common diseases and pests appear much more often than rare ones (pages “Diseases” and “Pests”).
+4. The time of year and the growth stage – outside its time a threat does not attack at all (page “Seasons and growth stages”).
+5. The weather of the last days – rain helps fungal diseases, warmth and drought help most pests (page “Weather”)." />
+        <text name="fh_help_origin_04" text="Chance per season" />
+        <text name="fh_help_origin_05" text="This is how the field's risk changes the chance of a threat over the whole season with the default settings:" />
+        <text name="fh_help_origin_07" text="The table applies to a crop with an average set of threats that grows through all of their time. Crops attacked by many common diseases or pests get them more often (up to 1.4 times), crops with few threats less often (down to 0.5 times):" />
+        <text name="fh_help_origin_09" text="Which threat appears" />
+        <text name="fh_help_origin_10" text="When an infection happens, the mod picks one of the threats that can attack the crop on that day. The chance of each is in proportion to its pressure of the day: how common it is times the field's risk, the time of year and the weather. Example: on wheat in May in rainy weather septoria or mildew appear most often, while stem rust, which is rare and likes heat, almost never does." />
+        <text name="fh_help_origin_11" text="Spraying before the infection" />
+        <text name="fh_help_origin_12" text="If at the moment of the infection the field is sprayed with the right product on at least 90% of its area, the infection fails and the field gets no threat of that kind this season. With less coverage the threat can appear, but only on the parts that were not sprayed." />
+        <text name="fh_help_timing" text="Seasons and growth stages" />
+        <text name="fh_help_timing_01" text="Every disease and every pest has its time: it attacks only in certain months and only in certain growth stages of the crop. Within that time it has a peak, when it is most dangerous. Outside its time a threat does not appear at all – it cannot come from a neighbouring field either." />
+        <text name="fh_help_timing_02" text="Growth stages" />
+        <text name="fh_help_timing_04" text="The mod reads the stage from the crop's growth state in the game: the first 20% of the growing time are emergence, up to 45% leaf development and tillering, up to 70% stem elongation or budding, then heading and flowering, and a crop that is ready to harvest is ripe. Months follow the game calendar (the first period of the year is March), so the days per period do not change when threats attack." />
+        <text name="fh_help_timing_05" text="Calendar – when to be careful" />
+        <text name="fh_help_timing_06" text="The main months are those in which the pressure of the group of threats on the crop is highest. Spraying shortly before them prevents most infections." />
+        <text name="fh_help_farming" text="How you farm" />
+        <text name="fh_help_farming_01" text="The field's risk is a multiplier of the infection pressure that comes from how you farm the field. The mod works it out for every threat separately; the field info box shows the highest disease and pest risk and the main cause. The multipliers in the tables multiply with each other, and the result always stays between 0.3 and 5." />
+        <text name="fh_help_farming_03" text="Fertilizing" />
+        <text name="fh_help_farming_05" text="Soil work and weeds" />
+        <text name="fh_help_farming_07" text="The values are for a completely neglected field – partial neglect raises the risk in proportion. Only field work enabled in the game settings counts: without required plowing, not plowing changes nothing. The mod checks the field at 36 points and only where the crop grows, so tramlines and paths across the field do not count as neglect. Stubble and rolling count as missing only when three quarters of the field lack them. Stubble counts only after a harvest on this field and not after plowing (the setting “Risk from stubble” switches it off completely). In FS25 weeds do not grow after plowing." />
+        <text name="fh_help_farming_08" text="Crop rotation and catch crops" />
+        <text name="fh_help_farming_10" text="The setting “Influence of farming” strengthens or weakens all these factors at once. None – every field has risk 1. Low – the differences are about half as large. Normal – as in the tables. High – the differences are half as large again." />
+        <text name="fh_help_weather" text="Weather" />
+        <text name="fh_help_weather_01" text="Every in-game hour the mod reads the temperature and whether it rains. At the end of the day it works out the mean temperature of the day and the share of rainy hours. Wetness has a memory: half of it comes from the last day and half from the days before, because leaves stay wet long after rain. Every threat has a weather profile – a temperature range and how it deals with rain." />
+        <text name="fh_help_weather_03" text="A temperature outside the range lowers the pressure to 0.4 times, a temperature in the optimum raises it to 1.2 times. Rain changes the pressure from 0.4 to 1.8 times – up for threats that like moisture, down for those that like drought. Together the weather changes the pressure from 0.2 to 2.5 times. Example multipliers after a few days of such weather (red – the threat grows, green – it shrinks):" />
+        <text name="fh_help_weather_05" text="The setting “Influence of weather”: None – the weather does not count, Low – milder multipliers, Normal – as in the table, High – stronger. After a few warm, rainy days in summer watch potatoes and heading cereals in particular, and in a dry, hot summer – pests." />
+        <text name="fh_help_diseases" text="Diseases" />
+        <text name="fh_help_diseases_01" text="Fungicide fights all diseases. The tables show how common a disease is in Poland, which crops it attacks, in which months it appears and when it is worst, in which growth stage it does the most damage and what helps it." />
+        <text name="fh_help_diseases_03" text="Cereals and maize" />
+        <text name="fh_help_diseases_05" text="Other crops" />
+        <text name="fh_help_diseases_07" text="Crops of maps that the mod does not know can get grey mould and aphids. Onions of the Highlands Fishing Expansion and of mods are recognised automatically." />
+        <text name="fh_help_pests" text="Pests" />
+        <text name="fh_help_pests_01" text="Insecticide fights all pests. The columns of the tables mean the same as on the page “Diseases”." />
+        <text name="fh_help_pests_02" text="Cereals and maize" />
+        <text name="fh_help_pests_04" text="Other crops" />
+        <text name="fh_help_progress" text="How a threat develops" />
+        <text name="fh_help_progress_01" text="A new threat is one or two irregular patches with a frayed edge and healthy gaps inside. It starts in the low stage. If you do not fight it, it goes through these steps:" />
+        <text name="fh_help_progress_03" text="Destroyed crop does not grow back and yields nothing at harvest. Spraying in advance or right after the notification is therefore the cheapest. Spraying in any stage removes the threat completely from the sprayed spots." />
+        <text name="fh_help_spraying" text="Spraying and protection" />
+        <text name="fh_help_spraying_01" text="The products are made by the Polish company Opryskex: the fungicide Grzybobój 250 EC (green label) and the insecticide Robalex 100 CS (red label). When buying you can choose the MST brand (Mafia Solec Team) instead: Solectop 280 SC and Mafiozol 50 EW. They work the same, only the label differs. You buy them in the shop in 1 l bottles and in 5 l and 20 l canisters. Put the container next to the sprayer and fill it as from a pallet. The game does not mix the concentrate with water, so the content of a container is all the spray mixture it makes. The bigger the container, the cheaper per hectare." />
+        <text name="fh_help_spraying_03" text="How protection works" />
+        <text name="fh_help_spraying_05" text="Watch out" />
+        <text name="fh_help_spraying_06" text="– Spray after emergence – sowing and harvest remove the protection.
+– Fungicide does not protect against pests and insecticide not against diseases. Full protection needs both.
+– Missed wedges and headlands count: below 90% coverage a threat can appear on unsprayed strips.
+– The products do not fertilize and do not kill weeds.
+– With a shorter spray protection (setting) the protection of the whole field ends that long after the last spraying." />
+        <text name="fh_help_map" text="Map and field info" />
+        <text name="fh_help_map_01" text="Field info box" />
+        <text name="fh_help_map_02" text="While you are on a field, the field info box shows:
+– Disease and Pests: the active threat and its severity (low, medium, high),
+– Disease risk and Pest risk: low, normal, elevated or high, and from elevated on also the main cause,
+– Protection – diseases and Protection – pests: how much of the field is sprayed,
+– a hint which product fights the threat." />
+        <text name="fh_help_map_03" text="Map" />
+        <text name="fh_help_map_04" text="In ESC &gt; Map choose the page “Crop protection”. Below its title a second selector with arrows switches between five layers. Clicking a legend entry hides it on the map. Only fields of your farm with a growing crop are shown. Click a farmland to see the threats and the protection of its fields." />
+        <text name="fh_help_map_06" text="Colours of the threat types" />
+        <text name="fh_help_map_08" text="Minimap" />
+        <text name="fh_help_map_09" text="Left Alt + \ switches the minimap layer: protection, diseases, pests and no layer. You can change the keys during the game in ESC &gt; Settings &gt; Controls, entry “Field Health – crop protection layer on the minimap” (the main menu does not list mod keys, because mods are loaded with the savegame)." />
+        <text name="fh_help_pf" text="Precision Farming" />
+        <text name="fh_help_pf_01" text="With Precision Farming, Field Health works as its extension and uses its soil maps. Instead of fertilizing in general the nitrogen compared with the target counts, and instead of liming in general the soil pH." />
+        <text name="fh_help_pf_03" text="The best protection is the same work you do for the yield: fertilizing to the target, liming to the optimal pH and catch crops. The console command fhPrecisionFarming writes to the log how the mod reads Precision Farming data." />
+        <text name="fh_help_settings" text="Settings" />
+        <text name="fh_help_settings_01" text="You find the mod settings in ESC &gt; Settings &gt; Game, in the section “Field Health – diseases and pests”. They are saved with the savegame. In multiplayer only the server admin can change them. Move over an option to see its description." />
+        <text name="fh_help_tips" text="Tips" />
+        <text name="fh_help_tips_01" text="A plan for healthy fields" />
+        <text name="fh_help_tips_02" text="1. Fertilize as needed, lime and do not sow the same crop two years in a row. Sow a catch crop between main crops.
+2. Before the main months of the threats (page “Seasons and growth stages”) spray the field with fungicide and insecticide. Once per season is enough if you cover at least 90% of the field.
+3. Check the “Protection” layer on the map – green fields are protected against both kinds of threats.
+4. After a notification spray the named field with the named product before the threat reaches the severe stage.
+5. An AI worker with fungicide or insecticide sprays unprotected fields completely and protected ones only where a threat is." />
+        <text name="fh_help_tips_03" text="Watch out" />
+        <text name="fh_help_tips_04" text="– Monoculture and no plowing are the most common causes of high risk, e.g. wheat after wheat without plowing helps septoria, tan spot and fusarium.
+– Maize before wheat clearly raises the risk of fusarium, grassland before potatoes the risk of wireworms.
+– Slurry and liquid fertilizer give lush growth, which mildew, rusts and aphids like.
+– A rainy summer is the time of late blight, septoria and fusarium, a dry and hot one the time of aphids, potato beetles, thrips and cutworms.
+– Canola has two dangerous times: autumn (flea beetles, turnip sawfly, phoma) and spring (stem weevils, pollen beetles, sclerotinia).
+– A threat in the medium or severe stage can move to a touching player field." />
+        <text name="fh_help_admin" text="For the admin" />
+        <text name="fh_help_admin_01" text="Console commands" />
+        <text name="fh_help_admin_03" text="Multiplayer, savegame and compatibility" />
+        <text name="fh_help_admin_04" text="– The simulation runs on the server and players see its results. The settings and the commands fhSet, fhClear and fhDailyTick are for the admin only.
+– Notifications go to the players of the farm that owns the field, each in their own language.
+– The mod saves its data only in two files of its own in the savegame folder: fieldHealth.xml and fieldHealthMap.grle. It can be removed safely – the game skips these files, and only the bottles and canisters of the products disappear from the map.
+– Savegames of an earlier version of the mod are converted to the new format when loaded.
+– Onions of the Highlands Fishing Expansion and of mods are recognised automatically – the log says so.
+– Do not use another crop disease mod (e.g. Crop Diseases) at the same time – Field Health warns about it in the log." />
+        <text name="fh_help_admin_05" text="Credits" />
+        <text name="fh_help_admin_06" text="Field Health – author: MatrikSky. Idea inspired by the mod “Crop Diseases” by BMP. The bottle model is based on “fertilizer Bottle” by shabanimate, the canister model on “#6 Plastic Canister” by hoxsvl (both CC BY 4.0, sketchfab.com)." />
+        <text name="fh_help_tableLanguage" text="en" />
+
+
+
+
+
+
+
+
+
+
+    </texts>
+</l10n>

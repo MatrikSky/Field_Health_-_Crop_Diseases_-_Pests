@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<modDesc descVersion="104">
+    <author>MatrikSky</author>
+    <version>1.0.0.0</version>
+    <title>
+        <en>Field Health: Crop Diseases &amp; Pests</en>
+        <pl>Zdrowie pól: choroby i szkodniki upraw</pl>
+    </title>
+    <description>
+        <en><![CDATA[Field Health brings crop diseases and pests common in Poland to your fields – realistic, but friendly to casual play.
+
+44 threats are tied to the crops they really attack – 24 diseases fought with fungicide (e.g. cereal powdery mildew, septoria, brown and yellow rust, fusarium, eyespot, net blotch, phoma, sclerotinia, late blight, cercospora leaf spot, downy mildew of onions) and 20 pests fought with insecticide (e.g. aphids, cereal leaf beetles, pollen beetles, stem weevils, flea beetles, Colorado potato beetles, European corn borer, onion fly, carrot fly). Each one attacks only in its months and growth stages and is most dangerous at its typical time; common threats appear much more often than rare ones such as stem rust or corn rootworm.
+
+Even a well farmed field can get a threat (by default 15% diseases and 10% pests per season), so fungicide and insecticide are needed. The weather of the last days matters: fungal diseases love rain, most pests warm and dry days. How you farm changes the risk: manure and catch crops lower it; slurry and liquid nitrogen favour mildew, rust and aphids; maize before wheat raises fusarium, grassland before potatoes raises wireworms; missing plowing, liming, stubble mulching, crop rotation or weed control raise it too. With Precision Farming the mod uses nitrogen, pH and soil type from its maps.
+
+Threats appear in irregular patches, grow unevenly, destroy crop only when severe and can rarely move to a touching neighbour field. Spraying removes them and protects the field until harvest. Fungicide and insecticide are sold in 1 l bottles and 5 l and 20 l canisters. The map page "Crop protection" (five layers) and the minimap (LAlt + \) show protection, diseases and pests of your fields; the field info box shows threats, risk and its cause.
+
+25 settings (chances, influence of farming, weather and stubble, meadows and fodder crops, progression, patch size, crop damage, spray duration and rates, prices...), multiplayer support, a detailed guide in the in-game help (ESC > Help). The mod only adds its own files to the savegame, so it can be removed at any time.
+
+Idea inspired by the mod "Crop Diseases" by BMP. Bottle model based on "fertilizer Bottle" by shabanimate, canister model based on "#6 Plastic Canister" by hoxsvl (both CC BY 4.0, sketchfab.com).]]></en>
+        <pl><![CDATA[Field Health przenosi na Twoje pola choroby i szkodniki typowe dla Polski – realistycznie, ale przyjaźnie dla swobodnej gry.
+
+44 zagrożenia przypisane do upraw, które naprawdę atakują – 24 choroby zwalczane fungicydem (m.in. mączniak prawdziwy zbóż, septorioza, rdza brunatna i żółta, fuzarioza, łamliwość źdźbła, plamistość siatkowa jęczmienia, sucha zgnilizna kapustnych, zgnilizna twardzikowa, zaraza ziemniaka, chwościk buraka, mączniak rzekomy cebuli) i 20 szkodników zwalczanych insektycydem (m.in. mszyce, skrzypionki, słodyszek rzepakowy, chowacze, pchełki, stonka ziemniaczana, omacnica prosowianka, śmietka cebulanka, połyśnica marchwianka). Każde atakuje tylko w swoich miesiącach i fazach rozwoju rośliny, a najgroźniejsze jest w typowej dla siebie porze; zagrożenia pospolite pojawiają się dużo częściej niż rzadkie, jak rdza źdźbłowa czy stonka kukurydziana.
+
+Nawet dobrze prowadzone pole może zachorować (domyślnie 15% choroby i 10% szkodniki na sezon), więc fungicyd i insektycyd są potrzebne. Liczy się pogoda z ostatnich dni: choroby grzybowe lubią deszcz, a większość szkodników ciepłe i suche dni. Sposób uprawy zmienia ryzyko: obornik i poplon je obniżają, gnojowica i płynny azot sprzyjają mączniakowi, rdzy i mszycom, kukurydza przed pszenicą zwiększa ryzyko fuzariozy, a łąka przed ziemniakami – drutowców. Ryzyko podnoszą też brak orki, wapnowania, rozdrobnienia ścierniska, płodozmianu i walki z chwastami. Z Precision Farming mod korzysta z azotu, pH i typu gleby z jego map.
+
+Zagrożenia pojawiają się w nieregularnych plamach, rosną nierówno, niszczą uprawę dopiero w silnym stadium i rzadko przechodzą na stykające się sąsiednie pole. Oprysk je usuwa i chroni pole do zbioru. Fungicyd i insektycyd kupisz w butelkach 1 l oraz bańkach 5 l i 20 l. Strona mapy „Ochrona roślin” (pięć warstw) i minimapa (LAlt + \) pokazują ochronę, choroby i szkodniki na Twoich polach, a panel informacji o polu – zagrożenia, ryzyko i jego przyczynę.
+
+25 ustawień (szanse, wpływ uprawy, pogody i ścierniska, łąki i uprawy pastewne, tempo, wielkość ognisk, niszczenie uprawy, czas działania i dawki oprysków, ceny...), gra wieloosobowa, szczegółowy poradnik w pomocy w grze (ESC > Pomoc). Mod zapisuje w zapisie gry tylko własne pliki, więc można go w każdej chwili usunąć.
+
+Pomysł zaczerpnięty z moda „Crop Diseases” autorstwa BMP. Model butelki na podstawie „fertilizer Bottle” autorstwa shabanimate, model baniek na podstawie „#6 Plastic Canister” autorstwa hoxsvl (oba CC BY 4.0, sketchfab.com).]]></pl>
+    </description>
+    <iconFilename>icon_FieldHealth.dds</iconFilename>
+    <multiplayer supported="true"/>
+
+    <l10n filenamePrefix="l10n/l10n"/>
+    <fillTypes filename="xml/fillTypes.xml"/>
+
+    <brands>
+        <brand name="OPRYSKEX" title="Opryskex" image="brand/brand_opryskex.png"/>
+    </brands>
+
+    <storeItems>
+        <storeItem xmlFilename="pallets/bottles/fungicideBottle.xml"/>
+        <storeItem xmlFilename="pallets/bottles/multiPurchase_fungicideBottle.xml"/>
+        <storeItem xmlFilename="pallets/bottles/insecticideBottle.xml"/>
+        <storeItem xmlFilename="pallets/bottles/multiPurchase_insecticideBottle.xml"/>
+        <storeItem xmlFilename="pallets/canisters/fungicideCanister.xml"/>
+        <storeItem xmlFilename="pallets/canisters/multiPurchase_fungicideCanister.xml"/>
+        <storeItem xmlFilename="pallets/canisters/insecticideCanister.xml"/>
+        <storeItem xmlFilename="pallets/canisters/multiPurchase_insecticideCanister.xml"/>
+        <storeItem xmlFilename="pallets/canisters/fungicideCanister20.xml"/>
+        <storeItem xmlFilename="pallets/canisters/multiPurchase_fungicideCanister20.xml"/>
+        <storeItem xmlFilename="pallets/canisters/insecticideCanister20.xml"/>
+        <storeItem xmlFilename="pallets/canisters/multiPurchase_insecticideCanister20.xml"/>
+    </storeItems>
+
+    <extraSourceFiles>
+        <sourceFile filename="scripts/core/FHUtil.lua"/>
+        <sourceFile filename="scripts/core/FHThreats.lua"/>
+        <sourceFile filename="scripts/core/FHSettings.lua"/>
+        <sourceFile filename="scripts/core/FHPrecisionFarming.lua"/>
+        <sourceFile filename="scripts/core/FHRisk.lua"/>
+        <sourceFile filename="scripts/core/FHWeather.lua"/>
+        <sourceFile filename="scripts/core/FHFieldMap.lua"/>
+        <sourceFile filename="scripts/core/FHDisplayMap.lua"/>
+        <sourceFile filename="scripts/core/FHCropDamage.lua"/>
+        <sourceFile filename="scripts/core/FHSimulation.lua"/>
+        <sourceFile filename="scripts/core/FHProducts.lua"/>
+        <sourceFile filename="scripts/core/FHSavegame.lua"/>
+        <sourceFile filename="scripts/core/FHNetwork.lua"/>
+        <sourceFile filename="scripts/core/FHConsole.lua"/>
+        <sourceFile filename="scripts/net/FHSyncEvent.lua"/>
+        <sourceFile filename="scripts/net/FHRequestEvent.lua"/>
+        <sourceFile filename="scripts/gui/FHFieldInfo.lua"/>
+        <sourceFile filename="scripts/gui/FHMapLayers.lua"/>
+        <sourceFile filename="scripts/gui/FHMapPage.lua"/>
+        <sourceFile filename="scripts/gui/FHFarmlandInfo.lua"/>
+        <sourceFile filename="scripts/gui/FHMiniMap.lua"/>
+        <sourceFile filename="scripts/gui/FHSettingsPage.lua"/>
+        <sourceFile filename="scripts/gui/FHHelp.lua"/>
+        <sourceFile filename="scripts/FHHooks.lua"/>
+        <sourceFile filename="scripts/FieldHealth.lua"/>
+    </extraSourceFiles>
+
+    <helpLines>
+        <category title="$l10n_fh_help_header">
+            <page title="$l10n_fh_help_intro" iconSliceId="fieldHealthHelp.general">
+                <paragraph>
+                    <title text="$l10n_fh_help_intro_01" />
+                    <text text="$l10n_fh_help_intro_02" />
+                </paragraph>
+                <paragraph>
+                    <title text="$l10n_fh_help_intro_03" />
+                    <text text="$l10n_fh_help_intro_04" />
+                </paragraph>
+                <paragraph>
+                    <title text="$l10n_fh_help_intro_05" />
+                    <text text="$l10n_fh_help_intro_06" />
+                </paragraph>
+                <paragraph>
+                    <image filename="help/fieldHealthHelp_keyNumbers_pl.png" uvs="0px 0px 2048px 1464px" size="2048 2048" aspectRatio="0.71484" />
+                </paragraph>
+                <paragraph>
+                    <title text="$l10n_fh_help_intro_08" />
+                    <text text="$l10n_fh_help_intro_09" />
+                </paragraph>
+            </page>
+            <page title="$l10n_fh_help_origin" iconSliceId="fieldHealthHelp.risk">
+                <paragraph>
+                    <text text="$l10n_fh_help_origin_01" />
+                </paragraph>
+                <paragraph>
+                    <title text="$l10n_fh_help_origin_02" />
+                    <text text="$l10n_fh_help_origin_03" />
+                </paragraph>
+                <paragraph>
+                    <title text="$l10n_fh_help_origin_04" />
+                    <text text="$l10n_fh_help_origin_05" />
+                </paragraph>
+                <paragraph>
+                    <image filename="help/fieldHealthHelp_seasonChance_pl.png" uvs="0px 0px 2048px 744px" size="2048 1024" aspectRatio="0.36328" />
+                </paragraph>
+                <paragraph>
+                    <text text="$l10n_fh_help_origin_07" />
+                </paragraph>
+                <paragraph>
+                    <image filename="help/fieldHealthHelp_cropPressure_pl.png" uvs="0px 0px 2048px 1234px" size="2048 2048" aspectRatio="0.60254" />
+                </paragraph>
+                <paragraph>
+                    <title text="$l10n_fh_help_origin_09" />
+                    <text text="$l10n_fh_help_origin_10" />
+                </paragraph>
+                <paragraph>
+                    <title text="$l10n_fh_help_origin_11" />
+                    <text text="$l10n_fh_help_origin_12" />
+                </paragraph>
+            </page>
+            <page title="$l10n_fh_help_timing" iconSliceId="fieldHealthHelp.calendar">
+                <paragraph>
+                    <text text="$l10n_fh_help_timing_01" />
+                </paragraph>
+                <paragraph>
+                    <title text="$l10n_fh_help_timing_02" />
+                </paragraph>
+                <paragraph>
+                    <image filename="help/fieldHealthHelp_stages_pl.png" uvs="0px 0px 2048px 860px" size="2048 1024" aspectRatio="0.41992" />
+                </paragraph>
+                <paragraph>
+                    <text text="$l10n_fh_help_timing_04" />
+                </paragraph>
+                <paragraph>
+                    <title text="$l10n_fh_help_timing_05" />
+                    <text text="$l10n_fh_help_timing_06" />
+                </paragraph>
+                <paragraph>
+                    <image filename="help/fieldHealthHelp_calendar_pl.png" uvs="0px 0px 2048px 1938px" size="2048 2048" aspectRatio="0.94629" />
+                </paragraph>
+            </page>
+            <page title="$l10n_fh_help_farming" iconSliceId="fieldHealthHelp.soil">
+                <paragraph>
+                    <text text="$l10n_fh_help_farming_01" />
+                </paragraph>
+                <paragraph>
+                    <image filename="help/fieldHealthHelp_riskLevels_pl.png" uvs="0px 0px 2048px 350px" size="2048 512" aspectRatio="0.1709" />
+                </paragraph>
+                <paragraph>
+                    <title text="$l10n_fh_help_farming_03" />
+                </paragraph>
+                <paragraph>
+                    <image filename="help/fieldHealthHelp_riskFertilizing_pl.png" uvs="0px 0px 2048px 876px" size="2048 1024" aspectRatio="0.42773" />
+                </paragraph>
+                <paragraph>
+                    <title text="$l10n_fh_help_farming_05" />
+                </paragraph>
+                <paragraph>
+                    <image filename="help/fieldHealthHelp_riskSoil_pl.png" uvs="0px 0px 2048px 1148px" size="2048 2048" aspectRatio="0.56055" />
+                </paragraph>
+                <paragraph>
+                    <text text="$l10n_fh_help_farming_07" />
+                </paragraph>
+                <paragraph>
+                    <title text="$l10n_fh_help_farming_08" />
+                </paragraph>
+                <paragraph>
+                    <image filename="help/fieldHealthHelp_riskRotation_pl.png" uvs="0px 0px 2048px 1534px" size="2048 2048" aspectRatio="0.74902" />
+                </paragraph>
+                <paragraph>
+                    <text text="$l10n_fh_help_farming_10" />
+                </paragraph>
+            </page>
+            <page title="$l10n_fh_help_weather" iconSliceId="fieldHealthHelp.weather">
+                <paragraph>
+                    <text text="$l10n_fh_help_weather_01" />
+                </paragraph>
+                <paragraph>
+                    <image filename="help/fieldHealthHelp_weatherProfiles_pl.png" uvs="0px 0px 2048px 1746px" size="2048 2048" aspectRatio="0.85254" />
+                </paragraph>
+                <paragraph>
+                    <text text="$l10n_fh_help_weather_03" />
+                </paragraph>
+                <paragraph>
+                    <image filename="help/fieldHealthHelp_weatherExamples_pl.png" uvs="0px 0px 2048px 1068px" size="2048 2048" aspectRatio="0.52148" />
+                </paragraph>
+                <paragraph>
+                    <text text="$l10n_fh_help_weather_05" />
+                </paragraph>
+            </page>
+            <page title="$l10n_fh_help_diseases" iconSliceId="fieldHealthHelp.disease">
+                <paragraph>
+                    <text text="$l10n_fh_help_diseases_01" />
+                </paragraph>
+                <paragraph>
+                    <image filename="help/fieldHealthHelp_prevalenceScale_pl.png" uvs="0px 0px 2048px 394px" size="2048 512" aspectRatio="0.19238" />
+                </paragraph>
+                <paragraph>
+                    <title text="$l10n_fh_help_diseases_03" />
+                </paragraph>
+                <paragraph>
+                    <image filename="help/fieldHealthHelp_diseasesCereal_pl.png" uvs="0px 0px 2048px 2942px" size="2048 4096" aspectRatio="1.43652" />
+                </paragraph>
+                <paragraph>
+                    <title text="$l10n_fh_help_diseases_05" />
+                </paragraph>
+                <paragraph>
+                    <image filename="help/fieldHealthHelp_diseasesOther_pl.png" uvs="0px 0px 2048px 2398px" size="2048 4096" aspectRatio="1.1709" />
+                </paragraph>
+                <paragraph>
+                    <text text="$l10n_fh_help_diseases_07" />
+                </paragraph>
+            </page>
+            <page title="$l10n_fh_help_pests" iconSliceId="fieldHealthHelp.pest">
+                <paragraph>
+                    <text text="$l10n_fh_help_pests_01" />
+                </paragraph>
+                <paragraph>
+                    <title text="$l10n_fh_help_pests_02" />
+                </paragraph>
+                <paragraph>
+                    <image filename="help/fieldHealthHelp_pestsCereal_pl.png" uvs="0px 0px 2048px 2064px" size="2048 4096" aspectRatio="1.00781" />
+                </paragraph>
+                <paragraph>
+                    <title text="$l10n_fh_help_pests_04" />
+                </paragraph>
+                <paragraph>
+                    <image filename="help/fieldHealthHelp_pestsOther_pl.png" uvs="0px 0px 2048px 2512px" size="2048 4096" aspectRatio="1.22656" />
+                </paragraph>
+            </page>
+            <page title="$l10n_fh_help_progress" iconSliceId="fieldHealthHelp.patch">
+                <paragraph>
+                    <text text="$l10n_fh_help_progress_01" />
+                </paragraph>
+                <paragraph>
+                    <image filename="help/fieldHealthHelp_progress_pl.png" uvs="0px 0px 2048px 1194px" size="2048 2048" aspectRatio="0.58301" />
+                </paragraph>
+                <paragraph>
+                    <text text="$l10n_fh_help_progress_03" />
+                </paragraph>
+            </page>
+            <page title="$l10n_fh_help_spraying" iconSliceId="fieldHealthHelp.sprayer">
+                <paragraph>
+                    <text text="$l10n_fh_help_spraying_01" />
+                </paragraph>
+                <paragraph>
+                    <image filename="help/fieldHealthHelp_products_pl.png" uvs="0px 0px 2048px 570px" size="2048 1024" aspectRatio="0.27832" />
+                </paragraph>
+                <paragraph>
+                    <title text="$l10n_fh_help_spraying_03" />
+                </paragraph>
+                <paragraph>
+                    <image filename="help/fieldHealthHelp_protection_pl.png" uvs="0px 0px 2048px 894px" size="2048 1024" aspectRatio="0.43652" />
+                </paragraph>
+                <paragraph>
+                    <title text="$l10n_fh_help_spraying_05" />
+                    <text text="$l10n_fh_help_spraying_06" />
+                </paragraph>
+            </page>
+            <page title="$l10n_fh_help_map" iconSliceId="fieldHealthHelp.map">
+                <paragraph>
+                    <title text="$l10n_fh_help_map_01" />
+                    <text text="$l10n_fh_help_map_02" />
+                </paragraph>
+                <paragraph>
+                    <title text="$l10n_fh_help_map_03" />
+                    <text text="$l10n_fh_help_map_04" />
+                </paragraph>
+                <paragraph>
+                    <image filename="help/fieldHealthHelp_legend_pl.png" uvs="0px 0px 2048px 718px" size="2048 1024" aspectRatio="0.35059" />
+                </paragraph>
+                <paragraph>
+                    <title text="$l10n_fh_help_map_06" />
+                </paragraph>
+                <paragraph>
+                    <image filename="help/fieldHealthHelp_typeColors_pl.png" uvs="0px 0px 2048px 910px" size="2048 1024" aspectRatio="0.44434" />
+                </paragraph>
+                <paragraph>
+                    <title text="$l10n_fh_help_map_08" />
+                    <text text="$l10n_fh_help_map_09" />
+                </paragraph>
+            </page>
+            <page title="$l10n_fh_help_pf" iconSliceId="fieldHealthHelp.pf">
+                <paragraph>
+                    <text text="$l10n_fh_help_pf_01" />
+                </paragraph>
+                <paragraph>
+                    <image filename="help/fieldHealthHelp_pf_pl.png" uvs="0px 0px 2048px 850px" size="2048 1024" aspectRatio="0.41504" />
+                </paragraph>
+                <paragraph>
+                    <text text="$l10n_fh_help_pf_03" />
+                </paragraph>
+            </page>
+            <page title="$l10n_fh_help_settings" iconSliceId="fieldHealthHelp.settings">
+                <paragraph>
+                    <text text="$l10n_fh_help_settings_01" />
+                </paragraph>
+                <paragraph>
+                    <image filename="help/fieldHealthHelp_settings_pl.png" uvs="0px 0px 2048px 2788px" size="2048 4096" aspectRatio="1.36133" />
+                </paragraph>
+            </page>
+            <page title="$l10n_fh_help_tips" iconSliceId="fieldHealthHelp.tips">
+                <paragraph>
+                    <title text="$l10n_fh_help_tips_01" />
+                    <text text="$l10n_fh_help_tips_02" />
+                </paragraph>
+                <paragraph>
+                    <title text="$l10n_fh_help_tips_03" />
+                    <text text="$l10n_fh_help_tips_04" />
+                </paragraph>
+            </page>
+            <page title="$l10n_fh_help_admin" iconSliceId="fieldHealthHelp.admin">
+                <paragraph>
+                    <title text="$l10n_fh_help_admin_01" />
+                </paragraph>
+                <paragraph>
+                    <image filename="help/fieldHealthHelp_commands_pl.png" uvs="0px 0px 2048px 718px" size="2048 1024" aspectRatio="0.35059" />
+                </paragraph>
+                <paragraph>
+                    <title text="$l10n_fh_help_admin_03" />
+                    <text text="$l10n_fh_help_admin_04" />
+                </paragraph>
+                <paragraph>
+                    <title text="$l10n_fh_help_admin_05" />
+                    <text text="$l10n_fh_help_admin_06" />
+                </paragraph>
+            </page>
+        </category>
+    </helpLines>
+
+    <actions>
+        <action name="FH_MINIMAP_LAYER" category="ONFOOT VEHICLE" axisType="HALF"/>
+    </actions>
+
+    <inputBinding>
+        <actionBinding action="FH_MINIMAP_LAYER">
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_lalt KEY_backslash"/>
+        </actionBinding>
+    </inputBinding>
+</modDesc>

@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+    <texts>
+        <!-- Choroby (pełna i krótka nazwa) -->
+        <text name="fh_disease_cereal_mildew" text="Mączniak prawdziwy zbóż" />
+        <text name="fh_disease_cereal_mildew_short" text="Mączniak" />
+        <text name="fh_disease_septoria" text="Septorioza liści" />
+        <text name="fh_disease_septoria_short" text="Septorioza" />
+        <text name="fh_disease_brown_rust" text="Rdza brunatna" />
+        <text name="fh_disease_brown_rust_short" text="Rdza brunatna" />
+        <text name="fh_disease_fusarium" text="Fuzarioza" />
+        <text name="fh_disease_fusarium_short" text="Fuzarioza" />
+        <text name="fh_disease_net_blotch" text="Plamistość siatkowa jęczmienia" />
+        <text name="fh_disease_net_blotch_short" text="Plamistość siatkowa" />
+        <text name="fh_disease_snow_mould" text="Pleśń śniegowa" />
+        <text name="fh_disease_snow_mould_short" text="Pleśń śniegowa" />
+        <text name="fh_disease_sclerotinia" text="Zgnilizna twardzikowa" />
+        <text name="fh_disease_sclerotinia_short" text="Sklerotinioza" />
+        <text name="fh_disease_alternaria" text="Alternarioza" />
+        <text name="fh_disease_alternaria_short" text="Alternarioza" />
+        <text name="fh_disease_late_blight" text="Zaraza ziemniaka" />
+        <text name="fh_disease_late_blight_short" text="Zaraza ziemniaka" />
+        <text name="fh_disease_cercospora" text="Chwościk buraka" />
+        <text name="fh_disease_cercospora_short" text="Chwościk buraka" />
+        <text name="fh_disease_grey_mould" text="Szara pleśń" />
+        <text name="fh_disease_grey_mould_short" text="Szara pleśń" />
+        <text name="fh_disease_yellow_rust" text="Rdza żółta" />
+        <text name="fh_disease_yellow_rust_short" text="Rdza żółta" />
+        <text name="fh_disease_tan_spot" text="Brunatna plamistość liści" />
+        <text name="fh_disease_tan_spot_short" text="Brunatna plamistość" />
+        <text name="fh_disease_eyespot" text="Łamliwość źdźbła" />
+        <text name="fh_disease_eyespot_short" text="Łamliwość źdźbła" />
+        <text name="fh_disease_rhynchosporium" text="Rynchosporioza" />
+        <text name="fh_disease_rhynchosporium_short" text="Rynchosporioza" />
+        <text name="fh_disease_ramularia" text="Ramularioza jęczmienia" />
+        <text name="fh_disease_ramularia_short" text="Ramularioza" />
+        <text name="fh_disease_stem_rust" text="Rdza źdźbłowa" />
+        <text name="fh_disease_stem_rust_short" text="Rdza źdźbłowa" />
+        <text name="fh_disease_phoma" text="Sucha zgnilizna kapustnych" />
+        <text name="fh_disease_phoma_short" text="Sucha zgnilizna" />
+        <text name="fh_disease_cylindrosporiosis" text="Cylindrosporioza" />
+        <text name="fh_disease_cylindrosporiosis_short" text="Cylindrosporioza" />
+        <text name="fh_disease_beet_mildew" text="Mączniak prawdziwy buraka" />
+        <text name="fh_disease_beet_mildew_short" text="Mączniak buraka" />
+        <text name="fh_disease_ascochyta" text="Askochytoza" />
+        <text name="fh_disease_ascochyta_short" text="Askochytoza" />
+        <text name="fh_disease_downy_mildew" text="Mączniak rzekomy" />
+        <text name="fh_disease_downy_mildew_short" text="Mączniak rzekomy" />
+        <text name="fh_disease_corn_leaf_blight" text="Helmintosporioza kukurydzy" />
+        <text name="fh_disease_corn_leaf_blight_short" text="Helmintosporioza" />
+        <text name="fh_disease_crown_rust" text="Rdza koronowa owsa" />
+        <text name="fh_disease_crown_rust_short" text="Rdza koronowa" />
+
+        <!-- Szkodniki (pełna i krótka nazwa) -->
+        <text name="fh_pest_aphids" text="Mszyce" />
+        <text name="fh_pest_aphids_short" text="Mszyce" />
+        <text name="fh_pest_leaf_beetle" text="Skrzypionki" />
+        <text name="fh_pest_leaf_beetle_short" text="Skrzypionki" />
+        <text name="fh_pest_pollen_beetle" text="Słodyszek rzepakowy" />
+        <text name="fh_pest_pollen_beetle_short" text="Słodyszek" />
+        <text name="fh_pest_potato_beetle" text="Stonka ziemniaczana" />
+        <text name="fh_pest_potato_beetle_short" text="Stonka" />
+        <text name="fh_pest_corn_borer" text="Omacnica prosowianka" />
+        <text name="fh_pest_corn_borer_short" text="Omacnica" />
+        <text name="fh_pest_wireworm" text="Drutowce" />
+        <text name="fh_pest_wireworm_short" text="Drutowce" />
+        <text name="fh_pest_stem_weevil" text="Chowacze łodygowe" />
+        <text name="fh_pest_stem_weevil_short" text="Chowacze łodygowe" />
+        <text name="fh_pest_seed_weevil" text="Chowacz podobny" />
+        <text name="fh_pest_seed_weevil_short" text="Chowacz podobny" />
+        <text name="fh_pest_flea_beetle" text="Pchełki" />
+        <text name="fh_pest_flea_beetle_short" text="Pchełki" />
+        <text name="fh_pest_turnip_sawfly" text="Gnatarz rzepakowiec" />
+        <text name="fh_pest_turnip_sawfly_short" text="Gnatarz" />
+        <text name="fh_pest_frit_fly" text="Ploniarka zbożówka" />
+        <text name="fh_pest_frit_fly_short" text="Ploniarka" />
+        <text name="fh_pest_wheat_midge" text="Pryszczarki zbożowe" />
+        <text name="fh_pest_wheat_midge_short" text="Pryszczarki" />
+        <text name="fh_pest_cutworm" text="Rolnice" />
+        <text name="fh_pest_cutworm_short" text="Rolnice" />
+        <text name="fh_pest_beet_fly" text="Śmietka ćwiklanka" />
+        <text name="fh_pest_beet_fly_short" text="Śmietka ćwiklanka" />
+        <text name="fh_pest_onion_fly" text="Śmietka cebulanka" />
+        <text name="fh_pest_onion_fly_short" text="Śmietka cebulanka" />
+        <text name="fh_pest_thrips" text="Wciornastki" />
+        <text name="fh_pest_thrips_short" text="Wciornastki" />
+        <text name="fh_pest_carrot_fly" text="Połyśnica marchwianka" />
+        <text name="fh_pest_carrot_fly_short" text="Połyśnica" />
+        <text name="fh_pest_pea_leaf_weevil" text="Oprzędziki" />
+        <text name="fh_pest_pea_leaf_weevil_short" text="Oprzędziki" />
+        <text name="fh_pest_rootworm" text="Stonka kukurydziana" />
+        <text name="fh_pest_rootworm_short" text="Stonka kukurydziana" />
+        <text name="fh_pest_ground_beetle" text="Łokaś garbatek" />
+        <text name="fh_pest_ground_beetle_short" text="Łokaś" />
+
+        <text name="fh_severity_low" text="słabe" />
+        <text name="fh_severity_medium" text="średnie" />
+        <text name="fh_severity_high" text="silne" />
+
+        <!-- Informacje o polu (krótkie, żeby się nie ucinały) -->
+        <text name="fh_hud_threats" text="Zagrożenia upraw" />
+        <text name="fh_hud_disease" text="Choroba" />
+        <text name="fh_hud_pest" text="Szkodniki" />
+        <text name="fh_hud_none" text="brak" />
+        <text name="fh_hud_diseaseRisk" text="Ryzyko chorób" />
+        <text name="fh_hud_pestRisk" text="Ryzyko szkodników" />
+        <text name="fh_hud_cause" text="Przyczyna" />
+        <text name="fh_hud_protection" text="Ochrona upraw" />
+        <text name="fh_hud_diseaseProtection" text="Ochrona – choroby" />
+        <text name="fh_hud_pestProtection" text="Ochrona – szkodniki" />
+        <text name="fh_hud_protected" text="aktywna" />
+        <text name="fh_risk_low" text="niskie" />
+        <text name="fh_risk_normal" text="normalne" />
+        <text name="fh_risk_elevated" text="podwyższone" />
+        <text name="fh_risk_high" text="wysokie" />
+        <text name="fh_cause_fertilizer" text="brak nawożenia" />
+        <text name="fh_cause_manure" text="świeży obornik" />
+        <text name="fh_cause_fastNitrogen" text="szybki azot" />
+        <text name="fh_cause_nitrogenDeficit" text="mało azotu" />
+        <text name="fh_cause_nitrogenExcess" text="nadmiar azotu" />
+        <text name="fh_cause_lime" text="kwaśna gleba" />
+        <text name="fh_cause_lightSoil" text="lekka gleba" />
+        <text name="fh_cause_heavySoil" text="ciężka gleba" />
+        <text name="fh_cause_plowing" text="brak orki" />
+        <text name="fh_cause_stubble" text="ściernisko" />
+        <text name="fh_cause_rolling" text="brak wałowania" />
+        <text name="fh_cause_weeds" text="chwasty" />
+        <text name="fh_cause_sameCrop" text="monokultura" />
+        <text name="fh_cause_cropFamily" text="podobny przedplon" />
+        <text name="fh_cause_previousCrop" text="zły przedplon" />
+        <text name="fh_hint_fungicide" text="Zwalczanie: oprysk fungicydem" />
+        <text name="fh_hint_insecticide" text="Zwalczanie: oprysk insektycydem" />
+        <text name="fh_field_area" text="Powierzchnia pola" />
+        <text name="fh_potential_harvest" text="Przewidywany zbiór" />
+        <text name="fh_potential_yield" text="Przewidywany plon" />
+
+        <!-- Powiadomienia: numer pola, uprawa, zagrożenie, środek -->
+        <text name="fh_alert_new" text="Pole %s (%s): nowe zagrożenie – %s. Pryskaj: %s." />
+        <text name="fh_alert_severe" text="Pole %s (%s): silne zagrożenie – %s, uprawa ginie. Pryskaj: %s." />
+        <text name="fh_alert_neighbour" text="Pole %s (%s): %s – przeszło z sąsiedniego pola. Pryskaj: %s." />
+
+        <!-- Mapa -->
+        <text name="fh_map_page" text="Ochrona roślin" />
+        <text name="fh_map_layerProtection" text="Ochrona" />
+        <text name="fh_map_layerDiseases" text="Choroby" />
+        <text name="fh_map_layerPests" text="Szkodniki" />
+        <text name="fh_map_layerDiseaseTypes" text="Rodzaje chorób" />
+        <text name="fh_map_layerPestTypes" text="Rodzaje szkodników" />
+        <text name="fh_map_notSprayed" text="Bez ochrony" />
+        <text name="fh_map_oneProduct" text="Jeden środek" />
+        <text name="fh_map_bothProducts" text="Fungicyd i insektycyd" />
+        <text name="fh_map_healthy" text="Zdrowa uprawa" />
+        <text name="fh_map_low" text="Słabe" />
+        <text name="fh_map_medium" text="Średnie" />
+        <text name="fh_map_high" text="Silne" />
+        <text name="fh_map_diseaseLabel" text="Choroba:" />
+        <text name="fh_map_pestLabel" text="Szkodniki:" />
+        <text name="fh_map_diseaseProtectionLabel" text="Ochrona – choroby:" />
+        <text name="fh_map_pestProtectionLabel" text="Ochrona – szkodniki:" />
+        <text name="fh_map_protectedUntilHarvest" text="aktywna" />
+        <text name="input_FH_MINIMAP_LAYER" text="Field Health – warstwa ochrony roślin na minimapie" />
+
+        <!-- Ustawienia -->
+        <text name="fh_config_brand" text="Marka" />
+        <text name="fh_settings_header" text="Field Health – choroby i szkodniki" />
+        <text name="fh_setting_enabled" text="Zagrożenia upraw" />
+        <text name="fh_setting_enabled_desc" text="Główny włącznik moda. Po wyłączeniu na polach nie pojawią się nowe choroby ani szkodniki, a te, które już są, przestaną się rozwijać i niszczyć uprawę. Opryski działają dalej, więc możesz spokojnie usunąć to, co zostało na polach." />
+        <text name="fh_setting_diseaseChance" text="Szansa na chorobę w sezonie" />
+        <text name="fh_setting_diseaseChance_desc" text="Bazowa szansa, że pole prowadzone w normalny sposób zachoruje w ciągu jednego sezonu (od siewu do zbioru). To tylko punkt wyjścia: dobra uprawa (obornik, poplon, płodozmian, właściwe pH i azot) ją obniża, a zaniedbania (brak nawożenia, monokultura, brak orki, kwaśna gleba) podnoszą nawet kilka razy. Oprysk fungicydem przed pojawieniem się choroby zmniejsza ją do zera aż do zbioru. 0% wyłącza choroby." />
+        <text name="fh_setting_pestChance" text="Szansa na szkodniki w sezonie" />
+        <text name="fh_setting_pestChance_desc" text="Bazowa szansa, że na polu prowadzonym w normalny sposób pojawią się szkodniki w ciągu jednego sezonu. Sposób uprawy ją zmienia: chwasty, monokultura i brak orki ją podnoszą, a poplon i płodozmian obniżają. Oprysk insektycydem przed pojawieniem się szkodników zmniejsza ją do zera aż do zbioru. 0% wyłącza szkodniki." />
+        <text name="fh_setting_careInfluence" text="Wpływ sposobu uprawy" />
+        <text name="fh_setting_careInfluence_desc" text="Jak mocno sposób prowadzenia pola (nawożenie, uprawa gleby, płodozmian, poplon, chwasty, dane Precision Farming) zmienia bazowe szanse. Brak – liczy się tylko szansa bazowa i wszystkie pola są równe. Mały – różnice są łagodne. Normalny (zalecany) – dobre gospodarowanie wyraźnie się opłaca. Duży – zaniedbane pola chorują bardzo często, a wzorowo prowadzone prawie wcale." />
+        <text name="fh_setting_weatherInfluence" text="Wpływ pogody" />
+        <text name="fh_setting_weatherInfluence_desc" text="Jak mocno pogoda z ostatnich dni (temperatura i deszcz) zmienia szanse pojawienia się zagrożeń. Choroby grzybowe lubią deszcz i wilgoć, większość szkodników ciepło i suszę, a każde zagrożenie ma swój zakres temperatur. Brak – pogoda się nie liczy. Niski – małe różnice. Normalny (zalecane) – wyraźne różnice. Wysoki – w sprzyjającą pogodę zagrożenia pojawiają się dużo częściej, w niesprzyjającą prawie wcale." />
+        <text name="fh_setting_stubbleRisk" text="Ryzyko od ścierniska" />
+        <text name="fh_setting_stubbleRisk_desc" text="Czy nierozdrobnione ściernisko po zbiorze podnosi ryzyko (głównie omacnicy i chorób przetrwających na resztkach). Liczy się tylko, gdy na polu był wcześniej zbiór i pole nie zostało zaorane. Ścieżki technologiczne i drogi przez pole nigdy nie są traktowane jak ściernisko. Wył. – ściernisko w ogóle nie wpływa na ryzyko." />
+        <text name="fh_setting_fodderCrops" text="Zagrożenia na łąkach i uprawach pastewnych" />
+        <text name="fh_setting_fodderCrops_desc" text="Czy łąki, trawy, koniczyna i lucerna mogą dostać choroby i szkodniki. Wył. (zalecane) – te uprawy nigdy nie chorują, a zagrożenia, które już na nich są, znikają następnego dnia. Wł. – koniczyna i lucerna mogą dostać mszyce; łąki i trawy nadal nie chorują." />
+        <text name="fh_setting_fieldInfo" text="Informacje w panelu pola" />
+        <text name="fh_setting_fieldInfo_desc" text="Czy panel informacji o polu pokazuje zagrożenia, ryzyko i ochronę pola. Wył. – panel wygląda jak bez moda; stan pól nadal widać na mapie i minimapie." />
+        <text name="fh_setting_progression" text="Tempo rozwoju zagrożeń" />
+        <text name="fh_setting_progression_desc" text="Jak szybko nieleczone zagrożenie przechodzi do następnego stadium: słabe, potem średnie, potem silne. Wolne – co miesiąc gry, Normalne – co pół miesiąca, Szybkie – co ćwierć miesiąca (zawsze co najmniej co jeden dzień). Uprawę niszczy dopiero stadium silne, więc wolniejsze tempo daje więcej czasu na oprysk." />
+        <text name="fh_setting_spread" text="Zasięg zagrożeń" />
+        <text name="fh_setting_spread_desc" text="Jak dużą część pola może zająć nieleczone zagrożenie. Mały – do 2,5%, Średni – do 5%, Duży – do 10% powierzchni pola. Plama rośnie nierówno na brzegach, a od czasu do czasu obok pojawia się nowa, mniejsza plama – zwykle po tej stronie, w którą tego dnia wieje wiatr. Oprysk usuwa zagrożenie w całości." />
+        <text name="fh_setting_patchSize" text="Wielkość ognisk" />
+        <text name="fh_setting_patchSize_desc" text="Jak duże są plamy, w których pojawia się nowe zagrożenie i w których się rozrasta. Każda plama ma nieregularny kształt i losową wielkość – małe zdarzają się częściej niż duże. Małe – plamy o średnicy zwykle 5–12 m, Normalne – 8–20 m, Duże – 12–30 m. Na małych polach plamy są zawsze odpowiednio mniejsze." />
+        <text name="fh_setting_neighbourSpread" text="Przenoszenie na sąsiednie pola" />
+        <text name="fh_setting_neighbourSpread_desc" text="Czy zagrożenie z brzegu pola może przejść na sąsiednie pole gracza. Dzieje się to tylko, gdy pola się stykają albo dzieli je bardzo wąska miedza, gdy na sąsiednim polu rośnie uprawa, którą zagrożenie atakuje, w odpowiedniej fazie wzrostu, i gdy sąsiednie pole nie jest opryskane. Szkodniki przechodzą częściej niż choroby, i to dopiero od stadium średniego. Nie dotyczy pól NPC. Wył., Rzadko, Czasem, Często – kolejno brak, połowa, normalna i podwójna szansa." />
+        <text name="fh_setting_damage" text="Niszczenie uprawy" />
+        <text name="fh_setting_damage_desc" text="Ile uprawy codziennie niszczy zagrożenie w stadium silnym. Zniszczone miejsca nic nie dadzą przy zbiorze. Wył. – zagrożenia tylko widać, plon się nie zmniejsza. Małe, Normalne, Duże – kolejno 1, 3 lub 6 łat po kilka metrów dziennie, zawsze tylko w porażonym miejscu." />
+        <text name="fh_setting_protectionThreshold" text="Pokrycie dla pełnej ochrony" />
+        <text name="fh_setting_protectionThreshold_desc" text="Jaką część pola trzeba opryskać, żeby całe pole było odporne na dany rodzaj zagrożenia (choroby albo szkodniki). Przy mniejszym pokryciu zagrożenie nadal może się pojawić, ale tylko na nieopryskanych fragmentach – opryskane miejsca są chronione zawsze. Domyślnie 90%. Niższy próg wybacza pominięte rogi i kliny pola, wyższy wymaga dokładnego oprysku." />
+        <text name="fh_setting_protectionDuration" text="Czas działania oprysku" />
+        <text name="fh_setting_protectionDuration_desc" text="Jak długo chroni oprysk fungicydem i insektycydem. Do zbioru – jeden oprysk każdym środkiem chroni pole przez cały sezon (najprostsze). 2 miesiące, 1 miesiąc, pół miesiąca – ochrona wygasa po tym czasie od ostatniego oprysku pola i trzeba pryskać ponownie, jak w prawdziwym gospodarstwie." />
+        <text name="fh_setting_fungicideUsage" text="Dawka fungicydu" />
+        <text name="fh_setting_fungicideUsage_desc" text="Ile fungicydu zużywa opryskiwacz na hektar. 100% to około 290 litrów cieczy na hektar (tyle co herbicyd), czyli jedna butelka 1 l na hektar. Mniejsza dawka oznacza tańsze opryski i rzadsze tankowanie, większa – droższe. Skuteczność oprysku jest zawsze taka sama. Zmiana działa od razu, także w trakcie pracy." />
+        <text name="fh_setting_insecticideUsage" text="Dawka insektycydu" />
+        <text name="fh_setting_insecticideUsage_desc" text="Ile insektycydu zużywa opryskiwacz na hektar. 100% to około 290 litrów cieczy na hektar (tyle co herbicyd), czyli jedna butelka 1 l na 5 hektarów. Mniejsza dawka oznacza tańsze opryski i rzadsze tankowanie, większa – droższe. Skuteczność oprysku jest zawsze taka sama. Zmiana działa od razu, także w trakcie pracy." />
+        <text name="fh_setting_fungicidePrice" text="Cena butelki fungicydu" />
+        <text name="fh_setting_fungicidePrice_desc" text="Cena jednej butelki fungicydu 1 l w sklepie. Butelka wystarcza na 1 hektar (290 l cieczy roboczej). Domyślnie 50, co odpowiada tańszym fungicydom w Polsce. Gra przelicza waluty 1:1, więc 50 € i 50 zł to ta sama kwota. Od tej ceny zależy też cena litra cieczy, np. przy zakupie w stacji. Zmiana działa od razu w sklepie." />
+        <text name="fh_setting_insecticidePrice" text="Cena butelki insektycydu" />
+        <text name="fh_setting_insecticidePrice_desc" text="Cena jednej butelki insektycydu 1 l w sklepie. Butelka wystarcza na 5 hektarów (1450 l cieczy roboczej). Domyślnie 80, co odpowiada typowym insektycydom w Polsce. Gra przelicza waluty 1:1, więc 80 € i 80 zł to ta sama kwota. Od tej ceny zależy też cena litra cieczy, np. przy zakupie w stacji. Zmiana działa od razu w sklepie." />
+        <text name="fh_setting_fungicideCanisterPrice" text="Cena bańki fungicydu 5 l" />
+        <text name="fh_setting_fungicideCanisterPrice_desc" text="Cena jednej bańki fungicydu 5 l w sklepie. Bańka wystarcza na 5 hektarów (1450 l cieczy roboczej). Domyślnie 220, czyli taniej za litr niż pięć butelek 1 l, jak w prawdziwych hurtowniach. Gra przelicza waluty 1:1. Zmiana działa od razu w sklepie." />
+        <text name="fh_setting_insecticideCanisterPrice" text="Cena bańki insektycydu 5 l" />
+        <text name="fh_setting_insecticideCanisterPrice_desc" text="Cena jednej bańki insektycydu 5 l w sklepie. Bańka wystarcza na 25 hektarów (7250 l cieczy roboczej). Domyślnie 350, czyli taniej za litr niż pięć butelek 1 l, jak w prawdziwych hurtowniach. Gra przelicza waluty 1:1. Zmiana działa od razu w sklepie." />
+        <text name="fh_setting_fungicideCanister20Price" text="Cena bańki fungicydu 20 l" />
+        <text name="fh_setting_fungicideCanister20Price_desc" text="Cena jednej bańki fungicydu 20 l w sklepie. Bańka wystarcza na 20 hektarów (5800 l cieczy roboczej). Domyślnie 800, czyli najtaniej za litr ze wszystkich opakowań. Gra przelicza waluty 1:1. Zmiana działa od razu w sklepie." />
+        <text name="fh_setting_insecticideCanister20Price" text="Cena bańki insektycydu 20 l" />
+        <text name="fh_setting_insecticideCanister20Price_desc" text="Cena jednej bańki insektycydu 20 l w sklepie. Bańka wystarcza na 100 hektarów (29 000 l cieczy roboczej). Domyślnie 1200, czyli najtaniej za litr ze wszystkich opakowań. Gra przelicza waluty 1:1. Zmiana działa od razu w sklepie." />
+        <text name="fh_setting_farmLimit" text="Limit zagrożeń w gospodarstwie" />
+        <text name="fh_setting_farmLimit_desc" text="Największa liczba nowych zagrożeń na wszystkich polach Twojego gospodarstwa w ciągu roku gry. Bez limitu – każde pole ma własną szansę. Ustaw na przykład 1 lub 2, jeśli masz dużo pól i chcesz, żeby choroby i szkodniki pojawiały się rzadko." />
+        <text name="fh_setting_notifications" text="Powiadomienia o zagrożeniach" />
+        <text name="fh_setting_notifications_desc" text="Pokazuje komunikat, gdy na Twoim polu pojawi się choroba lub szkodnik oraz gdy zagrożenie stanie się silne i zacznie niszczyć uprawę. Komunikat podaje numer pola, uprawę, zagrożenie i środek, którym trzeba pryskać." />
+        <text name="fh_set_on" text="Wł." />
+        <text name="fh_set_off" text="Wył." />
+        <text name="fh_set_none" text="Brak" />
+        <text name="fh_set_low" text="Mały" />
+        <text name="fh_set_normal" text="Normalny" />
+        <text name="fh_set_high" text="Duży" />
+        <text name="fh_set_slow" text="Wolne" />
+        <text name="fh_set_normalPace" text="Normalne" />
+        <text name="fh_set_fast" text="Szybkie" />
+        <text name="fh_set_small" text="Mały" />
+        <text name="fh_set_medium" text="Średni" />
+        <text name="fh_set_large" text="Duży" />
+        <text name="fh_set_damageLow" text="Małe" />
+        <text name="fh_set_damageNormal" text="Normalne" />
+        <text name="fh_set_damageHigh" text="Duże" />
+        <text name="fh_set_untilHarvest" text="Do zbioru" />
+        <text name="fh_set_twoMonths" text="2 miesiące" />
+        <text name="fh_set_oneMonth" text="1 miesiąc" />
+        <text name="fh_set_halfMonth" text="Pół miesiąca" />
+        <text name="fh_set_unlimited" text="Bez limitu" />
+        <text name="fh_set_patchSmall" text="Małe" />
+        <text name="fh_set_patchNormal" text="Normalne" />
+        <text name="fh_set_patchLarge" text="Duże" />
+        <text name="fh_set_rarely" text="Rzadko" />
+        <text name="fh_set_sometimes" text="Czasem" />
+        <text name="fh_set_often" text="Często" />
+
+        <!-- Sklep: płyny i opakowania -->
+        <text name="fh_fillType_insecticide" text="Insektycyd" />
+        <text name="fh_fillType_fungicide" text="Fungicyd" />
+        <text name="fh_store_fungicideBottle" text="Fungicyd 1 l" />
+        <text name="fh_store_insecticideBottle" text="Insektycyd 1 l" />
+        <text name="fh_store_fungicideCanister" text="Fungicyd 5 l" />
+        <text name="fh_store_insecticideCanister" text="Insektycyd 5 l" />
+        <text name="fh_store_fungicideCanister20" text="Fungicyd 20 l" />
+        <text name="fh_store_insecticideCanister20" text="Insektycyd 20 l" />
+        <text name="fh_function_fungicideBottle" text="Butelka 1 l koncentratu, dawka 1 l/ha. Wystarcza na 1 ha, czyli 290 l cieczy roboczej. Chroni uprawy przed wszystkimi chorobami. Postaw ją przy opryskiwaczu i napełnij go." />
+        <text name="fh_function_insecticideBottle" text="Butelka 1 l koncentratu, dawka 0,2 l/ha. Wystarcza na 5 ha, czyli 1450 l cieczy roboczej. Chroni uprawy przed szkodnikami: mszyce, skrzypionki, słodyszek, stonka, omacnica, drutowce. Postaw ją przy opryskiwaczu i napełnij go." />
+        <text name="fh_function_fungicideCanister" text="Bańka 5 l koncentratu, dawka 1 l/ha. Wystarcza na 5 ha, czyli 1450 l cieczy roboczej. Chroni uprawy przed wszystkimi chorobami. Taniej za litr niż butelki 1 l. Postaw ją przy opryskiwaczu i napełnij go." />
+        <text name="fh_function_insecticideCanister" text="Bańka 5 l koncentratu, dawka 0,2 l/ha. Wystarcza na 25 ha, czyli 7250 l cieczy roboczej. Chroni uprawy przed szkodnikami. Taniej za litr niż butelki 1 l. Postaw ją przy opryskiwaczu i napełnij go." />
+        <text name="fh_function_fungicideCanister20" text="Bańka 20 l koncentratu, dawka 1 l/ha. Wystarcza na 20 ha, czyli 5800 l cieczy roboczej. Chroni uprawy przed wszystkimi chorobami. Najtaniej za litr, dla dużych gospodarstw. Postaw ją przy opryskiwaczu i napełnij go." />
+        <text name="fh_function_insecticideCanister20" text="Bańka 20 l koncentratu, dawka 0,2 l/ha. Wystarcza na 100 ha, czyli 29 000 l cieczy roboczej. Chroni uprawy przed szkodnikami. Najtaniej za litr, dla dużych gospodarstw. Postaw ją przy opryskiwaczu i napełnij go." />
+
+        <!-- Pomoc (ESC → Pomoc) -->
+        <text name="fh_help_header" text="Field Health – choroby i szkodniki" />
+
+        <text name="fh_help_intro" text="Wprowadzenie" />
+        <text name="fh_help_intro_01" text="O modzie" />
+        <text name="fh_help_intro_02" text="Field Health wprowadza do gry choroby i szkodniki upraw, z którymi na co dzień zmagają się rolnicy w Polsce. Pojawiają się na polach Twojego gospodarstwa w trakcie sezonu, rozwijają się i – jeśli ich nie zwalczysz – niszczą część uprawy. Do walki z nimi służą dwa środki dostępne w sklepie: fungicyd zwalcza choroby, a insektycyd szkodniki.
+Mod jest realistyczny, ale wyrozumiały dla swobodnej gry: zagrożenie nigdy nie obejmuje całego pola, uprawa ginie dopiero w najcięższym stadium, a jeden dobrze wykonany oprysk każdym ze środków chroni pole do końca sezonu." />
+        <text name="fh_help_intro_03" text="Sezon krok po kroku" />
+        <text name="fh_help_intro_04" text="1. Siew rozpoczyna sezon uprawy. Od tego dnia na polu narasta presja zakażenia – najszybciej w porze roku i fazie rozwoju, w której dane zagrożenie atakuje, przy sprzyjającej mu pogodzie i na zaniedbanym polu.
+2. Gdy presja przekroczy wylosowany dla pola próg, pojawia się ognisko choroby lub szkodników. Dostajesz powiadomienie z numerem pola i nazwą środka, którym trzeba pryskać.
+3. Nieleczone zagrożenie co pół miesiąca przechodzi w silniejsze stadium i powoli się rozrasta. W stadium silnym codziennie niszczy uprawę w małych łatach.
+4. Oprysk usuwa zagrożenie i chroni opryskane miejsca. Pole opryskane prawie w całości jest odporne na dany rodzaj zagrożenia aż do zbioru.
+5. Zbiór kończy sezon: zagrożenia i ochrona znikają, a zebrana roślina staje się przedplonem dla następnej uprawy." />
+        <text name="fh_help_intro_05" text="Najważniejsze liczby" />
+        <text name="fh_help_intro_06" text="Wartości domyślne. Każdą z nich administrator może zmienić w ustawieniach (ostatnia kolumna)." />
+        <text name="fh_help_intro_08" text="Gdzie sprawdzić stan pól" />
+        <text name="fh_help_intro_09" text="– Panel informacji o polu (gdy jesteś na polu): zagrożenia z ich nasileniem, ryzyko i jego główna przyczyna, ochrona pola.
+– Mapa (ESC &gt; Mapa &gt; Ochrona roślin): pięć warstw – ochrona, choroby, szkodniki oraz rodzaje chorób i szkodników.
+– Minimapa: warstwę przełączasz klawiszami Lewy Alt + \.
+– Powiadomienia: o nowym zagrożeniu, o stadium silnym i o zagrożeniu, które przeszło z sąsiedniego pola." />
+        <text name="fh_help_origin" text="Skąd się biorą zagrożenia" />
+        <text name="fh_help_origin_01" text="Każde pole gracza z rosnącą uprawą może w jednym sezonie dostać najwyżej jedną chorobę i jeden rodzaj szkodników. Pola NPC, topola i poplony nie chorują, a łąki, trawy, koniczyna i lucerna – tylko po włączeniu tego w ustawieniach.
+Zagrożenie nie pojawia się w przypadkowym dniu. Każdego dnia mod liczy dla pola presję zakażenia i dodaje ją do sumy z poprzednich dni. Na początku sezonu pole dostaje losowy próg odporności – gdy suma presji go przekroczy, dochodzi do zakażenia. Dlatego w jednym sezonie zagrożenie pojawi się wcześnie, w innym późno, a w jeszcze innym wcale." />
+        <text name="fh_help_origin_02" text="Co decyduje o presji" />
+        <text name="fh_help_origin_03" text="1. Szansa bazowa z ustawień – domyślnie 15% na chorobę i 10% na szkodniki w ciągu sezonu.
+2. Ryzyko pola, czyli sposób prowadzenia uprawy: nawożenie, uprawa gleby, płodozmian i chwasty (strona „Sposób uprawy”).
+3. Pospolitość zagrożenia w Polsce – częste choroby i szkodniki pojawiają się dużo częściej niż rzadkie (strony „Choroby” i „Szkodniki”).
+4. Pora roku i faza rozwoju rośliny – poza swoim okresem zagrożenie w ogóle nie atakuje (strona „Pora roku i fazy rozwoju”).
+5. Pogoda z ostatnich dni – deszcz sprzyja chorobom grzybowym, a ciepło i susza większości szkodników (strona „Pogoda”)." />
+        <text name="fh_help_origin_04" text="Szansa w sezonie" />
+        <text name="fh_help_origin_05" text="Tak ryzyko pola zmienia szansę na zagrożenie w całym sezonie przy domyślnych ustawieniach:" />
+        <text name="fh_help_origin_07" text="Tabela dotyczy uprawy o przeciętnym zestawie zagrożeń, rosnącej przez cały ich okres. Uprawy atakowane przez wiele pospolitych chorób lub szkodników chorują częściej (do 1,4 razy), a uprawy z nielicznymi zagrożeniami rzadziej (do 0,5 razy):" />
+        <text name="fh_help_origin_09" text="Które zagrożenie się pojawi" />
+        <text name="fh_help_origin_10" text="Gdy dochodzi do zakażenia, mod losuje jedno z zagrożeń, które tego dnia mogą zaatakować uprawę. Szansa każdego z nich jest proporcjonalna do jego dzisiejszej presji, czyli pospolitości razy ryzyko pola, pora roku i pogoda. Przykład: w maju na pszenicy przy deszczowej pogodzie najczęściej pojawi się septorioza albo mączniak, a rzadka i lubiąca upały rdza źdźbłowa – prawie nigdy." />
+        <text name="fh_help_origin_11" text="Oprysk przed zakażeniem" />
+        <text name="fh_help_origin_12" text="Jeżeli w chwili zakażenia pole jest opryskane odpowiednim środkiem na co najmniej 90% powierzchni, zakażenie przepada i w tym sezonie pole nie dostanie już zagrożenia tego rodzaju. Przy mniejszym pokryciu zagrożenie może się pojawić, ale wyłącznie na nieopryskanych fragmentach." />
+        <text name="fh_help_timing" text="Pora roku i fazy rozwoju" />
+        <text name="fh_help_timing_01" text="Każda choroba i każdy szkodnik ma swój okres: atakuje tylko w określonych miesiącach i tylko w określonych fazach rozwoju rośliny. W tym okresie ma też szczyt, kiedy jest najgroźniejszy. Poza swoim okresem zagrożenie nie pojawi się wcale – nie przejdzie też z sąsiedniego pola." />
+        <text name="fh_help_timing_02" text="Fazy rozwoju" />
+        <text name="fh_help_timing_04" text="Fazę mod odczytuje ze stanu wzrostu uprawy w grze: pierwsze 20% okresu wzrostu to wschody, do 45% – liście i krzewienie, do 70% – strzelanie w źdźbło lub pąkowanie, dalej kłoszenie i kwitnienie, a uprawa gotowa do zbioru jest w fazie dojrzałości. Miesiące to kalendarz gry (pierwszy okres roku to marzec), więc liczba dni w okresie nie zmienia tego, kiedy zagrożenia atakują." />
+        <text name="fh_help_timing_05" text="Kalendarz – kiedy szczególnie uważać" />
+        <text name="fh_help_timing_06" text="Główne miesiące to te, w których presja danej grupy zagrożeń na uprawie jest największa. Właśnie przed nimi warto opryskać pole zapobiegawczo." />
+        <text name="fh_help_farming" text="Sposób uprawy" />
+        <text name="fh_help_farming_01" text="Ryzyko pola to mnożnik presji zakażenia, który wynika z tego, jak prowadzisz pole. Mod liczy go osobno dla każdego zagrożenia, a w panelu pola pokazuje najwyższe ryzyko chorób i szkodników oraz jego główną przyczynę. Mnożniki z tabel mnożą się przez siebie, a wynik zawsze mieści się między 0,3 a 5." />
+        <text name="fh_help_farming_03" text="Nawożenie" />
+        <text name="fh_help_farming_05" text="Uprawa gleby i chwasty" />
+        <text name="fh_help_farming_07" text="Wartości dotyczą pola całkowicie zaniedbanego – częściowe zaniedbanie podnosi ryzyko proporcjonalnie. Liczą się tylko prace włączone w ustawieniach gry: bez wymogu orki jej brak niczego nie zmienia. Mod sprawdza stan pola w 36 punktach i tylko tam, gdzie rośnie uprawa, więc ścieżki technologiczne i drogi przez pole nie są traktowane jak zaniedbanie. Ściernisko i wałowanie liczą się jako zaniedbane dopiero wtedy, gdy brakuje ich na trzech czwartych pola. Ściernisko liczy się tylko po zbiorze na tym polu i nie liczy się po orce (ustawienie „Ryzyko od ścierniska” wyłącza je całkiem). W FS25 po orce chwasty nie rosną." />
+        <text name="fh_help_farming_08" text="Płodozmian i poplon" />
+        <text name="fh_help_farming_10" text="Ustawienie „Wpływ sposobu uprawy” wzmacnia albo osłabia wszystkie te czynniki naraz. Brak – każde pole ma ryzyko 1. Mały – różnice są mniej więcej o połowę mniejsze. Normalny – jak w tabelach. Duży – różnice są o połowę większe." />
+        <text name="fh_help_weather" text="Pogoda" />
+        <text name="fh_help_weather_01" text="Mod co godzinę gry odczytuje temperaturę i sprawdza, czy pada. Na koniec dnia liczy średnią temperaturę dnia i udział deszczowych godzin. Wilgotność ma pamięć: w połowie zależy od ostatniego dnia, a w połowie od dni wcześniejszych, bo liście długo pozostają mokre po deszczu. Każde zagrożenie ma swój profil pogodowy – zakres temperatur i stosunek do deszczu." />
+        <text name="fh_help_weather_03" text="Temperatura poza zakresem obniża presję do 0,4 razy, a temperatura w optimum podnosi ją do 1,2 razy. Deszcz zmienia presję od 0,4 do 1,8 razy – w górę dla zagrożeń lubiących wilgoć, w dół dla lubiących suszę. Łącznie pogoda zmienia presję od 0,2 do 2,5 razy. Przykładowe mnożniki po kilku dniach takiej pogody (czerwony – zagrożenie rośnie, zielony – maleje):" />
+        <text name="fh_help_weather_05" text="Ustawienie „Wpływ pogody”: Brak – pogoda się nie liczy, Mały – mnożniki są złagodzone, Normalny – jak w tabeli, Duży – wzmocnione. Po kilku ciepłych, deszczowych dniach latem pilnuj zwłaszcza ziemniaków i zbóż w kłoszeniu, a w suche i upalne lato – szkodników." />
+        <text name="fh_help_diseases" text="Choroby" />
+        <text name="fh_help_diseases_01" text="Wszystkie choroby zwalcza fungicyd. Tabele pokazują, jak często choroba występuje w Polsce, jakie uprawy atakuje, w których miesiącach występuje i kiedy jest najgroźniejsza, w jakiej fazie rozwoju rośliny wyrządza najwięcej szkód i co jej sprzyja." />
+        <text name="fh_help_diseases_03" text="Zboża i kukurydza" />
+        <text name="fh_help_diseases_05" text="Pozostałe uprawy" />
+        <text name="fh_help_diseases_07" text="Uprawy z map, których mod nie zna, mogą dostać szarą pleśń i mszyce. Cebula z dodatku Highlands Fishing i z modów jest rozpoznawana automatycznie." />
+        <text name="fh_help_pests" text="Szkodniki" />
+        <text name="fh_help_pests_01" text="Wszystkie szkodniki zwalcza insektycyd. Kolumny tabel mają takie samo znaczenie jak na stronie „Choroby”." />
+        <text name="fh_help_pests_02" text="Zboża i kukurydza" />
+        <text name="fh_help_pests_04" text="Pozostałe uprawy" />
+        <text name="fh_help_progress" text="Rozwój zagrożenia" />
+        <text name="fh_help_progress_01" text="Nowe zagrożenie to jedna lub dwie plamy o nieregularnym kształcie, z poszarpanym brzegiem i zdrowymi lukami w środku. Zaczyna od stadium słabego. Jeśli go nie zwalczysz, przechodzi kolejne etapy:" />
+        <text name="fh_help_progress_03" text="Zniszczona uprawa nie odrasta i nic nie daje przy zbiorze. Najtańszy jest więc oprysk zapobiegawczy albo oprysk zaraz po powiadomieniu. Oprysk w dowolnym stadium całkowicie usuwa zagrożenie z opryskanego miejsca." />
+        <text name="fh_help_spraying" text="Opryski i ochrona" />
+        <text name="fh_help_spraying_01" text="Środki produkuje polska firma Opryskex: fungicyd Grzybobój 250 EC (zielona etykieta) i insektycyd Robalex 100 CS (czerwona etykieta). Przy zakupie możesz zamiast nich wybrać markę MST (Mafia Solec Team): Solectop 280 SC i Mafiozol 50 EW. Działają tak samo, różnią się tylko etykietą. Kupisz je w sklepie w butelkach 1 l oraz w bańkach 5 l i 20 l. Postaw opakowanie obok opryskiwacza i napełnij go tak jak z palety. Gra nie miesza koncentratu z wodą, dlatego pojemność opakowania to od razu cała ciecz robocza, którą da się z niego przygotować. Im większe opakowanie, tym taniej za hektar." />
+        <text name="fh_help_spraying_03" text="Jak działa ochrona" />
+        <text name="fh_help_spraying_05" text="Na co uważać" />
+        <text name="fh_help_spraying_06" text="– Pryskaj po wschodach – siew i zbiór kasują ochronę.
+– Fungicyd nie chroni przed szkodnikami, a insektycyd przed chorobami. Do pełnej ochrony potrzebne są oba.
+– Pominięte kliny i uwrocia też się liczą: poniżej 90% pokrycia zagrożenie może pojawić się na nieopryskanych pasach.
+– Środki nie nawożą i nie zwalczają chwastów.
+– Przy krótszym czasie działania oprysku (ustawienie) ochrona całego pola wygasa po tym czasie od ostatniego oprysku." />
+        <text name="fh_help_map" text="Mapa i informacje o polu" />
+        <text name="fh_help_map_01" text="Panel informacji o polu" />
+        <text name="fh_help_map_02" text="Gdy jesteś na polu, panel informacji o polu pokazuje:
+– Choroba i Szkodniki: aktywne zagrożenie i jego nasilenie (słabe, średnie, silne),
+– Ryzyko chorób i Ryzyko szkodników: niskie, normalne, podwyższone lub wysokie, a od podwyższonego także główną przyczynę,
+– Ochrona – choroby i Ochrona – szkodniki: jaka część pola jest opryskana,
+– podpowiedź, czym zwalczyć zagrożenie." />
+        <text name="fh_help_map_03" text="Mapa" />
+        <text name="fh_help_map_04" text="W menu ESC &gt; Mapa wybierz stronę „Ochrona roślin”. Pod jej tytułem drugi wybór ze strzałkami przełącza pięć warstw. Kliknięcie pozycji legendy ukrywa ją na mapie. Widać tylko pola Twojego gospodarstwa z rosnącą uprawą. Po kliknięciu farmlandu zobaczysz zagrożenia i ochronę jego pól." />
+        <text name="fh_help_map_06" text="Kolory rodzajów zagrożeń" />
+        <text name="fh_help_map_08" text="Minimapa" />
+        <text name="fh_help_map_09" text="Klawisze Lewy Alt + \ przełączają warstwę na minimapie: ochrona, choroby, szkodniki i brak warstwy. Skrót zmienisz w trakcie gry w menu ESC &gt; Ustawienia &gt; Sterowanie, w pozycji „Field Health – warstwa ochrony roślin na minimapie” (w menu głównym skrótów modów nie widać, bo mody wczytują się dopiero z zapisem gry)." />
+        <text name="fh_help_pf" text="Precision Farming" />
+        <text name="fh_help_pf_01" text="Jeśli masz Precision Farming, Field Health działa jak jego rozszerzenie i korzysta z jego map gleby. Zamiast ogólnego nawożenia liczy się wtedy azot w porównaniu z zaleceniem, a zamiast ogólnego wapnowania – pH gleby." />
+        <text name="fh_help_pf_03" text="Najlepsza ochrona to ta sama praca, którą wykonujesz dla plonu: nawożenie zgodne z zaleceniem, wapnowanie do optymalnego pH i poplony. Komenda konsoli fhPrecisionFarming zapisuje w logu, jak mod odczytuje dane Precision Farming." />
+        <text name="fh_help_settings" text="Ustawienia" />
+        <text name="fh_help_settings_01" text="Ustawienia moda znajdziesz w menu ESC &gt; Ustawienia &gt; Gra, w sekcji „Field Health – choroby i szkodniki”. Zapisują się razem z zapisem gry. W grze wieloosobowej zmienia je tylko administrator serwera. Po najechaniu na opcję zobaczysz jej opis." />
+        <text name="fh_help_tips" text="Porady" />
+        <text name="fh_help_tips_01" text="Plan na zdrowe pola" />
+        <text name="fh_help_tips_02" text="1. Nawóź zgodnie z potrzebami, wapnuj i nie siej tej samej rośliny dwa lata z rzędu. Między uprawami wysiewaj poplon.
+2. Przed głównymi miesiącami zagrożeń (strona „Pora roku i fazy rozwoju”) opryskaj pole fungicydem i insektycydem. Raz na sezon wystarczy, jeśli pokryjesz co najmniej 90% pola.
+3. Sprawdzaj warstwę „Ochrona” na mapie – zielone pola są chronione przed oboma rodzajami zagrożeń.
+4. Po powiadomieniu opryskaj wskazane pole podanym środkiem, zanim zagrożenie dojdzie do stadium silnego.
+5. Pracownik AI z fungicydem lub insektycydem pryska pola niechronione w całości, a na chronionych tylko miejsca z zagrożeniem." />
+        <text name="fh_help_tips_03" text="Na co uważać" />
+        <text name="fh_help_tips_04" text="– Monokultura i brak orki to najczęstsze przyczyny wysokiego ryzyka, np. pszenica po pszenicy bez orki sprzyja septoriozie, brunatnej plamistości liści i fuzariozie.
+– Kukurydza przed pszenicą wyraźnie zwiększa ryzyko fuzariozy, a łąka przed ziemniakami – drutowców.
+– Gnojowica i nawóz płynny dają bujny wzrost, który lubią mączniak, rdze i mszyce.
+– Deszczowe lato to czas zarazy ziemniaka, septoriozy i fuzariozy, a suche i upalne – mszyc, stonki, wciornastków i rolnic.
+– Rzepak ma dwa groźne okresy: jesień (pchełki, gnatarz, sucha zgnilizna) i wiosnę (chowacze, słodyszek, zgnilizna twardzikowa).
+– Zagrożenie w stadium średnim lub silnym może przejść na stykające się pole gracza." />
+        <text name="fh_help_admin" text="Dla administratora" />
+        <text name="fh_help_admin_01" text="Komendy konsoli" />
+        <text name="fh_help_admin_03" text="Gra wieloosobowa, zapis i zgodność" />
+        <text name="fh_help_admin_04" text="– Symulacja działa na serwerze, a gracze widzą jej wyniki. Ustawienia oraz komendy fhSet, fhClear i fhDailyTick są dostępne tylko dla administratora.
+– Powiadomienia dostają gracze farmy, do której należy pole, każdy w swoim języku.
+– Mod zapisuje dane tylko w dwóch własnych plikach w folderze zapisu: fieldHealth.xml i fieldHealthMap.grle. Można go bezpiecznie usunąć – gra pominie te pliki, a z mapy znikną jedynie butelki i bańki ze środkami.
+– Zapisy z wcześniejszej wersji moda są przy wczytaniu automatycznie przenoszone do nowego formatu.
+– Cebula z dodatku Highlands Fishing i z modów jest wykrywana automatycznie – informację o tym znajdziesz w logu.
+– Nie używaj jednocześnie innego moda z chorobami upraw (np. Crop Diseases) – Field Health ostrzeże o tym w logu." />
+        <text name="fh_help_admin_05" text="Autorzy" />
+        <text name="fh_help_admin_06" text="Field Health – autor: MatrikSky. Pomysł na moda zaczerpnięto z moda „Crop Diseases” autorstwa BMP. Model butelki powstał na podstawie modelu „fertilizer Bottle” autorstwa shabanimate, a model baniek na podstawie „#6 Plastic Canister” autorstwa hoxsvl (oba na licencji CC BY 4.0, sketchfab.com)." />
+        <text name="fh_help_tableLanguage" text="pl" />
+
+
+
+
+
+
+
+
+
+
+    </texts>
+</l10n>

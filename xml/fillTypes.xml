@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../shared/xml/schema/fillTypes.xsd">
+    <!--
+        Field Health: the two crop protection liquids. The game cannot mix a
+        concentrate with water, so the fill level is the ready spray mixture;
+        sprayers apply about 290 l/ha (the herbicide rate). The liquids are sold
+        in containers whose fill level is the mixture they make: 1 l of
+        fungicide (1 l/ha) is 290 l, 1 l of insecticide (0.2 l/ha) is 1450 l.
+        The prices per litre follow the default bottle prices (50 and 80); the
+        mod settings change them in game. The common names FUNGICIDE and
+        INSECTICIDE are kept, so sprayers and tanks of other mods accept them.
+        Liquid unloaded from a sprayer goes into 20 l canisters (the largest
+        container), so a full sprayer gives one canister instead of many bottles.
+    -->
+    <fillTypes>
+        <fillType name="FUNGICIDE" title="$l10n_fh_fillType_fungicide" showOnPriceTable="true" isBulkType="true" unitShort="$l10n_unit_literShort">
+            <physics massPerLiter="1.0" maxPhysicalSurfaceAngle="0" />
+            <economy pricePerLiter="0.17" />
+            <image hud="hud/fieldHealth_fungicide.dds" />
+            <pallet filename="pallets/canisters/fungicideCanister20.xml" />
+        </fillType>
+
+        <fillType name="INSECTICIDE" title="$l10n_fh_fillType_insecticide" showOnPriceTable="true" isBulkType="true" unitShort="$l10n_unit_literShort">
+            <physics massPerLiter="1.0" maxPhysicalSurfaceAngle="0" />
+            <economy pricePerLiter="0.055" />
+            <image hud="hud/fieldHealth_insecticide.dds" />
+            <pallet filename="pallets/canisters/insecticideCanister20.xml" />
+        </fillType>
+    </fillTypes>
+
+    <fillTypeCategories>
+        <!-- vanilla sprayer liquids are listed too, so sprayers keep them however categories are merged -->
+        <fillTypeCategory name="SPRAYER">LIQUIDFERTILIZER HERBICIDE INSECTICIDE FUNGICIDE</fillTypeCategory>
+    </fillTypeCategories>
+
+    <fillTypeSounds>
+        <fillTypeSound fillTypes="INSECTICIDE FUNGICIDE">
+            <sound template="defaultRefuelSound"/>
+        </fillTypeSound>
+    </fillTypeSounds>
+</map>
