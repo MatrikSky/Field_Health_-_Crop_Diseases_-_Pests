@@ -1,0 +1,48 @@
+name: 💡 Idea or suggestion
+description: Suggest a new feature or an improvement of Field Health.
+title: "[Idea]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping to make Field Health better! 🌱
+        Before you write, please check the [open issues](https://github.com/MatrikSky/Field_Health_-_Crop_Diseases_-_Pests/issues) – maybe someone had the same idea already.
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Diseases and pests
+        - Risk, farming and weather
+        - Spraying and products
+        - Map, minimap and field info
+        - Settings
+        - Multiplayer
+        - Compatibility with maps and other mods
+        - Something else
+    validations:
+      required: true
+
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+      description: What should the mod do? Describe it as exactly as you can.
+    validations:
+      required: true
+
+  - type: textarea
+    id: why
+    attributes:
+      label: Why would it help?
+      description: Which problem does it solve, or how would it make your game better?
+    validations:
+      required: true
+
+  - type: textarea
+    id: more
+    attributes:
+      label: Anything else? (optional)
+      description: Examples from real farming, other mods or games, pictures ...

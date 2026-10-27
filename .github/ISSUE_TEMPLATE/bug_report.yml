@@ -1,0 +1,102 @@
+name: 🐞 Bug report
+description: Something in Field Health does not work as it should.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug! 🙏
+        Please fill in the form – **the `log.txt` is the most important part**, without it most problems cannot be found.
+
+  - type: input
+    id: version
+    attributes:
+      label: Mod version
+      description: You find it in the mod list of the game or in `log.txt` (`[FieldHealth] Version ... loaded`).
+      placeholder: "1.0.0.0"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: mode
+    attributes:
+      label: Game mode
+      options:
+        - Single player
+        - Multiplayer – I host the game
+        - Multiplayer – I joined a game
+        - Multiplayer – dedicated server
+    validations:
+      required: true
+
+  - type: input
+    id: map
+    attributes:
+      label: Map
+      placeholder: "e.g. Riverbend Springs, Zielonka, a mod map ..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect and what happened instead?
+      placeholder: |
+        I sprayed field 12 with fungicide, but the map still shows a disease there ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: How can the bug be seen again? Skip it if you do not know.
+      placeholder: |
+        1. Load the savegame
+        2. Go to field ...
+        3. ...
+
+  - type: textarea
+    id: log
+    attributes:
+      label: log.txt
+      description: |
+        **Drag and drop your `log.txt` into this box.** You find it here:
+        `Documents/My Games/FarmingSimulator2025/log.txt`
+        ⚠️ Copy it right after the problem, before you start the game again – the game overwrites it at every start.
+      placeholder: Drop log.txt here
+    validations:
+      required: true
+
+  - type: textarea
+    id: mods
+    attributes:
+      label: Other mods
+      description: Your active mods – at least the ones that change fields, sprayers, crops or the map.
+
+  - type: textarea
+    id: fhinfo
+    attributes:
+      label: fhInfo output (optional)
+      description: If the problem is about a field, stand on it, run `fhInfo here` in the developer console and paste the output.
+      render: text
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots (optional)
+      description: Drag and drop screenshots that show the problem.
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before you send
+      options:
+        - label: I use the latest version of Field Health.
+          required: true
+        - label: I attached the `log.txt` of the game session with the problem.
+          required: true
+        - label: I do not use another crop disease mod (e.g. Crop Diseases) at the same time.
+          required: true
