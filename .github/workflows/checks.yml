@@ -1,5 +1,5 @@
 # Checks every pull request and every push: Lua syntax (Lua 5.1, as in the game), XML files,
-# files named in modDesc.xml, and the texts in English and Polish.
+# files named in modDesc.xml, and the texts: every language file has the texts of English.
 name: Mod checks
 
 on:

@@ -20,7 +20,7 @@ Raising a number sets the numbers after it to 0: 1.2.3.4 → 1.3.0.0. When a ver
 
 ### Added
 
-- French, German and Spanish translations (Spain and Latin America): field info, map, minimap, notifications, settings with their descriptions, shop items and all pages of the in-game help. In these languages the tables of the help are still in English.
+- Translations into French, German, Spanish (Spain and Latin America), Portuguese (Portugal and Brazil), Italian, Russian, Czech, Romanian and Hungarian: field info, map, minimap, notifications, settings with their descriptions, shop items and all pages of the in-game help. In these languages the tables of the help are still in English.
 
 ### Fixed
 

@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+    <texts>
+        <!-- Diseases (full and short name) -->
+        <text name="fh_disease_cereal_mildew" text="Oídio dos cereais" />
+        <text name="fh_disease_cereal_mildew_short" text="Oídio" />
+        <text name="fh_disease_septoria" text="Septoriose" />
+        <text name="fh_disease_septoria_short" text="Septoriose" />
+        <text name="fh_disease_brown_rust" text="Ferrugem castanha" />
+        <text name="fh_disease_brown_rust_short" text="Ferrugem castanha" />
+        <text name="fh_disease_fusarium" text="Fusariose" />
+        <text name="fh_disease_fusarium_short" text="Fusariose" />
+        <text name="fh_disease_net_blotch" text="Mancha reticulada da cevada" />
+        <text name="fh_disease_net_blotch_short" text="Mancha reticulada" />
+        <text name="fh_disease_snow_mould" text="Bolor-da-neve" />
+        <text name="fh_disease_snow_mould_short" text="Bolor-da-neve" />
+        <text name="fh_disease_sclerotinia" text="Podridão branca" />
+        <text name="fh_disease_sclerotinia_short" text="Esclerotínia" />
+        <text name="fh_disease_alternaria" text="Alternariose" />
+        <text name="fh_disease_alternaria_short" text="Alternariose" />
+        <text name="fh_disease_late_blight" text="Míldio da batateira" />
+        <text name="fh_disease_late_blight_short" text="Míldio da batateira" />
+        <text name="fh_disease_cercospora" text="Cercosporiose" />
+        <text name="fh_disease_cercospora_short" text="Cercosporiose" />
+        <text name="fh_disease_grey_mould" text="Podridão cinzenta" />
+        <text name="fh_disease_grey_mould_short" text="Podridão cinzenta" />
+        <text name="fh_disease_yellow_rust" text="Ferrugem amarela" />
+        <text name="fh_disease_yellow_rust_short" text="Ferrugem amarela" />
+        <text name="fh_disease_tan_spot" text="Mancha amarela do trigo" />
+        <text name="fh_disease_tan_spot_short" text="Mancha amarela" />
+        <text name="fh_disease_eyespot" text="Mancha ocular" />
+        <text name="fh_disease_eyespot_short" text="Mancha ocular" />
+        <text name="fh_disease_rhynchosporium" text="Rincosporiose" />
+        <text name="fh_disease_rhynchosporium_short" text="Rincosporiose" />
+        <text name="fh_disease_ramularia" text="Ramulariose" />
+        <text name="fh_disease_ramularia_short" text="Ramulária" />
+        <text name="fh_disease_stem_rust" text="Ferrugem negra" />
+        <text name="fh_disease_stem_rust_short" text="Ferrugem negra" />
+        <text name="fh_disease_phoma" text="Phoma (necrose do colo)" />
+        <text name="fh_disease_phoma_short" text="Phoma" />
+        <text name="fh_disease_cylindrosporiosis" text="Cilindrosporiose" />
+        <text name="fh_disease_cylindrosporiosis_short" text="Cilindrosporiose" />
+        <text name="fh_disease_beet_mildew" text="Oídio da beterraba" />
+        <text name="fh_disease_beet_mildew_short" text="Oídio da beterraba" />
+        <text name="fh_disease_ascochyta" text="Ascoquitose" />
+        <text name="fh_disease_ascochyta_short" text="Ascoquitose" />
+        <text name="fh_disease_downy_mildew" text="Míldio" />
+        <text name="fh_disease_downy_mildew_short" text="Míldio" />
+        <text name="fh_disease_corn_leaf_blight" text="Helmintosporiose do milho" />
+        <text name="fh_disease_corn_leaf_blight_short" text="Helmintosporiose" />
+        <text name="fh_disease_crown_rust" text="Ferrugem coroada da aveia" />
+        <text name="fh_disease_crown_rust_short" text="Ferrugem coroada" />
+
+        <!-- Pests (full and short name) -->
+        <text name="fh_pest_aphids" text="Afídeos" />
+        <text name="fh_pest_aphids_short" text="Afídeos" />
+        <text name="fh_pest_leaf_beetle" text="Lema dos cereais" />
+        <text name="fh_pest_leaf_beetle_short" text="Lema" />
+        <text name="fh_pest_pollen_beetle" text="Meligetes" />
+        <text name="fh_pest_pollen_beetle_short" text="Meligetes" />
+        <text name="fh_pest_potato_beetle" text="Escaravelho da batateira" />
+        <text name="fh_pest_potato_beetle_short" text="Escaravelho" />
+        <text name="fh_pest_corn_borer" text="Broca do milho" />
+        <text name="fh_pest_corn_borer_short" text="Broca do milho" />
+        <text name="fh_pest_wireworm" text="Alfinetes" />
+        <text name="fh_pest_wireworm_short" text="Alfinetes" />
+        <text name="fh_pest_stem_weevil" text="Gorgulho do caule da colza" />
+        <text name="fh_pest_stem_weevil_short" text="Gorgulho do caule" />
+        <text name="fh_pest_seed_weevil" text="Gorgulho das síliquas" />
+        <text name="fh_pest_seed_weevil_short" text="Gorgulho das síliquas" />
+        <text name="fh_pest_flea_beetle" text="Altises" />
+        <text name="fh_pest_flea_beetle_short" text="Altises" />
+        <text name="fh_pest_turnip_sawfly" text="Mosca-serra do nabo" />
+        <text name="fh_pest_turnip_sawfly_short" text="Mosca-serra" />
+        <text name="fh_pest_frit_fly" text="Mosca-frit" />
+        <text name="fh_pest_frit_fly_short" text="Mosca-frit" />
+        <text name="fh_pest_wheat_midge" text="Cecidómias do trigo" />
+        <text name="fh_pest_wheat_midge_short" text="Cecidómias" />
+        <text name="fh_pest_cutworm" text="Roscas" />
+        <text name="fh_pest_cutworm_short" text="Roscas" />
+        <text name="fh_pest_beet_fly" text="Mosca da beterraba" />
+        <text name="fh_pest_beet_fly_short" text="Mosca da beterraba" />
+        <text name="fh_pest_onion_fly" text="Mosca da cebola" />
+        <text name="fh_pest_onion_fly_short" text="Mosca da cebola" />
+        <text name="fh_pest_thrips" text="Tripes" />
+        <text name="fh_pest_thrips_short" text="Tripes" />
+        <text name="fh_pest_carrot_fly" text="Mosca da cenoura" />
+        <text name="fh_pest_carrot_fly_short" text="Mosca da cenoura" />
+        <text name="fh_pest_pea_leaf_weevil" text="Sitonas da ervilha" />
+        <text name="fh_pest_pea_leaf_weevil_short" text="Sitonas" />
+        <text name="fh_pest_rootworm" text="Diabrótica do milho" />
+        <text name="fh_pest_rootworm_short" text="Diabrótica" />
+        <text name="fh_pest_ground_beetle" text="Zabro dos cereais" />
+        <text name="fh_pest_ground_beetle_short" text="Zabro" />
+
+        <text name="fh_severity_low" text="ligeiro" />
+        <text name="fh_severity_medium" text="moderado" />
+        <text name="fh_severity_high" text="grave" />
+
+        <!-- Field info (short, so nothing gets cut off) -->
+        <text name="fh_hud_threats" text="Ameaças" />
+        <text name="fh_hud_disease" text="Doença" />
+        <text name="fh_hud_pest" text="Pragas" />
+        <text name="fh_hud_none" text="nenhuma" />
+        <text name="fh_hud_diseaseRisk" text="Risco de doença" />
+        <text name="fh_hud_pestRisk" text="Risco de pragas" />
+        <text name="fh_hud_cause" text="Causa" />
+        <text name="fh_hud_protection" text="Proteção" />
+        <text name="fh_hud_diseaseProtection" text="Proteção – doenças" />
+        <text name="fh_hud_pestProtection" text="Proteção – pragas" />
+        <text name="fh_hud_protected" text="ativa" />
+        <text name="fh_risk_low" text="baixo" />
+        <text name="fh_risk_normal" text="normal" />
+        <text name="fh_risk_elevated" text="elevado" />
+        <text name="fh_risk_high" text="alto" />
+        <text name="fh_cause_fertilizer" text="sem adubação" />
+        <text name="fh_cause_manure" text="estrume fresco" />
+        <text name="fh_cause_fastNitrogen" text="azoto rápido" />
+        <text name="fh_cause_nitrogenDeficit" text="falta de azoto" />
+        <text name="fh_cause_nitrogenExcess" text="excesso de azoto" />
+        <text name="fh_cause_lime" text="solo ácido" />
+        <text name="fh_cause_lightSoil" text="solo ligeiro" />
+        <text name="fh_cause_heavySoil" text="solo pesado" />
+        <text name="fh_cause_plowing" text="sem lavoura" />
+        <text name="fh_cause_stubble" text="restolho" />
+        <text name="fh_cause_rolling" text="sem rolagem" />
+        <text name="fh_cause_weeds" text="infestantes" />
+        <text name="fh_cause_sameCrop" text="monocultura" />
+        <text name="fh_cause_cropFamily" text="cultura semelhante" />
+        <text name="fh_cause_previousCrop" text="mau precedente cultural" />
+        <text name="fh_hint_fungicide" text="Tratamento: aplicar fungicida" />
+        <text name="fh_hint_insecticide" text="Tratamento: aplicar inseticida" />
+        <text name="fh_field_area" text="Área do campo" />
+        <text name="fh_potential_harvest" text="Colheita potencial" />
+        <text name="fh_potential_yield" text="Produção potencial" />
+
+        <!-- Notifications: field number, crop, threat, spray -->
+        <text name="fh_alert_new" text="Campo %s (%s): nova ameaça – %s. Tratamento: %s." />
+        <text name="fh_alert_severe" text="Campo %s (%s): ameaça grave – %s, a cultura está a morrer. Tratamento: %s." />
+        <text name="fh_alert_neighbour" text="Campo %s (%s): %s – veio de um campo vizinho. Tratamento: %s." />
+
+        <!-- Map -->
+        <text name="fh_map_page" text="Proteção das culturas" />
+        <text name="fh_map_layerProtection" text="Proteção" />
+        <text name="fh_map_layerDiseases" text="Doenças" />
+        <text name="fh_map_layerPests" text="Pragas" />
+        <text name="fh_map_layerDiseaseTypes" text="Tipos de doença" />
+        <text name="fh_map_layerPestTypes" text="Tipos de praga" />
+        <text name="fh_map_notSprayed" text="Sem proteção" />
+        <text name="fh_map_oneProduct" text="Um produto" />
+        <text name="fh_map_bothProducts" text="Fungicida e inseticida" />
+        <text name="fh_map_healthy" text="Cultura saudável" />
+        <text name="fh_map_low" text="Ligeiro" />
+        <text name="fh_map_medium" text="Moderado" />
+        <text name="fh_map_high" text="Grave" />
+        <text name="fh_map_diseaseLabel" text="Doença:" />
+        <text name="fh_map_pestLabel" text="Pragas:" />
+        <text name="fh_map_diseaseProtectionLabel" text="Proteção – doenças:" />
+        <text name="fh_map_pestProtectionLabel" text="Proteção – pragas:" />
+        <text name="fh_map_protectedUntilHarvest" text="ativa" />
+        <text name="input_FH_MINIMAP_LAYER" text="Field Health – camada de proteção das culturas no minimapa" />
+
+        <!-- Settings -->
+        <text name="fh_config_brand" text="Marca" />
+        <text name="fh_settings_header" text="Field Health – doenças e pragas" />
+        <text name="fh_setting_enabled" text="Ameaças às culturas" />
+        <text name="fh_setting_enabled_desc" text="Interruptor principal do mod. Quando está desligado, não aparecem novas doenças nem pragas, e as que já existem deixam de se desenvolver e de destruir as culturas. A pulverização continua a funcionar, por isso podes eliminar o que restar nos teus campos." />
+        <text name="fh_setting_diseaseChance" text="Probabilidade de doença por época" />
+        <text name="fh_setting_diseaseChance_desc" text="Probabilidade base de um campo cultivado normalmente apanhar uma doença durante uma época (da sementeira à colheita). É apenas um ponto de partida: uma boa gestão (estrume, culturas de cobertura, rotação, pH e azoto adequados) redu-la, o desleixo (sem adubação, monocultura, sem lavoura, solo ácido) multiplica-a. Aplicar fungicida antes de surgir uma doença redu-la a zero até à colheita. 0% desativa as doenças." />
+        <text name="fh_setting_pestChance" text="Probabilidade de pragas por época" />
+        <text name="fh_setting_pestChance_desc" text="Probabilidade base de aparecerem pragas num campo cultivado normalmente durante uma época. A gestão altera-a: infestantes, monocultura e falta de lavoura aumentam-na, culturas de cobertura e rotação reduzem-na. Aplicar inseticida antes de as pragas aparecerem redu-la a zero até à colheita. 0% desativa as pragas." />
+        <text name="fh_setting_careInfluence" text="Influência da gestão" />
+        <text name="fh_setting_careInfluence_desc" text="O quanto a tua forma de cultivar (adubação, mobilização do solo, rotação, culturas de cobertura, infestantes, dados do Precision Farming) altera as probabilidades base. Nenhuma – conta apenas a probabilidade base e todos os campos são iguais. Baixa – diferenças ligeiras. Normal (recomendada) – uma boa gestão compensa claramente. Alta – os campos desleixados adoecem muitas vezes, os bem cuidados quase nunca." />
+        <text name="fh_setting_weatherInfluence" text="Influência do tempo" />
+        <text name="fh_setting_weatherInfluence_desc" text="O quanto o tempo dos últimos dias (temperatura e chuva) altera a probabilidade de ameaças. As doenças fúngicas gostam de chuva e humidade, a maioria das pragas de tempo quente e seco, e cada ameaça tem a sua gama de temperaturas. Nenhuma – o tempo não conta. Baixa – pequenas diferenças. Normal (recomendada) – diferenças claras. Alta – com tempo favorável as ameaças aparecem muito mais vezes, com tempo desfavorável quase nunca." />
+        <text name="fh_setting_stubbleRisk" text="Risco do restolho" />
+        <text name="fh_setting_stubbleRisk_desc" text="Se o restolho não triturado depois da colheita aumenta o risco (sobretudo de broca do milho e de doenças que sobrevivem nos resíduos). Só conta depois de uma colheita no campo e se o campo não foi lavrado. Os trilhos e caminhos que atravessam o campo nunca contam como restolho. Desligado – o restolho não altera o risco." />
+        <text name="fh_setting_fodderCrops" text="Ameaças em prados e forragens" />
+        <text name="fh_setting_fodderCrops_desc" text="Se os prados, a erva, o trevo e a luzerna podem ter doenças e pragas. Desligado (recomendado) – estas culturas nunca têm ameaças, e as que já existam desaparecem no dia seguinte. Ligado – o trevo e a luzerna podem ter afídeos; os prados e a erva nunca." />
+        <text name="fh_setting_fieldInfo" text="Linhas nas informações do campo" />
+        <text name="fh_setting_fieldInfo_desc" text="Se o painel de informações do campo mostra as ameaças, o risco e a proteção do campo. Desligado – o painel fica como sem o mod; o mapa e o minimapa continuam a mostrar os campos." />
+        <text name="fh_setting_progression" text="Evolução das ameaças" />
+        <text name="fh_setting_progression_desc" text="A rapidez com que uma ameaça não tratada passa à fase seguinte: ligeira, depois moderada, depois grave. Lenta – a cada mês de jogo, Normal – a cada meio mês, Rápida – a cada quarto de mês (pelo menos um dia). Só a fase grave destrói as culturas, por isso um ritmo mais lento dá-te mais tempo para pulverizar." />
+        <text name="fh_setting_spread" text="Extensão das ameaças" />
+        <text name="fh_setting_spread_desc" text="Que parte do campo uma ameaça não tratada pode cobrir. Pequena – até 2,5%, Média – até 5%, Grande – até 10% da área do campo. Um foco alastra de forma irregular pelas margens e, de vez em quando, aparece ao lado um foco novo mais pequeno – normalmente do lado para onde sopra o vento nesse dia. A pulverização elimina a ameaça por completo." />
+        <text name="fh_setting_patchSize" text="Tamanho dos focos" />
+        <text name="fh_setting_patchSize_desc" text="O tamanho dos focos onde uma nova ameaça aparece e cresce. Cada foco tem forma irregular e tamanho aleatório – os pequenos são mais frequentes do que os grandes. Pequenos – focos normalmente com 5–12 m, Normais – 8–20 m, Grandes – 12–30 m. Nos campos pequenos os focos são sempre menores." />
+        <text name="fh_setting_neighbourSpread" text="Contágio a campos vizinhos" />
+        <text name="fh_setting_neighbourSpread_desc" text="Se uma ameaça na margem de um campo pode passar para o campo vizinho de um jogador. Só acontece quando os campos se tocam ou estão separados por uma faixa muito estreita, quando o outro campo tem uma cultura atacada pela ameaça na fase de crescimento certa e quando esse campo não está tratado. As pragas passam mais vezes do que as doenças, e só a partir da fase moderada. Os campos dos NPC nunca são afetados. Desligado, Raramente, Às vezes, Muitas vezes – probabilidade nula, metade, normal e dupla." />
+        <text name="fh_setting_damage" text="Danos na cultura" />
+        <text name="fh_setting_damage_desc" text="Quanta cultura uma ameaça grave destrói por dia. As zonas destruídas não dão nada na colheita. Desligado – as ameaças só se veem, a produção não muda. Baixos, Normais, Altos – 1, 3 ou 6 manchas de poucos metros por dia, sempre dentro da zona afetada." />
+        <text name="fh_setting_protectionThreshold" text="Cobertura para proteção total" />
+        <text name="fh_setting_protectionThreshold_desc" text="Que parte de um campo tem de ser pulverizada para o campo inteiro ficar protegido contra esse tipo de ameaça (doenças ou pragas). Com menos cobertura uma ameaça ainda pode aparecer, mas só nas partes não pulverizadas – as zonas pulverizadas estão sempre protegidas. Predefinição 90%. Um limiar mais baixo perdoa cantos e cunhas esquecidos, um mais alto exige uma pulverização precisa." />
+        <text name="fh_setting_protectionDuration" text="Duração da proteção" />
+        <text name="fh_setting_protectionDuration_desc" text="Quanto tempo o fungicida e o inseticida protegem um campo. Até à colheita – uma pulverização com cada produto protege o campo toda a época (o mais simples). 2 meses, 1 mês, Meio mês – a proteção termina esse tempo depois da última pulverização do campo e tens de pulverizar de novo, como numa exploração a sério." />
+        <text name="fh_setting_fungicideUsage" text="Dose de fungicida" />
+        <text name="fh_setting_fungicideUsage_desc" text="Quanto fungicida um pulverizador gasta por hectare. 100% são cerca de 290 litros de calda por hectare (como o herbicida), ou seja, um frasco de 1 l por hectare. Uma dose mais baixa torna a pulverização mais barata e com menos reabastecimentos, uma mais alta torna-a mais cara. O efeito da pulverização é sempre o mesmo. A alteração aplica-se logo, mesmo durante o trabalho." />
+        <text name="fh_setting_insecticideUsage" text="Dose de inseticida" />
+        <text name="fh_setting_insecticideUsage_desc" text="Quanto inseticida um pulverizador gasta por hectare. 100% são cerca de 290 litros de calda por hectare (como o herbicida), ou seja, um frasco de 1 l por cada 5 hectares. Uma dose mais baixa torna a pulverização mais barata e com menos reabastecimentos, uma mais alta torna-a mais cara. O efeito da pulverização é sempre o mesmo. A alteração aplica-se logo, mesmo durante o trabalho." />
+        <text name="fh_setting_fungicidePrice" text="Preço do frasco de fungicida" />
+        <text name="fh_setting_fungicidePrice_desc" text="Preço na loja de um frasco de 1 l de fungicida. Um frasco chega para 1 hectare (290 l de calda). Predefinição 50. O jogo converte as moedas 1:1. O preço por litro de calda segue este preço, por exemplo ao comprar o líquido numa estação. A alteração aplica-se logo na loja." />
+        <text name="fh_setting_insecticidePrice" text="Preço do frasco de inseticida" />
+        <text name="fh_setting_insecticidePrice_desc" text="Preço na loja de um frasco de 1 l de inseticida. Um frasco chega para 5 hectares (1450 l de calda). Predefinição 80. O jogo converte as moedas 1:1. O preço por litro de calda segue este preço, por exemplo ao comprar o líquido numa estação. A alteração aplica-se logo na loja." />
+        <text name="fh_setting_fungicideCanisterPrice" text="Preço do bidão de 5 l de fungicida" />
+        <text name="fh_setting_fungicideCanisterPrice_desc" text="Preço na loja de um bidão de 5 l de fungicida. Um bidão chega para 5 hectares (1450 l de calda). Predefinição 220, mais barato por litro do que cinco frascos de 1 l, como num revendedor a sério. O jogo converte as moedas 1:1. A alteração aplica-se logo na loja." />
+        <text name="fh_setting_insecticideCanisterPrice" text="Preço do bidão de 5 l de inseticida" />
+        <text name="fh_setting_insecticideCanisterPrice_desc" text="Preço na loja de um bidão de 5 l de inseticida. Um bidão chega para 25 hectares (7250 l de calda). Predefinição 350, mais barato por litro do que cinco frascos de 1 l, como num revendedor a sério. O jogo converte as moedas 1:1. A alteração aplica-se logo na loja." />
+        <text name="fh_setting_fungicideCanister20Price" text="Preço do bidão de 20 l de fungicida" />
+        <text name="fh_setting_fungicideCanister20Price_desc" text="Preço na loja de um bidão de 20 l de fungicida. Um bidão chega para 20 hectares (5800 l de calda). Predefinição 800, a embalagem mais barata por litro. O jogo converte as moedas 1:1. A alteração aplica-se logo na loja." />
+        <text name="fh_setting_insecticideCanister20Price" text="Preço do bidão de 20 l de inseticida" />
+        <text name="fh_setting_insecticideCanister20Price_desc" text="Preço na loja de um bidão de 20 l de inseticida. Um bidão chega para 100 hectares (29 000 l de calda). Predefinição 1200, a embalagem mais barata por litro. O jogo converte as moedas 1:1. A alteração aplica-se logo na loja." />
+        <text name="fh_setting_farmLimit" text="Limite de ameaças por quinta" />
+        <text name="fh_setting_farmLimit_desc" text="Número máximo de novas ameaças em todos os campos da tua quinta por ano de jogo. Sem limite – cada campo tem a sua própria probabilidade. Escolhe, por exemplo, 1 ou 2 se tens muitos campos e queres que as doenças e as pragas sejam raras." />
+        <text name="fh_setting_notifications" text="Avisos de ameaças" />
+        <text name="fh_setting_notifications_desc" text="Mostra uma mensagem quando aparece uma doença ou uma praga no teu campo e quando uma ameaça se torna grave e começa a destruir a cultura. A mensagem indica o campo, a cultura, a ameaça e o produto a aplicar." />
+        <text name="fh_set_on" text="Ligado" />
+        <text name="fh_set_off" text="Desligado" />
+        <text name="fh_set_none" text="Nenhuma" />
+        <text name="fh_set_low" text="Baixa" />
+        <text name="fh_set_normal" text="Normal" />
+        <text name="fh_set_high" text="Alta" />
+        <text name="fh_set_slow" text="Lenta" />
+        <text name="fh_set_normalPace" text="Normal" />
+        <text name="fh_set_fast" text="Rápida" />
+        <text name="fh_set_small" text="Pequena" />
+        <text name="fh_set_medium" text="Média" />
+        <text name="fh_set_large" text="Grande" />
+        <text name="fh_set_damageLow" text="Baixos" />
+        <text name="fh_set_damageNormal" text="Normais" />
+        <text name="fh_set_damageHigh" text="Altos" />
+        <text name="fh_set_untilHarvest" text="Até à colheita" />
+        <text name="fh_set_twoMonths" text="2 meses" />
+        <text name="fh_set_oneMonth" text="1 mês" />
+        <text name="fh_set_halfMonth" text="Meio mês" />
+        <text name="fh_set_unlimited" text="Sem limite" />
+        <text name="fh_set_patchSmall" text="Pequenos" />
+        <text name="fh_set_patchNormal" text="Normais" />
+        <text name="fh_set_patchLarge" text="Grandes" />
+        <text name="fh_set_rarely" text="Raramente" />
+        <text name="fh_set_sometimes" text="Às vezes" />
+        <text name="fh_set_often" text="Muitas vezes" />
+
+        <!-- Shop -->
+        <text name="fh_fillType_insecticide" text="Inseticida" />
+        <text name="fh_fillType_fungicide" text="Fungicida" />
+        <text name="fh_store_fungicideBottle" text="Fungicida 1 l" />
+        <text name="fh_store_insecticideBottle" text="Inseticida 1 l" />
+        <text name="fh_store_fungicideCanister" text="Fungicida 5 l" />
+        <text name="fh_store_insecticideCanister" text="Inseticida 5 l" />
+        <text name="fh_store_fungicideCanister20" text="Fungicida 20 l" />
+        <text name="fh_store_insecticideCanister20" text="Inseticida 20 l" />
+        <text name="fh_function_fungicideBottle" text="Frasco de 1 l de concentrado, dose de 1 l/ha. Chega para 1 ha, ou seja, 290 l de calda. Protege as culturas contra todas as doenças. Coloca-o junto a um pulverizador e enche o pulverizador a partir dele." />
+        <text name="fh_function_insecticideBottle" text="Frasco de 1 l de concentrado, dose de 0,2 l/ha. Chega para 5 ha, ou seja, 1450 l de calda. Protege as culturas contra pragas: afídeos, lema, meligetes, escaravelho da batateira, broca do milho e alfinetes. Coloca-o junto a um pulverizador e enche o pulverizador a partir dele." />
+        <text name="fh_function_fungicideCanister" text="Bidão de 5 l de concentrado, dose de 1 l/ha. Chega para 5 ha, ou seja, 1450 l de calda. Protege as culturas contra todas as doenças. Mais barato por litro do que os frascos de 1 l. Coloca-o junto a um pulverizador e enche o pulverizador a partir dele." />
+        <text name="fh_function_insecticideCanister" text="Bidão de 5 l de concentrado, dose de 0,2 l/ha. Chega para 25 ha, ou seja, 7250 l de calda. Protege as culturas contra pragas. Mais barato por litro do que os frascos de 1 l. Coloca-o junto a um pulverizador e enche o pulverizador a partir dele." />
+        <text name="fh_function_fungicideCanister20" text="Bidão de 20 l de concentrado, dose de 1 l/ha. Chega para 20 ha, ou seja, 5800 l de calda. Protege as culturas contra todas as doenças. O mais barato por litro, para grandes explorações. Coloca-o junto a um pulverizador e enche o pulverizador a partir dele." />
+        <text name="fh_function_insecticideCanister20" text="Bidão de 20 l de concentrado, dose de 0,2 l/ha. Chega para 100 ha, ou seja, 29 000 l de calda. Protege as culturas contra pragas. O mais barato por litro, para grandes explorações. Coloca-o junto a um pulverizador e enche o pulverizador a partir dele." />
+
+        <!-- Help (ESC → Help) -->
+        <text name="fh_help_header" text="Field Health – doenças e pragas" />
+
+        <text name="fh_help_intro" text="Introdução" />
+        <text name="fh_help_intro_01" text="Sobre o mod" />
+        <text name="fh_help_intro_02" text="O Field Health traz para o jogo as doenças e pragas das culturas com que os agricultores na Polónia lidam todos os dias. Aparecem nos campos da tua quinta durante a época, desenvolvem-se e, se não as combateres, destroem parte da cultura. Há dois produtos na loja para as combater: o fungicida contra as doenças e o inseticida contra as pragas.
+O mod é realista, mas tolerante para quem joga de forma descontraída: uma ameaça nunca cobre o campo inteiro, a cultura só é destruída na fase mais grave e uma única pulverização bem feita com cada produto protege o campo até ao fim da época." />
+        <text name="fh_help_intro_03" text="A época passo a passo" />
+        <text name="fh_help_intro_04" text="1. A sementeira inicia a época da cultura. A partir desse dia a pressão de infeção no campo vai subindo – mais depressa na altura do ano e na fase de crescimento em que uma ameaça ataca, com o tempo que lhe convém e num campo desleixado.
+2. Quando a pressão ultrapassa o limiar sorteado para o campo, aparece um foco de doença ou de pragas. Recebes um aviso com o número do campo e o produto a aplicar.
+3. Uma ameaça não tratada piora uma fase a cada meio mês e alastra devagar. Na fase grave destrói todos os dias pequenas manchas da cultura.
+4. A pulverização elimina a ameaça e protege as zonas pulverizadas. Um campo pulverizado quase por inteiro fica imune a esse tipo de ameaça até à colheita.
+5. A colheita encerra a época: as ameaças e a proteção desaparecem, e a cultura colhida passa a ser o precedente cultural da seguinte." />
+        <text name="fh_help_intro_05" text="Números principais" />
+        <text name="fh_help_intro_06" text="Valores predefinidos. O administrador pode alterar cada um deles nas definições (última coluna)." />
+        <text name="fh_help_intro_08" text="Onde ver o estado dos teus campos" />
+        <text name="fh_help_intro_09" text="– Painel de informações do campo (quando estás num campo): as ameaças com a sua gravidade, o risco com a causa principal e a proteção do campo.
+– Mapa (ESC &gt; Mapa &gt; Proteção das culturas): cinco camadas – proteção, doenças, pragas, tipos de doença e tipos de praga.
+– Minimapa: muda de camada com Alt esquerdo + \.
+– Avisos: de uma nova ameaça, da fase grave e de uma ameaça vinda de um campo vizinho." />
+        <text name="fh_help_origin" text="De onde vêm as ameaças" />
+        <text name="fh_help_origin_01" text="Cada campo de um jogador com uma cultura em crescimento pode ter, no máximo, uma doença e um tipo de praga por época. Os campos dos NPC, o choupo e as culturas de cobertura nunca têm ameaças; os prados, a erva, o trevo e a luzerna só se isso estiver ativado nas definições.
+Uma ameaça não aparece num dia ao acaso. Todos os dias o mod calcula a pressão de infeção no campo e soma-a à dos dias anteriores. No início da época o campo recebe um limiar de resistência aleatório – quando a soma da pressão o ultrapassa, o campo fica infetado. É por isso que uma ameaça aparece cedo numa época, tarde noutra e nem aparece numa terceira." />
+        <text name="fh_help_origin_02" text="O que faz subir a pressão" />
+        <text name="fh_help_origin_03" text="1. A probabilidade base das definições – por predefinição 15% para uma doença e 10% para pragas numa época.
+2. O risco do campo, ou seja, como o cultivas: adubação, mobilização do solo, rotação e infestantes (página «Como cultivas»).
+3. O quão comum é a ameaça na Polónia – doenças e pragas comuns aparecem muito mais vezes do que as raras (páginas «Doenças» e «Pragas»).
+4. A altura do ano e a fase de crescimento – fora da sua altura uma ameaça não ataca de todo (página «Épocas e fases de crescimento»).
+5. O tempo dos últimos dias – a chuva favorece as doenças fúngicas, o calor e a secura a maioria das pragas (página «Meteorologia»)." />
+        <text name="fh_help_origin_04" text="Probabilidade por época" />
+        <text name="fh_help_origin_05" text="É assim que o risco do campo altera a probabilidade de uma ameaça ao longo de toda a época, com as definições predefinidas:" />
+        <text name="fh_help_origin_07" text="A tabela aplica-se a uma cultura com um número médio de ameaças, que cresce durante todo o período delas. As culturas atacadas por muitas doenças ou pragas comuns sofrem-nas mais vezes (até 1,4 vezes), as que têm poucas ameaças menos vezes (até 0,5 vezes):" />
+        <text name="fh_help_origin_09" text="Que ameaça aparece" />
+        <text name="fh_help_origin_10" text="Quando há uma infeção, o mod escolhe uma das ameaças que podem atacar a cultura nesse dia. A probabilidade de cada uma é proporcional à sua pressão do dia: o quão comum é, multiplicado pelo risco do campo, pela altura do ano e pelo tempo. Exemplo: no trigo, em maio e com tempo chuvoso, aparecem sobretudo a septoriose ou o oídio, enquanto a ferrugem negra, rara e amiga do calor, quase nunca." />
+        <text name="fh_help_origin_11" text="Pulverizar antes da infeção" />
+        <text name="fh_help_origin_12" text="Se no momento da infeção o campo estiver pulverizado com o produto certo em pelo menos 90% da área, a infeção falha e o campo não terá nenhuma ameaça desse tipo nesta época. Com menos cobertura a ameaça pode aparecer, mas só nas partes não pulverizadas." />
+        <text name="fh_help_timing" text="Épocas e fases de crescimento" />
+        <text name="fh_help_timing_01" text="Cada doença e cada praga tem a sua altura: só ataca em certos meses e em certas fases de crescimento da cultura. Dentro desse período tem um pico em que é mais perigosa. Fora da sua altura uma ameaça não aparece de todo – e também não pode vir de um campo vizinho." />
+        <text name="fh_help_timing_02" text="Fases de crescimento" />
+        <text name="fh_help_timing_04" text="O mod deduz a fase a partir do estado de crescimento da cultura no jogo: os primeiros 20% do tempo de crescimento são a emergência, até 45% o desenvolvimento das folhas e o afilhamento, até 70% o encanamento ou a formação de botões, depois vêm o espigamento e a floração, e uma cultura pronta a colher está madura. Os meses seguem o calendário do jogo (o primeiro período do ano é março), por isso o número de dias por período não muda a altura em que as ameaças atacam." />
+        <text name="fh_help_timing_05" text="Calendário – quando ter cuidado" />
+        <text name="fh_help_timing_06" text="Os meses principais são aqueles em que a pressão do grupo de ameaças sobre a cultura é maior. Pulverizar pouco antes evita a maioria das infeções." />
+        <text name="fh_help_farming" text="Como cultivas" />
+        <text name="fh_help_farming_01" text="O risco do campo é um multiplicador da pressão de infeção que depende da forma como cultivas o campo. O mod calcula-o para cada ameaça separadamente; o painel de informações do campo mostra o risco mais alto de doença e de pragas, e a causa principal. Os multiplicadores das tabelas multiplicam-se entre si, e o resultado fica sempre entre 0,3 e 5." />
+        <text name="fh_help_farming_03" text="Adubação" />
+        <text name="fh_help_farming_05" text="Mobilização do solo e infestantes" />
+        <text name="fh_help_farming_07" text="Os valores são para um campo totalmente desleixado – um desleixo parcial aumenta o risco na mesma proporção. Só contam os trabalhos ativados nas definições do jogo: sem lavoura obrigatória, não lavrar não muda nada. O mod verifica o campo em 36 pontos e só onde a cultura cresce, por isso os trilhos e caminhos que atravessam o campo não contam como desleixo. O restolho não triturado e a falta de rolagem só contam como desleixo quando abrangem três quartos do campo. O restolho só conta depois de uma colheita neste campo e não depois de uma lavoura (a definição «Risco do restolho» desliga-o por completo). No FS25 as infestantes não crescem depois da lavoura." />
+        <text name="fh_help_farming_08" text="Rotação e culturas de cobertura" />
+        <text name="fh_help_farming_10" text="A definição «Influência da gestão» reforça ou enfraquece todos estes fatores de uma vez. Nenhuma – todos os campos têm risco 1. Baixa – as diferenças ficam mais ou menos a metade. Normal – como nas tabelas. Alta – as diferenças ficam uma vez e meia maiores." />
+        <text name="fh_help_weather" text="Meteorologia" />
+        <text name="fh_help_weather_01" text="A cada hora de jogo o mod lê a temperatura e verifica se está a chover. No fim do dia calcula a temperatura média do dia e a parte das horas com chuva. A humidade tem memória: metade vem do último dia e metade dos dias anteriores, porque as folhas ficam molhadas muito tempo depois da chuva. Cada ameaça tem um perfil meteorológico – uma gama de temperaturas e uma reação à chuva." />
+        <text name="fh_help_weather_03" text="Uma temperatura fora da gama baixa a pressão para 0,4 vezes, uma temperatura ótima sobe-a para 1,2 vezes. A chuva altera a pressão de 0,4 a 1,8 vezes – para cima nas ameaças que gostam de humidade, para baixo nas que gostam de secura. No total, o tempo altera a pressão de 0,2 a 2,5 vezes. Multiplicadores de exemplo após alguns dias com esse tempo (vermelho – a ameaça cresce, verde – diminui):" />
+        <text name="fh_help_weather_05" text="A definição «Influência do tempo»: Nenhuma – o tempo não conta, Baixa – multiplicadores mais suaves, Normal – como na tabela, Alta – mais fortes. Depois de alguns dias quentes e chuvosos no verão, vigia sobretudo as batatas e os cereais em espigamento; num verão seco e quente, as pragas." />
+        <text name="fh_help_diseases" text="Doenças" />
+        <text name="fh_help_diseases_01" text="O fungicida combate todas as doenças. As tabelas mostram o quão comum é uma doença na Polónia, que culturas ataca, em que meses aparece e quando é pior, em que fase de crescimento faz mais estragos e o que a favorece." />
+        <text name="fh_help_diseases_03" text="Cereais e milho" />
+        <text name="fh_help_diseases_05" text="Outras culturas" />
+        <text name="fh_help_diseases_07" text="As culturas de mapas que o mod não conhece podem ter podridão cinzenta e afídeos. As cebolas da expansão Highlands Fishing e de mods são reconhecidas automaticamente." />
+        <text name="fh_help_pests" text="Pragas" />
+        <text name="fh_help_pests_01" text="O inseticida combate todas as pragas. As colunas das tabelas têm o mesmo significado que na página «Doenças»." />
+        <text name="fh_help_pests_02" text="Cereais e milho" />
+        <text name="fh_help_pests_04" text="Outras culturas" />
+        <text name="fh_help_progress" text="Como evolui uma ameaça" />
+        <text name="fh_help_progress_01" text="Uma nova ameaça surge como um ou dois focos irregulares, com a orla esfarrapada e falhas saudáveis no meio. Começa na fase ligeira. Se não a combateres, passa por estas etapas:" />
+        <text name="fh_help_progress_03" text="A cultura destruída não volta a crescer e não dá nada na colheita. Por isso pulverizar antecipadamente ou logo a seguir ao aviso sai mais barato. Uma pulverização em qualquer fase elimina por completo a ameaça das zonas pulverizadas." />
+        <text name="fh_help_spraying" text="Pulverização e proteção" />
+        <text name="fh_help_spraying_01" text="Os produtos são fabricados pela empresa polaca Opryskex: o fungicida Grzybobój 250 EC (rótulo verde) e o inseticida Robalex 100 CS (rótulo vermelho). Na compra podes escolher, em vez dela, a marca MST (Mafia Solec Team): Solectop 280 SC e Mafiozol 50 EW. Funcionam da mesma maneira, só o rótulo muda. Compram-se na loja em frascos de 1 l e em bidões de 5 l e 20 l. Coloca a embalagem junto ao pulverizador e enche o pulverizador como a partir de uma palete. O jogo não mistura o concentrado com água, por isso o conteúdo de uma embalagem é toda a calda que ela rende. Quanto maior a embalagem, mais barato fica por hectare." />
+        <text name="fh_help_spraying_03" text="Como funciona a proteção" />
+        <text name="fh_help_spraying_05" text="Atenção" />
+        <text name="fh_help_spraying_06" text="– Pulveriza depois da emergência – a sementeira e a colheita retiram a proteção.
+– O fungicida não protege contra pragas e o inseticida não protege contra doenças. Para uma proteção total são precisos os dois.
+– Cunhas e cabeceiras esquecidas contam: abaixo de 90% de cobertura uma ameaça pode aparecer nas faixas não pulverizadas.
+– Os produtos não adubam nem eliminam as infestantes.
+– Com uma proteção mais curta (definição), a proteção de todo o campo termina esse tempo depois da última pulverização." />
+        <text name="fh_help_map" text="Mapa e informações do campo" />
+        <text name="fh_help_map_01" text="Painel de informações do campo" />
+        <text name="fh_help_map_02" text="Quando estás num campo, o painel de informações do campo mostra:
+– Doença e Pragas: a ameaça ativa e a sua gravidade (ligeiro, moderado, grave),
+– Risco de doença e Risco de pragas: baixo, normal, elevado ou alto, e a partir de elevado também a causa principal,
+– Proteção – doenças e Proteção – pragas: que parte do campo está pulverizada,
+– uma indicação do produto que combate a ameaça." />
+        <text name="fh_help_map_03" text="Mapa" />
+        <text name="fh_help_map_04" text="Em ESC &gt; Mapa escolhe a página «Proteção das culturas». Por baixo do título, um segundo seletor com setas alterna entre cinco camadas. Clicar numa entrada da legenda esconde-a no mapa. Só são mostrados os campos da tua quinta com uma cultura em crescimento. Clica num terreno para ver as ameaças e a proteção dos seus campos." />
+        <text name="fh_help_map_06" text="Cores dos tipos de ameaça" />
+        <text name="fh_help_map_08" text="Minimapa" />
+        <text name="fh_help_map_09" text="Alt esquerdo + \ muda a camada do minimapa: proteção, doenças, pragas e nenhuma camada. Podes mudar as teclas durante o jogo em ESC &gt; Definições &gt; Controlos, na entrada «Field Health – camada de proteção das culturas no minimapa» (o menu principal não mostra as teclas dos mods, porque os mods são carregados com o jogo guardado)." />
+        <text name="fh_help_pf" text="Precision Farming" />
+        <text name="fh_help_pf_01" text="Com o Precision Farming, o Field Health funciona como uma extensão dele e usa os seus mapas do solo. Em vez da adubação em geral conta o azoto em comparação com o valor-alvo, e em vez da calagem em geral, o pH do solo." />
+        <text name="fh_help_pf_03" text="A melhor proteção é o mesmo trabalho que fazes pela produção: adubar até ao valor-alvo, fazer a calagem até ao pH ótimo e semear culturas de cobertura. O comando de consola fhPrecisionFarming escreve no log como o mod lê os dados do Precision Farming." />
+        <text name="fh_help_settings" text="Definições" />
+        <text name="fh_help_settings_01" text="As definições do mod estão em ESC &gt; Definições &gt; Jogo, na secção «Field Health – doenças e pragas». São guardadas com o jogo. No modo multijogador só o administrador do servidor as pode alterar. Passa o rato por cima de uma opção para ver a sua descrição." />
+        <text name="fh_help_tips" text="Dicas" />
+        <text name="fh_help_tips_01" text="Um plano para campos saudáveis" />
+        <text name="fh_help_tips_02" text="1. Aduba conforme as necessidades, faz a calagem e não semeies a mesma cultura dois anos seguidos. Entre as culturas principais semeia uma cultura de cobertura.
+2. Antes dos meses principais das ameaças (página «Épocas e fases de crescimento») pulveriza o campo com fungicida e inseticida. Uma vez por época chega, se cobrires pelo menos 90% do campo.
+3. Consulta a camada «Proteção» no mapa – os campos verdes estão protegidos contra os dois tipos de ameaça.
+4. Depois de um aviso, pulveriza o campo indicado com o produto indicado antes de a ameaça chegar à fase grave.
+5. Um trabalhador IA com fungicida ou inseticida pulveriza por completo os campos sem proteção e os protegidos só onde há uma ameaça." />
+        <text name="fh_help_tips_03" text="Atenção" />
+        <text name="fh_help_tips_04" text="– A monocultura e a falta de lavoura são as causas mais comuns de risco alto, por exemplo trigo sobre trigo sem lavoura favorece a septoriose, a mancha amarela e a fusariose.
+– O milho antes do trigo aumenta claramente o risco de fusariose, o prado antes da batata o risco de alfinetes.
+– O chorume e o fertilizante líquido dão uma vegetação luxuriante, de que gostam o oídio, as ferrugens e os afídeos.
+– Um verão chuvoso é a altura do míldio, da septoriose e da fusariose; um verão seco e quente, a dos afídeos, do escaravelho, dos tripes e das roscas.
+– A colza tem duas alturas perigosas: o outono (altises, mosca-serra, phoma) e a primavera (gorgulho do caule, meligetes, esclerotínia).
+– Uma ameaça na fase moderada ou grave pode passar para um campo de um jogador que faça fronteira." />
+        <text name="fh_help_admin" text="Para o administrador" />
+        <text name="fh_help_admin_01" text="Comandos da consola" />
+        <text name="fh_help_admin_03" text="Multijogador, jogo guardado e compatibilidade" />
+        <text name="fh_help_admin_04" text="– A simulação corre no servidor e os jogadores veem os seus resultados. As definições e os comandos fhSet, fhClear e fhDailyTick são só para o administrador.
+– Os avisos vão para os jogadores da quinta dona do campo, cada um no seu idioma.
+– O mod guarda os seus dados apenas em dois ficheiros próprios na pasta do jogo guardado: fieldHealth.xml e fieldHealthMap.grle. Pode ser removido em segurança – o jogo ignora esses ficheiros e do mapa só desaparecem os frascos e bidões dos produtos.
+– Os jogos guardados de uma versão anterior do mod são convertidos para o novo formato ao carregar.
+– As cebolas da expansão Highlands Fishing e de mods são reconhecidas automaticamente – o log indica-o.
+– Não uses ao mesmo tempo outro mod de doenças das culturas (por ex. Crop Diseases) – o Field Health avisa disso no log." />
+        <text name="fh_help_admin_05" text="Créditos" />
+        <text name="fh_help_admin_06" text="Field Health – autor: MatrikSky. Ideia retirada do mod «Crop Diseases» de BMP. O modelo do frasco baseia-se em «fertilizer Bottle» de shabanimate e o do bidão em «#6 Plastic Canister» de hoxsvl (ambos CC BY 4.0, sketchfab.com)." />
+        <text name="fh_help_tableLanguage" text="en" />
+
+
+
+
+
+
+
+
+
+
+    </texts>
+</l10n>

@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+    <texts>
+        <!-- Diseases (full and short name) -->
+        <text name="fh_disease_cereal_mildew" text="Făinarea cerealelor" />
+        <text name="fh_disease_cereal_mildew_short" text="Făinare" />
+        <text name="fh_disease_septoria" text="Septorioză" />
+        <text name="fh_disease_septoria_short" text="Septorioză" />
+        <text name="fh_disease_brown_rust" text="Rugina brună" />
+        <text name="fh_disease_brown_rust_short" text="Rugina brună" />
+        <text name="fh_disease_fusarium" text="Fuzarioză" />
+        <text name="fh_disease_fusarium_short" text="Fuzarioză" />
+        <text name="fh_disease_net_blotch" text="Pătarea în rețea a orzului" />
+        <text name="fh_disease_net_blotch_short" text="Pătarea în rețea" />
+        <text name="fh_disease_snow_mould" text="Mucegaiul de zăpadă" />
+        <text name="fh_disease_snow_mould_short" text="Mucegaiul de zăpadă" />
+        <text name="fh_disease_sclerotinia" text="Putregaiul alb" />
+        <text name="fh_disease_sclerotinia_short" text="Sclerotinia" />
+        <text name="fh_disease_alternaria" text="Alternarioză" />
+        <text name="fh_disease_alternaria_short" text="Alternarioză" />
+        <text name="fh_disease_late_blight" text="Mana cartofului" />
+        <text name="fh_disease_late_blight_short" text="Mana cartofului" />
+        <text name="fh_disease_cercospora" text="Cercosporioză" />
+        <text name="fh_disease_cercospora_short" text="Cercosporioză" />
+        <text name="fh_disease_grey_mould" text="Putregaiul cenușiu" />
+        <text name="fh_disease_grey_mould_short" text="Putregaiul cenușiu" />
+        <text name="fh_disease_yellow_rust" text="Rugina galbenă" />
+        <text name="fh_disease_yellow_rust_short" text="Rugina galbenă" />
+        <text name="fh_disease_tan_spot" text="Pătarea gălbuie a grâului" />
+        <text name="fh_disease_tan_spot_short" text="Pătarea gălbuie" />
+        <text name="fh_disease_eyespot" text="Frângerea paiului" />
+        <text name="fh_disease_eyespot_short" text="Frângerea paiului" />
+        <text name="fh_disease_rhynchosporium" text="Rincosporioză" />
+        <text name="fh_disease_rhynchosporium_short" text="Rincosporioză" />
+        <text name="fh_disease_ramularia" text="Ramularioză" />
+        <text name="fh_disease_ramularia_short" text="Ramularioză" />
+        <text name="fh_disease_stem_rust" text="Rugina neagră" />
+        <text name="fh_disease_stem_rust_short" text="Rugina neagră" />
+        <text name="fh_disease_phoma" text="Phoma (putregaiul tulpinii)" />
+        <text name="fh_disease_phoma_short" text="Phoma" />
+        <text name="fh_disease_cylindrosporiosis" text="Cilindrosporioză" />
+        <text name="fh_disease_cylindrosporiosis_short" text="Cilindrosporioză" />
+        <text name="fh_disease_beet_mildew" text="Făinarea sfeclei" />
+        <text name="fh_disease_beet_mildew_short" text="Făinarea sfeclei" />
+        <text name="fh_disease_ascochyta" text="Ascochitoză" />
+        <text name="fh_disease_ascochyta_short" text="Ascochitoză" />
+        <text name="fh_disease_downy_mildew" text="Mană" />
+        <text name="fh_disease_downy_mildew_short" text="Mană" />
+        <text name="fh_disease_corn_leaf_blight" text="Helmintosporioza porumbului" />
+        <text name="fh_disease_corn_leaf_blight_short" text="Helmintosporioză" />
+        <text name="fh_disease_crown_rust" text="Rugina coronată a ovăzului" />
+        <text name="fh_disease_crown_rust_short" text="Rugina coronată" />
+
+        <!-- Pests (full and short name) -->
+        <text name="fh_pest_aphids" text="Afide" />
+        <text name="fh_pest_aphids_short" text="Afide" />
+        <text name="fh_pest_leaf_beetle" text="Gândacul bălos al cerealelor" />
+        <text name="fh_pest_leaf_beetle_short" text="Gândacul bălos" />
+        <text name="fh_pest_pollen_beetle" text="Gândacul lucios al rapiței" />
+        <text name="fh_pest_pollen_beetle_short" text="Gândacul lucios" />
+        <text name="fh_pest_potato_beetle" text="Gândacul din Colorado" />
+        <text name="fh_pest_potato_beetle_short" text="Gândacul din Colorado" />
+        <text name="fh_pest_corn_borer" text="Sfredelitorul porumbului" />
+        <text name="fh_pest_corn_borer_short" text="Sfredelitorul" />
+        <text name="fh_pest_wireworm" text="Viermi sârmă" />
+        <text name="fh_pest_wireworm_short" text="Viermi sârmă" />
+        <text name="fh_pest_stem_weevil" text="Gărgărița tulpinilor de rapiță" />
+        <text name="fh_pest_stem_weevil_short" text="Gărgărița tulpinilor" />
+        <text name="fh_pest_seed_weevil" text="Gărgărița semințelor de rapiță" />
+        <text name="fh_pest_seed_weevil_short" text="Gărgărița semințelor" />
+        <text name="fh_pest_flea_beetle" text="Puricii de pământ" />
+        <text name="fh_pest_flea_beetle_short" text="Puricii de pământ" />
+        <text name="fh_pest_turnip_sawfly" text="Viespea rapiței" />
+        <text name="fh_pest_turnip_sawfly_short" text="Viespea rapiței" />
+        <text name="fh_pest_frit_fly" text="Musca suedeză" />
+        <text name="fh_pest_frit_fly_short" text="Musca suedeză" />
+        <text name="fh_pest_wheat_midge" text="Țânțarul grâului" />
+        <text name="fh_pest_wheat_midge_short" text="Țânțarul grâului" />
+        <text name="fh_pest_cutworm" text="Buha semănăturilor" />
+        <text name="fh_pest_cutworm_short" text="Buha semănăturilor" />
+        <text name="fh_pest_beet_fly" text="Musca sfeclei" />
+        <text name="fh_pest_beet_fly_short" text="Musca sfeclei" />
+        <text name="fh_pest_onion_fly" text="Musca cepei" />
+        <text name="fh_pest_onion_fly_short" text="Musca cepei" />
+        <text name="fh_pest_thrips" text="Tripși" />
+        <text name="fh_pest_thrips_short" text="Tripși" />
+        <text name="fh_pest_carrot_fly" text="Musca morcovului" />
+        <text name="fh_pest_carrot_fly_short" text="Musca morcovului" />
+        <text name="fh_pest_pea_leaf_weevil" text="Gărgărița frunzelor de mazăre" />
+        <text name="fh_pest_pea_leaf_weevil_short" text="Gărgărița mazării" />
+        <text name="fh_pest_rootworm" text="Viermele vestic al rădăcinilor de porumb" />
+        <text name="fh_pest_rootworm_short" text="Diabrotica" />
+        <text name="fh_pest_ground_beetle" text="Gândacul ghebos" />
+        <text name="fh_pest_ground_beetle_short" text="Gândacul ghebos" />
+
+        <text name="fh_severity_low" text="ușor" />
+        <text name="fh_severity_medium" text="mediu" />
+        <text name="fh_severity_high" text="grav" />
+
+        <!-- Field info (short, so nothing gets cut off) -->
+        <text name="fh_hud_threats" text="Amenințări" />
+        <text name="fh_hud_disease" text="Boală" />
+        <text name="fh_hud_pest" text="Dăunători" />
+        <text name="fh_hud_none" text="niciuna" />
+        <text name="fh_hud_diseaseRisk" text="Risc de boli" />
+        <text name="fh_hud_pestRisk" text="Risc de dăunători" />
+        <text name="fh_hud_cause" text="Cauză" />
+        <text name="fh_hud_protection" text="Protecție" />
+        <text name="fh_hud_diseaseProtection" text="Protecție – boli" />
+        <text name="fh_hud_pestProtection" text="Protecție – dăunători" />
+        <text name="fh_hud_protected" text="activă" />
+        <text name="fh_risk_low" text="scăzut" />
+        <text name="fh_risk_normal" text="normal" />
+        <text name="fh_risk_elevated" text="ridicat" />
+        <text name="fh_risk_high" text="mare" />
+        <text name="fh_cause_fertilizer" text="fără fertilizare" />
+        <text name="fh_cause_manure" text="gunoi de grajd proaspăt" />
+        <text name="fh_cause_fastNitrogen" text="azot rapid" />
+        <text name="fh_cause_nitrogenDeficit" text="lipsă de azot" />
+        <text name="fh_cause_nitrogenExcess" text="exces de azot" />
+        <text name="fh_cause_lime" text="sol acid" />
+        <text name="fh_cause_lightSoil" text="sol ușor" />
+        <text name="fh_cause_heavySoil" text="sol greu" />
+        <text name="fh_cause_plowing" text="fără arătură" />
+        <text name="fh_cause_stubble" text="miriște" />
+        <text name="fh_cause_rolling" text="fără tăvălugire" />
+        <text name="fh_cause_weeds" text="buruieni" />
+        <text name="fh_cause_sameCrop" text="monocultură" />
+        <text name="fh_cause_cropFamily" text="cultură înrudită" />
+        <text name="fh_cause_previousCrop" text="premergătoare nefavorabilă" />
+        <text name="fh_hint_fungicide" text="Tratament: fungicid" />
+        <text name="fh_hint_insecticide" text="Tratament: insecticid" />
+        <text name="fh_field_area" text="Suprafața parcelei" />
+        <text name="fh_potential_harvest" text="Recoltă potențială" />
+        <text name="fh_potential_yield" text="Producție potențială" />
+
+        <!-- Notifications: field number, crop, threat, spray -->
+        <text name="fh_alert_new" text="Parcela %s (%s): amenințare nouă – %s. Tratament: %s." />
+        <text name="fh_alert_severe" text="Parcela %s (%s): amenințare gravă – %s, cultura piere. Tratament: %s." />
+        <text name="fh_alert_neighbour" text="Parcela %s (%s): %s – răspândire de pe o parcelă vecină. Tratament: %s." />
+
+        <!-- Map -->
+        <text name="fh_map_page" text="Protecția plantelor" />
+        <text name="fh_map_layerProtection" text="Protecție" />
+        <text name="fh_map_layerDiseases" text="Boli" />
+        <text name="fh_map_layerPests" text="Dăunători" />
+        <text name="fh_map_layerDiseaseTypes" text="Tipuri de boli" />
+        <text name="fh_map_layerPestTypes" text="Tipuri de dăunători" />
+        <text name="fh_map_notSprayed" text="Neprotejat" />
+        <text name="fh_map_oneProduct" text="Un produs" />
+        <text name="fh_map_bothProducts" text="Fungicid și insecticid" />
+        <text name="fh_map_healthy" text="Cultură sănătoasă" />
+        <text name="fh_map_low" text="Ușor" />
+        <text name="fh_map_medium" text="Mediu" />
+        <text name="fh_map_high" text="Grav" />
+        <text name="fh_map_diseaseLabel" text="Boală:" />
+        <text name="fh_map_pestLabel" text="Dăunători:" />
+        <text name="fh_map_diseaseProtectionLabel" text="Protecție – boli:" />
+        <text name="fh_map_pestProtectionLabel" text="Protecție – dăunători:" />
+        <text name="fh_map_protectedUntilHarvest" text="activă" />
+        <text name="input_FH_MINIMAP_LAYER" text="Field Health – stratul protecției plantelor pe minihartă" />
+
+        <!-- Settings -->
+        <text name="fh_config_brand" text="Marcă" />
+        <text name="fh_settings_header" text="Field Health – boli și dăunători" />
+        <text name="fh_setting_enabled" text="Amenințări pentru culturi" />
+        <text name="fh_setting_enabled_desc" text="Comutatorul principal al modului. Când este dezactivat, nu mai apar boli sau dăunători noi, iar cele existente nu se mai dezvoltă și nu mai distrug culturile. Stropirea funcționează în continuare, așa că poți elimina ce a rămas pe parcele." />
+        <text name="fh_setting_diseaseChance" text="Șansa de boală pe sezon" />
+        <text name="fh_setting_diseaseChance_desc" text="Șansa de bază ca o parcelă lucrată normal să se îmbolnăvească într-un sezon (de la semănat la recoltare). Este doar un punct de plecare: o tehnologie bună (gunoi de grajd, culturi intermediare, rotația culturilor, pH și azot potrivite) o scade, neglijența (fără fertilizare, monocultură, fără arătură, sol acid) o crește de câteva ori. Stropirea cu fungicid înainte să apară o boală o reduce la zero până la recoltare. 0% dezactivează bolile." />
+        <text name="fh_setting_pestChance" text="Șansa de dăunători pe sezon" />
+        <text name="fh_setting_pestChance_desc" text="Șansa de bază ca pe o parcelă lucrată normal să apară dăunători într-un sezon. Tehnologia o schimbă: buruienile, monocultura și lipsa arăturii o cresc, culturile intermediare și rotația o scad. Stropirea cu insecticid înainte să apară dăunătorii o reduce la zero până la recoltare. 0% dezactivează dăunătorii." />
+        <text name="fh_setting_careInfluence" text="Influența tehnologiei" />
+        <text name="fh_setting_careInfluence_desc" text="Cât de mult schimbă felul în care lucrezi (fertilizare, lucrările solului, rotația culturilor, culturi intermediare, buruieni, datele Agriculturii de precizie) șansele de bază. Deloc – contează doar șansa de bază și toate parcelele sunt egale. Mică – diferențe ușoare. Normală (recomandat) – o tehnologie bună se vede clar. Mare – parcelele neglijate se îmbolnăvesc foarte des, cele îngrijite aproape niciodată." />
+        <text name="fh_setting_weatherInfluence" text="Influența vremii" />
+        <text name="fh_setting_weatherInfluence_desc" text="Cât de mult schimbă vremea din ultimele zile (temperatura și ploaia) șansa amenințărilor. Bolile fungice iubesc ploaia și umezeala, majoritatea dăunătorilor vremea caldă și uscată, iar fiecare amenințare are propriul interval de temperatură. Deloc – vremea nu contează. Mică – diferențe mici. Normală (recomandat) – diferențe clare. Mare – pe vreme favorabilă amenințările apar mult mai des, pe vreme nefavorabilă aproape deloc." />
+        <text name="fh_setting_stubbleRisk" text="Riscul din miriște" />
+        <text name="fh_setting_stubbleRisk_desc" text="Dacă miriștea nemărunțită după recoltare crește riscul (mai ales de sfredelitorul porumbului și de boli care supraviețuiesc pe resturile vegetale). Contează doar după o recoltare pe parcelă și dacă parcela nu a fost arată. Căile de rulare și drumurile prin parcelă nu contează niciodată ca miriște. Dezactivat – miriștea nu schimbă deloc riscul." />
+        <text name="fh_setting_fodderCrops" text="Amenințări pe pajiști și furaje" />
+        <text name="fh_setting_fodderCrops_desc" text="Dacă pajiștile, iarba, trifoiul și lucerna pot avea boli și dăunători. Dezactivat (recomandat) – aceste culturi nu au niciodată amenințări, iar cele existente dispar a doua zi. Activat – trifoiul și lucerna pot avea afide; pajiștile și iarba niciodată." />
+        <text name="fh_setting_fieldInfo" text="Rânduri în informațiile parcelei" />
+        <text name="fh_setting_fieldInfo_desc" text="Dacă panoul de informații al parcelei arată amenințările, riscul și protecția parcelei. Dezactivat – panoul arată ca fără mod; harta și miniharta afișează în continuare parcelele." />
+        <text name="fh_setting_progression" text="Evoluția amenințărilor" />
+        <text name="fh_setting_progression_desc" text="Cât de repede trece o amenințare netratată în stadiul următor: ușor, apoi mediu, apoi grav. Lentă – în fiecare lună de joc, Normală – la fiecare jumătate de lună, Rapidă – la fiecare sfert de lună (cel puțin o zi). Doar stadiul grav distruge cultura, așa că un ritm mai lent îți lasă mai mult timp pentru stropit." />
+        <text name="fh_setting_spread" text="Extinderea amenințărilor" />
+        <text name="fh_setting_spread_desc" text="Ce parte din parcelă poate acoperi o amenințare netratată. Mică – până la 2,5%, Medie – până la 5%, Mare – până la 10% din suprafața parcelei. Un focar se lărgește neregulat pe margini și din când în când apare lângă el un focar nou, mai mic – de obicei în partea spre care bate vântul în ziua aceea. Stropirea elimină complet amenințarea." />
+        <text name="fh_setting_patchSize" text="Mărimea focarelor" />
+        <text name="fh_setting_patchSize_desc" text="Cât de mari sunt focarele în care apare și crește o amenințare nouă. Fiecare focar are o formă neregulată și o mărime aleatorie – cele mici sunt mai frecvente decât cele mari. Mici – focare de obicei de 5–12 m, Normale – 8–20 m, Mari – 12–30 m. Pe parcelele mici focarele sunt întotdeauna mai mici." />
+        <text name="fh_setting_neighbourSpread" text="Răspândirea pe parcelele vecine" />
+        <text name="fh_setting_neighbourSpread_desc" text="Dacă o amenințare de la marginea unei parcele poate trece pe parcela vecină a unui jucător. Se întâmplă doar când parcelele se ating sau sunt despărțite de o fâșie foarte îngustă, când pe cealaltă parcelă crește o cultură atacată de amenințare, în faza de vegetație potrivită, și când acea parcelă nu este tratată. Dăunătorii trec mai des decât bolile și doar începând cu stadiul mediu. Parcelele NPC nu sunt afectate niciodată. Dezactivat, Rar, Uneori, Des – șansă nulă, înjumătățită, normală și dublă." />
+        <text name="fh_setting_damage" text="Pagube la cultură" />
+        <text name="fh_setting_damage_desc" text="Cât din cultură distruge în fiecare zi o amenințare gravă. Zonele distruse nu dau nimic la recoltare. Dezactivat – amenințările sunt doar vizibile, producția nu se schimbă. Mici, Normale, Mari – 1, 3 sau 6 pete de câțiva metri pe zi, mereu doar în interiorul zonei infestate." />
+        <text name="fh_setting_protectionThreshold" text="Acoperire pentru protecție completă" />
+        <text name="fh_setting_protectionThreshold_desc" text="Cât dintr-o parcelă trebuie stropit ca toată parcela să fie protejată de acel tip de amenințare (boli sau dăunători). La o acoperire mai mică o amenințare poate apărea totuși, dar doar pe părțile nestropite – zonele stropite sunt mereu protejate. Implicit 90%. Un prag mai mic iartă colțurile și unghiurile ratate, unul mai mare cere o stropire precisă." />
+        <text name="fh_setting_protectionDuration" text="Durata protecției" />
+        <text name="fh_setting_protectionDuration_desc" text="Cât timp protejează fungicidul și insecticidul o parcelă. Până la recoltare – o stropire cu fiecare produs protejează parcela tot sezonul (cel mai simplu). 2 luni, 1 lună, Jumătate de lună – protecția se termină la acest interval după ultima stropire a parcelei și trebuie să stropești din nou, ca la o fermă adevărată." />
+        <text name="fh_setting_fungicideUsage" text="Doza de fungicid" />
+        <text name="fh_setting_fungicideUsage_desc" text="Cât fungicid consumă o mașină de stropit la hectar. 100% înseamnă circa 290 de litri de soluție la hectar (ca la erbicid), adică o sticlă de 1 l la hectar. O doză mai mică face stropirea mai ieftină, cu mai puține alimentări, una mai mare o face mai scumpă. Efectul stropirii este mereu același. Schimbarea se aplică imediat, chiar și în timpul lucrului." />
+        <text name="fh_setting_insecticideUsage" text="Doza de insecticid" />
+        <text name="fh_setting_insecticideUsage_desc" text="Cât insecticid consumă o mașină de stropit la hectar. 100% înseamnă circa 290 de litri de soluție la hectar (ca la erbicid), adică o sticlă de 1 l la 5 hectare. O doză mai mică face stropirea mai ieftină, cu mai puține alimentări, una mai mare o face mai scumpă. Efectul stropirii este mereu același. Schimbarea se aplică imediat, chiar și în timpul lucrului." />
+        <text name="fh_setting_fungicidePrice" text="Prețul sticlei de fungicid" />
+        <text name="fh_setting_fungicidePrice_desc" text="Prețul în magazin al unei sticle de 1 l de fungicid. O sticlă ajunge pentru 1 hectar (290 l de soluție). Implicit 50. Jocul convertește monedele 1:1. Prețul pe litru de soluție urmează acest preț, de exemplu la cumpărarea lichidului de la o stație. Schimbarea se aplică imediat în magazin." />
+        <text name="fh_setting_insecticidePrice" text="Prețul sticlei de insecticid" />
+        <text name="fh_setting_insecticidePrice_desc" text="Prețul în magazin al unei sticle de 1 l de insecticid. O sticlă ajunge pentru 5 hectare (1.450 l de soluție). Implicit 80. Jocul convertește monedele 1:1. Prețul pe litru de soluție urmează acest preț, de exemplu la cumpărarea lichidului de la o stație. Schimbarea se aplică imediat în magazin." />
+        <text name="fh_setting_fungicideCanisterPrice" text="Prețul canistrei de 5 l de fungicid" />
+        <text name="fh_setting_fungicideCanisterPrice_desc" text="Prețul în magazin al unei canistre de 5 l de fungicid. O canistră ajunge pentru 5 hectare (1.450 l de soluție). Implicit 220, mai ieftin pe litru decât cinci sticle de 1 l, ca la un distribuitor adevărat. Jocul convertește monedele 1:1. Schimbarea se aplică imediat în magazin." />
+        <text name="fh_setting_insecticideCanisterPrice" text="Prețul canistrei de 5 l de insecticid" />
+        <text name="fh_setting_insecticideCanisterPrice_desc" text="Prețul în magazin al unei canistre de 5 l de insecticid. O canistră ajunge pentru 25 de hectare (7.250 l de soluție). Implicit 350, mai ieftin pe litru decât cinci sticle de 1 l, ca la un distribuitor adevărat. Jocul convertește monedele 1:1. Schimbarea se aplică imediat în magazin." />
+        <text name="fh_setting_fungicideCanister20Price" text="Prețul canistrei de 20 l de fungicid" />
+        <text name="fh_setting_fungicideCanister20Price_desc" text="Prețul în magazin al unei canistre de 20 l de fungicid. O canistră ajunge pentru 20 de hectare (5.800 l de soluție). Implicit 800, cel mai ieftin ambalaj pe litru. Jocul convertește monedele 1:1. Schimbarea se aplică imediat în magazin." />
+        <text name="fh_setting_insecticideCanister20Price" text="Prețul canistrei de 20 l de insecticid" />
+        <text name="fh_setting_insecticideCanister20Price_desc" text="Prețul în magazin al unei canistre de 20 l de insecticid. O canistră ajunge pentru 100 de hectare (29.000 l de soluție). Implicit 1.200, cel mai ieftin ambalaj pe litru. Jocul convertește monedele 1:1. Schimbarea se aplică imediat în magazin." />
+        <text name="fh_setting_farmLimit" text="Limita de amenințări pe fermă" />
+        <text name="fh_setting_farmLimit_desc" text="Numărul maxim de amenințări noi pe toate parcelele fermei tale într-un an de joc. Nelimitat – fiecare parcelă are propria șansă. Setează de exemplu 1 sau 2 dacă ai multe parcele și vrei ca bolile și dăunătorii să fie rari." />
+        <text name="fh_setting_notifications" text="Notificări despre amenințări" />
+        <text name="fh_setting_notifications_desc" text="Afișează un mesaj când pe parcela ta apare o boală sau dăunători și când o amenințare devine gravă și începe să distrugă cultura. Mesajul arată parcela, cultura, amenințarea și produsul cu care trebuie stropit." />
+        <text name="fh_set_on" text="Activat" />
+        <text name="fh_set_off" text="Dezactivat" />
+        <text name="fh_set_none" text="Deloc" />
+        <text name="fh_set_low" text="Mică" />
+        <text name="fh_set_normal" text="Normală" />
+        <text name="fh_set_high" text="Mare" />
+        <text name="fh_set_slow" text="Lentă" />
+        <text name="fh_set_normalPace" text="Normală" />
+        <text name="fh_set_fast" text="Rapidă" />
+        <text name="fh_set_small" text="Mică" />
+        <text name="fh_set_medium" text="Medie" />
+        <text name="fh_set_large" text="Mare" />
+        <text name="fh_set_damageLow" text="Mici" />
+        <text name="fh_set_damageNormal" text="Normale" />
+        <text name="fh_set_damageHigh" text="Mari" />
+        <text name="fh_set_untilHarvest" text="Până la recoltare" />
+        <text name="fh_set_twoMonths" text="2 luni" />
+        <text name="fh_set_oneMonth" text="1 lună" />
+        <text name="fh_set_halfMonth" text="Jumătate de lună" />
+        <text name="fh_set_unlimited" text="Nelimitat" />
+        <text name="fh_set_patchSmall" text="Mici" />
+        <text name="fh_set_patchNormal" text="Normale" />
+        <text name="fh_set_patchLarge" text="Mari" />
+        <text name="fh_set_rarely" text="Rar" />
+        <text name="fh_set_sometimes" text="Uneori" />
+        <text name="fh_set_often" text="Des" />
+
+        <!-- Shop -->
+        <text name="fh_fillType_insecticide" text="Insecticid" />
+        <text name="fh_fillType_fungicide" text="Fungicid" />
+        <text name="fh_store_fungicideBottle" text="Fungicid 1 l" />
+        <text name="fh_store_insecticideBottle" text="Insecticid 1 l" />
+        <text name="fh_store_fungicideCanister" text="Fungicid 5 l" />
+        <text name="fh_store_insecticideCanister" text="Insecticid 5 l" />
+        <text name="fh_store_fungicideCanister20" text="Fungicid 20 l" />
+        <text name="fh_store_insecticideCanister20" text="Insecticid 20 l" />
+        <text name="fh_function_fungicideBottle" text="Sticlă de 1 l de concentrat, doză de 1 l/ha. Ajunge pentru 1 ha, adică 290 l de soluție. Protejează culturile de toate bolile. Pune-o lângă o mașină de stropit și umple mașina din ea." />
+        <text name="fh_function_insecticideBottle" text="Sticlă de 1 l de concentrat, doză de 0,2 l/ha. Ajunge pentru 5 ha, adică 1.450 l de soluție. Protejează culturile de dăunători: afide, gândacul bălos, gândacul lucios, gândacul din Colorado, sfredelitorul porumbului și viermii sârmă. Pune-o lângă o mașină de stropit și umple mașina din ea." />
+        <text name="fh_function_fungicideCanister" text="Canistră de 5 l de concentrat, doză de 1 l/ha. Ajunge pentru 5 ha, adică 1.450 l de soluție. Protejează culturile de toate bolile. Mai ieftină pe litru decât sticlele de 1 l. Pune-o lângă o mașină de stropit și umple mașina din ea." />
+        <text name="fh_function_insecticideCanister" text="Canistră de 5 l de concentrat, doză de 0,2 l/ha. Ajunge pentru 25 ha, adică 7.250 l de soluție. Protejează culturile de dăunători. Mai ieftină pe litru decât sticlele de 1 l. Pune-o lângă o mașină de stropit și umple mașina din ea." />
+        <text name="fh_function_fungicideCanister20" text="Canistră de 20 l de concentrat, doză de 1 l/ha. Ajunge pentru 20 ha, adică 5.800 l de soluție. Protejează culturile de toate bolile. Cea mai ieftină pe litru, pentru fermele mari. Pune-o lângă o mașină de stropit și umple mașina din ea." />
+        <text name="fh_function_insecticideCanister20" text="Canistră de 20 l de concentrat, doză de 0,2 l/ha. Ajunge pentru 100 ha, adică 29.000 l de soluție. Protejează culturile de dăunători. Cea mai ieftină pe litru, pentru fermele mari. Pune-o lângă o mașină de stropit și umple mașina din ea." />
+
+        <!-- Help (ESC → Help) -->
+        <text name="fh_help_header" text="Field Health – boli și dăunători" />
+
+        <text name="fh_help_intro" text="Introducere" />
+        <text name="fh_help_intro_01" text="Despre mod" />
+        <text name="fh_help_intro_02" text="Field Health aduce în joc bolile și dăunătorii culturilor cu care fermierii din Polonia se confruntă zi de zi. Apar pe parcelele fermei tale în timpul sezonului, se dezvoltă și – dacă nu le combați – distrug o parte din cultură. Pentru combatere există două produse în magazin: fungicidul împotriva bolilor și insecticidul împotriva dăunătorilor.
+Modul este realist, dar îngăduitor cu jocul relaxat: o amenințare nu acoperă niciodată toată parcela, cultura este distrusă doar în stadiul cel mai grav, iar o singură stropire bine făcută cu fiecare produs protejează parcela până la sfârșitul sezonului." />
+        <text name="fh_help_intro_03" text="Sezonul pas cu pas" />
+        <text name="fh_help_intro_04" text="1. Semănatul deschide sezonul culturii. Din acea zi presiunea de infecție pe parcelă crește – cel mai repede în perioada anului și în faza de vegetație în care atacă o amenințare, pe vremea care îi priește și pe o parcelă neglijată.
+2. Când presiunea depășește pragul tras la sorți pentru parcelă, apare un focar de boală sau de dăunători. Primești o notificare cu numărul parcelei și produsul cu care trebuie stropit.
+3. O amenințare netratată se agravează cu un stadiu la fiecare jumătate de lună și se extinde încet. În stadiul grav distruge zilnic cultura în pete mici.
+4. Stropirea elimină amenințarea și protejează locurile stropite. O parcelă stropită aproape în întregime devine imună la acel tip de amenințare până la recoltare.
+5. Recoltarea încheie sezonul: amenințările și protecția dispar, iar cultura recoltată devine premergătoarea următoarei." />
+        <text name="fh_help_intro_05" text="Cifrele principale" />
+        <text name="fh_help_intro_06" text="Valori implicite. Administratorul poate schimba fiecare dintre ele în setări (ultima coloană)." />
+        <text name="fh_help_intro_08" text="Unde verifici parcelele" />
+        <text name="fh_help_intro_09" text="– Panoul de informații al parcelei (când ești pe o parcelă): amenințările și gravitatea lor, riscul și cauza lui principală, protecția parcelei.
+– Harta (ESC &gt; Hartă &gt; Protecția plantelor): cinci straturi – protecție, boli, dăunători, tipuri de boli și tipuri de dăunători.
+– Miniharta: schimbi stratul cu Alt stânga + \.
+– Notificări: despre o amenințare nouă, despre stadiul grav și despre o amenințare venită de pe o parcelă vecină." />
+        <text name="fh_help_origin" text="De unde vin amenințările" />
+        <text name="fh_help_origin_01" text="Fiecare parcelă a unui jucător cu o cultură în creștere poate avea într-un sezon cel mult o boală și un tip de dăunător. Parcelele NPC, plopul și culturile intermediare nu au niciodată amenințări; pajiștile, iarba, trifoiul și lucerna doar dacă e activat în setări.
+O amenințare nu apare într-o zi oarecare. În fiecare zi modul calculează presiunea de infecție pe parcelă și o adună la suma zilelor anterioare. La începutul sezonului parcela primește un prag de rezistență aleatoriu – când suma presiunii îl depășește, parcela se infectează. De aceea, într-un sezon o amenințare apare devreme, în altul târziu, iar în al treilea deloc." />
+        <text name="fh_help_origin_02" text="Ce influențează presiunea" />
+        <text name="fh_help_origin_03" text="1. Șansa de bază din setări – implicit 15% pentru o boală și 10% pentru dăunători pe sezon.
+2. Riscul parcelei, adică felul în care o lucrezi: fertilizare, lucrările solului, rotația culturilor și buruieni (pagina „Cum lucrezi parcela”).
+3. Cât de răspândită e amenințarea în Polonia – bolile și dăunătorii frecvenți apar mult mai des decât cei rari (paginile „Boli” și „Dăunători”).
+4. Perioada anului și faza de vegetație – în afara perioadei sale o amenințare nu atacă deloc (pagina „Perioade și faze de vegetație”).
+5. Vremea din ultimele zile – ploaia favorizează bolile fungice, căldura și seceta majoritatea dăunătorilor (pagina „Vremea”)." />
+        <text name="fh_help_origin_04" text="Șansa pe sezon" />
+        <text name="fh_help_origin_05" text="Iată cum schimbă riscul parcelei șansa unei amenințări pe tot sezonul, cu setările implicite:" />
+        <text name="fh_help_origin_07" text="Tabelul se aplică unei culturi cu un număr mediu de amenințări, care crește pe toată perioada lor. Culturile atacate de multe boli sau mulți dăunători frecvenți sunt afectate mai des (de până la 1,4 ori), cele cu puține amenințări mai rar (de până la 0,5 ori):" />
+        <text name="fh_help_origin_09" text="Ce amenințare apare" />
+        <text name="fh_help_origin_10" text="La o infecție, modul alege una dintre amenințările care pot ataca cultura în acea zi. Șansa fiecăreia este proporțională cu presiunea ei din ziua respectivă: cât de răspândită este, înmulțit cu riscul parcelei, perioada anului și vremea. Exemplu: la grâu, în mai, pe vreme ploioasă apar cel mai des septorioza sau făinarea, în timp ce rugina neagră, rară și iubitoare de căldură, aproape niciodată." />
+        <text name="fh_help_origin_11" text="Stropirea înainte de infecție" />
+        <text name="fh_help_origin_12" text="Dacă în momentul infecției parcela este stropită cu produsul potrivit pe cel puțin 90% din suprafață, infecția eșuează și parcela nu va avea în acest sezon nicio amenințare de acel tip. La o acoperire mai mică amenințarea poate apărea, dar doar pe părțile nestropite." />
+        <text name="fh_help_timing" text="Perioade și faze de vegetație" />
+        <text name="fh_help_timing_01" text="Fiecare boală și fiecare dăunător are perioada lui: atacă doar în anumite luni și doar în anumite faze de vegetație ale culturii. În această perioadă are un vârf, când este cel mai periculos. În afara perioadei sale o amenințare nu apare deloc – nu poate veni nici de pe o parcelă vecină." />
+        <text name="fh_help_timing_02" text="Faze de vegetație" />
+        <text name="fh_help_timing_04" text="Modul stabilește faza după stadiul de creștere al culturii din joc: primele 20% din timpul de creștere sunt răsărirea, până la 45% dezvoltarea frunzelor și înfrățirea, până la 70% alungirea paiului sau formarea bobocilor, apoi urmează înspicarea și înflorirea, iar o cultură gata de recoltat este coaptă. Lunile urmează calendarul jocului (prima perioadă a anului este martie), așa că numărul de zile pe perioadă nu schimbă momentul în care atacă amenințările." />
+        <text name="fh_help_timing_05" text="Calendar – când să fii atent" />
+        <text name="fh_help_timing_06" text="Lunile principale sunt cele în care presiunea grupului de amenințări asupra culturii este cea mai mare. O stropire cu puțin înainte previne majoritatea infecțiilor." />
+        <text name="fh_help_farming" text="Cum lucrezi parcela" />
+        <text name="fh_help_farming_01" text="Riscul parcelei este un multiplicator al presiunii de infecție care depinde de felul în care lucrezi parcela. Modul îl calculează separat pentru fiecare amenințare; panoul de informații al parcelei arată cel mai mare risc de boli și de dăunători și cauza principală. Multiplicatorii din tabele se înmulțesc între ei, iar rezultatul rămâne mereu între 0,3 și 5." />
+        <text name="fh_help_farming_03" text="Fertilizare" />
+        <text name="fh_help_farming_05" text="Lucrările solului și buruienile" />
+        <text name="fh_help_farming_07" text="Valorile sunt pentru o parcelă complet neglijată – o neglijență parțială crește riscul proporțional. Contează doar lucrările activate în setările jocului: fără arătură obligatorie, lipsa arăturii nu schimbă nimic. Modul verifică parcela în 36 de puncte și doar acolo unde crește cultura, așa că căile de rulare și drumurile prin parcelă nu contează ca neglijență. Miriștea nemărunțită și lipsa tăvălugirii contează ca neglijență doar când privesc trei sferturi din parcelă. Miriștea contează doar după o recoltare pe această parcelă și nu după arătură (setarea „Riscul din miriște” o dezactivează complet). În FS25 buruienile nu cresc după arătură." />
+        <text name="fh_help_farming_08" text="Rotația culturilor și culturile intermediare" />
+        <text name="fh_help_farming_10" text="Setarea „Influența tehnologiei” întărește sau slăbește toți acești factori deodată. Deloc – fiecare parcelă are riscul 1. Mică – diferențele sunt cam pe jumătate. Normală – ca în tabele. Mare – diferențele sunt de 1,5 ori mai mari." />
+        <text name="fh_help_weather" text="Vremea" />
+        <text name="fh_help_weather_01" text="În fiecare oră de joc modul citește temperatura și verifică dacă plouă. La sfârșitul zilei calculează temperatura medie a zilei și ponderea orelor ploioase. Umezeala are memorie: jumătate vine din ultima zi și jumătate din zilele anterioare, pentru că frunzele rămân ude mult timp după ploaie. Fiecare amenințare are un profil meteo – un interval de temperatură și o reacție la ploaie." />
+        <text name="fh_help_weather_03" text="O temperatură în afara intervalului înmulțește presiunea cu 0,4, o temperatură optimă o înmulțește cu 1,2. Ploaia înmulțește presiunea cu un factor între 0,4 și 1,8 – în sus la amenințările care iubesc umezeala, în jos la cele care iubesc seceta. Per total vremea înmulțește presiunea cu un factor între 0,2 și 2,5. Exemple de multiplicatori după câteva zile cu o astfel de vreme (roșu – amenințarea crește, verde – scade):" />
+        <text name="fh_help_weather_05" text="Setarea „Influența vremii”: Deloc – vremea nu contează, Mică – multiplicatori mai blânzi, Normală – ca în tabel, Mare – mai puternici. După câteva zile calde și ploioase de vară urmărește mai ales cartofii și cerealele în înspicare, iar într-o vară secetoasă și caldă – dăunătorii." />
+        <text name="fh_help_diseases" text="Boli" />
+        <text name="fh_help_diseases_01" text="Fungicidul combate toate bolile. Tabelele arată cât de răspândită e o boală în Polonia, ce culturi atacă, în ce luni apare și când e cea mai gravă, în ce fază de vegetație face cele mai multe pagube și ce o favorizează." />
+        <text name="fh_help_diseases_03" text="Cereale și porumb" />
+        <text name="fh_help_diseases_05" text="Alte culturi" />
+        <text name="fh_help_diseases_07" text="Culturile hărților pe care modul nu le cunoaște pot avea putregai cenușiu și afide. Ceapa din extensia Highlands Fishing și din moduri este recunoscută automat." />
+        <text name="fh_help_pests" text="Dăunători" />
+        <text name="fh_help_pests_01" text="Insecticidul combate toți dăunătorii. Coloanele tabelelor înseamnă același lucru ca pe pagina „Boli”." />
+        <text name="fh_help_pests_02" text="Cereale și porumb" />
+        <text name="fh_help_pests_04" text="Alte culturi" />
+        <text name="fh_help_progress" text="Cum evoluează o amenințare" />
+        <text name="fh_help_progress_01" text="O amenințare nouă apare ca unul sau două focare neregulate, cu marginea zdrențuită și goluri sănătoase înăuntru. Începe în stadiul ușor. Dacă nu o combați, trece prin aceste etape:" />
+        <text name="fh_help_progress_03" text="Cultura distrusă nu mai crește la loc și nu dă nimic la recoltare. De aceea cel mai ieftin este să stropești din timp sau imediat după notificare. O stropire în orice stadiu elimină complet amenințarea din locurile stropite." />
+        <text name="fh_help_spraying" text="Stropire și protecție" />
+        <text name="fh_help_spraying_01" text="Produsele sunt fabricate de compania poloneză Opryskex: fungicidul Grzybobój 250 EC (etichetă verde) și insecticidul Robalex 100 CS (etichetă roșie). La cumpărare poți alege în locul ei marca MST (Mafia Solec Team): Solectop 280 SC și Mafiozol 50 EW. Acționează la fel, diferă doar eticheta. Le cumperi din magazin în sticle de 1 l și în canistre de 5 l și 20 l. Pune ambalajul lângă mașina de stropit și umple mașina ca de pe un palet. Jocul nu amestecă concentratul cu apă, așa că tot conținutul unui ambalaj este întreaga soluție pe care o dă. Cu cât ambalajul e mai mare, cu atât hectarul iese mai ieftin." />
+        <text name="fh_help_spraying_03" text="Cum funcționează protecția" />
+        <text name="fh_help_spraying_05" text="Atenție" />
+        <text name="fh_help_spraying_06" text="– Stropește după răsărire – semănatul și recoltarea anulează protecția.
+– Fungicidul nu protejează de dăunători, iar insecticidul nu protejează de boli. Pentru protecție completă ai nevoie de amândouă.
+– Unghiurile și întoarcerile ratate contează: sub 90% acoperire o amenințare poate apărea pe fâșiile nestropite.
+– Produsele nu fertilizează și nu distrug buruienile.
+– Cu o protecție mai scurtă (setare), protecția întregii parcele se termină la acest interval după ultima stropire." />
+        <text name="fh_help_map" text="Harta și informațiile parcelei" />
+        <text name="fh_help_map_01" text="Panoul de informații al parcelei" />
+        <text name="fh_help_map_02" text="Când ești pe o parcelă, panoul de informații al parcelei arată:
+– Boală și Dăunători: amenințarea activă și gravitatea ei (ușor, mediu, grav),
+– Risc de boli și Risc de dăunători: scăzut, normal, ridicat sau mare, iar de la ridicat în sus și cauza principală,
+– Protecție – boli și Protecție – dăunători: cât din parcelă este stropit,
+– un indiciu despre produsul care combate amenințarea." />
+        <text name="fh_help_map_03" text="Harta" />
+        <text name="fh_help_map_04" text="În ESC &gt; Hartă alege pagina „Protecția plantelor”. Sub titlul ei, un al doilea selector cu săgeți comută între cinci straturi. Un clic pe o intrare din legendă o ascunde pe hartă. Sunt afișate doar parcelele fermei tale cu o cultură în creștere. Dă clic pe un teren ca să vezi amenințările și protecția parcelelor lui." />
+        <text name="fh_help_map_06" text="Culorile tipurilor de amenințări" />
+        <text name="fh_help_map_08" text="Miniharta" />
+        <text name="fh_help_map_09" text="Alt stânga + \ schimbă stratul minihărții: protecție, boli, dăunători și niciun strat. Poți schimba tastele în timpul jocului în ESC &gt; Setări &gt; Comenzi, la intrarea „Field Health – stratul protecției plantelor pe minihartă” (meniul principal nu arată tastele modurilor, pentru că modurile se încarcă împreună cu jocul salvat)." />
+        <text name="fh_help_pf" text="Agricultură de precizie" />
+        <text name="fh_help_pf_01" text="Cu Agricultură de precizie, Field Health funcționează ca o extensie a lui și folosește hărțile lui de sol. În loc de fertilizare în general contează azotul comparat cu valoarea țintă, iar în loc de aplicarea varului în general, pH-ul solului." />
+        <text name="fh_help_pf_03" text="Cea mai bună protecție este aceeași muncă pe care o faci pentru producție: fertilizare până la valoarea țintă, aplicarea varului până la pH-ul optim și culturi intermediare. Comanda de consolă fhPrecisionFarming scrie în log cum citește modul datele din Agricultură de precizie." />
+        <text name="fh_help_settings" text="Setări" />
+        <text name="fh_help_settings_01" text="Setările modului se află în ESC &gt; Setări &gt; Joc, în secțiunea „Field Health – boli și dăunători”. Sunt salvate odată cu jocul. În multiplayer doar administratorul serverului le poate schimba. Treci cu mouse-ul peste o opțiune ca să vezi descrierea ei." />
+        <text name="fh_help_tips" text="Sfaturi" />
+        <text name="fh_help_tips_01" text="Un plan pentru parcele sănătoase" />
+        <text name="fh_help_tips_02" text="1. Fertilizează după nevoie, aplică var și nu semăna aceeași cultură doi ani la rând. Între culturile principale seamănă o cultură intermediară.
+2. Înainte de lunile principale ale amenințărilor (pagina „Perioade și faze de vegetație”) stropește parcela cu fungicid și insecticid. O dată pe sezon e de ajuns, dacă acoperi cel puțin 90% din parcelă.
+3. Verifică stratul „Protecție” pe hartă – parcelele verzi sunt protejate de ambele tipuri de amenințări.
+4. După o notificare stropește parcela indicată cu produsul indicat înainte ca amenințarea să ajungă în stadiul grav.
+5. Un ajutor IA cu fungicid sau insecticid stropește complet parcelele neprotejate, iar pe cele protejate doar acolo unde există o amenințare." />
+        <text name="fh_help_tips_03" text="Atenție" />
+        <text name="fh_help_tips_04" text="– Monocultura și lipsa arăturii sunt cele mai frecvente cauze ale riscului mare; de exemplu, grâu după grâu fără arătură favorizează septorioza, pătarea gălbuie și fuzarioza.
+– Porumbul înaintea grâului crește clar riscul de fuzarioză, pajiștea înaintea cartofului riscul de viermi sârmă.
+– Îngrășământul semilichid și îngrășământul lichid dau o vegetație luxuriantă, pe care o iubesc făinarea, ruginile și afidele.
+– O vară ploioasă este vremea manei, septoriozei și fuzariozei, una secetoasă și caldă a afidelor, gândacului din Colorado, tripșilor și buhei semănăturilor.
+– Rapița are două perioade periculoase: toamna (puricii de pământ, viespea rapiței, phoma) și primăvara (gărgărițele tulpinilor, gândacul lucios, putregaiul alb).
+– O amenințare în stadiul mediu sau grav poate trece pe o parcelă învecinată a unui jucător." />
+        <text name="fh_help_admin" text="Pentru administrator" />
+        <text name="fh_help_admin_01" text="Comenzi de consolă" />
+        <text name="fh_help_admin_03" text="Multiplayer, joc salvat și compatibilitate" />
+        <text name="fh_help_admin_04" text="– Simularea rulează pe server, iar jucătorii îi văd rezultatele. Setările și comenzile fhSet, fhClear și fhDailyTick sunt doar pentru administrator.
+– Notificările ajung la jucătorii fermei care deține parcela, fiecare în limba lui.
+– Modul își salvează datele doar în două fișiere proprii în dosarul jocului salvat: fieldHealth.xml și fieldHealthMap.grle. Poate fi eliminat fără grijă – jocul ignoră aceste fișiere, iar de pe hartă dispar doar sticlele și canistrele cu produse.
+– Jocurile salvate dintr-o versiune mai veche a modului sunt convertite la noul format la încărcare.
+– Ceapa din extensia Highlands Fishing și din moduri este recunoscută automat – logul o menționează.
+– Nu folosi în același timp un alt mod cu boli ale culturilor (de ex. Crop Diseases) – Field Health avertizează despre asta în log." />
+        <text name="fh_help_admin_05" text="Mulțumiri" />
+        <text name="fh_help_admin_06" text="Field Health – autor: MatrikSky. Ideea preluată din modul „Crop Diseases” de BMP. Modelul sticlei are la bază „fertilizer Bottle” de shabanimate, iar cel al canistrei „#6 Plastic Canister” de hoxsvl (ambele CC BY 4.0, sketchfab.com)." />
+        <text name="fh_help_tableLanguage" text="en" />
+
+
+
+
+
+
+
+
+
+
+    </texts>
+</l10n>

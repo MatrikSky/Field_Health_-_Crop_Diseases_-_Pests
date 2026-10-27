@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+    <texts>
+        <!-- Diseases (full and short name) -->
+        <text name="fh_disease_cereal_mildew" text="Gabona-lisztharmat" />
+        <text name="fh_disease_cereal_mildew_short" text="Lisztharmat" />
+        <text name="fh_disease_septoria" text="Szeptóriás levélfoltosság" />
+        <text name="fh_disease_septoria_short" text="Szeptória" />
+        <text name="fh_disease_brown_rust" text="Barna rozsda" />
+        <text name="fh_disease_brown_rust_short" text="Barna rozsda" />
+        <text name="fh_disease_fusarium" text="Fuzáriózis" />
+        <text name="fh_disease_fusarium_short" text="Fuzáriózis" />
+        <text name="fh_disease_net_blotch" text="Az árpa hálózatos levélfoltossága" />
+        <text name="fh_disease_net_blotch_short" text="Hálózatos foltosság" />
+        <text name="fh_disease_snow_mould" text="Hópenész" />
+        <text name="fh_disease_snow_mould_short" text="Hópenész" />
+        <text name="fh_disease_sclerotinia" text="Fehérpenészes rothadás" />
+        <text name="fh_disease_sclerotinia_short" text="Szklerotínia" />
+        <text name="fh_disease_alternaria" text="Alternáriás levélfoltosság" />
+        <text name="fh_disease_alternaria_short" text="Alternária" />
+        <text name="fh_disease_late_blight" text="Burgonyavész" />
+        <text name="fh_disease_late_blight_short" text="Burgonyavész" />
+        <text name="fh_disease_cercospora" text="Cerkospórás levélfoltosság" />
+        <text name="fh_disease_cercospora_short" text="Cerkospóra" />
+        <text name="fh_disease_grey_mould" text="Szürkepenész" />
+        <text name="fh_disease_grey_mould_short" text="Szürkepenész" />
+        <text name="fh_disease_yellow_rust" text="Sárgarozsda" />
+        <text name="fh_disease_yellow_rust_short" text="Sárgarozsda" />
+        <text name="fh_disease_tan_spot" text="Pirenofórás levélfoltosság" />
+        <text name="fh_disease_tan_spot_short" text="Pirenofóra" />
+        <text name="fh_disease_eyespot" text="Szártőbetegség (szemfoltosság)" />
+        <text name="fh_disease_eyespot_short" text="Szemfoltosság" />
+        <text name="fh_disease_rhynchosporium" text="Rinhospóriumos levélfoltosság" />
+        <text name="fh_disease_rhynchosporium_short" text="Rinhospórium" />
+        <text name="fh_disease_ramularia" text="Ramuláriás levélfoltosság" />
+        <text name="fh_disease_ramularia_short" text="Ramulária" />
+        <text name="fh_disease_stem_rust" text="Szárrozsda" />
+        <text name="fh_disease_stem_rust_short" text="Szárrozsda" />
+        <text name="fh_disease_phoma" text="Fómás szárrák" />
+        <text name="fh_disease_phoma_short" text="Fóma" />
+        <text name="fh_disease_cylindrosporiosis" text="Cilindrospóriumos levélfoltosság" />
+        <text name="fh_disease_cylindrosporiosis_short" text="Cilindrospórium" />
+        <text name="fh_disease_beet_mildew" text="Répa-lisztharmat" />
+        <text name="fh_disease_beet_mildew_short" text="Répa-lisztharmat" />
+        <text name="fh_disease_ascochyta" text="Aszkochitás betegség" />
+        <text name="fh_disease_ascochyta_short" text="Aszkochita" />
+        <text name="fh_disease_downy_mildew" text="Peronoszpóra" />
+        <text name="fh_disease_downy_mildew_short" text="Peronoszpóra" />
+        <text name="fh_disease_corn_leaf_blight" text="A kukorica helmintospóriumos levélfoltossága" />
+        <text name="fh_disease_corn_leaf_blight_short" text="Helmintospórium" />
+        <text name="fh_disease_crown_rust" text="A zab koronás rozsdája" />
+        <text name="fh_disease_crown_rust_short" text="Koronás rozsda" />
+
+        <!-- Pests (full and short name) -->
+        <text name="fh_pest_aphids" text="Levéltetvek" />
+        <text name="fh_pest_aphids_short" text="Levéltetvek" />
+        <text name="fh_pest_leaf_beetle" text="Vetésfehérítő bogarak" />
+        <text name="fh_pest_leaf_beetle_short" text="Vetésfehérítők" />
+        <text name="fh_pest_pollen_beetle" text="Repcefénybogár" />
+        <text name="fh_pest_pollen_beetle_short" text="Repcefénybogár" />
+        <text name="fh_pest_potato_beetle" text="Burgonyabogár" />
+        <text name="fh_pest_potato_beetle_short" text="Burgonyabogár" />
+        <text name="fh_pest_corn_borer" text="Kukoricamoly" />
+        <text name="fh_pest_corn_borer_short" text="Kukoricamoly" />
+        <text name="fh_pest_wireworm" text="Drótférgek" />
+        <text name="fh_pest_wireworm_short" text="Drótférgek" />
+        <text name="fh_pest_stem_weevil" text="Nagy repceormányos" />
+        <text name="fh_pest_stem_weevil_short" text="Repceormányos" />
+        <text name="fh_pest_seed_weevil" text="Repcebecő-ormányos" />
+        <text name="fh_pest_seed_weevil_short" text="Becőormányos" />
+        <text name="fh_pest_flea_beetle" text="Földibolhák" />
+        <text name="fh_pest_flea_beetle_short" text="Földibolhák" />
+        <text name="fh_pest_turnip_sawfly" text="Repcedarázs" />
+        <text name="fh_pest_turnip_sawfly_short" text="Repcedarázs" />
+        <text name="fh_pest_frit_fly" text="Fritlégy" />
+        <text name="fh_pest_frit_fly_short" text="Fritlégy" />
+        <text name="fh_pest_wheat_midge" text="Búza-gubacsszúnyogok" />
+        <text name="fh_pest_wheat_midge_short" text="Gubacsszúnyogok" />
+        <text name="fh_pest_cutworm" text="Dughernyók" />
+        <text name="fh_pest_cutworm_short" text="Dughernyók" />
+        <text name="fh_pest_beet_fly" text="Répalégy" />
+        <text name="fh_pest_beet_fly_short" text="Répalégy" />
+        <text name="fh_pest_onion_fly" text="Hagymalégy" />
+        <text name="fh_pest_onion_fly_short" text="Hagymalégy" />
+        <text name="fh_pest_thrips" text="Tripszek" />
+        <text name="fh_pest_thrips_short" text="Tripszek" />
+        <text name="fh_pest_carrot_fly" text="Sárgarépalégy" />
+        <text name="fh_pest_carrot_fly_short" text="Sárgarépalégy" />
+        <text name="fh_pest_pea_leaf_weevil" text="Csipkézőbogarak" />
+        <text name="fh_pest_pea_leaf_weevil_short" text="Csipkézőbogarak" />
+        <text name="fh_pest_rootworm" text="Amerikai kukoricabogár" />
+        <text name="fh_pest_rootworm_short" text="Kukoricabogár" />
+        <text name="fh_pest_ground_beetle" text="Gabonafutrinka" />
+        <text name="fh_pest_ground_beetle_short" text="Gabonafutrinka" />
+
+        <text name="fh_severity_low" text="enyhe" />
+        <text name="fh_severity_medium" text="közepes" />
+        <text name="fh_severity_high" text="súlyos" />
+
+        <!-- Field info (short, so nothing gets cut off) -->
+        <text name="fh_hud_threats" text="Károsítók" />
+        <text name="fh_hud_disease" text="Betegség" />
+        <text name="fh_hud_pest" text="Kártevők" />
+        <text name="fh_hud_none" text="nincs" />
+        <text name="fh_hud_diseaseRisk" text="Betegségkockázat" />
+        <text name="fh_hud_pestRisk" text="Kártevőkockázat" />
+        <text name="fh_hud_cause" text="Ok" />
+        <text name="fh_hud_protection" text="Növényvédelem" />
+        <text name="fh_hud_diseaseProtection" text="Védelem – betegségek" />
+        <text name="fh_hud_pestProtection" text="Védelem – kártevők" />
+        <text name="fh_hud_protected" text="aktív" />
+        <text name="fh_risk_low" text="alacsony" />
+        <text name="fh_risk_normal" text="átlagos" />
+        <text name="fh_risk_elevated" text="emelkedett" />
+        <text name="fh_risk_high" text="magas" />
+        <text name="fh_cause_fertilizer" text="nincs trágyázás" />
+        <text name="fh_cause_manure" text="friss istállótrágya" />
+        <text name="fh_cause_fastNitrogen" text="gyors nitrogén" />
+        <text name="fh_cause_nitrogenDeficit" text="nitrogénhiány" />
+        <text name="fh_cause_nitrogenExcess" text="túl sok nitrogén" />
+        <text name="fh_cause_lime" text="savanyú talaj" />
+        <text name="fh_cause_lightSoil" text="laza talaj" />
+        <text name="fh_cause_heavySoil" text="kötött talaj" />
+        <text name="fh_cause_plowing" text="nincs szántás" />
+        <text name="fh_cause_stubble" text="tarló" />
+        <text name="fh_cause_rolling" text="nincs hengerezés" />
+        <text name="fh_cause_weeds" text="gyomok" />
+        <text name="fh_cause_sameCrop" text="monokultúra" />
+        <text name="fh_cause_cropFamily" text="rokon kultúra" />
+        <text name="fh_cause_previousCrop" text="rossz elővetemény" />
+        <text name="fh_hint_fungicide" text="Kezelés: gombaölő szer" />
+        <text name="fh_hint_insecticide" text="Kezelés: rovarölő szer" />
+        <text name="fh_field_area" text="Tábla területe" />
+        <text name="fh_potential_harvest" text="Várható termés" />
+        <text name="fh_potential_yield" text="Várható hozam" />
+
+        <!-- Notifications: field number, crop, threat, spray -->
+        <text name="fh_alert_new" text="%s. tábla (%s): új károsító – %s. Kezelés: %s." />
+        <text name="fh_alert_severe" text="%s. tábla (%s): súlyos fertőzés – %s, az állomány pusztul. Kezelés: %s." />
+        <text name="fh_alert_neighbour" text="%s. tábla (%s): %s – a szomszéd tábláról terjedt át. Kezelés: %s." />
+
+        <!-- Map -->
+        <text name="fh_map_page" text="Növényvédelem" />
+        <text name="fh_map_layerProtection" text="Védelem" />
+        <text name="fh_map_layerDiseases" text="Betegségek" />
+        <text name="fh_map_layerPests" text="Kártevők" />
+        <text name="fh_map_layerDiseaseTypes" text="Betegségfajták" />
+        <text name="fh_map_layerPestTypes" text="Kártevőfajták" />
+        <text name="fh_map_notSprayed" text="Nincs védelem" />
+        <text name="fh_map_oneProduct" text="Egy szer" />
+        <text name="fh_map_bothProducts" text="Gombaölő és rovarölő szer" />
+        <text name="fh_map_healthy" text="Egészséges állomány" />
+        <text name="fh_map_low" text="Enyhe" />
+        <text name="fh_map_medium" text="Közepes" />
+        <text name="fh_map_high" text="Súlyos" />
+        <text name="fh_map_diseaseLabel" text="Betegség:" />
+        <text name="fh_map_pestLabel" text="Kártevők:" />
+        <text name="fh_map_diseaseProtectionLabel" text="Védelem – betegségek:" />
+        <text name="fh_map_pestProtectionLabel" text="Védelem – kártevők:" />
+        <text name="fh_map_protectedUntilHarvest" text="aktív" />
+        <text name="input_FH_MINIMAP_LAYER" text="Field Health – növényvédelmi réteg a minitérképen" />
+
+        <!-- Settings -->
+        <text name="fh_config_brand" text="Márka" />
+        <text name="fh_settings_header" text="Field Health – betegségek és kártevők" />
+        <text name="fh_setting_enabled" text="Betegségek és kártevők" />
+        <text name="fh_setting_enabled_desc" text="A mod főkapcsolója. Kikapcsolva nem jelennek meg új betegségek és kártevők, a meglévők pedig nem fejlődnek tovább és nem pusztítják az állományt. A permetezés továbbra is működik, így eltüntetheted, ami a tábláidon maradt." />
+        <text name="fh_setting_diseaseChance" text="Betegség esélye szezononként" />
+        <text name="fh_setting_diseaseChance_desc" text="Annak alapesélye, hogy egy átlagosan művelt tábla egy szezon alatt (vetéstől betakarításig) megbetegszik. Ez csak kiindulópont: a jó gazdálkodás (istállótrágya, másodvetés, vetésforgó, megfelelő pH és nitrogén) csökkenti, az elhanyagolás (nincs trágyázás, monokultúra, nincs szántás, savanyú talaj) többszörösére növeli. Ha a betegség megjelenése előtt gombaölő szerrel permetezel, az esély betakarításig nullára csökken. A 0% kikapcsolja a betegségeket." />
+        <text name="fh_setting_pestChance" text="Kártevők esélye szezononként" />
+        <text name="fh_setting_pestChance_desc" text="Annak alapesélye, hogy egy átlagosan művelt táblán egy szezon alatt kártevők jelennek meg. A gazdálkodás módosítja: a gyomok, a monokultúra és a szántás hiánya növeli, a másodvetés és a vetésforgó csökkenti. Ha a kártevők megjelenése előtt rovarölő szerrel permetezel, az esély betakarításig nullára csökken. A 0% kikapcsolja a kártevőket." />
+        <text name="fh_setting_careInfluence" text="A gazdálkodás hatása" />
+        <text name="fh_setting_careInfluence_desc" text="Mennyire módosítja az alapesélyeket az, ahogyan gazdálkodsz (trágyázás, talajművelés, vetésforgó, másodvetés, gyomok, a Precíziós gazdálkodás adatai). Nincs – csak az alapesély számít, minden tábla egyforma. Kicsi – enyhe különbségek. Normál (ajánlott) – a jó gazdálkodás egyértelműen megéri. Nagy – az elhanyagolt táblák nagyon gyakran megbetegszenek, a gondozottak szinte soha." />
+        <text name="fh_setting_weatherInfluence" text="Az időjárás hatása" />
+        <text name="fh_setting_weatherInfluence_desc" text="Mennyire módosítja az elmúlt napok időjárása (hőmérséklet és eső) a károsítók esélyét. A gombás betegségek az esőt és a nedvességet szeretik, a legtöbb kártevő a meleg, száraz időt, és minden károsítónak megvan a maga hőmérsékleti tartománya. Nincs – az időjárás nem számít. Kicsi – kis különbségek. Normál (ajánlott) – jól látható különbségek. Nagy – kedvező időben a károsítók sokkal gyakrabban jelennek meg, kedvezőtlenben szinte soha." />
+        <text name="fh_setting_stubbleRisk" text="A tarló kockázata" />
+        <text name="fh_setting_stubbleRisk_desc" text="Növeli-e a kockázatot az aprítatlan tarló a betakarítás után (főleg a kukoricamolyét és a növényi maradványokon áttelelő betegségekét). Csak a táblán végzett betakarítás után számít, és csak akkor, ha a táblát nem szántották fel. A művelőutak és a táblán átvezető utak sosem számítanak tarlónak. Ki – a tarló egyáltalán nem módosítja a kockázatot." />
+        <text name="fh_setting_fodderCrops" text="Károsítók gyepen és takarmánynövényen" />
+        <text name="fh_setting_fodderCrops_desc" text="Kaphatnak-e betegségeket és kártevőket a rétek, a fű, a lóhere és a lucerna. Ki (ajánlott) – ezeken a kultúrákon soha nincs károsító, a meglévők pedig másnapra eltűnnek. Be – a lóherén és a lucernán megjelenhetnek levéltetvek; a réteken és a füvön soha." />
+        <text name="fh_setting_fieldInfo" text="Sorok a tábla adataiban" />
+        <text name="fh_setting_fieldInfo_desc" text="Mutassa-e a tábla információs paneljén a károsítókat, a kockázatot és a tábla védelmét. Ki – a panel úgy néz ki, mint a mod nélkül; a térkép és a minitérkép továbbra is mutatja a táblákat." />
+        <text name="fh_setting_progression" text="A fertőzés lefolyása" />
+        <text name="fh_setting_progression_desc" text="Milyen gyorsan lép a kezeletlen fertőzés a következő fokozatba: enyhe, majd közepes, majd súlyos. Lassú – minden játékhónapban, Normál – félhavonta, Gyors – negyedhavonta (legalább egy nap). Csak a súlyos fokozat pusztítja az állományt, így a lassabb tempó több időt hagy a permetezésre." />
+        <text name="fh_setting_spread" text="A fertőzés kiterjedése" />
+        <text name="fh_setting_spread_desc" text="A tábla mekkora részét boríthatja be egy kezeletlen fertőzés. Kicsi – a tábla területének legfeljebb 2,5 százalékát, Közepes – legfeljebb 5 százalékát, Nagy – legfeljebb 10 százalékát. A góc a szélén egyenetlenül terjed, és időnként mellette új, kisebb góc jelenik meg – általában azon az oldalon, amerre aznap a szél fúj. A permetezés teljesen megszünteti a fertőzést." />
+        <text name="fh_setting_patchSize" text="A gócok mérete" />
+        <text name="fh_setting_patchSize_desc" text="Mekkorák a gócok, amelyekben az új fertőzés megjelenik és nő. Minden góc szabálytalan alakú és véletlenszerű méretű – a kicsik gyakoribbak a nagyoknál. Kicsi – a gócok általában 5–12 m-esek, Normál – 8–20 m, Nagy – 12–30 m. Kis táblákon a gócok mindig kisebbek." />
+        <text name="fh_setting_neighbourSpread" text="Átterjedés a szomszéd táblákra" />
+        <text name="fh_setting_neighbourSpread_desc" text="Átterjedhet-e a fertőzés a tábla széléről egy játékos szomszédos táblájára. Ez csak akkor történik meg, ha a táblák érintkeznek vagy nagyon keskeny sáv választja el őket, ha a másik táblán olyan kultúra van, amelyet a károsító megtámad, a megfelelő fejlődési szakaszban, és ha a másik tábla nincs lepermetezve. A kártevők gyakrabban terjednek át, mint a betegségek, és csak közepes fokozattól. Az NPC-k tábláit soha nem érinti. Ki, Ritkán, Néha, Gyakran – nulla, fél, normál és dupla esély." />
+        <text name="fh_setting_damage" text="Kár az állományban" />
+        <text name="fh_setting_damage_desc" text="Mennyi növényt pusztít el naponta egy súlyos fertőzés. Az elpusztult foltok a betakarításkor semmit sem adnak. Ki – a fertőzés csak látható, a hozam nem változik. Kicsi, Normál, Nagy – naponta 1, 3 vagy 6 néhány méteres folt, mindig csak a fertőzött területen belül." />
+        <text name="fh_setting_protectionThreshold" text="Fedettség a teljes védelemhez" />
+        <text name="fh_setting_protectionThreshold_desc" text="A tábla mekkora részét kell lepermetezni ahhoz, hogy az egész tábla védett legyen az adott károsítófajta (betegségek vagy kártevők) ellen. Kisebb fedettségnél még megjelenhet a fertőzés, de csak a permetezetlen részeken – a lepermetezett területek mindig védettek. Alapértelmezés 90%. Az alacsonyabb küszöb megbocsátja a kihagyott sarkokat és ékeket, a magasabb pontos permetezést kíván." />
+        <text name="fh_setting_protectionDuration" text="A védelem időtartama" />
+        <text name="fh_setting_protectionDuration_desc" text="Meddig védi a táblát a gombaölő és a rovarölő szer. Betakarításig – mindkét szerből egy permetezés az egész szezonra védi a táblát (a legegyszerűbb). 2 hónap, 1 hónap, Fél hónap – a védelem ennyi idővel a tábla utolsó permetezése után véget ér, és újra kell permetezned, mint egy igazi gazdaságban." />
+        <text name="fh_setting_fungicideUsage" text="Gombaölő szer dózisa" />
+        <text name="fh_setting_fungicideUsage_desc" text="Mennyi gombaölő szert használ el egy permetező hektáronként. A 100% kb. 290 liter permetlé hektáronként (mint a gyomirtónál), vagyis egy 1 literes flakon hektáronként. Kisebb dózissal olcsóbb a permetezés és ritkábban kell tölteni, nagyobbal drágább. A permetezés hatása mindig ugyanaz. A változás azonnal érvényes, munka közben is." />
+        <text name="fh_setting_insecticideUsage" text="Rovarölő szer dózisa" />
+        <text name="fh_setting_insecticideUsage_desc" text="Mennyi rovarölő szert használ el egy permetező hektáronként. A 100% kb. 290 liter permetlé hektáronként (mint a gyomirtónál), vagyis egy 1 literes flakon 5 hektárra. Kisebb dózissal olcsóbb a permetezés és ritkábban kell tölteni, nagyobbal drágább. A permetezés hatása mindig ugyanaz. A változás azonnal érvényes, munka közben is." />
+        <text name="fh_setting_fungicidePrice" text="Gombaölő flakon ára" />
+        <text name="fh_setting_fungicidePrice_desc" text="Egy 1 literes flakon gombaölő szer ára a boltban. Egy flakon 1 hektárra elég (290 l permetlé). Alapértelmezés 50. A játék 1:1 arányban váltja át a pénznemeket. A permetlé literenkénti ára ezt az árat követi, például ha a folyadékot egy állomáson veszed. A változás azonnal érvényes a boltban." />
+        <text name="fh_setting_insecticidePrice" text="Rovarölő flakon ára" />
+        <text name="fh_setting_insecticidePrice_desc" text="Egy 1 literes flakon rovarölő szer ára a boltban. Egy flakon 5 hektárra elég (1450 l permetlé). Alapértelmezés 80. A játék 1:1 arányban váltja át a pénznemeket. A permetlé literenkénti ára ezt az árat követi, például ha a folyadékot egy állomáson veszed. A változás azonnal érvényes a boltban." />
+        <text name="fh_setting_fungicideCanisterPrice" text="Gombaölő 5 l-es kanna ára" />
+        <text name="fh_setting_fungicideCanisterPrice_desc" text="Egy 5 literes kanna gombaölő szer ára a boltban. Egy kanna 5 hektárra elég (1450 l permetlé). Alapértelmezés 220, literenként olcsóbb, mint öt 1 literes flakon, ahogy egy igazi kereskedőnél. A játék 1:1 arányban váltja át a pénznemeket. A változás azonnal érvényes a boltban." />
+        <text name="fh_setting_insecticideCanisterPrice" text="Rovarölő 5 l-es kanna ára" />
+        <text name="fh_setting_insecticideCanisterPrice_desc" text="Egy 5 literes kanna rovarölő szer ára a boltban. Egy kanna 25 hektárra elég (7250 l permetlé). Alapértelmezés 350, literenként olcsóbb, mint öt 1 literes flakon, ahogy egy igazi kereskedőnél. A játék 1:1 arányban váltja át a pénznemeket. A változás azonnal érvényes a boltban." />
+        <text name="fh_setting_fungicideCanister20Price" text="Gombaölő 20 l-es kanna ára" />
+        <text name="fh_setting_fungicideCanister20Price_desc" text="Egy 20 literes kanna gombaölő szer ára a boltban. Egy kanna 20 hektárra elég (5800 l permetlé). Alapértelmezés 800, literenként a legolcsóbb kiszerelés. A játék 1:1 arányban váltja át a pénznemeket. A változás azonnal érvényes a boltban." />
+        <text name="fh_setting_insecticideCanister20Price" text="Rovarölő 20 l-es kanna ára" />
+        <text name="fh_setting_insecticideCanister20Price_desc" text="Egy 20 literes kanna rovarölő szer ára a boltban. Egy kanna 100 hektárra elég (29 000 l permetlé). Alapértelmezés 1200, literenként a legolcsóbb kiszerelés. A játék 1:1 arányban váltja át a pénznemeket. A változás azonnal érvényes a boltban." />
+        <text name="fh_setting_farmLimit" text="Károsítók korlátja gazdaságonként" />
+        <text name="fh_setting_farmLimit_desc" text="Az új károsítók legnagyobb száma a gazdaságod összes tábláján egy játékévben. Korlátlan – minden táblának saját esélye van. Állíts be például 1-et vagy 2-t, ha sok táblád van, és azt szeretnéd, hogy a betegségek és a kártevők ritkák legyenek." />
+        <text name="fh_setting_notifications" text="Értesítések a károsítókról" />
+        <text name="fh_setting_notifications_desc" text="Üzenetet jelenít meg, ha a tábládon betegség vagy kártevő jelenik meg, és ha egy fertőzés súlyossá válik és pusztítani kezdi az állományt. Az üzenet megadja a táblát, a kultúrát, a károsítót és a szert, amellyel permetezni kell." />
+        <text name="fh_set_on" text="Be" />
+        <text name="fh_set_off" text="Ki" />
+        <text name="fh_set_none" text="Nincs" />
+        <text name="fh_set_low" text="Kicsi" />
+        <text name="fh_set_normal" text="Normál" />
+        <text name="fh_set_high" text="Nagy" />
+        <text name="fh_set_slow" text="Lassú" />
+        <text name="fh_set_normalPace" text="Normál" />
+        <text name="fh_set_fast" text="Gyors" />
+        <text name="fh_set_small" text="Kicsi" />
+        <text name="fh_set_medium" text="Közepes" />
+        <text name="fh_set_large" text="Nagy" />
+        <text name="fh_set_damageLow" text="Kicsi" />
+        <text name="fh_set_damageNormal" text="Normál" />
+        <text name="fh_set_damageHigh" text="Nagy" />
+        <text name="fh_set_untilHarvest" text="Betakarításig" />
+        <text name="fh_set_twoMonths" text="2 hónap" />
+        <text name="fh_set_oneMonth" text="1 hónap" />
+        <text name="fh_set_halfMonth" text="Fél hónap" />
+        <text name="fh_set_unlimited" text="Korlátlan" />
+        <text name="fh_set_patchSmall" text="Kicsi" />
+        <text name="fh_set_patchNormal" text="Normál" />
+        <text name="fh_set_patchLarge" text="Nagy" />
+        <text name="fh_set_rarely" text="Ritkán" />
+        <text name="fh_set_sometimes" text="Néha" />
+        <text name="fh_set_often" text="Gyakran" />
+
+        <!-- Shop -->
+        <text name="fh_fillType_insecticide" text="Rovarölő szer" />
+        <text name="fh_fillType_fungicide" text="Gombaölő szer" />
+        <text name="fh_store_fungicideBottle" text="Gombaölő szer 1 l" />
+        <text name="fh_store_insecticideBottle" text="Rovarölő szer 1 l" />
+        <text name="fh_store_fungicideCanister" text="Gombaölő szer 5 l" />
+        <text name="fh_store_insecticideCanister" text="Rovarölő szer 5 l" />
+        <text name="fh_store_fungicideCanister20" text="Gombaölő szer 20 l" />
+        <text name="fh_store_insecticideCanister20" text="Rovarölő szer 20 l" />
+        <text name="fh_function_fungicideBottle" text="1 literes flakon koncentrátum, dózis 1 l/ha. 1 ha-ra elég, ez 290 l permetlé. Minden betegség ellen védi a növényeket. Tedd egy permetező mellé, és töltsd fel belőle a permetezőt." />
+        <text name="fh_function_insecticideBottle" text="1 literes flakon koncentrátum, dózis 0,2 l/ha. 5 ha-ra elég, ez 1450 l permetlé. A kártevők ellen védi a növényeket: levéltetvek, vetésfehérítők, repcefénybogár, burgonyabogár, kukoricamoly és drótférgek. Tedd egy permetező mellé, és töltsd fel belőle a permetezőt." />
+        <text name="fh_function_fungicideCanister" text="5 literes kanna koncentrátum, dózis 1 l/ha. 5 ha-ra elég, ez 1450 l permetlé. Minden betegség ellen védi a növényeket. Literenként olcsóbb, mint az 1 literes flakonok. Tedd egy permetező mellé, és töltsd fel belőle a permetezőt." />
+        <text name="fh_function_insecticideCanister" text="5 literes kanna koncentrátum, dózis 0,2 l/ha. 25 ha-ra elég, ez 7250 l permetlé. A kártevők ellen védi a növényeket. Literenként olcsóbb, mint az 1 literes flakonok. Tedd egy permetező mellé, és töltsd fel belőle a permetezőt." />
+        <text name="fh_function_fungicideCanister20" text="20 literes kanna koncentrátum, dózis 1 l/ha. 20 ha-ra elég, ez 5800 l permetlé. Minden betegség ellen védi a növényeket. Literenként a legolcsóbb, nagy gazdaságoknak. Tedd egy permetező mellé, és töltsd fel belőle a permetezőt." />
+        <text name="fh_function_insecticideCanister20" text="20 literes kanna koncentrátum, dózis 0,2 l/ha. 100 ha-ra elég, ez 29 000 l permetlé. A kártevők ellen védi a növényeket. Literenként a legolcsóbb, nagy gazdaságoknak. Tedd egy permetező mellé, és töltsd fel belőle a permetezőt." />
+
+        <!-- Help (ESC → Help) -->
+        <text name="fh_help_header" text="Field Health – betegségek és kártevők" />
+
+        <text name="fh_help_intro" text="Bevezetés" />
+        <text name="fh_help_intro_01" text="A modról" />
+        <text name="fh_help_intro_02" text="A Field Health azokat a növénybetegségeket és kártevőket hozza el a játékba, amelyekkel a lengyelországi gazdák nap mint nap küzdenek. A szezon során megjelennek a gazdaságod tábláin, fejlődnek, és ha nem védekezel ellenük, elpusztítják az állomány egy részét. Két szer van ellenük a boltban: gombaölő szer a betegségek és rovarölő szer a kártevők ellen.
+A mod valósághű, de elnéző a nyugodt játékkal: egy fertőzés soha nem borítja be az egész táblát, az állomány csak a legsúlyosabb fokozatban pusztul, és mindkét szerből egyetlen jól elvégzett permetezés a szezon végéig védi a táblát." />
+        <text name="fh_help_intro_03" text="A szezon lépésről lépésre" />
+        <text name="fh_help_intro_04" text="1. A vetéssel indul a kultúra szezonja. Attól a naptól nő a fertőzési nyomás a táblán – leggyorsabban abban az évszakban és fejlődési szakaszban, amikor egy károsító támad, a neki kedvező időben és elhanyagolt táblán.
+2. Ha a nyomás átlépi a táblának kisorsolt küszöböt, megjelenik egy betegség- vagy kártevőgóc. Értesítést kapsz a tábla számával és a szerrel, amellyel permetezni kell.
+3. A kezeletlen fertőzés félhavonta egy fokozattal súlyosabb lesz, és lassan terjed. Súlyos fokozatban naponta kis foltokban pusztítja az állományt.
+4. A permetezés megszünteti a fertőzést, és védi a lepermetezett helyeket. A szinte teljesen lepermetezett tábla betakarításig ellenálló az adott károsítófajtával szemben.
+5. A betakarítás lezárja a szezont: a károsítók és a védelem eltűnnek, a betakarított kultúra pedig a következő elővetemény lesz." />
+        <text name="fh_help_intro_05" text="A legfontosabb számok" />
+        <text name="fh_help_intro_06" text="Alapértelmezett értékek. Az adminisztrátor mindegyiket módosíthatja a beállításokban (utolsó oszlop)." />
+        <text name="fh_help_intro_08" text="Hol látod a táblák állapotát" />
+        <text name="fh_help_intro_09" text="– A tábla információs panelje (amikor egy táblán vagy): a károsítók és súlyosságuk, a kockázat és fő oka, a tábla védelme.
+– Térkép (ESC &gt; Térkép &gt; Növényvédelem): öt réteg – védelem, betegségek, kártevők, betegségfajták és kártevőfajták.
+– Minitérkép: a réteget a bal Alt + \ billentyűkkel váltod.
+– Értesítések: új károsítóról, súlyos fokozatról és a szomszéd tábláról átterjedt fertőzésről." />
+        <text name="fh_help_origin" text="Honnan jönnek a károsítók" />
+        <text name="fh_help_origin_01" text="Minden játékostábla, amelyen növény fejlődik, szezononként legfeljebb egy betegséget és egyfajta kártevőt kaphat. Az NPC-k táblái, a nyárfa és a másodvetések soha nem fertőződnek; a rétek, a fű, a lóhere és a lucerna csak akkor, ha ez be van kapcsolva a beállításokban.
+A fertőzés nem véletlenszerű napon jelenik meg. A mod minden nap kiszámolja a tábla fertőzési nyomását, és hozzáadja az előző napok összegéhez. A szezon elején a tábla véletlenszerű ellenállási küszöböt kap – ha a nyomás összege átlépi, a tábla megfertőződik. Ezért egy károsító az egyik szezonban korán, a másikban későn, a harmadikban pedig egyáltalán nem jelenik meg." />
+        <text name="fh_help_origin_02" text="Mi befolyásolja a nyomást" />
+        <text name="fh_help_origin_03" text="1. Az alapesély a beállításokból – alapértelmezés szerint szezononként 15% a betegségekre és 10% a kártevőkre.
+2. A tábla kockázata, vagyis ahogyan gazdálkodsz rajta: trágyázás, talajművelés, vetésforgó és gyomok („Hogyan gazdálkodsz” oldal).
+3. Mennyire gyakori a károsító Lengyelországban – a gyakori betegségek és kártevők sokkal többször jelennek meg, mint a ritkák („Betegségek” és „Kártevők” oldal).
+4. Az évszak és a fejlődési szakasz – a saját idején kívül egy károsító egyáltalán nem támad („Évszakok és fejlődési szakaszok” oldal).
+5. Az elmúlt napok időjárása – az eső a gombás betegségeknek, a meleg és a szárazság a legtöbb kártevőnek kedvez („Időjárás” oldal)." />
+        <text name="fh_help_origin_04" text="Esély szezononként" />
+        <text name="fh_help_origin_05" text="Így változtatja meg a tábla kockázata egy károsító esélyét az egész szezonra, alapértelmezett beállítások mellett:" />
+        <text name="fh_help_origin_07" text="A táblázat olyan kultúrára vonatkozik, amelynek átlagos számú károsítója van, és ezek teljes időszaka alatt fejlődik. A sok gyakori betegség vagy kártevő által támadott kultúrák gyakrabban fertőződnek (legfeljebb 1,4-szeresen), a kevés károsítójúak ritkábban (akár 0,5-szörösen):" />
+        <text name="fh_help_origin_09" text="Melyik károsító jelenik meg" />
+        <text name="fh_help_origin_10" text="Fertőzéskor a mod kiválaszt egyet azok közül a károsítók közül, amelyek aznap megtámadhatják a kultúrát. Mindegyik esélye arányos az aznapi nyomásával: gyakoriság szorozva a tábla kockázatával, az évszakkal és az időjárással. Példa: búzán májusban esős időben leggyakrabban szeptória vagy lisztharmat jelenik meg, a ritka és melegkedvelő szárrozsda viszont szinte soha." />
+        <text name="fh_help_origin_11" text="Permetezés a fertőzés előtt" />
+        <text name="fh_help_origin_12" text="Ha a fertőzés pillanatában a tábla területének legalább 90 százaléka le van permetezve a megfelelő szerrel, a fertőzés meghiúsul, és a tábla ebben a szezonban nem kap ilyen fajtájú károsítót. Kisebb fedettségnél a károsító megjelenhet, de csak a permetezetlen részeken." />
+        <text name="fh_help_timing" text="Évszakok és fejlődési szakaszok" />
+        <text name="fh_help_timing_01" text="Minden betegségnek és kártevőnek megvan a maga ideje: csak bizonyos hónapokban és a kultúra bizonyos fejlődési szakaszaiban támad. Ezen belül van egy csúcs, amikor a legveszélyesebb. A saját idején kívül egy károsító egyáltalán nem jelenik meg – szomszéd tábláról sem érkezhet." />
+        <text name="fh_help_timing_02" text="Fejlődési szakaszok" />
+        <text name="fh_help_timing_04" text="A mod a kultúra játékbeli növekedési állapotából olvassa ki a szakaszt: a növekedési idő első 20 százaléka a kelés, 45 százalékig a levélfejlődés és a bokrosodás, 70 százalékig a szárba indulás vagy a bimbózás, utána jön a kalászolás és a virágzás, a betakarításra kész kultúra pedig érett. A hónapok a játék naptárát követik (az év első időszaka a március), így az időszakonkénti napok száma nem változtat azon, mikor támadnak a károsítók." />
+        <text name="fh_help_timing_05" text="Naptár – mikor kell figyelni" />
+        <text name="fh_help_timing_06" text="A fő hónapok azok, amelyekben a károsítócsoport nyomása a kultúrára a legnagyobb. Közvetlenül előttük permetezve a legtöbb fertőzés megelőzhető." />
+        <text name="fh_help_farming" text="Hogyan gazdálkodsz" />
+        <text name="fh_help_farming_01" text="A tábla kockázata a fertőzési nyomás szorzója, amely attól függ, hogyan gazdálkodsz a táblán. A mod minden károsítóra külön számolja; a tábla információs panelje a legmagasabb betegség- és kártevőkockázatot mutatja a fő okkal együtt. A táblázatok szorzói összeszorzódnak, az eredmény pedig mindig 0,3 és 5 között marad." />
+        <text name="fh_help_farming_03" text="Trágyázás" />
+        <text name="fh_help_farming_05" text="Talajművelés és gyomok" />
+        <text name="fh_help_farming_07" text="Az értékek egy teljesen elhanyagolt táblára vonatkoznak – a részleges elhanyagolás arányosan növeli a kockázatot. Csak a játékbeállításokban bekapcsolt munkák számítanak: ha a szántás nem kötelező, a hiánya semmin nem változtat. A mod 36 ponton ellenőrzi a táblát, és csak ott, ahol a növény nő, így a művelőutak és a táblán átvezető utak nem számítanak elhanyagolásnak. Az aprítatlan tarló és a hengerezés hiánya csak akkor számít elhanyagolásnak, ha a tábla háromnegyedét érinti. A tarló csak a táblán végzett betakarítás után számít, szántás után nem („A tarló kockázata” beállítás teljesen kikapcsolja). Az FS25-ben szántás után nem nőnek gyomok." />
+        <text name="fh_help_farming_08" text="Vetésforgó és másodvetés" />
+        <text name="fh_help_farming_10" text="„A gazdálkodás hatása” beállítás egyszerre erősíti vagy gyengíti mindezeket a tényezőket. Nincs – minden tábla kockázata 1. Kicsi – a különbségek nagyjából feleakkorák. Normál – mint a táblázatokban. Nagy – a különbségek másfélszer akkorák." />
+        <text name="fh_help_weather" text="Időjárás" />
+        <text name="fh_help_weather_01" text="A mod minden játékórában leolvassa a hőmérsékletet, és megnézi, esik-e. A nap végén kiszámolja a nap átlaghőmérsékletét és az esős órák arányát. A nedvességnek emlékezete van: fele az utolsó napból, fele a korábbi napokból származik, mert a levelek eső után még sokáig nedvesek. Minden károsítónak van időjárási profilja – egy hőmérsékleti tartomány és az esőre adott válasza." />
+        <text name="fh_help_weather_03" text="A tartományon kívüli hőmérséklet 0,4-szeresére csökkenti a nyomást, az optimális hőmérséklet 1,2-szeresére növeli. Az eső 0,4- és 1,8-szoros között változtatja a nyomást – felfelé a nedvességkedvelő, lefelé a szárazságkedvelő károsítóknál. Összesen az időjárás 0,2- és 2,5-szörös között változtatja a nyomást. Példaszorzók néhány ilyen időjárású nap után (piros – a fertőzés erősödik, zöld – gyengül):" />
+        <text name="fh_help_weather_05" text="„Az időjárás hatása” beállítás: Nincs – az időjárás nem számít, Kicsi – enyhébb szorzók, Normál – mint a táblázatban, Nagy – erősebbek. Néhány meleg, esős nyári nap után figyeld különösen a burgonyát és a kalászoló gabonát, száraz, forró nyáron pedig a kártevőket." />
+        <text name="fh_help_diseases" text="Betegségek" />
+        <text name="fh_help_diseases_01" text="A gombaölő szer minden betegség ellen hat. A táblázatok megmutatják, mennyire gyakori egy betegség Lengyelországban, mely kultúrákat támadja, mely hónapokban jelenik meg és mikor a legsúlyosabb, melyik fejlődési szakaszban okozza a legnagyobb kárt, és mi kedvez neki." />
+        <text name="fh_help_diseases_03" text="Gabonák és kukorica" />
+        <text name="fh_help_diseases_05" text="Egyéb kultúrák" />
+        <text name="fh_help_diseases_07" text="Azoknak a térképeknek a kultúráin, amelyeket a mod nem ismer, szürkepenész és levéltetvek jelenhetnek meg. A Highlands Fishing kiegészítő és a modok hagymáit a mod automatikusan felismeri." />
+        <text name="fh_help_pests" text="Kártevők" />
+        <text name="fh_help_pests_01" text="A rovarölő szer minden kártevő ellen hat. A táblázatok oszlopai ugyanazt jelentik, mint a „Betegségek” oldalon." />
+        <text name="fh_help_pests_02" text="Gabonák és kukorica" />
+        <text name="fh_help_pests_04" text="Egyéb kultúrák" />
+        <text name="fh_help_progress" text="Hogyan alakul a fertőzés" />
+        <text name="fh_help_progress_01" text="Az új fertőzés egy vagy két szabálytalan góc rojtos széllel és egészséges foltokkal a belsejében. Enyhe fokozatban kezdődik. Ha nem védekezel ellene, ezeken a lépéseken megy végig:" />
+        <text name="fh_help_progress_03" text="Az elpusztult állomány nem nő vissza, és a betakarításkor semmit sem ad. Ezért a legolcsóbb előre vagy közvetlenül az értesítés után permetezni. A permetezés bármelyik fokozatban teljesen megszünteti a fertőzést a lepermetezett helyeken." />
+        <text name="fh_help_spraying" text="Permetezés és védelem" />
+        <text name="fh_help_spraying_01" text="A szereket a lengyel Opryskex cég gyártja: a Grzybobój 250 EC gombaölő szert (zöld címke) és a Robalex 100 CS rovarölő szert (piros címke). Vásárláskor helyette az MST (Mafia Solec Team) márkát is választhatod: Solectop 280 SC és Mafiozol 50 EW. Ugyanúgy hatnak, csak a címke más. A boltban 1 literes flakonban, valamint 5 és 20 literes kannában kaphatók. Tedd a kiszerelést a permetező mellé, és töltsd fel a permetezőt, mint egy raklapról. A játék nem keveri vízzel a koncentrátumot, így egy kiszerelés tartalma az összes permetlé, ami belőle lesz. Minél nagyobb a kiszerelés, annál olcsóbb egy hektár." />
+        <text name="fh_help_spraying_03" text="Így működik a védelem" />
+        <text name="fh_help_spraying_05" text="Figyelem" />
+        <text name="fh_help_spraying_06" text="– Kelés után permetezz – a vetés és a betakarítás megszünteti a védelmet.
+– A gombaölő szer nem véd a kártevők, a rovarölő szer pedig a betegségek ellen. A teljes védelemhez mindkettő kell.
+– A kihagyott ékek és forgók is számítanak: 90% alatti fedettségnél a permetezetlen sávokon megjelenhet a fertőzés.
+– A szerek nem trágyáznak és nem irtják a gyomokat.
+– Rövidebb védelemnél (beállítás) az egész tábla védelme ennyi idővel az utolsó permetezés után véget ér." />
+        <text name="fh_help_map" text="Térkép és táblaadatok" />
+        <text name="fh_help_map_01" text="A tábla információs panelje" />
+        <text name="fh_help_map_02" text="Amikor egy táblán vagy, a tábla információs panelje ezt mutatja:
+– Betegség és Kártevők: az aktív fertőzés és súlyossága (enyhe, közepes, súlyos),
+– Betegségkockázat és Kártevőkockázat: alacsony, átlagos, emelkedett vagy magas, emelkedettől a fő okkal együtt,
+– Védelem – betegségek és Védelem – kártevők: a tábla mekkora része van lepermetezve,
+– tipp arról, melyik szer hat a fertőzés ellen." />
+        <text name="fh_help_map_03" text="Térkép" />
+        <text name="fh_help_map_04" text="Az ESC &gt; Térkép menüben válaszd a „Növényvédelem” oldalt. A címe alatt egy második, nyilas választó vált az öt réteg között. Ha a jelmagyarázat egy elemére kattintasz, az eltűnik a térképről. Csak a gazdaságod azon táblái látszanak, amelyeken növény fejlődik. Kattints egy földterületre, hogy lásd a tábláinak károsítóit és védelmét." />
+        <text name="fh_help_map_06" text="A károsítófajták színei" />
+        <text name="fh_help_map_08" text="Minitérkép" />
+        <text name="fh_help_map_09" text="A bal Alt + \ váltja a minitérkép rétegét: védelem, betegségek, kártevők és réteg nélkül. A billentyűket játék közben módosíthatod az ESC &gt; Beállítások &gt; Irányítás menüben, a „Field Health – növényvédelmi réteg a minitérképen” bejegyzésnél (a főmenü nem mutatja a modok billentyűit, mert a modok csak a mentéssel együtt töltődnek be)." />
+        <text name="fh_help_pf" text="Precíziós gazdálkodás" />
+        <text name="fh_help_pf_01" text="A Precíziós gazdálkodással a Field Health annak bővítményeként működik, és használja a talajtérképeit. Általános trágyázás helyett a célértékhez mért nitrogén számít, általános meszezés helyett pedig a talaj pH-ja." />
+        <text name="fh_help_pf_03" text="A legjobb védelem ugyanaz a munka, amit a hozamért is végzel: trágyázás a célértékig, meszezés az optimális pH-ig és másodvetés. Az fhPrecisionFarming konzolparancs a logba írja, hogyan olvassa a mod a Precíziós gazdálkodás adatait." />
+        <text name="fh_help_settings" text="Beállítások" />
+        <text name="fh_help_settings_01" text="A mod beállításait az ESC &gt; Beállítások &gt; Játék menüben találod, a „Field Health – betegségek és kártevők” részben. A mentéssel együtt tárolódnak. Többjátékos módban csak a szerver adminisztrátora módosíthatja őket. Vidd az egeret egy opció fölé, hogy lásd a leírását." />
+        <text name="fh_help_tips" text="Tippek" />
+        <text name="fh_help_tips_01" text="Terv az egészséges táblákért" />
+        <text name="fh_help_tips_02" text="1. Trágyázz igény szerint, meszezz, és ne vesd ugyanazt a kultúrát két egymást követő évben. A fő kultúrák közé vess másodvetést.
+2. A károsítók fő hónapjai előtt („Évszakok és fejlődési szakaszok” oldal) permetezd le a táblát gombaölő és rovarölő szerrel. Szezononként egyszer elég, ha a tábla legalább 90 százalékát lefeded.
+3. Nézd meg a „Védelem” réteget a térképen – a zöld táblák mindkét károsítófajta ellen védettek.
+4. Értesítés után permetezd le a megnevezett táblát a megnevezett szerrel, mielőtt a fertőzés súlyos fokozatba lép.
+5. A gombaölő vagy rovarölő szerrel dolgozó gépi segítő a védelem nélküli táblákat teljesen lepermetezi, a védetteket csak ott, ahol fertőzés van." />
+        <text name="fh_help_tips_03" text="Figyelem" />
+        <text name="fh_help_tips_04" text="– A monokultúra és a szántás hiánya a magas kockázat leggyakoribb oka, például a búza utáni búza szántás nélkül a szeptóriának, a pirenofórának és a fuzáriózisnak kedvez.
+– A kukorica mint a búza előveteménye jelentősen növeli a fuzáriózis kockázatát, a gyep a burgonya előtt a drótférgekét.
+– A hígtrágya és a folyékony műtrágya buja állományt ad, amelyet a lisztharmat, a rozsdák és a levéltetvek szeretnek.
+– Az esős nyár a burgonyavész, a szeptória és a fuzáriózis ideje, a száraz, forró nyár a levéltetveké, a burgonyabogáré, a tripszeké és a dughernyóké.
+– A repcének két veszélyes időszaka van: az ősz (földibolhák, repcedarázs, fóma) és a tavasz (repceormányos, repcefénybogár, szklerotínia).
+– A közepes vagy súlyos fokozatú fertőzés átterjedhet egy játékos szomszédos táblájára." />
+        <text name="fh_help_admin" text="Az adminisztrátornak" />
+        <text name="fh_help_admin_01" text="Konzolparancsok" />
+        <text name="fh_help_admin_03" text="Többjátékos mód, mentés és kompatibilitás" />
+        <text name="fh_help_admin_04" text="– A szimuláció a szerveren fut, a játékosok az eredményeit látják. A beállítások, valamint az fhSet, fhClear és fhDailyTick parancsok csak az adminisztrátornak elérhetők.
+– Az értesítéseket a táblát birtokló gazdaság játékosai kapják, mindenki a saját nyelvén.
+– A mod csak két saját fájlba menti az adatait a mentés mappájában: fieldHealth.xml és fieldHealthMap.grle. Biztonságosan eltávolítható – a játék kihagyja ezeket a fájlokat, és csak a szerek flakonjai és kannái tűnnek el a térképről.
+– A mod korábbi verziójával készült mentéseket betöltéskor az új formátumra alakítja.
+– A Highlands Fishing kiegészítő és a modok hagymáit automatikusan felismeri – a log jelzi ezt.
+– Ne használj egyszerre más, növénybetegségeket hozó modot (pl. Crop Diseases) – a Field Health figyelmeztet erre a logban." />
+        <text name="fh_help_admin_05" text="Köszönet" />
+        <text name="fh_help_admin_06" text="Field Health – szerző: MatrikSky. Az ötlet a BMP „Crop Diseases” nevű modjából származik. A flakon modellje shabanimate „fertilizer Bottle” modelljén, a kannáé hoxsvl „#6 Plastic Canister” modelljén alapul (mindkettő CC BY 4.0, sketchfab.com)." />
+        <text name="fh_help_tableLanguage" text="en" />
+
+
+
+
+
+
+
+
+
+
+    </texts>
+</l10n>

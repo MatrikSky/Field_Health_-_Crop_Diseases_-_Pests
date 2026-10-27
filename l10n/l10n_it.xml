@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+    <texts>
+        <!-- Diseases (full and short name) -->
+        <text name="fh_disease_cereal_mildew" text="Oidio dei cereali" />
+        <text name="fh_disease_cereal_mildew_short" text="Oidio" />
+        <text name="fh_disease_septoria" text="Septoriosi" />
+        <text name="fh_disease_septoria_short" text="Septoriosi" />
+        <text name="fh_disease_brown_rust" text="Ruggine bruna" />
+        <text name="fh_disease_brown_rust_short" text="Ruggine bruna" />
+        <text name="fh_disease_fusarium" text="Fusariosi" />
+        <text name="fh_disease_fusarium_short" text="Fusariosi" />
+        <text name="fh_disease_net_blotch" text="Maculatura reticolata dell'orzo" />
+        <text name="fh_disease_net_blotch_short" text="Maculatura reticolata" />
+        <text name="fh_disease_snow_mould" text="Muffa delle nevi" />
+        <text name="fh_disease_snow_mould_short" text="Muffa delle nevi" />
+        <text name="fh_disease_sclerotinia" text="Marciume bianco" />
+        <text name="fh_disease_sclerotinia_short" text="Sclerotinia" />
+        <text name="fh_disease_alternaria" text="Alternariosi" />
+        <text name="fh_disease_alternaria_short" text="Alternariosi" />
+        <text name="fh_disease_late_blight" text="Peronospora della patata" />
+        <text name="fh_disease_late_blight_short" text="Peronospora patata" />
+        <text name="fh_disease_cercospora" text="Cercosporiosi" />
+        <text name="fh_disease_cercospora_short" text="Cercosporiosi" />
+        <text name="fh_disease_grey_mould" text="Muffa grigia" />
+        <text name="fh_disease_grey_mould_short" text="Muffa grigia" />
+        <text name="fh_disease_yellow_rust" text="Ruggine gialla" />
+        <text name="fh_disease_yellow_rust_short" text="Ruggine gialla" />
+        <text name="fh_disease_tan_spot" text="Maculatura gialla del frumento" />
+        <text name="fh_disease_tan_spot_short" text="Maculatura gialla" />
+        <text name="fh_disease_eyespot" text="Mal del piede (macchia ocellare)" />
+        <text name="fh_disease_eyespot_short" text="Mal del piede" />
+        <text name="fh_disease_rhynchosporium" text="Rincosporiosi" />
+        <text name="fh_disease_rhynchosporium_short" text="Rincosporiosi" />
+        <text name="fh_disease_ramularia" text="Ramulariosi" />
+        <text name="fh_disease_ramularia_short" text="Ramularia" />
+        <text name="fh_disease_stem_rust" text="Ruggine nera" />
+        <text name="fh_disease_stem_rust_short" text="Ruggine nera" />
+        <text name="fh_disease_phoma" text="Necrosi del colletto (phoma)" />
+        <text name="fh_disease_phoma_short" text="Phoma" />
+        <text name="fh_disease_cylindrosporiosis" text="Cilindrosporiosi" />
+        <text name="fh_disease_cylindrosporiosis_short" text="Cilindrosporiosi" />
+        <text name="fh_disease_beet_mildew" text="Oidio della barbabietola" />
+        <text name="fh_disease_beet_mildew_short" text="Oidio barbabietola" />
+        <text name="fh_disease_ascochyta" text="Antracnosi (ascochita)" />
+        <text name="fh_disease_ascochyta_short" text="Antracnosi" />
+        <text name="fh_disease_downy_mildew" text="Peronospora" />
+        <text name="fh_disease_downy_mildew_short" text="Peronospora" />
+        <text name="fh_disease_corn_leaf_blight" text="Elmintosporiosi del mais" />
+        <text name="fh_disease_corn_leaf_blight_short" text="Elmintosporiosi" />
+        <text name="fh_disease_crown_rust" text="Ruggine coronata dell'avena" />
+        <text name="fh_disease_crown_rust_short" text="Ruggine coronata" />
+
+        <!-- Pests (full and short name) -->
+        <text name="fh_pest_aphids" text="Afidi" />
+        <text name="fh_pest_aphids_short" text="Afidi" />
+        <text name="fh_pest_leaf_beetle" text="Lema dei cereali" />
+        <text name="fh_pest_leaf_beetle_short" text="Lema" />
+        <text name="fh_pest_pollen_beetle" text="Meligete" />
+        <text name="fh_pest_pollen_beetle_short" text="Meligete" />
+        <text name="fh_pest_potato_beetle" text="Dorifora della patata" />
+        <text name="fh_pest_potato_beetle_short" text="Dorifora" />
+        <text name="fh_pest_corn_borer" text="Piralide del mais" />
+        <text name="fh_pest_corn_borer_short" text="Piralide" />
+        <text name="fh_pest_wireworm" text="Elateridi (ferretti)" />
+        <text name="fh_pest_wireworm_short" text="Elateridi" />
+        <text name="fh_pest_stem_weevil" text="Punteruolo del fusto della colza" />
+        <text name="fh_pest_stem_weevil_short" text="Punteruolo del fusto" />
+        <text name="fh_pest_seed_weevil" text="Punteruolo delle silique" />
+        <text name="fh_pest_seed_weevil_short" text="Punteruolo silique" />
+        <text name="fh_pest_flea_beetle" text="Altiche" />
+        <text name="fh_pest_flea_beetle_short" text="Altiche" />
+        <text name="fh_pest_turnip_sawfly" text="Tentredine della rapa" />
+        <text name="fh_pest_turnip_sawfly_short" text="Tentredine" />
+        <text name="fh_pest_frit_fly" text="Mosca frit" />
+        <text name="fh_pest_frit_fly_short" text="Mosca frit" />
+        <text name="fh_pest_wheat_midge" text="Cecidomia del frumento" />
+        <text name="fh_pest_wheat_midge_short" text="Cecidomia" />
+        <text name="fh_pest_cutworm" text="Nottue terricole" />
+        <text name="fh_pest_cutworm_short" text="Nottue terricole" />
+        <text name="fh_pest_beet_fly" text="Mosca della barbabietola" />
+        <text name="fh_pest_beet_fly_short" text="Mosca barbabietola" />
+        <text name="fh_pest_onion_fly" text="Mosca della cipolla" />
+        <text name="fh_pest_onion_fly_short" text="Mosca della cipolla" />
+        <text name="fh_pest_thrips" text="Tripidi" />
+        <text name="fh_pest_thrips_short" text="Tripidi" />
+        <text name="fh_pest_carrot_fly" text="Mosca della carota" />
+        <text name="fh_pest_carrot_fly_short" text="Mosca della carota" />
+        <text name="fh_pest_pea_leaf_weevil" text="Sitona del pisello" />
+        <text name="fh_pest_pea_leaf_weevil_short" text="Sitona" />
+        <text name="fh_pest_rootworm" text="Diabrotica del mais" />
+        <text name="fh_pest_rootworm_short" text="Diabrotica" />
+        <text name="fh_pest_ground_beetle" text="Zabro dei cereali" />
+        <text name="fh_pest_ground_beetle_short" text="Zabro" />
+
+        <text name="fh_severity_low" text="lieve" />
+        <text name="fh_severity_medium" text="medio" />
+        <text name="fh_severity_high" text="grave" />
+
+        <!-- Field info (short, so nothing gets cut off) -->
+        <text name="fh_hud_threats" text="Avversità" />
+        <text name="fh_hud_disease" text="Malattia" />
+        <text name="fh_hud_pest" text="Parassiti" />
+        <text name="fh_hud_none" text="nessuna" />
+        <text name="fh_hud_diseaseRisk" text="Rischio malattie" />
+        <text name="fh_hud_pestRisk" text="Rischio parassiti" />
+        <text name="fh_hud_cause" text="Causa" />
+        <text name="fh_hud_protection" text="Protezione" />
+        <text name="fh_hud_diseaseProtection" text="Protezione – malattie" />
+        <text name="fh_hud_pestProtection" text="Protezione – parassiti" />
+        <text name="fh_hud_protected" text="attiva" />
+        <text name="fh_risk_low" text="basso" />
+        <text name="fh_risk_normal" text="normale" />
+        <text name="fh_risk_elevated" text="elevato" />
+        <text name="fh_risk_high" text="alto" />
+        <text name="fh_cause_fertilizer" text="nessuna concimazione" />
+        <text name="fh_cause_manure" text="letame fresco" />
+        <text name="fh_cause_fastNitrogen" text="azoto rapido" />
+        <text name="fh_cause_nitrogenDeficit" text="carenza di azoto" />
+        <text name="fh_cause_nitrogenExcess" text="eccesso di azoto" />
+        <text name="fh_cause_lime" text="terreno acido" />
+        <text name="fh_cause_lightSoil" text="terreno sciolto" />
+        <text name="fh_cause_heavySoil" text="terreno pesante" />
+        <text name="fh_cause_plowing" text="nessuna aratura" />
+        <text name="fh_cause_stubble" text="stoppie" />
+        <text name="fh_cause_rolling" text="nessuna rullatura" />
+        <text name="fh_cause_weeds" text="infestanti" />
+        <text name="fh_cause_sameCrop" text="monosuccessione" />
+        <text name="fh_cause_cropFamily" text="coltura affine" />
+        <text name="fh_cause_previousCrop" text="precessione sfavorevole" />
+        <text name="fh_hint_fungicide" text="Trattamento: fungicida" />
+        <text name="fh_hint_insecticide" text="Trattamento: insetticida" />
+        <text name="fh_field_area" text="Superficie del campo" />
+        <text name="fh_potential_harvest" text="Raccolto potenziale" />
+        <text name="fh_potential_yield" text="Resa potenziale" />
+
+        <!-- Notifications: field number, crop, threat, spray -->
+        <text name="fh_alert_new" text="Campo %s (%s): nuova avversità – %s. Trattamento: %s." />
+        <text name="fh_alert_severe" text="Campo %s (%s): avversità grave – %s, la coltura sta morendo. Trattamento: %s." />
+        <text name="fh_alert_neighbour" text="Campo %s (%s): %s – propagazione da un campo vicino. Trattamento: %s." />
+
+        <!-- Map -->
+        <text name="fh_map_page" text="Difesa delle colture" />
+        <text name="fh_map_layerProtection" text="Protezione" />
+        <text name="fh_map_layerDiseases" text="Malattie" />
+        <text name="fh_map_layerPests" text="Parassiti" />
+        <text name="fh_map_layerDiseaseTypes" text="Tipi di malattia" />
+        <text name="fh_map_layerPestTypes" text="Tipi di parassita" />
+        <text name="fh_map_notSprayed" text="Non protetto" />
+        <text name="fh_map_oneProduct" text="Un prodotto" />
+        <text name="fh_map_bothProducts" text="Fungicida e insetticida" />
+        <text name="fh_map_healthy" text="Coltura sana" />
+        <text name="fh_map_low" text="Lieve" />
+        <text name="fh_map_medium" text="Medio" />
+        <text name="fh_map_high" text="Grave" />
+        <text name="fh_map_diseaseLabel" text="Malattia:" />
+        <text name="fh_map_pestLabel" text="Parassiti:" />
+        <text name="fh_map_diseaseProtectionLabel" text="Protezione – malattie:" />
+        <text name="fh_map_pestProtectionLabel" text="Protezione – parassiti:" />
+        <text name="fh_map_protectedUntilHarvest" text="attiva" />
+        <text name="input_FH_MINIMAP_LAYER" text="Field Health – livello difesa delle colture sulla minimappa" />
+
+        <!-- Settings -->
+        <text name="fh_config_brand" text="Marca" />
+        <text name="fh_settings_header" text="Field Health – malattie e parassiti" />
+        <text name="fh_setting_enabled" text="Avversità delle colture" />
+        <text name="fh_setting_enabled_desc" text="Interruttore principale della mod. Se è disattivato non compaiono nuove malattie né nuovi parassiti, e quelli già presenti smettono di svilupparsi e di distruggere le colture. I trattamenti funzionano comunque, quindi puoi eliminare ciò che resta sui tuoi campi." />
+        <text name="fh_setting_diseaseChance" text="Probabilità di malattia per stagione" />
+        <text name="fh_setting_diseaseChance_desc" text="Probabilità di base che un campo coltivato normalmente si ammali durante una stagione (dalla semina al raccolto). È solo un punto di partenza: una buona gestione (letame, colture intercalari, rotazione, pH e azoto giusti) la riduce, la trascuratezza (nessuna concimazione, monosuccessione, nessuna aratura, terreno acido) la moltiplica. Un trattamento fungicida prima che compaia una malattia la porta a zero fino al raccolto. 0% disattiva le malattie." />
+        <text name="fh_setting_pestChance" text="Probabilità di parassiti per stagione" />
+        <text name="fh_setting_pestChance_desc" text="Probabilità di base che i parassiti compaiano su un campo coltivato normalmente durante una stagione. La gestione la modifica: infestanti, monosuccessione e mancata aratura la aumentano, colture intercalari e rotazione la riducono. Un trattamento insetticida prima dell'arrivo dei parassiti la porta a zero fino al raccolto. 0% disattiva i parassiti." />
+        <text name="fh_setting_careInfluence" text="Influenza della gestione" />
+        <text name="fh_setting_careInfluence_desc" text="Quanto il tuo modo di coltivare (concimazione, lavorazione del terreno, rotazione, colture intercalari, infestanti, dati di Agricoltura di precisione) modifica le probabilità di base. Nessuna – conta solo la probabilità di base e tutti i campi sono uguali. Bassa – differenze lievi. Normale (consigliata) – una buona gestione ripaga chiaramente. Alta – i campi trascurati si ammalano molto spesso, quelli ben curati quasi mai." />
+        <text name="fh_setting_weatherInfluence" text="Influenza del meteo" />
+        <text name="fh_setting_weatherInfluence_desc" text="Quanto il meteo degli ultimi giorni (temperatura e pioggia) modifica la probabilità delle avversità. Le malattie fungine amano la pioggia e l'umidità, la maggior parte dei parassiti il caldo asciutto, e ogni avversità ha il suo intervallo di temperatura. Nessuna – il meteo non conta. Bassa – piccole differenze. Normale (consigliata) – differenze nette. Alta – con il meteo favorevole le avversità compaiono molto più spesso, con quello sfavorevole quasi mai." />
+        <text name="fh_setting_stubbleRisk" text="Rischio dalle stoppie" />
+        <text name="fh_setting_stubbleRisk_desc" text="Se le stoppie non trinciate dopo il raccolto aumentano il rischio (soprattutto di piralide e di malattie che sopravvivono sui residui). Conta solo dopo un raccolto sul campo e se il campo non è stato arato. I corridoi di passaggio e le strade che attraversano il campo non contano mai come stoppie. Disattivato – le stoppie non cambiano affatto il rischio." />
+        <text name="fh_setting_fodderCrops" text="Avversità su prati e foraggere" />
+        <text name="fh_setting_fodderCrops_desc" text="Se prati, erba, trifoglio ed erba medica possono avere malattie e parassiti. Disattivato (consigliato) – queste colture non hanno mai avversità, e quelle già presenti spariscono il giorno dopo. Attivato – trifoglio ed erba medica possono avere afidi; prati ed erba mai." />
+        <text name="fh_setting_fieldInfo" text="Righe nelle informazioni del campo" />
+        <text name="fh_setting_fieldInfo_desc" text="Se il riquadro informazioni del campo mostra le avversità, il rischio e la protezione del campo. Disattivato – il riquadro è come senza la mod; la mappa e la minimappa mostrano comunque i campi." />
+        <text name="fh_setting_progression" text="Evoluzione delle avversità" />
+        <text name="fh_setting_progression_desc" text="Quanto velocemente un'avversità non trattata passa allo stadio successivo: lieve, poi medio, poi grave. Lenta – ogni mese di gioco, Normale – ogni mezzo mese, Rapida – ogni quarto di mese (almeno un giorno). Solo lo stadio grave distrugge le colture, quindi un ritmo più lento ti lascia più tempo per trattare." />
+        <text name="fh_setting_spread" text="Estensione delle avversità" />
+        <text name="fh_setting_spread_desc" text="Quale parte del campo può coprire un'avversità non trattata. Piccola – fino al 2,5%, Media – fino al 5%, Grande – fino al 10% della superficie del campo. Un focolaio si allarga in modo irregolare ai bordi e ogni tanto accanto ne compare uno nuovo più piccolo, di solito dal lato verso cui soffia il vento quel giorno. Il trattamento elimina completamente l'avversità." />
+        <text name="fh_setting_patchSize" text="Dimensione dei focolai" />
+        <text name="fh_setting_patchSize_desc" text="Quanto sono grandi i focolai in cui compare e cresce una nuova avversità. Ogni focolaio ha una forma irregolare e una dimensione casuale: quelli piccoli sono più frequenti di quelli grandi. Piccoli – focolai di solito larghi 5–12 m, Normali – 8–20 m, Grandi – 12–30 m. Sui campi piccoli i focolai sono sempre più piccoli." />
+        <text name="fh_setting_neighbourSpread" text="Propagazione ai campi vicini" />
+        <text name="fh_setting_neighbourSpread_desc" text="Se un'avversità al bordo di un campo può passare al campo vicino di un giocatore. Succede solo se i campi si toccano o sono separati da una striscia molto stretta, se l'altro campo ha una coltura attaccata da quell'avversità nella giusta fase di sviluppo e se non è trattato. I parassiti passano più spesso delle malattie, e solo dallo stadio medio in poi. I campi degli NPC non vengono mai colpiti. Disattivato, Raramente, A volte, Spesso – probabilità nulla, dimezzata, normale e doppia." />
+        <text name="fh_setting_damage" text="Danni alla coltura" />
+        <text name="fh_setting_damage_desc" text="Quanta coltura distrugge ogni giorno un'avversità grave. Le zone distrutte non danno nulla al raccolto. Disattivato – le avversità sono solo visibili, la resa non cambia. Bassi, Normali, Alti – 1, 3 o 6 chiazze di pochi metri al giorno, sempre solo dentro l'area colpita." />
+        <text name="fh_setting_protectionThreshold" text="Copertura per la protezione completa" />
+        <text name="fh_setting_protectionThreshold_desc" text="Quanta parte di un campo va trattata perché tutto il campo sia protetto da quel tipo di avversità (malattie o parassiti). Con una copertura minore un'avversità può ancora comparire, ma solo nelle parti non trattate: le zone trattate sono sempre protette. Predefinito 90%. Una soglia più bassa perdona angoli e punte saltati, una più alta richiede trattamenti precisi." />
+        <text name="fh_setting_protectionDuration" text="Durata della protezione" />
+        <text name="fh_setting_protectionDuration_desc" text="Per quanto tempo fungicida e insetticida proteggono un campo. Fino al raccolto – un solo trattamento con ciascun prodotto protegge il campo per tutta la stagione (la scelta più semplice). 2 mesi, 1 mese, Mezzo mese – la protezione finisce dopo questo tempo dall'ultimo trattamento del campo e bisogna trattare di nuovo, come in una vera azienda." />
+        <text name="fh_setting_fungicideUsage" text="Dose di fungicida" />
+        <text name="fh_setting_fungicideUsage_desc" text="Quanto fungicida consuma un'irroratrice per ettaro. 100% sono circa 290 litri di miscela per ettaro (come l'erbicida), cioè un flacone da 1 l per ettaro. Una dose più bassa rende il trattamento più economico con meno rifornimenti, una più alta lo rende più caro. L'effetto del trattamento è sempre lo stesso. La modifica vale subito, anche durante il lavoro." />
+        <text name="fh_setting_insecticideUsage" text="Dose di insetticida" />
+        <text name="fh_setting_insecticideUsage_desc" text="Quanto insetticida consuma un'irroratrice per ettaro. 100% sono circa 290 litri di miscela per ettaro (come l'erbicida), cioè un flacone da 1 l ogni 5 ettari. Una dose più bassa rende il trattamento più economico con meno rifornimenti, una più alta lo rende più caro. L'effetto del trattamento è sempre lo stesso. La modifica vale subito, anche durante il lavoro." />
+        <text name="fh_setting_fungicidePrice" text="Prezzo flacone di fungicida" />
+        <text name="fh_setting_fungicidePrice_desc" text="Prezzo in negozio di un flacone da 1 l di fungicida. Un flacone basta per 1 ettaro (290 l di miscela). Predefinito 50. Il gioco converte le valute 1:1. Il prezzo al litro della miscela segue questo prezzo, ad esempio quando compri il liquido a una stazione. La modifica vale subito nel negozio." />
+        <text name="fh_setting_insecticidePrice" text="Prezzo flacone di insetticida" />
+        <text name="fh_setting_insecticidePrice_desc" text="Prezzo in negozio di un flacone da 1 l di insetticida. Un flacone basta per 5 ettari (1450 l di miscela). Predefinito 80. Il gioco converte le valute 1:1. Il prezzo al litro della miscela segue questo prezzo, ad esempio quando compri il liquido a una stazione. La modifica vale subito nel negozio." />
+        <text name="fh_setting_fungicideCanisterPrice" text="Prezzo tanica 5 l di fungicida" />
+        <text name="fh_setting_fungicideCanisterPrice_desc" text="Prezzo in negozio di una tanica da 5 l di fungicida. Una tanica basta per 5 ettari (1450 l di miscela). Predefinito 220: al litro costa meno di cinque flaconi da 1 l, come da un vero rivenditore. Il gioco converte le valute 1:1. La modifica vale subito nel negozio." />
+        <text name="fh_setting_insecticideCanisterPrice" text="Prezzo tanica 5 l di insetticida" />
+        <text name="fh_setting_insecticideCanisterPrice_desc" text="Prezzo in negozio di una tanica da 5 l di insetticida. Una tanica basta per 25 ettari (7250 l di miscela). Predefinito 350: al litro costa meno di cinque flaconi da 1 l, come da un vero rivenditore. Il gioco converte le valute 1:1. La modifica vale subito nel negozio." />
+        <text name="fh_setting_fungicideCanister20Price" text="Prezzo tanica 20 l di fungicida" />
+        <text name="fh_setting_fungicideCanister20Price_desc" text="Prezzo in negozio di una tanica da 20 l di fungicida. Una tanica basta per 20 ettari (5800 l di miscela). Predefinito 800: la confezione più economica al litro. Il gioco converte le valute 1:1. La modifica vale subito nel negozio." />
+        <text name="fh_setting_insecticideCanister20Price" text="Prezzo tanica 20 l di insetticida" />
+        <text name="fh_setting_insecticideCanister20Price_desc" text="Prezzo in negozio di una tanica da 20 l di insetticida. Una tanica basta per 100 ettari (29.000 l di miscela). Predefinito 1200: la confezione più economica al litro. Il gioco converte le valute 1:1. La modifica vale subito nel negozio." />
+        <text name="fh_setting_farmLimit" text="Limite di avversità per azienda" />
+        <text name="fh_setting_farmLimit_desc" text="Numero massimo di nuove avversità su tutti i campi della tua azienda per anno di gioco. Illimitato – ogni campo ha la sua probabilità. Imposta per esempio 1 o 2 se hai molti campi e vuoi che malattie e parassiti siano rari." />
+        <text name="fh_setting_notifications" text="Avvisi delle avversità" />
+        <text name="fh_setting_notifications_desc" text="Mostra un messaggio quando una malattia o dei parassiti compaiono sul tuo campo e quando un'avversità diventa grave e inizia a distruggere la coltura. Il messaggio indica il campo, la coltura, l'avversità e il prodotto da usare." />
+        <text name="fh_set_on" text="Attivato" />
+        <text name="fh_set_off" text="Disattivato" />
+        <text name="fh_set_none" text="Nessuna" />
+        <text name="fh_set_low" text="Bassa" />
+        <text name="fh_set_normal" text="Normale" />
+        <text name="fh_set_high" text="Alta" />
+        <text name="fh_set_slow" text="Lenta" />
+        <text name="fh_set_normalPace" text="Normale" />
+        <text name="fh_set_fast" text="Rapida" />
+        <text name="fh_set_small" text="Piccola" />
+        <text name="fh_set_medium" text="Media" />
+        <text name="fh_set_large" text="Grande" />
+        <text name="fh_set_damageLow" text="Bassi" />
+        <text name="fh_set_damageNormal" text="Normali" />
+        <text name="fh_set_damageHigh" text="Alti" />
+        <text name="fh_set_untilHarvest" text="Fino al raccolto" />
+        <text name="fh_set_twoMonths" text="2 mesi" />
+        <text name="fh_set_oneMonth" text="1 mese" />
+        <text name="fh_set_halfMonth" text="Mezzo mese" />
+        <text name="fh_set_unlimited" text="Illimitato" />
+        <text name="fh_set_patchSmall" text="Piccoli" />
+        <text name="fh_set_patchNormal" text="Normali" />
+        <text name="fh_set_patchLarge" text="Grandi" />
+        <text name="fh_set_rarely" text="Raramente" />
+        <text name="fh_set_sometimes" text="A volte" />
+        <text name="fh_set_often" text="Spesso" />
+
+        <!-- Shop -->
+        <text name="fh_fillType_insecticide" text="Insetticida" />
+        <text name="fh_fillType_fungicide" text="Fungicida" />
+        <text name="fh_store_fungicideBottle" text="Fungicida 1 l" />
+        <text name="fh_store_insecticideBottle" text="Insetticida 1 l" />
+        <text name="fh_store_fungicideCanister" text="Fungicida 5 l" />
+        <text name="fh_store_insecticideCanister" text="Insetticida 5 l" />
+        <text name="fh_store_fungicideCanister20" text="Fungicida 20 l" />
+        <text name="fh_store_insecticideCanister20" text="Insetticida 20 l" />
+        <text name="fh_function_fungicideBottle" text="Flacone da 1 l di concentrato, dose 1 l/ha. Basta per 1 ha, cioè 290 l di miscela. Protegge le colture da tutte le malattie. Mettilo accanto a un'irroratrice e riempila dal flacone." />
+        <text name="fh_function_insecticideBottle" text="Flacone da 1 l di concentrato, dose 0,2 l/ha. Basta per 5 ha, cioè 1450 l di miscela. Protegge le colture dai parassiti: afidi, lema, meligete, dorifora, piralide ed elateridi. Mettilo accanto a un'irroratrice e riempila dal flacone." />
+        <text name="fh_function_fungicideCanister" text="Tanica da 5 l di concentrato, dose 1 l/ha. Basta per 5 ha, cioè 1450 l di miscela. Protegge le colture da tutte le malattie. Al litro costa meno dei flaconi da 1 l. Mettila accanto a un'irroratrice e riempi l'irroratrice dalla tanica." />
+        <text name="fh_function_insecticideCanister" text="Tanica da 5 l di concentrato, dose 0,2 l/ha. Basta per 25 ha, cioè 7250 l di miscela. Protegge le colture dai parassiti. Al litro costa meno dei flaconi da 1 l. Mettila accanto a un'irroratrice e riempi l'irroratrice dalla tanica." />
+        <text name="fh_function_fungicideCanister20" text="Tanica da 20 l di concentrato, dose 1 l/ha. Basta per 20 ha, cioè 5800 l di miscela. Protegge le colture da tutte le malattie. La più economica al litro, per le grandi aziende. Mettila accanto a un'irroratrice e riempi l'irroratrice dalla tanica." />
+        <text name="fh_function_insecticideCanister20" text="Tanica da 20 l di concentrato, dose 0,2 l/ha. Basta per 100 ha, cioè 29.000 l di miscela. Protegge le colture dai parassiti. La più economica al litro, per le grandi aziende. Mettila accanto a un'irroratrice e riempi l'irroratrice dalla tanica." />
+
+        <!-- Help (ESC → Help) -->
+        <text name="fh_help_header" text="Field Health – malattie e parassiti" />
+
+        <text name="fh_help_intro" text="Introduzione" />
+        <text name="fh_help_intro_01" text="Informazioni sulla mod" />
+        <text name="fh_help_intro_02" text="Field Health porta nel gioco le malattie e i parassiti delle colture con cui gli agricoltori in Polonia hanno a che fare ogni giorno. Compaiono sui campi della tua azienda durante la stagione, si sviluppano e, se non li combatti, distruggono parte della coltura. Per combatterli ci sono due prodotti in negozio: il fungicida contro le malattie e l'insetticida contro i parassiti.
+La mod è realistica ma indulgente con chi gioca in modo rilassato: un'avversità non copre mai tutto il campo, la coltura viene distrutta solo nello stadio più grave e un solo trattamento ben fatto con ciascun prodotto protegge il campo fino alla fine della stagione." />
+        <text name="fh_help_intro_03" text="La stagione passo dopo passo" />
+        <text name="fh_help_intro_04" text="1. La semina apre la stagione della coltura. Da quel giorno la pressione d'infezione sul campo cresce: più in fretta nel periodo dell'anno e nella fase di sviluppo in cui un'avversità attacca, con il meteo che le piace e su un campo trascurato.
+2. Quando la pressione supera la soglia estratta per il campo, compare un focolaio di malattia o di parassiti. Ricevi un avviso con il numero del campo e il prodotto da usare.
+3. Un'avversità non trattata peggiora di uno stadio ogni mezzo mese e si allarga lentamente. Nello stadio grave distrugge ogni giorno piccole chiazze di coltura.
+4. Il trattamento elimina l'avversità e protegge i punti trattati. Un campo trattato quasi del tutto è immune a quel tipo di avversità fino al raccolto.
+5. Il raccolto chiude la stagione: avversità e protezione spariscono, e la coltura raccolta diventa la precessione di quella successiva." />
+        <text name="fh_help_intro_05" text="I numeri principali" />
+        <text name="fh_help_intro_06" text="Valori predefiniti. L'amministratore può cambiarli tutti nelle impostazioni (ultima colonna)." />
+        <text name="fh_help_intro_08" text="Dove controllare i tuoi campi" />
+        <text name="fh_help_intro_09" text="– Riquadro informazioni del campo (quando sei su un campo): le avversità con la loro gravità, il rischio con la causa principale, la protezione del campo.
+– Mappa (ESC &gt; Mappa &gt; Difesa delle colture): cinque livelli – protezione, malattie, parassiti, tipi di malattia e tipi di parassita.
+– Minimappa: cambia livello con Alt sinistro + \.
+– Avvisi: per una nuova avversità, per lo stadio grave e per un'avversità arrivata da un campo vicino." />
+        <text name="fh_help_origin" text="Da dove nascono le avversità" />
+        <text name="fh_help_origin_01" text="Ogni campo di un giocatore con una coltura in crescita può avere al massimo una malattia e un tipo di parassita per stagione. I campi degli NPC, il pioppo e le colture intercalari non hanno mai avversità; prati, erba, trifoglio ed erba medica solo se attivato nelle impostazioni.
+Un'avversità non compare in un giorno a caso. Ogni giorno la mod calcola la pressione d'infezione sul campo e la somma a quella dei giorni precedenti. All'inizio della stagione il campo riceve una soglia di resistenza casuale: quando la somma della pressione la supera, il campo si infetta. Per questo un'avversità compare presto in una stagione, tardi in un'altra e in una terza per niente." />
+        <text name="fh_help_origin_02" text="Che cosa fa salire la pressione" />
+        <text name="fh_help_origin_03" text="1. La probabilità di base delle impostazioni: di default 15% per una malattia e 10% per i parassiti in una stagione.
+2. Il rischio del campo, cioè come lo coltivi: concimazione, lavorazione del terreno, rotazione e infestanti (pagina «Come coltivi»).
+3. Quanto è diffusa l'avversità in Polonia: malattie e parassiti comuni compaiono molto più spesso di quelli rari (pagine «Malattie» e «Parassiti»).
+4. Il periodo dell'anno e la fase di sviluppo: fuori dal suo periodo un'avversità non attacca affatto (pagina «Stagioni e fasi di sviluppo»).
+5. Il meteo degli ultimi giorni: la pioggia favorisce le malattie fungine, il caldo e la siccità la maggior parte dei parassiti (pagina «Meteo»)." />
+        <text name="fh_help_origin_04" text="Probabilità per stagione" />
+        <text name="fh_help_origin_05" text="Ecco come il rischio del campo cambia la probabilità di un'avversità nell'arco di tutta la stagione con le impostazioni predefinite:" />
+        <text name="fh_help_origin_07" text="La tabella vale per una coltura con un numero medio di avversità che cresce per tutto il loro periodo. Le colture attaccate da molte malattie o molti parassiti comuni ne soffrono più spesso (fino a 1,4 volte), quelle con poche avversità più di rado (fino a 0,5 volte):" />
+        <text name="fh_help_origin_09" text="Quale avversità compare" />
+        <text name="fh_help_origin_10" text="Quando avviene un'infezione, la mod sceglie una delle avversità che possono attaccare la coltura in quel giorno. La probabilità di ciascuna è proporzionale alla sua pressione del giorno: diffusione moltiplicata per il rischio del campo, il periodo dell'anno e il meteo. Esempio: sul frumento a maggio con tempo piovoso compaiono più spesso la septoriosi o l'oidio, mentre la ruggine nera, rara e amante del caldo, quasi mai." />
+        <text name="fh_help_origin_11" text="Trattare prima dell'infezione" />
+        <text name="fh_help_origin_12" text="Se al momento dell'infezione il campo è trattato con il prodotto giusto su almeno il 90% della superficie, l'infezione fallisce e il campo non avrà avversità di quel tipo in questa stagione. Con una copertura minore l'avversità può comparire, ma solo nelle parti non trattate." />
+        <text name="fh_help_timing" text="Stagioni e fasi di sviluppo" />
+        <text name="fh_help_timing_01" text="Ogni malattia e ogni parassita ha il suo periodo: attacca solo in certi mesi e solo in certe fasi di sviluppo della coltura. Dentro questo periodo ha un picco in cui è più pericoloso. Fuori dal suo periodo un'avversità non compare affatto, e non può nemmeno arrivare da un campo vicino." />
+        <text name="fh_help_timing_02" text="Fasi di sviluppo" />
+        <text name="fh_help_timing_04" text="La mod ricava la fase dallo stato di crescita della coltura nel gioco: il primo 20% del tempo di crescita è l'emergenza, fino al 45% lo sviluppo fogliare e l'accestimento, fino al 70% la levata o la formazione dei bottoni fiorali, poi vengono spigatura e fioritura, e una coltura pronta per il raccolto è matura. I mesi seguono il calendario del gioco (il primo periodo dell'anno è marzo), quindi i giorni per periodo non cambiano il momento in cui le avversità attaccano." />
+        <text name="fh_help_timing_05" text="Calendario – quando fare attenzione" />
+        <text name="fh_help_timing_06" text="I mesi principali sono quelli in cui la pressione del gruppo di avversità sulla coltura è più alta. Un trattamento poco prima evita la maggior parte delle infezioni." />
+        <text name="fh_help_farming" text="Come coltivi" />
+        <text name="fh_help_farming_01" text="Il rischio del campo è un moltiplicatore della pressione d'infezione che dipende da come coltivi il campo. La mod lo calcola per ogni avversità separatamente; il riquadro informazioni del campo mostra il rischio più alto per malattie e parassiti e la causa principale. I moltiplicatori delle tabelle si moltiplicano tra loro e il risultato resta sempre tra 0,3 e 5." />
+        <text name="fh_help_farming_03" text="Concimazione" />
+        <text name="fh_help_farming_05" text="Lavorazione del terreno e infestanti" />
+        <text name="fh_help_farming_07" text="I valori valgono per un campo completamente trascurato: una trascuratezza parziale aumenta il rischio in proporzione. Contano solo i lavori attivati nelle impostazioni del gioco: se l'aratura non è obbligatoria, non arare non cambia nulla. La mod controlla il campo in 36 punti e solo dove cresce la coltura, quindi i corridoi di passaggio e le strade che attraversano il campo non contano come trascuratezza. Stoppie non trinciate e mancata rullatura contano come trascuratezza solo se riguardano tre quarti del campo. Le stoppie contano solo dopo un raccolto su questo campo e non dopo un'aratura (l'impostazione «Rischio dalle stoppie» le esclude del tutto). In FS25 le infestanti non crescono dopo l'aratura." />
+        <text name="fh_help_farming_08" text="Rotazione e colture intercalari" />
+        <text name="fh_help_farming_10" text="L'impostazione «Influenza della gestione» rafforza o indebolisce tutti questi fattori insieme. Nessuna – ogni campo ha rischio 1. Bassa – le differenze sono circa la metà. Normale – come nelle tabelle. Alta – le differenze sono una volta e mezzo più grandi." />
+        <text name="fh_help_weather" text="Meteo" />
+        <text name="fh_help_weather_01" text="A ogni ora di gioco la mod rileva la temperatura e controlla se piove. A fine giornata calcola la temperatura media del giorno e la quota di ore di pioggia. L'umidità ha una memoria: metà viene dall'ultimo giorno e metà dai giorni precedenti, perché le foglie restano bagnate a lungo dopo la pioggia. Ogni avversità ha un profilo meteo: un intervallo di temperatura e una reazione alla pioggia." />
+        <text name="fh_help_weather_03" text="Una temperatura fuori dall'intervallo abbassa la pressione a 0,4 volte, una temperatura ottimale la alza a 1,2 volte. La pioggia cambia la pressione da 0,4 a 1,8 volte: verso l'alto per le avversità che amano l'umidità, verso il basso per quelle che amano la siccità. Nel complesso il meteo cambia la pressione da 0,2 a 2,5 volte. Moltiplicatori di esempio dopo alcuni giorni con questo tempo (rosso – l'avversità cresce, verde – cala):" />
+        <text name="fh_help_weather_05" text="L'impostazione «Influenza del meteo»: Nessuna – il meteo non conta, Bassa – moltiplicatori attenuati, Normale – come nella tabella, Alta – più forti. Dopo alcuni giorni caldi e piovosi d'estate tieni d'occhio soprattutto le patate e i cereali in spigatura, in un'estate secca e calda i parassiti." />
+        <text name="fh_help_diseases" text="Malattie" />
+        <text name="fh_help_diseases_01" text="Il fungicida combatte tutte le malattie. Le tabelle mostrano quanto è diffusa una malattia in Polonia, quali colture attacca, in quali mesi compare e quando è peggiore, in quale fase di sviluppo fa più danni e che cosa la favorisce." />
+        <text name="fh_help_diseases_03" text="Cereali e mais" />
+        <text name="fh_help_diseases_05" text="Altre colture" />
+        <text name="fh_help_diseases_07" text="Le colture delle mappe che la mod non conosce possono avere muffa grigia e afidi. Le cipolle dell'espansione Highlands Fishing e delle mod vengono riconosciute automaticamente." />
+        <text name="fh_help_pests" text="Parassiti" />
+        <text name="fh_help_pests_01" text="L'insetticida combatte tutti i parassiti. Le colonne delle tabelle hanno lo stesso significato della pagina «Malattie»." />
+        <text name="fh_help_pests_02" text="Cereali e mais" />
+        <text name="fh_help_pests_04" text="Altre colture" />
+        <text name="fh_help_progress" text="Come evolve un'avversità" />
+        <text name="fh_help_progress_01" text="Una nuova avversità si presenta come uno o due focolai irregolari, con il bordo sfrangiato e spazi sani all'interno. Parte dallo stadio lieve. Se non la combatti, passa per queste tappe:" />
+        <text name="fh_help_progress_03" text="La coltura distrutta non ricresce e non dà nulla al raccolto. Per questo trattare in anticipo o subito dopo l'avviso costa meno. Un trattamento in qualsiasi stadio elimina completamente l'avversità dai punti trattati." />
+        <text name="fh_help_spraying" text="Trattamenti e protezione" />
+        <text name="fh_help_spraying_01" text="I prodotti sono dell'azienda polacca Opryskex: il fungicida Grzybobój 250 EC (etichetta verde) e l'insetticida Robalex 100 CS (etichetta rossa). Al momento dell'acquisto puoi scegliere invece il marchio MST (Mafia Solec Team): Solectop 280 SC e Mafiozol 50 EW. Funzionano allo stesso modo, cambia solo l'etichetta. Li trovi in negozio in flaconi da 1 l e in taniche da 5 l e 20 l. Metti la confezione accanto all'irroratrice e riempi l'irroratrice come da un pallet. Il gioco non mescola il concentrato con l'acqua, quindi il contenuto di una confezione è tutta la miscela che se ne ottiene. Più grande è la confezione, meno costa per ettaro." />
+        <text name="fh_help_spraying_03" text="Come funziona la protezione" />
+        <text name="fh_help_spraying_05" text="Attenzione" />
+        <text name="fh_help_spraying_06" text="– Tratta dopo l'emergenza: semina e raccolto cancellano la protezione.
+– Il fungicida non protegge dai parassiti e l'insetticida non protegge dalle malattie. Per una protezione completa servono entrambi.
+– Punte e capezzagne saltate contano: sotto il 90% di copertura un'avversità può comparire sulle strisce non trattate.
+– I prodotti non concimano e non eliminano le infestanti.
+– Con una protezione più breve (impostazione) la protezione di tutto il campo finisce dopo quel tempo dall'ultimo trattamento." />
+        <text name="fh_help_map" text="Mappa e informazioni campo" />
+        <text name="fh_help_map_01" text="Riquadro informazioni del campo" />
+        <text name="fh_help_map_02" text="Quando sei su un campo, il riquadro informazioni del campo mostra:
+– Malattia e Parassiti: l'avversità attiva e la sua gravità (lieve, medio, grave),
+– Rischio malattie e Rischio parassiti: basso, normale, elevato o alto, e da elevato in su anche la causa principale,
+– Protezione – malattie e Protezione – parassiti: quanta parte del campo è trattata,
+– un'indicazione del prodotto che combatte l'avversità." />
+        <text name="fh_help_map_03" text="Mappa" />
+        <text name="fh_help_map_04" text="In ESC &gt; Mappa scegli la pagina «Difesa delle colture». Sotto il titolo un secondo selettore con le frecce passa tra cinque livelli. Un clic su una voce della legenda la nasconde sulla mappa. Vengono mostrati solo i campi della tua azienda con una coltura in crescita. Clicca su un terreno per vedere le avversità e la protezione dei suoi campi." />
+        <text name="fh_help_map_06" text="Colori dei tipi di avversità" />
+        <text name="fh_help_map_08" text="Minimappa" />
+        <text name="fh_help_map_09" text="Alt sinistro + \ cambia il livello della minimappa: protezione, malattie, parassiti e nessun livello. Puoi cambiare i tasti durante la partita in ESC &gt; Impostazioni &gt; Comandi, voce «Field Health – livello difesa delle colture sulla minimappa» (il menu principale non mostra i tasti delle mod, perché le mod vengono caricate con il salvataggio)." />
+        <text name="fh_help_pf" text="Agricoltura di precisione" />
+        <text name="fh_help_pf_01" text="Con Agricoltura di precisione, Field Health funziona come sua estensione e usa le sue mappe del suolo. Al posto della concimazione in generale conta l'azoto rispetto al valore obiettivo, e al posto della calcinazione in generale il pH del suolo." />
+        <text name="fh_help_pf_03" text="La protezione migliore è lo stesso lavoro che fai per la resa: concimare fino all'obiettivo, calcinare fino al pH ottimale e seminare colture intercalari. Il comando da console fhPrecisionFarming scrive nel log come la mod legge i dati di Agricoltura di precisione." />
+        <text name="fh_help_settings" text="Impostazioni" />
+        <text name="fh_help_settings_01" text="Le impostazioni della mod si trovano in ESC &gt; Impostazioni &gt; Gioco, nella sezione «Field Health – malattie e parassiti». Vengono salvate con la partita. In multigiocatore solo l'amministratore del server può cambiarle. Passa con il mouse su un'opzione per vederne la descrizione." />
+        <text name="fh_help_tips" text="Consigli" />
+        <text name="fh_help_tips_01" text="Un piano per campi sani" />
+        <text name="fh_help_tips_02" text="1. Concima secondo il fabbisogno, correggi il pH con la calce e non seminare la stessa coltura due anni di fila. Tra le colture principali semina una coltura intercalare.
+2. Prima dei mesi principali delle avversità (pagina «Stagioni e fasi di sviluppo») tratta il campo con fungicida e insetticida. Una volta per stagione basta, se copri almeno il 90% del campo.
+3. Controlla il livello «Protezione» sulla mappa: i campi verdi sono protetti da entrambi i tipi di avversità.
+4. Dopo un avviso tratta il campo indicato con il prodotto indicato prima che l'avversità arrivi allo stadio grave.
+5. Un aiutante IA con fungicida o insetticida tratta completamente i campi non protetti e quelli protetti solo dove c'è un'avversità." />
+        <text name="fh_help_tips_03" text="Attenzione" />
+        <text name="fh_help_tips_04" text="– Monosuccessione e mancata aratura sono le cause più comuni di rischio alto: per esempio frumento su frumento senza aratura favorisce septoriosi, maculatura gialla e fusariosi.
+– Il mais prima del frumento aumenta nettamente il rischio di fusariosi, il prato prima delle patate quello di elateridi.
+– Liquame e concime liquido danno una vegetazione lussureggiante, che piace a oidio, ruggini e afidi.
+– Un'estate piovosa è il periodo di peronospora, septoriosi e fusariosi, una secca e calda quello di afidi, dorifora, tripidi e nottue.
+– La colza ha due periodi pericolosi: l'autunno (altiche, tentredine, phoma) e la primavera (punteruolo del fusto, meligete, sclerotinia).
+– Un'avversità allo stadio medio o grave può passare a un campo confinante di un giocatore." />
+        <text name="fh_help_admin" text="Per l'amministratore" />
+        <text name="fh_help_admin_01" text="Comandi da console" />
+        <text name="fh_help_admin_03" text="Multigiocatore, salvataggio e compatibilità" />
+        <text name="fh_help_admin_04" text="– La simulazione gira sul server e i giocatori ne vedono i risultati. Le impostazioni e i comandi fhSet, fhClear e fhDailyTick sono riservati all'amministratore.
+– Gli avvisi arrivano ai giocatori dell'azienda proprietaria del campo, ciascuno nella sua lingua.
+– La mod salva i suoi dati solo in due file propri nella cartella del salvataggio: fieldHealth.xml e fieldHealthMap.grle. Si può rimuovere senza rischi: il gioco ignora questi file e dalla mappa spariscono solo i flaconi e le taniche dei prodotti.
+– I salvataggi di una versione precedente della mod vengono convertiti al nuovo formato al caricamento.
+– Le cipolle dell'espansione Highlands Fishing e delle mod vengono riconosciute automaticamente: lo indica il log.
+– Non usare contemporaneamente un'altra mod sulle malattie delle colture (ad es. Crop Diseases): Field Health lo segnala nel log." />
+        <text name="fh_help_admin_05" text="Riconoscimenti" />
+        <text name="fh_help_admin_06" text="Field Health – autore: MatrikSky. Idea presa dalla mod «Crop Diseases» di BMP. Il modello del flacone si basa su «fertilizer Bottle» di shabanimate, quello della tanica su «#6 Plastic Canister» di hoxsvl (entrambi CC BY 4.0, sketchfab.com)." />
+        <text name="fh_help_tableLanguage" text="en" />
+
+
+
+
+
+
+
+
+
+
+    </texts>
+</l10n>

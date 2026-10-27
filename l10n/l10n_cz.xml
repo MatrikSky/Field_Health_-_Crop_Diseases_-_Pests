@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+    <texts>
+        <!-- Diseases (full and short name) -->
+        <text name="fh_disease_cereal_mildew" text="Padlí obilnin" />
+        <text name="fh_disease_cereal_mildew_short" text="Padlí" />
+        <text name="fh_disease_septoria" text="Septoriová skvrnitost" />
+        <text name="fh_disease_septoria_short" text="Septorióza" />
+        <text name="fh_disease_brown_rust" text="Rez pšeničná" />
+        <text name="fh_disease_brown_rust_short" text="Rez pšeničná" />
+        <text name="fh_disease_fusarium" text="Fuzarióza" />
+        <text name="fh_disease_fusarium_short" text="Fuzarióza" />
+        <text name="fh_disease_net_blotch" text="Hnědá skvrnitost ječmene" />
+        <text name="fh_disease_net_blotch_short" text="Hnědá skvrnitost" />
+        <text name="fh_disease_snow_mould" text="Plíseň sněžná" />
+        <text name="fh_disease_snow_mould_short" text="Plíseň sněžná" />
+        <text name="fh_disease_sclerotinia" text="Hlízenka obecná" />
+        <text name="fh_disease_sclerotinia_short" text="Hlízenka" />
+        <text name="fh_disease_alternaria" text="Alternáriová skvrnitost" />
+        <text name="fh_disease_alternaria_short" text="Alternárie" />
+        <text name="fh_disease_late_blight" text="Plíseň bramborová" />
+        <text name="fh_disease_late_blight_short" text="Plíseň bramborová" />
+        <text name="fh_disease_cercospora" text="Cerkosporióza" />
+        <text name="fh_disease_cercospora_short" text="Cerkosporióza" />
+        <text name="fh_disease_grey_mould" text="Plíseň šedá" />
+        <text name="fh_disease_grey_mould_short" text="Plíseň šedá" />
+        <text name="fh_disease_yellow_rust" text="Rez plevová" />
+        <text name="fh_disease_yellow_rust_short" text="Rez plevová" />
+        <text name="fh_disease_tan_spot" text="Žlutá skvrnitost pšenice" />
+        <text name="fh_disease_tan_spot_short" text="Žlutá skvrnitost" />
+        <text name="fh_disease_eyespot" text="Stéblolam" />
+        <text name="fh_disease_eyespot_short" text="Stéblolam" />
+        <text name="fh_disease_rhynchosporium" text="Rynchosporiová skvrnitost" />
+        <text name="fh_disease_rhynchosporium_short" text="Rynchosporióza" />
+        <text name="fh_disease_ramularia" text="Ramuláriová skvrnitost" />
+        <text name="fh_disease_ramularia_short" text="Ramulárie" />
+        <text name="fh_disease_stem_rust" text="Rez travní" />
+        <text name="fh_disease_stem_rust_short" text="Rez travní" />
+        <text name="fh_disease_phoma" text="Fomová hniloba" />
+        <text name="fh_disease_phoma_short" text="Fomová hniloba" />
+        <text name="fh_disease_cylindrosporiosis" text="Cylindrosporióza" />
+        <text name="fh_disease_cylindrosporiosis_short" text="Cylindrosporióza" />
+        <text name="fh_disease_beet_mildew" text="Padlí řepy" />
+        <text name="fh_disease_beet_mildew_short" text="Padlí řepy" />
+        <text name="fh_disease_ascochyta" text="Askochytóza" />
+        <text name="fh_disease_ascochyta_short" text="Askochytóza" />
+        <text name="fh_disease_downy_mildew" text="Plíseň (falešné padlí)" />
+        <text name="fh_disease_downy_mildew_short" text="Falešné padlí" />
+        <text name="fh_disease_corn_leaf_blight" text="Helmintosporióza kukuřice" />
+        <text name="fh_disease_corn_leaf_blight_short" text="Helmintosporióza" />
+        <text name="fh_disease_crown_rust" text="Korunková rez ovsa" />
+        <text name="fh_disease_crown_rust_short" text="Korunková rez" />
+
+        <!-- Pests (full and short name) -->
+        <text name="fh_pest_aphids" text="Mšice" />
+        <text name="fh_pest_aphids_short" text="Mšice" />
+        <text name="fh_pest_leaf_beetle" text="Kohoutci" />
+        <text name="fh_pest_leaf_beetle_short" text="Kohoutci" />
+        <text name="fh_pest_pollen_beetle" text="Blýskáček řepkový" />
+        <text name="fh_pest_pollen_beetle_short" text="Blýskáček" />
+        <text name="fh_pest_potato_beetle" text="Mandelinka bramborová" />
+        <text name="fh_pest_potato_beetle_short" text="Mandelinka" />
+        <text name="fh_pest_corn_borer" text="Zavíječ kukuřičný" />
+        <text name="fh_pest_corn_borer_short" text="Zavíječ" />
+        <text name="fh_pest_wireworm" text="Drátovci" />
+        <text name="fh_pest_wireworm_short" text="Drátovci" />
+        <text name="fh_pest_stem_weevil" text="Krytonosec řepkový" />
+        <text name="fh_pest_stem_weevil_short" text="Krytonosec řepkový" />
+        <text name="fh_pest_seed_weevil" text="Krytonosec šešulový" />
+        <text name="fh_pest_seed_weevil_short" text="Krytonosec šešulový" />
+        <text name="fh_pest_flea_beetle" text="Dřepčíci" />
+        <text name="fh_pest_flea_beetle_short" text="Dřepčíci" />
+        <text name="fh_pest_turnip_sawfly" text="Pilatka řepková" />
+        <text name="fh_pest_turnip_sawfly_short" text="Pilatka" />
+        <text name="fh_pest_frit_fly" text="Bzunka ječná" />
+        <text name="fh_pest_frit_fly_short" text="Bzunka" />
+        <text name="fh_pest_wheat_midge" text="Bejlomorky pšeničné" />
+        <text name="fh_pest_wheat_midge_short" text="Bejlomorky" />
+        <text name="fh_pest_cutworm" text="Osenice" />
+        <text name="fh_pest_cutworm_short" text="Osenice" />
+        <text name="fh_pest_beet_fly" text="Květilka řepná" />
+        <text name="fh_pest_beet_fly_short" text="Květilka řepná" />
+        <text name="fh_pest_onion_fly" text="Květilka cibulová" />
+        <text name="fh_pest_onion_fly_short" text="Květilka cibulová" />
+        <text name="fh_pest_thrips" text="Třásněnky" />
+        <text name="fh_pest_thrips_short" text="Třásněnky" />
+        <text name="fh_pest_carrot_fly" text="Pochmurnatka mrkvová" />
+        <text name="fh_pest_carrot_fly_short" text="Pochmurnatka" />
+        <text name="fh_pest_pea_leaf_weevil" text="Listopasi" />
+        <text name="fh_pest_pea_leaf_weevil_short" text="Listopasi" />
+        <text name="fh_pest_rootworm" text="Bázlivec kukuřičný" />
+        <text name="fh_pest_rootworm_short" text="Bázlivec" />
+        <text name="fh_pest_ground_beetle" text="Střevlík obilní" />
+        <text name="fh_pest_ground_beetle_short" text="Střevlík" />
+
+        <text name="fh_severity_low" text="slabé" />
+        <text name="fh_severity_medium" text="střední" />
+        <text name="fh_severity_high" text="silné" />
+
+        <!-- Field info (short, so nothing gets cut off) -->
+        <text name="fh_hud_threats" text="Napadení" />
+        <text name="fh_hud_disease" text="Choroba" />
+        <text name="fh_hud_pest" text="Škůdci" />
+        <text name="fh_hud_none" text="není" />
+        <text name="fh_hud_diseaseRisk" text="Riziko chorob" />
+        <text name="fh_hud_pestRisk" text="Riziko škůdců" />
+        <text name="fh_hud_cause" text="Příčina" />
+        <text name="fh_hud_protection" text="Ochrana rostlin" />
+        <text name="fh_hud_diseaseProtection" text="Ochrana – choroby" />
+        <text name="fh_hud_pestProtection" text="Ochrana – škůdci" />
+        <text name="fh_hud_protected" text="aktivní" />
+        <text name="fh_risk_low" text="nízké" />
+        <text name="fh_risk_normal" text="běžné" />
+        <text name="fh_risk_elevated" text="zvýšené" />
+        <text name="fh_risk_high" text="vysoké" />
+        <text name="fh_cause_fertilizer" text="bez hnojení" />
+        <text name="fh_cause_manure" text="čerstvý hnůj" />
+        <text name="fh_cause_fastNitrogen" text="rychlý dusík" />
+        <text name="fh_cause_nitrogenDeficit" text="málo dusíku" />
+        <text name="fh_cause_nitrogenExcess" text="příliš dusíku" />
+        <text name="fh_cause_lime" text="kyselá půda" />
+        <text name="fh_cause_lightSoil" text="lehká půda" />
+        <text name="fh_cause_heavySoil" text="těžká půda" />
+        <text name="fh_cause_plowing" text="bez orby" />
+        <text name="fh_cause_stubble" text="strniště" />
+        <text name="fh_cause_rolling" text="bez válení" />
+        <text name="fh_cause_weeds" text="plevele" />
+        <text name="fh_cause_sameCrop" text="monokultura" />
+        <text name="fh_cause_cropFamily" text="příbuzná plodina" />
+        <text name="fh_cause_previousCrop" text="špatná předplodina" />
+        <text name="fh_hint_fungicide" text="Ošetření: postřik fungicidem" />
+        <text name="fh_hint_insecticide" text="Ošetření: postřik insekticidem" />
+        <text name="fh_field_area" text="Výměra pole" />
+        <text name="fh_potential_harvest" text="Možná sklizeň" />
+        <text name="fh_potential_yield" text="Možný výnos" />
+
+        <!-- Notifications: field number, crop, threat, spray -->
+        <text name="fh_alert_new" text="Pole %s (%s): nové napadení – %s. Ošetření: %s." />
+        <text name="fh_alert_severe" text="Pole %s (%s): silné napadení – %s, porost hyne. Ošetření: %s." />
+        <text name="fh_alert_neighbour" text="Pole %s (%s): %s – přenos ze sousedního pole. Ošetření: %s." />
+
+        <!-- Map -->
+        <text name="fh_map_page" text="Ochrana rostlin" />
+        <text name="fh_map_layerProtection" text="Ochrana" />
+        <text name="fh_map_layerDiseases" text="Choroby" />
+        <text name="fh_map_layerPests" text="Škůdci" />
+        <text name="fh_map_layerDiseaseTypes" text="Druhy chorob" />
+        <text name="fh_map_layerPestTypes" text="Druhy škůdců" />
+        <text name="fh_map_notSprayed" text="Bez ochrany" />
+        <text name="fh_map_oneProduct" text="Jeden přípravek" />
+        <text name="fh_map_bothProducts" text="Fungicid a insekticid" />
+        <text name="fh_map_healthy" text="Zdravý porost" />
+        <text name="fh_map_low" text="Slabé" />
+        <text name="fh_map_medium" text="Střední" />
+        <text name="fh_map_high" text="Silné" />
+        <text name="fh_map_diseaseLabel" text="Choroba:" />
+        <text name="fh_map_pestLabel" text="Škůdci:" />
+        <text name="fh_map_diseaseProtectionLabel" text="Ochrana – choroby:" />
+        <text name="fh_map_pestProtectionLabel" text="Ochrana – škůdci:" />
+        <text name="fh_map_protectedUntilHarvest" text="aktivní" />
+        <text name="input_FH_MINIMAP_LAYER" text="Field Health – vrstva ochrany rostlin na minimapě" />
+
+        <!-- Settings -->
+        <text name="fh_config_brand" text="Značka" />
+        <text name="fh_settings_header" text="Field Health – choroby a škůdci" />
+        <text name="fh_setting_enabled" text="Choroby a škůdci" />
+        <text name="fh_setting_enabled_desc" text="Hlavní vypínač modu. Když je vypnutý, nové choroby ani škůdci se neobjevují a ti, kteří už na polích jsou, se přestanou šířit a ničit porosty. Postřik dál funguje, takže můžeš to, co zůstalo na polích, odstranit." />
+        <text name="fh_setting_diseaseChance" text="Šance na chorobu za sezónu" />
+        <text name="fh_setting_diseaseChance_desc" text="Základní šance, že běžně obhospodařované pole za jednu sezónu (od setí do sklizně) onemocní. Je to jen výchozí bod: dobrá agrotechnika (hnůj, meziplodiny, osevní postup, správné pH a dusík) ji snižuje, zanedbání (bez hnojení, monokultura, bez orby, kyselá půda) ji několikanásobně zvyšuje. Postřik fungicidem dřív, než se choroba objeví, ji do sklizně sníží na nulu. 0 % choroby vypne." />
+        <text name="fh_setting_pestChance" text="Šance na škůdce za sezónu" />
+        <text name="fh_setting_pestChance_desc" text="Základní šance, že se na běžně obhospodařovaném poli za sezónu objeví škůdci. Agrotechnika ji mění: plevele, monokultura a chybějící orba ji zvyšují, meziplodiny a osevní postup snižují. Postřik insekticidem dřív, než se škůdci objeví, ji do sklizně sníží na nulu. 0 % škůdce vypne." />
+        <text name="fh_setting_careInfluence" text="Vliv agrotechniky" />
+        <text name="fh_setting_careInfluence_desc" text="Jak silně tvůj způsob hospodaření (hnojení, zpracování půdy, osevní postup, meziplodiny, plevele, data Přesného farmaření) mění základní šance. Žádný – počítá se jen základní šance a všechna pole jsou si rovna. Malý – mírné rozdíly. Normální (doporučeno) – dobrá agrotechnika se jasně vyplatí. Velký – zanedbaná pole onemocní velmi často, dobře vedená skoro nikdy." />
+        <text name="fh_setting_weatherInfluence" text="Vliv počasí" />
+        <text name="fh_setting_weatherInfluence_desc" text="Jak silně počasí posledních dnů (teplota a déšť) mění šanci na napadení. Houbové choroby mají rády déšť a vlhko, většina škůdců teplé a suché počasí a každá hrozba má svůj rozsah teplot. Žádný – počasí se nepočítá. Malý – malé rozdíly. Normální (doporučeno) – zřetelné rozdíly. Velký – za příznivého počasí se napadení objevuje mnohem častěji, za nepříznivého skoro vůbec." />
+        <text name="fh_setting_stubbleRisk" text="Riziko ze strniště" />
+        <text name="fh_setting_stubbleRisk_desc" text="Zda nezmulčované strniště po sklizni zvyšuje riziko (hlavně zavíječe kukuřičného a chorob přežívajících na posklizňových zbytcích). Počítá se jen po sklizni na tomto poli a když pole nebylo zoráno. Kolejové řádky a cesty přes pole se nikdy nepočítají jako strniště. Vypnuto – strniště riziko vůbec nemění." />
+        <text name="fh_setting_fodderCrops" text="Napadení luk a pícnin" />
+        <text name="fh_setting_fodderCrops_desc" text="Zda louky, tráva, jetel a vojtěška mohou mít choroby a škůdce. Vypnuto (doporučeno) – tyto plodiny nikdy napadeny nejsou a napadení, které už mají, druhý den zmizí. Zapnuto – jetel a vojtěška mohou mít mšice; louky a tráva nikdy." />
+        <text name="fh_setting_fieldInfo" text="Řádky v informacích o poli" />
+        <text name="fh_setting_fieldInfo_desc" text="Zda panel informací o poli ukazuje napadení, riziko a ochranu pole. Vypnuto – panel vypadá jako bez modu; mapa a minimapa pole dál zobrazují." />
+        <text name="fh_setting_progression" text="Průběh napadení" />
+        <text name="fh_setting_progression_desc" text="Jak rychle neošetřené napadení přejde do dalšího stupně: slabé, pak střední, pak silné. Pomalý – každý herní měsíc, Normální – každý půlměsíc, Rychlý – každou čtvrtinu měsíce (nejméně jeden den). Porost ničí jen silné napadení, takže pomalejší průběh ti dává víc času na postřik." />
+        <text name="fh_setting_spread" text="Rozsah napadení" />
+        <text name="fh_setting_spread_desc" text="Jakou část pole může neošetřené napadení zabrat. Malý – až 2,5 %, Střední – až 5 %, Velký – až 10 % výměry pole. Ohnisko se na okraji rozrůstá nerovnoměrně a občas vedle něj vznikne nové, menší ohnisko – většinou na straně, kam ten den fouká vítr. Postřik napadení úplně odstraní." />
+        <text name="fh_setting_patchSize" text="Velikost ohnisek" />
+        <text name="fh_setting_patchSize_desc" text="Jak velká jsou ohniska, ve kterých nové napadení vzniká a roste. Každé ohnisko má nepravidelný tvar a náhodnou velikost – malá jsou častější než velká. Malá – ohniska obvykle 5–12 m napříč, Normální – 8–20 m, Velká – 12–30 m. Na malých polích jsou ohniska vždy menší." />
+        <text name="fh_setting_neighbourSpread" text="Přenos na sousední pole" />
+        <text name="fh_setting_neighbourSpread_desc" text="Zda se napadení z okraje pole může přenést na sousední pole hráče. Stane se to jen tehdy, když se pole dotýkají nebo je dělí velmi úzký pruh, když na druhém poli roste plodina, kterou daná hrozba napadá, ve správné růstové fázi, a když druhé pole není ošetřené. Škůdci se přenášejí častěji než choroby, a to až od středního stupně. Pole NPC nejsou nikdy zasažena. Vypnuto, Zřídka, Občas, Často – nulová, poloviční, běžná a dvojnásobná šance." />
+        <text name="fh_setting_damage" text="Škody na porostu" />
+        <text name="fh_setting_damage_desc" text="Kolik porostu silné napadení každý den zničí. Zničená místa při sklizni nic nedají. Vypnuto – napadení je jen vidět, výnos se nemění. Malé, Normální, Velké – 1, 3 nebo 6 ploch o několika metrech denně, vždy jen uvnitř napadené plochy." />
+        <text name="fh_setting_protectionThreshold" text="Pokrytí pro plnou ochranu" />
+        <text name="fh_setting_protectionThreshold_desc" text="Jakou část pole je třeba postříkat, aby celé pole bylo chráněné proti danému druhu napadení (chorobám nebo škůdcům). Při menším pokrytí se napadení ještě může objevit, ale jen na neošetřených částech – ošetřené plochy jsou chráněné vždy. Výchozí 90 %. Nižší hranice odpustí vynechané rohy a klíny, vyšší vyžaduje přesný postřik." />
+        <text name="fh_setting_protectionDuration" text="Délka ochrany" />
+        <text name="fh_setting_protectionDuration_desc" text="Jak dlouho fungicid a insekticid pole chrání. Do sklizně – jeden postřik každým přípravkem chrání pole celou sezónu (nejjednodušší). 2 měsíce, 1 měsíc, Půl měsíce – ochrana skončí tuto dobu po posledním postřiku pole a musíš stříkat znovu, jako na skutečné farmě." />
+        <text name="fh_setting_fungicideUsage" text="Dávka fungicidu" />
+        <text name="fh_setting_fungicideUsage_desc" text="Kolik fungicidu spotřebuje postřikovač na hektar. 100 % je asi 290 litrů postřikové jíchy na hektar (stejně jako herbicid), tedy jedna láhev 1 l na hektar. Nižší dávka postřik zlevní a méně se dolévá, vyšší ho zdraží. Účinek postřiku je vždy stejný. Změna platí hned, i během práce." />
+        <text name="fh_setting_insecticideUsage" text="Dávka insekticidu" />
+        <text name="fh_setting_insecticideUsage_desc" text="Kolik insekticidu spotřebuje postřikovač na hektar. 100 % je asi 290 litrů postřikové jíchy na hektar (stejně jako herbicid), tedy jedna láhev 1 l na 5 hektarů. Nižší dávka postřik zlevní a méně se dolévá, vyšší ho zdraží. Účinek postřiku je vždy stejný. Změna platí hned, i během práce." />
+        <text name="fh_setting_fungicidePrice" text="Cena láhve fungicidu" />
+        <text name="fh_setting_fungicidePrice_desc" text="Cena jedné láhve fungicidu 1 l v obchodě. Láhev stačí na 1 hektar (290 l postřikové jíchy). Výchozí 50. Hra převádí měny 1:1. Cena litru jíchy se řídí touto cenou, například při nákupu kapaliny na stanici. Změna v obchodě platí hned." />
+        <text name="fh_setting_insecticidePrice" text="Cena láhve insekticidu" />
+        <text name="fh_setting_insecticidePrice_desc" text="Cena jedné láhve insekticidu 1 l v obchodě. Láhev stačí na 5 hektarů (1450 l postřikové jíchy). Výchozí 80. Hra převádí měny 1:1. Cena litru jíchy se řídí touto cenou, například při nákupu kapaliny na stanici. Změna v obchodě platí hned." />
+        <text name="fh_setting_fungicideCanisterPrice" text="Cena kanystru fungicidu 5 l" />
+        <text name="fh_setting_fungicideCanisterPrice_desc" text="Cena jednoho kanystru fungicidu 5 l v obchodě. Kanystr stačí na 5 hektarů (1450 l postřikové jíchy). Výchozí 220, za litr levnější než pět lahví po 1 l, jako u skutečného prodejce. Hra převádí měny 1:1. Změna v obchodě platí hned." />
+        <text name="fh_setting_insecticideCanisterPrice" text="Cena kanystru insekticidu 5 l" />
+        <text name="fh_setting_insecticideCanisterPrice_desc" text="Cena jednoho kanystru insekticidu 5 l v obchodě. Kanystr stačí na 25 hektarů (7250 l postřikové jíchy). Výchozí 350, za litr levnější než pět lahví po 1 l, jako u skutečného prodejce. Hra převádí měny 1:1. Změna v obchodě platí hned." />
+        <text name="fh_setting_fungicideCanister20Price" text="Cena kanystru fungicidu 20 l" />
+        <text name="fh_setting_fungicideCanister20Price_desc" text="Cena jednoho kanystru fungicidu 20 l v obchodě. Kanystr stačí na 20 hektarů (5800 l postřikové jíchy). Výchozí 800, nejlevnější balení za litr. Hra převádí měny 1:1. Změna v obchodě platí hned." />
+        <text name="fh_setting_insecticideCanister20Price" text="Cena kanystru insekticidu 20 l" />
+        <text name="fh_setting_insecticideCanister20Price_desc" text="Cena jednoho kanystru insekticidu 20 l v obchodě. Kanystr stačí na 100 hektarů (29 000 l postřikové jíchy). Výchozí 1200, nejlevnější balení za litr. Hra převádí měny 1:1. Změna v obchodě platí hned." />
+        <text name="fh_setting_farmLimit" text="Limit napadení na farmu" />
+        <text name="fh_setting_farmLimit_desc" text="Nejvyšší počet nových napadení na všech polích tvé farmy za herní rok. Neomezeno – každé pole má vlastní šanci. Nastav například 1 nebo 2, pokud máš hodně polí a chceš, aby choroby a škůdci byli vzácní." />
+        <text name="fh_setting_notifications" text="Upozornění na napadení" />
+        <text name="fh_setting_notifications_desc" text="Zobrazí zprávu, když se na tvém poli objeví choroba nebo škůdci a když napadení zesílí a začne ničit porost. Zpráva uvede pole, plodinu, hrozbu a přípravek, kterým je třeba stříkat." />
+        <text name="fh_set_on" text="Zapnuto" />
+        <text name="fh_set_off" text="Vypnuto" />
+        <text name="fh_set_none" text="Žádný" />
+        <text name="fh_set_low" text="Malý" />
+        <text name="fh_set_normal" text="Normální" />
+        <text name="fh_set_high" text="Velký" />
+        <text name="fh_set_slow" text="Pomalý" />
+        <text name="fh_set_normalPace" text="Normální" />
+        <text name="fh_set_fast" text="Rychlý" />
+        <text name="fh_set_small" text="Malý" />
+        <text name="fh_set_medium" text="Střední" />
+        <text name="fh_set_large" text="Velký" />
+        <text name="fh_set_damageLow" text="Malé" />
+        <text name="fh_set_damageNormal" text="Normální" />
+        <text name="fh_set_damageHigh" text="Velké" />
+        <text name="fh_set_untilHarvest" text="Do sklizně" />
+        <text name="fh_set_twoMonths" text="2 měsíce" />
+        <text name="fh_set_oneMonth" text="1 měsíc" />
+        <text name="fh_set_halfMonth" text="Půl měsíce" />
+        <text name="fh_set_unlimited" text="Neomezeno" />
+        <text name="fh_set_patchSmall" text="Malá" />
+        <text name="fh_set_patchNormal" text="Normální" />
+        <text name="fh_set_patchLarge" text="Velká" />
+        <text name="fh_set_rarely" text="Zřídka" />
+        <text name="fh_set_sometimes" text="Občas" />
+        <text name="fh_set_often" text="Často" />
+
+        <!-- Shop -->
+        <text name="fh_fillType_insecticide" text="Insekticid" />
+        <text name="fh_fillType_fungicide" text="Fungicid" />
+        <text name="fh_store_fungicideBottle" text="Fungicid 1 l" />
+        <text name="fh_store_insecticideBottle" text="Insekticid 1 l" />
+        <text name="fh_store_fungicideCanister" text="Fungicid 5 l" />
+        <text name="fh_store_insecticideCanister" text="Insekticid 5 l" />
+        <text name="fh_store_fungicideCanister20" text="Fungicid 20 l" />
+        <text name="fh_store_insecticideCanister20" text="Insekticid 20 l" />
+        <text name="fh_function_fungicideBottle" text="Láhev koncentrátu 1 l, dávka 1 l/ha. Stačí na 1 ha, tedy 290 l postřikové jíchy. Chrání porosty proti všem chorobám. Postav ji vedle postřikovače a naplň z ní postřikovač." />
+        <text name="fh_function_insecticideBottle" text="Láhev koncentrátu 1 l, dávka 0,2 l/ha. Stačí na 5 ha, tedy 1450 l postřikové jíchy. Chrání porosty proti škůdcům: mšicím, kohoutkům, blýskáčku, mandelince, zavíječi a drátovcům. Postav ji vedle postřikovače a naplň z ní postřikovač." />
+        <text name="fh_function_fungicideCanister" text="Kanystr koncentrátu 5 l, dávka 1 l/ha. Stačí na 5 ha, tedy 1450 l postřikové jíchy. Chrání porosty proti všem chorobám. Za litr levnější než láhve 1 l. Postav ho vedle postřikovače a naplň z něj postřikovač." />
+        <text name="fh_function_insecticideCanister" text="Kanystr koncentrátu 5 l, dávka 0,2 l/ha. Stačí na 25 ha, tedy 7250 l postřikové jíchy. Chrání porosty proti škůdcům. Za litr levnější než láhve 1 l. Postav ho vedle postřikovače a naplň z něj postřikovač." />
+        <text name="fh_function_fungicideCanister20" text="Kanystr koncentrátu 20 l, dávka 1 l/ha. Stačí na 20 ha, tedy 5800 l postřikové jíchy. Chrání porosty proti všem chorobám. Nejlevnější za litr, pro velké farmy. Postav ho vedle postřikovače a naplň z něj postřikovač." />
+        <text name="fh_function_insecticideCanister20" text="Kanystr koncentrátu 20 l, dávka 0,2 l/ha. Stačí na 100 ha, tedy 29 000 l postřikové jíchy. Chrání porosty proti škůdcům. Nejlevnější za litr, pro velké farmy. Postav ho vedle postřikovače a naplň z něj postřikovač." />
+
+        <!-- Help (ESC → Help) -->
+        <text name="fh_help_header" text="Field Health – choroby a škůdci" />
+
+        <text name="fh_help_intro" text="Úvod" />
+        <text name="fh_help_intro_01" text="O modu" />
+        <text name="fh_help_intro_02" text="Field Health přináší do hry choroby a škůdce plodin, se kterými se zemědělci v Polsku potýkají každý den. Objevují se na polích tvé farmy během sezóny, rozvíjejí se a – pokud proti nim nezasáhneš – zničí část porostu. Proti nim slouží dva přípravky z obchodu: fungicid proti chorobám a insekticid proti škůdcům.
+Mod je realistický, ale shovívavý k pohodovému hraní: napadení nikdy nezabere celé pole, porost hyne až v nejsilnějším stupni a jeden dobře provedený postřik každým přípravkem chrání pole do konce sezóny." />
+        <text name="fh_help_intro_03" text="Sezóna krok za krokem" />
+        <text name="fh_help_intro_04" text="1. Setím začíná sezóna plodiny. Od toho dne na poli roste infekční tlak – nejrychleji v roční době a růstové fázi, kdy daná hrozba útočí, za počasí, které jí vyhovuje, a na zanedbaném poli.
+2. Když tlak překročí náhodně určenou hranici pole, objeví se ohnisko choroby nebo škůdců. Dostaneš upozornění s číslem pole a přípravkem, kterým je třeba stříkat.
+3. Neošetřené napadení každý půlměsíc zesílí o jeden stupeň a pomalu se rozrůstá. V silném stupni denně ničí porost v malých plochách.
+4. Postřik napadení odstraní a postříkaná místa chrání. Pole postříkané téměř celé je proti danému druhu napadení odolné až do sklizně.
+5. Sklizeň sezónu ukončí: napadení i ochrana zmizí a sklizená plodina se stane předplodinou pro další." />
+        <text name="fh_help_intro_05" text="Nejdůležitější čísla" />
+        <text name="fh_help_intro_06" text="Výchozí hodnoty. Správce může každou z nich změnit v nastavení (poslední sloupec)." />
+        <text name="fh_help_intro_08" text="Kde sledovat stav polí" />
+        <text name="fh_help_intro_09" text="– Panel informací o poli (když jsi na poli): napadení a jejich síla, riziko a jeho hlavní příčina, ochrana pole.
+– Mapa (ESC &gt; Mapa &gt; Ochrana rostlin): pět vrstev – ochrana, choroby, škůdci, druhy chorob a druhy škůdců.
+– Minimapa: vrstvu přepneš klávesami levý Alt + \.
+– Upozornění: na nové napadení, na silný stupeň a na napadení, které se přeneslo ze sousedního pole." />
+        <text name="fh_help_origin" text="Odkud se berou hrozby" />
+        <text name="fh_help_origin_01" text="Každé pole hráče s rostoucí plodinou může za sezónu dostat nejvýš jednu chorobu a jeden druh škůdců. Pole NPC, topoly a meziplodiny nejsou napadeny nikdy; louky, tráva, jetel a vojtěška jen tehdy, když je to zapnuté v nastavení.
+Napadení se neobjeví v náhodný den. Mod každý den spočítá infekční tlak na poli a přičte ho k součtu z předchozích dnů. Na začátku sezóny dostane pole náhodnou hranici odolnosti – když ji součet tlaku překročí, pole se nakazí. Proto se napadení v jedné sezóně objeví brzy, v jiné pozdě a ve třetí vůbec." />
+        <text name="fh_help_origin_02" text="Co ovlivňuje tlak" />
+        <text name="fh_help_origin_03" text="1. Základní šance z nastavení – výchozí je 15 % pro chorobu a 10 % pro škůdce za sezónu.
+2. Riziko pole, tedy jak na něm hospodaříš: hnojení, zpracování půdy, osevní postup a plevele (stránka „Jak hospodaříš“).
+3. Jak častá je hrozba v Polsku – běžné choroby a škůdci se objevují mnohem častěji než vzácné (stránky „Choroby“ a „Škůdci“).
+4. Roční doba a růstová fáze – mimo svou dobu hrozba vůbec neútočí (stránka „Období a růstové fáze“).
+5. Počasí posledních dnů – déšť pomáhá houbovým chorobám, teplo a sucho většině škůdců (stránka „Počasí“)." />
+        <text name="fh_help_origin_04" text="Šance za sezónu" />
+        <text name="fh_help_origin_05" text="Takto riziko pole mění šanci na napadení za celou sezónu při výchozím nastavení:" />
+        <text name="fh_help_origin_07" text="Tabulka platí pro plodinu s průměrným počtem hrozeb, která roste po celou jejich dobu. Plodiny, které napadá mnoho běžných chorob nebo škůdců, onemocní častěji (až 1,4krát), plodiny s malým počtem hrozeb méně často (až 0,5krát):" />
+        <text name="fh_help_origin_09" text="Která hrozba se objeví" />
+        <text name="fh_help_origin_10" text="Při nákaze mod vybere jednu z hrozeb, které mohou plodinu v ten den napadnout. Šance každé z nich odpovídá jejímu dennímu tlaku: četnosti vynásobené rizikem pole, roční dobou a počasím. Příklad: na pšenici se v květnu za deštivého počasí nejčastěji objeví septorióza nebo padlí, zatímco vzácná a teplomilná rez travní téměř nikdy." />
+        <text name="fh_help_origin_11" text="Postřik před nákazou" />
+        <text name="fh_help_origin_12" text="Pokud je pole v okamžiku nákazy postříkané správným přípravkem alespoň na 90 % plochy, nákaza selže a pole v této sezóně nedostane žádné napadení tohoto druhu. Při menším pokrytí se napadení objevit může, ale jen na nepostříkaných částech." />
+        <text name="fh_help_timing" text="Období a růstové fáze" />
+        <text name="fh_help_timing_01" text="Každá choroba a každý škůdce má svou dobu: útočí jen v určitých měsících a jen v určitých růstových fázích plodiny. Během této doby má vrchol, kdy je nejnebezpečnější. Mimo svou dobu se hrozba vůbec neobjeví – nemůže přijít ani ze sousedního pole." />
+        <text name="fh_help_timing_02" text="Růstové fáze" />
+        <text name="fh_help_timing_04" text="Mod určuje fázi podle stavu růstu plodiny ve hře: prvních 20 % doby růstu je vzcházení, do 45 % vývoj listů a odnožování, do 70 % sloupkování nebo tvorba poupat, potom metání a kvetení a plodina připravená ke sklizni je zralá. Měsíce se řídí herním kalendářem (první období roku je březen), takže počet dnů v období nemění, kdy hrozby útočí." />
+        <text name="fh_help_timing_05" text="Kalendář – kdy dávat pozor" />
+        <text name="fh_help_timing_06" text="Hlavní měsíce jsou ty, ve kterých je tlak skupiny hrozeb na plodinu nejvyšší. Postřik krátce před nimi zabrání většině nákaz." />
+        <text name="fh_help_farming" text="Jak hospodaříš" />
+        <text name="fh_help_farming_01" text="Riziko pole je násobitel infekčního tlaku, který vychází z toho, jak na poli hospodaříš. Mod ho počítá pro každou hrozbu zvlášť; panel informací o poli ukazuje nejvyšší riziko chorob a škůdců a hlavní příčinu. Násobitele z tabulek se navzájem násobí a výsledek je vždy mezi 0,3 a 5." />
+        <text name="fh_help_farming_03" text="Hnojení" />
+        <text name="fh_help_farming_05" text="Zpracování půdy a plevele" />
+        <text name="fh_help_farming_07" text="Hodnoty platí pro úplně zanedbané pole – částečné zanedbání zvyšuje riziko úměrně. Počítají se jen práce zapnuté v nastavení hry: když orba není povinná, chybějící orba nic nemění. Mod kontroluje pole ve 36 bodech a jen tam, kde roste plodina, takže kolejové řádky a cesty přes pole se nepočítají jako zanedbání. Nezmulčované strniště a chybějící válení se počítají jako zanedbání, jen když se týkají tří čtvrtin pole. Strniště se počítá jen po sklizni na tomto poli a ne po orbě (nastavení „Riziko ze strniště“ ho úplně vypne). Ve FS25 plevele po orbě nerostou." />
+        <text name="fh_help_farming_08" text="Osevní postup a meziplodiny" />
+        <text name="fh_help_farming_10" text="Nastavení „Vliv agrotechniky“ zesílí nebo zeslabí všechny tyto činitele najednou. Žádný – každé pole má riziko 1. Malý – rozdíly jsou zhruba poloviční. Normální – jako v tabulkách. Velký – rozdíly jsou jedenapůlkrát větší." />
+        <text name="fh_help_weather" text="Počasí" />
+        <text name="fh_help_weather_01" text="Každou herní hodinu mod zjistí teplotu a jestli prší. Na konci dne spočítá průměrnou teplotu dne a podíl deštivých hodin. Vlhkost má paměť: polovina pochází z posledního dne a polovina z dnů předtím, protože listy zůstávají po dešti dlouho mokré. Každá hrozba má svůj profil počasí – rozsah teplot a reakci na déšť." />
+        <text name="fh_help_weather_03" text="Teplota mimo rozsah sníží tlak na 0,4násobek, teplota v optimu ho zvýší na 1,2násobek. Déšť mění tlak od 0,4 do 1,8násobku – nahoru u hrozeb, které mají rády vlhko, dolů u těch, které mají rády sucho. Dohromady počasí mění tlak od 0,2 do 2,5násobku. Příklady násobitelů po několika dnech takového počasí (červená – napadení sílí, zelená – slábne):" />
+        <text name="fh_help_weather_05" text="Nastavení „Vliv počasí“: Žádný – počasí se nepočítá, Malý – mírnější násobitele, Normální – jako v tabulce, Velký – silnější. Po několika teplých deštivých letních dnech hlídej hlavně brambory a obilniny při metání, v suchém a horkém létě škůdce." />
+        <text name="fh_help_diseases" text="Choroby" />
+        <text name="fh_help_diseases_01" text="Fungicid působí proti všem chorobám. Tabulky ukazují, jak častá je choroba v Polsku, které plodiny napadá, ve kterých měsících se objevuje a kdy je nejhorší, ve které růstové fázi škodí nejvíc a co jí pomáhá." />
+        <text name="fh_help_diseases_03" text="Obilniny a kukuřice" />
+        <text name="fh_help_diseases_05" text="Ostatní plodiny" />
+        <text name="fh_help_diseases_07" text="Plodiny map, které mod nezná, mohou dostat plíseň šedou a mšice. Cibule z rozšíření Highlands Fishing a z modů se rozpozná automaticky." />
+        <text name="fh_help_pests" text="Škůdci" />
+        <text name="fh_help_pests_01" text="Insekticid působí proti všem škůdcům. Sloupce tabulek znamenají totéž co na stránce „Choroby“." />
+        <text name="fh_help_pests_02" text="Obilniny a kukuřice" />
+        <text name="fh_help_pests_04" text="Ostatní plodiny" />
+        <text name="fh_help_progress" text="Jak se napadení vyvíjí" />
+        <text name="fh_help_progress_01" text="Nové napadení tvoří jedno nebo dvě nepravidelná ohniska s roztřepeným okrajem a zdravými mezerami uvnitř. Začíná ve slabém stupni. Když proti němu nezasáhneš, projde těmito kroky:" />
+        <text name="fh_help_progress_03" text="Zničený porost už nedoroste a při sklizni nic nedá. Proto je nejlevnější stříkat předem nebo hned po upozornění. Postřik v jakémkoli stupni napadení z postříkaných míst úplně odstraní." />
+        <text name="fh_help_spraying" text="Postřik a ochrana" />
+        <text name="fh_help_spraying_01" text="Přípravky vyrábí polská firma Opryskex: fungicid Grzybobój 250 EC (zelená etiketa) a insekticid Robalex 100 CS (červená etiketa). Při nákupu si místo ní můžeš vybrat značku MST (Mafia Solec Team): Solectop 280 SC a Mafiozol 50 EW. Působí stejně, liší se jen etiketou. V obchodě je koupíš v lahvích 1 l a v kanystrech 5 l a 20 l. Postav balení vedle postřikovače a naplň postřikovač jako z palety. Hra koncentrát nemíchá s vodou, takže obsah balení je rovnou celá postřiková jícha, která z něj vznikne. Čím větší balení, tím levnější hektar." />
+        <text name="fh_help_spraying_03" text="Jak funguje ochrana" />
+        <text name="fh_help_spraying_05" text="Pozor" />
+        <text name="fh_help_spraying_06" text="– Stříkej až po vzejití – setí a sklizeň ochranu ruší.
+– Fungicid nechrání proti škůdcům a insekticid proti chorobám. Pro plnou ochranu potřebuješ oba.
+– Vynechané klíny a souvratě se počítají: pod 90 % pokrytí se napadení může objevit na nepostříkaných pruzích.
+– Přípravky nehnojí a neničí plevele.
+– Při kratší ochraně (nastavení) skončí ochrana celého pole tuto dobu po posledním postřiku." />
+        <text name="fh_help_map" text="Mapa a informace o poli" />
+        <text name="fh_help_map_01" text="Panel informací o poli" />
+        <text name="fh_help_map_02" text="Když jsi na poli, panel informací o poli ukazuje:
+– Choroba a Škůdci: aktivní napadení a jeho sílu (slabé, střední, silné),
+– Riziko chorob a Riziko škůdců: nízké, běžné, zvýšené nebo vysoké, od zvýšeného i hlavní příčinu,
+– Ochrana – choroby a Ochrana – škůdci: jak velká část pole je postříkaná,
+– nápovědu, který přípravek proti napadení pomáhá." />
+        <text name="fh_help_map_03" text="Mapa" />
+        <text name="fh_help_map_04" text="V ESC &gt; Mapa vyber stránku „Ochrana rostlin“. Pod jejím názvem druhý přepínač se šipkami přepíná mezi pěti vrstvami. Kliknutím na položku legendy ji na mapě skryješ. Zobrazují se jen pole tvé farmy s rostoucí plodinou. Klikni na pozemek, abys viděl napadení a ochranu jeho polí." />
+        <text name="fh_help_map_06" text="Barvy druhů napadení" />
+        <text name="fh_help_map_08" text="Minimapa" />
+        <text name="fh_help_map_09" text="Levý Alt + \ přepíná vrstvu minimapy: ochrana, choroby, škůdci a žádná vrstva. Klávesy můžeš změnit během hry v ESC &gt; Nastavení &gt; Ovládání, položka „Field Health – vrstva ochrany rostlin na minimapě“ (hlavní menu klávesy modů neukazuje, protože se mody načítají až s uloženou hrou)." />
+        <text name="fh_help_pf" text="Přesné farmaření" />
+        <text name="fh_help_pf_01" text="S Přesným farmařením funguje Field Health jako jeho rozšíření a používá jeho půdní mapy. Místo hnojení obecně se počítá dusík v porovnání s cílovou hodnotou a místo vápnění obecně pH půdy." />
+        <text name="fh_help_pf_03" text="Nejlepší ochrana je stejná práce, kterou děláš pro výnos: hnojit na cílovou hodnotu, vápnit na optimální pH a sít meziplodiny. Příkaz konzole fhPrecisionFarming zapíše do logu, jak mod čte data Přesného farmaření." />
+        <text name="fh_help_settings" text="Nastavení" />
+        <text name="fh_help_settings_01" text="Nastavení modu najdeš v ESC &gt; Nastavení &gt; Hra, v sekci „Field Health – choroby a škůdci“. Ukládají se s uloženou hrou. Ve hře více hráčů je může měnit jen správce serveru. Najeď myší na volbu, abys viděl její popis." />
+        <text name="fh_help_tips" text="Tipy" />
+        <text name="fh_help_tips_01" text="Plán pro zdravá pole" />
+        <text name="fh_help_tips_02" text="1. Hnoj podle potřeby, vápni a nesej stejnou plodinu dva roky po sobě. Mezi hlavní plodiny zařaď meziplodinu.
+2. Před hlavními měsíci hrozeb (stránka „Období a růstové fáze“) postříkej pole fungicidem a insekticidem. Jednou za sezónu stačí, když pokryješ aspoň 90 % pole.
+3. Kontroluj vrstvu „Ochrana“ na mapě – zelená pole jsou chráněná proti oběma druhům napadení.
+4. Po upozornění postříkej uvedené pole uvedeným přípravkem dřív, než napadení dosáhne silného stupně.
+5. AI pracovník s fungicidem nebo insekticidem postříká nechráněná pole celá a chráněná jen tam, kde je napadení." />
+        <text name="fh_help_tips_03" text="Pozor" />
+        <text name="fh_help_tips_04" text="– Monokultura a chybějící orba jsou nejčastější příčiny vysokého rizika, např. pšenice po pšenici bez orby podporuje septoriózu, žlutou skvrnitost a fuzariózu.
+– Kukuřice před pšenicí výrazně zvyšuje riziko fuzariózy, louka před bramborami riziko drátovců.
+– Kejda a kapalné hnojivo dávají bujný porost, který mají rády padlí, rzi a mšice.
+– Deštivé léto je doba plísně bramborové, septoriózy a fuzariózy, suché a horké léto doba mšic, mandelinky, třásněnek a osenic.
+– Řepka má dvě nebezpečná období: podzim (dřepčíci, pilatka, fomová hniloba) a jaro (krytonosci, blýskáček, hlízenka).
+– Napadení ve středním nebo silném stupni se může přenést na sousedící pole hráče." />
+        <text name="fh_help_admin" text="Pro správce" />
+        <text name="fh_help_admin_01" text="Příkazy konzole" />
+        <text name="fh_help_admin_03" text="Hra více hráčů, uložená hra a kompatibilita" />
+        <text name="fh_help_admin_04" text="– Simulace běží na serveru a hráči vidí její výsledky. Nastavení a příkazy fhSet, fhClear a fhDailyTick jsou jen pro správce.
+– Upozornění dostávají hráči farmy, které pole patří, každý ve svém jazyce.
+– Mod ukládá data jen do dvou vlastních souborů ve složce uložené hry: fieldHealth.xml a fieldHealthMap.grle. Lze ho bezpečně odebrat – hra tyto soubory přeskočí a z mapy zmizí jen lahve a kanystry s přípravky.
+– Uložené hry ze starší verze modu se při načtení převedou do nového formátu.
+– Cibule z rozšíření Highlands Fishing a z modů se rozpozná automaticky – log to uvede.
+– Nepoužívej současně jiný mod s chorobami plodin (např. Crop Diseases) – Field Health na to v logu upozorní." />
+        <text name="fh_help_admin_05" text="Poděkování" />
+        <text name="fh_help_admin_06" text="Field Health – autor: MatrikSky. Nápad převzat z modu „Crop Diseases“ od BMP. Model láhve vychází z „fertilizer Bottle“ od shabanimate, model kanystru z „#6 Plastic Canister“ od hoxsvl (oba CC BY 4.0, sketchfab.com)." />
+        <text name="fh_help_tableLanguage" text="en" />
+
+
+
+
+
+
+
+
+
+
+    </texts>
+</l10n>

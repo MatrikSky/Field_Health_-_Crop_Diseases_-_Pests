@@ -11,7 +11,7 @@
 [![Downloads](https://img.shields.io/github/downloads/MatrikSky/Field_Health_-_Crop_Diseases_-_Pests/total?style=for-the-badge&color=1565c0)](https://github.com/MatrikSky/Field_Health_-_Crop_Diseases_-_Pests/releases)
 [![license](https://img.shields.io/badge/license-CC%20BY%204.0-ef6c00?style=for-the-badge)](LICENSE)
 [![multiplayer](https://img.shields.io/badge/multiplayer-supported-6a1b9a?style=for-the-badge)](#-compatibility)
-[![languages](https://img.shields.io/badge/languages-EN%20%7C%20PL%20%7C%20FR%20%7C%20DE%20%7C%20ES-455a64?style=for-the-badge)](#-compatibility)
+[![languages](https://img.shields.io/badge/languages-13-455a64?style=for-the-badge)](#-compatibility)
 
 **[⬇️ Download](https://github.com/MatrikSky/Field_Health_-_Crop_Diseases_-_Pests/releases/latest/download/FS25_FieldHealth.zip)** &nbsp;•&nbsp; **[KingMods](https://www.kingmods.net/en/fs25/mods/83657/field-health-crop-diseases-pests)** &nbsp;•&nbsp; **[Report a bug](https://github.com/MatrikSky/Field_Health_-_Crop_Diseases_-_Pests/issues)** &nbsp;•&nbsp; **[Changelog](CHANGELOG.md)** &nbsp;•&nbsp; **[All releases](https://github.com/MatrikSky/Field_Health_-_Crop_Diseases_-_Pests/releases)**
 
@@ -621,7 +621,7 @@ You find the mod settings in **ESC > Settings > Game**, in the section *Field He
 - **Multiplayer** – the simulation runs on the server and the players see its results. The settings and the commands `fhSet`, `fhClear` and `fhDailyTick` are for the admin only.
 - **Other mods** – every hook of Field Health calls the original game function, and an error in the mod is caught and written to the log, so it never breaks the game function. Sprayers and tanks of other mods accept the liquids, because they use the common names `FUNGICIDE` and `INSECTICIDE`.
 - **Performance** – most of the work runs once per in-game day and is spread over several frames.
-- **Languages** – English, Polish, French, German and Spanish (Spain and Latin America). In other game languages you see the English texts. The tables of the in-game help are pictures in English and Polish; the other languages show the English tables for now.
+- **Languages** – English, Polish, French, German, Spanish (Spain and Latin America), Portuguese (Portugal and Brazil), Italian, Russian, Czech, Romanian and Hungarian. In other game languages you see the English texts. The tables of the in-game help are pictures in English and Polish; the other languages show the English tables for now.
 
 <details>
 <summary><b>🛰️ Precision Farming data and the risk</b></summary>
@@ -721,7 +721,7 @@ FS25_FieldHealth/
 │   └── FieldHealth.lua     entry point
 ├── xml/fillTypes.xml       the liquids FUNGICIDE and INSECTICIDE
 ├── pallets/                bottles and canisters: models, textures, shop items
-├── l10n/                   texts: English, Polish, French, German, Spanish (es, ea)
+├── l10n/                   texts in 13 languages (l10n_<language>.xml)
 ├── help/  hud/  brand/     help tables, liquid icons, brand logo
 └── docs/images/            pictures of this README (not part of the mod)
 ```
@@ -742,7 +742,7 @@ To test a change, zip the content of the repository – `modDesc.xml` at the roo
 A few more rules of the code:
 
 - Every hook calls the original game function, and mod code runs through `FHUtil.protect`, so an error never breaks the game.
-- All texts are in `l10n/` with the prefix `fh_`, in every language of the mod (English, Polish, French, German, Spanish `es` and Latin American Spanish `ea`).
+- All texts are in `l10n/` with the prefix `fh_`, in every language of the mod (13 files `l10n_<language>.xml`, e.g. `ea` is Latin American Spanish and `br` Brazilian Portuguese).
 - Test in single player and, if you can, in multiplayer; the `log.txt` must stay free of errors.
 
 Some files – `modDesc.xml`, the help images, the bottles and canisters – are made with tools that are not part of this repository. Edit them directly in a pull request; the author carries the change over into the tools.
@@ -805,7 +805,7 @@ They are off by default. The setting *Threats on meadows and fodder crops* turns
 <details>
 <summary><b>Which languages does the mod have?</b></summary>
 
-English, Polish, French, German and Spanish (Spain and Latin America). In other game languages you see the English texts. In French, German and Spanish the tables of the in-game help are still in English.
+English, Polish, French, German, Spanish (Spain and Latin America), Portuguese (Portugal and Brazil), Italian, Russian, Czech, Romanian and Hungarian. In other game languages you see the English texts. Apart from English and Polish, the tables of the in-game help are still in English.
 
 </details>
 
