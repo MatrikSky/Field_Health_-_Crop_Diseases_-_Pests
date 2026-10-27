@@ -12,5 +12,6 @@
   {"name": "threats", "color": "8e44ad", "description": "Diseases, pests, risk and weather"},
   {"name": "balance", "color": "f9d0c4", "description": "Chances, damage, prices and other numbers"},
   {"name": "products", "color": "7cb342", "description": "Bottles, canisters, labels and liquids"},
-  {"name": "texts", "color": "e4e669", "description": "English and Polish texts"}
+  {"name": "texts", "color": "e4e669", "description": "English and Polish texts"},
+  {"name": "translation", "color": "97be97", "description": "New translations, fixes"}
 ]
