@@ -1,0 +1,91 @@
+# Checks every pull request and every push: Lua syntax (Lua 5.1, as in the game), XML files,
+# files named in modDesc.xml, and the texts in English and Polish.
+name: Mod checks
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Lua syntax (Lua 5.1)
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq lua5.1 > /dev/null
+          find . -name '*.lua' -not -path './.git/*' -print0 | xargs -0 -n 1 luac5.1 -p
+          echo "Lua syntax ok: $(find . -name '*.lua' -not -path './.git/*' | wc -l) scripts"
+
+      - name: XML files, references and texts
+        run: |
+          python3 - <<'EOF'
+          import os, re, sys
+          import xml.etree.ElementTree as ET
+
+          problems = []
+
+          def parse(path):
+              try:
+                  return ET.parse(path).getroot()
+              except (OSError, ET.ParseError) as error:
+                  problems.append(f'{path}: {error}')
+                  return None
+
+          xml_files = []
+          for folder, dirs, names in os.walk('.'):
+              dirs[:] = [d for d in dirs if d != '.git']
+              xml_files += [os.path.join(folder, n)[2:].replace(os.sep, '/') for n in names if n.endswith(('.xml', '.i3d'))]
+          for path in xml_files:
+              parse(path)
+
+          def exists(path):
+              return bool(path) and (os.path.isfile(path) or (path.lower().endswith('.png') and os.path.isfile(path[:-4] + '.dds')))
+
+          desc = parse('modDesc.xml')
+          if desc is not None:
+              for element, attribute in (('extraSourceFiles/sourceFile', 'filename'), ('storeItems/storeItem', 'xmlFilename'),
+                                         ('fillTypes', 'filename'), ('brands/brand', 'image')):
+                  for item in desc.findall(element):
+                      if not exists(item.get(attribute)):
+                          problems.append(f'modDesc.xml: {element} "{item.get(attribute)}" does not exist')
+              for item in desc.iter('image'):
+                  if item.get('filename') and not exists(item.get('filename')):
+                      problems.append(f'modDesc.xml: help image "{item.get("filename")}" does not exist')
+              if not exists((desc.findtext('iconFilename') or '').strip()):
+                  problems.append('modDesc.xml: the mod icon does not exist')
+
+          texts = {}
+          for language in ('en', 'pl'):
+              root = parse(f'l10n/l10n_{language}.xml')
+              texts[language] = {e.get('name'): e.get('text', '') for e in root.iter('text')} if root is not None else {}
+          problems += [f'text "{k}" is missing in l10n_pl.xml' for k in sorted(set(texts['en']) - set(texts['pl']))]
+          problems += [f'text "{k}" is missing in l10n_en.xml' for k in sorted(set(texts['pl']) - set(texts['en']))]
+          placeholder = re.compile(r'%[-+#0]*\d*(?:\.\d+)?[cdiouxXeEfgGqs]')
+          for key in sorted(set(texts['en']) & set(texts['pl'])):
+              en, pl = (placeholder.findall(texts[l][key].replace('%%', '')) for l in ('en', 'pl'))
+              if en != pl:
+                  problems.append(f'text "{key}": placeholders differ (en {en}, pl {pl})')
+
+          used = set()
+          for path in xml_files:
+              if path.endswith('.xml'):
+                  used |= set(re.findall(r'\$l10n_(fh_[A-Za-z0-9_]+)', open(path, encoding='utf-8').read()))
+          for folder, dirs, names in os.walk('scripts'):
+              for name in names:
+                  if name.endswith('.lua'):
+                      source = open(os.path.join(folder, name), encoding='utf-8').read()
+                      used |= {m.group(1) for m in re.finditer(r'"(fh_[A-Za-z0-9_]+)"(\s*\.\.)?', source) if not m.group(2)}
+          problems += [f'text "{k}" is used but missing in l10n_{l}.xml' for k in sorted(used) for l in ('en', 'pl') if k not in texts[l]]
+
+          for problem in problems:
+              print(f'::error::{problem}')
+          print(f'{len(xml_files)} XML files, {len(texts["en"])} texts, {len(used)} text keys used: {len(problems)} problems')
+          sys.exit(1 if problems else 0)
+          EOF

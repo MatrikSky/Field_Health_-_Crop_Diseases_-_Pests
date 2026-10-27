@@ -1,0 +1,33 @@
+# Closes reports that wait for an answer of the reporter ("needs log" or "needs info")
+# for three weeks: after two weeks a reminder, after one more week the report is closed.
+name: Close inactive reports
+
+on:
+  schedule:
+    - cron: '30 3 * * *'
+  workflow_dispatch:
+
+permissions:
+  actions: write
+  issues: write
+  pull-requests: write
+
+jobs:
+  stale:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/stale@v11
+        with:
+          any-of-labels: 'needs log,needs info'
+          days-before-issue-stale: 14
+          days-before-issue-close: 7
+          days-before-pr-stale: -1
+          days-before-pr-close: -1
+          stale-issue-label: stale
+          stale-issue-message: >
+            This report has been waiting for an answer for two weeks. If there is no reply within 7 days,
+            it will be closed – you can always reopen it later or open a new one with the `log.txt`.
+          close-issue-message: >
+            Closed because there was no answer for three weeks. If the problem is still there,
+            please reopen this issue or open a new one with the `log.txt` attached. Thanks!
+          close-issue-reason: not_planned

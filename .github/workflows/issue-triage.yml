@@ -1,0 +1,161 @@
+# Reads new issues: labels from the answers of the issue forms, a request for the log.txt
+# when it is missing, a note when an old version is used, a welcome for the first report.
+# A log sent later in a comment removes the label "needs log".
+# The text of issues is only read by the script, never run.
+name: Issue triage
+
+on:
+  issues:
+    types: [opened, edited]
+  issue_comment:
+    types: [created]
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  triage:
+    if: github.event_name == 'issues' || !github.event.issue.pull_request
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/github-script@v9
+        with:
+          script: |
+            const MARK = 'field-health-bot';
+            const { owner, repo } = context.repo;
+            const issue = context.payload.issue;
+            const number = issue.number;
+            const labels = new Set((issue.labels || []).map(label => label.name));
+            const LOG_HELP = [
+              'Please drag and drop the **`log.txt`** into a comment here. You find it in:',
+              '`Documents/My Games/FarmingSimulator2025/log.txt`',
+              '⚠️ Copy it right after the problem, before you start the game again – the game overwrites it at every start.',
+            ].join('\n');
+            const AREAS = {
+              'Diseases and pests': 'threats',
+              'Risk, farming and weather': 'threats',
+              'Spraying and products': 'products',
+              'Map, minimap and field info': 'map & HUD',
+              'Settings': 'balance',
+              'Multiplayer': 'multiplayer',
+              'Compatibility with maps and other mods': 'compatibility',
+            };
+
+            // the answer of a field of an issue form ("### Label", then the answer)
+            function field(text, label) {
+              for (const part of (text || '').split(/^### /m)) {
+                const end = part.indexOf('\n');
+                if (end > 0 && part.slice(0, end).trim().toLowerCase() === label.toLowerCase()) {
+                  const value = part.slice(end + 1).trim();
+                  return value === '_No response_' ? '' : value;
+                }
+              }
+              return null;
+            }
+            // an attached file, a link or a pasted log
+            function hasLog(text) {
+              return /https?:\/\/\S+/i.test(text || '') || /GIANTS Engine|\[FieldHealth\]/i.test(text || '');
+            }
+            function version(text) {
+              const match = /(\d+(?:\.\d+)+)/.exec(text || '');
+              return match ? match[1].split('.').map(Number) : null;
+            }
+            function older(a, b) {
+              for (let i = 0; i < Math.max(a.length, b.length); i++) {
+                if ((a[i] || 0) !== (b[i] || 0)) {
+                  return (a[i] || 0) < (b[i] || 0);
+                }
+              }
+              return false;
+            }
+            async function addLabels(names) {
+              const missing = names.filter(name => !labels.has(name));
+              if (missing.length > 0) {
+                await github.rest.issues.addLabels({ owner, repo, issue_number: number, labels: missing });
+                missing.forEach(name => labels.add(name));
+                core.info(`labels added: ${missing.join(', ')}`);
+              }
+            }
+            async function removeLabel(name) {
+              if (!labels.has(name)) {
+                return;
+              }
+              try {
+                await github.rest.issues.removeLabel({ owner, repo, issue_number: number, name });
+              } catch (error) {
+                if (error.status !== 404) {
+                  throw error;
+                }
+              }
+              labels.delete(name);
+              core.info(`label removed: ${name}`);
+            }
+            async function commentOnce(key, text) {
+              const marker = `<!-- ${MARK}:${key} -->`;
+              const comments = await github.paginate(github.rest.issues.listComments, { owner, repo, issue_number: number, per_page: 100 });
+              if (comments.some(comment => (comment.body || '').includes(marker))) {
+                return;
+              }
+              await github.rest.issues.createComment({ owner, repo, issue_number: number, body: `${marker}\n${text}` });
+              core.info(`comment posted: ${key}`);
+            }
+
+            if (context.eventName === 'issue_comment') {
+              const comment = context.payload.comment;
+              if (labels.has('needs log') && hasLog(comment.body)) {
+                await removeLabel('needs log');
+                await github.rest.reactions.createForIssueComment({ owner, repo, comment_id: comment.id, content: '+1' });
+              }
+              return;
+            }
+
+            const body = issue.body || '';
+            const log = field(body, 'log.txt');
+            const area = field(body, 'Area');
+            if (log !== null) {
+              // bug report
+              const wanted = [];
+              if (/^multiplayer/i.test(field(body, 'Game mode') || '')) {
+                wanted.push('multiplayer');
+              }
+              if (/precision farming/i.test(body)) {
+                wanted.push('precision farming');
+              }
+              const logMissing = !hasLog(log);
+              if (logMissing) {
+                wanted.push('needs log');
+              } else {
+                await removeLabel('needs log');
+              }
+              await addLabels(wanted);
+
+              if (context.payload.action === 'opened') {
+                const parts = [];
+                const { data: own } = await github.rest.issues.listForRepo({ owner, repo, creator: issue.user.login, state: 'all', per_page: 2 });
+                if (own.length <= 1) {
+                  parts.push('Welcome, and thanks for your first report! 👋');
+                }
+                if (logMissing) {
+                  parts.push(`To find the problem, the \`log.txt\` of the game session is needed. ${LOG_HELP}`);
+                }
+                try {
+                  const { data: release } = await github.rest.repos.getLatestRelease({ owner, repo });
+                  const latest = version(release.tag_name);
+                  const reported = version(field(body, 'Mod version'));
+                  if (latest && reported && older(reported, latest)) {
+                    parts.push(`You use version ${reported.join('.')}, the latest one is ${latest.join('.')}. Please update first – the problem may be fixed already: ${release.html_url}`);
+                  }
+                } catch (error) {
+                  if (error.status !== 404) {
+                    throw error;
+                  }
+                }
+                if (parts.length > 0) {
+                  await commentOnce('triage', parts.join('\n\n'));
+                }
+              }
+            } else if (area !== null && AREAS[area]) {
+              // idea or suggestion
+              await addLabels([AREAS[area]]);
+            }

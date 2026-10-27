@@ -1,0 +1,16 @@
+[
+  {"name": "needs log", "color": "fbca04", "description": "Waiting for the log.txt of the reporter"},
+  {"name": "needs info", "color": "fef2c0", "description": "More details are needed to look into it"},
+  {"name": "confirmed", "color": "d93f0b", "description": "The bug was reproduced"},
+  {"name": "fixed in next version", "color": "0e8a16", "description": "Fixed – it comes with the next release"},
+  {"name": "stale", "color": "ededed", "description": "No answer for two weeks – closes soon"},
+  {"name": "multiplayer", "color": "5319e7", "description": "Multiplayer and dedicated servers"},
+  {"name": "savegame", "color": "b60205", "description": "Loading, saving and savegame compatibility"},
+  {"name": "compatibility", "color": "1d76db", "description": "Maps, DLCs and other mods"},
+  {"name": "precision farming", "color": "0052cc", "description": "Precision Farming integration"},
+  {"name": "map & HUD", "color": "c5def5", "description": "Map page, minimap, field info and notifications"},
+  {"name": "threats", "color": "8e44ad", "description": "Diseases, pests, risk and weather"},
+  {"name": "balance", "color": "f9d0c4", "description": "Chances, damage, prices and other numbers"},
+  {"name": "products", "color": "7cb342", "description": "Bottles, canisters, labels and liquids"},
+  {"name": "texts", "color": "e4e669", "description": "English and Polish texts"}
+]
