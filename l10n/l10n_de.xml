@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+    <texts>
+        <!-- Diseases (full and short name) -->
+        <text name="fh_disease_cereal_mildew" text="Echter Getreidemehltau" />
+        <text name="fh_disease_cereal_mildew_short" text="Echter Mehltau" />
+        <text name="fh_disease_septoria" text="Septoria-Blattdürre" />
+        <text name="fh_disease_septoria_short" text="Septoria" />
+        <text name="fh_disease_brown_rust" text="Braunrost" />
+        <text name="fh_disease_brown_rust_short" text="Braunrost" />
+        <text name="fh_disease_fusarium" text="Fusarium" />
+        <text name="fh_disease_fusarium_short" text="Fusarium" />
+        <text name="fh_disease_net_blotch" text="Netzfleckenkrankheit" />
+        <text name="fh_disease_net_blotch_short" text="Netzflecken" />
+        <text name="fh_disease_snow_mould" text="Schneeschimmel" />
+        <text name="fh_disease_snow_mould_short" text="Schneeschimmel" />
+        <text name="fh_disease_sclerotinia" text="Weißstängeligkeit" />
+        <text name="fh_disease_sclerotinia_short" text="Sclerotinia" />
+        <text name="fh_disease_alternaria" text="Alternaria-Blattflecken" />
+        <text name="fh_disease_alternaria_short" text="Alternaria" />
+        <text name="fh_disease_late_blight" text="Kraut- und Knollenfäule" />
+        <text name="fh_disease_late_blight_short" text="Krautfäule" />
+        <text name="fh_disease_cercospora" text="Cercospora-Blattflecken" />
+        <text name="fh_disease_cercospora_short" text="Cercospora" />
+        <text name="fh_disease_grey_mould" text="Grauschimmel" />
+        <text name="fh_disease_grey_mould_short" text="Grauschimmel" />
+        <text name="fh_disease_yellow_rust" text="Gelbrost" />
+        <text name="fh_disease_yellow_rust_short" text="Gelbrost" />
+        <text name="fh_disease_tan_spot" text="DTR-Blattdürre" />
+        <text name="fh_disease_tan_spot_short" text="DTR-Blattdürre" />
+        <text name="fh_disease_eyespot" text="Halmbruchkrankheit" />
+        <text name="fh_disease_eyespot_short" text="Halmbruch" />
+        <text name="fh_disease_rhynchosporium" text="Rhynchosporium-Blattflecken" />
+        <text name="fh_disease_rhynchosporium_short" text="Rhynchosporium" />
+        <text name="fh_disease_ramularia" text="Ramularia-Sprenkelkrankheit" />
+        <text name="fh_disease_ramularia_short" text="Ramularia" />
+        <text name="fh_disease_stem_rust" text="Schwarzrost" />
+        <text name="fh_disease_stem_rust_short" text="Schwarzrost" />
+        <text name="fh_disease_phoma" text="Wurzelhals- und Stängelfäule" />
+        <text name="fh_disease_phoma_short" text="Phoma" />
+        <text name="fh_disease_cylindrosporiosis" text="Cylindrosporiose" />
+        <text name="fh_disease_cylindrosporiosis_short" text="Cylindrosporiose" />
+        <text name="fh_disease_beet_mildew" text="Echter Rübenmehltau" />
+        <text name="fh_disease_beet_mildew_short" text="Rübenmehltau" />
+        <text name="fh_disease_ascochyta" text="Brennfleckenkrankheit" />
+        <text name="fh_disease_ascochyta_short" text="Brennflecken" />
+        <text name="fh_disease_downy_mildew" text="Falscher Mehltau" />
+        <text name="fh_disease_downy_mildew_short" text="Falscher Mehltau" />
+        <text name="fh_disease_corn_leaf_blight" text="Turcicum-Blattdürre" />
+        <text name="fh_disease_corn_leaf_blight_short" text="Turcicum-Blattdürre" />
+        <text name="fh_disease_crown_rust" text="Haferkronenrost" />
+        <text name="fh_disease_crown_rust_short" text="Kronenrost" />
+
+        <!-- Pests (full and short name) -->
+        <text name="fh_pest_aphids" text="Blattläuse" />
+        <text name="fh_pest_aphids_short" text="Blattläuse" />
+        <text name="fh_pest_leaf_beetle" text="Getreidehähnchen" />
+        <text name="fh_pest_leaf_beetle_short" text="Getreidehähnchen" />
+        <text name="fh_pest_pollen_beetle" text="Rapsglanzkäfer" />
+        <text name="fh_pest_pollen_beetle_short" text="Rapsglanzkäfer" />
+        <text name="fh_pest_potato_beetle" text="Kartoffelkäfer" />
+        <text name="fh_pest_potato_beetle_short" text="Kartoffelkäfer" />
+        <text name="fh_pest_corn_borer" text="Maiszünsler" />
+        <text name="fh_pest_corn_borer_short" text="Maiszünsler" />
+        <text name="fh_pest_wireworm" text="Drahtwürmer" />
+        <text name="fh_pest_wireworm_short" text="Drahtwürmer" />
+        <text name="fh_pest_stem_weevil" text="Großer Rapsstängelrüssler" />
+        <text name="fh_pest_stem_weevil_short" text="Stängelrüssler" />
+        <text name="fh_pest_seed_weevil" text="Kohlschotenrüssler" />
+        <text name="fh_pest_seed_weevil_short" text="Schotenrüssler" />
+        <text name="fh_pest_flea_beetle" text="Erdflöhe" />
+        <text name="fh_pest_flea_beetle_short" text="Erdflöhe" />
+        <text name="fh_pest_turnip_sawfly" text="Rübsenblattwespe" />
+        <text name="fh_pest_turnip_sawfly_short" text="Rübsenblattwespe" />
+        <text name="fh_pest_frit_fly" text="Fritfliege" />
+        <text name="fh_pest_frit_fly_short" text="Fritfliege" />
+        <text name="fh_pest_wheat_midge" text="Weizengallmücken" />
+        <text name="fh_pest_wheat_midge_short" text="Gallmücken" />
+        <text name="fh_pest_cutworm" text="Erdraupen" />
+        <text name="fh_pest_cutworm_short" text="Erdraupen" />
+        <text name="fh_pest_beet_fly" text="Rübenfliege" />
+        <text name="fh_pest_beet_fly_short" text="Rübenfliege" />
+        <text name="fh_pest_onion_fly" text="Zwiebelfliege" />
+        <text name="fh_pest_onion_fly_short" text="Zwiebelfliege" />
+        <text name="fh_pest_thrips" text="Thripse" />
+        <text name="fh_pest_thrips_short" text="Thripse" />
+        <text name="fh_pest_carrot_fly" text="Möhrenfliege" />
+        <text name="fh_pest_carrot_fly_short" text="Möhrenfliege" />
+        <text name="fh_pest_pea_leaf_weevil" text="Blattrandkäfer" />
+        <text name="fh_pest_pea_leaf_weevil_short" text="Blattrandkäfer" />
+        <text name="fh_pest_rootworm" text="Westlicher Maiswurzelbohrer" />
+        <text name="fh_pest_rootworm_short" text="Maiswurzelbohrer" />
+        <text name="fh_pest_ground_beetle" text="Getreidelaufkäfer" />
+        <text name="fh_pest_ground_beetle_short" text="Laufkäfer" />
+
+        <text name="fh_severity_low" text="gering" />
+        <text name="fh_severity_medium" text="mittel" />
+        <text name="fh_severity_high" text="stark" />
+
+        <!-- Field info (short, so nothing gets cut off) -->
+        <text name="fh_hud_threats" text="Befall" />
+        <text name="fh_hud_disease" text="Krankheit" />
+        <text name="fh_hud_pest" text="Schädlinge" />
+        <text name="fh_hud_none" text="keiner" />
+        <text name="fh_hud_diseaseRisk" text="Krankheitsrisiko" />
+        <text name="fh_hud_pestRisk" text="Schädlingsrisiko" />
+        <text name="fh_hud_cause" text="Ursache" />
+        <text name="fh_hud_protection" text="Pflanzenschutz" />
+        <text name="fh_hud_diseaseProtection" text="Krankheitsschutz" />
+        <text name="fh_hud_pestProtection" text="Schädlingsschutz" />
+        <text name="fh_hud_protected" text="aktiv" />
+        <text name="fh_risk_low" text="gering" />
+        <text name="fh_risk_normal" text="normal" />
+        <text name="fh_risk_elevated" text="erhöht" />
+        <text name="fh_risk_high" text="hoch" />
+        <text name="fh_cause_fertilizer" text="keine Düngung" />
+        <text name="fh_cause_manure" text="frischer Mist" />
+        <text name="fh_cause_fastNitrogen" text="schneller Stickstoff" />
+        <text name="fh_cause_nitrogenDeficit" text="Stickstoffmangel" />
+        <text name="fh_cause_nitrogenExcess" text="zu viel Stickstoff" />
+        <text name="fh_cause_lime" text="saurer Boden" />
+        <text name="fh_cause_lightSoil" text="leichter Boden" />
+        <text name="fh_cause_heavySoil" text="schwerer Boden" />
+        <text name="fh_cause_plowing" text="nicht gepflügt" />
+        <text name="fh_cause_stubble" text="Stoppeln" />
+        <text name="fh_cause_rolling" text="nicht gewalzt" />
+        <text name="fh_cause_weeds" text="Unkraut" />
+        <text name="fh_cause_sameCrop" text="Monokultur" />
+        <text name="fh_cause_cropFamily" text="verwandte Kultur" />
+        <text name="fh_cause_previousCrop" text="ungünstige Vorfrucht" />
+        <text name="fh_hint_fungicide" text="Behandlung: Fungizid spritzen" />
+        <text name="fh_hint_insecticide" text="Behandlung: Insektizid spritzen" />
+        <text name="fh_field_area" text="Feldgröße" />
+        <text name="fh_potential_harvest" text="Mögliche Erntemenge" />
+        <text name="fh_potential_yield" text="Möglicher Ertrag" />
+
+        <!-- Notifications: field number, crop, threat, spray -->
+        <text name="fh_alert_new" text="Feld %s (%s): neuer Befall – %s. Spritzen: %s." />
+        <text name="fh_alert_severe" text="Feld %s (%s): starker Befall – %s, der Bestand stirbt ab. Spritzen: %s." />
+        <text name="fh_alert_neighbour" text="Feld %s (%s): %s – vom Nachbarfeld übergegriffen. Spritzen: %s." />
+
+        <!-- Map -->
+        <text name="fh_map_page" text="Pflanzenschutz" />
+        <text name="fh_map_layerProtection" text="Schutz" />
+        <text name="fh_map_layerDiseases" text="Krankheiten" />
+        <text name="fh_map_layerPests" text="Schädlinge" />
+        <text name="fh_map_layerDiseaseTypes" text="Krankheitsarten" />
+        <text name="fh_map_layerPestTypes" text="Schädlingsarten" />
+        <text name="fh_map_notSprayed" text="Ungeschützt" />
+        <text name="fh_map_oneProduct" text="Ein Mittel" />
+        <text name="fh_map_bothProducts" text="Fungizid und Insektizid" />
+        <text name="fh_map_healthy" text="Gesunder Bestand" />
+        <text name="fh_map_low" text="Gering" />
+        <text name="fh_map_medium" text="Mittel" />
+        <text name="fh_map_high" text="Stark" />
+        <text name="fh_map_diseaseLabel" text="Krankheit:" />
+        <text name="fh_map_pestLabel" text="Schädlinge:" />
+        <text name="fh_map_diseaseProtectionLabel" text="Krankheitsschutz:" />
+        <text name="fh_map_pestProtectionLabel" text="Schädlingsschutz:" />
+        <text name="fh_map_protectedUntilHarvest" text="aktiv" />
+        <text name="input_FH_MINIMAP_LAYER" text="Field Health – Pflanzenschutz-Ebene auf der Minikarte" />
+
+        <!-- Settings -->
+        <text name="fh_config_brand" text="Marke" />
+        <text name="fh_settings_header" text="Field Health – Krankheiten und Schädlinge" />
+        <text name="fh_setting_enabled" text="Krankheiten und Schädlinge" />
+        <text name="fh_setting_enabled_desc" text="Hauptschalter des Mods. Ist er aus, treten keine neuen Krankheiten und Schädlinge mehr auf, und vorhandener Befall entwickelt sich nicht weiter und zerstört keine Bestände mehr. Spritzen funktioniert weiterhin, sodass du Reste auf deinen Feldern beseitigen kannst." />
+        <text name="fh_setting_diseaseChance" text="Krankheitschance pro Saison" />
+        <text name="fh_setting_diseaseChance_desc" text="Grundwahrscheinlichkeit, dass ein normal bewirtschaftetes Feld in einer Saison (von der Aussaat bis zur Ernte) erkrankt. Sie ist nur ein Ausgangswert: Gute Bewirtschaftung (Mist, Zwischenfrüchte, Fruchtfolge, passender pH-Wert und Stickstoff) senkt sie, Vernachlässigung (keine Düngung, Monokultur, kein Pflügen, saurer Boden) vervielfacht sie. Wer Fungizid spritzt, bevor eine Krankheit auftritt, senkt sie bis zur Ernte auf null. 0 % schaltet Krankheiten ab." />
+        <text name="fh_setting_pestChance" text="Schädlingschance pro Saison" />
+        <text name="fh_setting_pestChance_desc" text="Grundwahrscheinlichkeit, dass auf einem normal bewirtschafteten Feld in einer Saison Schädlinge auftreten. Die Bewirtschaftung verändert sie: Unkraut, Monokultur und fehlendes Pflügen erhöhen sie, Zwischenfrüchte und Fruchtfolge senken sie. Wer Insektizid spritzt, bevor Schädlinge auftreten, senkt sie bis zur Ernte auf null. 0 % schaltet Schädlinge ab." />
+        <text name="fh_setting_careInfluence" text="Einfluss der Bewirtschaftung" />
+        <text name="fh_setting_careInfluence_desc" text="Wie stark deine Bewirtschaftung (Düngung, Bodenbearbeitung, Fruchtfolge, Zwischenfrüchte, Unkraut, Daten von Precision Farming) die Grundwahrscheinlichkeiten verändert. Keiner – nur die Grundwahrscheinlichkeit zählt, alle Felder sind gleich. Gering – leichte Unterschiede. Normal (empfohlen) – gute Bewirtschaftung zahlt sich deutlich aus. Hoch – vernachlässigte Felder erkranken sehr oft, gepflegte fast nie." />
+        <text name="fh_setting_weatherInfluence" text="Einfluss des Wetters" />
+        <text name="fh_setting_weatherInfluence_desc" text="Wie stark das Wetter der letzten Tage (Temperatur und Regen) die Befallswahrscheinlichkeit verändert. Pilzkrankheiten mögen Regen und Feuchtigkeit, die meisten Schädlinge warmes, trockenes Wetter, und jeder Schaderreger hat seinen eigenen Temperaturbereich. Keiner – das Wetter zählt nicht. Gering – kleine Unterschiede. Normal (empfohlen) – deutliche Unterschiede. Hoch – bei günstigem Wetter tritt Befall viel häufiger auf, bei ungünstigem kaum." />
+        <text name="fh_setting_stubbleRisk" text="Risiko durch Stoppeln" />
+        <text name="fh_setting_stubbleRisk_desc" text="Ob nicht gemulchte Stoppeln nach der Ernte das Risiko erhöhen (vor allem für Maiszünsler und Krankheiten, die auf Ernteresten überdauern). Das zählt nur nach einer Ernte auf dem Feld und wenn das Feld nicht gepflügt wurde. Fahrgassen und Wege über das Feld zählen nie als Stoppeln. Aus – Stoppeln verändern das Risiko gar nicht." />
+        <text name="fh_setting_fodderCrops" text="Befall auf Wiesen und Futterpflanzen" />
+        <text name="fh_setting_fodderCrops_desc" text="Ob Wiesen, Gras, Klee und Luzerne von Krankheiten und Schädlingen befallen werden können. Aus (empfohlen) – diese Kulturen bekommen nie Befall, und vorhandener Befall verschwindet am nächsten Tag. An – Klee und Luzerne können Blattläuse bekommen, Wiesen und Gras weiterhin nie." />
+        <text name="fh_setting_fieldInfo" text="Zeilen in der Feldinfo" />
+        <text name="fh_setting_fieldInfo_desc" text="Ob die Feldinfo Befall, Risiko und Schutz des Feldes anzeigt. Aus – die Feldinfo sieht aus wie ohne Mod; Karte und Minikarte zeigen die Felder weiterhin." />
+        <text name="fh_setting_progression" text="Befallsentwicklung" />
+        <text name="fh_setting_progression_desc" text="Wie schnell unbehandelter Befall das nächste Stadium erreicht: gering, dann mittel, dann stark. Langsam – jeden Spielmonat, Normal – jeden halben Monat, Schnell – jeden Viertelmonat (mindestens ein Tag). Nur das starke Stadium zerstört Bestände, ein langsameres Tempo lässt dir also mehr Zeit zum Spritzen." />
+        <text name="fh_setting_spread" text="Befallsausdehnung" />
+        <text name="fh_setting_spread_desc" text="Wie groß der Teil des Feldes ist, den unbehandelter Befall erfassen kann. Klein – bis 2,5 %, Mittel – bis 5 %, Groß – bis 10 % der Feldfläche. Ein Befallsherd wächst an seinem Rand ungleichmäßig, und ab und zu entsteht daneben ein neuer, kleinerer Herd – meist auf der Seite, zu der der Wind an diesem Tag weht. Spritzen beseitigt den Befall vollständig." />
+        <text name="fh_setting_patchSize" text="Größe der Befallsherde" />
+        <text name="fh_setting_patchSize_desc" text="Wie groß die Herde sind, in denen neuer Befall entsteht und wächst. Jeder Herd hat eine unregelmäßige Form und eine zufällige Größe – kleine sind häufiger als große. Klein – Herde meist 5–12 m breit, Normal – 8–20 m, Groß – 12–30 m. Auf kleinen Feldern sind die Herde immer kleiner." />
+        <text name="fh_setting_neighbourSpread" text="Übergreifen auf Nachbarfelder" />
+        <text name="fh_setting_neighbourSpread_desc" text="Ob Befall vom Feldrand auf ein benachbartes Spielerfeld übergreifen kann. Das passiert nur, wenn sich die Felder berühren oder nur ein sehr schmaler Streifen dazwischen liegt, wenn auf dem anderen Feld eine Kultur im passenden Wachstumsstadium steht, die der Schaderreger befällt, und wenn das andere Feld nicht gespritzt ist. Schädlinge wandern öfter als Krankheiten, und erst ab dem mittleren Stadium. NPC-Felder sind nie betroffen. Aus, Selten, Manchmal, Oft – keine, halbe, normale und doppelte Wahrscheinlichkeit." />
+        <text name="fh_setting_damage" text="Schäden am Bestand" />
+        <text name="fh_setting_damage_desc" text="Wie viel Bestand ein starker Befall jeden Tag zerstört. Zerstörte Stellen bringen bei der Ernte nichts. Aus – Befall ist nur sichtbar, der Ertrag bleibt gleich. Gering, Normal, Hoch – 1, 3 oder 6 Stellen von wenigen Metern pro Tag, immer nur innerhalb der befallenen Fläche." />
+        <text name="fh_setting_protectionThreshold" text="Abdeckung für vollen Schutz" />
+        <text name="fh_setting_protectionThreshold_desc" text="Wie viel eines Feldes gespritzt sein muss, damit das ganze Feld gegen diese Art von Befall (Krankheiten oder Schädlinge) geschützt ist. Bei geringerer Abdeckung kann noch Befall auftreten, aber nur auf den nicht gespritzten Teilen – gespritzte Flächen sind immer geschützt. Standard 90 %. Ein niedrigerer Wert verzeiht ausgelassene Ecken und Keile, ein höherer verlangt genaues Spritzen." />
+        <text name="fh_setting_protectionDuration" text="Schutzdauer der Spritzung" />
+        <text name="fh_setting_protectionDuration_desc" text="Wie lange Fungizid und Insektizid ein Feld schützen. Bis zur Ernte – eine Spritzung mit jedem Mittel schützt das Feld die ganze Saison (am einfachsten). 2 Monate, 1 Monat, Halber Monat – der Schutz endet so lange nach der letzten Spritzung des Feldes, danach musst du erneut spritzen, wie auf einem echten Betrieb." />
+        <text name="fh_setting_fungicideUsage" text="Aufwandmenge Fungizid" />
+        <text name="fh_setting_fungicideUsage_desc" text="Wie viel Fungizid eine Feldspritze pro Hektar verbraucht. 100 % sind etwa 290 Liter Spritzbrühe pro Hektar (wie bei Herbizid), also eine 1-l-Flasche pro Hektar. Eine geringere Menge macht das Spritzen billiger und du musst seltener nachfüllen, eine höhere macht es teurer. Die Wirkung der Spritzung bleibt immer gleich. Die Änderung gilt sofort, auch während der Arbeit." />
+        <text name="fh_setting_insecticideUsage" text="Aufwandmenge Insektizid" />
+        <text name="fh_setting_insecticideUsage_desc" text="Wie viel Insektizid eine Feldspritze pro Hektar verbraucht. 100 % sind etwa 290 Liter Spritzbrühe pro Hektar (wie bei Herbizid), also eine 1-l-Flasche für 5 Hektar. Eine geringere Menge macht das Spritzen billiger und du musst seltener nachfüllen, eine höhere macht es teurer. Die Wirkung der Spritzung bleibt immer gleich. Die Änderung gilt sofort, auch während der Arbeit." />
+        <text name="fh_setting_fungicidePrice" text="Preis Fungizid-Flasche" />
+        <text name="fh_setting_fungicidePrice_desc" text="Shoppreis einer 1-l-Flasche Fungizid. Eine Flasche reicht für 1 Hektar (290 l Spritzbrühe). Standard 50. Das Spiel rechnet Währungen 1:1 um. Der Preis pro Liter Spritzbrühe richtet sich nach diesem Preis, z. B. beim Kauf der Flüssigkeit an einer Station. Die Änderung gilt sofort im Shop." />
+        <text name="fh_setting_insecticidePrice" text="Preis Insektizid-Flasche" />
+        <text name="fh_setting_insecticidePrice_desc" text="Shoppreis einer 1-l-Flasche Insektizid. Eine Flasche reicht für 5 Hektar (1.450 l Spritzbrühe). Standard 80. Das Spiel rechnet Währungen 1:1 um. Der Preis pro Liter Spritzbrühe richtet sich nach diesem Preis, z. B. beim Kauf der Flüssigkeit an einer Station. Die Änderung gilt sofort im Shop." />
+        <text name="fh_setting_fungicideCanisterPrice" text="Preis Fungizid-Kanister 5 l" />
+        <text name="fh_setting_fungicideCanisterPrice_desc" text="Shoppreis eines 5-l-Kanisters Fungizid. Ein Kanister reicht für 5 Hektar (1.450 l Spritzbrühe). Standard 220, pro Liter günstiger als fünf 1-l-Flaschen, wie beim echten Händler. Das Spiel rechnet Währungen 1:1 um. Die Änderung gilt sofort im Shop." />
+        <text name="fh_setting_insecticideCanisterPrice" text="Preis Insektizid-Kanister 5 l" />
+        <text name="fh_setting_insecticideCanisterPrice_desc" text="Shoppreis eines 5-l-Kanisters Insektizid. Ein Kanister reicht für 25 Hektar (7.250 l Spritzbrühe). Standard 350, pro Liter günstiger als fünf 1-l-Flaschen, wie beim echten Händler. Das Spiel rechnet Währungen 1:1 um. Die Änderung gilt sofort im Shop." />
+        <text name="fh_setting_fungicideCanister20Price" text="Preis Fungizid-Kanister 20 l" />
+        <text name="fh_setting_fungicideCanister20Price_desc" text="Shoppreis eines 20-l-Kanisters Fungizid. Ein Kanister reicht für 20 Hektar (5.800 l Spritzbrühe). Standard 800, pro Liter am günstigsten von allen Gebinden. Das Spiel rechnet Währungen 1:1 um. Die Änderung gilt sofort im Shop." />
+        <text name="fh_setting_insecticideCanister20Price" text="Preis Insektizid-Kanister 20 l" />
+        <text name="fh_setting_insecticideCanister20Price_desc" text="Shoppreis eines 20-l-Kanisters Insektizid. Ein Kanister reicht für 100 Hektar (29.000 l Spritzbrühe). Standard 1.200, pro Liter am günstigsten von allen Gebinden. Das Spiel rechnet Währungen 1:1 um. Die Änderung gilt sofort im Shop." />
+        <text name="fh_setting_farmLimit" text="Befallslimit pro Betrieb" />
+        <text name="fh_setting_farmLimit_desc" text="Wie oft pro Spieljahr höchstens neuer Befall auf allen Feldern deines Betriebs auftreten kann. Unbegrenzt – jedes Feld hat seine eigene Wahrscheinlichkeit. Stell zum Beispiel 1 oder 2 ein, wenn du viele Felder hast und Krankheiten und Schädlinge selten sein sollen." />
+        <text name="fh_setting_notifications" text="Befallsmeldungen" />
+        <text name="fh_setting_notifications_desc" text="Zeigt eine Meldung, wenn auf deinem Feld eine Krankheit oder Schädlinge auftreten und wenn ein Befall stark wird und den Bestand zu zerstören beginnt. Die Meldung nennt das Feld, die Kultur, den Schaderreger und das Mittel, das gespritzt werden muss." />
+        <text name="fh_set_on" text="An" />
+        <text name="fh_set_off" text="Aus" />
+        <text name="fh_set_none" text="Keiner" />
+        <text name="fh_set_low" text="Gering" />
+        <text name="fh_set_normal" text="Normal" />
+        <text name="fh_set_high" text="Hoch" />
+        <text name="fh_set_slow" text="Langsam" />
+        <text name="fh_set_normalPace" text="Normal" />
+        <text name="fh_set_fast" text="Schnell" />
+        <text name="fh_set_small" text="Klein" />
+        <text name="fh_set_medium" text="Mittel" />
+        <text name="fh_set_large" text="Groß" />
+        <text name="fh_set_damageLow" text="Gering" />
+        <text name="fh_set_damageNormal" text="Normal" />
+        <text name="fh_set_damageHigh" text="Hoch" />
+        <text name="fh_set_untilHarvest" text="Bis zur Ernte" />
+        <text name="fh_set_twoMonths" text="2 Monate" />
+        <text name="fh_set_oneMonth" text="1 Monat" />
+        <text name="fh_set_halfMonth" text="Halber Monat" />
+        <text name="fh_set_unlimited" text="Unbegrenzt" />
+        <text name="fh_set_patchSmall" text="Klein" />
+        <text name="fh_set_patchNormal" text="Normal" />
+        <text name="fh_set_patchLarge" text="Groß" />
+        <text name="fh_set_rarely" text="Selten" />
+        <text name="fh_set_sometimes" text="Manchmal" />
+        <text name="fh_set_often" text="Oft" />
+
+        <!-- Shop -->
+        <text name="fh_fillType_insecticide" text="Insektizid" />
+        <text name="fh_fillType_fungicide" text="Fungizid" />
+        <text name="fh_store_fungicideBottle" text="Fungizid 1 l" />
+        <text name="fh_store_insecticideBottle" text="Insektizid 1 l" />
+        <text name="fh_store_fungicideCanister" text="Fungizid 5 l" />
+        <text name="fh_store_insecticideCanister" text="Insektizid 5 l" />
+        <text name="fh_store_fungicideCanister20" text="Fungizid 20 l" />
+        <text name="fh_store_insecticideCanister20" text="Insektizid 20 l" />
+        <text name="fh_function_fungicideBottle" text="1-l-Flasche Konzentrat, Aufwandmenge 1 l/ha. Reicht für 1 ha, also 290 l Spritzbrühe. Schützt Kulturen vor allen Krankheiten. Neben eine Feldspritze stellen und die Spritze daraus befüllen." />
+        <text name="fh_function_insecticideBottle" text="1-l-Flasche Konzentrat, Aufwandmenge 0,2 l/ha. Reicht für 5 ha, also 1.450 l Spritzbrühe. Schützt Kulturen vor Schädlingen: Blattläuse, Getreidehähnchen, Rapsglanzkäfer, Kartoffelkäfer, Maiszünsler und Drahtwürmer. Neben eine Feldspritze stellen und die Spritze daraus befüllen." />
+        <text name="fh_function_fungicideCanister" text="5-l-Kanister Konzentrat, Aufwandmenge 1 l/ha. Reicht für 5 ha, also 1.450 l Spritzbrühe. Schützt Kulturen vor allen Krankheiten. Pro Liter günstiger als die 1-l-Flaschen. Neben eine Feldspritze stellen und die Spritze daraus befüllen." />
+        <text name="fh_function_insecticideCanister" text="5-l-Kanister Konzentrat, Aufwandmenge 0,2 l/ha. Reicht für 25 ha, also 7.250 l Spritzbrühe. Schützt Kulturen vor Schädlingen. Pro Liter günstiger als die 1-l-Flaschen. Neben eine Feldspritze stellen und die Spritze daraus befüllen." />
+        <text name="fh_function_fungicideCanister20" text="20-l-Kanister Konzentrat, Aufwandmenge 1 l/ha. Reicht für 20 ha, also 5.800 l Spritzbrühe. Schützt Kulturen vor allen Krankheiten. Pro Liter am günstigsten, für große Betriebe. Neben eine Feldspritze stellen und die Spritze daraus befüllen." />
+        <text name="fh_function_insecticideCanister20" text="20-l-Kanister Konzentrat, Aufwandmenge 0,2 l/ha. Reicht für 100 ha, also 29.000 l Spritzbrühe. Schützt Kulturen vor Schädlingen. Pro Liter am günstigsten, für große Betriebe. Neben eine Feldspritze stellen und die Spritze daraus befüllen." />
+
+        <!-- Help (ESC → Help) -->
+        <text name="fh_help_header" text="Field Health – Krankheiten und Schädlinge" />
+
+        <text name="fh_help_intro" text="Einführung" />
+        <text name="fh_help_intro_01" text="Über den Mod" />
+        <text name="fh_help_intro_02" text="Field Health bringt die Pflanzenkrankheiten und Schädlinge ins Spiel, mit denen Landwirte in Polen jeden Tag zu tun haben. Sie treten im Laufe der Saison auf den Feldern deines Betriebs auf, entwickeln sich und zerstören – wenn du nichts dagegen tust – einen Teil des Bestands. Zwei Mittel aus dem Shop helfen dagegen: Fungizid gegen Krankheiten und Insektizid gegen Schädlinge.
+Der Mod ist realistisch, aber nachsichtig für entspanntes Spielen: Befall erfasst nie das ganze Feld, der Bestand wird erst im stärksten Stadium zerstört, und eine gut gemachte Spritzung mit jedem Mittel schützt das Feld bis zum Ende der Saison." />
+        <text name="fh_help_intro_03" text="Die Saison Schritt für Schritt" />
+        <text name="fh_help_intro_04" text="1. Mit der Aussaat beginnt die Saison der Kultur. Ab diesem Tag steigt der Infektionsdruck auf dem Feld – am schnellsten zu der Jahreszeit und in dem Wachstumsstadium, in dem ein Schaderreger angreift, bei Wetter, das ihm passt, und auf einem vernachlässigten Feld.
+2. Überschreitet der Druck die für das Feld ausgewürfelte Schwelle, entsteht ein Krankheits- oder Schädlingsherd. Du bekommst eine Meldung mit der Feldnummer und dem Mittel, das du spritzen musst.
+3. Unbehandelter Befall wird jeden halben Monat um ein Stadium schlimmer und breitet sich langsam aus. Im starken Stadium zerstört er jeden Tag den Bestand an kleinen Stellen.
+4. Spritzen beseitigt den Befall und schützt die gespritzten Stellen. Ein fast vollständig gespritztes Feld ist bis zur Ernte immun gegen diese Art von Befall.
+5. Die Ernte beendet die Saison: Befall und Schutz verschwinden, und die geerntete Kultur wird zur Vorfrucht der nächsten." />
+        <text name="fh_help_intro_05" text="Die wichtigsten Zahlen" />
+        <text name="fh_help_intro_06" text="Standardwerte. Der Admin kann jeden davon in den Einstellungen ändern (letzte Spalte)." />
+        <text name="fh_help_intro_08" text="Wo du deine Felder prüfst" />
+        <text name="fh_help_intro_09" text="– Feldinfo (wenn du auf einem Feld bist): Befall mit seiner Stärke, das Risiko und seine Hauptursache, der Schutz des Feldes.
+– Karte (ESC &gt; Karte &gt; Pflanzenschutz): fünf Ebenen – Schutz, Krankheiten, Schädlinge, Krankheitsarten und Schädlingsarten.
+– Minikarte: Ebene mit Alt links + \ umschalten.
+– Meldungen: über neuen Befall, über das starke Stadium und über Befall, der von einem Nachbarfeld übergegriffen hat." />
+        <text name="fh_help_origin" text="Wie Befall entsteht" />
+        <text name="fh_help_origin_01" text="Jedes Spielerfeld mit wachsender Kultur kann pro Saison höchstens eine Krankheit und eine Schädlingsart bekommen. NPC-Felder, Pappeln und Zwischenfrüchte bekommen nie Befall; Wiesen, Gras, Klee und Luzerne nur, wenn das in den Einstellungen aktiviert ist.
+Befall tritt nicht an einem zufälligen Tag auf. Jeden Tag berechnet der Mod den Infektionsdruck auf dem Feld und addiert ihn zur Summe der Vortage. Zu Beginn der Saison bekommt das Feld eine zufällige Widerstandsschwelle – überschreitet die Summe des Drucks sie, wird das Feld infiziert. Deshalb tritt Befall in einer Saison früh auf, in einer anderen spät und in einer dritten gar nicht." />
+        <text name="fh_help_origin_02" text="Was den Druck bestimmt" />
+        <text name="fh_help_origin_03" text="1. Die Grundwahrscheinlichkeit aus den Einstellungen – standardmäßig 15 % für eine Krankheit und 10 % für Schädlinge pro Saison.
+2. Das Risiko des Feldes, also wie du es bewirtschaftest: Düngung, Bodenbearbeitung, Fruchtfolge und Unkraut (Seite „Deine Bewirtschaftung“).
+3. Wie häufig der Schaderreger in Polen ist – häufige Krankheiten und Schädlinge treten viel öfter auf als seltene (Seiten „Krankheiten“ und „Schädlinge“).
+4. Jahreszeit und Wachstumsstadium – außerhalb seiner Zeit greift ein Schaderreger gar nicht an (Seite „Jahreszeiten und Wachstumsstadien“).
+5. Das Wetter der letzten Tage – Regen fördert Pilzkrankheiten, Wärme und Trockenheit die meisten Schädlinge (Seite „Wetter“)." />
+        <text name="fh_help_origin_04" text="Wahrscheinlichkeit pro Saison" />
+        <text name="fh_help_origin_05" text="So verändert das Risiko des Feldes die Befallswahrscheinlichkeit über die ganze Saison bei den Standardeinstellungen:" />
+        <text name="fh_help_origin_07" text="Die Tabelle gilt für eine Kultur mit einer durchschnittlichen Zahl an Schaderregern, die über deren gesamte Zeit wächst. Kulturen, die von vielen häufigen Krankheiten oder Schädlingen befallen werden, trifft es öfter (bis zum 1,4-Fachen), Kulturen mit wenigen Schaderregern seltener (bis zum 0,5-Fachen):" />
+        <text name="fh_help_origin_09" text="Welcher Schaderreger auftritt" />
+        <text name="fh_help_origin_10" text="Kommt es zu einer Infektion, wählt der Mod einen der Schaderreger, die die Kultur an diesem Tag befallen können. Die Wahrscheinlichkeit jedes einzelnen richtet sich nach seinem Tagesdruck: Häufigkeit mal Risiko des Feldes, Jahreszeit und Wetter. Beispiel: Auf Weizen treten im Mai bei Regenwetter am häufigsten Septoria oder Mehltau auf, während der seltene, wärmeliebende Schwarzrost fast nie vorkommt." />
+        <text name="fh_help_origin_11" text="Spritzen vor der Infektion" />
+        <text name="fh_help_origin_12" text="Ist das Feld zum Zeitpunkt der Infektion auf mindestens 90 % seiner Fläche mit dem richtigen Mittel gespritzt, schlägt die Infektion fehl, und das Feld bekommt in dieser Saison keinen Befall dieser Art. Bei geringerer Abdeckung kann Befall auftreten, aber nur auf den nicht gespritzten Teilen." />
+        <text name="fh_help_timing" text="Jahreszeiten und Wachstumsstadien" />
+        <text name="fh_help_timing_01" text="Jede Krankheit und jeder Schädling hat seine Zeit: Er greift nur in bestimmten Monaten und nur in bestimmten Wachstumsstadien der Kultur an. Innerhalb dieser Zeit gibt es einen Höhepunkt, an dem er am gefährlichsten ist. Außerhalb seiner Zeit tritt ein Schaderreger gar nicht auf – auch nicht von einem Nachbarfeld aus." />
+        <text name="fh_help_timing_02" text="Wachstumsstadien" />
+        <text name="fh_help_timing_04" text="Der Mod liest das Stadium aus dem Wachstumszustand der Kultur im Spiel ab: Die ersten 20 % der Wachstumszeit sind der Auflauf, bis 45 % Blattentwicklung und Bestockung, bis 70 % Schossen bzw. Knospenbildung, danach folgen Ährenschieben und Blüte, und eine erntereife Kultur ist reif. Die Monate folgen dem Spielkalender (die erste Periode des Jahres ist der März), die Tage pro Periode ändern also nichts daran, wann Schaderreger angreifen." />
+        <text name="fh_help_timing_05" text="Kalender – wann Vorsicht geboten ist" />
+        <text name="fh_help_timing_06" text="Die Hauptmonate sind die, in denen der Druck der jeweiligen Gruppe von Schaderregern auf die Kultur am höchsten ist. Eine Spritzung kurz davor verhindert die meisten Infektionen." />
+        <text name="fh_help_farming" text="Deine Bewirtschaftung" />
+        <text name="fh_help_farming_01" text="Das Risiko des Feldes ist ein Multiplikator des Infektionsdrucks, der sich aus deiner Bewirtschaftung des Feldes ergibt. Der Mod berechnet es für jeden Schaderreger einzeln; die Feldinfo zeigt das höchste Krankheits- und Schädlingsrisiko sowie die Hauptursache. Die Multiplikatoren in den Tabellen werden miteinander multipliziert, und das Ergebnis bleibt immer zwischen 0,3 und 5." />
+        <text name="fh_help_farming_03" text="Düngung" />
+        <text name="fh_help_farming_05" text="Bodenbearbeitung und Unkraut" />
+        <text name="fh_help_farming_07" text="Die Werte gelten für ein völlig vernachlässigtes Feld – teilweise Vernachlässigung erhöht das Risiko anteilig. Es zählen nur Arbeiten, die in den Spieleinstellungen aktiviert sind: Ist Pflügen nicht vorgeschrieben, ändert fehlendes Pflügen nichts. Der Mod prüft das Feld an 36 Punkten und nur dort, wo die Kultur wächst, daher zählen Fahrgassen und Wege über das Feld nicht als Vernachlässigung. Nicht gemulchte Stoppeln und fehlendes Walzen zählen erst dann als Vernachlässigung, wenn sie drei Viertel des Feldes betreffen. Stoppeln zählen nur nach einer Ernte auf diesem Feld und nicht nach dem Pflügen (die Einstellung „Risiko durch Stoppeln“ schaltet sie ganz ab). In FS25 wächst nach dem Pflügen kein Unkraut." />
+        <text name="fh_help_farming_08" text="Fruchtfolge und Zwischenfrüchte" />
+        <text name="fh_help_farming_10" text="Die Einstellung „Einfluss der Bewirtschaftung“ verstärkt oder schwächt alle diese Faktoren auf einmal. Keiner – jedes Feld hat das Risiko 1. Gering – die Unterschiede sind etwa halb so groß. Normal – wie in den Tabellen. Hoch – die Unterschiede sind anderthalbmal so groß." />
+        <text name="fh_help_weather" text="Wetter" />
+        <text name="fh_help_weather_01" text="Jede Spielstunde liest der Mod die Temperatur ab und prüft, ob es regnet. Am Ende des Tages berechnet er die Durchschnittstemperatur des Tages und den Anteil der Regenstunden. Die Nässe hat ein Gedächtnis: Die Hälfte stammt vom letzten Tag, die andere Hälfte von den Tagen davor, denn Blätter bleiben nach Regen lange nass. Jeder Schaderreger hat ein Wetterprofil – einen Temperaturbereich und eine Reaktion auf Regen." />
+        <text name="fh_help_weather_03" text="Eine Temperatur außerhalb des Bereichs senkt den Druck auf das 0,4-Fache, eine Temperatur im Optimum hebt ihn auf das 1,2-Fache. Regen verändert den Druck vom 0,4- bis zum 1,8-Fachen – nach oben bei Schaderregern, die Feuchtigkeit mögen, nach unten bei solchen, die Trockenheit mögen. Zusammen verändert das Wetter den Druck vom 0,2- bis zum 2,5-Fachen. Beispielmultiplikatoren nach einigen Tagen mit solchem Wetter (rot – der Befall nimmt zu, grün – er nimmt ab):" />
+        <text name="fh_help_weather_05" text="Die Einstellung „Einfluss des Wetters“: Keiner – das Wetter zählt nicht, Gering – mildere Multiplikatoren, Normal – wie in der Tabelle, Hoch – stärkere. Achte nach einigen warmen, regnerischen Sommertagen besonders auf Kartoffeln und Getreide im Ährenschieben, in einem trockenen, heißen Sommer auf Schädlinge." />
+        <text name="fh_help_diseases" text="Krankheiten" />
+        <text name="fh_help_diseases_01" text="Fungizid wirkt gegen alle Krankheiten. Die Tabellen zeigen, wie häufig eine Krankheit in Polen ist, welche Kulturen sie befällt, in welchen Monaten sie auftritt und wann sie am stärksten ist, in welchem Wachstumsstadium sie den größten Schaden anrichtet und was sie begünstigt." />
+        <text name="fh_help_diseases_03" text="Getreide und Mais" />
+        <text name="fh_help_diseases_05" text="Andere Kulturen" />
+        <text name="fh_help_diseases_07" text="Kulturen von Karten, die der Mod nicht kennt, können Grauschimmel und Blattläuse bekommen. Zwiebeln aus der Highlands Fishing Expansion und aus Mods werden automatisch erkannt." />
+        <text name="fh_help_pests" text="Schädlinge" />
+        <text name="fh_help_pests_01" text="Insektizid wirkt gegen alle Schädlinge. Die Spalten der Tabellen bedeuten dasselbe wie auf der Seite „Krankheiten“." />
+        <text name="fh_help_pests_02" text="Getreide und Mais" />
+        <text name="fh_help_pests_04" text="Andere Kulturen" />
+        <text name="fh_help_progress" text="Wie sich Befall entwickelt" />
+        <text name="fh_help_progress_01" text="Neuer Befall besteht aus einem oder zwei unregelmäßigen Herden mit ausgefranstem Rand und gesunden Lücken darin. Er beginnt im geringen Stadium. Wenn du nichts dagegen tust, durchläuft er diese Schritte:" />
+        <text name="fh_help_progress_03" text="Zerstörter Bestand wächst nicht nach und bringt bei der Ernte nichts. Vorbeugend oder direkt nach der Meldung zu spritzen ist daher am günstigsten. Eine Spritzung beseitigt den Befall in jedem Stadium vollständig von den gespritzten Stellen." />
+        <text name="fh_help_spraying" text="Spritzen und Schutz" />
+        <text name="fh_help_spraying_01" text="Die Mittel stammen von der polnischen Firma Opryskex: das Fungizid Grzybobój 250 EC (grünes Etikett) und das Insektizid Robalex 100 CS (rotes Etikett). Beim Kauf kannst du stattdessen die Marke MST (Mafia Solec Team) wählen: Solectop 280 SC und Mafiozol 50 EW. Sie wirken gleich, nur das Etikett ist anders. Du bekommst sie im Shop in 1-l-Flaschen sowie in 5-l- und 20-l-Kanistern. Stell das Gebinde neben die Feldspritze und befülle sie wie von einer Palette. Das Spiel mischt das Konzentrat nicht mit Wasser, der Inhalt eines Gebindes ist also die gesamte Spritzbrühe, die daraus entsteht. Je größer das Gebinde, desto günstiger pro Hektar." />
+        <text name="fh_help_spraying_03" text="So funktioniert der Schutz" />
+        <text name="fh_help_spraying_05" text="Achtung" />
+        <text name="fh_help_spraying_06" text="– Spritze nach dem Auflaufen – Aussaat und Ernte heben den Schutz auf.
+– Fungizid schützt nicht vor Schädlingen und Insektizid nicht vor Krankheiten. Für vollen Schutz brauchst du beides.
+– Ausgelassene Keile und Vorgewende zählen: Unter 90 % Abdeckung kann Befall auf nicht gespritzten Streifen auftreten.
+– Die Mittel düngen nicht und bekämpfen kein Unkraut.
+– Bei kürzerer Schutzdauer (Einstellung) endet der Schutz des ganzen Feldes so lange nach der letzten Spritzung." />
+        <text name="fh_help_map" text="Karte und Feldinfo" />
+        <text name="fh_help_map_01" text="Feldinfo" />
+        <text name="fh_help_map_02" text="Wenn du auf einem Feld bist, zeigt die Feldinfo:
+– Krankheit und Schädlinge: den aktiven Befall und seine Stärke (gering, mittel, stark),
+– Krankheitsrisiko und Schädlingsrisiko: gering, normal, erhöht oder hoch, ab erhöht auch die Hauptursache,
+– Krankheitsschutz und Schädlingsschutz: wie viel des Feldes gespritzt ist,
+– einen Hinweis, welches Mittel gegen den Befall hilft." />
+        <text name="fh_help_map_03" text="Karte" />
+        <text name="fh_help_map_04" text="Wähle unter ESC &gt; Karte die Seite „Pflanzenschutz“. Unter ihrem Titel schaltet eine zweite Auswahl mit Pfeilen zwischen fünf Ebenen um. Ein Klick auf einen Legendeneintrag blendet ihn auf der Karte aus. Angezeigt werden nur Felder deines Betriebs mit wachsender Kultur. Klicke auf ein Grundstück, um Befall und Schutz seiner Felder zu sehen." />
+        <text name="fh_help_map_06" text="Farben der Befallsarten" />
+        <text name="fh_help_map_08" text="Minikarte" />
+        <text name="fh_help_map_09" text="Alt links + \ schaltet die Ebene der Minikarte um: Schutz, Krankheiten, Schädlinge und keine Ebene. Die Tasten kannst du während des Spiels unter ESC &gt; Einstellungen &gt; Steuerung ändern, Eintrag „Field Health – Pflanzenschutz-Ebene auf der Minikarte“ (das Hauptmenü zeigt keine Mod-Tasten, weil Mods erst mit dem Spielstand geladen werden)." />
+        <text name="fh_help_pf" text="Precision Farming" />
+        <text name="fh_help_pf_01" text="Mit Precision Farming arbeitet Field Health als dessen Erweiterung und nutzt seine Bodenkarten. Statt der Düngung allgemein zählt der Stickstoff im Vergleich zum Sollwert und statt der Kalkung allgemein der pH-Wert des Bodens." />
+        <text name="fh_help_pf_03" text="Der beste Schutz ist dieselbe Arbeit, die du für den Ertrag machst: Düngen auf den Sollwert, Kalken auf den optimalen pH-Wert und Zwischenfrüchte. Der Konsolenbefehl fhPrecisionFarming schreibt ins Log, wie der Mod die Daten von Precision Farming liest." />
+        <text name="fh_help_settings" text="Einstellungen" />
+        <text name="fh_help_settings_01" text="Die Mod-Einstellungen findest du unter ESC &gt; Einstellungen &gt; Spiel im Abschnitt „Field Health – Krankheiten und Schädlinge“. Sie werden mit dem Spielstand gespeichert. Im Mehrspielermodus kann nur der Server-Admin sie ändern. Fahre mit der Maus über eine Option, um ihre Beschreibung zu sehen." />
+        <text name="fh_help_tips" text="Tipps" />
+        <text name="fh_help_tips_01" text="Ein Plan für gesunde Felder" />
+        <text name="fh_help_tips_02" text="1. Dünge nach Bedarf, kalke und säe nicht zwei Jahre hintereinander dieselbe Kultur. Säe zwischen den Hauptkulturen eine Zwischenfrucht.
+2. Spritze das Feld vor den Hauptmonaten der Schaderreger (Seite „Jahreszeiten und Wachstumsstadien“) mit Fungizid und Insektizid. Einmal pro Saison reicht, wenn du mindestens 90 % des Feldes abdeckst.
+3. Prüfe die Ebene „Schutz“ auf der Karte – grüne Felder sind gegen beide Arten von Befall geschützt.
+4. Spritze nach einer Meldung das genannte Feld mit dem genannten Mittel, bevor der Befall das starke Stadium erreicht.
+5. Ein KI-Helfer mit Fungizid oder Insektizid spritzt ungeschützte Felder vollständig und geschützte nur dort, wo Befall ist." />
+        <text name="fh_help_tips_03" text="Achtung" />
+        <text name="fh_help_tips_04" text="– Monokultur und fehlendes Pflügen sind die häufigsten Ursachen für hohes Risiko, z. B. fördert Weizen nach Weizen ohne Pflügen Septoria, DTR und Fusarium.
+– Mais vor Weizen erhöht das Fusariumrisiko deutlich, Grünland vor Kartoffeln das Risiko für Drahtwürmer.
+– Gülle und Flüssigdünger sorgen für üppige Bestände, die Mehltau, Rostpilze und Blattläuse mögen.
+– Ein verregneter Sommer ist die Zeit von Krautfäule, Septoria und Fusarium, ein trockener und heißer die von Blattläusen, Kartoffelkäfern, Thripsen und Erdraupen.
+– Raps hat zwei gefährliche Zeiten: den Herbst (Erdflöhe, Rübsenblattwespe, Phoma) und das Frühjahr (Stängelrüssler, Rapsglanzkäfer, Sclerotinia).
+– Befall im mittleren oder starken Stadium kann auf ein angrenzendes Spielerfeld übergreifen." />
+        <text name="fh_help_admin" text="Für Admins" />
+        <text name="fh_help_admin_01" text="Konsolenbefehle" />
+        <text name="fh_help_admin_03" text="Mehrspieler, Spielstand und Kompatibilität" />
+        <text name="fh_help_admin_04" text="– Die Simulation läuft auf dem Server, die Spieler sehen ihre Ergebnisse. Die Einstellungen und die Befehle fhSet, fhClear und fhDailyTick sind nur für den Admin.
+– Meldungen gehen an die Spieler des Betriebs, dem das Feld gehört, jeweils in ihrer eigenen Sprache.
+– Der Mod speichert seine Daten nur in zwei eigenen Dateien im Spielstand-Ordner: fieldHealth.xml und fieldHealthMap.grle. Er kann gefahrlos entfernt werden – das Spiel überspringt diese Dateien, und nur die Flaschen und Kanister der Mittel verschwinden von der Karte.
+– Spielstände einer früheren Mod-Version werden beim Laden in das neue Format umgewandelt.
+– Zwiebeln aus der Highlands Fishing Expansion und aus Mods werden automatisch erkannt – das Log meldet es.
+– Verwende nicht gleichzeitig einen anderen Mod für Pflanzenkrankheiten (z. B. Crop Diseases) – Field Health warnt im Log davor." />
+        <text name="fh_help_admin_05" text="Danksagung" />
+        <text name="fh_help_admin_06" text="Field Health – Autor: MatrikSky. Die Idee stammt aus dem Mod „Crop Diseases“ von BMP. Das Flaschenmodell basiert auf „fertilizer Bottle“ von shabanimate, das Kanistermodell auf „#6 Plastic Canister“ von hoxsvl (beide CC BY 4.0, sketchfab.com)." />
+        <text name="fh_help_tableLanguage" text="en" />
+
+
+
+
+
+
+
+
+
+
+    </texts>
+</l10n>

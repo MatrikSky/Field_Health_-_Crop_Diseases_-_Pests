@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <modDesc descVersion="104">
     <author>MatrikSky</author>
-    <version>1.0.0.0</version>
+    <version>1.1.0.0</version>
     <title>
         <en>Field Health: Crop Diseases &amp; Pests</en>
         <pl>Zdrowie pól: choroby i szkodniki upraw</pl>
+        <fr>Field Health : maladies et ravageurs des cultures</fr>
+        <de>Field Health: Pflanzenkrankheiten und Schädlinge</de>
+        <es>Field Health: enfermedades y plagas de los cultivos</es>
+        <ea>Field Health: enfermedades y plagas de los cultivos</ea>
     </title>
     <description>
         <en><![CDATA[Field Health brings crop diseases and pests common in Poland to your fields – realistic, but friendly to casual play.
@@ -29,6 +33,50 @@ Zagrożenia pojawiają się w nieregularnych plamach, rosną nierówno, niszczą
 25 ustawień (szanse, wpływ uprawy, pogody i ścierniska, łąki i uprawy pastewne, tempo, wielkość ognisk, niszczenie uprawy, czas działania i dawki oprysków, ceny...), gra wieloosobowa, szczegółowy poradnik w pomocy w grze (ESC > Pomoc). Mod zapisuje w zapisie gry tylko własne pliki, więc można go w każdej chwili usunąć.
 
 Pomysł zaczerpnięty z moda „Crop Diseases” autorstwa BMP. Model butelki na podstawie „fertilizer Bottle” autorstwa shabanimate, model baniek na podstawie „#6 Plastic Canister” autorstwa hoxsvl (oba CC BY 4.0, sketchfab.com).]]></pl>
+        <fr><![CDATA[Field Health amène sur vos champs les maladies et les ravageurs des cultures courants en Pologne – de façon réaliste, mais adaptée à une partie détendue.
+
+44 menaces sont liées aux cultures qu'elles attaquent réellement – 24 maladies combattues au fongicide (par ex. oïdium des céréales, septoriose, rouilles brune et jaune, fusariose, piétin-verse, helminthosporiose de l'orge, phoma, sclérotiniose, mildiou de la pomme de terre, cercosporiose de la betterave, mildiou de l'oignon) et 20 ravageurs combattus à l'insecticide (par ex. pucerons, lémas, méligèthes, charançons de la tige, altises, doryphores, pyrale du maïs, mouche de l'oignon, mouche de la carotte). Chacune n'attaque qu'à ses mois et à ses stades de croissance, et elle est la plus dangereuse à sa période typique ; les menaces courantes apparaissent bien plus souvent que les rares, comme la rouille noire ou la chrysomèle du maïs.
+
+Même un champ bien cultivé peut être touché (par défaut 15 % pour les maladies et 10 % pour les ravageurs par saison) : le fongicide et l'insecticide sont donc indispensables. La météo des derniers jours compte : les maladies fongiques adorent la pluie, la plupart des ravageurs les journées chaudes et sèches. Vos pratiques modifient le risque : le fumier et les cultures intermédiaires le réduisent ; le lisier et l'azote liquide favorisent l'oïdium, la rouille et les pucerons ; le maïs avant le blé augmente la fusariose, la prairie avant les pommes de terre les taupins ; l'absence de labour, de chaulage, de broyage des chaumes, de rotation ou de désherbage l'augmente aussi. Avec Precision Farming, le mod utilise l'azote, le pH et le type de sol de ses cartes.
+
+Les menaces apparaissent en foyers irréguliers, s'étendent de façon inégale, ne détruisent la culture qu'au stade grave et peuvent rarement passer sur un champ voisin contigu. Un traitement les élimine et protège le champ jusqu'à la récolte. Le fongicide et l'insecticide sont vendus en flacons de 1 l et en bidons de 5 l et 20 l. La page de carte « Protection des cultures » (cinq couches) et la mini-carte (LAlt + \) montrent la protection, les maladies et les ravageurs de vos champs ; le panneau d'infos du champ affiche les menaces, le risque et sa cause.
+
+25 paramètres (probabilités, influence des pratiques, de la météo et des chaumes, prairies et fourrages, évolution, taille des foyers, dégâts aux cultures, durée et doses des traitements, prix...), prise en charge du multijoueur, guide détaillé dans l'aide du jeu (ESC > Aide). Le mod n'ajoute que ses propres fichiers à la sauvegarde : vous pouvez donc le retirer à tout moment.
+
+Idée reprise du mod « Crop Diseases » de BMP. Modèle du flacon basé sur « fertilizer Bottle » de shabanimate, modèle du bidon basé sur « #6 Plastic Canister » de hoxsvl (tous deux CC BY 4.0, sketchfab.com).]]></fr>
+        <de><![CDATA[Field Health bringt Pflanzenkrankheiten und Schädlinge, die in Polen verbreitet sind, auf deine Felder – realistisch, aber freundlich für entspanntes Spielen.
+
+44 Schaderreger sind an die Kulturen gebunden, die sie wirklich befallen – 24 Krankheiten, die mit Fungizid bekämpft werden (z. B. Echter Getreidemehltau, Septoria, Braun- und Gelbrost, Fusarium, Halmbruch, Netzflecken, Phoma, Weißstängeligkeit, Kraut- und Knollenfäule, Cercospora-Blattflecken, Falscher Mehltau an Zwiebeln), und 20 Schädlinge, die mit Insektizid bekämpft werden (z. B. Blattläuse, Getreidehähnchen, Rapsglanzkäfer, Stängelrüssler, Erdflöhe, Kartoffelkäfer, Maiszünsler, Zwiebelfliege, Möhrenfliege). Jeder greift nur in seinen Monaten und Wachstumsstadien an und ist zu seiner typischen Zeit am gefährlichsten; häufige Schaderreger treten viel öfter auf als seltene wie Schwarzrost oder Maiswurzelbohrer.
+
+Auch ein gut bewirtschaftetes Feld kann befallen werden (standardmäßig 15 % Krankheiten und 10 % Schädlinge pro Saison), deshalb werden Fungizid und Insektizid gebraucht. Das Wetter der letzten Tage zählt: Pilzkrankheiten lieben Regen, die meisten Schädlinge warme, trockene Tage. Deine Bewirtschaftung verändert das Risiko: Mist und Zwischenfrüchte senken es; Gülle und flüssiger Stickstoff fördern Mehltau, Rost und Blattläuse; Mais vor Weizen erhöht das Fusariumrisiko, Grünland vor Kartoffeln das Risiko für Drahtwürmer; fehlendes Pflügen, Kalken, Stoppelmulchen, fehlende Fruchtfolge oder Unkrautbekämpfung erhöhen es ebenfalls. Mit Precision Farming nutzt der Mod Stickstoff, pH-Wert und Bodenart aus dessen Karten.
+
+Befall tritt in unregelmäßigen Herden auf, wächst ungleichmäßig, zerstört den Bestand erst im starken Stadium und kann selten auf ein angrenzendes Nachbarfeld übergreifen. Spritzen beseitigt ihn und schützt das Feld bis zur Ernte. Fungizid und Insektizid gibt es in 1-l-Flaschen sowie 5-l- und 20-l-Kanistern. Die Kartenseite „Pflanzenschutz“ (fünf Ebenen) und die Minikarte (LAlt + \) zeigen Schutz, Krankheiten und Schädlinge deiner Felder; die Feldinfo zeigt Befall, Risiko und dessen Ursache.
+
+25 Einstellungen (Wahrscheinlichkeiten, Einfluss von Bewirtschaftung, Wetter und Stoppeln, Wiesen und Futterpflanzen, Befallsentwicklung, Herdgröße, Schäden am Bestand, Schutzdauer und Aufwandmengen, Preise...), Mehrspieler-Unterstützung, ausführliche Anleitung in der Spielhilfe (ESC > Hilfe). Der Mod legt nur eigene Dateien im Spielstand ab und kann daher jederzeit entfernt werden.
+
+Die Idee stammt aus dem Mod „Crop Diseases“ von BMP. Flaschenmodell basierend auf „fertilizer Bottle“ von shabanimate, Kanistermodell basierend auf „#6 Plastic Canister“ von hoxsvl (beide CC BY 4.0, sketchfab.com).]]></de>
+        <es><![CDATA[Field Health lleva a tus campos las enfermedades y plagas de los cultivos habituales en Polonia: realista, pero pensado para jugar con tranquilidad.
+
+44 amenazas ligadas a los cultivos que de verdad atacan: 24 enfermedades que se combaten con fungicida (p. ej., oídio de los cereales, septoriosis, roya parda y amarilla, fusariosis, mancha ocular, mancha en red, phoma, podredumbre blanca, mildiu de la patata, cercosporiosis de la remolacha, mildiu de la cebolla) y 20 plagas que se combaten con insecticida (p. ej., pulgones, lema, meligetes, gorgojos del tallo, pulguillas, escarabajo de la patata, taladro del maíz, mosca de la cebolla, mosca de la zanahoria). Cada una ataca solo en sus meses y fases de crecimiento, y es más peligrosa en su época típica; las amenazas comunes aparecen mucho más a menudo que las raras, como la roya negra o la diabrótica del maíz.
+
+Incluso un campo bien cuidado puede enfermar (por defecto, 15 % de enfermedades y 10 % de plagas por temporada), así que el fungicida y el insecticida son necesarios. Cuenta el tiempo de los últimos días: las enfermedades fúngicas adoran la lluvia, y la mayoría de las plagas, los días cálidos y secos. Tu forma de cultivar cambia el riesgo: el estiércol y los cultivos intermedios lo reducen; el purín y el nitrógeno líquido favorecen el oídio, la roya y los pulgones; el maíz antes del trigo aumenta la fusariosis, y un prado antes de las patatas, los gusanos de alambre; no arar, no encalar, no triturar el rastrojo, no rotar o no controlar las malas hierbas también lo aumenta. Con Precision Farming, el mod usa el nitrógeno, el pH y el tipo de suelo de sus mapas.
+
+Las amenazas aparecen en focos irregulares, crecen de forma desigual, solo destruyen el cultivo en la fase grave y, rara vez, pasan a un campo vecino colindante. La pulverización las elimina y protege el campo hasta la cosecha. El fungicida y el insecticida se venden en botellas de 1 l y garrafas de 5 l y 20 l. La página del mapa «Protección de cultivos» (cinco capas) y el minimapa (LAlt + \) muestran la protección, las enfermedades y las plagas de tus campos; el recuadro de información del campo muestra las amenazas, el riesgo y su causa.
+
+25 ajustes (probabilidades, influencia del manejo, del tiempo y del rastrojo, prados y cultivos forrajeros, evolución, tamaño de los focos, daños al cultivo, duración y dosis de los tratamientos, precios...), compatible con multijugador y con una guía detallada en la ayuda del juego (ESC > Ayuda). El mod solo añade sus propios archivos a la partida guardada, así que puedes quitarlo cuando quieras.
+
+Idea tomada del mod «Crop Diseases» de BMP. Modelo de la botella basado en «fertilizer Bottle» de shabanimate, modelo de la garrafa basado en «#6 Plastic Canister» de hoxsvl (ambos CC BY 4.0, sketchfab.com).]]></es>
+        <ea><![CDATA[Field Health lleva a tus campos las enfermedades y plagas de los cultivos habituales en Polonia: realista, pero pensado para jugar con tranquilidad.
+
+44 amenazas ligadas a los cultivos que realmente atacan: 24 enfermedades que se combaten con fungicida (p. ej., oídio de los cereales, septoriosis, roya de la hoja y roya amarilla, fusariosis, mancha ocular, mancha en red, pie negro, moho blanco, tizón tardío de la papa, cercospora de la remolacha, mildiu de la cebolla) y 20 plagas que se combaten con insecticida (p. ej., pulgones, lema, escarabajo del polen, gorgojos del tallo, pulguillas, escarabajo de la papa, barrenador del maíz, mosca de la cebolla, mosca de la zanahoria). Cada una ataca solo en sus meses y etapas de crecimiento, y es más peligrosa en su época típica; las amenazas comunes aparecen mucho más seguido que las raras, como la roya del tallo o el gusano de la raíz del maíz.
+
+Incluso un campo bien manejado puede enfermarse (por defecto, 15 % de enfermedades y 10 % de plagas por temporada), así que el fungicida y el insecticida son necesarios. Cuenta el clima de los últimos días: las enfermedades fúngicas aman la lluvia, y la mayoría de las plagas, los días cálidos y secos. Tu manejo cambia el riesgo: el estiércol y los cultivos de cobertura lo reducen; el estiércol líquido y el nitrógeno líquido favorecen el oídio, la roya y los pulgones; el maíz antes del trigo aumenta la fusariosis, y una pradera antes de las papas, los gusanos alambre; no arar, no encalar, no triturar el rastrojo, no rotar o no controlar las malezas también lo aumenta. Con Precision Farming, el mod usa el nitrógeno, el pH y el tipo de suelo de sus mapas.
+
+Las amenazas aparecen en focos irregulares, crecen de forma desigual, solo destruyen el cultivo en la etapa grave y, rara vez, pasan a un campo vecino colindante. La pulverización las elimina y protege el campo hasta la cosecha. El fungicida y el insecticida se venden en botellas de 1 l y bidones de 5 l y 20 l. La página del mapa “Protección de cultivos” (cinco capas) y el minimapa (LAlt + \) muestran la protección, las enfermedades y las plagas de tus campos; el recuadro de información del campo muestra las amenazas, el riesgo y su causa.
+
+25 opciones de configuración (probabilidades, influencia del manejo, del clima y del rastrojo, praderas y forrajes, evolución, tamaño de los focos, daños al cultivo, duración y dosis de las aplicaciones, precios...), compatible con multijugador y con una guía detallada en la ayuda del juego (ESC > Ayuda). El mod solo agrega sus propios archivos a la partida guardada, así que puedes quitarlo cuando quieras.
+
+Idea tomada del mod “Crop Diseases” de BMP. Modelo de la botella basado en “fertilizer Bottle” de shabanimate, modelo del bidón basado en “#6 Plastic Canister” de hoxsvl (ambos CC BY 4.0, sketchfab.com).]]></ea>
     </description>
     <iconFilename>icon_FieldHealth.dds</iconFilename>
     <multiplayer supported="true"/>

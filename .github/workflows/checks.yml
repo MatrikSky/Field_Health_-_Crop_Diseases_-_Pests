@@ -61,17 +61,21 @@ jobs:
               if not exists((desc.findtext('iconFilename') or '').strip()):
                   problems.append('modDesc.xml: the mod icon does not exist')
 
+          # every language (l10n/l10n_<lang>.xml) must have the texts of English with the same placeholders
+          languages = ['en', 'pl'] + sorted({m.group(1) for m in map(re.compile(r'l10n_([a-z]{2})\.xml$').match,
+                                                                       os.listdir('l10n') if os.path.isdir('l10n') else []) if m} - {'en', 'pl'})
           texts = {}
-          for language in ('en', 'pl'):
+          for language in languages:
               root = parse(f'l10n/l10n_{language}.xml')
               texts[language] = {e.get('name'): e.get('text', '') for e in root.iter('text')} if root is not None else {}
-          problems += [f'text "{k}" is missing in l10n_pl.xml' for k in sorted(set(texts['en']) - set(texts['pl']))]
-          problems += [f'text "{k}" is missing in l10n_en.xml' for k in sorted(set(texts['pl']) - set(texts['en']))]
           placeholder = re.compile(r'%[-+#0]*\d*(?:\.\d+)?[cdiouxXeEfgGqs]')
-          for key in sorted(set(texts['en']) & set(texts['pl'])):
-              en, pl = (placeholder.findall(texts[l][key].replace('%%', '')) for l in ('en', 'pl'))
-              if en != pl:
-                  problems.append(f'text "{key}": placeholders differ (en {en}, pl {pl})')
+          for language in languages[1:]:
+              problems += [f'text "{k}" is missing in l10n_{language}.xml' for k in sorted(set(texts['en']) - set(texts[language]))]
+              problems += [f'text "{k}" is missing in l10n_en.xml' for k in sorted(set(texts[language]) - set(texts['en']))]
+              for key in sorted(set(texts['en']) & set(texts[language])):
+                  en, other = (placeholder.findall(texts[l][key].replace('%%', '')) for l in ('en', language))
+                  if en != other:
+                      problems.append(f'text "{key}": placeholders differ (en {en}, {language} {other})')
 
           used = set()
           for path in xml_files:
@@ -82,10 +86,10 @@ jobs:
                   if name.endswith('.lua'):
                       source = open(os.path.join(folder, name), encoding='utf-8').read()
                       used |= {m.group(1) for m in re.finditer(r'"(fh_[A-Za-z0-9_]+)"(\s*\.\.)?', source) if not m.group(2)}
-          problems += [f'text "{k}" is used but missing in l10n_{l}.xml' for k in sorted(used) for l in ('en', 'pl') if k not in texts[l]]
+          problems += [f'text "{k}" is used but missing in l10n_{l}.xml' for k in sorted(used) for l in languages if k not in texts[l]]
 
           for problem in problems:
               print(f'::error::{problem}')
-          print(f'{len(xml_files)} XML files, {len(texts["en"])} texts, {len(used)} text keys used: {len(problems)} problems')
+          print(f'{len(xml_files)} XML files, {len(texts["en"])} texts in {len(languages)} languages, {len(used)} text keys used: {len(problems)} problems')
           sys.exit(1 if problems else 0)
           EOF

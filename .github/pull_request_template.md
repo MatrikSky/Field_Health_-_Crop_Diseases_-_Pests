@@ -27,7 +27,7 @@ Players have savegames of every released version – please check:
 
 ## Texts
 
-- [ ] New or changed texts are in both `l10n/l10n_en.xml` and `l10n/l10n_pl.xml`, with the prefix `fh_`
+- [ ] New or changed texts are in every file of `l10n/` (English, Polish, French, German, Spanish `es` and Latin American Spanish `ea`), with the prefix `fh_`
 
 ## Screenshots (optional)
 

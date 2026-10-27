@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+    <texts>
+        <!-- Diseases (full and short name) -->
+        <text name="fh_disease_cereal_mildew" text="Oïdium des céréales" />
+        <text name="fh_disease_cereal_mildew_short" text="Oïdium" />
+        <text name="fh_disease_septoria" text="Septoriose" />
+        <text name="fh_disease_septoria_short" text="Septoriose" />
+        <text name="fh_disease_brown_rust" text="Rouille brune" />
+        <text name="fh_disease_brown_rust_short" text="Rouille brune" />
+        <text name="fh_disease_fusarium" text="Fusariose" />
+        <text name="fh_disease_fusarium_short" text="Fusariose" />
+        <text name="fh_disease_net_blotch" text="Helminthosporiose de l'orge" />
+        <text name="fh_disease_net_blotch_short" text="Helminthosporiose orge" />
+        <text name="fh_disease_snow_mould" text="Moisissure des neiges" />
+        <text name="fh_disease_snow_mould_short" text="Moisissure des neiges" />
+        <text name="fh_disease_sclerotinia" text="Sclérotiniose" />
+        <text name="fh_disease_sclerotinia_short" text="Sclérotinia" />
+        <text name="fh_disease_alternaria" text="Alternariose" />
+        <text name="fh_disease_alternaria_short" text="Alternariose" />
+        <text name="fh_disease_late_blight" text="Mildiou de la pomme de terre" />
+        <text name="fh_disease_late_blight_short" text="Mildiou pomme de terre" />
+        <text name="fh_disease_cercospora" text="Cercosporiose" />
+        <text name="fh_disease_cercospora_short" text="Cercosporiose" />
+        <text name="fh_disease_grey_mould" text="Pourriture grise" />
+        <text name="fh_disease_grey_mould_short" text="Pourriture grise" />
+        <text name="fh_disease_yellow_rust" text="Rouille jaune" />
+        <text name="fh_disease_yellow_rust_short" text="Rouille jaune" />
+        <text name="fh_disease_tan_spot" text="Helminthosporiose du blé" />
+        <text name="fh_disease_tan_spot_short" text="Helminthosporiose blé" />
+        <text name="fh_disease_eyespot" text="Piétin-verse" />
+        <text name="fh_disease_eyespot_short" text="Piétin-verse" />
+        <text name="fh_disease_rhynchosporium" text="Rhynchosporiose" />
+        <text name="fh_disease_rhynchosporium_short" text="Rhynchosporiose" />
+        <text name="fh_disease_ramularia" text="Ramulariose" />
+        <text name="fh_disease_ramularia_short" text="Ramulariose" />
+        <text name="fh_disease_stem_rust" text="Rouille noire" />
+        <text name="fh_disease_stem_rust_short" text="Rouille noire" />
+        <text name="fh_disease_phoma" text="Phoma (nécrose du collet)" />
+        <text name="fh_disease_phoma_short" text="Phoma" />
+        <text name="fh_disease_cylindrosporiosis" text="Cylindrosporiose" />
+        <text name="fh_disease_cylindrosporiosis_short" text="Cylindrosporiose" />
+        <text name="fh_disease_beet_mildew" text="Oïdium de la betterave" />
+        <text name="fh_disease_beet_mildew_short" text="Oïdium betterave" />
+        <text name="fh_disease_ascochyta" text="Anthracnose (ascochytose)" />
+        <text name="fh_disease_ascochyta_short" text="Anthracnose" />
+        <text name="fh_disease_downy_mildew" text="Mildiou" />
+        <text name="fh_disease_downy_mildew_short" text="Mildiou" />
+        <text name="fh_disease_corn_leaf_blight" text="Helminthosporiose du maïs" />
+        <text name="fh_disease_corn_leaf_blight_short" text="Helminthosporiose maïs" />
+        <text name="fh_disease_crown_rust" text="Rouille couronnée de l'avoine" />
+        <text name="fh_disease_crown_rust_short" text="Rouille couronnée" />
+
+        <!-- Pests (full and short name) -->
+        <text name="fh_pest_aphids" text="Pucerons" />
+        <text name="fh_pest_aphids_short" text="Pucerons" />
+        <text name="fh_pest_leaf_beetle" text="Lémas des céréales" />
+        <text name="fh_pest_leaf_beetle_short" text="Lémas" />
+        <text name="fh_pest_pollen_beetle" text="Méligèthes" />
+        <text name="fh_pest_pollen_beetle_short" text="Méligèthes" />
+        <text name="fh_pest_potato_beetle" text="Doryphores" />
+        <text name="fh_pest_potato_beetle_short" text="Doryphores" />
+        <text name="fh_pest_corn_borer" text="Pyrale du maïs" />
+        <text name="fh_pest_corn_borer_short" text="Pyrale" />
+        <text name="fh_pest_wireworm" text="Taupins" />
+        <text name="fh_pest_wireworm_short" text="Taupins" />
+        <text name="fh_pest_stem_weevil" text="Charançon de la tige du colza" />
+        <text name="fh_pest_stem_weevil_short" text="Charançon tige" />
+        <text name="fh_pest_seed_weevil" text="Charançon des siliques" />
+        <text name="fh_pest_seed_weevil_short" text="Charançon siliques" />
+        <text name="fh_pest_flea_beetle" text="Altises" />
+        <text name="fh_pest_flea_beetle_short" text="Altises" />
+        <text name="fh_pest_turnip_sawfly" text="Tenthrède de la rave" />
+        <text name="fh_pest_turnip_sawfly_short" text="Tenthrède" />
+        <text name="fh_pest_frit_fly" text="Oscinie (mouche frit)" />
+        <text name="fh_pest_frit_fly_short" text="Oscinie" />
+        <text name="fh_pest_wheat_midge" text="Cécidomyies du blé" />
+        <text name="fh_pest_wheat_midge_short" text="Cécidomyies" />
+        <text name="fh_pest_cutworm" text="Vers gris" />
+        <text name="fh_pest_cutworm_short" text="Vers gris" />
+        <text name="fh_pest_beet_fly" text="Pégomyie de la betterave" />
+        <text name="fh_pest_beet_fly_short" text="Pégomyie" />
+        <text name="fh_pest_onion_fly" text="Mouche de l'oignon" />
+        <text name="fh_pest_onion_fly_short" text="Mouche de l'oignon" />
+        <text name="fh_pest_thrips" text="Thrips" />
+        <text name="fh_pest_thrips_short" text="Thrips" />
+        <text name="fh_pest_carrot_fly" text="Mouche de la carotte" />
+        <text name="fh_pest_carrot_fly_short" text="Mouche de la carotte" />
+        <text name="fh_pest_pea_leaf_weevil" text="Sitones du pois" />
+        <text name="fh_pest_pea_leaf_weevil_short" text="Sitones" />
+        <text name="fh_pest_rootworm" text="Chrysomèle des racines du maïs" />
+        <text name="fh_pest_rootworm_short" text="Chrysomèle du maïs" />
+        <text name="fh_pest_ground_beetle" text="Zabre des céréales" />
+        <text name="fh_pest_ground_beetle_short" text="Zabre" />
+
+        <text name="fh_severity_low" text="faible" />
+        <text name="fh_severity_medium" text="moyen" />
+        <text name="fh_severity_high" text="grave" />
+
+        <!-- Field info (short, so nothing gets cut off) -->
+        <text name="fh_hud_threats" text="Menaces sanitaires" />
+        <text name="fh_hud_disease" text="Maladie" />
+        <text name="fh_hud_pest" text="Ravageurs" />
+        <text name="fh_hud_none" text="aucune" />
+        <text name="fh_hud_diseaseRisk" text="Risque maladies" />
+        <text name="fh_hud_pestRisk" text="Risque ravageurs" />
+        <text name="fh_hud_cause" text="Cause" />
+        <text name="fh_hud_protection" text="Protection" />
+        <text name="fh_hud_diseaseProtection" text="Protection maladies" />
+        <text name="fh_hud_pestProtection" text="Protection ravageurs" />
+        <text name="fh_hud_protected" text="active" />
+        <text name="fh_risk_low" text="faible" />
+        <text name="fh_risk_normal" text="normal" />
+        <text name="fh_risk_elevated" text="accru" />
+        <text name="fh_risk_high" text="élevé" />
+        <text name="fh_cause_fertilizer" text="pas d'engrais" />
+        <text name="fh_cause_manure" text="fumier frais" />
+        <text name="fh_cause_fastNitrogen" text="azote rapide" />
+        <text name="fh_cause_nitrogenDeficit" text="manque d'azote" />
+        <text name="fh_cause_nitrogenExcess" text="excès d'azote" />
+        <text name="fh_cause_lime" text="sol acide" />
+        <text name="fh_cause_lightSoil" text="sol léger" />
+        <text name="fh_cause_heavySoil" text="sol lourd" />
+        <text name="fh_cause_plowing" text="pas de labour" />
+        <text name="fh_cause_stubble" text="chaumes" />
+        <text name="fh_cause_rolling" text="pas de roulage" />
+        <text name="fh_cause_weeds" text="mauvaises herbes" />
+        <text name="fh_cause_sameCrop" text="monoculture" />
+        <text name="fh_cause_cropFamily" text="culture apparentée" />
+        <text name="fh_cause_previousCrop" text="mauvais précédent" />
+        <text name="fh_hint_fungicide" text="Traitement : fongicide" />
+        <text name="fh_hint_insecticide" text="Traitement : insecticide" />
+        <text name="fh_field_area" text="Surface du champ" />
+        <text name="fh_potential_harvest" text="Récolte potentielle" />
+        <text name="fh_potential_yield" text="Rendement potentiel" />
+
+        <!-- Notifications: field number, crop, threat, spray -->
+        <text name="fh_alert_new" text="Champ %s (%s) : nouvelle menace – %s. Traitement : %s." />
+        <text name="fh_alert_severe" text="Champ %s (%s) : menace grave – %s, la culture dépérit. Traitement : %s." />
+        <text name="fh_alert_neighbour" text="Champ %s (%s) : %s – propagation depuis un champ voisin. Traitement : %s." />
+
+        <!-- Map -->
+        <text name="fh_map_page" text="Protection des cultures" />
+        <text name="fh_map_layerProtection" text="Protection" />
+        <text name="fh_map_layerDiseases" text="Maladies" />
+        <text name="fh_map_layerPests" text="Ravageurs" />
+        <text name="fh_map_layerDiseaseTypes" text="Types de maladies" />
+        <text name="fh_map_layerPestTypes" text="Types de ravageurs" />
+        <text name="fh_map_notSprayed" text="Non protégé" />
+        <text name="fh_map_oneProduct" text="Un seul produit" />
+        <text name="fh_map_bothProducts" text="Fongicide et insecticide" />
+        <text name="fh_map_healthy" text="Culture saine" />
+        <text name="fh_map_low" text="Faible" />
+        <text name="fh_map_medium" text="Moyen" />
+        <text name="fh_map_high" text="Grave" />
+        <text name="fh_map_diseaseLabel" text="Maladie :" />
+        <text name="fh_map_pestLabel" text="Ravageurs :" />
+        <text name="fh_map_diseaseProtectionLabel" text="Protection maladies :" />
+        <text name="fh_map_pestProtectionLabel" text="Protection ravageurs :" />
+        <text name="fh_map_protectedUntilHarvest" text="active" />
+        <text name="input_FH_MINIMAP_LAYER" text="Field Health – couche protection des cultures sur la mini-carte" />
+
+        <!-- Settings -->
+        <text name="fh_config_brand" text="Marque" />
+        <text name="fh_settings_header" text="Field Health – maladies et ravageurs" />
+        <text name="fh_setting_enabled" text="Menaces sur les cultures" />
+        <text name="fh_setting_enabled_desc" text="Interrupteur général du mod. Désactivé, plus aucune maladie ni aucun ravageur n'apparaît, et les menaces déjà présentes cessent de se développer et de détruire les cultures. Les traitements fonctionnent toujours : vous pouvez donc éliminer ce qui reste sur vos champs." />
+        <text name="fh_setting_diseaseChance" text="Probabilité de maladie par saison" />
+        <text name="fh_setting_diseaseChance_desc" text="Probabilité de base qu'un champ cultivé normalement soit touché par une maladie au cours d'une saison (du semis à la récolte). Ce n'est qu'un point de départ : de bonnes pratiques (fumier, cultures intermédiaires, rotation, pH et azote adaptés) la réduisent, la négligence (pas d'engrais, monoculture, pas de labour, sol acide) la multiplie. Un traitement fongicide avant l'apparition d'une maladie la ramène à zéro jusqu'à la récolte. 0 % désactive les maladies." />
+        <text name="fh_setting_pestChance" text="Probabilité de ravageurs par saison" />
+        <text name="fh_setting_pestChance_desc" text="Probabilité de base que des ravageurs apparaissent sur un champ cultivé normalement au cours d'une saison. Vos pratiques la modifient : mauvaises herbes, monoculture et absence de labour l'augmentent, cultures intermédiaires et rotation la réduisent. Un traitement insecticide avant l'arrivée des ravageurs la ramène à zéro jusqu'à la récolte. 0 % désactive les ravageurs." />
+        <text name="fh_setting_careInfluence" text="Influence des pratiques" />
+        <text name="fh_setting_careInfluence_desc" text="À quel point votre façon de cultiver (fertilisation, travail du sol, rotation, cultures intermédiaires, mauvaises herbes, données de Precision Farming) modifie les probabilités de base. Aucune – seule la probabilité de base compte et tous les champs sont égaux. Faible – écarts modérés. Normale (recommandée) – les bonnes pratiques paient nettement. Forte – les champs négligés tombent très souvent malades, les champs bien entretenus presque jamais." />
+        <text name="fh_setting_weatherInfluence" text="Influence de la météo" />
+        <text name="fh_setting_weatherInfluence_desc" text="À quel point la météo des derniers jours (température et pluie) modifie la probabilité des menaces. Les maladies fongiques aiment la pluie et l'humidité, la plupart des ravageurs le temps chaud et sec, et chaque menace a sa propre plage de températures. Aucune – la météo ne compte pas. Faible – petits écarts. Normale (recommandée) – écarts nets. Forte – par temps favorable, les menaces apparaissent beaucoup plus souvent, par temps défavorable presque jamais." />
+        <text name="fh_setting_stubbleRisk" text="Risque lié aux chaumes" />
+        <text name="fh_setting_stubbleRisk_desc" text="Indique si des chaumes non broyés après la récolte augmentent le risque (surtout de pyrale et de maladies qui survivent sur les résidus). Cela ne compte qu'après une récolte sur le champ et si le champ n'a pas été labouré. Les traces de passage et les chemins qui traversent le champ ne comptent jamais comme chaumes. Désactivé – les chaumes ne changent rien au risque." />
+        <text name="fh_setting_fodderCrops" text="Menaces sur prairies et fourrages" />
+        <text name="fh_setting_fodderCrops_desc" text="Indique si les prairies, l'herbe, le trèfle et la luzerne peuvent être touchés par des maladies et des ravageurs. Désactivé (recommandé) – ces cultures ne sont jamais touchées, et les menaces déjà présentes disparaissent le lendemain. Activé – le trèfle et la luzerne peuvent avoir des pucerons ; les prairies et l'herbe, jamais." />
+        <text name="fh_setting_fieldInfo" text="Lignes dans les infos du champ" />
+        <text name="fh_setting_fieldInfo_desc" text="Indique si le panneau d'infos du champ affiche les menaces, le risque et la protection du champ. Désactivé – le panneau s'affiche comme sans le mod ; la carte et la mini-carte montrent toujours les champs." />
+        <text name="fh_setting_progression" text="Évolution des menaces" />
+        <text name="fh_setting_progression_desc" text="Vitesse à laquelle une menace non traitée passe au stade suivant : faible, puis moyen, puis grave. Lente – chaque mois de jeu, Normale – chaque demi-mois, Rapide – chaque quart de mois (au moins un jour). Seul le stade grave détruit les cultures : une évolution plus lente vous laisse donc plus de temps pour traiter." />
+        <text name="fh_setting_spread" text="Étendue des menaces" />
+        <text name="fh_setting_spread_desc" text="Part du champ qu'une menace non traitée peut couvrir. Petite – jusqu'à 2,5 %, Moyenne – jusqu'à 5 %, Grande – jusqu'à 10 % de la surface du champ. Un foyer s'étend de façon irrégulière sur ses bords et, de temps en temps, un nouveau foyer plus petit apparaît à côté – le plus souvent du côté où souffle le vent ce jour-là. Un traitement élimine complètement la menace." />
+        <text name="fh_setting_patchSize" text="Taille des foyers" />
+        <text name="fh_setting_patchSize_desc" text="Taille des foyers dans lesquels une nouvelle menace apparaît et se développe. Chaque foyer a une forme irrégulière et une taille aléatoire – les petits sont plus fréquents que les grands. Petits – foyers de 5 à 12 m de large en général, Normaux – 8 à 20 m, Grands – 12 à 30 m. Sur les petits champs, les foyers sont toujours plus petits." />
+        <text name="fh_setting_neighbourSpread" text="Propagation aux champs voisins" />
+        <text name="fh_setting_neighbourSpread_desc" text="Indique si une menace en bordure de champ peut passer sur le champ voisin d'un joueur. Cela n'arrive que si les champs se touchent ou ne sont séparés que par une bande très étroite, si l'autre champ porte une culture que la menace attaque, au bon stade de croissance, et s'il n'est pas traité. Les ravageurs passent plus souvent que les maladies, et seulement à partir du stade moyen. Les champs des PNJ ne sont jamais touchés. Désactivé, Rarement, Parfois, Souvent – probabilité nulle, divisée par deux, normale ou doublée." />
+        <text name="fh_setting_damage" text="Dégâts aux cultures" />
+        <text name="fh_setting_damage_desc" text="Quantité de culture qu'une menace grave détruit chaque jour. Les zones détruites ne donnent rien à la récolte. Désactivé – les menaces sont seulement visibles, le rendement ne change pas. Faibles, Normaux, Élevés – 1, 3 ou 6 petites zones de quelques mètres par jour, toujours à l'intérieur de la zone infestée." />
+        <text name="fh_setting_protectionThreshold" text="Couverture pour une protection totale" />
+        <text name="fh_setting_protectionThreshold_desc" text="Part du champ à traiter pour que tout le champ soit protégé contre ce type de menace (maladies ou ravageurs). Avec une couverture plus faible, une menace peut encore apparaître, mais seulement sur les parties non traitées – les zones traitées sont toujours protégées. Par défaut 90 %. Un seuil plus bas pardonne les coins et pointes oubliés, un seuil plus haut exige un traitement précis." />
+        <text name="fh_setting_protectionDuration" text="Durée de protection" />
+        <text name="fh_setting_protectionDuration_desc" text="Durée pendant laquelle le fongicide et l'insecticide protègent un champ. Jusqu'à la récolte – un seul traitement avec chaque produit protège le champ toute la saison (le plus simple). 2 mois, 1 mois, Un demi-mois – la protection prend fin ce délai après le dernier traitement du champ, et il faut traiter à nouveau, comme dans une vraie exploitation." />
+        <text name="fh_setting_fungicideUsage" text="Dose de fongicide" />
+        <text name="fh_setting_fungicideUsage_desc" text="Quantité de fongicide utilisée par un pulvérisateur par hectare. 100 % correspond à environ 290 litres de bouillie par hectare (comme l'herbicide), soit un flacon de 1 l par hectare. Une dose plus faible rend le traitement moins cher avec moins de remplissages, une dose plus forte le rend plus cher. L'effet du traitement reste toujours le même. Le changement s'applique immédiatement, même pendant le travail." />
+        <text name="fh_setting_insecticideUsage" text="Dose d'insecticide" />
+        <text name="fh_setting_insecticideUsage_desc" text="Quantité d'insecticide utilisée par un pulvérisateur par hectare. 100 % correspond à environ 290 litres de bouillie par hectare (comme l'herbicide), soit un flacon de 1 l pour 5 hectares. Une dose plus faible rend le traitement moins cher avec moins de remplissages, une dose plus forte le rend plus cher. L'effet du traitement reste toujours le même. Le changement s'applique immédiatement, même pendant le travail." />
+        <text name="fh_setting_fungicidePrice" text="Prix du flacon de fongicide" />
+        <text name="fh_setting_fungicidePrice_desc" text="Prix en magasin d'un flacon de 1 l de fongicide. Un flacon suffit pour 1 hectare (290 l de bouillie). Par défaut 50. Le jeu convertit les devises à 1:1. Le prix par litre de bouillie suit ce prix, par exemple à l'achat du liquide dans une station. Le changement s'applique immédiatement au magasin." />
+        <text name="fh_setting_insecticidePrice" text="Prix du flacon d'insecticide" />
+        <text name="fh_setting_insecticidePrice_desc" text="Prix en magasin d'un flacon de 1 l d'insecticide. Un flacon suffit pour 5 hectares (1450 l de bouillie). Par défaut 80. Le jeu convertit les devises à 1:1. Le prix par litre de bouillie suit ce prix, par exemple à l'achat du liquide dans une station. Le changement s'applique immédiatement au magasin." />
+        <text name="fh_setting_fungicideCanisterPrice" text="Prix du bidon de 5 l de fongicide" />
+        <text name="fh_setting_fungicideCanisterPrice_desc" text="Prix en magasin d'un bidon de 5 l de fongicide. Un bidon suffit pour 5 hectares (1450 l de bouillie). Par défaut 220, moins cher au litre que cinq flacons de 1 l, comme chez un vrai distributeur. Le jeu convertit les devises à 1:1. Le changement s'applique immédiatement au magasin." />
+        <text name="fh_setting_insecticideCanisterPrice" text="Prix du bidon de 5 l d'insecticide" />
+        <text name="fh_setting_insecticideCanisterPrice_desc" text="Prix en magasin d'un bidon de 5 l d'insecticide. Un bidon suffit pour 25 hectares (7250 l de bouillie). Par défaut 350, moins cher au litre que cinq flacons de 1 l, comme chez un vrai distributeur. Le jeu convertit les devises à 1:1. Le changement s'applique immédiatement au magasin." />
+        <text name="fh_setting_fungicideCanister20Price" text="Prix du bidon de 20 l de fongicide" />
+        <text name="fh_setting_fungicideCanister20Price_desc" text="Prix en magasin d'un bidon de 20 l de fongicide. Un bidon suffit pour 20 hectares (5800 l de bouillie). Par défaut 800, le moins cher au litre de tous les conditionnements. Le jeu convertit les devises à 1:1. Le changement s'applique immédiatement au magasin." />
+        <text name="fh_setting_insecticideCanister20Price" text="Prix du bidon de 20 l d'insecticide" />
+        <text name="fh_setting_insecticideCanister20Price_desc" text="Prix en magasin d'un bidon de 20 l d'insecticide. Un bidon suffit pour 100 hectares (29 000 l de bouillie). Par défaut 1200, le moins cher au litre de tous les conditionnements. Le jeu convertit les devises à 1:1. Le changement s'applique immédiatement au magasin." />
+        <text name="fh_setting_farmLimit" text="Limite de menaces par exploitation" />
+        <text name="fh_setting_farmLimit_desc" text="Nombre maximal de nouvelles menaces sur l'ensemble des champs de votre exploitation par année de jeu. Illimité – chaque champ a sa propre probabilité. Choisissez par exemple 1 ou 2 si vous avez beaucoup de champs et voulez que les maladies et les ravageurs restent rares." />
+        <text name="fh_setting_notifications" text="Notifications des menaces" />
+        <text name="fh_setting_notifications_desc" text="Affiche un message quand une maladie ou des ravageurs apparaissent sur votre champ, et quand une menace devient grave et commence à détruire la culture. Le message indique le champ, la culture, la menace et le produit à appliquer." />
+        <text name="fh_set_on" text="Activé" />
+        <text name="fh_set_off" text="Désactivé" />
+        <text name="fh_set_none" text="Aucune" />
+        <text name="fh_set_low" text="Faible" />
+        <text name="fh_set_normal" text="Normale" />
+        <text name="fh_set_high" text="Forte" />
+        <text name="fh_set_slow" text="Lente" />
+        <text name="fh_set_normalPace" text="Normale" />
+        <text name="fh_set_fast" text="Rapide" />
+        <text name="fh_set_small" text="Petite" />
+        <text name="fh_set_medium" text="Moyenne" />
+        <text name="fh_set_large" text="Grande" />
+        <text name="fh_set_damageLow" text="Faibles" />
+        <text name="fh_set_damageNormal" text="Normaux" />
+        <text name="fh_set_damageHigh" text="Élevés" />
+        <text name="fh_set_untilHarvest" text="Jusqu'à la récolte" />
+        <text name="fh_set_twoMonths" text="2 mois" />
+        <text name="fh_set_oneMonth" text="1 mois" />
+        <text name="fh_set_halfMonth" text="Un demi-mois" />
+        <text name="fh_set_unlimited" text="Illimité" />
+        <text name="fh_set_patchSmall" text="Petits" />
+        <text name="fh_set_patchNormal" text="Normaux" />
+        <text name="fh_set_patchLarge" text="Grands" />
+        <text name="fh_set_rarely" text="Rarement" />
+        <text name="fh_set_sometimes" text="Parfois" />
+        <text name="fh_set_often" text="Souvent" />
+
+        <!-- Shop -->
+        <text name="fh_fillType_insecticide" text="Insecticide" />
+        <text name="fh_fillType_fungicide" text="Fongicide" />
+        <text name="fh_store_fungicideBottle" text="Fongicide 1 l" />
+        <text name="fh_store_insecticideBottle" text="Insecticide 1 l" />
+        <text name="fh_store_fungicideCanister" text="Fongicide 5 l" />
+        <text name="fh_store_insecticideCanister" text="Insecticide 5 l" />
+        <text name="fh_store_fungicideCanister20" text="Fongicide 20 l" />
+        <text name="fh_store_insecticideCanister20" text="Insecticide 20 l" />
+        <text name="fh_function_fungicideBottle" text="Flacon de 1 l de produit concentré, dose 1 l/ha. Suffit pour 1 ha, soit 290 l de bouillie. Protège les cultures contre toutes les maladies. Posez-le à côté d'un pulvérisateur et remplissez celui-ci à partir du flacon." />
+        <text name="fh_function_insecticideBottle" text="Flacon de 1 l de produit concentré, dose 0,2 l/ha. Suffit pour 5 ha, soit 1450 l de bouillie. Protège les cultures contre les ravageurs : pucerons, lémas, méligèthes, doryphores, pyrale et taupins. Posez-le à côté d'un pulvérisateur et remplissez celui-ci à partir du flacon." />
+        <text name="fh_function_fungicideCanister" text="Bidon de 5 l de produit concentré, dose 1 l/ha. Suffit pour 5 ha, soit 1450 l de bouillie. Protège les cultures contre toutes les maladies. Moins cher au litre que les flacons de 1 l. Posez-le à côté d'un pulvérisateur et remplissez celui-ci à partir du bidon." />
+        <text name="fh_function_insecticideCanister" text="Bidon de 5 l de produit concentré, dose 0,2 l/ha. Suffit pour 25 ha, soit 7250 l de bouillie. Protège les cultures contre les ravageurs. Moins cher au litre que les flacons de 1 l. Posez-le à côté d'un pulvérisateur et remplissez celui-ci à partir du bidon." />
+        <text name="fh_function_fungicideCanister20" text="Bidon de 20 l de produit concentré, dose 1 l/ha. Suffit pour 20 ha, soit 5800 l de bouillie. Protège les cultures contre toutes les maladies. Le moins cher au litre, pour les grandes exploitations. Posez-le à côté d'un pulvérisateur et remplissez celui-ci à partir du bidon." />
+        <text name="fh_function_insecticideCanister20" text="Bidon de 20 l de produit concentré, dose 0,2 l/ha. Suffit pour 100 ha, soit 29 000 l de bouillie. Protège les cultures contre les ravageurs. Le moins cher au litre, pour les grandes exploitations. Posez-le à côté d'un pulvérisateur et remplissez celui-ci à partir du bidon." />
+
+        <!-- Help (ESC → Help) -->
+        <text name="fh_help_header" text="Field Health – maladies et ravageurs" />
+
+        <text name="fh_help_intro" text="Introduction" />
+        <text name="fh_help_intro_01" text="À propos du mod" />
+        <text name="fh_help_intro_02" text="Field Health ajoute au jeu les maladies et les ravageurs des cultures auxquels les agriculteurs en Pologne sont confrontés chaque jour. Ils apparaissent sur les champs de votre exploitation au cours de la saison, se développent et, si vous ne les combattez pas, détruisent une partie de la culture. Deux produits du magasin permettent de les combattre : le fongicide contre les maladies et l'insecticide contre les ravageurs.
+Le mod est réaliste, mais indulgent pour une partie détendue : une menace ne couvre jamais tout le champ, la culture n'est détruite qu'au stade le plus grave, et un seul traitement bien fait avec chaque produit protège le champ jusqu'à la fin de la saison." />
+        <text name="fh_help_intro_03" text="La saison étape par étape" />
+        <text name="fh_help_intro_04" text="1. Le semis ouvre la saison de la culture. Dès ce jour, la pression d'infection monte sur le champ – plus vite à la période de l'année et au stade de croissance où une menace attaque, par une météo qui lui convient et sur un champ négligé.
+2. Quand la pression dépasse le seuil tiré au sort pour le champ, un foyer de maladie ou de ravageurs apparaît. Vous recevez une notification avec le numéro du champ et le produit à appliquer.
+3. Une menace non traitée s'aggrave d'un stade tous les demi-mois et s'étend lentement. Au stade grave, elle détruit chaque jour la culture par petites zones.
+4. Le traitement élimine la menace et protège les zones traitées. Un champ traité presque entièrement est immunisé contre ce type de menace jusqu'à la récolte.
+5. La récolte clôt la saison : les menaces et la protection disparaissent, et la culture récoltée devient le précédent de la suivante." />
+        <text name="fh_help_intro_05" text="Chiffres clés" />
+        <text name="fh_help_intro_06" text="Valeurs par défaut. L'administrateur peut modifier chacune d'elles dans les paramètres (dernière colonne)." />
+        <text name="fh_help_intro_08" text="Où suivre l'état de vos champs" />
+        <text name="fh_help_intro_09" text="– Panneau d'infos du champ (quand vous êtes sur un champ) : les menaces et leur gravité, le risque et sa cause principale, la protection du champ.
+– Carte (ESC &gt; Carte &gt; Protection des cultures) : cinq couches – protection, maladies, ravageurs, types de maladies et types de ravageurs.
+– Mini-carte : changez de couche avec Alt gauche + \.
+– Notifications : nouvelle menace, passage au stade grave et menace venue d'un champ voisin." />
+        <text name="fh_help_origin" text="D'où viennent les menaces" />
+        <text name="fh_help_origin_01" text="Chaque champ d'un joueur avec une culture en croissance peut avoir au plus une maladie et un type de ravageur par saison. Les champs des PNJ, les peupliers et les cultures intermédiaires ne sont jamais touchés ; les prairies, l'herbe, le trèfle et la luzerne seulement si c'est activé dans les paramètres.
+Une menace n'apparaît pas un jour au hasard. Chaque jour, le mod calcule la pression d'infection sur le champ et l'ajoute à la somme des jours précédents. Au début de la saison, le champ reçoit un seuil de résistance aléatoire – quand la somme de la pression le dépasse, le champ est infecté. C'est pourquoi une menace apparaît tôt une saison, tard une autre, et pas du tout une troisième." />
+        <text name="fh_help_origin_02" text="Ce qui fait monter la pression" />
+        <text name="fh_help_origin_03" text="1. La probabilité de base des paramètres – par défaut 15 % pour une maladie et 10 % pour les ravageurs sur une saison.
+2. Le risque du champ, c'est-à-dire votre façon de le cultiver : fertilisation, travail du sol, rotation et mauvaises herbes (page « Vos pratiques culturales »).
+3. La fréquence de la menace en Pologne – les maladies et ravageurs courants apparaissent bien plus souvent que les rares (pages « Maladies » et « Ravageurs »).
+4. La période de l'année et le stade de croissance – hors de sa période, une menace n'attaque pas du tout (page « Saisons et stades de croissance »).
+5. La météo des derniers jours – la pluie favorise les maladies fongiques, la chaleur et la sécheresse la plupart des ravageurs (page « Météo »)." />
+        <text name="fh_help_origin_04" text="Probabilité par saison" />
+        <text name="fh_help_origin_05" text="Voici comment le risque du champ modifie la probabilité d'une menace sur toute la saison avec les paramètres par défaut :" />
+        <text name="fh_help_origin_07" text="Le tableau vaut pour une culture avec un nombre moyen de menaces, qui pousse pendant toute leur période. Les cultures attaquées par beaucoup de maladies ou de ravageurs courants sont touchées plus souvent (jusqu'à 1,4 fois), celles qui ont peu de menaces moins souvent (jusqu'à 0,5 fois) :" />
+        <text name="fh_help_origin_09" text="Quelle menace apparaît" />
+        <text name="fh_help_origin_10" text="Lors d'une infection, le mod choisit l'une des menaces qui peuvent attaquer la culture ce jour-là. La probabilité de chacune est proportionnelle à sa pression du jour : sa fréquence multipliée par le risque du champ, la période de l'année et la météo. Exemple : sur du blé en mai par temps pluvieux, ce sont le plus souvent la septoriose ou l'oïdium qui apparaissent, alors que la rouille noire, rare et qui aime la chaleur, n'apparaît presque jamais." />
+        <text name="fh_help_origin_11" text="Traiter avant l'infection" />
+        <text name="fh_help_origin_12" text="Si, au moment de l'infection, le champ est traité avec le bon produit sur au moins 90 % de sa surface, l'infection échoue et le champ n'aura aucune menace de ce type cette saison. Avec une couverture plus faible, la menace peut apparaître, mais seulement sur les parties non traitées." />
+        <text name="fh_help_timing" text="Saisons et stades de croissance" />
+        <text name="fh_help_timing_01" text="Chaque maladie et chaque ravageur a sa période : il n'attaque que certains mois et seulement à certains stades de croissance de la culture. Pendant cette période, il connaît un pic où il est le plus dangereux. Hors de sa période, une menace n'apparaît pas du tout – elle ne peut pas non plus venir d'un champ voisin." />
+        <text name="fh_help_timing_02" text="Stades de croissance" />
+        <text name="fh_help_timing_04" text="Le mod déduit le stade de l'état de croissance de la culture dans le jeu : les premiers 20 % du temps de croissance correspondent à la levée, jusqu'à 45 % au développement des feuilles et au tallage, jusqu'à 70 % à la montaison ou au boutonnage, viennent ensuite l'épiaison et la floraison, et une culture prête à être récoltée est mûre. Les mois suivent le calendrier du jeu (la première période de l'année est mars) : le nombre de jours par période ne change donc rien au moment où les menaces attaquent." />
+        <text name="fh_help_timing_05" text="Calendrier – quand être vigilant" />
+        <text name="fh_help_timing_06" text="Les mois principaux sont ceux où la pression du groupe de menaces sur la culture est la plus forte. Un traitement peu avant ces mois évite la plupart des infections." />
+        <text name="fh_help_farming" text="Vos pratiques culturales" />
+        <text name="fh_help_farming_01" text="Le risque du champ est un multiplicateur de la pression d'infection qui dépend de votre façon de cultiver le champ. Le mod le calcule séparément pour chaque menace ; le panneau d'infos du champ affiche le risque le plus élevé de maladie et de ravageurs, ainsi que la cause principale. Les multiplicateurs des tableaux se multiplient entre eux, et le résultat reste toujours entre 0,3 et 5." />
+        <text name="fh_help_farming_03" text="Fertilisation" />
+        <text name="fh_help_farming_05" text="Travail du sol et mauvaises herbes" />
+        <text name="fh_help_farming_07" text="Les valeurs correspondent à un champ complètement négligé – une négligence partielle augmente le risque en proportion. Seuls les travaux activés dans les paramètres du jeu comptent : si le labour n'est pas obligatoire, ne pas labourer ne change rien. Le mod vérifie le champ en 36 points, uniquement là où la culture pousse : les traces de passage et les chemins qui traversent le champ ne comptent donc pas comme négligence. Les chaumes non broyés et l'absence de roulage ne comptent comme négligence que s'ils concernent les trois quarts du champ. Les chaumes ne comptent qu'après une récolte sur ce champ et pas après un labour (le paramètre « Risque lié aux chaumes » les désactive complètement). Dans FS25, les mauvaises herbes ne poussent pas après un labour." />
+        <text name="fh_help_farming_08" text="Rotation et cultures intermédiaires" />
+        <text name="fh_help_farming_10" text="Le paramètre « Influence des pratiques » renforce ou affaiblit tous ces facteurs à la fois. Aucune – chaque champ a un risque de 1. Faible – les écarts sont environ deux fois plus petits. Normale – comme dans les tableaux. Forte – les écarts sont 1,5 fois plus grands." />
+        <text name="fh_help_weather" text="Météo" />
+        <text name="fh_help_weather_01" text="À chaque heure de jeu, le mod relève la température et vérifie s'il pleut. En fin de journée, il calcule la température moyenne du jour et la part des heures pluvieuses. L'humidité a une mémoire : la moitié vient du dernier jour et l'autre moitié des jours précédents, car les feuilles restent mouillées longtemps après la pluie. Chaque menace a un profil météo – une plage de températures et une réaction à la pluie." />
+        <text name="fh_help_weather_03" text="Une température hors de la plage abaisse la pression à 0,4 fois, une température dans l'optimum l'élève à 1,2 fois. La pluie fait varier la pression de 0,4 à 1,8 fois – vers le haut pour les menaces qui aiment l'humidité, vers le bas pour celles qui aiment la sécheresse. Au total, la météo fait varier la pression de 0,2 à 2,5 fois. Exemples de multiplicateurs après quelques jours d'un tel temps (rouge – la menace progresse, vert – elle recule) :" />
+        <text name="fh_help_weather_05" text="Le paramètre « Influence de la météo » : Aucune – la météo ne compte pas, Faible – multiplicateurs atténués, Normale – comme dans le tableau, Forte – plus marqués. Après quelques jours chauds et pluvieux en été, surveillez surtout les pommes de terre et les céréales à l'épiaison, et par un été sec et chaud, les ravageurs." />
+        <text name="fh_help_diseases" text="Maladies" />
+        <text name="fh_help_diseases_01" text="Le fongicide combat toutes les maladies. Les tableaux indiquent la fréquence d'une maladie en Pologne, les cultures qu'elle attaque, les mois où elle apparaît et où elle est la plus forte, le stade de croissance où elle fait le plus de dégâts et ce qui la favorise." />
+        <text name="fh_help_diseases_03" text="Céréales et maïs" />
+        <text name="fh_help_diseases_05" text="Autres cultures" />
+        <text name="fh_help_diseases_07" text="Les cultures des cartes que le mod ne connaît pas peuvent avoir de la pourriture grise et des pucerons. Les oignons de l'extension Highlands Fishing et des mods sont reconnus automatiquement." />
+        <text name="fh_help_pests" text="Ravageurs" />
+        <text name="fh_help_pests_01" text="L'insecticide combat tous les ravageurs. Les colonnes des tableaux ont le même sens que sur la page « Maladies »." />
+        <text name="fh_help_pests_02" text="Céréales et maïs" />
+        <text name="fh_help_pests_04" text="Autres cultures" />
+        <text name="fh_help_progress" text="Évolution d'une menace" />
+        <text name="fh_help_progress_01" text="Une nouvelle menace prend la forme d'un ou deux foyers irréguliers, aux bords effilochés et avec des trouées saines à l'intérieur. Elle commence au stade faible. Si vous ne la combattez pas, elle passe par les étapes suivantes :" />
+        <text name="fh_help_progress_03" text="Une culture détruite ne repousse pas et ne donne rien à la récolte. Traiter à l'avance ou juste après la notification revient donc le moins cher. Un traitement à n'importe quel stade élimine complètement la menace des zones traitées." />
+        <text name="fh_help_spraying" text="Traitements et protection" />
+        <text name="fh_help_spraying_01" text="Les produits sont fabriqués par la société polonaise Opryskex : le fongicide Grzybobój 250 EC (étiquette verte) et l'insecticide Robalex 100 CS (étiquette rouge). À l'achat, vous pouvez choisir à la place la marque MST (Mafia Solec Team) : Solectop 280 SC et Mafiozol 50 EW. Ils agissent de la même façon, seule l'étiquette change. Vous les trouvez au magasin en flacons de 1 l et en bidons de 5 l et 20 l. Posez le conditionnement à côté du pulvérisateur et remplissez celui-ci comme depuis une palette. Le jeu ne mélange pas le concentré avec de l'eau : le contenu d'un conditionnement représente donc toute la bouillie qu'il permet de préparer. Plus le conditionnement est grand, moins il coûte à l'hectare." />
+        <text name="fh_help_spraying_03" text="Fonctionnement de la protection" />
+        <text name="fh_help_spraying_05" text="Attention" />
+        <text name="fh_help_spraying_06" text="– Traitez après la levée – le semis et la récolte suppriment la protection.
+– Le fongicide ne protège pas contre les ravageurs, ni l'insecticide contre les maladies. Une protection complète demande les deux.
+– Les pointes et fourrières oubliées comptent : en dessous de 90 % de couverture, une menace peut apparaître sur les bandes non traitées.
+– Les produits ne fertilisent pas et ne détruisent pas les mauvaises herbes.
+– Avec une durée de protection plus courte (paramètre), la protection de tout le champ prend fin ce délai après le dernier traitement." />
+        <text name="fh_help_map" text="Carte et infos du champ" />
+        <text name="fh_help_map_01" text="Panneau d'infos du champ" />
+        <text name="fh_help_map_02" text="Quand vous êtes sur un champ, le panneau d'infos du champ affiche :
+– Maladie et Ravageurs : la menace active et sa gravité (faible, moyen, grave),
+– Risque maladies et Risque ravageurs : faible, normal, accru ou élevé, et à partir d'accru aussi la cause principale,
+– Protection maladies et Protection ravageurs : la part du champ traitée,
+– une indication du produit qui combat la menace." />
+        <text name="fh_help_map_03" text="Carte" />
+        <text name="fh_help_map_04" text="Dans ESC &gt; Carte, choisissez la page « Protection des cultures ». Sous son titre, un second sélecteur à flèches permet de passer d'une couche à l'autre (cinq au total). Un clic sur une entrée de la légende la masque sur la carte. Seuls les champs de votre exploitation avec une culture en croissance sont affichés. Cliquez sur une parcelle pour voir les menaces et la protection de ses champs." />
+        <text name="fh_help_map_06" text="Couleurs des types de menaces" />
+        <text name="fh_help_map_08" text="Mini-carte" />
+        <text name="fh_help_map_09" text="Alt gauche + \ change la couche de la mini-carte : protection, maladies, ravageurs et aucune couche. Vous pouvez modifier les touches pendant la partie dans ESC &gt; Paramètres &gt; Commandes, entrée « Field Health – couche protection des cultures sur la mini-carte » (le menu principal n'affiche pas les touches des mods, car les mods sont chargés avec la sauvegarde)." />
+        <text name="fh_help_pf" text="Precision Farming" />
+        <text name="fh_help_pf_01" text="Avec Precision Farming, Field Health fonctionne comme une extension de celui-ci et utilise ses cartes de sol. Au lieu de la fertilisation en général, c'est l'azote comparé à l'objectif qui compte, et au lieu du chaulage en général, le pH du sol." />
+        <text name="fh_help_pf_03" text="La meilleure protection, c'est le même travail que pour le rendement : fertiliser jusqu'à l'objectif, chauler jusqu'au pH optimal et implanter des cultures intermédiaires. La commande de console fhPrecisionFarming écrit dans le log comment le mod lit les données de Precision Farming." />
+        <text name="fh_help_settings" text="Paramètres" />
+        <text name="fh_help_settings_01" text="Les paramètres du mod se trouvent dans ESC &gt; Paramètres &gt; Jeu, dans la section « Field Health – maladies et ravageurs ». Ils sont enregistrés avec la sauvegarde. En multijoueur, seul l'administrateur du serveur peut les modifier. Survolez une option pour afficher sa description." />
+        <text name="fh_help_tips" text="Conseils" />
+        <text name="fh_help_tips_01" text="Un plan pour des champs sains" />
+        <text name="fh_help_tips_02" text="1. Fertilisez selon les besoins, chaulez et ne semez pas la même culture deux années de suite. Implantez une culture intermédiaire entre les cultures principales.
+2. Avant les mois principaux des menaces (page « Saisons et stades de croissance »), traitez le champ au fongicide et à l'insecticide. Une fois par saison suffit si vous couvrez au moins 90 % du champ.
+3. Consultez la couche « Protection » sur la carte – les champs verts sont protégés contre les deux types de menaces.
+4. Après une notification, traitez le champ indiqué avec le produit indiqué avant que la menace n'atteigne le stade grave.
+5. Un ouvrier IA équipé de fongicide ou d'insecticide traite entièrement les champs non protégés, et les champs protégés seulement là où se trouve une menace." />
+        <text name="fh_help_tips_03" text="Attention" />
+        <text name="fh_help_tips_04" text="– La monoculture et l'absence de labour sont les causes les plus fréquentes d'un risque élevé : par exemple, un blé sur blé sans labour favorise la septoriose, l'helminthosporiose et la fusariose.
+– Le maïs avant le blé augmente nettement le risque de fusariose, la prairie avant les pommes de terre celui des taupins.
+– Le lisier et l'engrais liquide donnent une végétation luxuriante, qu'apprécient l'oïdium, les rouilles et les pucerons.
+– Un été pluvieux est la période du mildiou, de la septoriose et de la fusariose ; un été sec et chaud, celle des pucerons, des doryphores, des thrips et des vers gris.
+– Le colza connaît deux périodes dangereuses : l'automne (altises, tenthrède, phoma) et le printemps (charançon de la tige, méligèthes, sclérotinia).
+– Une menace au stade moyen ou grave peut passer sur le champ contigu d'un joueur." />
+        <text name="fh_help_admin" text="Pour l'administrateur" />
+        <text name="fh_help_admin_01" text="Commandes de console" />
+        <text name="fh_help_admin_03" text="Multijoueur, sauvegarde et compatibilité" />
+        <text name="fh_help_admin_04" text="– La simulation tourne sur le serveur, et les joueurs en voient les résultats. Les paramètres et les commandes fhSet, fhClear et fhDailyTick sont réservés à l'administrateur.
+– Les notifications vont aux joueurs de l'exploitation à qui appartient le champ, chacun dans sa langue.
+– Le mod enregistre ses données uniquement dans deux fichiers à lui dans le dossier de la sauvegarde : fieldHealth.xml et fieldHealthMap.grle. Il peut être retiré sans risque – le jeu ignore ces fichiers, et seuls les flacons et bidons des produits disparaissent de la carte.
+– Les sauvegardes d'une version antérieure du mod sont converties au nouveau format au chargement.
+– Les oignons de l'extension Highlands Fishing et des mods sont reconnus automatiquement – le log l'indique.
+– N'utilisez pas en même temps un autre mod de maladies des cultures (par ex. Crop Diseases) – Field Health le signale dans le log." />
+        <text name="fh_help_admin_05" text="Crédits" />
+        <text name="fh_help_admin_06" text="Field Health – auteur : MatrikSky. Idée reprise du mod « Crop Diseases » de BMP. Le modèle du flacon est basé sur « fertilizer Bottle » de shabanimate, celui du bidon sur « #6 Plastic Canister » de hoxsvl (tous deux CC BY 4.0, sketchfab.com)." />
+        <text name="fh_help_tableLanguage" text="en" />
+
+
+
+
+
+
+
+
+
+
+    </texts>
+</l10n>
