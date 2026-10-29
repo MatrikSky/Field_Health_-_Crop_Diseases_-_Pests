@@ -33,7 +33,7 @@
         <input allowed="false"/>
         <canBeReset>false</canBeReset>
         <components>
-            <component centerOfMass="0 0.1 0" solverIterationCount="10" mass="7" />
+            <component centerOfMass="0 0.1 0" solverIterationCount="10" mass="5.4" />
         </components>
         <showInVehicleMenu>false</showInVehicleMenu>
         <mapHotspot available="false" />

@@ -36,8 +36,8 @@
         <input allowed="false"/>
         <canBeReset>false</canBeReset>
         <supportsPickUp>true</supportsPickUp>
-        <components maxMass="30">
-            <component centerOfMass="0 0.08 0" solverIterationCount="10" mass="25" />
+        <components maxMass="26">
+            <component centerOfMass="0 0.19 0" solverIterationCount="10" mass="21.2" />
         </components>
         <showInVehicleMenu>false</showInVehicleMenu>
         <mapHotspot available="false" />

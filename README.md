@@ -870,6 +870,6 @@ And thanks to everyone who plays the mod, reports bugs and shares ideas.
 
 **Have fun and healthy fields!** 🌱
 
-<sub>Field Health 1.2.0.0 • made by MatrikSky</sub>
+<sub>Field Health 1.2.1.0 • made by MatrikSky</sub>
 
 </div>

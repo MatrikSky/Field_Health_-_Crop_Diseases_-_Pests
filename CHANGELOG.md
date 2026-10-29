@@ -16,6 +16,17 @@ Versions have four numbers, **A.B.C.D**:
 Raising a number sets the numbers after it to 0: 1.2.3.4 → 1.3.0.0. When a version brings several kinds of changes, the highest one counts.
 **Every version loads the savegames of all earlier versions**, so nothing you own or set in the game is lost by an update.
 
+## [1.2.1.0] - 2026-10-29
+
+### Changed
+
+- Bottles and canisters have simpler collisions with a flat bottom and straight sides: 24 points instead of 96. They are lighter for the physics and stand straight on concrete instead of leaning.
+- Realistic weight of the full bottles and canisters: 1.1 kg for the 1 l bottle, 5.4 kg for the 5 l canister and 21.2 kg for the 20 l canister.
+
+### Fixed
+
+- A thrown bottle can now fall over, and a canister lying on its side stays there instead of standing up again by itself. The centre of mass was too low and every turn was slowed down.
+
 ## [1.2.0.0] - 2026-10-29
 
 ### Added
@@ -63,6 +74,7 @@ The first public release.
 - A map page "Crop protection" with five layers, a minimap layer (Left Alt + \\), field info lines, farmland info and notifications.
 - 25 settings in the game menu, Precision Farming support, onions of the Highlands Fishing DLC, full in-game help, English and Polish, multiplayer.
 
+[1.2.1.0]: https://github.com/MatrikSky/Field_Health_-_Crop_Diseases_-_Pests/releases/tag/v1.2.1.0
 [1.2.0.0]: https://github.com/MatrikSky/Field_Health_-_Crop_Diseases_-_Pests/releases/tag/v1.2.0.0
 [1.1.0.0]: https://github.com/MatrikSky/Field_Health_-_Crop_Diseases_-_Pests/releases/tag/v1.1.0.0
 [1.0.0.0]: https://github.com/MatrikSky/Field_Health_-_Crop_Diseases_-_Pests/releases/tag/v1.0.0.0
