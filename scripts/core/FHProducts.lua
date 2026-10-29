@@ -20,7 +20,8 @@ FHProducts.CONTAINERS = {
     {fillType = "INSECTICIDE", priceSetting = "insecticideCanister20Price", litres = 29000, file = "insecticideCanister20"}
 }
 
--- Spray effects are borrowed from these vanilla liquids, in this order.
+-- Spray effect materials are borrowed from these vanilla liquids; where both
+-- have one, the first wins.
 FHProducts.EFFECT_SOURCES = {"HERBICIDE", "LIQUIDFERTILIZER"}
 
 function FHProducts:load()
@@ -57,6 +58,11 @@ function FHProducts:getCategory(fillTypeIndex)
     return fillTypeIndex ~= nil and self.categoryOf ~= nil and self.categoryOf[fillTypeIndex] or nil
 end
 
+-- True for the fill type of one of the liquids, also while the mod is off.
+function FHProducts:isLiquid(fillType)
+    return type(fillType) == "table" and (FHProducts.LIQUIDS[fillType.name or ""] ~= nil or self:getCategory(fillType.index) ~= nil)
+end
+
 function FHProducts:getVehicleCategory(vehicle)
     if vehicle == nil or vehicle.getSprayerFillUnitIndex == nil or vehicle.getFillUnitFillType == nil then
         return nil
@@ -90,27 +96,116 @@ function FHProducts:registerSprayTypes()
     end
 end
 
--- Gives the liquids the spray effect materials of a vanilla liquid, unless
--- another mod already defined some for them.
-function FHProducts:borrowSprayEffects()
-    local manager = g_materialManager
-    if manager == nil or manager.addMaterial == nil then
+-- Sprayers show the spray with the material of the liquid in the tank. The
+-- game registers the materials of herbicide and liquid fertilizer while the
+-- map loads, after the mods have started, so the liquids borrow each one when
+-- it is registered (hook in FHHooks).
+
+-- What the liquids borrowed, per material table of the game (each game
+-- session has its own): "fill type|material type|index" -> {rank, material}
+local borrowed = setmetatable({}, {__mode = "k"})
+
+-- Rank of a fill type among the effect sources (1 = first choice), or nil.
+local function getSourceRank(fillTypeIndex)
+    if fillTypeIndex == nil or g_fillTypeManager == nil then
+        return nil
+    end
+    for rank, name in ipairs(FHProducts.EFFECT_SOURCES) do
+        if g_fillTypeManager:getFillTypeIndexByName(name) == fillTypeIndex then
+            return rank
+        end
+    end
+    return nil
+end
+
+-- Gives the liquids one material of an effect source. A material of their
+-- own (from another mod) is kept, and one borrowed from a source ranked
+-- higher is not replaced.
+function FHProducts:borrowMaterial(manager, rank, materialType, materialIndex, materialId)
+    local materials = manager.materials
+    if type(materials) ~= "table" or materialType == nil or materialIndex == nil or materialId == nil then
         return
+    end
+    local records = borrowed[materials]
+    if records == nil then
+        records = {}
+        borrowed[materials] = records
     end
 
     for name in pairs(FHProducts.LIQUIDS) do
         local target = g_fillTypeManager:getFillTypeIndexByName(name)
-        for _, sourceName in ipairs(FHProducts.EFFECT_SOURCES) do
-            local source = g_fillTypeManager:getFillTypeIndexByName(sourceName)
-            local materials = source ~= nil and manager.materials ~= nil and manager.materials[source] or nil
-            for materialType, byIndex in pairs(materials or {}) do
-                for materialIndex, materialId in pairs(byIndex) do
-                    if target ~= nil and manager:getMaterial(target, materialType, materialIndex) == nil then
-                        manager:addMaterial(target, materialType, materialIndex, materialId)
-                    end
-                end
+        if target ~= nil then
+            local byIndex = materials[target] ~= nil and materials[target][materialType] or nil
+            local current = byIndex ~= nil and byIndex[materialIndex] or nil
+            local key = string.format("%s|%s|%s", tostring(target), tostring(materialType), tostring(materialIndex))
+            local record = records[key]
+            if current == nil then
+                manager:addMaterial(target, materialType, materialIndex, materialId)
+                records[key] = {rank = rank, material = materialId}
+            elseif record ~= nil and record.material == current and rank <= record.rank then
+                -- replaced in place: registering it again makes the game warn
+                -- about a material defined twice
+                byIndex[materialIndex] = materialId
+                record.rank, record.material = rank, materialId
             end
         end
+    end
+end
+
+-- Called for every material the game registers.
+function FHProducts:onMaterialAdded(manager, fillTypeIndex, materialType, materialIndex, materialId)
+    local rank = getSourceRank(fillTypeIndex)
+    if rank ~= nil then
+        self:borrowMaterial(manager, rank, materialType, materialIndex, materialId)
+    end
+end
+
+-- Borrows the materials the game has registered so far.
+function FHProducts:borrowSprayEffects()
+    local manager = g_materialManager
+    if manager == nil or type(manager.materials) ~= "table" or g_fillTypeManager == nil then
+        return
+    end
+    for rank, name in ipairs(FHProducts.EFFECT_SOURCES) do
+        local source = g_fillTypeManager:getFillTypeIndexByName(name)
+        for materialType, byIndex in pairs(source ~= nil and manager.materials[source] or {}) do
+            for materialIndex, materialId in pairs(byIndex) do
+                self:borrowMaterial(manager, rank, materialType, materialIndex, materialId)
+            end
+        end
+    end
+end
+
+-- Once the game runs: borrows what got past the hook (e.g. through a hook of
+-- another mod) and says in the log when the liquids still have no spray
+-- effect although herbicide or liquid fertilizer have one.
+function FHProducts:checkSprayEffects()
+    self:borrowSprayEffects()
+    local manager = g_materialManager
+    if manager == nil or manager.getMaterial == nil or g_fillTypeManager == nil then
+        return
+    end
+    local function hasSprayEffect(name)
+        local index = g_fillTypeManager:getFillTypeIndexByName(name)
+        return index ~= nil and manager:getMaterial(index, "sprayer", 1) ~= nil
+    end
+
+    local sourceHasEffect = false
+    for _, name in ipairs(FHProducts.EFFECT_SOURCES) do
+        sourceHasEffect = sourceHasEffect or hasSprayEffect(name)
+    end
+    local missing = {}
+    if sourceHasEffect then
+        for name in pairs(FHProducts.LIQUIDS) do
+            if g_fillTypeManager:getFillTypeIndexByName(name) ~= nil and not hasSprayEffect(name) then
+                missing[#missing + 1] = name
+            end
+        end
+    end
+    if #missing > 0 then
+        table.sort(missing)
+        FHUtil.log("Warning: %s got no spray effect from %s; sprayers apply them without a visible spray",
+            table.concat(missing, ", "), table.concat(FHProducts.EFFECT_SOURCES, "/"))
     end
 end
 

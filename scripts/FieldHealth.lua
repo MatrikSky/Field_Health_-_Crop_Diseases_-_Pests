@@ -2,7 +2,7 @@
 -- in a fixed order and forwards the frame updates.
 FieldHealth = {}
 
-FieldHealth.VERSION = "1.1.0.0"
+FieldHealth.VERSION = "1.2.0.0"
 -- other mods that do the same job and would spray, colour and save twice
 FieldHealth.OVERLAPPING_MODS = {"FS25_CropDiseases_BMP", "FS25_CropDiseases"}
 
@@ -13,24 +13,53 @@ function FieldHealth:loadMap()
         end
     end
 
+    self.failed = false
     FHUtil.resetFieldCache()
     FHSettings.reset()
     FHUtil.protect("crop detection", FieldHealth.detectCrops)
+
+    -- Without its core the mod stays off for this game session. It then
+    -- saves nothing, so its data in the savegame stays as it was.
+    local started, message = pcall(FieldHealth.start)
+    if not started then
+        FHUtil.reportError("starting", message)
+        FHUtil.log("Field Health is off for this game session; its savegame data is kept unchanged")
+        FieldHealth.stop()
+        self.failed = true
+        return
+    end
+
+    FHUtil.protect("minimap", FHMiniMap.load, FHMiniMap)
+    FHUtil.protect("console", FHConsole.register, FHConsole)
+    self.gameStartPending = true
+    FHUtil.log("Version %s loaded", FieldHealth.VERSION)
+end
+
+-- Field map, simulation, products, network and the savegame data.
+function FieldHealth.start()
     local directory = g_server ~= nil and FHUtil.getSavegameDirectory(false) or nil
+    if directory ~= nil then
+        FHSavegame.checkVersion(directory)
+    end
     local mapFromFile = FHFieldMap:load(directory)
     FHDisplayMap:load()
     FHSimulation:load()
     FHProducts:load()
     FHNetwork:load()
-    FHMiniMap:load()
-    FHConsole:register()
 
     if g_server ~= nil then
-        FHUtil.protect("loading savegame data", FHSavegame.load)
+        FHSavegame.load(directory)
         FHSimulation:onDataLoaded(mapFromFile)
     end
-    self.helpPending = true
-    FHUtil.log("Version %s loaded", FieldHealth.VERSION)
+end
+
+-- Stops the core modules; each one even when another fails.
+function FieldHealth.stop()
+    FHUtil.protect("stopping the network", FHNetwork.unload, FHNetwork)
+    FHUtil.protect("stopping the products", FHProducts.unload, FHProducts)
+    FHUtil.protect("stopping the simulation", FHSimulation.unload, FHSimulation)
+    FHUtil.protect("stopping the display map", FHDisplayMap.unload, FHDisplayMap)
+    FHUtil.protect("stopping the field map", FHFieldMap.unload, FHFieldMap)
 end
 
 -- Crops of DLCs and mods, e.g. onions of the Highlands Fishing Expansion.
@@ -50,22 +79,23 @@ function FieldHealth.detectCrops()
 end
 
 function FieldHealth:deleteMap()
-    FHConsole:unregister()
-    FHMiniMap:unload()
-    FHMapPage.unload()
-    FHNetwork:unload()
-    FHProducts:unload()
-    FHSimulation:unload()
-    FHDisplayMap:unload()
-    FHFieldMap:unload()
+    FHUtil.protect("console", FHConsole.unregister, FHConsole)
+    FHUtil.protect("minimap", FHMiniMap.unload, FHMiniMap)
+    FHUtil.protect("map page", FHMapPage.unload)
+    FieldHealth.stop()
     FHUtil.resetFieldCache()
 end
 
 function FieldHealth:update(dt)
-    -- the help pages of all mods are loaded once the game runs
-    if self.helpPending then
-        self.helpPending = false
+    if self.failed then
+        return
+    end
+    -- once the game runs, the help pages of all mods and the spray effect
+    -- materials are loaded
+    if self.gameStartPending then
+        self.gameStartPending = false
         FHUtil.protect("help", FHHelp.onGameStarted)
+        FHUtil.protect("spray effects", FHProducts.checkSprayEffects, FHProducts)
     end
     FHUtil.protect("simulation", FHSimulation.update, FHSimulation, dt)
     FHUtil.protect("network", FHNetwork.update, FHNetwork, dt)
@@ -74,7 +104,9 @@ function FieldHealth:update(dt)
 end
 
 function FieldHealth:draw()
-    FHFieldMap:drawDebug()
+    if not self.failed then
+        FHUtil.protect("debug view", FHFieldMap.drawDebug, FHFieldMap)
+    end
 end
 
 addModEventListener(FieldHealth)

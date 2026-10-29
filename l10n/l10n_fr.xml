@@ -372,7 +372,7 @@ Une menace n'apparaît pas un jour au hasard. Chaque jour, le mod calcule la pre
 – N'utilisez pas en même temps un autre mod de maladies des cultures (par ex. Crop Diseases) – Field Health le signale dans le log." />
         <text name="fh_help_admin_05" text="Crédits" />
         <text name="fh_help_admin_06" text="Field Health – auteur : MatrikSky. Idée reprise du mod « Crop Diseases » de BMP. Le modèle du flacon est basé sur « fertilizer Bottle » de shabanimate, celui du bidon sur « #6 Plastic Canister » de hoxsvl (tous deux CC BY 4.0, sketchfab.com)." />
-        <text name="fh_help_tableLanguage" text="en" />
+        <text name="fh_help_tableLanguage" text="fr" />
 
 
 

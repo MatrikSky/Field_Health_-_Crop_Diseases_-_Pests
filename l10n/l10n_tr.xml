@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+    <texts>
+        <!-- Diseases (full and short name) -->
+        <text name="fh_disease_cereal_mildew" text="Tahıl küllemesi" />
+        <text name="fh_disease_cereal_mildew_short" text="Külleme" />
+        <text name="fh_disease_septoria" text="Septorya yaprak lekesi" />
+        <text name="fh_disease_septoria_short" text="Septorya" />
+        <text name="fh_disease_brown_rust" text="Kahverengi pas" />
+        <text name="fh_disease_brown_rust_short" text="Kahverengi pas" />
+        <text name="fh_disease_fusarium" text="Fusaryum" />
+        <text name="fh_disease_fusarium_short" text="Fusaryum" />
+        <text name="fh_disease_net_blotch" text="Arpa ağ benek hastalığı" />
+        <text name="fh_disease_net_blotch_short" text="Ağ benek" />
+        <text name="fh_disease_snow_mould" text="Kar küfü" />
+        <text name="fh_disease_snow_mould_short" text="Kar küfü" />
+        <text name="fh_disease_sclerotinia" text="Sklerotinya sap çürüklüğü" />
+        <text name="fh_disease_sclerotinia_short" text="Sklerotinya" />
+        <text name="fh_disease_alternaria" text="Alternarya" />
+        <text name="fh_disease_alternaria_short" text="Alternarya" />
+        <text name="fh_disease_late_blight" text="Patates mildiyösü" />
+        <text name="fh_disease_late_blight_short" text="Mildiyö" />
+        <text name="fh_disease_cercospora" text="Serkospora yaprak lekesi" />
+        <text name="fh_disease_cercospora_short" text="Serkospora" />
+        <text name="fh_disease_grey_mould" text="Kurşuni küf" />
+        <text name="fh_disease_grey_mould_short" text="Kurşuni küf" />
+        <text name="fh_disease_yellow_rust" text="Sarı pas" />
+        <text name="fh_disease_yellow_rust_short" text="Sarı pas" />
+        <text name="fh_disease_tan_spot" text="Sarı leke hastalığı" />
+        <text name="fh_disease_tan_spot_short" text="Sarı leke" />
+        <text name="fh_disease_eyespot" text="Göz lekesi (sap kırılması)" />
+        <text name="fh_disease_eyespot_short" text="Göz lekesi" />
+        <text name="fh_disease_rhynchosporium" text="Arpa yaprak lekesi (rinkosporyum)" />
+        <text name="fh_disease_rhynchosporium_short" text="Rinkosporyum" />
+        <text name="fh_disease_ramularia" text="Ramularya yaprak lekesi" />
+        <text name="fh_disease_ramularia_short" text="Ramularya" />
+        <text name="fh_disease_stem_rust" text="Kara pas (sap pası)" />
+        <text name="fh_disease_stem_rust_short" text="Kara pas" />
+        <text name="fh_disease_phoma" text="Kanola kök boğazı çürüklüğü" />
+        <text name="fh_disease_phoma_short" text="Phoma" />
+        <text name="fh_disease_cylindrosporiosis" text="Açık yaprak lekesi" />
+        <text name="fh_disease_cylindrosporiosis_short" text="Açık yaprak lekesi" />
+        <text name="fh_disease_beet_mildew" text="Pancar küllemesi" />
+        <text name="fh_disease_beet_mildew_short" text="Pancar küllemesi" />
+        <text name="fh_disease_ascochyta" text="Askokita yanıklığı" />
+        <text name="fh_disease_ascochyta_short" text="Askokita" />
+        <text name="fh_disease_downy_mildew" text="Yalancı külleme" />
+        <text name="fh_disease_downy_mildew_short" text="Yalancı külleme" />
+        <text name="fh_disease_corn_leaf_blight" text="Mısır yaprak yanıklığı" />
+        <text name="fh_disease_corn_leaf_blight_short" text="Mısır yanıklığı" />
+        <text name="fh_disease_crown_rust" text="Yulaf taç pası" />
+        <text name="fh_disease_crown_rust_short" text="Taç pası" />
+
+        <!-- Pests (full and short name) -->
+        <text name="fh_pest_aphids" text="Yaprak bitleri" />
+        <text name="fh_pest_aphids_short" text="Yaprak bitleri" />
+        <text name="fh_pest_leaf_beetle" text="Tahıl yaprak böcekleri" />
+        <text name="fh_pest_leaf_beetle_short" text="Yaprak böcekleri" />
+        <text name="fh_pest_pollen_beetle" text="Kolza çiçek böcekleri" />
+        <text name="fh_pest_pollen_beetle_short" text="Çiçek böcekleri" />
+        <text name="fh_pest_potato_beetle" text="Patates böcekleri" />
+        <text name="fh_pest_potato_beetle_short" text="Patates böceği" />
+        <text name="fh_pest_corn_borer" text="Mısır kurdu" />
+        <text name="fh_pest_corn_borer_short" text="Mısır kurdu" />
+        <text name="fh_pest_wireworm" text="Tel kurtları" />
+        <text name="fh_pest_wireworm_short" text="Tel kurtları" />
+        <text name="fh_pest_stem_weevil" text="Kolza gövde hortumlu böcekleri" />
+        <text name="fh_pest_stem_weevil_short" text="Gövde hortumluları" />
+        <text name="fh_pest_seed_weevil" text="Lahana tohum hortumlu böceği" />
+        <text name="fh_pest_seed_weevil_short" text="Tohum hortumlusu" />
+        <text name="fh_pest_flea_beetle" text="Pire böcekleri" />
+        <text name="fh_pest_flea_beetle_short" text="Pire böcekleri" />
+        <text name="fh_pest_turnip_sawfly" text="Şalgam yaprak arısı" />
+        <text name="fh_pest_turnip_sawfly_short" text="Yaprak arısı" />
+        <text name="fh_pest_frit_fly" text="Frit sineği" />
+        <text name="fh_pest_frit_fly_short" text="Frit sineği" />
+        <text name="fh_pest_wheat_midge" text="Buğday gal sinekleri" />
+        <text name="fh_pest_wheat_midge_short" text="Gal sinekleri" />
+        <text name="fh_pest_cutworm" text="Bozkurtlar" />
+        <text name="fh_pest_cutworm_short" text="Bozkurtlar" />
+        <text name="fh_pest_beet_fly" text="Pancar sineği" />
+        <text name="fh_pest_beet_fly_short" text="Pancar sineği" />
+        <text name="fh_pest_onion_fly" text="Soğan sineği" />
+        <text name="fh_pest_onion_fly_short" text="Soğan sineği" />
+        <text name="fh_pest_thrips" text="Tripsler" />
+        <text name="fh_pest_thrips_short" text="Tripsler" />
+        <text name="fh_pest_carrot_fly" text="Havuç sineği" />
+        <text name="fh_pest_carrot_fly_short" text="Havuç sineği" />
+        <text name="fh_pest_pea_leaf_weevil" text="Bezelye yaprak hortumluları" />
+        <text name="fh_pest_pea_leaf_weevil_short" text="Bezelye hortumluları" />
+        <text name="fh_pest_rootworm" text="Batı mısır kök kurdu" />
+        <text name="fh_pest_rootworm_short" text="Mısır kök kurdu" />
+        <text name="fh_pest_ground_beetle" text="Hububat toprak böceği" />
+        <text name="fh_pest_ground_beetle_short" text="Toprak böceği" />
+
+        <text name="fh_severity_low" text="hafif" />
+        <text name="fh_severity_medium" text="orta" />
+        <text name="fh_severity_high" text="şiddetli" />
+
+        <!-- Field info (short, so nothing gets cut off) -->
+        <text name="fh_hud_threats" text="Ürün tehditleri" />
+        <text name="fh_hud_disease" text="Hastalık" />
+        <text name="fh_hud_pest" text="Zararlılar" />
+        <text name="fh_hud_none" text="yok" />
+        <text name="fh_hud_diseaseRisk" text="Hastalık riski" />
+        <text name="fh_hud_pestRisk" text="Zararlı riski" />
+        <text name="fh_hud_cause" text="Neden" />
+        <text name="fh_hud_protection" text="Bitki koruma" />
+        <text name="fh_hud_diseaseProtection" text="Hastalık koruması" />
+        <text name="fh_hud_pestProtection" text="Zararlı koruması" />
+        <text name="fh_hud_protected" text="etkin" />
+        <text name="fh_risk_low" text="düşük" />
+        <text name="fh_risk_normal" text="normal" />
+        <text name="fh_risk_elevated" text="artmış" />
+        <text name="fh_risk_high" text="yüksek" />
+        <text name="fh_cause_fertilizer" text="gübre yok" />
+        <text name="fh_cause_manure" text="taze doğal gübre" />
+        <text name="fh_cause_fastNitrogen" text="hızlı azot" />
+        <text name="fh_cause_nitrogenDeficit" text="az nitrojen" />
+        <text name="fh_cause_nitrogenExcess" text="çok fazla nitrojen" />
+        <text name="fh_cause_lime" text="asidik toprak" />
+        <text name="fh_cause_lightSoil" text="hafif toprak" />
+        <text name="fh_cause_heavySoil" text="ağır toprak" />
+        <text name="fh_cause_plowing" text="sürüm yok" />
+        <text name="fh_cause_stubble" text="anız" />
+        <text name="fh_cause_rolling" text="merdaneleme yok" />
+        <text name="fh_cause_weeds" text="yabani otlar" />
+        <text name="fh_cause_sameCrop" text="monokültür" />
+        <text name="fh_cause_cropFamily" text="benzer ürün" />
+        <text name="fh_cause_previousCrop" text="kötü ön bitki" />
+        <text name="fh_hint_fungicide" text="Tedavi: fungisit uygula" />
+        <text name="fh_hint_insecticide" text="Tedavi: insektisit uygula" />
+        <text name="fh_field_area" text="Tarla alanı" />
+        <text name="fh_potential_harvest" text="Olası hasat" />
+        <text name="fh_potential_yield" text="Olası verim" />
+
+        <!-- Notifications: field number, crop, threat, spray -->
+        <text name="fh_alert_new" text="Tarla %s (%s): yeni tehdit – %s. İlaçla: %s." />
+        <text name="fh_alert_severe" text="Tarla %s (%s): şiddetli tehdit – %s, ürün ölüyor. İlaçla: %s." />
+        <text name="fh_alert_neighbour" text="Tarla %s (%s): %s – komşu tarladan geldi. İlaçla: %s." />
+
+        <!-- Map -->
+        <text name="fh_map_page" text="Bitki koruma" />
+        <text name="fh_map_layerProtection" text="Koruma" />
+        <text name="fh_map_layerDiseases" text="Hastalıklar" />
+        <text name="fh_map_layerPests" text="Zararlılar" />
+        <text name="fh_map_layerDiseaseTypes" text="Hastalık türleri" />
+        <text name="fh_map_layerPestTypes" text="Zararlı türleri" />
+        <text name="fh_map_notSprayed" text="Korumasız" />
+        <text name="fh_map_oneProduct" text="Tek ürün" />
+        <text name="fh_map_bothProducts" text="Fungisit ve insektisit" />
+        <text name="fh_map_healthy" text="Sağlıklı ürün" />
+        <text name="fh_map_low" text="Hafif" />
+        <text name="fh_map_medium" text="Orta" />
+        <text name="fh_map_high" text="Şiddetli" />
+        <text name="fh_map_diseaseLabel" text="Hastalık:" />
+        <text name="fh_map_pestLabel" text="Zararlılar:" />
+        <text name="fh_map_diseaseProtectionLabel" text="Hastalık koruması:" />
+        <text name="fh_map_pestProtectionLabel" text="Zararlı koruması:" />
+        <text name="fh_map_protectedUntilHarvest" text="etkin" />
+        <text name="input_FH_MINIMAP_LAYER" text="Field Health – mini haritada bitki koruma katmanı" />
+
+        <!-- Settings -->
+        <text name="fh_config_brand" text="Marka" />
+        <text name="fh_settings_header" text="Field Health – hastalıklar ve zararlılar" />
+        <text name="fh_setting_enabled" text="Ürün tehditleri" />
+        <text name="fh_setting_enabled_desc" text="Modun ana anahtarı. Kapalıyken yeni hastalık ve zararlı çıkmaz, mevcut olanlar da gelişmeyi ve ürünü yok etmeyi bırakır. İlaçlama yine çalışır, böylece tarlalarında kalanları temizleyebilirsin." />
+        <text name="fh_setting_diseaseChance" text="Sezon başına hastalık şansı" />
+        <text name="fh_setting_diseaseChance_desc" text="Normal bakılan bir tarlanın bir sezonda (ekimden hasada kadar) hastalanma temel şansı. Bu yalnızca bir başlangıç noktası: iyi bakım (doğal gübre, ara ürünler, ekim nöbeti, doğru pH ve nitrojen) onu düşürür, ihmal (gübresizlik, monokültür, sürüm yapmamak, asidik toprak) birkaç kat artırır. Hastalık çıkmadan önce fungisit uygulamak şansı hasada kadar sıfıra indirir. %0 hastalıkları kapatır." />
+        <text name="fh_setting_pestChance" text="Sezon başına zararlı şansı" />
+        <text name="fh_setting_pestChance_desc" text="Normal bakılan bir tarlada bir sezonda zararlı çıkma temel şansı. Bakım onu değiştirir: yabani otlar, monokültür ve sürüm yapmamak artırır, ara ürünler ve ekim nöbeti düşürür. Zararlılar çıkmadan önce insektisit uygulamak şansı hasada kadar sıfıra indirir. %0 zararlıları kapatır." />
+        <text name="fh_setting_careInfluence" text="Bakımın etkisi" />
+        <text name="fh_setting_careInfluence_desc" text="Tarımı nasıl yaptığının (gübreleme, toprak işleme, ekim nöbeti, ara ürünler, yabani otlar, Hassas Tarım verileri) temel şansları ne kadar değiştirdiği. Yok – yalnızca temel şans sayılır, bütün tarlalar eşittir. Düşük – küçük farklar. Normal (önerilen) – iyi bakım açıkça karşılığını verir. Yüksek – ihmal edilen tarlalar çok sık hastalanır, iyi bakılanlar neredeyse hiç." />
+        <text name="fh_setting_weatherInfluence" text="Havanın etkisi" />
+        <text name="fh_setting_weatherInfluence_desc" text="Son günlerin havasının (sıcaklık ve yağmur) tehdit şansını ne kadar değiştirdiği. Mantar hastalıkları yağmuru ve nemi sever, çoğu zararlı sıcak ve kuru havayı; her tehdidin kendi sıcaklık aralığı vardır. Yok – hava sayılmaz. Düşük – küçük farklar. Normal (önerilen) – belirgin farklar. Yüksek – uygun havada tehditler çok daha sık çıkar, uygun olmayan havada neredeyse hiç." />
+        <text name="fh_setting_stubbleRisk" text="Anızdan gelen risk" />
+        <text name="fh_setting_stubbleRisk_desc" text="Hasattan sonra parçalanmamış anızın riski artırıp artırmadığı (özellikle mısır kurdu ve bitki artıklarında yaşayan hastalıklar). Yalnızca bu tarlada hasattan sonra ve tarla sürülmediyse sayılır. Tarla içindeki iz yolları ve geçitler hiçbir zaman anız sayılmaz. Kapalı – anız riski hiç değiştirmez." />
+        <text name="fh_setting_fodderCrops" text="Çayırlarda ve yem bitkilerinde tehditler" />
+        <text name="fh_setting_fodderCrops_desc" text="Çayırların, çimin, yoncanın ve kaba yoncanın hastalık ve zararlı alıp alamayacağı. Kapalı (önerilen) – bu ürünlerde hiç tehdit olmaz, mevcut tehditler de ertesi gün kaybolur. Açık – yonca ve kaba yoncada yaprak biti çıkabilir; çayır ve çimde yine hiç çıkmaz." />
+        <text name="fh_setting_fieldInfo" text="Tarla bilgisi satırları" />
+        <text name="fh_setting_fieldInfo_desc" text="Tarla bilgisi panelinin tarlanın tehditlerini, riskini ve korumasını gösterip göstermediği. Kapalı – panel mod yokmuş gibi görünür; harita ve mini harita tarlaları yine gösterir." />
+        <text name="fh_setting_progression" text="Tehdidin ilerlemesi" />
+        <text name="fh_setting_progression_desc" text="Tedavi edilmeyen bir tehdidin bir sonraki aşamaya ne kadar hızlı geçtiği: hafif, sonra orta, sonra şiddetli. Yavaş – her oyun ayı, Normal – her yarım ay, Hızlı – her çeyrek ay (en az bir gün). Ürünü yalnızca şiddetli aşama yok eder, bu yüzden daha yavaş bir tempo sana ilaçlamak için daha çok zaman verir." />
+        <text name="fh_setting_spread" text="Tehdidin yayılması" />
+        <text name="fh_setting_spread_desc" text="Tedavi edilmeyen bir tehdidin tarlanın ne kadarını kaplayabileceği. Küçük – en fazla %2,5, Orta – en fazla %5, Büyük – tarla alanının en fazla %10'u. Odak kenarından düzensiz büyür, arada bir yanında yeni ve daha küçük bir odak çıkar – genellikle o gün rüzgârın estiği tarafta. İlaçlama tehdidi tamamen yok eder." />
+        <text name="fh_setting_patchSize" text="Odak boyutu" />
+        <text name="fh_setting_patchSize_desc" text="Yeni bir tehdidin çıktığı ve büyüdüğü odakların ne kadar büyük olduğu. Her odağın düzensiz bir şekli ve rastgele bir boyutu vardır – küçükler büyüklerden daha sık görülür. Küçük – odaklar genellikle 5–12 m çapında, Normal – 8–20 m, Büyük – 12–30 m. Küçük tarlalarda odaklar her zaman daha küçüktür." />
+        <text name="fh_setting_neighbourSpread" text="Komşu tarlalara yayılma" />
+        <text name="fh_setting_neighbourSpread_desc" text="Tarla kenarındaki bir tehdidin komşu bir oyuncu tarlasına geçip geçemeyeceği. Bu yalnızca tarlalar birbirine değdiğinde ya da çok dar bir şeritle ayrıldığında, diğer tarlada tehdidin saldırdığı bir ürün doğru gelişme evresindeyken ve diğer tarla ilaçlanmamışken olur. Zararlılar hastalıklardan daha sık geçer, üstelik yalnızca orta aşamadan itibaren. NPC tarlaları asla etkilenmez. Kapalı, Nadiren, Bazen, Sık – hiç, yarım, normal ve iki kat şans." />
+        <text name="fh_setting_damage" text="Ürün hasarı" />
+        <text name="fh_setting_damage_desc" text="Şiddetli bir tehdidin her gün ne kadar ürünü yok ettiği. Yok olan yerler hasatta hiçbir şey vermez. Kapalı – tehditler yalnızca görünür, verim aynı kalır. Düşük, Normal, Yüksek – günde birkaç metrelik 1, 3 veya 6 alan, her zaman yalnızca bulaşık bölgenin içinde." />
+        <text name="fh_setting_protectionThreshold" text="Tam koruma için kaplama" />
+        <text name="fh_setting_protectionThreshold_desc" text="Bütün tarlanın o tür tehditlere (hastalıklar veya zararlılar) karşı korunması için tarlanın ne kadarının ilaçlanması gerektiği. Daha az kaplamada tehdit yine çıkabilir, ama yalnızca ilaçlanmamış kısımlarda – ilaçlanan yerler her zaman korunur. Varsayılan %90. Daha düşük bir eşik kaçırılan köşeleri ve kamaları affeder, daha yüksek bir eşik özenli ilaçlama ister." />
+        <text name="fh_setting_protectionDuration" text="İlaçlama koruması" />
+        <text name="fh_setting_protectionDuration_desc" text="Fungisit ve insektisitin bir tarlayı ne kadar süre koruduğu. Hasada kadar – her ürünle bir ilaçlama tarlayı bütün sezon korur (en kolayı). 2 ay, 1 ay, Yarım ay – koruma tarlanın son ilaçlamasından bu kadar sonra biter ve gerçek bir çiftlikteki gibi yeniden ilaçlaman gerekir." />
+        <text name="fh_setting_fungicideUsage" text="Fungisit dozu" />
+        <text name="fh_setting_fungicideUsage_desc" text="Bir ilaçlama makinesinin hektar başına ne kadar fungisit kullandığı. %100, hektar başına yaklaşık 290 litre ilaç karışımıdır (herbisitle aynı), yani hektar başına bir adet 1 l şişe. Daha düşük doz ilaçlamayı ucuzlatır ve daha seyrek doldurma gerektirir, daha yüksek doz pahalılaştırır. İlaçlamanın etkisi hep aynıdır. Değişiklik hemen, çalışırken bile geçerli olur." />
+        <text name="fh_setting_insecticideUsage" text="İnsektisit dozu" />
+        <text name="fh_setting_insecticideUsage_desc" text="Bir ilaçlama makinesinin hektar başına ne kadar insektisit kullandığı. %100, hektar başına yaklaşık 290 litre ilaç karışımıdır (herbisitle aynı), yani 5 hektar başına bir adet 1 l şişe. Daha düşük doz ilaçlamayı ucuzlatır ve daha seyrek doldurma gerektirir, daha yüksek doz pahalılaştırır. İlaçlamanın etkisi hep aynıdır. Değişiklik hemen, çalışırken bile geçerli olur." />
+        <text name="fh_setting_fungicidePrice" text="Fungisit şişesi fiyatı" />
+        <text name="fh_setting_fungicidePrice_desc" text="Mağazada bir adet 1 l fungisit şişesinin fiyatı. Bir şişe 1 hektara yeter (290 l ilaç karışımı). Varsayılan 50. Oyun para birimlerini 1:1 çevirir. Karışımın litre fiyatı bu fiyata göre belirlenir, örneğin sıvıyı bir istasyondan alırken. Değişiklik mağazada hemen geçerli olur." />
+        <text name="fh_setting_insecticidePrice" text="İnsektisit şişesi fiyatı" />
+        <text name="fh_setting_insecticidePrice_desc" text="Mağazada bir adet 1 l insektisit şişesinin fiyatı. Bir şişe 5 hektara yeter (1.450 l ilaç karışımı). Varsayılan 80. Oyun para birimlerini 1:1 çevirir. Karışımın litre fiyatı bu fiyata göre belirlenir, örneğin sıvıyı bir istasyondan alırken. Değişiklik mağazada hemen geçerli olur." />
+        <text name="fh_setting_fungicideCanisterPrice" text="5 l fungisit bidonu fiyatı" />
+        <text name="fh_setting_fungicideCanisterPrice_desc" text="Mağazada bir adet 5 l fungisit bidonunun fiyatı. Bir bidon 5 hektara yeter (1.450 l ilaç karışımı). Varsayılan 220, gerçek bir bayideki gibi litre başına beş adet 1 l şişeden daha ucuz. Oyun para birimlerini 1:1 çevirir. Değişiklik mağazada hemen geçerli olur." />
+        <text name="fh_setting_insecticideCanisterPrice" text="5 l insektisit bidonu fiyatı" />
+        <text name="fh_setting_insecticideCanisterPrice_desc" text="Mağazada bir adet 5 l insektisit bidonunun fiyatı. Bir bidon 25 hektara yeter (7.250 l ilaç karışımı). Varsayılan 350, gerçek bir bayideki gibi litre başına beş adet 1 l şişeden daha ucuz. Oyun para birimlerini 1:1 çevirir. Değişiklik mağazada hemen geçerli olur." />
+        <text name="fh_setting_fungicideCanister20Price" text="20 l fungisit bidonu fiyatı" />
+        <text name="fh_setting_fungicideCanister20Price_desc" text="Mağazada bir adet 20 l fungisit bidonunun fiyatı. Bir bidon 20 hektara yeter (5.800 l ilaç karışımı). Varsayılan 800, bütün kaplar içinde litre başına en ucuzu. Oyun para birimlerini 1:1 çevirir. Değişiklik mağazada hemen geçerli olur." />
+        <text name="fh_setting_insecticideCanister20Price" text="20 l insektisit bidonu fiyatı" />
+        <text name="fh_setting_insecticideCanister20Price_desc" text="Mağazada bir adet 20 l insektisit bidonunun fiyatı. Bir bidon 100 hektara yeter (29.000 l ilaç karışımı). Varsayılan 1200, bütün kaplar içinde litre başına en ucuzu. Oyun para birimlerini 1:1 çevirir. Değişiklik mağazada hemen geçerli olur." />
+        <text name="fh_setting_farmLimit" text="Çiftlik başına tehdit sınırı" />
+        <text name="fh_setting_farmLimit_desc" text="Bir oyun yılında çiftliğinin bütün tarlalarında görülebilecek en fazla yeni tehdit sayısı. Sınırsız – her tarlanın kendi şansı vardır. Çok tarlan varsa ve hastalıklarla zararlıların seyrek olmasını istiyorsan örneğin 1 veya 2 seç." />
+        <text name="fh_setting_notifications" text="Tehdit bildirimleri" />
+        <text name="fh_setting_notifications_desc" text="Tarlanda hastalık veya zararlı çıktığında ve bir tehdit şiddetlenip ürünü yok etmeye başladığında mesaj gösterir. Mesajda tarla, ürün, tehdit ve uygulanacak ilaç yazar." />
+        <text name="fh_set_on" text="Açık" />
+        <text name="fh_set_off" text="Kapalı" />
+        <text name="fh_set_none" text="Yok" />
+        <text name="fh_set_low" text="Düşük" />
+        <text name="fh_set_normal" text="Normal" />
+        <text name="fh_set_high" text="Yüksek" />
+        <text name="fh_set_slow" text="Yavaş" />
+        <text name="fh_set_normalPace" text="Normal" />
+        <text name="fh_set_fast" text="Hızlı" />
+        <text name="fh_set_small" text="Küçük" />
+        <text name="fh_set_medium" text="Orta" />
+        <text name="fh_set_large" text="Büyük" />
+        <text name="fh_set_damageLow" text="Düşük" />
+        <text name="fh_set_damageNormal" text="Normal" />
+        <text name="fh_set_damageHigh" text="Yüksek" />
+        <text name="fh_set_untilHarvest" text="Hasada kadar" />
+        <text name="fh_set_twoMonths" text="2 ay" />
+        <text name="fh_set_oneMonth" text="1 ay" />
+        <text name="fh_set_halfMonth" text="Yarım ay" />
+        <text name="fh_set_unlimited" text="Sınırsız" />
+        <text name="fh_set_patchSmall" text="Küçük" />
+        <text name="fh_set_patchNormal" text="Normal" />
+        <text name="fh_set_patchLarge" text="Büyük" />
+        <text name="fh_set_rarely" text="Nadiren" />
+        <text name="fh_set_sometimes" text="Bazen" />
+        <text name="fh_set_often" text="Sık" />
+
+        <!-- Shop -->
+        <text name="fh_fillType_insecticide" text="İnsektisit" />
+        <text name="fh_fillType_fungicide" text="Fungisit" />
+        <text name="fh_store_fungicideBottle" text="Fungisit 1 l" />
+        <text name="fh_store_insecticideBottle" text="İnsektisit 1 l" />
+        <text name="fh_store_fungicideCanister" text="Fungisit 5 l" />
+        <text name="fh_store_insecticideCanister" text="İnsektisit 5 l" />
+        <text name="fh_store_fungicideCanister20" text="Fungisit 20 l" />
+        <text name="fh_store_insecticideCanister20" text="İnsektisit 20 l" />
+        <text name="fh_function_fungicideBottle" text="1 l konsantre şişesi, doz 1 l/ha. 1 ha'ya, yani 290 l ilaç karışımına yeter. Ürünü bütün hastalıklara karşı korur. Şişeyi bir ilaçlama makinesinin yanına koy ve makineyi ondan doldur." />
+        <text name="fh_function_insecticideBottle" text="1 l konsantre şişesi, doz 0,2 l/ha. 5 ha'ya, yani 1.450 l ilaç karışımına yeter. Ürünü zararlılara karşı korur: yaprak bitleri, yaprak böcekleri, çiçek böcekleri, patates böcekleri, mısır kurdu ve tel kurtları. Şişeyi bir ilaçlama makinesinin yanına koy ve makineyi ondan doldur." />
+        <text name="fh_function_fungicideCanister" text="5 l konsantre bidonu, doz 1 l/ha. 5 ha'ya, yani 1.450 l ilaç karışımına yeter. Ürünü bütün hastalıklara karşı korur. Litre başına 1 l şişelerden daha ucuz. Bidonu bir ilaçlama makinesinin yanına koy ve makineyi ondan doldur." />
+        <text name="fh_function_insecticideCanister" text="5 l konsantre bidonu, doz 0,2 l/ha. 25 ha'ya, yani 7.250 l ilaç karışımına yeter. Ürünü zararlılara karşı korur. Litre başına 1 l şişelerden daha ucuz. Bidonu bir ilaçlama makinesinin yanına koy ve makineyi ondan doldur." />
+        <text name="fh_function_fungicideCanister20" text="20 l konsantre bidonu, doz 1 l/ha. 20 ha'ya, yani 5.800 l ilaç karışımına yeter. Ürünü bütün hastalıklara karşı korur. Litre başına en ucuzu, büyük çiftlikler için. Bidonu bir ilaçlama makinesinin yanına koy ve makineyi ondan doldur." />
+        <text name="fh_function_insecticideCanister20" text="20 l konsantre bidonu, doz 0,2 l/ha. 100 ha'ya, yani 29.000 l ilaç karışımına yeter. Ürünü zararlılara karşı korur. Litre başına en ucuzu, büyük çiftlikler için. Bidonu bir ilaçlama makinesinin yanına koy ve makineyi ondan doldur." />
+
+        <!-- Help (ESC → Help) -->
+        <text name="fh_help_header" text="Field Health – hastalıklar ve zararlılar" />
+
+        <text name="fh_help_intro" text="Giriş" />
+        <text name="fh_help_intro_01" text="Mod hakkında" />
+        <text name="fh_help_intro_02" text="Field Health, Polonya'daki çiftçilerin her gün uğraştığı ürün hastalıklarını ve zararlılarını oyuna getirir. Sezon boyunca çiftliğinin tarlalarında çıkarlar, gelişirler ve onlarla mücadele etmezsen ürünün bir kısmını yok ederler. Mağazadaki iki ürün onlarla savaşır: hastalıklara karşı fungisit ve zararlılara karşı insektisit.
+Mod gerçekçidir ama rahat oyun için hoşgörülüdür: bir tehdit asla bütün tarlayı kaplamaz, ürün yalnızca en şiddetli aşamada yok olur ve her ürünle iyi yapılmış tek bir ilaçlama tarlayı sezon sonuna kadar korur." />
+        <text name="fh_help_intro_03" text="Adım adım sezon" />
+        <text name="fh_help_intro_04" text="1. Ekim, ürün sezonunu başlatır. O günden itibaren tarladaki enfeksiyon baskısı artar – en hızlı, tehdidin saldırdığı yılın zamanında ve gelişme evresinde, ona uygun havada ve ihmal edilmiş bir tarlada.
+2. Baskı tarla için rastgele belirlenen eşiği geçince bir hastalık ya da zararlı odağı çıkar. Tarla numarasını ve uygulanacak ilacı içeren bir bildirim alırsın.
+3. Tedavi edilmeyen bir tehdit her yarım ayda bir aşama kötüleşir ve yavaşça yayılır. Şiddetli aşamada her gün küçük alanlarda ürünü yok eder.
+4. İlaçlama tehdidi yok eder ve ilaçlanan yerleri korur. Neredeyse tamamen ilaçlanmış bir tarla hasada kadar o tür tehditlere karşı bağışıktır.
+5. Hasat sezonu bitirir: tehditler ve koruma kaybolur, hasat edilen ürün de bir sonrakinin ön bitkisi olur." />
+        <text name="fh_help_intro_05" text="Temel sayılar" />
+        <text name="fh_help_intro_06" text="Varsayılan değerler. Yönetici her birini ayarlardan değiştirebilir (son sütun)." />
+        <text name="fh_help_intro_08" text="Tarlalarını nerede kontrol edersin" />
+        <text name="fh_help_intro_09" text="– Tarla bilgisi paneli (bir tarladayken): aşamalarıyla tehditler, risk ve başlıca nedeni, tarlanın koruması.
+– Harita (ESC &gt; Harita &gt; Bitki koruma): beş katman – koruma, hastalıklar, zararlılar, hastalık türleri ve zararlı türleri.
+– Mini harita: katmanı Sol Alt + \ ile değiştir.
+– Bildirimler: yeni bir tehdit, şiddetli aşama ve komşu tarladan gelen bir tehdit hakkında." />
+        <text name="fh_help_origin" text="Tehditler nereden gelir" />
+        <text name="fh_help_origin_01" text="Büyüyen ürünü olan her oyuncu tarlası bir sezonda en fazla bir hastalık ve bir tür zararlı alabilir. NPC tarlaları, kavak ve ara ürünler asla tehdit almaz; çayırlar, çim, yonca ve kaba yonca yalnızca ayarlarda açıldığında.
+Bir tehdit rastgele bir günde çıkmaz. Mod her gün tarladaki enfeksiyon baskısını hesaplar ve önceki günlerin toplamına ekler. Sezonun başında tarla rastgele bir direnç eşiği alır – baskı toplamı bu eşiği geçince tarlaya bulaşır. Bu yüzden bir tehdit bir sezon erken, başka bir sezon geç, üçüncü bir sezon hiç çıkmaz." />
+        <text name="fh_help_origin_02" text="Baskıyı ne belirler" />
+        <text name="fh_help_origin_03" text="1. Ayarlardaki temel şans – varsayılan olarak bir sezonda hastalık için %15, zararlılar için %10.
+2. Tarlanın riski, yani tarlayı nasıl işlediğin: gübreleme, toprak işleme, ekim nöbeti ve yabani otlar (sayfa “Tarımı nasıl yapıyorsun”).
+3. Tehdidin Polonya'da ne kadar yaygın olduğu – yaygın hastalık ve zararlılar nadir olanlardan çok daha sık çıkar (sayfalar “Hastalıklar” ve “Zararlılar”).
+4. Yılın zamanı ve gelişme evresi – zamanı dışında bir tehdit hiç saldırmaz (sayfa “Mevsimler ve gelişme evreleri”).
+5. Son günlerin havası – yağmur mantar hastalıklarına, sıcak ve kuraklık çoğu zararlıya yardım eder (sayfa “Hava durumu”)." />
+        <text name="fh_help_origin_04" text="Sezon başına şans" />
+        <text name="fh_help_origin_05" text="Varsayılan ayarlarda tarlanın riski, bir tehdidin bütün sezon boyunca çıkma şansını şöyle değiştirir:" />
+        <text name="fh_help_origin_07" text="Tablo, ortalama sayıda tehdidi olan ve onların bütün zamanı boyunca büyüyen bir ürün için geçerlidir. Çok sayıda yaygın hastalık ya da zararlının saldırdığı ürünler onlara daha sık yakalanır (1,4 katına kadar), az tehdidi olan ürünler daha seyrek (0,5 katına kadar):" />
+        <text name="fh_help_origin_09" text="Hangi tehdit çıkar" />
+        <text name="fh_help_origin_10" text="Bir bulaşma olduğunda mod, o gün ürüne saldırabilecek tehditlerden birini seçer. Her birinin şansı o günkü baskısıyla orantılıdır: ne kadar yaygın olduğu çarpı tarlanın riski, yılın zamanı ve hava. Örnek: mayısta yağmurlu havada buğdayda en sık septorya veya külleme çıkar, nadir olan ve sıcağı seven kara pas ise neredeyse hiç." />
+        <text name="fh_help_origin_11" text="Bulaşmadan önce ilaçlama" />
+        <text name="fh_help_origin_12" text="Bulaşma anında tarla doğru ürünle alanının en az %90'ında ilaçlanmışsa bulaşma başarısız olur ve tarla bu sezon o tür bir tehdit almaz. Daha az kaplamada tehdit çıkabilir, ama yalnızca ilaçlanmamış kısımlarda." />
+        <text name="fh_help_timing" text="Mevsimler ve gelişme evreleri" />
+        <text name="fh_help_timing_01" text="Her hastalığın ve her zararlının kendi zamanı vardır: yalnızca belirli aylarda ve ürünün yalnızca belirli gelişme evrelerinde saldırır. Bu zamanın içinde en tehlikeli olduğu bir doruk noktası vardır. Zamanı dışında bir tehdit hiç çıkmaz – komşu tarladan da gelemez." />
+        <text name="fh_help_timing_02" text="Gelişme evreleri" />
+        <text name="fh_help_timing_04" text="Mod evreyi oyundaki ürünün büyüme durumundan okur: büyüme süresinin ilk %20'si çıkış, %45'e kadar yaprak gelişimi ve kardeşlenme, %70'e kadar sapa kalkma ya da tomurcuklanma, ardından başaklanma ve çiçeklenme gelir; hasada hazır ürün ise olgundur. Aylar oyun takvimine göredir (yılın ilk dönemi mart), bu yüzden dönem başına gün sayısı tehditlerin ne zaman saldırdığını değiştirmez." />
+        <text name="fh_help_timing_05" text="Takvim – ne zaman dikkatli olmalı" />
+        <text name="fh_help_timing_06" text="Ana aylar, ürün üzerindeki tehdit grubunun baskısının en yüksek olduğu aylardır. Onlardan kısa süre önce ilaçlamak çoğu bulaşmayı önler." />
+        <text name="fh_help_farming" text="Tarımı nasıl yapıyorsun" />
+        <text name="fh_help_farming_01" text="Tarlanın riski, tarlayı nasıl işlediğinden kaynaklanan bir enfeksiyon baskısı çarpanıdır. Mod onu her tehdit için ayrı hesaplar; tarla bilgisi paneli en yüksek hastalık ve zararlı riskini ve başlıca nedeni gösterir. Tablolardaki çarpanlar birbiriyle çarpılır ve sonuç her zaman 0,3 ile 5 arasında kalır." />
+        <text name="fh_help_farming_03" text="Gübreleme" />
+        <text name="fh_help_farming_05" text="Toprak işleme ve yabani otlar" />
+        <text name="fh_help_farming_07" text="Değerler tamamen ihmal edilmiş bir tarla içindir – kısmi ihmal riski orantılı olarak artırır. Yalnızca oyun ayarlarında açık olan tarla işleri sayılır: zorunlu sürüm yoksa sürüm yapmamak hiçbir şeyi değiştirmez. Mod tarlayı 36 noktada ve yalnızca ürünün büyüdüğü yerlerde kontrol eder, bu yüzden tarla içindeki iz yolları ve geçitler ihmal sayılmaz. Anız ve merdaneleme yalnızca tarlanın dörtte üçünde eksikse eksik sayılır. Anız yalnızca bu tarlada hasattan sonra sayılır, sürümden sonra sayılmaz (“Anızdan gelen risk” ayarı onu tamamen kapatır). FS25'te sürümden sonra yabani ot büyümez." />
+        <text name="fh_help_farming_08" text="Ekim nöbeti ve ara ürünler" />
+        <text name="fh_help_farming_10" text="“Bakımın etkisi” ayarı bütün bu etkenleri aynı anda güçlendirir ya da zayıflatır. Yok – her tarlanın riski 1'dir. Düşük – farklar yaklaşık yarı yarıya küçüktür. Normal – tablolardaki gibi. Yüksek – farklar bir buçuk kat büyüktür." />
+        <text name="fh_help_weather" text="Hava durumu" />
+        <text name="fh_help_weather_01" text="Mod her oyun saatinde sıcaklığı ve yağmur yağıp yağmadığını okur. Günün sonunda günün ortalama sıcaklığını ve yağmurlu saatlerin payını hesaplar. Nemliliğin bir hafızası vardır: yarısı son günden, yarısı önceki günlerden gelir, çünkü yapraklar yağmurdan sonra uzun süre ıslak kalır. Her tehdidin bir hava profili vardır – bir sıcaklık aralığı ve yağmura tepkisi." />
+        <text name="fh_help_weather_03" text="Aralık dışındaki bir sıcaklık baskıyı 0,4 katına indirir, optimumdaki bir sıcaklık 1,2 katına çıkarır. Yağmur baskıyı 0,4 ile 1,8 kat arasında değiştirir – nemi seven tehditler için yukarı, kuraklığı sevenler için aşağı. Hava birlikte baskıyı 0,2 ile 2,5 kat arasında değiştirir. Birkaç gün böyle bir havadan sonraki örnek çarpanlar (kırmızı – tehdit büyür, yeşil – küçülür):" />
+        <text name="fh_help_weather_05" text="“Havanın etkisi” ayarı: Yok – hava sayılmaz, Düşük – daha hafif çarpanlar, Normal – tablodaki gibi, Yüksek – daha güçlü. Yazın birkaç sıcak ve yağmurlu günden sonra özellikle patateslere ve başaklanmadaki tahıllara dikkat et, kurak ve sıcak bir yazda ise zararlılara." />
+        <text name="fh_help_diseases" text="Hastalıklar" />
+        <text name="fh_help_diseases_01" text="Fungisit bütün hastalıklarla savaşır. Tablolar bir hastalığın Polonya'da ne kadar yaygın olduğunu, hangi ürünlere saldırdığını, hangi aylarda çıktığını ve en kötü ne zaman olduğunu, hangi gelişme evresinde en çok zarar verdiğini ve ona neyin yardım ettiğini gösterir." />
+        <text name="fh_help_diseases_03" text="Tahıllar ve mısır" />
+        <text name="fh_help_diseases_05" text="Diğer ürünler" />
+        <text name="fh_help_diseases_07" text="Modun tanımadığı harita ürünlerinde kurşuni küf ve yaprak bitleri görülebilir. Highlands Fishing Expansion'ın ve modların soğanları otomatik olarak tanınır." />
+        <text name="fh_help_pests" text="Zararlılar" />
+        <text name="fh_help_pests_01" text="İnsektisit bütün zararlılarla savaşır. Tabloların sütunları “Hastalıklar” sayfasındakiyle aynı anlama gelir." />
+        <text name="fh_help_pests_02" text="Tahıllar ve mısır" />
+        <text name="fh_help_pests_04" text="Diğer ürünler" />
+        <text name="fh_help_progress" text="Bir tehdit nasıl gelişir" />
+        <text name="fh_help_progress_01" text="Yeni bir tehdit, kenarı yırtık ve içinde sağlıklı boşluklar olan bir ya da iki düzensiz odaktır. Hafif aşamada başlar. Onunla mücadele etmezsen şu adımlardan geçer:" />
+        <text name="fh_help_progress_03" text="Yok olan ürün yeniden büyümez ve hasatta hiçbir şey vermez. Bu yüzden önceden ya da bildirimden hemen sonra ilaçlamak en ucuzudur. Herhangi bir aşamada ilaçlama, tehdidi ilaçlanan yerlerden tamamen yok eder." />
+        <text name="fh_help_spraying" text="İlaçlama ve koruma" />
+        <text name="fh_help_spraying_01" text="Ürünleri Polonyalı Opryskex firması üretir: fungisit Grzybobój 250 EC (yeşil etiket) ve insektisit Robalex 100 CS (kırmızı etiket). Satın alırken bunların yerine MST markasını (Mafia Solec Team) seçebilirsin: Solectop 280 SC ve Mafiozol 50 EW. Aynı şekilde etki ederler, yalnızca etiket farklıdır. Mağazadan 1 l şişelerde ve 5 l ile 20 l bidonlarda alırsın. Kabı ilaçlama makinesinin yanına koy ve makineyi bir paletten doldurur gibi doldur. Oyun konsantreyi suyla karıştırmaz, bu yüzden bir kabın içeriği, ondan elde edilen ilaç karışımının tamamıdır. Kap ne kadar büyükse hektar başına o kadar ucuzdur." />
+        <text name="fh_help_spraying_03" text="Koruma nasıl çalışır" />
+        <text name="fh_help_spraying_05" text="Dikkat" />
+        <text name="fh_help_spraying_06" text="– Çıkıştan sonra ilaçla – ekim ve hasat korumayı kaldırır.
+– Fungisit zararlılara, insektisit de hastalıklara karşı korumaz. Tam koruma için ikisi de gerekir.
+– Kaçırılan kamalar ve tarla başları sayılır: %90'ın altındaki kaplamada ilaçlanmamış şeritlerde tehdit çıkabilir.
+– Ürünler gübre vermez ve yabani otları öldürmez.
+– Daha kısa bir ilaçlama korumasında (ayar) bütün tarlanın koruması son ilaçlamadan o kadar sonra biter." />
+        <text name="fh_help_map" text="Harita ve tarla bilgisi" />
+        <text name="fh_help_map_01" text="Tarla bilgisi paneli" />
+        <text name="fh_help_map_02" text="Bir tarladayken tarla bilgisi paneli şunları gösterir:
+– Hastalık ve Zararlılar: etkin tehdit ve aşaması (hafif, orta, şiddetli),
+– Hastalık riski ve Zararlı riski: düşük, normal, artmış veya yüksek; artmıştan itibaren başlıca neden de,
+– Hastalık koruması ve Zararlı koruması: tarlanın ne kadarının ilaçlandığı,
+– tehditle hangi ürünün savaştığına dair bir ipucu." />
+        <text name="fh_help_map_03" text="Harita" />
+        <text name="fh_help_map_04" text="ESC &gt; Harita'da “Bitki koruma” sayfasını seç. Başlığının altındaki oklu ikinci bir seçici beş katman arasında geçiş yapar. Bir lejant öğesine tıklamak onu haritada gizler. Yalnızca çiftliğinin büyüyen ürünü olan tarlaları gösterilir. Bir araziye tıklayınca tarlalarının tehditlerini ve korumasını görürsün." />
+        <text name="fh_help_map_06" text="Tehdit türlerinin renkleri" />
+        <text name="fh_help_map_08" text="Mini harita" />
+        <text name="fh_help_map_09" text="Sol Alt + \ mini haritanın katmanını değiştirir: koruma, hastalıklar, zararlılar ve katmansız. Tuşları oyun sırasında ESC &gt; Ayarlar &gt; Kontroller'de, “Field Health – mini haritada bitki koruma katmanı” girdisinde değiştirebilirsin (ana menü mod tuşlarını göstermez, çünkü modlar kayıtla birlikte yüklenir)." />
+        <text name="fh_help_pf" text="Hassas Tarım" />
+        <text name="fh_help_pf_01" text="Hassas Tarım ile birlikte Field Health onun bir uzantısı gibi çalışır ve toprak haritalarını kullanır. Genel olarak gübreleme yerine hedefe göre nitrojen, genel olarak kireçleme yerine toprağın pH değeri sayılır." />
+        <text name="fh_help_pf_03" text="En iyi koruma, verim için yaptığın işin aynısıdır: hedefe kadar gübreleme, en uygun pH'a kadar kireçleme ve ara ürünler. fhPrecisionFarming konsol komutu, modun Hassas Tarım verilerini nasıl okuduğunu günlüğe yazar." />
+        <text name="fh_help_settings" text="Ayarlar" />
+        <text name="fh_help_settings_01" text="Modun ayarlarını ESC &gt; Ayarlar &gt; Oyun'da, “Field Health – hastalıklar ve zararlılar” bölümünde bulursun. Kayıtla birlikte saklanırlar. Çok oyunculu oyunda onları yalnızca sunucu yöneticisi değiştirebilir. Açıklamasını görmek için bir seçeneğin üzerine gel." />
+        <text name="fh_help_tips" text="İpuçları" />
+        <text name="fh_help_tips_01" text="Sağlıklı tarlalar için bir plan" />
+        <text name="fh_help_tips_02" text="1. İhtiyaca göre gübrele, kireçle ve aynı ürünü iki yıl üst üste ekme. Ana ürünler arasına ara ürün ek.
+2. Tehditlerin ana aylarından önce (sayfa “Mevsimler ve gelişme evreleri”) tarlayı fungisit ve insektisitle ilaçla. Tarlanın en az %90'ını kaplarsan sezonda bir kez yeterlidir.
+3. Haritadaki “Koruma” katmanını kontrol et – yeşil tarlalar her iki tür tehdide karşı korunur.
+4. Bir bildirimden sonra, tehdit şiddetli aşamaya ulaşmadan adı geçen tarlayı adı geçen ürünle ilaçla.
+5. Fungisit veya insektisitli bir YZ işçi korumasız tarlaları tamamen, korunanları ise yalnızca tehdit olan yerlerde ilaçlar." />
+        <text name="fh_help_tips_03" text="Dikkat" />
+        <text name="fh_help_tips_04" text="– Monokültür ve sürüm yapmamak yüksek riskin en yaygın nedenleridir, örneğin sürüm yapmadan buğday ardından buğday septoryaya, sarı lekeye ve fusaryuma yardım eder.
+– Buğdaydan önce mısır fusaryum riskini belirgin şekilde artırır, patatesten önce çayır ise tel kurdu riskini.
+– Bulamaç ve sıvı gübre gür bir büyüme sağlar; külleme, paslar ve yaprak bitleri bunu sever.
+– Yağmurlu bir yaz mildiyö, septorya ve fusaryum zamanıdır, kurak ve sıcak bir yaz ise yaprak bitleri, patates böcekleri, tripsler ve bozkurtların zamanı.
+– Kanolanın iki tehlikeli dönemi vardır: sonbahar (pire böcekleri, şalgam yaprak arısı, Phoma) ve ilkbahar (gövde hortumluları, çiçek böcekleri, sklerotinya).
+– Orta veya şiddetli aşamadaki bir tehdit bitişik bir oyuncu tarlasına geçebilir." />
+        <text name="fh_help_admin" text="Yönetici için" />
+        <text name="fh_help_admin_01" text="Konsol komutları" />
+        <text name="fh_help_admin_03" text="Çok oyunculu oyun, kayıt ve uyumluluk" />
+        <text name="fh_help_admin_04" text="– Simülasyon sunucuda çalışır, oyuncular sonuçlarını görür. Ayarlar ve fhSet, fhClear ile fhDailyTick komutları yalnızca yönetici içindir.
+– Bildirimler tarlanın sahibi olan çiftliğin oyuncularına, her birine kendi dilinde gider.
+– Mod verilerini yalnızca kayıt klasöründeki kendi iki dosyasına kaydeder: fieldHealth.xml ve fieldHealthMap.grle. Güvenle kaldırılabilir – oyun bu dosyaları atlar, haritadan yalnızca ürünlerin şişeleri ve bidonları kaybolur.
+– Modun önceki bir sürümünün kayıtları yüklenirken yeni biçime dönüştürülür.
+– Highlands Fishing Expansion'ın ve modların soğanları otomatik olarak tanınır – günlükte bu yazar.
+– Aynı anda başka bir ürün hastalığı modu (örneğin Crop Diseases) kullanma – Field Health bu konuda günlükte uyarır." />
+        <text name="fh_help_admin_05" text="Emeği geçenler" />
+        <text name="fh_help_admin_06" text="Field Health – yapımcı: MatrikSky. Fikir, BMP'nin “Crop Diseases” modundan esinlenmiştir. Şişe modeli shabanimate'in “fertilizer Bottle” modeline, bidon modeli hoxsvl'nin “#6 Plastic Canister” modeline dayanır (ikisi de CC BY 4.0, sketchfab.com)." />
+        <text name="fh_help_tableLanguage" text="en" />
+
+
+
+
+
+
+
+
+
+
+    </texts>
+</l10n>

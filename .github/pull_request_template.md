@@ -27,7 +27,7 @@ Players have savegames of every released version – please check:
 
 ## Texts
 
-- [ ] New or changed texts are in every file of `l10n/` (all 13 languages; say in the pull request if you cannot translate one), with the prefix `fh_`
+- [ ] New or changed texts are in every file of `l10n/` (all 20 languages; say in the pull request if you cannot translate one), with the prefix `fh_`
 
 ## Screenshots (optional)
 

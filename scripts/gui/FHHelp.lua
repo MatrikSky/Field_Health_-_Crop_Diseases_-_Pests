@@ -1,13 +1,14 @@
 -- Field Health: the in-game help (ESC > Help). The page icons come from an
--- own texture atlas. The tables are images with text, made in Polish and in
--- English: the help pages in modDesc name the Polish ones, and players with
--- another language get the English ones.
+-- own texture atlas. The tables are images with text, made in Polish,
+-- English, German, French and Russian: the help pages in modDesc name the
+-- Polish ones, and players of other languages get their own or the English ones.
 FHHelp = {}
 
 FHHelp.ICON_CONFIG = "help/fieldHealthHelpIcons.xml"
 FHHelp.ICON_PREFIX = "fieldHealthHelp"
 -- file names of the table images: help/fieldHealthHelp_<table>_<language>.png
 FHHelp.IMAGE_PATTERN = "(fieldHealthHelp_%w+_)pl(%.%a+)$"
+FHHelp.IMAGE_LANGUAGES = {pl = true, en = true, de = true, fr = true, ru = true}
 FHHelp.MAX_DEPTH = 8
 
 function FHHelp.registerIcons()
@@ -16,10 +17,11 @@ function FHHelp.registerIcons()
     end
 end
 
--- Language of the table images: the game reads the l10n file of its
--- language (English for languages the mod has no texts for).
+-- Language of the table images: the l10n file of the game's language names
+-- it (English for languages the mod has no texts or tables for).
 function FHHelp.getImageLanguage()
-    return FHUtil.text("fh_help_tableLanguage") == "pl" and "pl" or "en"
+    local language = FHUtil.text("fh_help_tableLanguage")
+    return FHHelp.IMAGE_LANGUAGES[language] and language or "en"
 end
 
 -- Points the table images of the loaded help pages to the player's

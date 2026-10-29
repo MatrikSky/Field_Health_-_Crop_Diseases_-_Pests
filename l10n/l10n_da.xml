@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+    <texts>
+        <!-- Diseases (full and short name) -->
+        <text name="fh_disease_cereal_mildew" text="Meldug i korn" />
+        <text name="fh_disease_cereal_mildew_short" text="Meldug" />
+        <text name="fh_disease_septoria" text="Septoria-bladplet" />
+        <text name="fh_disease_septoria_short" text="Septoria" />
+        <text name="fh_disease_brown_rust" text="Brunrust" />
+        <text name="fh_disease_brown_rust_short" text="Brunrust" />
+        <text name="fh_disease_fusarium" text="Fusarium" />
+        <text name="fh_disease_fusarium_short" text="Fusarium" />
+        <text name="fh_disease_net_blotch" text="Bygbladplet" />
+        <text name="fh_disease_net_blotch_short" text="Bygbladplet" />
+        <text name="fh_disease_snow_mould" text="Sneskimmel" />
+        <text name="fh_disease_snow_mould_short" text="Sneskimmel" />
+        <text name="fh_disease_sclerotinia" text="Knoldbægersvamp" />
+        <text name="fh_disease_sclerotinia_short" text="Sclerotinia" />
+        <text name="fh_disease_alternaria" text="Alternaria" />
+        <text name="fh_disease_alternaria_short" text="Alternaria" />
+        <text name="fh_disease_late_blight" text="Kartoffelskimmel" />
+        <text name="fh_disease_late_blight_short" text="Kartoffelskimmel" />
+        <text name="fh_disease_cercospora" text="Cercospora-bladplet" />
+        <text name="fh_disease_cercospora_short" text="Cercospora" />
+        <text name="fh_disease_grey_mould" text="Gråskimmel" />
+        <text name="fh_disease_grey_mould_short" text="Gråskimmel" />
+        <text name="fh_disease_yellow_rust" text="Gulrust" />
+        <text name="fh_disease_yellow_rust_short" text="Gulrust" />
+        <text name="fh_disease_tan_spot" text="Hvedebladplet" />
+        <text name="fh_disease_tan_spot_short" text="Hvedebladplet" />
+        <text name="fh_disease_eyespot" text="Knækkefodsyge" />
+        <text name="fh_disease_eyespot_short" text="Knækkefod" />
+        <text name="fh_disease_rhynchosporium" text="Skoldplet" />
+        <text name="fh_disease_rhynchosporium_short" text="Skoldplet" />
+        <text name="fh_disease_ramularia" text="Ramularia-bladplet" />
+        <text name="fh_disease_ramularia_short" text="Ramularia" />
+        <text name="fh_disease_stem_rust" text="Sortrust" />
+        <text name="fh_disease_stem_rust_short" text="Sortrust" />
+        <text name="fh_disease_phoma" text="Rodhalsråd" />
+        <text name="fh_disease_phoma_short" text="Phoma" />
+        <text name="fh_disease_cylindrosporiosis" text="Lys bladplet" />
+        <text name="fh_disease_cylindrosporiosis_short" text="Lys bladplet" />
+        <text name="fh_disease_beet_mildew" text="Meldug i roer" />
+        <text name="fh_disease_beet_mildew_short" text="Roemeldug" />
+        <text name="fh_disease_ascochyta" text="Ascochyta-pletsyge" />
+        <text name="fh_disease_ascochyta_short" text="Ascochyta" />
+        <text name="fh_disease_downy_mildew" text="Falsk meldug" />
+        <text name="fh_disease_downy_mildew_short" text="Falsk meldug" />
+        <text name="fh_disease_corn_leaf_blight" text="Majsbladplet" />
+        <text name="fh_disease_corn_leaf_blight_short" text="Majsbladplet" />
+        <text name="fh_disease_crown_rust" text="Kronrust på havre" />
+        <text name="fh_disease_crown_rust_short" text="Kronrust" />
+
+        <!-- Pests (full and short name) -->
+        <text name="fh_pest_aphids" text="Bladlus" />
+        <text name="fh_pest_aphids_short" text="Bladlus" />
+        <text name="fh_pest_leaf_beetle" text="Kornbladbiller" />
+        <text name="fh_pest_leaf_beetle_short" text="Kornbladbiller" />
+        <text name="fh_pest_pollen_beetle" text="Glimmerbøsser" />
+        <text name="fh_pest_pollen_beetle_short" text="Glimmerbøsser" />
+        <text name="fh_pest_potato_beetle" text="Coloradobiller" />
+        <text name="fh_pest_potato_beetle_short" text="Coloradobiller" />
+        <text name="fh_pest_corn_borer" text="Majsborer" />
+        <text name="fh_pest_corn_borer_short" text="Majsborer" />
+        <text name="fh_pest_wireworm" text="Smælderlarver" />
+        <text name="fh_pest_wireworm_short" text="Smælderlarver" />
+        <text name="fh_pest_stem_weevil" text="Rapsstængelsnudebiller" />
+        <text name="fh_pest_stem_weevil_short" text="Stængelsnudebiller" />
+        <text name="fh_pest_seed_weevil" text="Skulpesnudebille" />
+        <text name="fh_pest_seed_weevil_short" text="Skulpesnudebille" />
+        <text name="fh_pest_flea_beetle" text="Jordlopper" />
+        <text name="fh_pest_flea_beetle_short" text="Jordlopper" />
+        <text name="fh_pest_turnip_sawfly" text="Rapsbladhveps" />
+        <text name="fh_pest_turnip_sawfly_short" text="Rapsbladhveps" />
+        <text name="fh_pest_frit_fly" text="Fritflue" />
+        <text name="fh_pest_frit_fly_short" text="Fritflue" />
+        <text name="fh_pest_wheat_midge" text="Hvedegalmyg" />
+        <text name="fh_pest_wheat_midge_short" text="Galmyg" />
+        <text name="fh_pest_cutworm" text="Knoporme" />
+        <text name="fh_pest_cutworm_short" text="Knoporme" />
+        <text name="fh_pest_beet_fly" text="Bedeflue" />
+        <text name="fh_pest_beet_fly_short" text="Bedeflue" />
+        <text name="fh_pest_onion_fly" text="Løgflue" />
+        <text name="fh_pest_onion_fly_short" text="Løgflue" />
+        <text name="fh_pest_thrips" text="Trips" />
+        <text name="fh_pest_thrips_short" text="Trips" />
+        <text name="fh_pest_carrot_fly" text="Gulerodsflue" />
+        <text name="fh_pest_carrot_fly_short" text="Gulerodsflue" />
+        <text name="fh_pest_pea_leaf_weevil" text="Ærtesnudebiller" />
+        <text name="fh_pest_pea_leaf_weevil_short" text="Ærtesnudebiller" />
+        <text name="fh_pest_rootworm" text="Vestlig majsrodbille" />
+        <text name="fh_pest_rootworm_short" text="Majsrodbille" />
+        <text name="fh_pest_ground_beetle" text="Kornløbebille" />
+        <text name="fh_pest_ground_beetle_short" text="Løbebille" />
+
+        <text name="fh_severity_low" text="let" />
+        <text name="fh_severity_medium" text="middel" />
+        <text name="fh_severity_high" text="alvorlig" />
+
+        <!-- Field info (short, so nothing gets cut off) -->
+        <text name="fh_hud_threats" text="Trusler mod afgrøden" />
+        <text name="fh_hud_disease" text="Sygdom" />
+        <text name="fh_hud_pest" text="Skadedyr" />
+        <text name="fh_hud_none" text="ingen" />
+        <text name="fh_hud_diseaseRisk" text="Sygdomsrisiko" />
+        <text name="fh_hud_pestRisk" text="Skadedyrsrisiko" />
+        <text name="fh_hud_cause" text="Årsag" />
+        <text name="fh_hud_protection" text="Plantebeskyttelse" />
+        <text name="fh_hud_diseaseProtection" text="Sygdomsbeskyttelse" />
+        <text name="fh_hud_pestProtection" text="Skadedyrsbeskyttelse" />
+        <text name="fh_hud_protected" text="aktiv" />
+        <text name="fh_risk_low" text="lav" />
+        <text name="fh_risk_normal" text="normal" />
+        <text name="fh_risk_elevated" text="forhøjet" />
+        <text name="fh_risk_high" text="høj" />
+        <text name="fh_cause_fertilizer" text="ingen gødning" />
+        <text name="fh_cause_manure" text="frisk møg" />
+        <text name="fh_cause_fastNitrogen" text="hurtigt kvælstof" />
+        <text name="fh_cause_nitrogenDeficit" text="lidt kvælstof" />
+        <text name="fh_cause_nitrogenExcess" text="for meget kvælstof" />
+        <text name="fh_cause_lime" text="sur jord" />
+        <text name="fh_cause_lightSoil" text="let jord" />
+        <text name="fh_cause_heavySoil" text="svær jord" />
+        <text name="fh_cause_plowing" text="ingen pløjning" />
+        <text name="fh_cause_stubble" text="stub" />
+        <text name="fh_cause_rolling" text="ingen tromling" />
+        <text name="fh_cause_weeds" text="ukrudt" />
+        <text name="fh_cause_sameCrop" text="monokultur" />
+        <text name="fh_cause_cropFamily" text="beslægtet afgrøde" />
+        <text name="fh_cause_previousCrop" text="dårlig forfrugt" />
+        <text name="fh_hint_fungicide" text="Behandling: sprøjt med svampemiddel" />
+        <text name="fh_hint_insecticide" text="Behandling: sprøjt med insektmiddel" />
+        <text name="fh_field_area" text="Markens areal" />
+        <text name="fh_potential_harvest" text="Mulig høst" />
+        <text name="fh_potential_yield" text="Muligt udbytte" />
+
+        <!-- Notifications: field number, crop, threat, spray -->
+        <text name="fh_alert_new" text="Mark %s (%s): ny trussel – %s. Sprøjt med: %s." />
+        <text name="fh_alert_severe" text="Mark %s (%s): alvorlig trussel – %s, afgrøden dør. Sprøjt med: %s." />
+        <text name="fh_alert_neighbour" text="Mark %s (%s): %s – kom fra en nabomark. Sprøjt med: %s." />
+
+        <!-- Map -->
+        <text name="fh_map_page" text="Plantebeskyttelse" />
+        <text name="fh_map_layerProtection" text="Beskyttelse" />
+        <text name="fh_map_layerDiseases" text="Sygdomme" />
+        <text name="fh_map_layerPests" text="Skadedyr" />
+        <text name="fh_map_layerDiseaseTypes" text="Sygdomstyper" />
+        <text name="fh_map_layerPestTypes" text="Skadedyrstyper" />
+        <text name="fh_map_notSprayed" text="Ikke beskyttet" />
+        <text name="fh_map_oneProduct" text="Ét middel" />
+        <text name="fh_map_bothProducts" text="Svampe- og insektmiddel" />
+        <text name="fh_map_healthy" text="Sund afgrøde" />
+        <text name="fh_map_low" text="Let" />
+        <text name="fh_map_medium" text="Middel" />
+        <text name="fh_map_high" text="Alvorlig" />
+        <text name="fh_map_diseaseLabel" text="Sygdom:" />
+        <text name="fh_map_pestLabel" text="Skadedyr:" />
+        <text name="fh_map_diseaseProtectionLabel" text="Sygdomsbeskyttelse:" />
+        <text name="fh_map_pestProtectionLabel" text="Skadedyrsbeskyttelse:" />
+        <text name="fh_map_protectedUntilHarvest" text="aktiv" />
+        <text name="input_FH_MINIMAP_LAYER" text="Field Health – lag for plantebeskyttelse på minikortet" />
+
+        <!-- Settings -->
+        <text name="fh_config_brand" text="Mærke" />
+        <text name="fh_settings_header" text="Field Health – sygdomme og skadedyr" />
+        <text name="fh_setting_enabled" text="Trusler mod afgrøden" />
+        <text name="fh_setting_enabled_desc" text="Moddens hovedkontakt. Når den er slået fra, kommer der ingen nye sygdomme eller skadedyr, og de eksisterende holder op med at udvikle sig og ødelægge afgrøden. Sprøjtning virker stadig, så du kan fjerne det, der er tilbage på dine marker." />
+        <text name="fh_setting_diseaseChance" text="Sygdomschance pr. sæson" />
+        <text name="fh_setting_diseaseChance_desc" text="Grundchancen for, at en normalt dyrket mark får en sygdom i løbet af én sæson (fra såning til høst). Det er kun et udgangspunkt: god dyrkning (møg, efterafgrøder, sædskifte, rigtig pH og kvælstof) sænker den, forsømmelse (ingen gødning, monokultur, ingen pløjning, sur jord) hæver den flere gange. Sprøjtning med svampemiddel, før en sygdom viser sig, sænker den til nul indtil høst. 0 % slår sygdomme fra." />
+        <text name="fh_setting_pestChance" text="Skadedyrschance pr. sæson" />
+        <text name="fh_setting_pestChance_desc" text="Grundchancen for, at der kommer skadedyr på en normalt dyrket mark i løbet af én sæson. Dyrkningen ændrer den: ukrudt, monokultur og ingen pløjning hæver den, efterafgrøder og sædskifte sænker den. Sprøjtning med insektmiddel, før skadedyrene viser sig, sænker den til nul indtil høst. 0 % slår skadedyr fra." />
+        <text name="fh_setting_careInfluence" text="Dyrkningens indflydelse" />
+        <text name="fh_setting_careInfluence_desc" text="Hvor meget måden, du dyrker på (gødskning, jordbearbejdning, sædskifte, efterafgrøder, ukrudt, data fra Præcisionslandbrug), ændrer grundchancerne. Ingen – kun grundchancen tæller, og alle marker er lige. Lav – små forskelle. Normal (anbefalet) – god dyrkning betaler sig tydeligt. Høj – forsømte marker bliver syge meget ofte, velplejede næsten aldrig." />
+        <text name="fh_setting_weatherInfluence" text="Vejrets indflydelse" />
+        <text name="fh_setting_weatherInfluence_desc" text="Hvor meget vejret de seneste dage (temperatur og regn) ændrer chancen for trusler. Svampesygdomme kan lide regn og fugt, de fleste skadedyr varmt og tørt vejr, og hver trussel har sit eget temperaturområde. Ingen – vejret tæller ikke. Lav – små forskelle. Normal (anbefalet) – tydelige forskelle. Høj – i gunstigt vejr kommer truslerne meget oftere, i ugunstigt vejr næsten aldrig." />
+        <text name="fh_setting_stubbleRisk" text="Risiko fra stub" />
+        <text name="fh_setting_stubbleRisk_desc" text="Om stub, der ikke er findelt efter høst, hæver risikoen (især for majsborer og sygdomme, der overlever på planterester). Det tæller kun efter en høst på marken, og når marken ikke er pløjet. Kørespor og stier gennem marken tæller aldrig som stub. Fra – stub ændrer slet ikke risikoen." />
+        <text name="fh_setting_fodderCrops" text="Trusler på enge og foderafgrøder" />
+        <text name="fh_setting_fodderCrops_desc" text="Om enge, græs, kløver og lucerne kan få sygdomme og skadedyr. Fra (anbefalet) – disse afgrøder får aldrig trusler, og trusler, der allerede er der, forsvinder dagen efter. Til – kløver og lucerne kan få bladlus; enge og græs stadig aldrig." />
+        <text name="fh_setting_fieldInfo" text="Linjer i markinfo" />
+        <text name="fh_setting_fieldInfo_desc" text="Om markinfoboksen viser markens trusler, risiko og beskyttelse. Fra – boksen ser ud som uden modden; kortet og minikortet viser stadig markerne." />
+        <text name="fh_setting_progression" text="Truslernes udvikling" />
+        <text name="fh_setting_progression_desc" text="Hvor hurtigt en ubehandlet trussel når næste stadie: let, så middel, så alvorlig. Langsom – hver spilmåned, Normal – hver halve måned, Hurtig – hver kvarte måned (mindst én dag). Kun det alvorlige stadie ødelægger afgrøden, så et langsommere tempo giver dig mere tid til at sprøjte." />
+        <text name="fh_setting_spread" text="Truslernes udbredelse" />
+        <text name="fh_setting_spread_desc" text="Hvor stor en del af marken en ubehandlet trussel kan dække. Lille – op til 2,5 %, Middel – op til 5 %, Stor – op til 10 % af markens areal. En angrebsplet vokser ujævnt i kanten, og en gang imellem dukker en ny, mindre plet op ved siden af – som regel på den side, vinden blæser hen mod den dag. Sprøjtning fjerner truslen helt." />
+        <text name="fh_setting_patchSize" text="Pletternes størrelse" />
+        <text name="fh_setting_patchSize_desc" text="Hvor store de pletter er, som en ny trussel viser sig og vokser i. Hver plet har en uregelmæssig form og en tilfældig størrelse – små er mere almindelige end store. Små – pletter som regel 5–12 m i tværmål, Normale – 8–20 m, Store – 12–30 m. På små marker er pletterne altid mindre." />
+        <text name="fh_setting_neighbourSpread" text="Spredning til nabomarker" />
+        <text name="fh_setting_neighbourSpread_desc" text="Om en trussel i kanten af en mark kan flytte over på en nabomark, der tilhører en spiller. Det sker kun, når markerne rører hinanden eller er adskilt af en meget smal stribe, når den anden mark har en afgrøde, truslen angriber, i det rigtige vækststadie, og når den anden mark ikke er sprøjtet. Skadedyr flytter oftere end sygdomme og først fra middelstadiet. NPC-marker rammes aldrig. Fra, Sjældent, Nogle gange, Ofte – ingen, halv, normal og dobbelt chance." />
+        <text name="fh_setting_damage" text="Skade på afgrøden" />
+        <text name="fh_setting_damage_desc" text="Hvor meget afgrøde en alvorlig trussel ødelægger hver dag. Ødelagte steder giver intet ved høst. Fra – truslerne er kun synlige, udbyttet forbliver det samme. Lav, Normal, Høj – 1, 3 eller 6 pletter på nogle få meter om dagen, altid kun inden for det angrebne område." />
+        <text name="fh_setting_protectionThreshold" text="Dækning for fuld beskyttelse" />
+        <text name="fh_setting_protectionThreshold_desc" text="Hvor meget af en mark der skal sprøjtes, for at hele marken er beskyttet mod den slags trussel (sygdomme eller skadedyr). Med mindre dækning kan en trussel stadig vise sig, men kun på de usprøjtede dele – sprøjtede steder er altid beskyttet. Standard 90 %. En lavere grænse tilgiver oversete hjørner og kiler, en højere kræver præcis sprøjtning." />
+        <text name="fh_setting_protectionDuration" text="Sprøjtebeskyttelse" />
+        <text name="fh_setting_protectionDuration_desc" text="Hvor længe svampemiddel og insektmiddel beskytter en mark. Indtil høst – én sprøjtning med hvert middel beskytter marken hele sæsonen (det letteste). 2 måneder, 1 måned, En halv måned – beskyttelsen slutter så længe efter markens seneste sprøjtning, og du skal sprøjte igen som på en rigtig gård." />
+        <text name="fh_setting_fungicideUsage" text="Dosis af svampemiddel" />
+        <text name="fh_setting_fungicideUsage_desc" text="Hvor meget svampemiddel en marksprøjte bruger pr. hektar. 100 % er omkring 290 liter sprøjtevæske pr. hektar (det samme som ukrudtsmiddel), hvilket er én flaske på 1 l pr. hektar. En lavere dosis gør sprøjtningen billigere med færre påfyldninger, en højere gør den dyrere. Virkningen af sprøjtningen er altid den samme. Ændringen gælder med det samme, også under arbejdet." />
+        <text name="fh_setting_insecticideUsage" text="Dosis af insektmiddel" />
+        <text name="fh_setting_insecticideUsage_desc" text="Hvor meget insektmiddel en marksprøjte bruger pr. hektar. 100 % er omkring 290 liter sprøjtevæske pr. hektar (det samme som ukrudtsmiddel), hvilket er én flaske på 1 l pr. 5 hektar. En lavere dosis gør sprøjtningen billigere med færre påfyldninger, en højere gør den dyrere. Virkningen af sprøjtningen er altid den samme. Ændringen gælder med det samme, også under arbejdet." />
+        <text name="fh_setting_fungicidePrice" text="Pris på flaske svampemiddel" />
+        <text name="fh_setting_fungicidePrice_desc" text="Butiksprisen for én flaske svampemiddel på 1 l. En flaske rækker til 1 hektar (290 l sprøjtevæske). Standard 50. Spillet omregner valuta 1:1. Prisen pr. liter sprøjtevæske følger denne pris, f.eks. når væsken købes på en station. Ændringen gælder med det samme i butikken." />
+        <text name="fh_setting_insecticidePrice" text="Pris på flaske insektmiddel" />
+        <text name="fh_setting_insecticidePrice_desc" text="Butiksprisen for én flaske insektmiddel på 1 l. En flaske rækker til 5 hektar (1.450 l sprøjtevæske). Standard 80. Spillet omregner valuta 1:1. Prisen pr. liter sprøjtevæske følger denne pris, f.eks. når væsken købes på en station. Ændringen gælder med det samme i butikken." />
+        <text name="fh_setting_fungicideCanisterPrice" text="Pris på dunk svampemiddel 5 l" />
+        <text name="fh_setting_fungicideCanisterPrice_desc" text="Butiksprisen for én dunk svampemiddel på 5 l. En dunk rækker til 5 hektar (1.450 l sprøjtevæske). Standard 220, billigere pr. liter end fem flasker på 1 l, som hos en rigtig forhandler. Spillet omregner valuta 1:1. Ændringen gælder med det samme i butikken." />
+        <text name="fh_setting_insecticideCanisterPrice" text="Pris på dunk insektmiddel 5 l" />
+        <text name="fh_setting_insecticideCanisterPrice_desc" text="Butiksprisen for én dunk insektmiddel på 5 l. En dunk rækker til 25 hektar (7.250 l sprøjtevæske). Standard 350, billigere pr. liter end fem flasker på 1 l, som hos en rigtig forhandler. Spillet omregner valuta 1:1. Ændringen gælder med det samme i butikken." />
+        <text name="fh_setting_fungicideCanister20Price" text="Pris på dunk svampemiddel 20 l" />
+        <text name="fh_setting_fungicideCanister20Price_desc" text="Butiksprisen for én dunk svampemiddel på 20 l. En dunk rækker til 20 hektar (5.800 l sprøjtevæske). Standard 800, den billigste pr. liter af alle emballager. Spillet omregner valuta 1:1. Ændringen gælder med det samme i butikken." />
+        <text name="fh_setting_insecticideCanister20Price" text="Pris på dunk insektmiddel 20 l" />
+        <text name="fh_setting_insecticideCanister20Price_desc" text="Butiksprisen for én dunk insektmiddel på 20 l. En dunk rækker til 100 hektar (29.000 l sprøjtevæske). Standard 1200, den billigste pr. liter af alle emballager. Spillet omregner valuta 1:1. Ændringen gælder med det samme i butikken." />
+        <text name="fh_setting_farmLimit" text="Grænse for trusler pr. gård" />
+        <text name="fh_setting_farmLimit_desc" text="Det største antal nye trusler på alle din gårds marker pr. spilår. Ubegrænset – hver mark har sin egen chance. Vælg for eksempel 1 eller 2, hvis du har mange marker og vil have, at sygdomme og skadedyr skal være sjældne." />
+        <text name="fh_setting_notifications" text="Meddelelser om trusler" />
+        <text name="fh_setting_notifications_desc" text="Viser en meddelelse, når en sygdom eller skadedyr viser sig på din mark, og når en trussel bliver alvorlig og begynder at ødelægge afgrøden. Meddelelsen nævner marken, afgrøden, truslen og det middel, der skal sprøjtes med." />
+        <text name="fh_set_on" text="Til" />
+        <text name="fh_set_off" text="Fra" />
+        <text name="fh_set_none" text="Ingen" />
+        <text name="fh_set_low" text="Lav" />
+        <text name="fh_set_normal" text="Normal" />
+        <text name="fh_set_high" text="Høj" />
+        <text name="fh_set_slow" text="Langsom" />
+        <text name="fh_set_normalPace" text="Normal" />
+        <text name="fh_set_fast" text="Hurtig" />
+        <text name="fh_set_small" text="Lille" />
+        <text name="fh_set_medium" text="Middel" />
+        <text name="fh_set_large" text="Stor" />
+        <text name="fh_set_damageLow" text="Lav" />
+        <text name="fh_set_damageNormal" text="Normal" />
+        <text name="fh_set_damageHigh" text="Høj" />
+        <text name="fh_set_untilHarvest" text="Indtil høst" />
+        <text name="fh_set_twoMonths" text="2 måneder" />
+        <text name="fh_set_oneMonth" text="1 måned" />
+        <text name="fh_set_halfMonth" text="En halv måned" />
+        <text name="fh_set_unlimited" text="Ubegrænset" />
+        <text name="fh_set_patchSmall" text="Små" />
+        <text name="fh_set_patchNormal" text="Normale" />
+        <text name="fh_set_patchLarge" text="Store" />
+        <text name="fh_set_rarely" text="Sjældent" />
+        <text name="fh_set_sometimes" text="Nogle gange" />
+        <text name="fh_set_often" text="Ofte" />
+
+        <!-- Shop -->
+        <text name="fh_fillType_insecticide" text="Insektmiddel" />
+        <text name="fh_fillType_fungicide" text="Svampemiddel" />
+        <text name="fh_store_fungicideBottle" text="Svampemiddel 1 l" />
+        <text name="fh_store_insecticideBottle" text="Insektmiddel 1 l" />
+        <text name="fh_store_fungicideCanister" text="Svampemiddel 5 l" />
+        <text name="fh_store_insecticideCanister" text="Insektmiddel 5 l" />
+        <text name="fh_store_fungicideCanister20" text="Svampemiddel 20 l" />
+        <text name="fh_store_insecticideCanister20" text="Insektmiddel 20 l" />
+        <text name="fh_function_fungicideBottle" text="Flaske med 1 l koncentrat, dosis 1 l/ha. Rækker til 1 ha, hvilket er 290 l sprøjtevæske. Beskytter afgrøder mod alle sygdomme. Stil den ved siden af en marksprøjte, og fyld sprøjten fra den." />
+        <text name="fh_function_insecticideBottle" text="Flaske med 1 l koncentrat, dosis 0,2 l/ha. Rækker til 5 ha, hvilket er 1.450 l sprøjtevæske. Beskytter afgrøder mod skadedyr: bladlus, kornbladbiller, glimmerbøsser, coloradobiller, majsborer og smælderlarver. Stil den ved siden af en marksprøjte, og fyld sprøjten fra den." />
+        <text name="fh_function_fungicideCanister" text="Dunk med 5 l koncentrat, dosis 1 l/ha. Rækker til 5 ha, hvilket er 1.450 l sprøjtevæske. Beskytter afgrøder mod alle sygdomme. Billigere pr. liter end flaskerne på 1 l. Stil den ved siden af en marksprøjte, og fyld sprøjten fra den." />
+        <text name="fh_function_insecticideCanister" text="Dunk med 5 l koncentrat, dosis 0,2 l/ha. Rækker til 25 ha, hvilket er 7.250 l sprøjtevæske. Beskytter afgrøder mod skadedyr. Billigere pr. liter end flaskerne på 1 l. Stil den ved siden af en marksprøjte, og fyld sprøjten fra den." />
+        <text name="fh_function_fungicideCanister20" text="Dunk med 20 l koncentrat, dosis 1 l/ha. Rækker til 20 ha, hvilket er 5.800 l sprøjtevæske. Beskytter afgrøder mod alle sygdomme. Billigst pr. liter, til store bedrifter. Stil den ved siden af en marksprøjte, og fyld sprøjten fra den." />
+        <text name="fh_function_insecticideCanister20" text="Dunk med 20 l koncentrat, dosis 0,2 l/ha. Rækker til 100 ha, hvilket er 29.000 l sprøjtevæske. Beskytter afgrøder mod skadedyr. Billigst pr. liter, til store bedrifter. Stil den ved siden af en marksprøjte, og fyld sprøjten fra den." />
+
+        <!-- Help (ESC → Help) -->
+        <text name="fh_help_header" text="Field Health – sygdomme og skadedyr" />
+
+        <text name="fh_help_intro" text="Introduktion" />
+        <text name="fh_help_intro_01" text="Om modden" />
+        <text name="fh_help_intro_02" text="Field Health bringer de plantesygdomme og skadedyr, som landmænd i Polen kæmper med hver dag, ind i spillet. De viser sig på din gårds marker i løbet af sæsonen, udvikler sig og ødelægger – hvis du ikke bekæmper dem – en del af afgrøden. To midler fra butikken bekæmper dem: svampemiddel mod sygdomme og insektmiddel mod skadedyr.
+Modden er realistisk, men tilgivende over for afslappet spil: en trussel dækker aldrig hele marken, afgrøden ødelægges kun i det mest alvorlige stadie, og én godt udført sprøjtning med hvert middel beskytter marken til sæsonens slutning." />
+        <text name="fh_help_intro_03" text="Sæsonen trin for trin" />
+        <text name="fh_help_intro_04" text="1. Såningen starter afgrødens sæson. Fra den dag vokser smittetrykket på marken – hurtigst på den tid af året og i det vækststadie, hvor en trussel angriber, i vejr, der passer den, og på en forsømt mark.
+2. Når trykket passerer den grænse, der er trukket for marken, viser en plet med en sygdom eller skadedyr sig. Du får en meddelelse med marknummeret og det middel, der skal sprøjtes med.
+3. En ubehandlet trussel bliver et stadie værre hver halve måned og breder sig langsomt. I det alvorlige stadie ødelægger den afgrøde i små pletter hver dag.
+4. Sprøjtning fjerner truslen og beskytter de sprøjtede steder. En mark, der er sprøjtet næsten helt, er immun over for den slags trussel indtil høst.
+5. Høsten afslutter sæsonen: trusler og beskyttelse forsvinder, og den høstede afgrøde bliver forfrugt for den næste." />
+        <text name="fh_help_intro_05" text="Vigtige tal" />
+        <text name="fh_help_intro_06" text="Standardværdier. Administratoren kan ændre hver af dem i indstillingerne (sidste kolonne)." />
+        <text name="fh_help_intro_08" text="Hvor du tjekker dine marker" />
+        <text name="fh_help_intro_09" text="– Markinfoboksen (mens du er på en mark): trusler med deres stadie, risikoen og dens hovedårsag, markens beskyttelse.
+– Kort (ESC &gt; Kort &gt; Plantebeskyttelse): fem lag – beskyttelse, sygdomme, skadedyr, sygdomstyper og skadedyrstyper.
+– Minikort: skift lag med venstre Alt + \.
+– Meddelelser: om en ny trussel, om det alvorlige stadie og om en trussel, der kom fra en nabomark." />
+        <text name="fh_help_origin" text="Hvor truslerne kommer fra" />
+        <text name="fh_help_origin_01" text="Hver spillermark med en voksende afgrøde kan højst få én sygdom og én slags skadedyr pr. sæson. NPC-marker, poppel og efterafgrøder får aldrig trusler; enge, græs, kløver og lucerne kun, når det er slået til i indstillingerne.
+En trussel viser sig ikke på en tilfældig dag. Hver dag beregner modden smittetrykket på marken og lægger det til summen fra de foregående dage. Ved sæsonens start får marken en tilfældig modstandsgrænse – når summen af trykket passerer den, bliver marken smittet. Derfor viser en trussel sig tidligt i én sæson, sent i en anden og slet ikke i en tredje." />
+        <text name="fh_help_origin_02" text="Hvad der driver trykket" />
+        <text name="fh_help_origin_03" text="1. Grundchancen fra indstillingerne – som standard 15 % for en sygdom og 10 % for skadedyr over en sæson.
+2. Markens risiko, altså hvordan du dyrker den: gødskning, jordbearbejdning, sædskifte og ukrudt (siden “Sådan dyrker du”).
+3. Hvor almindelig truslen er i Polen – almindelige sygdomme og skadedyr viser sig meget oftere end sjældne (siderne “Sygdomme” og “Skadedyr”).
+4. Årstiden og vækststadiet – uden for sin tid angriber en trussel slet ikke (siden “Årstider og vækststadier”).
+5. Vejret de seneste dage – regn hjælper svampesygdomme, varme og tørke hjælper de fleste skadedyr (siden “Vejr”)." />
+        <text name="fh_help_origin_04" text="Chance pr. sæson" />
+        <text name="fh_help_origin_05" text="Sådan ændrer markens risiko chancen for en trussel over hele sæsonen med standardindstillingerne:" />
+        <text name="fh_help_origin_07" text="Tabellen gælder for en afgrøde med et gennemsnitligt antal trusler, som vokser gennem hele deres tid. Afgrøder, der angribes af mange almindelige sygdomme eller skadedyr, får dem oftere (op til 1,4 gange), afgrøder med få trusler sjældnere (ned til 0,5 gange):" />
+        <text name="fh_help_origin_09" text="Hvilken trussel der viser sig" />
+        <text name="fh_help_origin_10" text="Når en smitte sker, vælger modden en af de trusler, der kan angribe afgrøden den dag. Chancen for hver står i forhold til dens tryk den dag: hvor almindelig den er gange markens risiko, årstiden og vejret. Eksempel: på hvede i maj i regnvejr viser septoria eller meldug sig oftest, mens sortrust, som er sjælden og kan lide varme, næsten aldrig gør." />
+        <text name="fh_help_origin_11" text="Sprøjtning før smitten" />
+        <text name="fh_help_origin_12" text="Hvis marken i smitteøjeblikket er sprøjtet med det rigtige middel på mindst 90 % af sit areal, mislykkes smitten, og marken får ingen trussel af den slags i denne sæson. Med mindre dækning kan truslen vise sig, men kun på de dele, der ikke blev sprøjtet." />
+        <text name="fh_help_timing" text="Årstider og vækststadier" />
+        <text name="fh_help_timing_01" text="Hver sygdom og hvert skadedyr har sin tid: det angriber kun i bestemte måneder og kun i bestemte vækststadier af afgrøden. Inden for den tid har det et højdepunkt, hvor det er farligst. Uden for sin tid viser en trussel sig slet ikke – den kan heller ikke komme fra en nabomark." />
+        <text name="fh_help_timing_02" text="Vækststadier" />
+        <text name="fh_help_timing_04" text="Modden aflæser stadiet ud fra afgrødens vækststadie i spillet: de første 20 % af vækstperioden er fremspiring, op til 45 % bladudvikling og buskning, op til 70 % strækning eller knopdannelse, derefter skridning og blomstring, og en afgrøde, der er klar til høst, er moden. Månederne følger spillets kalender (årets første periode er marts), så antallet af dage pr. periode ændrer ikke, hvornår truslerne angriber." />
+        <text name="fh_help_timing_05" text="Kalender – hvornår du skal være forsigtig" />
+        <text name="fh_help_timing_06" text="Hovedmånederne er dem, hvor trykket fra gruppen af trusler på afgrøden er højest. Sprøjtning kort før dem forhindrer de fleste smitter." />
+        <text name="fh_help_farming" text="Sådan dyrker du" />
+        <text name="fh_help_farming_01" text="Markens risiko er en multiplikator for smittetrykket, som kommer af, hvordan du dyrker marken. Modden beregner den for hver trussel for sig; markinfoboksen viser den højeste sygdoms- og skadedyrsrisiko og hovedårsagen. Multiplikatorerne i tabellerne ganges med hinanden, og resultatet holder sig altid mellem 0,3 og 5." />
+        <text name="fh_help_farming_03" text="Gødskning" />
+        <text name="fh_help_farming_05" text="Jordbearbejdning og ukrudt" />
+        <text name="fh_help_farming_07" text="Værdierne gælder for en helt forsømt mark – delvis forsømmelse hæver risikoen forholdsmæssigt. Kun markarbejde, der er slået til i spilindstillingerne, tæller: uden krav om pløjning ændrer manglende pløjning intet. Modden tjekker marken i 36 punkter og kun der, hvor afgrøden vokser, så kørespor og stier gennem marken tæller ikke som forsømmelse. Stub og tromling tæller kun som manglende, når de mangler på tre fjerdedele af marken. Stub tæller kun efter en høst på denne mark og ikke efter pløjning (indstillingen “Risiko fra stub” slår det helt fra). I FS25 vokser der ikke ukrudt efter pløjning." />
+        <text name="fh_help_farming_08" text="Sædskifte og efterafgrøder" />
+        <text name="fh_help_farming_10" text="Indstillingen “Dyrkningens indflydelse” forstærker eller svækker alle disse faktorer på én gang. Ingen – hver mark har risiko 1. Lav – forskellene er omkring halvt så store. Normal – som i tabellerne. Høj – forskellene er halvanden gang så store." />
+        <text name="fh_help_weather" text="Vejr" />
+        <text name="fh_help_weather_01" text="Hver time i spillet aflæser modden temperaturen, og om det regner. Ved dagens slutning beregner den dagens gennemsnitstemperatur og andelen af timer med regn. Fugtigheden har en hukommelse: halvdelen kommer fra den seneste dag og halvdelen fra dagene før, fordi bladene forbliver våde længe efter regn. Hver trussel har en vejrprofil – et temperaturområde og hvordan den klarer regn." />
+        <text name="fh_help_weather_03" text="En temperatur uden for området sænker trykket til 0,4 gange, en temperatur i optimum hæver det til 1,2 gange. Regn ændrer trykket fra 0,4 til 1,8 gange – op for trusler, der kan lide fugt, ned for dem, der kan lide tørke. Samlet ændrer vejret trykket fra 0,2 til 2,5 gange. Eksempler på multiplikatorer efter nogle dage med sådant vejr (rød – truslen vokser, grøn – den aftager):" />
+        <text name="fh_help_weather_05" text="Indstillingen “Vejrets indflydelse”: Ingen – vejret tæller ikke, Lav – mildere multiplikatorer, Normal – som i tabellen, Høj – kraftigere. Efter nogle varme, regnfulde dage om sommeren skal du især holde øje med kartofler og korn i skridning, og i en tør, varm sommer med skadedyr." />
+        <text name="fh_help_diseases" text="Sygdomme" />
+        <text name="fh_help_diseases_01" text="Svampemiddel bekæmper alle sygdomme. Tabellerne viser, hvor almindelig en sygdom er i Polen, hvilke afgrøder den angriber, i hvilke måneder den viser sig, og hvornår den er værst, i hvilket vækststadie den gør mest skade, og hvad der hjælper den." />
+        <text name="fh_help_diseases_03" text="Korn og majs" />
+        <text name="fh_help_diseases_05" text="Andre afgrøder" />
+        <text name="fh_help_diseases_07" text="Afgrøder fra kort, som modden ikke kender, kan få gråskimmel og bladlus. Løg fra Highlands Fishing Expansion og fra mods genkendes automatisk." />
+        <text name="fh_help_pests" text="Skadedyr" />
+        <text name="fh_help_pests_01" text="Insektmiddel bekæmper alle skadedyr. Tabellernes kolonner betyder det samme som på siden “Sygdomme”." />
+        <text name="fh_help_pests_02" text="Korn og majs" />
+        <text name="fh_help_pests_04" text="Andre afgrøder" />
+        <text name="fh_help_progress" text="Sådan udvikler en trussel sig" />
+        <text name="fh_help_progress_01" text="En ny trussel er en eller to uregelmæssige pletter med en flosset kant og sunde huller indeni. Den starter i det lette stadie. Hvis du ikke bekæmper den, gennemgår den disse trin:" />
+        <text name="fh_help_progress_03" text="Ødelagt afgrøde vokser ikke ud igen og giver intet ved høst. At sprøjte på forhånd eller lige efter meddelelsen er derfor det billigste. Sprøjtning i ethvert stadie fjerner truslen helt fra de sprøjtede steder." />
+        <text name="fh_help_spraying" text="Sprøjtning og beskyttelse" />
+        <text name="fh_help_spraying_01" text="Midlerne laves af det polske firma Opryskex: svampemidlet Grzybobój 250 EC (grøn etiket) og insektmidlet Robalex 100 CS (rød etiket). Når du køber, kan du i stedet vælge mærket MST (Mafia Solec Team): Solectop 280 SC og Mafiozol 50 EW. De virker ens, kun etiketten er forskellig. Du køber dem i butikken i flasker på 1 l og dunke på 5 l og 20 l. Stil emballagen ved siden af marksprøjten, og fyld den som fra en palle. Spillet blander ikke koncentratet med vand, så indholdet af en emballage er al den sprøjtevæske, den giver. Jo større emballage, jo billigere pr. hektar." />
+        <text name="fh_help_spraying_03" text="Sådan virker beskyttelsen" />
+        <text name="fh_help_spraying_05" text="Pas på" />
+        <text name="fh_help_spraying_06" text="– Sprøjt efter fremspiring – såning og høst fjerner beskyttelsen.
+– Svampemiddel beskytter ikke mod skadedyr, og insektmiddel ikke mod sygdomme. Fuld beskyttelse kræver begge.
+– Oversete kiler og forager tæller: under 90 % dækning kan en trussel vise sig på usprøjtede striber.
+– Midlerne gøder ikke og dræber ikke ukrudt.
+– Med en kortere sprøjtebeskyttelse (indstilling) slutter hele markens beskyttelse så længe efter den seneste sprøjtning." />
+        <text name="fh_help_map" text="Kort og markinfo" />
+        <text name="fh_help_map_01" text="Markinfoboksen" />
+        <text name="fh_help_map_02" text="Mens du er på en mark, viser markinfoboksen:
+– Sygdom og Skadedyr: den aktive trussel og dens stadie (let, middel, alvorlig),
+– Sygdomsrisiko og Skadedyrsrisiko: lav, normal, forhøjet eller høj, og fra forhøjet også hovedårsagen,
+– Sygdomsbeskyttelse og Skadedyrsbeskyttelse: hvor meget af marken der er sprøjtet,
+– et tip om, hvilket middel der bekæmper truslen." />
+        <text name="fh_help_map_03" text="Kort" />
+        <text name="fh_help_map_04" text="Vælg siden “Plantebeskyttelse” under ESC &gt; Kort. Under dens titel skifter en anden vælger med pile mellem fem lag. Et klik på et punkt i signaturforklaringen skjuler det på kortet. Kun marker på din gård med en voksende afgrøde vises. Klik på et jordstykke for at se truslerne og beskyttelsen på dets marker." />
+        <text name="fh_help_map_06" text="Farver på trusselstyperne" />
+        <text name="fh_help_map_08" text="Minikort" />
+        <text name="fh_help_map_09" text="Venstre Alt + \ skifter minikortets lag: beskyttelse, sygdomme, skadedyr og intet lag. Du kan ændre tasterne under spillet i ESC &gt; Indstillinger &gt; Styring, punktet “Field Health – lag for plantebeskyttelse på minikortet” (hovedmenuen viser ikke mods' taster, fordi mods indlæses med det gemte spil)." />
+        <text name="fh_help_pf" text="Præcisionslandbrug" />
+        <text name="fh_help_pf_01" text="Med Præcisionslandbrug fungerer Field Health som en udvidelse af det og bruger dets jordkort. I stedet for gødskning generelt tæller kvælstoffet sammenlignet med målet, og i stedet for kalkning generelt jordens pH." />
+        <text name="fh_help_pf_03" text="Den bedste beskyttelse er det samme arbejde, du gør for udbyttet: gødskning til målet, kalkning til optimal pH og efterafgrøder. Konsolkommandoen fhPrecisionFarming skriver i loggen, hvordan modden aflæser data fra Præcisionslandbrug." />
+        <text name="fh_help_settings" text="Indstillinger" />
+        <text name="fh_help_settings_01" text="Du finder moddens indstillinger under ESC &gt; Indstillinger &gt; Spil i afsnittet “Field Health – sygdomme og skadedyr”. De gemmes med det gemte spil. I multiplayer kan kun serverens administrator ændre dem. Hold markøren over en mulighed for at se dens beskrivelse." />
+        <text name="fh_help_tips" text="Tips" />
+        <text name="fh_help_tips_01" text="En plan for sunde marker" />
+        <text name="fh_help_tips_02" text="1. Gød efter behov, kalk, og så ikke den samme afgrøde to år i træk. Så en efterafgrøde mellem hovedafgrøderne.
+2. Sprøjt marken med svampemiddel og insektmiddel før truslernes hovedmåneder (siden “Årstider og vækststadier”). Én gang pr. sæson er nok, hvis du dækker mindst 90 % af marken.
+3. Tjek laget “Beskyttelse” på kortet – grønne marker er beskyttet mod begge slags trusler.
+4. Sprøjt efter en meddelelse den nævnte mark med det nævnte middel, før truslen når det alvorlige stadie.
+5. En AI-hjælper med svampemiddel eller insektmiddel sprøjter ubeskyttede marker helt og beskyttede kun der, hvor der er en trussel." />
+        <text name="fh_help_tips_03" text="Pas på" />
+        <text name="fh_help_tips_04" text="– Monokultur og manglende pløjning er de hyppigste årsager til høj risiko, f.eks. hvede efter hvede uden pløjning hjælper septoria, hvedebladplet og fusarium.
+– Majs før hvede hæver tydeligt risikoen for fusarium, græsmark før kartofler risikoen for smælderlarver.
+– Gylle og flydende gødning giver frodig vækst, som meldug, rust og bladlus kan lide.
+– En regnfuld sommer er tid for kartoffelskimmel, septoria og fusarium, en tør og varm for bladlus, coloradobiller, trips og knoporme.
+– Raps har to farlige perioder: efteråret (jordlopper, rapsbladhveps, rodhalsråd) og foråret (stængelsnudebiller, glimmerbøsser, knoldbægersvamp).
+– En trussel i middelstadiet eller det alvorlige stadie kan flytte over på en tilstødende spillermark." />
+        <text name="fh_help_admin" text="For administratoren" />
+        <text name="fh_help_admin_01" text="Konsolkommandoer" />
+        <text name="fh_help_admin_03" text="Multiplayer, gemte spil og kompatibilitet" />
+        <text name="fh_help_admin_04" text="– Simuleringen kører på serveren, og spillerne ser resultaterne. Indstillingerne og kommandoerne fhSet, fhClear og fhDailyTick er kun for administratoren.
+– Meddelelser går til spillerne på den gård, der ejer marken, hver på sit eget sprog.
+– Modden gemmer kun sine data i to egne filer i mappen med det gemte spil: fieldHealth.xml og fieldHealthMap.grle. Den kan fjernes sikkert – spillet springer disse filer over, og kun midlernes flasker og dunke forsvinder fra kortet.
+– Gemte spil fra en tidligere version af modden konverteres til det nye format ved indlæsning.
+– Løg fra Highlands Fishing Expansion og fra mods genkendes automatisk – loggen skriver det.
+– Brug ikke en anden mod for plantesygdomme (f.eks. Crop Diseases) samtidig – Field Health advarer om det i loggen." />
+        <text name="fh_help_admin_05" text="Tak til" />
+        <text name="fh_help_admin_06" text="Field Health – forfatter: MatrikSky. Ideen er inspireret af modden “Crop Diseases” af BMP. Flaskemodellen er baseret på “fertilizer Bottle” af shabanimate, dunkmodellen på “#6 Plastic Canister” af hoxsvl (begge CC BY 4.0, sketchfab.com)." />
+        <text name="fh_help_tableLanguage" text="en" />
+
+
+
+
+
+
+
+
+
+
+    </texts>
+</l10n>

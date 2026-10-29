@@ -372,7 +372,7 @@ Befall tritt nicht an einem zufälligen Tag auf. Jeden Tag berechnet der Mod den
 – Verwende nicht gleichzeitig einen anderen Mod für Pflanzenkrankheiten (z. B. Crop Diseases) – Field Health warnt im Log davor." />
         <text name="fh_help_admin_05" text="Danksagung" />
         <text name="fh_help_admin_06" text="Field Health – Autor: MatrikSky. Die Idee stammt aus dem Mod „Crop Diseases“ von BMP. Das Flaschenmodell basiert auf „fertilizer Bottle“ von shabanimate, das Kanistermodell auf „#6 Plastic Canister“ von hoxsvl (beide CC BY 4.0, sketchfab.com)." />
-        <text name="fh_help_tableLanguage" text="en" />
+        <text name="fh_help_tableLanguage" text="de" />
 
 
 

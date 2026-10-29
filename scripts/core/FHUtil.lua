@@ -30,12 +30,42 @@ function FHUtil.trace(fmt, ...)
     end
 end
 
+-- The same error is written this often; a fault that repeats every frame
+-- must not flood the log. Different errors are counted up to MAX_ERRORS.
+FHUtil.ERROR_REPEATS = 3
+FHUtil.MAX_ERRORS = 50
+FHUtil.errorCounts = {}
+FHUtil.errorKinds = 0
+
+function FHUtil.reportError(context, message)
+    local text = string.format("Error in %s: %s", tostring(context), tostring(message))
+    local count = FHUtil.errorCounts[text]
+    if count == nil then
+        if FHUtil.errorKinds >= FHUtil.MAX_ERRORS then
+            return
+        end
+        FHUtil.errorKinds = FHUtil.errorKinds + 1
+        if FHUtil.errorKinds == FHUtil.MAX_ERRORS then
+            FHUtil.log("%s (too many errors, further new ones are not written)", text)
+            return
+        end
+        count = 0
+    end
+    count = count + 1
+    FHUtil.errorCounts[text] = count
+    if count < FHUtil.ERROR_REPEATS then
+        FHUtil.log("%s", text)
+    elseif count == FHUtil.ERROR_REPEATS then
+        FHUtil.log("%s (repeats, not written again)", text)
+    end
+end
+
 -- Runs func(...) and logs instead of raising errors, so a problem in this mod
 -- never breaks the game function it is hooked into.
 function FHUtil.protect(context, func, ...)
     local ok, result = pcall(func, ...)
     if not ok then
-        FHUtil.log("Error in %s: %s", context, tostring(result))
+        FHUtil.reportError(context, result)
         return nil
     end
     return result

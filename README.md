@@ -11,7 +11,7 @@
 [![Downloads](https://img.shields.io/github/downloads/MatrikSky/Field_Health_-_Crop_Diseases_-_Pests/total?style=for-the-badge&color=1565c0)](https://github.com/MatrikSky/Field_Health_-_Crop_Diseases_-_Pests/releases)
 [![license](https://img.shields.io/badge/license-CC%20BY%204.0-ef6c00?style=for-the-badge)](LICENSE)
 [![multiplayer](https://img.shields.io/badge/multiplayer-supported-6a1b9a?style=for-the-badge)](#-compatibility)
-[![languages](https://img.shields.io/badge/languages-13-455a64?style=for-the-badge)](#-languages)
+[![languages](https://img.shields.io/badge/languages-20-455a64?style=for-the-badge)](#-languages)
 
 **[⬇️ Download](https://github.com/MatrikSky/Field_Health_-_Crop_Diseases_-_Pests/releases/latest/download/FS25_FieldHealth.zip)** &nbsp;•&nbsp; **[KingMods](https://www.kingmods.net/en/fs25/mods/83657/field-health-crop-diseases-pests)** &nbsp;•&nbsp; **[Report a bug](https://github.com/MatrikSky/Field_Health_-_Crop_Diseases_-_Pests/issues)** &nbsp;•&nbsp; **[Changelog](CHANGELOG.md)** &nbsp;•&nbsp; **[All releases](https://github.com/MatrikSky/Field_Health_-_Crop_Diseases_-_Pests/releases)**
 
@@ -55,7 +55,7 @@ Your fields finally come alive! Field Health adds crop diseases and pests to Far
 - 🧴 **Real products:** 1 l bottles and 5 l and 20 l canisters with realistic labels from two brands, Opryskex and MST.
 - 🗺️ **A clear overview:** a map page with five layers, a minimap layer, field info lines and notifications.
 - ⚙️ **25 settings:** chances, speed, spread, damage, protection, usage and prices, all in the game menu.
-- 🌍 **13 languages:** the game language is picked automatically.
+- 🌍 **20 languages:** the game language is picked automatically.
 - 🔌 **Plays well with others:** Precision Farming, onions from the Highlands Fishing DLC, mod maps, multiplayer and safe savegames.
 
 <p align="right"><a href="#-contents">⬆️ Back to contents</a></p>
@@ -114,12 +114,12 @@ These are the default values. The admin can change each of them in the settings 
 | Diseases and pests in the mod | 24 diseases and 20 kinds of pests | fixed |
 | Influence of farming on the risk | risk multiplier from 0.3 (model farming) to 5 (badly neglected field) | Influence of farming |
 | Influence of the weather on the pressure | from ×0.2 (very unfavourable weather) to ×2.5 (ideal weather for the threat) | Influence of weather |
-| Development of a threat | every half month the severity rises by one stage: low, medium, high | Threat progression |
-| Largest area of a threat | 1.5% of the field in the low stage, 3% in the medium and 5% in the high one | Threat spread |
-| Crop damage | only in the high stage: 3 small patches of crop per day | Crop damage |
+| Development of a threat | every half month the severity rises by one stage: low, medium, severe | Threat progression |
+| Largest area of a threat | 1.5% of the field in the low stage, 3% in the medium and 5% in the severe one | Threat spread |
+| Crop damage | only in the severe stage: 3 small patches of crop per day | Crop damage |
 | Full protection of a field | at least 90% of the field sprayed with the product | Coverage for full protection |
 | Duration of the protection | until harvest | Spray protection |
-| Moving to a neighbouring field | in the high stage a daily chance of 4% for pests and 2% for diseases | Spread to neighbouring fields |
+| Moving to a neighbouring field | in the severe stage a daily chance of 4% for pests and 2% for diseases | Spread to neighbouring fields |
 | Crops without threats | NPC fields, meadows, grass, clover, alfalfa, poplar and catch crops | Threats on meadows and fodder crops |
 
 ### Where threats come from
@@ -454,11 +454,11 @@ A new threat is one or two irregular patches with a ragged edge and some healthy
 | Step | What happens | Numbers with the default settings |
 |---|---|---|
 | New outbreak | 1 or 2 irregular patches appear, in the low stage | patch radius 4 to 10 m (small patches are more common); on a small field a patch covers at most 2% of it. The setting “Patch size” multiplies the radius by 0.6, 1 or 1.5. |
-| Worse stage | the severity rises from low to medium and then to high; a new stage covers the patch step by step | one stage every half month; a new stage covers the whole patch within 3 days. The setting “Threat progression” changes this to a month or a quarter of a month. |
-| Spreading | the edge of the patch grows unevenly, and now and then a small new patch appears nearby, mostly downwind | new patches appear 4 to 12 m away with a radius of 2 to 5 m. A threat covers at most 1.5% of the field in the low stage, 3% in the medium and 5% in the high one. The setting “Threat spread” multiplies these values by 0.5, 1 or 2. |
-| Crop damage | only in the high stage and only inside the infected area; destroyed crop yields nothing | 3 small patches a day, each with a radius of 1 to 2 m. The setting “Crop damage” switches it off or changes it to 1 or 6 patches a day. |
-| Moving to a neighbouring field | from the medium stage to a touching player field, if a crop the threat attacks grows there in the right time and stage and the field is not fully protected | up to 8 m from the field edge. In the high stage a daily chance of 4% for pests and 2% for diseases, half of it in the medium stage. The setting “Spread to neighbouring fields” multiplies the chance by 0.5, 1 or 2. |
-| Notifications | about a new threat, about the high stage and about a threat that came from a neighbouring field | they go to the players of the farm that owns the field; they can be switched off in the settings |
+| Worse stage | the severity rises from low to medium and then to severe; a new stage covers the patch step by step | one stage every half month; a new stage covers the whole patch within 3 days. The setting “Threat progression” changes this to a month or a quarter of a month. |
+| Spreading | the edge of the patch grows unevenly, and now and then a small new patch appears nearby, mostly downwind | new patches appear 4 to 12 m away with a radius of 2 to 5 m. A threat covers at most 1.5% of the field in the low stage, 3% in the medium and 5% in the severe one. The setting “Threat spread” multiplies these values by 0.5, 1 or 2. |
+| Crop damage | only in the severe stage and only inside the infected area; destroyed crop yields nothing | 3 small patches a day, each with a radius of 1 to 2 m. The setting “Crop damage” switches it off or changes it to 1 or 6 patches a day. |
+| Moving to a neighbouring field | from the medium stage to a touching player field, if a crop the threat attacks grows there in the right time and stage and the field is not fully protected | up to 8 m from the field edge. In the severe stage a daily chance of 4% for pests and 2% for diseases, half of it in the medium stage. The setting “Spread to neighbouring fields” multiplies the chance by 0.5, 1 or 2. |
+| Notifications | about a new threat, about the severe stage and about a threat that came from a neighbouring field | they go to the players of the farm that owns the field; they can be switched off in the settings |
 
 Destroyed crop doesn't grow back and gives nothing at harvest, so spraying early or right after the notification is the cheapest way. Spraying at any stage removes the threat completely from the sprayed spots.
 
@@ -527,7 +527,7 @@ In **ESC > Map** pick the page **Crop protection**. Right below its title there'
 | Diseases and Pests | ![#8cc278](https://placehold.co/12x12/8cc278/8cc278.png) Healthy crop | nothing: there is no threat here |
 |   | ![#fcdb4c](https://placehold.co/12x12/fcdb4c/fcdb4c.png) Low stage | spray the field in the next days |
 |   | ![#f78c29](https://placehold.co/12x12/f78c29/f78c29.png) Medium stage | spray as soon as possible: the threat can move to a neighbouring field |
-|   | ![#d6211c](https://placehold.co/12x12/d6211c/d6211c.png) High stage | spray at once: the crop is already dying |
+|   | ![#d6211c](https://placehold.co/12x12/d6211c/d6211c.png) Severe stage | spray at once: the crop is already dying |
 | Disease types and Pest types | every threat has its own colour (table below) | see exactly what attacks the field |
 
 <details>
@@ -577,7 +577,7 @@ You find the mod settings in **ESC > Settings > Game**, in the Field Health sect
 | Threat spread | small, medium or large | medium | the largest share of the field a threat can cover: half, normal or twice as much |
 | Patch size | small, normal or large | normal | size of new outbreaks: 0.6 times, normal or 1.5 times |
 | Spread to neighbouring fields | off, rarely, sometimes or often | sometimes | how often a threat moves to a neighbouring player field |
-| Crop damage | off, low, normal or high | normal | how many crop patches die per day in the high stage: none, 1, 3 or 6 |
+| Crop damage | off, low, normal or high | normal | how many crop patches die per day in the severe stage: none, 1, 3 or 6 |
 | Coverage for full protection | 75%, 80%, 85%, 90% or 95% | 90% | how much of the field must be sprayed to protect the whole field |
 | Spray protection | until harvest, 2 months, 1 month or half a month | until harvest | how long spraying protects |
 | Fungicide rate | 25% to 200% | 100% | fungicide used per hectare; the effect stays the same |
@@ -617,12 +617,13 @@ You find the mod settings in **ESC > Settings > Game**, in the Field Health sect
 
 ## 🌍 Languages
 
-The mod speaks English, Polish, French, German, Spanish (Spain and Latin America), Portuguese (Portugal and Brazil), Italian, Russian, Czech, Romanian and Hungarian.
+The mod speaks English, Polish, French, German, Spanish (Spain and Latin America), Portuguese (Portugal and Brazil), Italian, Russian, Czech, Romanian, Hungarian, Ukrainian, Turkish, Dutch, Danish, Swedish, Norwegian and Finnish.
 
 - Everything is translated: the map, minimap, field info, notifications, all settings with their descriptions, shop items, controls and the full in-game help.
 - Diseases and pests have the names farmers really use in each country.
 - The mod uses your game language automatically. Other game languages show English.
-- The tables in the in-game help are still pictures in English (Polish players see them in Polish). Translated tables will come in a later update.
+- The tables in the in-game help are pictures. They exist in English, Polish, German, French and Russian; the other languages show the English ones.
+- Players from Belgium, Switzerland or Austria simply use the Dutch, French or German version.
 - If a word in your language sounds wrong, please [open an issue](https://github.com/MatrikSky/Field_Health_-_Crop_Diseases_-_Pests/issues). Native speakers will catch things I missed.
 
 <p align="right"><a href="#-contents">⬆️ Back to contents</a></p>
@@ -735,7 +736,7 @@ FS25_FieldHealth/
 │   └── FieldHealth.lua     entry point
 ├── xml/fillTypes.xml       the liquids FUNGICIDE and INSECTICIDE
 ├── pallets/                bottles and canisters: models, textures, shop items
-├── l10n/                   texts in 13 languages (l10n_<language>.xml)
+├── l10n/                   texts in 20 languages (l10n_<language>.xml)
 ├── help/  hud/  brand/     help tables, liquid icons, brand logo
 └── docs/images/            pictures of this README (not part of the mod)
 ```
@@ -756,7 +757,7 @@ To test a change, zip the content of the repository with `modDesc.xml` at the ro
 A few more rules for the code:
 
 - Every hook calls the original game function, and mod code runs through `FHUtil.protect`, so an error never breaks the game.
-- All texts are in `l10n/` with the prefix `fh_`, in every language of the mod. That's 13 files named `l10n_<language>.xml`, where `ea` is Latin American Spanish and `br` Brazilian Portuguese.
+- All texts are in `l10n/` with the prefix `fh_`, in every language of the mod. That's 20 files named `l10n_<language>.xml`, where `ea` is Latin American Spanish and `br` Brazilian Portuguese.
 - Test in single player and, if you can, in multiplayer. The `log.txt` has to stay free of errors.
 
 Some files, like `modDesc.xml`, the help images and the bottles and canisters, are made with tools that aren't part of this repository. Just edit them directly in a pull request and I'll carry the change over into the tools.
@@ -777,7 +778,7 @@ No. Field Health is a separate mod, built from scratch. The concept was inspired
 <details>
 <summary><b>Is the mod only for Poland?</b></summary>
 
-No. It works on any map and in 13 languages. The diseases and pests are the common ones farmers deal with across Europe and beyond: mildew, rust, septoria, fusarium, aphids, Colorado potato beetle, corn borer and more. Only how often each threat appears is based on data from Poland, and the product labels are in Polish for fun.
+No. It works on any map and in 20 languages. The diseases and pests are the common ones farmers deal with across Europe and beyond: mildew, rust, septoria, fusarium, aphids, Colorado potato beetle, corn borer and more. Only how often each threat appears is based on data from Poland, and the product labels are in Polish for fun.
 
 </details>
 
@@ -819,7 +820,7 @@ They are off by default. The setting *Threats on meadows and fodder crops* turns
 <details>
 <summary><b>Which languages does the mod have?</b></summary>
 
-English, Polish, French, German, Spanish (Spain and Latin America), Portuguese (Portugal and Brazil), Italian, Russian, Czech, Romanian and Hungarian. Other game languages show English. Apart from English and Polish, the tables in the in-game help are still in English.
+English, Polish, French, German, Spanish (Spain and Latin America), Portuguese (Portugal and Brazil), Italian, Russian, Czech, Romanian, Hungarian, Ukrainian, Turkish, Dutch, Danish, Swedish, Norwegian and Finnish. Other game languages show English. The tables in the in-game help are in English, Polish, German, French and Russian; the other languages show the English ones.
 
 </details>
 
@@ -869,6 +870,6 @@ And thanks to everyone who plays the mod, reports bugs and shares ideas.
 
 **Have fun and healthy fields!** 🌱
 
-<sub>Field Health 1.1.0.0 • made by MatrikSky</sub>
+<sub>Field Health 1.2.0.0 • made by MatrikSky</sub>
 
 </div>

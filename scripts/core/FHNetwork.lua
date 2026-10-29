@@ -6,14 +6,18 @@ FHNetwork = {}
 FHNetwork.INTERVAL = 500
 FHNetwork.MAX_CELLS_PER_UPDATE = 8192
 FHNetwork.SNAPSHOT_ROWS_PER_FRAME = 32
-FHNetwork.SNAPSHOT_CELLS_PER_EVENT = 2048
+-- cells per event, so no single event gets large
+FHNetwork.CELLS_PER_EVENT = 2048
 -- a client asks again if the join state did not arrive (ms)
 FHNetwork.CLIENT_RETRY = 15000
+-- the server answers such a request once in this time per client (ms)
+FHNetwork.JOIN_COOLDOWN = 10000
 
 function FHNetwork:load()
     self.timer = 0
     self.signatures = {}
     self.joins = {}
+    self.lastJoin = setmetatable({}, {__mode = "k"})
     self.waitingForFields = g_server == nil
     self.waitingForMap = g_server == nil
     self.retryTimer = FHNetwork.CLIENT_RETRY
@@ -22,6 +26,20 @@ end
 function FHNetwork:unload()
     self.joins = {}
     self.signatures = {}
+    self.lastJoin = setmetatable({}, {__mode = "k"})
+end
+
+-- A list cut into parts of at most `size` items.
+function FHNetwork.split(list, size)
+    local parts = {}
+    for first = 1, #list, size do
+        local part = {}
+        for i = first, math.min(#list, first + size - 1) do
+            part[#part + 1] = list[i]
+        end
+        parts[#parts + 1] = part
+    end
+    return parts
 end
 
 ---------------------------------------------------------------------------
@@ -102,9 +120,8 @@ function FHNetwork:update(dt)
         return
     end
 
-    local cells = FHFieldMap:takePending(FHNetwork.MAX_CELLS_PER_UPDATE)
-    if #cells > 0 then
-        FHSyncEvent.broadcastCells(cells)
+    for _, part in ipairs(FHNetwork.split(FHFieldMap:takePending(FHNetwork.MAX_CELLS_PER_UPDATE), FHNetwork.CELLS_PER_EVENT)) do
+        FHSyncEvent.broadcastCells(part)
     end
 
     local changed = {}
@@ -120,11 +137,13 @@ function FHNetwork:update(dt)
     end
 end
 
--- Settings and fields at once, the field map over the next frames.
+-- Settings and fields at once, the field map over the next frames. The
+-- client clears its map first, so cell changes sent from now on stay.
 function FHNetwork:sendJoinState(connection)
     if g_server == nil or connection == nil or FHSimulation.fields == nil then
         return
     end
+    self.lastJoin[connection] = g_time or 0
     FHSyncEvent.sendSettings(connection)
     FHSyncEvent.sendFields(connection, allEntries(), true)
 
@@ -133,7 +152,17 @@ function FHNetwork:sendJoinState(connection)
             table.remove(self.joins, i)
         end
     end
-    table.insert(self.joins, {connection = connection, row = 0, first = true, cells = {}})
+    FHSyncEvent.sendMapPart(connection, {}, true, false)
+    table.insert(self.joins, {connection = connection, row = 0, cells = {}})
+end
+
+-- A client asked for the join state again (it did not arrive in time).
+function FHNetwork:onJoinStateRequest(connection)
+    local last = self.lastJoin[connection]
+    if last ~= nil and (g_time or 0) - last < FHNetwork.JOIN_COOLDOWN then
+        return
+    end
+    self:sendJoinState(connection)
 end
 
 function FHNetwork:runJoins()
@@ -144,19 +173,20 @@ function FHNetwork:runJoins()
 
     join.row = FHFieldMap:collectRows(join.row, FHNetwork.SNAPSHOT_ROWS_PER_FRAME, join.cells)
     local done = join.row >= FHFieldMap.size
-    local limit = FHNetwork.SNAPSHOT_CELLS_PER_EVENT
+    local limit = FHNetwork.CELLS_PER_EVENT
     while done or #join.cells >= limit do
         local part, rest = {}, {}
         for i, cell in ipairs(join.cells) do
             if i <= limit then
+                -- the value of now: it may have changed since the row was read
+                cell.value = FHFieldMap:readRaw(cell.x, cell.z)
                 part[#part + 1] = cell
             else
                 rest[#rest + 1] = cell
             end
         end
         local last = done and #rest == 0
-        local sent = pcall(FHSyncEvent.sendMapPart, join.connection, part, join.first, last)
-        join.first = false
+        local sent = pcall(FHSyncEvent.sendMapPart, join.connection, part, false, last)
         join.cells = rest
         if not sent or last then
             table.remove(self.joins, 1)

@@ -59,6 +59,8 @@ function FHFieldMap:load(directory)
     self.loadedFromFile = loaded
     self.revision = 0
     self.pending = {}
+    -- rows with threat cells per field (see eachThreatCell)
+    self.threatRows = {}
     return loaded
 end
 
@@ -96,6 +98,7 @@ function FHFieldMap:unload()
     end
     self.mapId = nil
     self.pending = {}
+    self.threatRows = nil
 end
 
 function FHFieldMap:save(directory)
@@ -213,25 +216,75 @@ end
 -- Iteration
 ---------------------------------------------------------------------------
 
--- Calls visit(x, z, worldX, worldZ) for every cell of the field; returns the cell count.
-function FHFieldMap:eachFieldCell(field, visit)
+-- The cells of a field as runs along the rows (z, first x, last x, ...),
+-- found once with the outline and kept with it, so the outline test is not
+-- repeated for every cell each time a field is looked at.
+function FHFieldMap:getFieldRuns(field)
     local outline = FHUtil.getOutline(field)
     if outline == nil or self.mapId == nil then
-        return 0
+        return nil
     end
+    local terrain = terrainSize()
+    local runs = outline.cellRuns
+    if runs ~= nil and runs.size == self.size and runs.terrain == terrain then
+        return runs
+    end
+
+    runs = {size = self.size, terrain = terrain, count = 0}
     local x0, z0 = self:toCell(outline.minX, outline.minZ)
     local x1, z1 = self:toCell(outline.maxX, outline.maxZ)
-    local count = 0
     for z = z0, z1 do
-        for x = x0, x1 do
-            local wx, wz = self:toWorld(x, z)
-            if outline.polygon:getIsPosInside(wx, wz) then
-                count = count + 1
-                visit(x, z, wx, wz)
+        local first = nil
+        for x = x0, x1 + 1 do
+            local inside = x <= x1 and outline.polygon:getIsPosInside(self:toWorld(x, z))
+            if inside and first == nil then
+                first = x
+            elseif not inside and first ~= nil then
+                runs[#runs + 1], runs[#runs + 2], runs[#runs + 3] = z, first, x - 1
+                runs.count = runs.count + x - first
+                first = nil
             end
         end
     end
-    return count
+    outline.cellRuns = runs
+    return runs
+end
+
+-- Number of cells of the field.
+function FHFieldMap:countFieldCells(field)
+    local runs = self:getFieldRuns(field)
+    return runs ~= nil and runs.count or 0
+end
+
+-- Calls visit(x, z) for every cell of the field, row by row; returns the
+-- cell count. With rows ({[z] = true}) only the cells of those rows.
+function FHFieldMap:eachFieldCell(field, visit, rows)
+    local runs = self:getFieldRuns(field)
+    if runs == nil then
+        return 0
+    end
+    for i = 1, #runs, 3 do
+        local z = runs[i]
+        if rows == nil or rows[z] then
+            for x = runs[i + 1], runs[i + 2] do
+                visit(x, z)
+            end
+        end
+    end
+    return runs.count
+end
+
+-- Threat cells of a field lie in the rows found by the last inspect() of the
+-- field and the rows patches were painted into since; other rows are skipped.
+function FHFieldMap:eachThreatCell(field, visit)
+    return self:eachFieldCell(field, visit, self.threatRows ~= nil and self.threatRows[field] or nil)
+end
+
+local function markThreatRow(self, field, z)
+    local rows = self.threatRows ~= nil and self.threatRows[field] or nil
+    if rows ~= nil then
+        rows[z] = true
+    end
 end
 
 -- Cells whose centre lies in the parallelogram start, start->width, start->height.
@@ -384,16 +437,24 @@ function FHFieldMap:removeProtection(field, category)
     end)
 end
 
--- {cells, infected, maxSeverity} of a threat (any threat when nil).
+-- {cells, infected, maxSeverity} of a threat (any threat when nil). It also
+-- notes the rows with threat cells for the next steps of the day.
 function FHFieldMap:inspect(field, threatId)
     local result = {cells = 0, infected = 0, maxSeverity = 0}
+    local rows = {}
     result.cells = self:eachFieldCell(field, function(x, z)
         local severity, cellThreatId = self:getThreat(x, z)
-        if severity > 0 and (threatId == nil or cellThreatId == threatId) then
-            result.infected = result.infected + 1
-            result.maxSeverity = math.max(result.maxSeverity, severity)
+        if severity > 0 then
+            rows[z] = true
+            if threatId == nil or cellThreatId == threatId then
+                result.infected = result.infected + 1
+                result.maxSeverity = math.max(result.maxSeverity, severity)
+            end
         end
     end)
+    if self.threatRows ~= nil and field ~= nil then
+        self.threatRows[field] = rows
+    end
     return result
 end
 
@@ -420,7 +481,7 @@ end
 -- shows up in patches; a growing share fills the rest.
 function FHFieldMap:raiseSeverity(field, severity, threatId, share, seed)
     share = share or 1
-    self:eachFieldCell(field, function(x, z)
+    self:eachThreatCell(field, function(x, z)
         local current, cellThreatId = self:getThreat(x, z)
         if current > 0 and current < severity and cellThreatId == threatId
             and (share >= 1 or FHUtil.noise(x / 4, z / 4, seed or 0) < share) then
@@ -433,17 +494,14 @@ end
 function FHFieldMap:pickInfected(field, count, threatId, minSeverity)
     local picked, seen = {}, 0
     minSeverity = minSeverity or 1
-    self:eachFieldCell(field, function(x, z, wx, wz)
+    self:eachThreatCell(field, function(x, z)
         local severity, cellThreatId = self:getThreat(x, z)
         if severity >= minSeverity and cellThreatId == threatId then
             seen = seen + 1
-            if #picked < count then
-                picked[#picked + 1] = {x = wx, z = wz}
-            else
-                local slot = math.random(1, seen)
-                if slot <= count then
-                    picked[slot] = {x = wx, z = wz}
-                end
+            local slot = #picked < count and #picked + 1 or math.random(1, seen)
+            if slot <= count then
+                local wx, wz = self:toWorld(x, z)
+                picked[slot] = {x = wx, z = wz}
             end
         end
     end)
@@ -533,6 +591,7 @@ function FHFieldMap:paintPatch(field, worldX, worldZ, patch, severity, threatId)
                 local gap = distance > 0.3 and FHUtil.noise(cx / gapScale, cz / gapScale, patch.seed + 31) < FHFieldMap.GAP_SHARE * distance / edge
                 if not gap and self:canInfect(x, z, severity, threatId) and self:setThreat(x, z, severity, threatId) then
                     infected = infected + 1
+                    markThreatRow(self, field, z)
                 end
             end
         end
@@ -543,6 +602,7 @@ function FHFieldMap:paintPatch(field, worldX, worldZ, patch, severity, threatId)
         local x, z = self:toCell(worldX, worldZ)
         if self:canInfect(x, z, severity, threatId) and self:setThreat(x, z, severity, threatId) then
             infected = 1
+            markThreatRow(self, field, z)
         end
     end
     return infected
@@ -559,7 +619,7 @@ function FHFieldMap:creep(field, threatId, severity, chance, maxNew)
 
     local size = self.size
     local infected, border, queued = {}, {}, {}
-    self:eachFieldCell(field, function(x, z)
+    self:eachThreatCell(field, function(x, z)
         local current, cellThreatId = self:getThreat(x, z)
         if current > 0 and cellThreatId == threatId then
             infected[z * size + x] = true
@@ -589,6 +649,7 @@ function FHFieldMap:creep(field, threatId, severity, chance, maxNew)
         if math.random() < chance * (0.2 + 1.6 * FHUtil.noise(x / 3, z / 3, seed))
             and outline.polygon:getIsPosInside(self:toWorld(x, z))
             and self:canInfect(x, z, severity, threatId) and self:setThreat(x, z, severity, threatId) then
+            markThreatRow(self, field, z)
             grown = grown + 1
             if grown >= maxNew then
                 break
@@ -655,6 +716,7 @@ function FHFieldMap:applyRemote(cells, clearFirst)
     if clearFirst then
         self:clearAll()
     end
+    self.threatRows = {}
     for _, cell in ipairs(cells) do
         self:writeRaw(cell.x, cell.z, cell.value, true)
     end

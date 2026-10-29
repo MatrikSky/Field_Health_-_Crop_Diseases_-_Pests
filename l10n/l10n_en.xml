@@ -333,9 +333,9 @@ A threat does not appear on a random day. Every day the mod works out the infect
         <text name="fh_help_map" text="Map and field info" />
         <text name="fh_help_map_01" text="Field info box" />
         <text name="fh_help_map_02" text="While you are on a field, the field info box shows:
-– Disease and Pests: the active threat and its severity (low, medium, high),
+– Disease and Pests: the active threat and its severity (low, medium, severe),
 – Disease risk and Pest risk: low, normal, elevated or high, and from elevated on also the main cause,
-– Protection – diseases and Protection – pests: how much of the field is sprayed,
+– Disease protection and Pest protection: how much of the field is sprayed,
 – a hint which product fights the threat." />
         <text name="fh_help_map_03" text="Map" />
         <text name="fh_help_map_04" text="In ESC &gt; Map choose the page “Crop protection”. Below its title a second selector with arrows switches between five layers. Clicking a legend entry hides it on the map. Only fields of your farm with a growing crop are shown. Click a farmland to see the threats and the protection of its fields." />

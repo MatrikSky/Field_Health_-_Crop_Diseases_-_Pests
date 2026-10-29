@@ -66,8 +66,12 @@ function FHRequestEvent:run(connection)
     if connection:getIsServer() then
         return
     end
+    FHUtil.protect("request of a player", self.handle, self, connection)
+end
+
+function FHRequestEvent:handle(connection)
     if self.kind == FHRequestEvent.JOIN_STATE then
-        FHNetwork:sendJoinState(connection)
+        FHNetwork:onJoinStateRequest(connection)
     elseif self.kind == FHRequestEvent.SETTING and isAdmin(connection) then
         FHSettings.select(self.name, self.values[1])
     elseif self.kind == FHRequestEvent.COMMAND and isAdmin(connection) and FHConsole.REMOTE[self.name] then

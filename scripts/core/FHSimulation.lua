@@ -468,7 +468,7 @@ function FHSimulation:rollPatchRadius(field)
     radius = radius * FHSettings.get("patchSize")
 
     local cellSize = FHFieldMap:getCellSize()
-    local fieldArea = FHFieldMap:eachFieldCell(field, function() end) * cellSize * cellSize
+    local fieldArea = FHFieldMap:countFieldCells(field) * cellSize * cellSize
     return math.max(cellSize, math.min(radius, math.sqrt(fieldArea * tuning.outbreakMaxFieldShare / math.pi)))
 end
 
@@ -742,6 +742,10 @@ end
 function FHSimulation:isSprayNeeded(sx, sz, wx, wz, hx, hz, category)
     local field = FHUtil.getFieldAt((wx + hx) * 0.5, (wz + hz) * 0.5)
     local entry = self:getEntry(FHUtil.getFieldId(field))
+    if field ~= nil and entry == nil then
+        -- not looked at yet (right after loading): the game decides
+        return nil
+    end
     if entry == nil or not entry.cropActive then
         return false
     end

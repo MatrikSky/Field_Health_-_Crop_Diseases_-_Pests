@@ -125,6 +125,10 @@ function FHSyncEvent:run(connection)
     if not connection:getIsServer() then
         return
     end
+    FHUtil.protect("data from the server", self.apply, self)
+end
+
+function FHSyncEvent:apply()
     local payload = self.payload
     if self.kind == FHSyncEvent.FIELDS then
         FHNetwork:receiveFields(payload.entries, payload.replaceAll)

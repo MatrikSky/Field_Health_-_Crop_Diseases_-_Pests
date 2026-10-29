@@ -78,72 +78,107 @@ function FHSavegame.save()
     FHFieldMap:save(directory)
 end
 
--- Bits per cell of the field map saved in the directory, nil without data.
-function FHSavegame.getMapBits(directory)
+-- Reads an int attribute of the root of the savegame file, nil without data.
+local function readRootInt(directory, attribute)
     local path = directory ~= nil and (directory .. "/" .. FHSavegame.FILENAME) or nil
     if path == nil or not fileExists(path) then
-        return nil
+        return nil, false
     end
     local xmlFile = loadXMLFile("fieldHealthXML", path)
     if xmlFile == nil or xmlFile == 0 then
+        return nil, false
+    end
+    local value = getXMLInt(xmlFile, FHSavegame.ROOT .. "#" .. attribute)
+    delete(xmlFile)
+    return value, true
+end
+
+-- Bits per cell of the field map saved in the directory, nil without data.
+function FHSavegame.getMapBits(directory)
+    local bits, found = readRootInt(directory, "mapBits")
+    if not found then
         return nil
     end
-    local bits = getXMLInt(xmlFile, FHSavegame.ROOT .. "#mapBits") or FHSavegame.VERSION_1_MAP_BITS
-    delete(xmlFile)
-    return bits
+    return bits or FHSavegame.VERSION_1_MAP_BITS
+end
+
+-- Data saved by a newer version of the mod may use a format this version
+-- does not know. It is neither read nor overwritten: the mod stays off
+-- until it is updated (raises an error).
+function FHSavegame.checkVersion(directory)
+    local version = readRootInt(directory, "version")
+    if version ~= nil and version > FHSavegame.VERSION then
+        error(string.format("%s was saved by a newer version of Field Health (data format %d, this version knows up to %d). Please update the mod.",
+            FHSavegame.FILENAME, version, FHSavegame.VERSION), 0)
+    end
 end
 
 -- Reads settings, fields and farm counters of the current savegame.
-function FHSavegame.load()
-    local directory = FHUtil.getSavegameDirectory(false)
+function FHSavegame.load(directory)
+    directory = directory or FHUtil.getSavegameDirectory(false)
     local path = directory ~= nil and (directory .. "/" .. FHSavegame.FILENAME) or nil
     if path == nil or not fileExists(path) then
         return
     end
     local xmlFile = loadXMLFile("fieldHealthXML", path)
     if xmlFile == nil or xmlFile == 0 then
+        FHUtil.log("Could not read %s, the mod starts without its data", FHSavegame.FILENAME)
         return
     end
 
     local root = FHSavegame.ROOT
     FHSettings.load(xmlFile, root .. ".settings")
 
-    local i = 0
-    while true do
+    -- entries without a valid id (e.g. edited by hand) are skipped
+    local skipped = 0
+    for i = 0, math.huge do
         local key = string.format("%s.fields.field(%d)", root, i)
-        local fieldId = getXMLInt(xmlFile, key .. "#id")
-        if fieldId == nil then
+        if not hasXMLProperty(xmlFile, key) then
             break
         end
-        local entry = FHSimulation.newEntry()
-        for _, def in ipairs(FHSimulation.ENTRY) do
-            if def.save then
-                local value = readValue(xmlFile, key .. "#" .. def.name, def.type)
-                if value ~= nil then
-                    entry[def.name] = value
-                end
-            end
+        local fieldId = getXMLInt(xmlFile, key .. "#id")
+        if fieldId ~= nil then
+            FHSimulation.fields[fieldId] = FHSavegame.readEntry(xmlFile, key)
+        else
+            skipped = skipped + 1
         end
-        -- threats a later version no longer knows are dropped
-        for _, category in ipairs(FHThreats.CATEGORIES) do
-            if FHSimulation:getActiveThreat(entry, category) == nil then
-                FHSimulation:clearThreat(entry, category)
-            end
-        end
-        FHSimulation.fields[fieldId] = entry
-        i = i + 1
     end
 
-    i = 0
-    while true do
+    for i = 0, math.huge do
         local key = string.format("%s.farms.farm(%d)", root, i)
-        local farmId = getXMLInt(xmlFile, key .. "#id")
-        if farmId == nil then
+        if not hasXMLProperty(xmlFile, key) then
             break
         end
-        FHSimulation.farmThreats[farmId] = {year = getXMLInt(xmlFile, key .. "#year") or 0, count = getXMLInt(xmlFile, key .. "#threats") or 0}
-        i = i + 1
+        local farmId = getXMLInt(xmlFile, key .. "#id")
+        if farmId ~= nil then
+            FHSimulation.farmThreats[farmId] = {year = getXMLInt(xmlFile, key .. "#year") or 0, count = getXMLInt(xmlFile, key .. "#threats") or 0}
+        else
+            skipped = skipped + 1
+        end
     end
 
     delete(xmlFile)
+    if skipped > 0 then
+        FHUtil.log("%s: entries without a valid id skipped: %d", FHSavegame.FILENAME, skipped)
+    end
+end
+
+-- One field entry; values that cannot be read keep their default.
+function FHSavegame.readEntry(xmlFile, key)
+    local entry = FHSimulation.newEntry()
+    for _, def in ipairs(FHSimulation.ENTRY) do
+        if def.save then
+            local value = readValue(xmlFile, key .. "#" .. def.name, def.type)
+            if value ~= nil then
+                entry[def.name] = value
+            end
+        end
+    end
+    -- threats a later version no longer knows are dropped
+    for _, category in ipairs(FHThreats.CATEGORIES) do
+        if FHSimulation:getActiveThreat(entry, category) == nil then
+            FHSimulation:clearThreat(entry, category)
+        end
+    end
+    return entry
 end

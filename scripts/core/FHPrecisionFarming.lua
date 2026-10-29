@@ -22,6 +22,7 @@ FHPrecisionFarming.MAP_ID_FIELDS = {"bitVectorMap", "bitVectorMapId", "mapId", "
 FHPrecisionFarming.SAMPLES = 3
 
 local config = nil
+local configRead = false
 local loggedFailure = false
 
 -- Scripts of every mod run in their own environment, which looks up shared
@@ -56,17 +57,7 @@ local function getMapId(map)
 end
 
 -- Target values from PrecisionFarming.xml.
-local function loadConfig()
-    local directory = g_modNameToDirectory ~= nil and g_modNameToDirectory[FHPrecisionFarming.MOD_NAME] or nil
-    if directory == nil then
-        return nil
-    end
-
-    local xmlFile = loadXMLFile("pfConfig", directory .. "PrecisionFarming.xml")
-    if xmlFile == nil or xmlFile == 0 then
-        return nil
-    end
-
+local function readConfig(xmlFile)
     local result = {nitrogenValues = {}, phValues = {}, optimalPh = {}, nitrogenTargets = {}}
 
     local function readValues(key, target)
@@ -116,17 +107,29 @@ local function loadConfig()
         result.nitrogenTargets[string.upper(fruitName)] = targets
         i = i + 1
     end
-
-    delete(xmlFile)
     return result
 end
 
+local function loadConfig()
+    local directory = g_modNameToDirectory ~= nil and g_modNameToDirectory[FHPrecisionFarming.MOD_NAME] or nil
+    local path = directory ~= nil and directory .. "PrecisionFarming.xml" or nil
+    if path == nil or not fileExists(path) then
+        return nil
+    end
+    local xmlFile = loadXMLFile("pfConfig", path)
+    if xmlFile == nil or xmlFile == 0 then
+        return nil
+    end
+    local ok, result = pcall(readConfig, xmlFile)
+    delete(xmlFile)
+    return ok and result or nil
+end
+
+-- Read once per game session; without the file the mod's own data is used.
 local function getConfig()
-    if config == nil then
-        local ok, result = pcall(loadConfig)
-        if ok then
-            config = result
-        end
+    if not configRead then
+        configRead = true
+        config = loadConfig()
     end
     return config
 end

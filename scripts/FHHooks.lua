@@ -61,7 +61,7 @@ end)
 local updateSprayArea = FSDensityMapUtil.updateSprayArea
 FSDensityMapUtil.updateSprayArea = function(startX, startZ, widthX, widthZ, heightX, heightZ, sprayTypeIndex, ...)
     local sprayType = g_sprayTypeManager ~= nil and g_sprayTypeManager:getSprayTypeByIndex(sprayTypeIndex) or nil
-    if sprayType ~= nil and sprayType.fillType ~= nil and FHProducts:getCategory(sprayType.fillType.index) ~= nil then
+    if sprayType ~= nil and FHProducts:isLiquid(sprayType.fillType) then
         return 0, 0
     end
     if sprayType ~= nil and g_server ~= nil and active() then
@@ -85,6 +85,15 @@ AIVehicleUtil.getAIAreaOfVehicle = function(vehicle, startX, startZ, widthX, wid
         return 0, total
     end
     return area, total
+end
+
+-- The liquids borrow the spray effect materials of herbicide and liquid
+-- fertilizer as soon as the game registers them (see FHProducts). Guarded,
+-- so the hooks below are installed even if the class ever changes.
+if MaterialManager ~= nil and MaterialManager.addMaterial ~= nil then
+    MaterialManager.addMaterial = Utils.appendedFunction(MaterialManager.addMaterial, function(manager, fillTypeIndex, materialType, materialIndex, materialId)
+        FHUtil.protect("spray effects", FHProducts.onMaterialAdded, FHProducts, manager, fillTypeIndex, materialType, materialIndex, materialId)
+    end)
 end
 
 ---------------------------------------------------------------------------

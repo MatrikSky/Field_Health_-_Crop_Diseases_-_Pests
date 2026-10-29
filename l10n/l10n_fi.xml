@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+    <texts>
+        <!-- Diseases (full and short name) -->
+        <text name="fh_disease_cereal_mildew" text="Viljojen härmä" />
+        <text name="fh_disease_cereal_mildew_short" text="Härmä" />
+        <text name="fh_disease_septoria" text="Vehnän lehtilaikku" />
+        <text name="fh_disease_septoria_short" text="Septoria" />
+        <text name="fh_disease_brown_rust" text="Ruskearuoste" />
+        <text name="fh_disease_brown_rust_short" text="Ruskearuoste" />
+        <text name="fh_disease_fusarium" text="Fusarioosi" />
+        <text name="fh_disease_fusarium_short" text="Fusarioosi" />
+        <text name="fh_disease_net_blotch" text="Ohran verkkolaikku" />
+        <text name="fh_disease_net_blotch_short" text="Verkkolaikku" />
+        <text name="fh_disease_snow_mould" text="Lumihome" />
+        <text name="fh_disease_snow_mould_short" text="Lumihome" />
+        <text name="fh_disease_sclerotinia" text="Pahkahome" />
+        <text name="fh_disease_sclerotinia_short" text="Pahkahome" />
+        <text name="fh_disease_alternaria" text="Alternaria" />
+        <text name="fh_disease_alternaria_short" text="Alternaria" />
+        <text name="fh_disease_late_blight" text="Perunarutto" />
+        <text name="fh_disease_late_blight_short" text="Perunarutto" />
+        <text name="fh_disease_cercospora" text="Cercospora-lehtilaikku" />
+        <text name="fh_disease_cercospora_short" text="Cercospora" />
+        <text name="fh_disease_grey_mould" text="Harmaahome" />
+        <text name="fh_disease_grey_mould_short" text="Harmaahome" />
+        <text name="fh_disease_yellow_rust" text="Keltaruoste" />
+        <text name="fh_disease_yellow_rust_short" text="Keltaruoste" />
+        <text name="fh_disease_tan_spot" text="Vehnän rusketäpläisyys" />
+        <text name="fh_disease_tan_spot_short" text="Rusketäpläisyys" />
+        <text name="fh_disease_eyespot" text="Tyvilaikku" />
+        <text name="fh_disease_eyespot_short" text="Tyvilaikku" />
+        <text name="fh_disease_rhynchosporium" text="Ohran laikkupoltte" />
+        <text name="fh_disease_rhynchosporium_short" text="Laikkupoltte" />
+        <text name="fh_disease_ramularia" text="Ramularia-laikku" />
+        <text name="fh_disease_ramularia_short" text="Ramularia" />
+        <text name="fh_disease_stem_rust" text="Mustaruoste" />
+        <text name="fh_disease_stem_rust_short" text="Mustaruoste" />
+        <text name="fh_disease_phoma" text="Phoma-varsitauti" />
+        <text name="fh_disease_phoma_short" text="Phoma" />
+        <text name="fh_disease_cylindrosporiosis" text="Vaalea lehtilaikku" />
+        <text name="fh_disease_cylindrosporiosis_short" text="Vaalea laikku" />
+        <text name="fh_disease_beet_mildew" text="Juurikkaan härmä" />
+        <text name="fh_disease_beet_mildew_short" text="Juurikkaan härmä" />
+        <text name="fh_disease_ascochyta" text="Ascochyta-laikku" />
+        <text name="fh_disease_ascochyta_short" text="Ascochyta" />
+        <text name="fh_disease_downy_mildew" text="Lehtihome" />
+        <text name="fh_disease_downy_mildew_short" text="Lehtihome" />
+        <text name="fh_disease_corn_leaf_blight" text="Maissin lehtilaikku" />
+        <text name="fh_disease_corn_leaf_blight_short" text="Maissin laikku" />
+        <text name="fh_disease_crown_rust" text="Kauran kruunuruoste" />
+        <text name="fh_disease_crown_rust_short" text="Kruunuruoste" />
+
+        <!-- Pests (full and short name) -->
+        <text name="fh_pest_aphids" text="Kirvat" />
+        <text name="fh_pest_aphids_short" text="Kirvat" />
+        <text name="fh_pest_leaf_beetle" text="Viljanlehtikuoriaiset" />
+        <text name="fh_pest_leaf_beetle_short" text="Lehtikuoriaiset" />
+        <text name="fh_pest_pollen_beetle" text="Rapsikuoriaiset" />
+        <text name="fh_pest_pollen_beetle_short" text="Rapsikuoriaiset" />
+        <text name="fh_pest_potato_beetle" text="Koloradonkuoriaiset" />
+        <text name="fh_pest_potato_beetle_short" text="Koloradonkuoriaiset" />
+        <text name="fh_pest_corn_borer" text="Maissikoisa" />
+        <text name="fh_pest_corn_borer_short" text="Maissikoisa" />
+        <text name="fh_pest_wireworm" text="Lankamadot" />
+        <text name="fh_pest_wireworm_short" text="Lankamadot" />
+        <text name="fh_pest_stem_weevil" text="Rapsin varsikärsäkkäät" />
+        <text name="fh_pest_stem_weevil_short" text="Varsikärsäkkäät" />
+        <text name="fh_pest_seed_weevil" text="Rapsin siemenkärsäkäs" />
+        <text name="fh_pest_seed_weevil_short" text="Siemenkärsäkäs" />
+        <text name="fh_pest_flea_beetle" text="Kirpat" />
+        <text name="fh_pest_flea_beetle_short" text="Kirpat" />
+        <text name="fh_pest_turnip_sawfly" text="Rapsipistiäinen" />
+        <text name="fh_pest_turnip_sawfly_short" text="Rapsipistiäinen" />
+        <text name="fh_pest_frit_fly" text="Kahukärpänen" />
+        <text name="fh_pest_frit_fly_short" text="Kahukärpänen" />
+        <text name="fh_pest_wheat_midge" text="Vehnäsääsket" />
+        <text name="fh_pest_wheat_midge_short" text="Vehnäsääsket" />
+        <text name="fh_pest_cutworm" text="Maayökköset" />
+        <text name="fh_pest_cutworm_short" text="Maayökköset" />
+        <text name="fh_pest_beet_fly" text="Juurikaskärpänen" />
+        <text name="fh_pest_beet_fly_short" text="Juurikaskärpänen" />
+        <text name="fh_pest_onion_fly" text="Sipulikärpänen" />
+        <text name="fh_pest_onion_fly_short" text="Sipulikärpänen" />
+        <text name="fh_pest_thrips" text="Ripsiäiset" />
+        <text name="fh_pest_thrips_short" text="Ripsiäiset" />
+        <text name="fh_pest_carrot_fly" text="Porkkanakärpänen" />
+        <text name="fh_pest_carrot_fly_short" text="Porkkanakärpänen" />
+        <text name="fh_pest_pea_leaf_weevil" text="Hernekärsäkkäät" />
+        <text name="fh_pest_pea_leaf_weevil_short" text="Hernekärsäkkäät" />
+        <text name="fh_pest_rootworm" text="Läntinen maissinjuurikuoriainen" />
+        <text name="fh_pest_rootworm_short" text="Maissinjuurikuoriainen" />
+        <text name="fh_pest_ground_beetle" text="Viljamaakiitäjäinen" />
+        <text name="fh_pest_ground_beetle_short" text="Maakiitäjäinen" />
+
+        <text name="fh_severity_low" text="lievä" />
+        <text name="fh_severity_medium" text="kohtalainen" />
+        <text name="fh_severity_high" text="vakava" />
+
+        <!-- Field info (short, so nothing gets cut off) -->
+        <text name="fh_hud_threats" text="Kasvuston uhat" />
+        <text name="fh_hud_disease" text="Tauti" />
+        <text name="fh_hud_pest" text="Tuholaiset" />
+        <text name="fh_hud_none" text="ei ole" />
+        <text name="fh_hud_diseaseRisk" text="Tautiriski" />
+        <text name="fh_hud_pestRisk" text="Tuholaisriski" />
+        <text name="fh_hud_cause" text="Syy" />
+        <text name="fh_hud_protection" text="Kasvinsuojelu" />
+        <text name="fh_hud_diseaseProtection" text="Tautisuojaus" />
+        <text name="fh_hud_pestProtection" text="Tuholaissuojaus" />
+        <text name="fh_hud_protected" text="voimassa" />
+        <text name="fh_risk_low" text="matala" />
+        <text name="fh_risk_normal" text="normaali" />
+        <text name="fh_risk_elevated" text="kohonnut" />
+        <text name="fh_risk_high" text="korkea" />
+        <text name="fh_cause_fertilizer" text="ei lannoitusta" />
+        <text name="fh_cause_manure" text="tuore lanta" />
+        <text name="fh_cause_fastNitrogen" text="nopea typpi" />
+        <text name="fh_cause_nitrogenDeficit" text="vähän typpeä" />
+        <text name="fh_cause_nitrogenExcess" text="liikaa typpeä" />
+        <text name="fh_cause_lime" text="hapan maa" />
+        <text name="fh_cause_lightSoil" text="kevyt maa" />
+        <text name="fh_cause_heavySoil" text="raskas maa" />
+        <text name="fh_cause_plowing" text="ei kyntöä" />
+        <text name="fh_cause_stubble" text="sänki" />
+        <text name="fh_cause_rolling" text="ei jyräystä" />
+        <text name="fh_cause_weeds" text="rikkakasvit" />
+        <text name="fh_cause_sameCrop" text="monokulttuuri" />
+        <text name="fh_cause_cropFamily" text="sukulaiskasvi" />
+        <text name="fh_cause_previousCrop" text="huono esikasvi" />
+        <text name="fh_hint_fungicide" text="Hoito: ruiskuta fungisidia" />
+        <text name="fh_hint_insecticide" text="Hoito: ruiskuta insektisidiä" />
+        <text name="fh_field_area" text="Pellon pinta-ala" />
+        <text name="fh_potential_harvest" text="Mahdollinen sato" />
+        <text name="fh_potential_yield" text="Mahdollinen hehtaarisato" />
+
+        <!-- Notifications: field number, crop, threat, spray -->
+        <text name="fh_alert_new" text="Pelto %s (%s): uusi uhka – %s. Ruiskuta: %s." />
+        <text name="fh_alert_severe" text="Pelto %s (%s): vakava uhka – %s, kasvusto kuolee. Ruiskuta: %s." />
+        <text name="fh_alert_neighbour" text="Pelto %s (%s): %s – tuli naapuripellolta. Ruiskuta: %s." />
+
+        <!-- Map -->
+        <text name="fh_map_page" text="Kasvinsuojelu" />
+        <text name="fh_map_layerProtection" text="Suojaus" />
+        <text name="fh_map_layerDiseases" text="Taudit" />
+        <text name="fh_map_layerPests" text="Tuholaiset" />
+        <text name="fh_map_layerDiseaseTypes" text="Tautilajit" />
+        <text name="fh_map_layerPestTypes" text="Tuholaislajit" />
+        <text name="fh_map_notSprayed" text="Ei suojattu" />
+        <text name="fh_map_oneProduct" text="Yksi aine" />
+        <text name="fh_map_bothProducts" text="Fungisidi ja insektisidi" />
+        <text name="fh_map_healthy" text="Terve kasvusto" />
+        <text name="fh_map_low" text="Lievä" />
+        <text name="fh_map_medium" text="Kohtalainen" />
+        <text name="fh_map_high" text="Vakava" />
+        <text name="fh_map_diseaseLabel" text="Tauti:" />
+        <text name="fh_map_pestLabel" text="Tuholaiset:" />
+        <text name="fh_map_diseaseProtectionLabel" text="Tautisuojaus:" />
+        <text name="fh_map_pestProtectionLabel" text="Tuholaissuojaus:" />
+        <text name="fh_map_protectedUntilHarvest" text="voimassa" />
+        <text name="input_FH_MINIMAP_LAYER" text="Field Health – kasvinsuojelutaso minikartalla" />
+
+        <!-- Settings -->
+        <text name="fh_config_brand" text="Merkki" />
+        <text name="fh_settings_header" text="Field Health – taudit ja tuholaiset" />
+        <text name="fh_setting_enabled" text="Kasvuston uhat" />
+        <text name="fh_setting_enabled_desc" text="Modin pääkytkin. Kun se on pois päältä, uusia tauteja tai tuholaisia ei ilmaannu, ja olemassa olevat lakkaavat kehittymästä ja tuhoamasta kasvustoa. Ruiskutus toimii yhä, joten voit poistaa sen, mitä pelloillesi on jäänyt." />
+        <text name="fh_setting_diseaseChance" text="Taudin todennäköisyys kaudessa" />
+        <text name="fh_setting_diseaseChance_desc" text="Perustodennäköisyys sille, että tavallisesti hoidettu pelto saa taudin yhden kauden aikana (kylvöstä korjuuseen). Se on vain lähtökohta: hyvä hoito (lanta, kerääjäkasvit, viljelykierto, oikea pH ja typpi) laskee sitä, laiminlyönti (ei lannoitusta, monokulttuuri, ei kyntöä, hapan maa) nostaa sitä moninkertaiseksi. Fungisidin ruiskutus ennen taudin ilmaantumista laskee sen nollaan korjuuseen asti. 0 % poistaa taudit käytöstä." />
+        <text name="fh_setting_pestChance" text="Tuholaisten todennäköisyys kaudessa" />
+        <text name="fh_setting_pestChance_desc" text="Perustodennäköisyys sille, että tavallisesti hoidetulle pellolle ilmaantuu tuholaisia yhden kauden aikana. Hoito muuttaa sitä: rikkakasvit, monokulttuuri ja kynnön puuttuminen nostavat sitä, kerääjäkasvit ja viljelykierto laskevat. Insektisidin ruiskutus ennen tuholaisten ilmaantumista laskee sen nollaan korjuuseen asti. 0 % poistaa tuholaiset käytöstä." />
+        <text name="fh_setting_careInfluence" text="Hoidon vaikutus" />
+        <text name="fh_setting_careInfluence_desc" text="Kuinka paljon viljelytapasi (lannoitus, maanmuokkaus, viljelykierto, kerääjäkasvit, rikkakasvit, Täsmäviljelyn tiedot) muuttaa perustodennäköisyyksiä. Ei mitään – vain perustodennäköisyys lasketaan, ja kaikki pellot ovat samanarvoisia. Matala – pieniä eroja. Normaali (suositus) – hyvä hoito kannattaa selvästi. Korkea – laiminlyödyt pellot sairastuvat hyvin usein, hyvin hoidetut tuskin koskaan." />
+        <text name="fh_setting_weatherInfluence" text="Sään vaikutus" />
+        <text name="fh_setting_weatherInfluence_desc" text="Kuinka paljon viime päivien sää (lämpötila ja sade) muuttaa uhkien todennäköisyyttä. Sienitaudit pitävät sateesta ja kosteudesta, useimmat tuholaiset lämpimästä ja kuivasta säästä, ja jokaisella uhalla on oma lämpötila-alueensa. Ei mitään – säätä ei lasketa. Matala – pieniä eroja. Normaali (suositus) – selviä eroja. Korkea – suotuisalla säällä uhkia ilmaantuu paljon useammin, epäsuotuisalla tuskin koskaan." />
+        <text name="fh_setting_stubbleRisk" text="Sängen riski" />
+        <text name="fh_setting_stubbleRisk_desc" text="Nostaako silppuamaton sänki korjuun jälkeen riskiä (lähinnä maissikoisan ja kasvijätteissä säilyvien tautien). Se lasketaan vain pellon korjuun jälkeen ja kun peltoa ei ole kynnetty. Ajourat ja polut pellon poikki eivät koskaan ole sänkeä. Pois – sänki ei muuta riskiä lainkaan." />
+        <text name="fh_setting_fodderCrops" text="Uhat niityillä ja rehukasveilla" />
+        <text name="fh_setting_fodderCrops_desc" text="Voivatko niityt, nurmi, apila ja sinimailanen saada tauteja ja tuholaisia. Pois (suositus) – nämä kasvit eivät koskaan saa uhkia, ja jo olemassa olevat uhat katoavat seuraavana päivänä. Päällä – apilaan ja sinimailaseen voi tulla kirvoja; niityille ja nurmeen ei vieläkään koskaan." />
+        <text name="fh_setting_fieldInfo" text="Rivit peltotiedoissa" />
+        <text name="fh_setting_fieldInfo_desc" text="Näyttääkö peltotietoruutu pellon uhat, riskin ja suojauksen. Pois – ruutu näyttää samalta kuin ilman modia; kartta ja minikartta näyttävät pellot edelleen." />
+        <text name="fh_setting_progression" text="Uhkien eteneminen" />
+        <text name="fh_setting_progression_desc" text="Kuinka nopeasti hoitamaton uhka siirtyy seuraavaan asteeseen: lievä, sitten kohtalainen, sitten vakava. Hidas – joka pelikuukausi, Normaali – joka puoli kuukautta, Nopea – joka neljännes kuukautta (vähintään yksi päivä). Vain vakava aste tuhoaa kasvustoa, joten hitaampi tahti antaa sinulle enemmän aikaa ruiskuttaa." />
+        <text name="fh_setting_spread" text="Uhkien leviäminen" />
+        <text name="fh_setting_spread_desc" text="Kuinka suuren osan pellosta hoitamaton uhka voi peittää. Pieni – enintään 2,5 %, Keskikokoinen – enintään 5 %, Suuri – enintään 10 % pellon pinta-alasta. Pesäke kasvaa reunastaan epätasaisesti, ja silloin tällöin sen viereen ilmaantuu uusi, pienempi pesäke – yleensä sille puolelle, jonne tuuli sinä päivänä puhaltaa. Ruiskutus poistaa uhan kokonaan." />
+        <text name="fh_setting_patchSize" text="Pesäkkeiden koko" />
+        <text name="fh_setting_patchSize_desc" text="Kuinka suuria ovat pesäkkeet, joissa uusi uhka ilmaantuu ja kasvaa. Jokaisella pesäkkeellä on epäsäännöllinen muoto ja satunnainen koko – pienet ovat yleisempiä kuin suuret. Pienet – pesäkkeet yleensä 5–12 m halkaisijaltaan, Normaalit – 8–20 m, Suuret – 12–30 m. Pienillä pelloilla pesäkkeet ovat aina pienempiä." />
+        <text name="fh_setting_neighbourSpread" text="Leviäminen naapuripelloille" />
+        <text name="fh_setting_neighbourSpread_desc" text="Voiko pellon reunalla oleva uhka siirtyä pelaajan naapuripellolle. Näin käy vain, kun pellot koskettavat toisiaan tai niitä erottaa hyvin kapea kaista, kun toisella pellolla kasvaa kasvi, jota uhka hyökkää oikeassa kasvuvaiheessa, ja kun toista peltoa ei ole ruiskutettu. Tuholaiset siirtyvät useammin kuin taudit, ja vasta kohtalaisesta asteesta alkaen. NPC-peltoihin uhat eivät koskaan tartu. Pois, Harvoin, Joskus, Usein – ei, puolikas, normaali ja kaksinkertainen todennäköisyys." />
+        <text name="fh_setting_damage" text="Kasvustovahingot" />
+        <text name="fh_setting_damage_desc" text="Kuinka paljon kasvustoa vakava uhka tuhoaa joka päivä. Tuhoutuneet kohdat eivät tuota korjuussa mitään. Pois – uhat ovat vain näkyvissä, sato pysyy samana. Vähäiset, Normaalit, Suuret – 1, 3 tai 6 muutaman metrin laikkua päivässä, aina vain saastuneen alueen sisällä." />
+        <text name="fh_setting_protectionThreshold" text="Peitto täyteen suojaukseen" />
+        <text name="fh_setting_protectionThreshold_desc" text="Kuinka suuri osa pellosta on ruiskutettava, jotta koko pelto on suojattu kyseistä uhkatyyppiä (tauteja tai tuholaisia) vastaan. Pienemmällä peitolla uhka voi yhä ilmaantua, mutta vain ruiskuttamattomiin osiin – ruiskutetut kohdat ovat aina suojattuja. Oletus 90 %. Matalampi raja antaa anteeksi väliin jääneet kulmat ja kiilat, korkeampi vaatii tarkkaa ruiskutusta." />
+        <text name="fh_setting_protectionDuration" text="Ruiskutuksen suoja" />
+        <text name="fh_setting_protectionDuration_desc" text="Kuinka kauan fungisidi ja insektisidi suojaavat peltoa. Korjuuseen asti – yksi ruiskutus kummallakin aineella suojaa peltoa koko kauden (helpoin). 2 kuukautta, 1 kuukausi, Puoli kuukautta – suoja päättyy näin pitkän ajan kuluttua pellon viimeisestä ruiskutuksesta, ja sinun on ruiskutettava uudelleen kuten oikealla tilalla." />
+        <text name="fh_setting_fungicideUsage" text="Fungisidin annos" />
+        <text name="fh_setting_fungicideUsage_desc" text="Kuinka paljon fungisidia ruisku käyttää hehtaarille. 100 % on noin 290 litraa ruiskutusnestettä hehtaarille (sama kuin rikkakasvien torjunta-aineella), eli yksi 1 l:n pullo hehtaarille. Pienempi annos tekee ruiskutuksesta halvempaa ja täyttöjä tarvitaan harvemmin, suurempi tekee siitä kalliimpaa. Ruiskutuksen vaikutus on aina sama. Muutos tulee voimaan heti, myös työn aikana." />
+        <text name="fh_setting_insecticideUsage" text="Insektisidin annos" />
+        <text name="fh_setting_insecticideUsage_desc" text="Kuinka paljon insektisidiä ruisku käyttää hehtaarille. 100 % on noin 290 litraa ruiskutusnestettä hehtaarille (sama kuin rikkakasvien torjunta-aineella), eli yksi 1 l:n pullo viidelle hehtaarille. Pienempi annos tekee ruiskutuksesta halvempaa ja täyttöjä tarvitaan harvemmin, suurempi tekee siitä kalliimpaa. Ruiskutuksen vaikutus on aina sama. Muutos tulee voimaan heti, myös työn aikana." />
+        <text name="fh_setting_fungicidePrice" text="Fungisidipullon hinta" />
+        <text name="fh_setting_fungicidePrice_desc" text="Yhden 1 l:n fungisidipullon hinta kaupassa. Pullo riittää yhdelle hehtaarille (290 l ruiskutusnestettä). Oletus 50. Peli muuntaa valuutat 1:1. Ruiskutusnesteen litrahinta seuraa tätä hintaa, esim. kun nestettä ostetaan asemalta. Muutos tulee kaupassa voimaan heti." />
+        <text name="fh_setting_insecticidePrice" text="Insektisidipullon hinta" />
+        <text name="fh_setting_insecticidePrice_desc" text="Yhden 1 l:n insektisidipullon hinta kaupassa. Pullo riittää viidelle hehtaarille (1450 l ruiskutusnestettä). Oletus 80. Peli muuntaa valuutat 1:1. Ruiskutusnesteen litrahinta seuraa tätä hintaa, esim. kun nestettä ostetaan asemalta. Muutos tulee kaupassa voimaan heti." />
+        <text name="fh_setting_fungicideCanisterPrice" text="Fungisidin 5 l:n kanisterin hinta" />
+        <text name="fh_setting_fungicideCanisterPrice_desc" text="Yhden 5 l:n fungisidikanisterin hinta kaupassa. Kanisteri riittää viidelle hehtaarille (1450 l ruiskutusnestettä). Oletus 220, litralta halvempi kuin viisi 1 l:n pulloa, kuten oikealla jälleenmyyjällä. Peli muuntaa valuutat 1:1. Muutos tulee kaupassa voimaan heti." />
+        <text name="fh_setting_insecticideCanisterPrice" text="Insektisidin 5 l:n kanisterin hinta" />
+        <text name="fh_setting_insecticideCanisterPrice_desc" text="Yhden 5 l:n insektisidikanisterin hinta kaupassa. Kanisteri riittää 25 hehtaarille (7250 l ruiskutusnestettä). Oletus 350, litralta halvempi kuin viisi 1 l:n pulloa, kuten oikealla jälleenmyyjällä. Peli muuntaa valuutat 1:1. Muutos tulee kaupassa voimaan heti." />
+        <text name="fh_setting_fungicideCanister20Price" text="Fungisidin 20 l:n kanisterin hinta" />
+        <text name="fh_setting_fungicideCanister20Price_desc" text="Yhden 20 l:n fungisidikanisterin hinta kaupassa. Kanisteri riittää 20 hehtaarille (5800 l ruiskutusnestettä). Oletus 800, litralta halvin kaikista pakkauksista. Peli muuntaa valuutat 1:1. Muutos tulee kaupassa voimaan heti." />
+        <text name="fh_setting_insecticideCanister20Price" text="Insektisidin 20 l:n kanisterin hinta" />
+        <text name="fh_setting_insecticideCanister20Price_desc" text="Yhden 20 l:n insektisidikanisterin hinta kaupassa. Kanisteri riittää 100 hehtaarille (29 000 l ruiskutusnestettä). Oletus 1200, litralta halvin kaikista pakkauksista. Peli muuntaa valuutat 1:1. Muutos tulee kaupassa voimaan heti." />
+        <text name="fh_setting_farmLimit" text="Uhkien raja tilaa kohden" />
+        <text name="fh_setting_farmLimit_desc" text="Uusien uhkien enimmäismäärä tilasi kaikilla pelloilla pelivuoden aikana. Rajoittamaton – jokaisella pellolla on oma todennäköisyytensä. Valitse esimerkiksi 1 tai 2, jos sinulla on paljon peltoja ja haluat tautien ja tuholaisten olevan harvinaisia." />
+        <text name="fh_setting_notifications" text="Uhkailmoitukset" />
+        <text name="fh_setting_notifications_desc" text="Näyttää viestin, kun pellollesi ilmaantuu tauti tai tuholaisia ja kun uhka muuttuu vakavaksi ja alkaa tuhota kasvustoa. Viestissä mainitaan pelto, kasvi, uhka ja ruiskutettava aine." />
+        <text name="fh_set_on" text="Päällä" />
+        <text name="fh_set_off" text="Pois" />
+        <text name="fh_set_none" text="Ei mitään" />
+        <text name="fh_set_low" text="Matala" />
+        <text name="fh_set_normal" text="Normaali" />
+        <text name="fh_set_high" text="Korkea" />
+        <text name="fh_set_slow" text="Hidas" />
+        <text name="fh_set_normalPace" text="Normaali" />
+        <text name="fh_set_fast" text="Nopea" />
+        <text name="fh_set_small" text="Pieni" />
+        <text name="fh_set_medium" text="Keskikokoinen" />
+        <text name="fh_set_large" text="Suuri" />
+        <text name="fh_set_damageLow" text="Vähäiset" />
+        <text name="fh_set_damageNormal" text="Normaalit" />
+        <text name="fh_set_damageHigh" text="Suuret" />
+        <text name="fh_set_untilHarvest" text="Korjuuseen asti" />
+        <text name="fh_set_twoMonths" text="2 kuukautta" />
+        <text name="fh_set_oneMonth" text="1 kuukausi" />
+        <text name="fh_set_halfMonth" text="Puoli kuukautta" />
+        <text name="fh_set_unlimited" text="Rajoittamaton" />
+        <text name="fh_set_patchSmall" text="Pienet" />
+        <text name="fh_set_patchNormal" text="Normaalit" />
+        <text name="fh_set_patchLarge" text="Suuret" />
+        <text name="fh_set_rarely" text="Harvoin" />
+        <text name="fh_set_sometimes" text="Joskus" />
+        <text name="fh_set_often" text="Usein" />
+
+        <!-- Shop -->
+        <text name="fh_fillType_insecticide" text="Insektisidi" />
+        <text name="fh_fillType_fungicide" text="Fungisidi" />
+        <text name="fh_store_fungicideBottle" text="Fungisidi 1 l" />
+        <text name="fh_store_insecticideBottle" text="Insektisidi 1 l" />
+        <text name="fh_store_fungicideCanister" text="Fungisidi 5 l" />
+        <text name="fh_store_insecticideCanister" text="Insektisidi 5 l" />
+        <text name="fh_store_fungicideCanister20" text="Fungisidi 20 l" />
+        <text name="fh_store_insecticideCanister20" text="Insektisidi 20 l" />
+        <text name="fh_function_fungicideBottle" text="1 l:n tiivistepullo, annos 1 l/ha. Riittää 1 hehtaarille, eli 290 l:aan ruiskutusnestettä. Suojaa kasvustoa kaikilta taudeilta. Aseta pullo ruiskun viereen ja täytä ruisku siitä." />
+        <text name="fh_function_insecticideBottle" text="1 l:n tiivistepullo, annos 0,2 l/ha. Riittää 5 hehtaarille, eli 1450 l:aan ruiskutusnestettä. Suojaa kasvustoa tuholaisilta: kirvoilta, lehtikuoriaisilta, rapsikuoriaisilta, koloradonkuoriaisilta, maissikoisalta ja lankamadoilta. Aseta pullo ruiskun viereen ja täytä ruisku siitä." />
+        <text name="fh_function_fungicideCanister" text="5 l:n tiivistekanisteri, annos 1 l/ha. Riittää 5 hehtaarille, eli 1450 l:aan ruiskutusnestettä. Suojaa kasvustoa kaikilta taudeilta. Litralta halvempi kuin 1 l:n pullot. Aseta kanisteri ruiskun viereen ja täytä ruisku siitä." />
+        <text name="fh_function_insecticideCanister" text="5 l:n tiivistekanisteri, annos 0,2 l/ha. Riittää 25 hehtaarille, eli 7250 l:aan ruiskutusnestettä. Suojaa kasvustoa tuholaisilta. Litralta halvempi kuin 1 l:n pullot. Aseta kanisteri ruiskun viereen ja täytä ruisku siitä." />
+        <text name="fh_function_fungicideCanister20" text="20 l:n tiivistekanisteri, annos 1 l/ha. Riittää 20 hehtaarille, eli 5800 l:aan ruiskutusnestettä. Suojaa kasvustoa kaikilta taudeilta. Litralta halvin, suurille tiloille. Aseta kanisteri ruiskun viereen ja täytä ruisku siitä." />
+        <text name="fh_function_insecticideCanister20" text="20 l:n tiivistekanisteri, annos 0,2 l/ha. Riittää 100 hehtaarille, eli 29 000 l:aan ruiskutusnestettä. Suojaa kasvustoa tuholaisilta. Litralta halvin, suurille tiloille. Aseta kanisteri ruiskun viereen ja täytä ruisku siitä." />
+
+        <!-- Help (ESC → Help) -->
+        <text name="fh_help_header" text="Field Health – taudit ja tuholaiset" />
+
+        <text name="fh_help_intro" text="Johdanto" />
+        <text name="fh_help_intro_01" text="Tietoa modista" />
+        <text name="fh_help_intro_02" text="Field Health tuo peliin ne kasvitaudit ja tuholaiset, joiden kanssa viljelijät Puolassa painivat joka päivä. Ne ilmaantuvat tilasi pelloille kauden aikana, kehittyvät ja tuhoavat – jos et torju niitä – osan kasvustosta. Kaupan kaksi ainetta torjuu niitä: fungisidi tauteja ja insektisidi tuholaisia vastaan.
+Modi on realistinen mutta anteeksiantava rennolle pelaamiselle: uhka ei koskaan peitä koko peltoa, kasvusto tuhoutuu vain vakavimmassa asteessa, ja yksi hyvin tehty ruiskutus kummallakin aineella suojaa peltoa kauden loppuun asti." />
+        <text name="fh_help_intro_03" text="Kausi vaihe vaiheelta" />
+        <text name="fh_help_intro_04" text="1. Kylvö aloittaa kasvin kauden. Siitä päivästä lähtien pellon tartuntapaine kasvaa – nopeimmin sinä vuodenaikana ja siinä kasvuvaiheessa, jolloin uhka hyökkää, sille sopivalla säällä ja laiminlyödyllä pellolla.
+2. Kun paine ylittää pellolle arvotun kynnyksen, pellolle ilmaantuu taudin tai tuholaisten pesäke. Saat ilmoituksen, jossa on pellon numero ja ruiskutettava aine.
+3. Hoitamaton uhka pahenee asteen verran joka puoli kuukautta ja leviää hitaasti. Vakavassa asteessa se tuhoaa kasvustoa pieninä laikkuina joka päivä.
+4. Ruiskutus poistaa uhan ja suojaa ruiskutetut kohdat. Lähes kokonaan ruiskutettu pelto on kyseiselle uhkatyypille immuuni korjuuseen asti.
+5. Korjuu päättää kauden: uhat ja suojaus katoavat, ja korjatusta kasvista tulee seuraavan esikasvi." />
+        <text name="fh_help_intro_05" text="Tärkeät luvut" />
+        <text name="fh_help_intro_06" text="Oletusarvot. Ylläpitäjä voi muuttaa jokaista niistä asetuksissa (viimeinen sarake)." />
+        <text name="fh_help_intro_08" text="Mistä tarkistat peltosi" />
+        <text name="fh_help_intro_09" text="– Peltotietoruutu (kun olet pellolla): uhat asteineen, riski ja sen pääsyy, pellon suojaus.
+– Kartta (ESC &gt; Kartta &gt; Kasvinsuojelu): viisi tasoa – suojaus, taudit, tuholaiset, tautilajit ja tuholaislajit.
+– Minikartta: vaihda tasoa näppäimillä vasen Alt + \.
+– Ilmoitukset: uudesta uhasta, vakavasta asteesta ja naapuripellolta tulleesta uhasta." />
+        <text name="fh_help_origin" text="Mistä uhat tulevat" />
+        <text name="fh_help_origin_01" text="Jokainen pelaajan pelto, jolla kasvaa kasvusto, voi saada kaudessa enintään yhden taudin ja yhden tuholaislajin. NPC-pellot, poppeli ja kerääjäkasvit eivät koskaan saa uhkia; niityt, nurmi, apila ja sinimailanen vain, jos se on asetuksissa sallittu.
+Uhka ei ilmaannu satunnaisena päivänä. Joka päivä modi laskee pellon tartuntapaineen ja lisää sen edellisten päivien summaan. Kauden alussa pelto saa satunnaisen vastustuskynnyksen – kun paineen summa ylittää sen, pelto saa tartunnan. Siksi uhka ilmaantuu yhtenä kautena aikaisin, toisena myöhään ja kolmantena ei lainkaan." />
+        <text name="fh_help_origin_02" text="Mikä painetta ohjaa" />
+        <text name="fh_help_origin_03" text="1. Perustodennäköisyys asetuksista – oletuksena 15 % taudille ja 10 % tuholaisille kauden aikana.
+2. Pellon riski, eli miten viljelet sitä: lannoitus, maanmuokkaus, viljelykierto ja rikkakasvit (sivu ”Miten viljelet”).
+3. Kuinka yleinen uhka on Puolassa – yleiset taudit ja tuholaiset ilmaantuvat paljon useammin kuin harvinaiset (sivut ”Taudit” ja ”Tuholaiset”).
+4. Vuodenaika ja kasvuvaihe – aikansa ulkopuolella uhka ei hyökkää lainkaan (sivu ”Vuodenajat ja kasvuvaiheet”).
+5. Viime päivien sää – sade auttaa sienitauteja, lämpö ja kuivuus useimpia tuholaisia (sivu ”Sää”)." />
+        <text name="fh_help_origin_04" text="Todennäköisyys kaudessa" />
+        <text name="fh_help_origin_05" text="Näin pellon riski muuttaa uhan todennäköisyyttä koko kauden aikana oletusasetuksilla:" />
+        <text name="fh_help_origin_07" text="Taulukko koskee kasvia, jolla on keskimääräinen joukko uhkia ja joka kasvaa niiden koko ajan. Kasvit, joihin hyökkää monta yleistä tautia tai tuholaista, saavat niitä useammin (enintään 1,4-kertaisesti), kasvit, joilla on vähän uhkia, harvemmin (enintään 0,5-kertaisesti):" />
+        <text name="fh_help_origin_09" text="Mikä uhka ilmaantuu" />
+        <text name="fh_help_origin_10" text="Kun tartunta tapahtuu, modi valitsee yhden niistä uhista, jotka voivat sinä päivänä hyökätä kasviin. Kunkin todennäköisyys on suhteessa sen päivän paineeseen: kuinka yleinen se on kertaa pellon riski, vuodenaika ja sää. Esimerkki: vehnällä toukokuussa sateisella säällä ilmaantuu useimmin lehtilaikkua tai härmää, kun taas harvinainen ja lämpöä rakastava mustaruoste ei juuri koskaan." />
+        <text name="fh_help_origin_11" text="Ruiskutus ennen tartuntaa" />
+        <text name="fh_help_origin_12" text="Jos pelto on tartunnan hetkellä ruiskutettu oikealla aineella vähintään 90 %:lla pinta-alastaan, tartunta epäonnistuu, eikä pelto saa tällä kaudella sen tyypin uhkaa. Pienemmällä peitolla uhka voi ilmaantua, mutta vain ruiskuttamattomiin osiin." />
+        <text name="fh_help_timing" text="Vuodenajat ja kasvuvaiheet" />
+        <text name="fh_help_timing_01" text="Jokaisella taudilla ja jokaisella tuholaisella on aikansa: se hyökkää vain tiettyinä kuukausina ja vain kasvin tietyissä kasvuvaiheissa. Tuon ajan sisällä sillä on huippu, jolloin se on vaarallisimmillaan. Aikansa ulkopuolella uhka ei ilmaannu lainkaan – se ei voi tulla myöskään naapuripellolta." />
+        <text name="fh_help_timing_02" text="Kasvuvaiheet" />
+        <text name="fh_help_timing_04" text="Modi lukee vaiheen kasvin kasvutilasta pelissä: kasvuajan ensimmäiset 20 % ovat taimettumista, 45 %:iin asti lehtien kehitystä ja versomista, 70 %:iin asti korrenkasvua tai nuppuvaihetta, sen jälkeen tähkälle tuloa ja kukintaa, ja korjuuvalmis kasvi on kypsä. Kuukaudet seuraavat pelin kalenteria (vuoden ensimmäinen jakso on maaliskuu), joten päivien määrä jaksoa kohden ei muuta sitä, milloin uhat hyökkäävät." />
+        <text name="fh_help_timing_05" text="Kalenteri – milloin olla varuillaan" />
+        <text name="fh_help_timing_06" text="Pääkuukaudet ovat ne, joina uhkaryhmän paine kasviin on suurin. Ruiskutus vähän ennen niitä estää useimmat tartunnat." />
+        <text name="fh_help_farming" text="Miten viljelet" />
+        <text name="fh_help_farming_01" text="Pellon riski on tartuntapaineen kerroin, joka johtuu siitä, miten viljelet peltoa. Modi laskee sen jokaiselle uhalle erikseen; peltotietoruutu näyttää suurimman tauti- ja tuholaisriskin sekä pääsyyn. Taulukoiden kertoimet kerrotaan keskenään, ja tulos pysyy aina välillä 0,3–5." />
+        <text name="fh_help_farming_03" text="Lannoitus" />
+        <text name="fh_help_farming_05" text="Maanmuokkaus ja rikkakasvit" />
+        <text name="fh_help_farming_07" text="Arvot koskevat täysin laiminlyötyä peltoa – osittainen laiminlyönti nostaa riskiä suhteessa. Vain pelin asetuksissa käytössä olevat peltotyöt lasketaan: ilman pakollista kyntöä kynnön puuttuminen ei muuta mitään. Modi tarkistaa pellon 36 pisteessä ja vain siellä, missä kasvusto kasvaa, joten ajourat ja polut pellon poikki eivät ole laiminlyöntiä. Sänki ja jyräys lasketaan puuttuviksi vasta, kun ne puuttuvat kolmelta neljäsosalta peltoa. Sänki lasketaan vain tämän pellon korjuun jälkeen eikä kynnön jälkeen (asetus ”Sängen riski” poistaa sen kokonaan käytöstä). FS25:ssä rikkakasvit eivät kasva kynnön jälkeen." />
+        <text name="fh_help_farming_08" text="Viljelykierto ja kerääjäkasvit" />
+        <text name="fh_help_farming_10" text="Asetus ”Hoidon vaikutus” vahvistaa tai heikentää kaikkia näitä tekijöitä kerralla. Ei mitään – jokaisen pellon riski on 1. Matala – erot ovat noin puolet pienempiä. Normaali – kuten taulukoissa. Korkea – erot ovat puolitoistakertaisia." />
+        <text name="fh_help_weather" text="Sää" />
+        <text name="fh_help_weather_01" text="Joka pelitunti modi lukee lämpötilan ja sen, sataako. Päivän lopussa se laskee päivän keskilämpötilan ja sadetuntien osuuden. Kosteudella on muisti: puolet tulee viimeisestä päivästä ja puolet sitä edeltävistä päivistä, koska lehdet pysyvät märkinä pitkään sateen jälkeen. Jokaisella uhalla on sääprofiili – lämpötila-alue ja suhtautuminen sateeseen." />
+        <text name="fh_help_weather_03" text="Alueen ulkopuolinen lämpötila laskee paineen 0,4-kertaiseksi, optimilämpötila nostaa sen 1,2-kertaiseksi. Sade muuttaa painetta 0,4–1,8-kertaiseksi – ylöspäin kosteutta rakastaville uhille, alaspäin kuivuutta rakastaville. Yhdessä sää muuttaa painetta 0,2–2,5-kertaiseksi. Esimerkkikertoimia muutaman tällaisen säisen päivän jälkeen (punainen – uhka kasvaa, vihreä – se heikkenee):" />
+        <text name="fh_help_weather_05" text="Asetus ”Sään vaikutus”: Ei mitään – säätä ei lasketa, Matala – lievemmät kertoimet, Normaali – kuten taulukossa, Korkea – voimakkaammat. Muutaman lämpimän, sateisen kesäpäivän jälkeen seuraa erityisesti perunoita ja tähkälle tulevia viljoja, ja kuivana, kuumana kesänä tuholaisia." />
+        <text name="fh_help_diseases" text="Taudit" />
+        <text name="fh_help_diseases_01" text="Fungisidi torjuu kaikkia tauteja. Taulukot näyttävät, kuinka yleinen tauti on Puolassa, mihin kasveihin se hyökkää, minä kuukausina se ilmaantuu ja milloin se on pahimmillaan, missä kasvuvaiheessa se aiheuttaa eniten vahinkoa ja mikä sitä auttaa." />
+        <text name="fh_help_diseases_03" text="Viljat ja maissi" />
+        <text name="fh_help_diseases_05" text="Muut kasvit" />
+        <text name="fh_help_diseases_07" text="Karttojen kasvit, joita modi ei tunne, voivat saada harmaahometta ja kirvoja. Highlands Fishing Expansionin ja modien sipulit tunnistetaan automaattisesti." />
+        <text name="fh_help_pests" text="Tuholaiset" />
+        <text name="fh_help_pests_01" text="Insektisidi torjuu kaikkia tuholaisia. Taulukoiden sarakkeet tarkoittavat samaa kuin sivulla ”Taudit”." />
+        <text name="fh_help_pests_02" text="Viljat ja maissi" />
+        <text name="fh_help_pests_04" text="Muut kasvit" />
+        <text name="fh_help_progress" text="Miten uhka kehittyy" />
+        <text name="fh_help_progress_01" text="Uusi uhka on yksi tai kaksi epäsäännöllistä pesäkettä, joilla on rikkonainen reuna ja terveitä aukkoja sisällä. Se alkaa lievästä asteesta. Jos et torju sitä, se käy läpi nämä vaiheet:" />
+        <text name="fh_help_progress_03" text="Tuhoutunut kasvusto ei kasva takaisin eikä tuota korjuussa mitään. Siksi ruiskutus etukäteen tai heti ilmoituksen jälkeen on halvinta. Ruiskutus missä tahansa asteessa poistaa uhan kokonaan ruiskutetuista kohdista." />
+        <text name="fh_help_spraying" text="Ruiskutus ja suojaus" />
+        <text name="fh_help_spraying_01" text="Aineita valmistaa puolalainen yritys Opryskex: fungisidi Grzybobój 250 EC (vihreä etiketti) ja insektisidi Robalex 100 CS (punainen etiketti). Ostaessasi voit valita niiden sijaan merkin MST (Mafia Solec Team): Solectop 280 SC ja Mafiozol 50 EW. Ne toimivat samoin, vain etiketti on eri. Ostat niitä kaupasta 1 l:n pulloissa sekä 5 l:n ja 20 l:n kanistereissa. Aseta pakkaus ruiskun viereen ja täytä ruisku kuin lavalta. Peli ei sekoita tiivistettä veteen, joten pakkauksen sisältö on kaikki siitä saatava ruiskutusneste. Mitä suurempi pakkaus, sitä halvempaa hehtaarilta." />
+        <text name="fh_help_spraying_03" text="Miten suojaus toimii" />
+        <text name="fh_help_spraying_05" text="Huomaa" />
+        <text name="fh_help_spraying_06" text="– Ruiskuta taimettumisen jälkeen – kylvö ja korjuu poistavat suojauksen.
+– Fungisidi ei suojaa tuholaisilta eikä insektisidi taudeilta. Täysi suojaus vaatii molemmat.
+– Väliin jääneet kiilat ja päisteet lasketaan: alle 90 %:n peitolla uhka voi ilmaantua ruiskuttamattomille kaistoille.
+– Aineet eivät lannoita eivätkä tapa rikkakasveja.
+– Lyhyemmällä ruiskutuksen suojalla (asetus) koko pellon suojaus päättyy näin pitkän ajan kuluttua viimeisestä ruiskutuksesta." />
+        <text name="fh_help_map" text="Kartta ja peltotiedot" />
+        <text name="fh_help_map_01" text="Peltotietoruutu" />
+        <text name="fh_help_map_02" text="Kun olet pellolla, peltotietoruutu näyttää:
+– Tauti ja Tuholaiset: aktiivinen uhka ja sen aste (lievä, kohtalainen, vakava),
+– Tautiriski ja Tuholaisriski: matala, normaali, kohonnut tai korkea, ja kohonneesta alkaen myös pääsyy,
+– Tautisuojaus ja Tuholaissuojaus: kuinka suuri osa pellosta on ruiskutettu,
+– vihje siitä, mikä aine torjuu uhkaa." />
+        <text name="fh_help_map_03" text="Kartta" />
+        <text name="fh_help_map_04" text="Valitse ESC &gt; Kartta -näkymässä sivu ”Kasvinsuojelu”. Sen otsikon alla toinen nuolilla varustettu valitsin vaihtaa viiden tason välillä. Selitteen kohdan napsauttaminen piilottaa sen kartalta. Vain tilasi pellot, joilla kasvaa kasvusto, näytetään. Napsauta maa-aluetta nähdäksesi sen peltojen uhat ja suojauksen." />
+        <text name="fh_help_map_06" text="Uhkalajien värit" />
+        <text name="fh_help_map_08" text="Minikartta" />
+        <text name="fh_help_map_09" text="Vasen Alt + \ vaihtaa minikartan tasoa: suojaus, taudit, tuholaiset ja ei tasoa. Voit muuttaa näppäimiä pelin aikana kohdassa ESC &gt; Asetukset &gt; Ohjaimet, kohta ”Field Health – kasvinsuojelutaso minikartalla” (päävalikko ei näytä modien näppäimiä, koska modit ladataan tallennuksen mukana)." />
+        <text name="fh_help_pf" text="Täsmäviljely" />
+        <text name="fh_help_pf_01" text="Täsmäviljelyn kanssa Field Health toimii sen laajennuksena ja käyttää sen maaperäkarttoja. Yleisen lannoituksen sijaan lasketaan typpi tavoitteeseen verrattuna, ja yleisen kalkituksen sijaan maan pH." />
+        <text name="fh_help_pf_03" text="Paras suoja on sama työ, jonka teet sadon eteen: lannoitus tavoitteeseen, kalkitus optimaaliseen pH:hon ja kerääjäkasvit. Konsolikomento fhPrecisionFarming kirjoittaa lokiin, miten modi lukee Täsmäviljelyn tietoja." />
+        <text name="fh_help_settings" text="Asetukset" />
+        <text name="fh_help_settings_01" text="Modin asetukset löydät kohdasta ESC &gt; Asetukset &gt; Peli, osiosta ”Field Health – taudit ja tuholaiset”. Ne tallennetaan tallennuksen mukana. Moninpelissä vain palvelimen ylläpitäjä voi muuttaa niitä. Vie osoitin vaihtoehdon päälle nähdäksesi sen kuvauksen." />
+        <text name="fh_help_tips" text="Vinkit" />
+        <text name="fh_help_tips_01" text="Suunnitelma terveille pelloille" />
+        <text name="fh_help_tips_02" text="1. Lannoita tarpeen mukaan, kalkitse äläkä kylvä samaa kasvia kahtena vuonna peräkkäin. Kylvä pääkasvien väliin kerääjäkasvi.
+2. Ruiskuta pelto fungisidilla ja insektisidillä ennen uhkien pääkuukausia (sivu ”Vuodenajat ja kasvuvaiheet”). Kerta kaudessa riittää, jos peität vähintään 90 % pellosta.
+3. Tarkista kartalta taso ”Suojaus” – vihreät pellot on suojattu molempia uhkatyyppejä vastaan.
+4. Ruiskuta ilmoituksen jälkeen mainittu pelto mainitulla aineella ennen kuin uhka saavuttaa vakavan asteen.
+5. AI-työntekijä, jolla on fungisidia tai insektisidiä, ruiskuttaa suojaamattomat pellot kokonaan ja suojatut vain siellä, missä on uhka." />
+        <text name="fh_help_tips_03" text="Huomaa" />
+        <text name="fh_help_tips_04" text="– Monokulttuuri ja kynnön puuttuminen ovat yleisimmät korkean riskin syyt, esim. vehnä vehnän jälkeen ilman kyntöä auttaa lehtilaikkua, rusketäpläisyyttä ja fusarioosia.
+– Maissi ennen vehnää nostaa selvästi fusarioosin riskiä, nurmi ennen perunaa lankamatojen riskiä.
+– Liete ja nestelannoite antavat rehevää kasvua, josta härmä, ruosteet ja kirvat pitävät.
+– Sateinen kesä on perunaruton, lehtilaikun ja fusarioosin aikaa, kuiva ja kuuma kirvojen, koloradonkuoriaisten, ripsiäisten ja maayökkösten aikaa.
+– Rapsilla on kaksi vaarallista ajanjaksoa: syksy (kirpat, rapsipistiäinen, Phoma) ja kevät (varsikärsäkkäät, rapsikuoriaiset, pahkahome).
+– Kohtalaisessa tai vakavassa asteessa oleva uhka voi siirtyä viereiselle pelaajan pellolle." />
+        <text name="fh_help_admin" text="Ylläpitäjälle" />
+        <text name="fh_help_admin_01" text="Konsolikomennot" />
+        <text name="fh_help_admin_03" text="Moninpeli, tallennus ja yhteensopivuus" />
+        <text name="fh_help_admin_04" text="– Simulaatio pyörii palvelimella, ja pelaajat näkevät sen tulokset. Asetukset sekä komennot fhSet, fhClear ja fhDailyTick ovat vain ylläpitäjälle.
+– Ilmoitukset menevät pellon omistavan tilan pelaajille, kullekin omalla kielellään.
+– Modi tallentaa tietonsa vain kahteen omaan tiedostoon tallennuskansiossa: fieldHealth.xml ja fieldHealthMap.grle. Sen voi poistaa turvallisesti – peli ohittaa nämä tiedostot, ja kartalta katoavat vain aineiden pullot ja kanisterit.
+– Modin aiemman version tallennukset muunnetaan ladattaessa uuteen muotoon.
+– Highlands Fishing Expansionin ja modien sipulit tunnistetaan automaattisesti – loki kertoo siitä.
+– Älä käytä samaan aikaan toista kasvitautimodia (esim. Crop Diseases) – Field Health varoittaa siitä lokissa." />
+        <text name="fh_help_admin_05" text="Kiitokset" />
+        <text name="fh_help_admin_06" text="Field Health – tekijä: MatrikSky. Idea on saanut innoituksensa BMP:n modista ”Crop Diseases”. Pullon malli perustuu shabanimaten malliin ”fertilizer Bottle”, kanisterin malli hoxsvl:n malliin ”#6 Plastic Canister” (molemmat CC BY 4.0, sketchfab.com)." />
+        <text name="fh_help_tableLanguage" text="en" />
+
+
+
+
+
+
+
+
+
+
+    </texts>
+</l10n>

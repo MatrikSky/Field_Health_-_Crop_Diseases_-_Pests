@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+    <texts>
+        <!-- Diseases (full and short name) -->
+        <text name="fh_disease_cereal_mildew" text="Meeldauw in granen" />
+        <text name="fh_disease_cereal_mildew_short" text="Meeldauw" />
+        <text name="fh_disease_septoria" text="Septoria-bladvlekkenziekte" />
+        <text name="fh_disease_septoria_short" text="Septoria" />
+        <text name="fh_disease_brown_rust" text="Bruine roest" />
+        <text name="fh_disease_brown_rust_short" text="Bruine roest" />
+        <text name="fh_disease_fusarium" text="Fusarium" />
+        <text name="fh_disease_fusarium_short" text="Fusarium" />
+        <text name="fh_disease_net_blotch" text="Netvlekkenziekte" />
+        <text name="fh_disease_net_blotch_short" text="Netvlekken" />
+        <text name="fh_disease_snow_mould" text="Sneeuwschimmel" />
+        <text name="fh_disease_snow_mould_short" text="Sneeuwschimmel" />
+        <text name="fh_disease_sclerotinia" text="Sclerotinia-stengelrot" />
+        <text name="fh_disease_sclerotinia_short" text="Sclerotinia" />
+        <text name="fh_disease_alternaria" text="Alternaria" />
+        <text name="fh_disease_alternaria_short" text="Alternaria" />
+        <text name="fh_disease_late_blight" text="Aardappelziekte (Phytophthora)" />
+        <text name="fh_disease_late_blight_short" text="Phytophthora" />
+        <text name="fh_disease_cercospora" text="Cercospora-bladvlekkenziekte" />
+        <text name="fh_disease_cercospora_short" text="Cercospora" />
+        <text name="fh_disease_grey_mould" text="Grauwe schimmel" />
+        <text name="fh_disease_grey_mould_short" text="Grauwe schimmel" />
+        <text name="fh_disease_yellow_rust" text="Gele roest" />
+        <text name="fh_disease_yellow_rust_short" text="Gele roest" />
+        <text name="fh_disease_tan_spot" text="DTR-bladvlekkenziekte" />
+        <text name="fh_disease_tan_spot_short" text="DTR" />
+        <text name="fh_disease_eyespot" text="Oogvlekkenziekte" />
+        <text name="fh_disease_eyespot_short" text="Oogvlekken" />
+        <text name="fh_disease_rhynchosporium" text="Rhynchosporium-bladvlekkenziekte" />
+        <text name="fh_disease_rhynchosporium_short" text="Rhynchosporium" />
+        <text name="fh_disease_ramularia" text="Ramularia-bladvlekkenziekte" />
+        <text name="fh_disease_ramularia_short" text="Ramularia" />
+        <text name="fh_disease_stem_rust" text="Zwarte roest" />
+        <text name="fh_disease_stem_rust_short" text="Zwarte roest" />
+        <text name="fh_disease_phoma" text="Phoma-stengelkanker" />
+        <text name="fh_disease_phoma_short" text="Phoma" />
+        <text name="fh_disease_cylindrosporiosis" text="Lichte bladvlekkenziekte" />
+        <text name="fh_disease_cylindrosporiosis_short" text="Lichte bladvlekken" />
+        <text name="fh_disease_beet_mildew" text="Meeldauw in bieten" />
+        <text name="fh_disease_beet_mildew_short" text="Bietenmeeldauw" />
+        <text name="fh_disease_ascochyta" text="Ascochyta-vlekkenziekte" />
+        <text name="fh_disease_ascochyta_short" text="Ascochyta" />
+        <text name="fh_disease_downy_mildew" text="Valse meeldauw" />
+        <text name="fh_disease_downy_mildew_short" text="Valse meeldauw" />
+        <text name="fh_disease_corn_leaf_blight" text="Bladvlekkenziekte in maïs" />
+        <text name="fh_disease_corn_leaf_blight_short" text="Maïsbladvlekken" />
+        <text name="fh_disease_crown_rust" text="Kroonroest van haver" />
+        <text name="fh_disease_crown_rust_short" text="Kroonroest" />
+
+        <!-- Pests (full and short name) -->
+        <text name="fh_pest_aphids" text="Bladluizen" />
+        <text name="fh_pest_aphids_short" text="Bladluizen" />
+        <text name="fh_pest_leaf_beetle" text="Graanhaantjes" />
+        <text name="fh_pest_leaf_beetle_short" text="Graanhaantjes" />
+        <text name="fh_pest_pollen_beetle" text="Koolzaadglanskevers" />
+        <text name="fh_pest_pollen_beetle_short" text="Glanskevers" />
+        <text name="fh_pest_potato_beetle" text="Coloradokevers" />
+        <text name="fh_pest_potato_beetle_short" text="Coloradokevers" />
+        <text name="fh_pest_corn_borer" text="Maïsstengelboorder" />
+        <text name="fh_pest_corn_borer_short" text="Maïsboorder" />
+        <text name="fh_pest_wireworm" text="Ritnaalden" />
+        <text name="fh_pest_wireworm_short" text="Ritnaalden" />
+        <text name="fh_pest_stem_weevil" text="Koolzaadstengelsnuitkevers" />
+        <text name="fh_pest_stem_weevil_short" text="Stengelsnuitkevers" />
+        <text name="fh_pest_seed_weevil" text="Koolzaadsnuitkever" />
+        <text name="fh_pest_seed_weevil_short" text="Zaadsnuitkever" />
+        <text name="fh_pest_flea_beetle" text="Aardvlooien" />
+        <text name="fh_pest_flea_beetle_short" text="Aardvlooien" />
+        <text name="fh_pest_turnip_sawfly" text="Koolzaadbladwesp" />
+        <text name="fh_pest_turnip_sawfly_short" text="Bladwesp" />
+        <text name="fh_pest_frit_fly" text="Fritvlieg" />
+        <text name="fh_pest_frit_fly_short" text="Fritvlieg" />
+        <text name="fh_pest_wheat_midge" text="Tarwegalmuggen" />
+        <text name="fh_pest_wheat_midge_short" text="Galmuggen" />
+        <text name="fh_pest_cutworm" text="Aardrupsen" />
+        <text name="fh_pest_cutworm_short" text="Aardrupsen" />
+        <text name="fh_pest_beet_fly" text="Bietenvlieg" />
+        <text name="fh_pest_beet_fly_short" text="Bietenvlieg" />
+        <text name="fh_pest_onion_fly" text="Uienvlieg" />
+        <text name="fh_pest_onion_fly_short" text="Uienvlieg" />
+        <text name="fh_pest_thrips" text="Trips" />
+        <text name="fh_pest_thrips_short" text="Trips" />
+        <text name="fh_pest_carrot_fly" text="Wortelvlieg" />
+        <text name="fh_pest_carrot_fly_short" text="Wortelvlieg" />
+        <text name="fh_pest_pea_leaf_weevil" text="Bladrandkevers" />
+        <text name="fh_pest_pea_leaf_weevil_short" text="Bladrandkevers" />
+        <text name="fh_pest_rootworm" text="Westelijke maïswortelkever" />
+        <text name="fh_pest_rootworm_short" text="Maïswortelkever" />
+        <text name="fh_pest_ground_beetle" text="Graanloopkever" />
+        <text name="fh_pest_ground_beetle_short" text="Loopkever" />
+
+        <text name="fh_severity_low" text="licht" />
+        <text name="fh_severity_medium" text="matig" />
+        <text name="fh_severity_high" text="ernstig" />
+
+        <!-- Field info (short, so nothing gets cut off) -->
+        <text name="fh_hud_threats" text="Gewasbedreigingen" />
+        <text name="fh_hud_disease" text="Ziekte" />
+        <text name="fh_hud_pest" text="Plagen" />
+        <text name="fh_hud_none" text="geen" />
+        <text name="fh_hud_diseaseRisk" text="Ziekterisico" />
+        <text name="fh_hud_pestRisk" text="Plaagrisico" />
+        <text name="fh_hud_cause" text="Oorzaak" />
+        <text name="fh_hud_protection" text="Gewasbescherming" />
+        <text name="fh_hud_diseaseProtection" text="Bescherming tegen ziekten" />
+        <text name="fh_hud_pestProtection" text="Bescherming tegen plagen" />
+        <text name="fh_hud_protected" text="actief" />
+        <text name="fh_risk_low" text="laag" />
+        <text name="fh_risk_normal" text="normaal" />
+        <text name="fh_risk_elevated" text="verhoogd" />
+        <text name="fh_risk_high" text="hoog" />
+        <text name="fh_cause_fertilizer" text="geen bemesting" />
+        <text name="fh_cause_manure" text="verse mest" />
+        <text name="fh_cause_fastNitrogen" text="snelle stikstof" />
+        <text name="fh_cause_nitrogenDeficit" text="weinig stikstof" />
+        <text name="fh_cause_nitrogenExcess" text="te veel stikstof" />
+        <text name="fh_cause_lime" text="zure bodem" />
+        <text name="fh_cause_lightSoil" text="lichte grond" />
+        <text name="fh_cause_heavySoil" text="zware grond" />
+        <text name="fh_cause_plowing" text="niet geploegd" />
+        <text name="fh_cause_stubble" text="stoppel" />
+        <text name="fh_cause_rolling" text="niet gerold" />
+        <text name="fh_cause_weeds" text="onkruid" />
+        <text name="fh_cause_sameCrop" text="monocultuur" />
+        <text name="fh_cause_cropFamily" text="verwant gewas" />
+        <text name="fh_cause_previousCrop" text="slechte voorvrucht" />
+        <text name="fh_hint_fungicide" text="Behandeling: spuit fungicide" />
+        <text name="fh_hint_insecticide" text="Behandeling: spuit insecticide" />
+        <text name="fh_field_area" text="Veldoppervlak" />
+        <text name="fh_potential_harvest" text="Mogelijke oogst" />
+        <text name="fh_potential_yield" text="Mogelijke opbrengst" />
+
+        <!-- Notifications: field number, crop, threat, spray -->
+        <text name="fh_alert_new" text="Veld %s (%s): nieuwe bedreiging – %s. Spuit: %s." />
+        <text name="fh_alert_severe" text="Veld %s (%s): ernstige bedreiging – %s, het gewas sterft af. Spuit: %s." />
+        <text name="fh_alert_neighbour" text="Veld %s (%s): %s – kwam van een naburig veld. Spuit: %s." />
+
+        <!-- Map -->
+        <text name="fh_map_page" text="Gewasbescherming" />
+        <text name="fh_map_layerProtection" text="Bescherming" />
+        <text name="fh_map_layerDiseases" text="Ziekten" />
+        <text name="fh_map_layerPests" text="Plagen" />
+        <text name="fh_map_layerDiseaseTypes" text="Soorten ziekten" />
+        <text name="fh_map_layerPestTypes" text="Soorten plagen" />
+        <text name="fh_map_notSprayed" text="Niet beschermd" />
+        <text name="fh_map_oneProduct" text="Eén middel" />
+        <text name="fh_map_bothProducts" text="Fungicide en insecticide" />
+        <text name="fh_map_healthy" text="Gezond gewas" />
+        <text name="fh_map_low" text="Licht" />
+        <text name="fh_map_medium" text="Matig" />
+        <text name="fh_map_high" text="Ernstig" />
+        <text name="fh_map_diseaseLabel" text="Ziekte:" />
+        <text name="fh_map_pestLabel" text="Plagen:" />
+        <text name="fh_map_diseaseProtectionLabel" text="Bescherming tegen ziekten:" />
+        <text name="fh_map_pestProtectionLabel" text="Bescherming tegen plagen:" />
+        <text name="fh_map_protectedUntilHarvest" text="actief" />
+        <text name="input_FH_MINIMAP_LAYER" text="Field Health – laag gewasbescherming op de minikaart" />
+
+        <!-- Settings -->
+        <text name="fh_config_brand" text="Merk" />
+        <text name="fh_settings_header" text="Field Health – ziekten en plagen" />
+        <text name="fh_setting_enabled" text="Gewasbedreigingen" />
+        <text name="fh_setting_enabled_desc" text="Hoofdschakelaar van de mod. Staat hij uit, dan verschijnen er geen nieuwe ziekten of plagen en ontwikkelen de bestaande zich niet verder en vernietigen ze geen gewas meer. Spuiten werkt nog wel, zodat je kunt opruimen wat er op je velden over is." />
+        <text name="fh_setting_diseaseChance" text="Ziektekans per seizoen" />
+        <text name="fh_setting_diseaseChance_desc" text="Basiskans dat een normaal bewerkt veld in één seizoen (van zaaien tot oogsten) een ziekte krijgt. Dit is alleen een startpunt: goede zorg (mest, groenbemesters, vruchtwisseling, juiste pH en stikstof) verlaagt hem, verwaarlozing (geen bemesting, monocultuur, niet ploegen, zure bodem) verhoogt hem meerdere keren. Fungicide spuiten voordat een ziekte verschijnt, brengt hem tot de oogst terug naar nul. 0% schakelt ziekten uit." />
+        <text name="fh_setting_pestChance" text="Plaagkans per seizoen" />
+        <text name="fh_setting_pestChance_desc" text="Basiskans dat er in één seizoen plagen verschijnen op een normaal bewerkt veld. De bewerking verandert hem: onkruid, monocultuur en niet ploegen verhogen hem, groenbemesters en vruchtwisseling verlagen hem. Insecticide spuiten voordat plagen verschijnen, brengt hem tot de oogst terug naar nul. 0% schakelt plagen uit." />
+        <text name="fh_setting_careInfluence" text="Invloed van de bewerking" />
+        <text name="fh_setting_careInfluence_desc" text="Hoe sterk de manier waarop je boert (bemesting, grondbewerking, vruchtwisseling, groenbemesters, onkruid, gegevens van Precisielandbouw) de basiskansen verandert. Geen – alleen de basiskans telt, alle velden zijn gelijk. Laag – kleine verschillen. Normaal (aanbevolen) – goede zorg loont duidelijk. Hoog – verwaarloosde velden worden heel vaak ziek, goed verzorgde bijna nooit." />
+        <text name="fh_setting_weatherInfluence" text="Invloed van het weer" />
+        <text name="fh_setting_weatherInfluence_desc" text="Hoe sterk het weer van de laatste dagen (temperatuur en regen) de kans op bedreigingen verandert. Schimmelziekten houden van regen en vocht, de meeste plagen van warm, droog weer, en elke bedreiging heeft haar eigen temperatuurbereik. Geen – het weer telt niet. Laag – kleine verschillen. Normaal (aanbevolen) – duidelijke verschillen. Hoog – bij gunstig weer verschijnen bedreigingen veel vaker, bij ongunstig weer bijna nooit." />
+        <text name="fh_setting_stubbleRisk" text="Risico door stoppel" />
+        <text name="fh_setting_stubbleRisk_desc" text="Of niet-geklepelde stoppel na de oogst het risico verhoogt (vooral voor de maïsboorder en ziekten die op gewasresten overleven). Het telt alleen na een oogst op het veld en als het veld niet geploegd is. Spuitsporen en paden door het veld tellen nooit als stoppel. Uit – stoppel verandert het risico helemaal niet." />
+        <text name="fh_setting_fodderCrops" text="Bedreigingen op weiden en voedergewassen" />
+        <text name="fh_setting_fodderCrops_desc" text="Of weiden, gras, klaver en luzerne ziekten en plagen kunnen krijgen. Uit (aanbevolen) – deze gewassen krijgen nooit bedreigingen, en bedreigingen die er al zijn, verdwijnen de volgende dag. Aan – klaver en luzerne kunnen bladluizen krijgen; weiden en gras nog steeds nooit." />
+        <text name="fh_setting_fieldInfo" text="Regels in de veldinfo" />
+        <text name="fh_setting_fieldInfo_desc" text="Of het veldinfovenster de bedreigingen, het risico en de bescherming van het veld toont. Uit – het venster ziet eruit zoals zonder de mod; de kaart en de minikaart tonen de velden nog steeds." />
+        <text name="fh_setting_progression" text="Verloop van bedreigingen" />
+        <text name="fh_setting_progression_desc" text="Hoe snel een onbehandelde bedreiging het volgende stadium bereikt: licht, dan matig, dan ernstig. Langzaam – elke spelmaand, Normaal – elke halve maand, Snel – elke kwart maand (minstens één dag). Alleen het ernstige stadium vernietigt gewas, dus een lager tempo geeft je meer tijd om te spuiten." />
+        <text name="fh_setting_spread" text="Uitbreiding van bedreigingen" />
+        <text name="fh_setting_spread_desc" text="Hoe groot een deel van het veld een onbehandelde bedreiging kan bedekken. Klein – tot 2,5%, Gemiddeld – tot 5%, Groot – tot 10% van het veldoppervlak. Een haard groeit ongelijkmatig aan de rand, en af en toe verschijnt er een nieuwe, kleinere haard naast – meestal aan de kant waar de wind die dag naartoe waait. Spuiten verwijdert de bedreiging volledig." />
+        <text name="fh_setting_patchSize" text="Grootte van de haarden" />
+        <text name="fh_setting_patchSize_desc" text="Hoe groot de haarden zijn waarin een nieuwe bedreiging verschijnt en groeit. Elke haard heeft een onregelmatige vorm en een willekeurige grootte – kleine komen vaker voor dan grote. Klein – haarden meestal 5–12 m doorsnee, Normaal – 8–20 m, Groot – 12–30 m. Op kleine velden zijn haarden altijd kleiner." />
+        <text name="fh_setting_neighbourSpread" text="Overslaan naar naburige velden" />
+        <text name="fh_setting_neighbourSpread_desc" text="Of een bedreiging aan de rand van een veld kan overslaan naar een naburig veld van een speler. Dat gebeurt alleen als de velden elkaar raken of door een heel smalle strook gescheiden zijn, als op het andere veld een gewas staat dat de bedreiging aanvalt in het juiste groeistadium, en als het andere veld niet bespoten is. Plagen slaan vaker over dan ziekten, en pas vanaf het matige stadium. Velden van NPC's worden nooit getroffen. Uit, Zelden, Soms, Vaak – geen, halve, normale en dubbele kans." />
+        <text name="fh_setting_damage" text="Gewasschade" />
+        <text name="fh_setting_damage_desc" text="Hoeveel gewas een ernstige bedreiging elke dag vernietigt. Vernietigde plekken leveren bij de oogst niets op. Uit – bedreigingen zijn alleen zichtbaar, de opbrengst blijft gelijk. Laag, Normaal, Hoog – 1, 3 of 6 plekken van een paar meter per dag, altijd alleen binnen het besmette gebied." />
+        <text name="fh_setting_protectionThreshold" text="Bedekking voor volledige bescherming" />
+        <text name="fh_setting_protectionThreshold_desc" text="Hoeveel van een veld bespoten moet zijn zodat het hele veld beschermd is tegen dat soort bedreiging (ziekten of plagen). Met minder bedekking kan een bedreiging nog verschijnen, maar alleen op de niet-bespoten delen – bespoten plekken zijn altijd beschermd. Standaard 90%. Een lagere drempel vergeeft gemiste hoeken en spieën, een hogere vraagt precies spuiten." />
+        <text name="fh_setting_protectionDuration" text="Bescherming door spuiten" />
+        <text name="fh_setting_protectionDuration_desc" text="Hoe lang fungicide en insecticide een veld beschermen. Tot de oogst – één bespuiting met elk middel beschermt het veld het hele seizoen (het makkelijkst). 2 maanden, 1 maand, Halve maand – de bescherming eindigt zo lang na de laatste bespuiting van het veld en je moet opnieuw spuiten, zoals op een echte boerderij." />
+        <text name="fh_setting_fungicideUsage" text="Dosering fungicide" />
+        <text name="fh_setting_fungicideUsage_desc" text="Hoeveel fungicide een veldspuit per hectare gebruikt. 100% is ongeveer 290 liter spuitvloeistof per hectare (hetzelfde als herbicide), dat is één fles van 1 l per hectare. Een lagere dosering maakt spuiten goedkoper met minder bijvullen, een hogere maakt het duurder. Het effect van het spuiten is altijd hetzelfde. De wijziging geldt meteen, ook tijdens het werk." />
+        <text name="fh_setting_insecticideUsage" text="Dosering insecticide" />
+        <text name="fh_setting_insecticideUsage_desc" text="Hoeveel insecticide een veldspuit per hectare gebruikt. 100% is ongeveer 290 liter spuitvloeistof per hectare (hetzelfde als herbicide), dat is één fles van 1 l per 5 hectare. Een lagere dosering maakt spuiten goedkoper met minder bijvullen, een hogere maakt het duurder. Het effect van het spuiten is altijd hetzelfde. De wijziging geldt meteen, ook tijdens het werk." />
+        <text name="fh_setting_fungicidePrice" text="Prijs fles fungicide" />
+        <text name="fh_setting_fungicidePrice_desc" text="Winkelprijs van één fles fungicide van 1 l. Een fles is genoeg voor 1 hectare (290 l spuitvloeistof). Standaard 50. Het spel rekent valuta 1:1 om. De prijs per liter spuitvloeistof volgt deze prijs, bijv. bij het kopen van de vloeistof bij een station. De wijziging geldt meteen in de winkel." />
+        <text name="fh_setting_insecticidePrice" text="Prijs fles insecticide" />
+        <text name="fh_setting_insecticidePrice_desc" text="Winkelprijs van één fles insecticide van 1 l. Een fles is genoeg voor 5 hectare (1450 l spuitvloeistof). Standaard 80. Het spel rekent valuta 1:1 om. De prijs per liter spuitvloeistof volgt deze prijs, bijv. bij het kopen van de vloeistof bij een station. De wijziging geldt meteen in de winkel." />
+        <text name="fh_setting_fungicideCanisterPrice" text="Prijs jerrycan fungicide 5 l" />
+        <text name="fh_setting_fungicideCanisterPrice_desc" text="Winkelprijs van één jerrycan fungicide van 5 l. Een jerrycan is genoeg voor 5 hectare (1450 l spuitvloeistof). Standaard 220, per liter goedkoper dan vijf flessen van 1 l, zoals bij een echte handelaar. Het spel rekent valuta 1:1 om. De wijziging geldt meteen in de winkel." />
+        <text name="fh_setting_insecticideCanisterPrice" text="Prijs jerrycan insecticide 5 l" />
+        <text name="fh_setting_insecticideCanisterPrice_desc" text="Winkelprijs van één jerrycan insecticide van 5 l. Een jerrycan is genoeg voor 25 hectare (7250 l spuitvloeistof). Standaard 350, per liter goedkoper dan vijf flessen van 1 l, zoals bij een echte handelaar. Het spel rekent valuta 1:1 om. De wijziging geldt meteen in de winkel." />
+        <text name="fh_setting_fungicideCanister20Price" text="Prijs jerrycan fungicide 20 l" />
+        <text name="fh_setting_fungicideCanister20Price_desc" text="Winkelprijs van één jerrycan fungicide van 20 l. Een jerrycan is genoeg voor 20 hectare (5800 l spuitvloeistof). Standaard 800, de goedkoopste per liter van alle verpakkingen. Het spel rekent valuta 1:1 om. De wijziging geldt meteen in de winkel." />
+        <text name="fh_setting_insecticideCanister20Price" text="Prijs jerrycan insecticide 20 l" />
+        <text name="fh_setting_insecticideCanister20Price_desc" text="Winkelprijs van één jerrycan insecticide van 20 l. Een jerrycan is genoeg voor 100 hectare (29.000 l spuitvloeistof). Standaard 1200, de goedkoopste per liter van alle verpakkingen. Het spel rekent valuta 1:1 om. De wijziging geldt meteen in de winkel." />
+        <text name="fh_setting_farmLimit" text="Limiet bedreigingen per boerderij" />
+        <text name="fh_setting_farmLimit_desc" text="Maximaal aantal nieuwe bedreigingen op alle velden van je boerderij per speljaar. Onbeperkt – elk veld heeft zijn eigen kans. Stel bijvoorbeeld 1 of 2 in als je veel velden hebt en wilt dat ziekten en plagen zeldzaam zijn." />
+        <text name="fh_setting_notifications" text="Meldingen van bedreigingen" />
+        <text name="fh_setting_notifications_desc" text="Toont een bericht wanneer er een ziekte of plaag op je veld verschijnt en wanneer een bedreiging ernstig wordt en het gewas begint te vernietigen. Het bericht noemt het veld, het gewas, de bedreiging en het middel om te spuiten." />
+        <text name="fh_set_on" text="Aan" />
+        <text name="fh_set_off" text="Uit" />
+        <text name="fh_set_none" text="Geen" />
+        <text name="fh_set_low" text="Laag" />
+        <text name="fh_set_normal" text="Normaal" />
+        <text name="fh_set_high" text="Hoog" />
+        <text name="fh_set_slow" text="Langzaam" />
+        <text name="fh_set_normalPace" text="Normaal" />
+        <text name="fh_set_fast" text="Snel" />
+        <text name="fh_set_small" text="Klein" />
+        <text name="fh_set_medium" text="Gemiddeld" />
+        <text name="fh_set_large" text="Groot" />
+        <text name="fh_set_damageLow" text="Laag" />
+        <text name="fh_set_damageNormal" text="Normaal" />
+        <text name="fh_set_damageHigh" text="Hoog" />
+        <text name="fh_set_untilHarvest" text="Tot de oogst" />
+        <text name="fh_set_twoMonths" text="2 maanden" />
+        <text name="fh_set_oneMonth" text="1 maand" />
+        <text name="fh_set_halfMonth" text="Halve maand" />
+        <text name="fh_set_unlimited" text="Onbeperkt" />
+        <text name="fh_set_patchSmall" text="Klein" />
+        <text name="fh_set_patchNormal" text="Normaal" />
+        <text name="fh_set_patchLarge" text="Groot" />
+        <text name="fh_set_rarely" text="Zelden" />
+        <text name="fh_set_sometimes" text="Soms" />
+        <text name="fh_set_often" text="Vaak" />
+
+        <!-- Shop -->
+        <text name="fh_fillType_insecticide" text="Insecticide" />
+        <text name="fh_fillType_fungicide" text="Fungicide" />
+        <text name="fh_store_fungicideBottle" text="Fungicide 1 l" />
+        <text name="fh_store_insecticideBottle" text="Insecticide 1 l" />
+        <text name="fh_store_fungicideCanister" text="Fungicide 5 l" />
+        <text name="fh_store_insecticideCanister" text="Insecticide 5 l" />
+        <text name="fh_store_fungicideCanister20" text="Fungicide 20 l" />
+        <text name="fh_store_insecticideCanister20" text="Insecticide 20 l" />
+        <text name="fh_function_fungicideBottle" text="Fles van 1 l concentraat, dosering 1 l/ha. Genoeg voor 1 ha, dat is 290 l spuitvloeistof. Beschermt gewassen tegen alle ziekten. Zet de fles naast een veldspuit en vul de spuit eruit." />
+        <text name="fh_function_insecticideBottle" text="Fles van 1 l concentraat, dosering 0,2 l/ha. Genoeg voor 5 ha, dat is 1450 l spuitvloeistof. Beschermt gewassen tegen plagen: bladluizen, graanhaantjes, glanskevers, coloradokevers, maïsboorder en ritnaalden. Zet de fles naast een veldspuit en vul de spuit eruit." />
+        <text name="fh_function_fungicideCanister" text="Jerrycan van 5 l concentraat, dosering 1 l/ha. Genoeg voor 5 ha, dat is 1450 l spuitvloeistof. Beschermt gewassen tegen alle ziekten. Per liter goedkoper dan de flessen van 1 l. Zet de jerrycan naast een veldspuit en vul de spuit eruit." />
+        <text name="fh_function_insecticideCanister" text="Jerrycan van 5 l concentraat, dosering 0,2 l/ha. Genoeg voor 25 ha, dat is 7250 l spuitvloeistof. Beschermt gewassen tegen plagen. Per liter goedkoper dan de flessen van 1 l. Zet de jerrycan naast een veldspuit en vul de spuit eruit." />
+        <text name="fh_function_fungicideCanister20" text="Jerrycan van 20 l concentraat, dosering 1 l/ha. Genoeg voor 20 ha, dat is 5800 l spuitvloeistof. Beschermt gewassen tegen alle ziekten. Goedkoopst per liter, voor grote bedrijven. Zet de jerrycan naast een veldspuit en vul de spuit eruit." />
+        <text name="fh_function_insecticideCanister20" text="Jerrycan van 20 l concentraat, dosering 0,2 l/ha. Genoeg voor 100 ha, dat is 29.000 l spuitvloeistof. Beschermt gewassen tegen plagen. Goedkoopst per liter, voor grote bedrijven. Zet de jerrycan naast een veldspuit en vul de spuit eruit." />
+
+        <!-- Help (ESC → Help) -->
+        <text name="fh_help_header" text="Field Health – ziekten en plagen" />
+
+        <text name="fh_help_intro" text="Inleiding" />
+        <text name="fh_help_intro_01" text="Over de mod" />
+        <text name="fh_help_intro_02" text="Field Health brengt de gewasziekten en plagen waar boeren in Polen elke dag mee te maken hebben in het spel. Ze verschijnen in de loop van het seizoen op de velden van je boerderij, ontwikkelen zich en vernietigen – als je ze niet bestrijdt – een deel van het gewas. Twee middelen uit de winkel bestrijden ze: fungicide tegen ziekten en insecticide tegen plagen.
+De mod is realistisch maar vergevingsgezind voor ontspannen spelen: een bedreiging bedekt nooit het hele veld, gewas wordt alleen in het ernstigste stadium vernietigd, en één goed uitgevoerde bespuiting met elk middel beschermt het veld tot het einde van het seizoen." />
+        <text name="fh_help_intro_03" text="Het seizoen stap voor stap" />
+        <text name="fh_help_intro_04" text="1. Zaaien start het teeltseizoen. Vanaf die dag groeit de infectiedruk op het veld – het snelst in de tijd van het jaar en het groeistadium waarin een bedreiging toeslaat, bij weer dat haar goed uitkomt en op een verwaarloosd veld.
+2. Als de druk de drempel overschrijdt die voor het veld is geloot, verschijnt een haard van een ziekte of plaag. Je krijgt een melding met het veldnummer en het middel om te spuiten.
+3. Een onbehandelde bedreiging wordt elke halve maand een stadium erger en breidt zich langzaam uit. In het ernstige stadium vernietigt ze elke dag gewas op kleine plekken.
+4. Spuiten verwijdert de bedreiging en beschermt de bespoten plekken. Een veld dat bijna volledig bespoten is, is tot de oogst immuun voor dat soort bedreiging.
+5. De oogst beëindigt het seizoen: bedreigingen en bescherming verdwijnen, en het geoogste gewas wordt de voorvrucht van het volgende." />
+        <text name="fh_help_intro_05" text="Belangrijke getallen" />
+        <text name="fh_help_intro_06" text="Standaardwaarden. De beheerder kan elk ervan in de instellingen veranderen (laatste kolom)." />
+        <text name="fh_help_intro_08" text="Waar je je velden controleert" />
+        <text name="fh_help_intro_09" text="– Veldinfovenster (als je op een veld bent): bedreigingen met hun stadium, het risico en de belangrijkste oorzaak, de bescherming van het veld.
+– Kaart (ESC &gt; Kaart &gt; Gewasbescherming): vijf lagen – bescherming, ziekten, plagen, soorten ziekten en soorten plagen.
+– Minikaart: wissel de laag met linker Alt + \.
+– Meldingen: over een nieuwe bedreiging, over het ernstige stadium en over een bedreiging die van een naburig veld kwam." />
+        <text name="fh_help_origin" text="Waar bedreigingen vandaan komen" />
+        <text name="fh_help_origin_01" text="Elk veld van een speler met een groeiend gewas kan per seizoen hooguit één ziekte en één soort plaag krijgen. Velden van NPC's, populier en groenbemesters krijgen nooit bedreigingen; weiden, gras, klaver en luzerne alleen als dat in de instellingen is ingeschakeld.
+Een bedreiging verschijnt niet op een willekeurige dag. Elke dag berekent de mod de infectiedruk op het veld en telt die op bij de som van de dagen ervoor. Aan het begin van het seizoen krijgt het veld een willekeurige weerstandsdrempel – als de som van de druk die overschrijdt, raakt het veld besmet. Daarom verschijnt een bedreiging in het ene seizoen vroeg, in een ander laat en in een derde helemaal niet." />
+        <text name="fh_help_origin_02" text="Wat de druk bepaalt" />
+        <text name="fh_help_origin_03" text="1. De basiskans uit de instellingen – standaard 15% voor een ziekte en 10% voor plagen per seizoen.
+2. Het risico van het veld, dus hoe je het bewerkt: bemesting, grondbewerking, vruchtwisseling en onkruid (pagina “Hoe je boert”).
+3. Hoe vaak de bedreiging in Polen voorkomt – veelvoorkomende ziekten en plagen verschijnen veel vaker dan zeldzame (pagina’s “Ziekten” en “Plagen”).
+4. De tijd van het jaar en het groeistadium – buiten haar tijd valt een bedreiging helemaal niet aan (pagina “Seizoenen en groeistadia”).
+5. Het weer van de laatste dagen – regen helpt schimmelziekten, warmte en droogte helpen de meeste plagen (pagina “Weer”)." />
+        <text name="fh_help_origin_04" text="Kans per seizoen" />
+        <text name="fh_help_origin_05" text="Zo verandert het risico van het veld de kans op een bedreiging over het hele seizoen met de standaardinstellingen:" />
+        <text name="fh_help_origin_07" text="De tabel geldt voor een gewas met een gemiddeld aantal bedreigingen dat hun hele tijd doorgroeit. Gewassen die door veel veelvoorkomende ziekten of plagen worden aangevallen, krijgen ze vaker (tot 1,4 keer), gewassen met weinig bedreigingen minder vaak (tot 0,5 keer):" />
+        <text name="fh_help_origin_09" text="Welke bedreiging verschijnt" />
+        <text name="fh_help_origin_10" text="Als er een besmetting plaatsvindt, kiest de mod een van de bedreigingen die het gewas die dag kunnen aanvallen. De kans van elk is evenredig met haar druk van die dag: hoe vaak ze voorkomt maal het risico van het veld, de tijd van het jaar en het weer. Voorbeeld: op tarwe in mei bij regenachtig weer verschijnen het vaakst septoria of meeldauw, terwijl zwarte roest, die zeldzaam is en van warmte houdt, bijna nooit verschijnt." />
+        <text name="fh_help_origin_11" text="Spuiten vóór de besmetting" />
+        <text name="fh_help_origin_12" text="Als het veld op het moment van de besmetting op minstens 90% van zijn oppervlak met het juiste middel bespoten is, mislukt de besmetting en krijgt het veld dit seizoen geen bedreiging van die soort. Met minder bedekking kan de bedreiging verschijnen, maar alleen op de delen die niet bespoten zijn." />
+        <text name="fh_help_timing" text="Seizoenen en groeistadia" />
+        <text name="fh_help_timing_01" text="Elke ziekte en elke plaag heeft haar tijd: ze valt alleen in bepaalde maanden aan en alleen in bepaalde groeistadia van het gewas. Binnen die tijd heeft ze een piek, wanneer ze het gevaarlijkst is. Buiten haar tijd verschijnt een bedreiging helemaal niet – ze kan dan ook niet van een naburig veld komen." />
+        <text name="fh_help_timing_02" text="Groeistadia" />
+        <text name="fh_help_timing_04" text="De mod leest het stadium af uit de groeitoestand van het gewas in het spel: de eerste 20% van de groeitijd is opkomst, tot 45% bladontwikkeling en uitstoeling, tot 70% stengelstrekking of knopvorming, daarna aarvorming en bloei, en een gewas dat klaar is om te oogsten is rijp. De maanden volgen de spelkalender (de eerste periode van het jaar is maart), dus het aantal dagen per periode verandert niet wanneer bedreigingen toeslaan." />
+        <text name="fh_help_timing_05" text="Kalender – wanneer je op moet letten" />
+        <text name="fh_help_timing_06" text="De belangrijkste maanden zijn die waarin de druk van de groep bedreigingen op het gewas het hoogst is. Kort daarvoor spuiten voorkomt de meeste besmettingen." />
+        <text name="fh_help_farming" text="Hoe je boert" />
+        <text name="fh_help_farming_01" text="Het risico van het veld is een vermenigvuldiger van de infectiedruk die voortkomt uit hoe je het veld bewerkt. De mod berekent het voor elke bedreiging apart; het veldinfovenster toont het hoogste ziekte- en plaagrisico en de belangrijkste oorzaak. De vermenigvuldigers in de tabellen worden met elkaar vermenigvuldigd, en het resultaat blijft altijd tussen 0,3 en 5." />
+        <text name="fh_help_farming_03" text="Bemesting" />
+        <text name="fh_help_farming_05" text="Grondbewerking en onkruid" />
+        <text name="fh_help_farming_07" text="De waarden gelden voor een volledig verwaarloosd veld – gedeeltelijke verwaarlozing verhoogt het risico naar verhouding. Alleen veldwerk dat in de spelinstellingen is ingeschakeld telt: zonder verplicht ploegen verandert niet ploegen niets. De mod controleert het veld op 36 punten en alleen waar het gewas groeit, dus spuitsporen en paden door het veld tellen niet als verwaarlozing. Stoppel en rollen tellen pas als ontbrekend als ze op driekwart van het veld ontbreken. Stoppel telt alleen na een oogst op dit veld en niet na ploegen (de instelling “Risico door stoppel” schakelt het helemaal uit). In FS25 groeit er na ploegen geen onkruid." />
+        <text name="fh_help_farming_08" text="Vruchtwisseling en groenbemesters" />
+        <text name="fh_help_farming_10" text="De instelling “Invloed van de bewerking” versterkt of verzwakt al deze factoren tegelijk. Geen – elk veld heeft risico 1. Laag – de verschillen zijn ongeveer half zo groot. Normaal – zoals in de tabellen. Hoog – de verschillen zijn anderhalf keer zo groot." />
+        <text name="fh_help_weather" text="Weer" />
+        <text name="fh_help_weather_01" text="Elk speluur leest de mod de temperatuur af en of het regent. Aan het einde van de dag berekent hij de gemiddelde temperatuur van de dag en het aandeel regenuren. Vocht heeft een geheugen: de helft komt van de laatste dag en de helft van de dagen ervoor, omdat bladeren nog lang na regen nat blijven. Elke bedreiging heeft een weerprofiel – een temperatuurbereik en hoe ze met regen omgaat." />
+        <text name="fh_help_weather_03" text="Een temperatuur buiten het bereik verlaagt de druk tot 0,4 keer, een temperatuur in het optimum verhoogt hem tot 1,2 keer. Regen verandert de druk van 0,4 tot 1,8 keer – omhoog voor bedreigingen die van vocht houden, omlaag voor die van droogte houden. Samen verandert het weer de druk van 0,2 tot 2,5 keer. Voorbeelden van vermenigvuldigers na een paar dagen van zulk weer (rood – de bedreiging groeit, groen – ze neemt af):" />
+        <text name="fh_help_weather_05" text="De instelling “Invloed van het weer”: Geen – het weer telt niet, Laag – mildere vermenigvuldigers, Normaal – zoals in de tabel, Hoog – sterkere. Let na een paar warme, regenachtige dagen in de zomer vooral op aardappelen en granen in de aarvorming, en in een droge, hete zomer op plagen." />
+        <text name="fh_help_diseases" text="Ziekten" />
+        <text name="fh_help_diseases_01" text="Fungicide bestrijdt alle ziekten. De tabellen tonen hoe vaak een ziekte in Polen voorkomt, welke gewassen ze aanvalt, in welke maanden ze verschijnt en wanneer ze het ergst is, in welk groeistadium ze de meeste schade doet en wat haar helpt." />
+        <text name="fh_help_diseases_03" text="Granen en maïs" />
+        <text name="fh_help_diseases_05" text="Andere gewassen" />
+        <text name="fh_help_diseases_07" text="Gewassen van kaarten die de mod niet kent, kunnen grauwe schimmel en bladluizen krijgen. Uien van de Highlands Fishing Expansion en van mods worden automatisch herkend." />
+        <text name="fh_help_pests" text="Plagen" />
+        <text name="fh_help_pests_01" text="Insecticide bestrijdt alle plagen. De kolommen van de tabellen betekenen hetzelfde als op de pagina “Ziekten”." />
+        <text name="fh_help_pests_02" text="Granen en maïs" />
+        <text name="fh_help_pests_04" text="Andere gewassen" />
+        <text name="fh_help_progress" text="Hoe een bedreiging zich ontwikkelt" />
+        <text name="fh_help_progress_01" text="Een nieuwe bedreiging is één of twee onregelmatige haarden met een rafelige rand en gezonde gaten erin. Ze begint in het lichte stadium. Als je haar niet bestrijdt, doorloopt ze deze stappen:" />
+        <text name="fh_help_progress_03" text="Vernietigd gewas groeit niet terug en levert bij de oogst niets op. Vooraf of direct na de melding spuiten is daarom het goedkoopst. Spuiten in elk stadium verwijdert de bedreiging volledig van de bespoten plekken." />
+        <text name="fh_help_spraying" text="Spuiten en bescherming" />
+        <text name="fh_help_spraying_01" text="De middelen worden gemaakt door het Poolse bedrijf Opryskex: de fungicide Grzybobój 250 EC (groen etiket) en de insecticide Robalex 100 CS (rood etiket). Bij het kopen kun je in plaats daarvan het merk MST (Mafia Solec Team) kiezen: Solectop 280 SC en Mafiozol 50 EW. Ze werken hetzelfde, alleen het etiket verschilt. Je koopt ze in de winkel in flessen van 1 l en jerrycans van 5 l en 20 l. Zet de verpakking naast de veldspuit en vul hem zoals vanaf een pallet. Het spel mengt het concentraat niet met water, dus de inhoud van een verpakking is alle spuitvloeistof die je ermee maakt. Hoe groter de verpakking, hoe goedkoper per hectare." />
+        <text name="fh_help_spraying_03" text="Hoe de bescherming werkt" />
+        <text name="fh_help_spraying_05" text="Let op" />
+        <text name="fh_help_spraying_06" text="– Spuit na de opkomst – zaaien en oogsten verwijderen de bescherming.
+– Fungicide beschermt niet tegen plagen en insecticide niet tegen ziekten. Volledige bescherming vraagt allebei.
+– Gemiste spieën en kopakkers tellen mee: onder 90% bedekking kan een bedreiging op niet-bespoten stroken verschijnen.
+– De middelen bemesten niet en doden geen onkruid.
+– Met een kortere bescherming door spuiten (instelling) eindigt de bescherming van het hele veld zo lang na de laatste bespuiting." />
+        <text name="fh_help_map" text="Kaart en veldinfo" />
+        <text name="fh_help_map_01" text="Veldinfovenster" />
+        <text name="fh_help_map_02" text="Als je op een veld bent, toont het veldinfovenster:
+– Ziekte en Plagen: de actieve bedreiging en haar stadium (licht, matig, ernstig),
+– Ziekterisico en Plaagrisico: laag, normaal, verhoogd of hoog, en vanaf verhoogd ook de belangrijkste oorzaak,
+– Bescherming tegen ziekten en Bescherming tegen plagen: hoeveel van het veld bespoten is,
+– een tip welk middel de bedreiging bestrijdt." />
+        <text name="fh_help_map_03" text="Kaart" />
+        <text name="fh_help_map_04" text="Kies in ESC &gt; Kaart de pagina “Gewasbescherming”. Onder de titel wisselt een tweede keuzeschakelaar met pijlen tussen vijf lagen. Klik op een item van de legenda om het op de kaart te verbergen. Alleen velden van je boerderij met een groeiend gewas worden getoond. Klik op een perceel om de bedreigingen en de bescherming van de velden te zien." />
+        <text name="fh_help_map_06" text="Kleuren van de soorten bedreigingen" />
+        <text name="fh_help_map_08" text="Minikaart" />
+        <text name="fh_help_map_09" text="Linker Alt + \ wisselt de laag van de minikaart: bescherming, ziekten, plagen en geen laag. Je kunt de toetsen tijdens het spel veranderen in ESC &gt; Instellingen &gt; Besturing, item “Field Health – laag gewasbescherming op de minikaart” (het hoofdmenu toont geen toetsen van mods, omdat mods met de savegame worden geladen)." />
+        <text name="fh_help_pf" text="Precisielandbouw" />
+        <text name="fh_help_pf_01" text="Met Precisielandbouw werkt Field Health als uitbreiding ervan en gebruikt het de bodemkaarten. In plaats van bemesting in het algemeen telt de stikstof vergeleken met de streefwaarde, en in plaats van bekalking in het algemeen de pH van de bodem." />
+        <text name="fh_help_pf_03" text="De beste bescherming is hetzelfde werk dat je voor de opbrengst doet: bemesten tot de streefwaarde, bekalken tot de optimale pH en groenbemesters. Het consolecommando fhPrecisionFarming schrijft in het logboek hoe de mod de gegevens van Precisielandbouw leest." />
+        <text name="fh_help_settings" text="Instellingen" />
+        <text name="fh_help_settings_01" text="Je vindt de instellingen van de mod in ESC &gt; Instellingen &gt; Spel, in de sectie “Field Health – ziekten en plagen”. Ze worden met de savegame opgeslagen. In multiplayer kan alleen de beheerder van de server ze veranderen. Ga met de muis over een optie om de beschrijving te zien." />
+        <text name="fh_help_tips" text="Tips" />
+        <text name="fh_help_tips_01" text="Een plan voor gezonde velden" />
+        <text name="fh_help_tips_02" text="1. Bemest naar behoefte, bekalk en zaai niet twee jaar achter elkaar hetzelfde gewas. Zaai een groenbemester tussen de hoofdgewassen.
+2. Bespuit het veld vóór de belangrijkste maanden van de bedreigingen (pagina “Seizoenen en groeistadia”) met fungicide en insecticide. Eén keer per seizoen is genoeg als je minstens 90% van het veld bedekt.
+3. Controleer de laag “Bescherming” op de kaart – groene velden zijn beschermd tegen beide soorten bedreigingen.
+4. Bespuit na een melding het genoemde veld met het genoemde middel voordat de bedreiging het ernstige stadium bereikt.
+5. Een AI-helper met fungicide of insecticide bespuit onbeschermde velden volledig en beschermde alleen waar een bedreiging is." />
+        <text name="fh_help_tips_03" text="Let op" />
+        <text name="fh_help_tips_04" text="– Monocultuur en niet ploegen zijn de meest voorkomende oorzaken van een hoog risico, bijv. tarwe na tarwe zonder ploegen helpt septoria, DTR en fusarium.
+– Maïs vóór tarwe verhoogt het risico op fusarium duidelijk, grasland vóór aardappelen het risico op ritnaalden.
+– Drijfmest en vloeibare meststof geven weelderige groei, waar meeldauw, roesten en bladluizen van houden.
+– Een natte zomer is de tijd van Phytophthora, septoria en fusarium, een droge en hete die van bladluizen, coloradokevers, trips en aardrupsen.
+– Koolzaad heeft twee gevaarlijke periodes: de herfst (aardvlooien, koolzaadbladwesp, Phoma) en het voorjaar (stengelsnuitkevers, glanskevers, Sclerotinia).
+– Een bedreiging in het matige of ernstige stadium kan overslaan naar een aangrenzend veld van een speler." />
+        <text name="fh_help_admin" text="Voor de beheerder" />
+        <text name="fh_help_admin_01" text="Consolecommando's" />
+        <text name="fh_help_admin_03" text="Multiplayer, savegame en compatibiliteit" />
+        <text name="fh_help_admin_04" text="– De simulatie draait op de server en spelers zien de resultaten. De instellingen en de commando's fhSet, fhClear en fhDailyTick zijn alleen voor de beheerder.
+– Meldingen gaan naar de spelers van de boerderij die eigenaar is van het veld, elk in zijn eigen taal.
+– De mod slaat zijn gegevens alleen op in twee eigen bestanden in de map van de savegame: fieldHealth.xml en fieldHealthMap.grle. Hij kan veilig worden verwijderd – het spel slaat deze bestanden over, en alleen de flessen en jerrycans van de middelen verdwijnen van de kaart.
+– Savegames van een eerdere versie van de mod worden bij het laden naar het nieuwe formaat omgezet.
+– Uien van de Highlands Fishing Expansion en van mods worden automatisch herkend – het logboek meldt dat.
+– Gebruik niet tegelijk een andere mod voor gewasziekten (bijv. Crop Diseases) – Field Health waarschuwt daarvoor in het logboek." />
+        <text name="fh_help_admin_05" text="Credits" />
+        <text name="fh_help_admin_06" text="Field Health – auteur: MatrikSky. Idee geïnspireerd door de mod “Crop Diseases” van BMP. Het model van de fles is gebaseerd op “fertilizer Bottle” van shabanimate, het model van de jerrycan op “#6 Plastic Canister” van hoxsvl (beide CC BY 4.0, sketchfab.com)." />
+        <text name="fh_help_tableLanguage" text="en" />
+
+
+
+
+
+
+
+
+
+
+    </texts>
+</l10n>

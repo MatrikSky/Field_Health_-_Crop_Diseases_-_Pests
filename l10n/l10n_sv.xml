@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+    <texts>
+        <!-- Diseases (full and short name) -->
+        <text name="fh_disease_cereal_mildew" text="Mjöldagg i stråsäd" />
+        <text name="fh_disease_cereal_mildew_short" text="Mjöldagg" />
+        <text name="fh_disease_septoria" text="Svartpricksjuka" />
+        <text name="fh_disease_septoria_short" text="Septoria" />
+        <text name="fh_disease_brown_rust" text="Brunrost" />
+        <text name="fh_disease_brown_rust_short" text="Brunrost" />
+        <text name="fh_disease_fusarium" text="Fusarium" />
+        <text name="fh_disease_fusarium_short" text="Fusarium" />
+        <text name="fh_disease_net_blotch" text="Kornets bladfläcksjuka" />
+        <text name="fh_disease_net_blotch_short" text="Kornbladfläck" />
+        <text name="fh_disease_snow_mould" text="Snömögel" />
+        <text name="fh_disease_snow_mould_short" text="Snömögel" />
+        <text name="fh_disease_sclerotinia" text="Bomullsmögel" />
+        <text name="fh_disease_sclerotinia_short" text="Sclerotinia" />
+        <text name="fh_disease_alternaria" text="Alternaria" />
+        <text name="fh_disease_alternaria_short" text="Alternaria" />
+        <text name="fh_disease_late_blight" text="Potatisbladmögel" />
+        <text name="fh_disease_late_blight_short" text="Bladmögel" />
+        <text name="fh_disease_cercospora" text="Cercospora-bladfläck" />
+        <text name="fh_disease_cercospora_short" text="Cercospora" />
+        <text name="fh_disease_grey_mould" text="Gråmögel" />
+        <text name="fh_disease_grey_mould_short" text="Gråmögel" />
+        <text name="fh_disease_yellow_rust" text="Gulrost" />
+        <text name="fh_disease_yellow_rust_short" text="Gulrost" />
+        <text name="fh_disease_tan_spot" text="Vetets bladfläcksjuka" />
+        <text name="fh_disease_tan_spot_short" text="Vetebladfläck" />
+        <text name="fh_disease_eyespot" text="Stråknäckare" />
+        <text name="fh_disease_eyespot_short" text="Stråknäckare" />
+        <text name="fh_disease_rhynchosporium" text="Sköldfläcksjuka" />
+        <text name="fh_disease_rhynchosporium_short" text="Sköldfläck" />
+        <text name="fh_disease_ramularia" text="Ramularia-bladfläck" />
+        <text name="fh_disease_ramularia_short" text="Ramularia" />
+        <text name="fh_disease_stem_rust" text="Svartrost" />
+        <text name="fh_disease_stem_rust_short" text="Svartrost" />
+        <text name="fh_disease_phoma" text="Torrröta" />
+        <text name="fh_disease_phoma_short" text="Phoma" />
+        <text name="fh_disease_cylindrosporiosis" text="Ljus bladfläcksjuka" />
+        <text name="fh_disease_cylindrosporiosis_short" text="Ljus bladfläck" />
+        <text name="fh_disease_beet_mildew" text="Mjöldagg i betor" />
+        <text name="fh_disease_beet_mildew_short" text="Betmjöldagg" />
+        <text name="fh_disease_ascochyta" text="Ascochyta-fläcksjuka" />
+        <text name="fh_disease_ascochyta_short" text="Ascochyta" />
+        <text name="fh_disease_downy_mildew" text="Falsk mjöldagg" />
+        <text name="fh_disease_downy_mildew_short" text="Falsk mjöldagg" />
+        <text name="fh_disease_corn_leaf_blight" text="Majsbladfläck" />
+        <text name="fh_disease_corn_leaf_blight_short" text="Majsbladfläck" />
+        <text name="fh_disease_crown_rust" text="Kronrost på havre" />
+        <text name="fh_disease_crown_rust_short" text="Kronrost" />
+
+        <!-- Pests (full and short name) -->
+        <text name="fh_pest_aphids" text="Bladlöss" />
+        <text name="fh_pest_aphids_short" text="Bladlöss" />
+        <text name="fh_pest_leaf_beetle" text="Sädesbladbaggar" />
+        <text name="fh_pest_leaf_beetle_short" text="Sädesbladbaggar" />
+        <text name="fh_pest_pollen_beetle" text="Rapsbaggar" />
+        <text name="fh_pest_pollen_beetle_short" text="Rapsbaggar" />
+        <text name="fh_pest_potato_beetle" text="Koloradoskalbaggar" />
+        <text name="fh_pest_potato_beetle_short" text="Koloradobaggar" />
+        <text name="fh_pest_corn_borer" text="Majsmott" />
+        <text name="fh_pest_corn_borer_short" text="Majsmott" />
+        <text name="fh_pest_wireworm" text="Knäpparlarver" />
+        <text name="fh_pest_wireworm_short" text="Knäpparlarver" />
+        <text name="fh_pest_stem_weevil" text="Rapsstjälkvivlar" />
+        <text name="fh_pest_stem_weevil_short" text="Stjälkvivlar" />
+        <text name="fh_pest_seed_weevil" text="Blygrå rapsvivel" />
+        <text name="fh_pest_seed_weevil_short" text="Rapsvivel" />
+        <text name="fh_pest_flea_beetle" text="Jordloppor" />
+        <text name="fh_pest_flea_beetle_short" text="Jordloppor" />
+        <text name="fh_pest_turnip_sawfly" text="Rapsbladstekel" />
+        <text name="fh_pest_turnip_sawfly_short" text="Rapsbladstekel" />
+        <text name="fh_pest_frit_fly" text="Fritfluga" />
+        <text name="fh_pest_frit_fly_short" text="Fritfluga" />
+        <text name="fh_pest_wheat_midge" text="Vetemyggor" />
+        <text name="fh_pest_wheat_midge_short" text="Vetemyggor" />
+        <text name="fh_pest_cutworm" text="Jordflylarver" />
+        <text name="fh_pest_cutworm_short" text="Jordflylarver" />
+        <text name="fh_pest_beet_fly" text="Betfluga" />
+        <text name="fh_pest_beet_fly_short" text="Betfluga" />
+        <text name="fh_pest_onion_fly" text="Lökfluga" />
+        <text name="fh_pest_onion_fly_short" text="Lökfluga" />
+        <text name="fh_pest_thrips" text="Tripsar" />
+        <text name="fh_pest_thrips_short" text="Tripsar" />
+        <text name="fh_pest_carrot_fly" text="Morotsfluga" />
+        <text name="fh_pest_carrot_fly_short" text="Morotsfluga" />
+        <text name="fh_pest_pea_leaf_weevil" text="Ärtvivlar" />
+        <text name="fh_pest_pea_leaf_weevil_short" text="Ärtvivlar" />
+        <text name="fh_pest_rootworm" text="Västlig majsrotbagge" />
+        <text name="fh_pest_rootworm_short" text="Majsrotbagge" />
+        <text name="fh_pest_ground_beetle" text="Sädesjordlöpare" />
+        <text name="fh_pest_ground_beetle_short" text="Jordlöpare" />
+
+        <text name="fh_severity_low" text="lindrig" />
+        <text name="fh_severity_medium" text="måttlig" />
+        <text name="fh_severity_high" text="svår" />
+
+        <!-- Field info (short, so nothing gets cut off) -->
+        <text name="fh_hud_threats" text="Hot mot grödan" />
+        <text name="fh_hud_disease" text="Sjukdom" />
+        <text name="fh_hud_pest" text="Skadedjur" />
+        <text name="fh_hud_none" text="inga" />
+        <text name="fh_hud_diseaseRisk" text="Sjukdomsrisk" />
+        <text name="fh_hud_pestRisk" text="Skadedjursrisk" />
+        <text name="fh_hud_cause" text="Orsak" />
+        <text name="fh_hud_protection" text="Växtskydd" />
+        <text name="fh_hud_diseaseProtection" text="Sjukdomsskydd" />
+        <text name="fh_hud_pestProtection" text="Skadedjursskydd" />
+        <text name="fh_hud_protected" text="aktivt" />
+        <text name="fh_risk_low" text="låg" />
+        <text name="fh_risk_normal" text="normal" />
+        <text name="fh_risk_elevated" text="förhöjd" />
+        <text name="fh_risk_high" text="hög" />
+        <text name="fh_cause_fertilizer" text="ingen gödsling" />
+        <text name="fh_cause_manure" text="färsk naturgödsel" />
+        <text name="fh_cause_fastNitrogen" text="snabbt kväve" />
+        <text name="fh_cause_nitrogenDeficit" text="lite kväve" />
+        <text name="fh_cause_nitrogenExcess" text="för mycket kväve" />
+        <text name="fh_cause_lime" text="sur jord" />
+        <text name="fh_cause_lightSoil" text="lätt jord" />
+        <text name="fh_cause_heavySoil" text="styv jord" />
+        <text name="fh_cause_plowing" text="ingen plöjning" />
+        <text name="fh_cause_stubble" text="stubb" />
+        <text name="fh_cause_rolling" text="ingen vältning" />
+        <text name="fh_cause_weeds" text="ogräs" />
+        <text name="fh_cause_sameCrop" text="monokultur" />
+        <text name="fh_cause_cropFamily" text="närbesläktad gröda" />
+        <text name="fh_cause_previousCrop" text="dålig förfrukt" />
+        <text name="fh_hint_fungicide" text="Behandling: spruta svampmedel" />
+        <text name="fh_hint_insecticide" text="Behandling: spruta insektsmedel" />
+        <text name="fh_field_area" text="Fältets areal" />
+        <text name="fh_potential_harvest" text="Möjlig skörd" />
+        <text name="fh_potential_yield" text="Möjlig avkastning" />
+
+        <!-- Notifications: field number, crop, threat, spray -->
+        <text name="fh_alert_new" text="Fält %s (%s): nytt hot – %s. Spruta: %s." />
+        <text name="fh_alert_severe" text="Fält %s (%s): svårt hot – %s, grödan dör. Spruta: %s." />
+        <text name="fh_alert_neighbour" text="Fält %s (%s): %s – kom från ett grannfält. Spruta: %s." />
+
+        <!-- Map -->
+        <text name="fh_map_page" text="Växtskydd" />
+        <text name="fh_map_layerProtection" text="Skydd" />
+        <text name="fh_map_layerDiseases" text="Sjukdomar" />
+        <text name="fh_map_layerPests" text="Skadedjur" />
+        <text name="fh_map_layerDiseaseTypes" text="Typer av sjukdomar" />
+        <text name="fh_map_layerPestTypes" text="Typer av skadedjur" />
+        <text name="fh_map_notSprayed" text="Inte skyddat" />
+        <text name="fh_map_oneProduct" text="Ett medel" />
+        <text name="fh_map_bothProducts" text="Svamp- och insektsmedel" />
+        <text name="fh_map_healthy" text="Frisk gröda" />
+        <text name="fh_map_low" text="Lindrig" />
+        <text name="fh_map_medium" text="Måttlig" />
+        <text name="fh_map_high" text="Svår" />
+        <text name="fh_map_diseaseLabel" text="Sjukdom:" />
+        <text name="fh_map_pestLabel" text="Skadedjur:" />
+        <text name="fh_map_diseaseProtectionLabel" text="Sjukdomsskydd:" />
+        <text name="fh_map_pestProtectionLabel" text="Skadedjursskydd:" />
+        <text name="fh_map_protectedUntilHarvest" text="aktivt" />
+        <text name="input_FH_MINIMAP_LAYER" text="Field Health – växtskyddslager på minikartan" />
+
+        <!-- Settings -->
+        <text name="fh_config_brand" text="Märke" />
+        <text name="fh_settings_header" text="Field Health – sjukdomar och skadedjur" />
+        <text name="fh_setting_enabled" text="Hot mot grödan" />
+        <text name="fh_setting_enabled_desc" text="Moddens huvudbrytare. När den är avstängd uppstår inga nya sjukdomar eller skadedjur, och de befintliga slutar utvecklas och förstöra grödan. Besprutning fungerar fortfarande, så du kan ta bort det som finns kvar på dina fält." />
+        <text name="fh_setting_diseaseChance" text="Sjukdomschans per säsong" />
+        <text name="fh_setting_diseaseChance_desc" text="Grundchansen att ett normalt skött fält får en sjukdom under en säsong (från sådd till skörd). Den är bara en utgångspunkt: bra skötsel (naturgödsel, fånggrödor, växtföljd, rätt pH och kväve) sänker den, försummelse (ingen gödsling, monokultur, ingen plöjning, sur jord) höjer den flera gånger. Att spruta svampmedel innan en sjukdom syns sänker den till noll fram till skörd. 0 % stänger av sjukdomar." />
+        <text name="fh_setting_pestChance" text="Skadedjurschans per säsong" />
+        <text name="fh_setting_pestChance_desc" text="Grundchansen att skadedjur dyker upp på ett normalt skött fält under en säsong. Skötseln ändrar den: ogräs, monokultur och ingen plöjning höjer den, fånggrödor och växtföljd sänker den. Att spruta insektsmedel innan skadedjuren syns sänker den till noll fram till skörd. 0 % stänger av skadedjur." />
+        <text name="fh_setting_careInfluence" text="Skötselns inverkan" />
+        <text name="fh_setting_careInfluence_desc" text="Hur mycket ditt sätt att bruka jorden (gödsling, jordbearbetning, växtföljd, fånggrödor, ogräs, data från Precision Farming) ändrar grundchanserna. Ingen – bara grundchansen räknas, alla fält är lika. Låg – små skillnader. Normal (rekommenderas) – bra skötsel lönar sig tydligt. Hög – försummade fält blir sjuka mycket ofta, välskötta nästan aldrig." />
+        <text name="fh_setting_weatherInfluence" text="Vädrets inverkan" />
+        <text name="fh_setting_weatherInfluence_desc" text="Hur mycket vädret de senaste dagarna (temperatur och regn) ändrar chansen för hot. Svampsjukdomar trivs med regn och fukt, de flesta skadedjur med varmt och torrt väder, och varje hot har sitt eget temperaturintervall. Ingen – vädret räknas inte. Låg – små skillnader. Normal (rekommenderas) – tydliga skillnader. Hög – i gynnsamt väder dyker hoten upp mycket oftare, i ogynnsamt väder nästan aldrig." />
+        <text name="fh_setting_stubbleRisk" text="Risk från stubb" />
+        <text name="fh_setting_stubbleRisk_desc" text="Om stubb som inte har finfördelats efter skörd höjer risken (främst för majsmott och sjukdomar som överlever på skörderester). Det räknas bara efter en skörd på fältet och när fältet inte har plöjts. Körspår och stigar över fältet räknas aldrig som stubb. Av – stubb ändrar inte risken alls." />
+        <text name="fh_setting_fodderCrops" text="Hot på vallar och fodergrödor" />
+        <text name="fh_setting_fodderCrops_desc" text="Om ängar, gräs, klöver och lusern kan få sjukdomar och skadedjur. Av (rekommenderas) – dessa grödor får aldrig hot, och hot som redan finns försvinner nästa dag. På – klöver och lusern kan få bladlöss; ängar och gräs fortfarande aldrig." />
+        <text name="fh_setting_fieldInfo" text="Rader i fältinfo" />
+        <text name="fh_setting_fieldInfo_desc" text="Om fältinforutan visar fältets hot, risk och skydd. Av – rutan ser ut som utan modden; kartan och minikartan visar fortfarande fälten." />
+        <text name="fh_setting_progression" text="Hotens utveckling" />
+        <text name="fh_setting_progression_desc" text="Hur snabbt ett obehandlat hot når nästa stadium: lindrigt, sedan måttligt, sedan svårt. Långsam – varje spelmånad, Normal – varje halvmånad, Snabb – varje kvarts månad (minst en dag). Bara det svåra stadiet förstör grödan, så ett långsammare tempo ger dig mer tid att spruta." />
+        <text name="fh_setting_spread" text="Hotens spridning" />
+        <text name="fh_setting_spread_desc" text="Hur stor del av fältet ett obehandlat hot kan täcka. Liten – upp till 2,5 %, Medel – upp till 5 %, Stor – upp till 10 % av fältets areal. En härd växer ojämnt i kanten, och då och då dyker en ny, mindre härd upp bredvid – oftast på den sida som vinden blåser åt den dagen. Besprutning tar bort hotet helt." />
+        <text name="fh_setting_patchSize" text="Härdarnas storlek" />
+        <text name="fh_setting_patchSize_desc" text="Hur stora de härdar är där ett nytt hot dyker upp och växer. Varje härd har en oregelbunden form och en slumpmässig storlek – små är vanligare än stora. Små – härdar oftast 5–12 m i diameter, Normala – 8–20 m, Stora – 12–30 m. På små fält är härdarna alltid mindre." />
+        <text name="fh_setting_neighbourSpread" text="Spridning till grannfält" />
+        <text name="fh_setting_neighbourSpread_desc" text="Om ett hot i kanten av ett fält kan flytta över till ett angränsande fält som tillhör en spelare. Det händer bara när fälten möts eller skiljs åt av en mycket smal remsa, när det andra fältet har en gröda som hotet angriper i rätt utvecklingsstadium och när det andra fältet inte är besprutat. Skadedjur flyttar oftare än sjukdomar, och först från det måttliga stadiet. NPC-fält drabbas aldrig. Av, Sällan, Ibland, Ofta – ingen, halv, normal och dubbel chans." />
+        <text name="fh_setting_damage" text="Skador på grödan" />
+        <text name="fh_setting_damage_desc" text="Hur mycket gröda ett svårt hot förstör varje dag. Förstörda ställen ger ingenting vid skörd. Av – hoten syns bara, skörden förblir densamma. Låga, Normala, Höga – 1, 3 eller 6 fläckar på några meter per dag, alltid bara inom det angripna området." />
+        <text name="fh_setting_protectionThreshold" text="Täckning för fullt skydd" />
+        <text name="fh_setting_protectionThreshold_desc" text="Hur stor del av ett fält som måste besprutas för att hela fältet ska vara skyddat mot den typen av hot (sjukdomar eller skadedjur). Med mindre täckning kan ett hot fortfarande dyka upp, men bara på de obesprutade delarna – besprutade ställen är alltid skyddade. Standard 90 %. En lägre gräns förlåter missade hörn och kilar, en högre kräver noggrann besprutning." />
+        <text name="fh_setting_protectionDuration" text="Skydd från besprutning" />
+        <text name="fh_setting_protectionDuration_desc" text="Hur länge svampmedel och insektsmedel skyddar ett fält. Fram till skörd – en besprutning med varje medel skyddar fältet hela säsongen (enklast). 2 månader, 1 månad, En halv månad – skyddet upphör så länge efter fältets senaste besprutning och du måste spruta igen, som på en riktig gård." />
+        <text name="fh_setting_fungicideUsage" text="Dos svampmedel" />
+        <text name="fh_setting_fungicideUsage_desc" text="Hur mycket svampmedel en spruta använder per hektar. 100 % är cirka 290 liter sprutvätska per hektar (samma som ogräsmedel), vilket är en flaska på 1 l per hektar. En lägre dos gör besprutningen billigare med färre påfyllningar, en högre gör den dyrare. Effekten av besprutningen är alltid densamma. Ändringen gäller direkt, även under arbetet." />
+        <text name="fh_setting_insecticideUsage" text="Dos insektsmedel" />
+        <text name="fh_setting_insecticideUsage_desc" text="Hur mycket insektsmedel en spruta använder per hektar. 100 % är cirka 290 liter sprutvätska per hektar (samma som ogräsmedel), vilket är en flaska på 1 l per 5 hektar. En lägre dos gör besprutningen billigare med färre påfyllningar, en högre gör den dyrare. Effekten av besprutningen är alltid densamma. Ändringen gäller direkt, även under arbetet." />
+        <text name="fh_setting_fungicidePrice" text="Pris för flaska svampmedel" />
+        <text name="fh_setting_fungicidePrice_desc" text="Butikspriset för en flaska svampmedel på 1 l. En flaska räcker till 1 hektar (290 l sprutvätska). Standard 50. Spelet räknar om valutor 1:1. Priset per liter sprutvätska följer detta pris, t.ex. när vätskan köps vid en station. Ändringen gäller direkt i butiken." />
+        <text name="fh_setting_insecticidePrice" text="Pris för flaska insektsmedel" />
+        <text name="fh_setting_insecticidePrice_desc" text="Butikspriset för en flaska insektsmedel på 1 l. En flaska räcker till 5 hektar (1 450 l sprutvätska). Standard 80. Spelet räknar om valutor 1:1. Priset per liter sprutvätska följer detta pris, t.ex. när vätskan köps vid en station. Ändringen gäller direkt i butiken." />
+        <text name="fh_setting_fungicideCanisterPrice" text="Pris för dunk svampmedel 5 l" />
+        <text name="fh_setting_fungicideCanisterPrice_desc" text="Butikspriset för en dunk svampmedel på 5 l. En dunk räcker till 5 hektar (1 450 l sprutvätska). Standard 220, billigare per liter än fem flaskor på 1 l, som hos en riktig återförsäljare. Spelet räknar om valutor 1:1. Ändringen gäller direkt i butiken." />
+        <text name="fh_setting_insecticideCanisterPrice" text="Pris för dunk insektsmedel 5 l" />
+        <text name="fh_setting_insecticideCanisterPrice_desc" text="Butikspriset för en dunk insektsmedel på 5 l. En dunk räcker till 25 hektar (7 250 l sprutvätska). Standard 350, billigare per liter än fem flaskor på 1 l, som hos en riktig återförsäljare. Spelet räknar om valutor 1:1. Ändringen gäller direkt i butiken." />
+        <text name="fh_setting_fungicideCanister20Price" text="Pris för dunk svampmedel 20 l" />
+        <text name="fh_setting_fungicideCanister20Price_desc" text="Butikspriset för en dunk svampmedel på 20 l. En dunk räcker till 20 hektar (5 800 l sprutvätska). Standard 800, den billigaste per liter av alla förpackningar. Spelet räknar om valutor 1:1. Ändringen gäller direkt i butiken." />
+        <text name="fh_setting_insecticideCanister20Price" text="Pris för dunk insektsmedel 20 l" />
+        <text name="fh_setting_insecticideCanister20Price_desc" text="Butikspriset för en dunk insektsmedel på 20 l. En dunk räcker till 100 hektar (29 000 l sprutvätska). Standard 1200, den billigaste per liter av alla förpackningar. Spelet räknar om valutor 1:1. Ändringen gäller direkt i butiken." />
+        <text name="fh_setting_farmLimit" text="Gräns för hot per gård" />
+        <text name="fh_setting_farmLimit_desc" text="Högsta antal nya hot på alla din gårds fält per spelår. Obegränsat – varje fält har sin egen chans. Ställ in till exempel 1 eller 2 om du har många fält och vill att sjukdomar och skadedjur ska vara sällsynta." />
+        <text name="fh_setting_notifications" text="Aviseringar om hot" />
+        <text name="fh_setting_notifications_desc" text="Visar ett meddelande när en sjukdom eller skadedjur dyker upp på ditt fält och när ett hot blir svårt och börjar förstöra grödan. Meddelandet nämner fältet, grödan, hotet och medlet att spruta." />
+        <text name="fh_set_on" text="På" />
+        <text name="fh_set_off" text="Av" />
+        <text name="fh_set_none" text="Ingen" />
+        <text name="fh_set_low" text="Låg" />
+        <text name="fh_set_normal" text="Normal" />
+        <text name="fh_set_high" text="Hög" />
+        <text name="fh_set_slow" text="Långsam" />
+        <text name="fh_set_normalPace" text="Normal" />
+        <text name="fh_set_fast" text="Snabb" />
+        <text name="fh_set_small" text="Liten" />
+        <text name="fh_set_medium" text="Medel" />
+        <text name="fh_set_large" text="Stor" />
+        <text name="fh_set_damageLow" text="Låga" />
+        <text name="fh_set_damageNormal" text="Normala" />
+        <text name="fh_set_damageHigh" text="Höga" />
+        <text name="fh_set_untilHarvest" text="Fram till skörd" />
+        <text name="fh_set_twoMonths" text="2 månader" />
+        <text name="fh_set_oneMonth" text="1 månad" />
+        <text name="fh_set_halfMonth" text="En halv månad" />
+        <text name="fh_set_unlimited" text="Obegränsat" />
+        <text name="fh_set_patchSmall" text="Små" />
+        <text name="fh_set_patchNormal" text="Normala" />
+        <text name="fh_set_patchLarge" text="Stora" />
+        <text name="fh_set_rarely" text="Sällan" />
+        <text name="fh_set_sometimes" text="Ibland" />
+        <text name="fh_set_often" text="Ofta" />
+
+        <!-- Shop -->
+        <text name="fh_fillType_insecticide" text="Insektsmedel" />
+        <text name="fh_fillType_fungicide" text="Svampmedel" />
+        <text name="fh_store_fungicideBottle" text="Svampmedel 1 l" />
+        <text name="fh_store_insecticideBottle" text="Insektsmedel 1 l" />
+        <text name="fh_store_fungicideCanister" text="Svampmedel 5 l" />
+        <text name="fh_store_insecticideCanister" text="Insektsmedel 5 l" />
+        <text name="fh_store_fungicideCanister20" text="Svampmedel 20 l" />
+        <text name="fh_store_insecticideCanister20" text="Insektsmedel 20 l" />
+        <text name="fh_function_fungicideBottle" text="Flaska med 1 l koncentrat, dos 1 l/ha. Räcker till 1 ha, vilket är 290 l sprutvätska. Skyddar grödor mot alla sjukdomar. Ställ den bredvid en spruta och fyll sprutan från den." />
+        <text name="fh_function_insecticideBottle" text="Flaska med 1 l koncentrat, dos 0,2 l/ha. Räcker till 5 ha, vilket är 1 450 l sprutvätska. Skyddar grödor mot skadedjur: bladlöss, sädesbladbaggar, rapsbaggar, koloradoskalbaggar, majsmott och knäpparlarver. Ställ den bredvid en spruta och fyll sprutan från den." />
+        <text name="fh_function_fungicideCanister" text="Dunk med 5 l koncentrat, dos 1 l/ha. Räcker till 5 ha, vilket är 1 450 l sprutvätska. Skyddar grödor mot alla sjukdomar. Billigare per liter än flaskorna på 1 l. Ställ den bredvid en spruta och fyll sprutan från den." />
+        <text name="fh_function_insecticideCanister" text="Dunk med 5 l koncentrat, dos 0,2 l/ha. Räcker till 25 ha, vilket är 7 250 l sprutvätska. Skyddar grödor mot skadedjur. Billigare per liter än flaskorna på 1 l. Ställ den bredvid en spruta och fyll sprutan från den." />
+        <text name="fh_function_fungicideCanister20" text="Dunk med 20 l koncentrat, dos 1 l/ha. Räcker till 20 ha, vilket är 5 800 l sprutvätska. Skyddar grödor mot alla sjukdomar. Billigast per liter, för stora gårdar. Ställ den bredvid en spruta och fyll sprutan från den." />
+        <text name="fh_function_insecticideCanister20" text="Dunk med 20 l koncentrat, dos 0,2 l/ha. Räcker till 100 ha, vilket är 29 000 l sprutvätska. Skyddar grödor mot skadedjur. Billigast per liter, för stora gårdar. Ställ den bredvid en spruta och fyll sprutan från den." />
+
+        <!-- Help (ESC → Help) -->
+        <text name="fh_help_header" text="Field Health – sjukdomar och skadedjur" />
+
+        <text name="fh_help_intro" text="Introduktion" />
+        <text name="fh_help_intro_01" text="Om modden" />
+        <text name="fh_help_intro_02" text="Field Health för in de växtsjukdomar och skadedjur som lantbrukare i Polen hanterar varje dag i spelet. De dyker upp på din gårds fält under säsongen, utvecklas och förstör – om du inte bekämpar dem – en del av grödan. Två medel från butiken bekämpar dem: svampmedel mot sjukdomar och insektsmedel mot skadedjur.
+Modden är realistisk men förlåtande för avslappnat spelande: ett hot täcker aldrig hela fältet, grödan förstörs bara i det svåraste stadiet, och en välgjord besprutning med varje medel skyddar fältet till säsongens slut." />
+        <text name="fh_help_intro_03" text="Säsongen steg för steg" />
+        <text name="fh_help_intro_04" text="1. Sådden startar grödans säsong. Från den dagen växer smittrycket på fältet – snabbast under den tid på året och i det utvecklingsstadium då ett hot angriper, i väder som passar det och på ett försummat fält.
+2. När trycket passerar den gräns som lottats för fältet dyker en härd av en sjukdom eller skadedjur upp. Du får en avisering med fältets nummer och medlet att spruta.
+3. Ett obehandlat hot blir ett stadium värre varje halvmånad och sprider sig långsamt. I det svåra stadiet förstör det gröda i små fläckar varje dag.
+4. Besprutning tar bort hotet och skyddar de besprutade ställena. Ett fält som besprutats nästan helt är immunt mot den typen av hot fram till skörd.
+5. Skörden avslutar säsongen: hot och skydd försvinner, och den skördade grödan blir förfrukt till nästa." />
+        <text name="fh_help_intro_05" text="Viktiga siffror" />
+        <text name="fh_help_intro_06" text="Standardvärden. Administratören kan ändra vart och ett av dem i inställningarna (sista kolumnen)." />
+        <text name="fh_help_intro_08" text="Var du kontrollerar dina fält" />
+        <text name="fh_help_intro_09" text="– Fältinforutan (när du står på ett fält): hot med deras stadium, risken och dess huvudorsak, fältets skydd.
+– Karta (ESC &gt; Karta &gt; Växtskydd): fem lager – skydd, sjukdomar, skadedjur, typer av sjukdomar och typer av skadedjur.
+– Minikarta: byt lager med vänster Alt + \.
+– Aviseringar: om ett nytt hot, om det svåra stadiet och om ett hot som kom från ett grannfält." />
+        <text name="fh_help_origin" text="Var hoten kommer ifrån" />
+        <text name="fh_help_origin_01" text="Varje spelarfält med en växande gröda kan få högst en sjukdom och en sorts skadedjur per säsong. NPC-fält, poppel och fånggrödor får aldrig hot; ängar, gräs, klöver och lusern bara när det är påslaget i inställningarna.
+Ett hot dyker inte upp en slumpmässig dag. Varje dag räknar modden ut smittrycket på fältet och lägger det till summan av dagarna innan. I början av säsongen får fältet en slumpmässig motståndsgräns – när summan av trycket passerar den blir fältet smittat. Därför dyker ett hot upp tidigt en säsong, sent en annan och inte alls en tredje." />
+        <text name="fh_help_origin_02" text="Vad som driver trycket" />
+        <text name="fh_help_origin_03" text="1. Grundchansen från inställningarna – som standard 15 % för en sjukdom och 10 % för skadedjur över en säsong.
+2. Fältets risk, alltså hur du brukar det: gödsling, jordbearbetning, växtföljd och ogräs (sidan ”Hur du brukar jorden”).
+3. Hur vanligt hotet är i Polen – vanliga sjukdomar och skadedjur dyker upp mycket oftare än sällsynta (sidorna ”Sjukdomar” och ”Skadedjur”).
+4. Tiden på året och utvecklingsstadiet – utanför sin tid angriper ett hot inte alls (sidan ”Årstider och utvecklingsstadier”).
+5. Vädret de senaste dagarna – regn hjälper svampsjukdomar, värme och torka hjälper de flesta skadedjur (sidan ”Väder”)." />
+        <text name="fh_help_origin_04" text="Chans per säsong" />
+        <text name="fh_help_origin_05" text="Så här ändrar fältets risk chansen för ett hot under hela säsongen med standardinställningarna:" />
+        <text name="fh_help_origin_07" text="Tabellen gäller en gröda med ett genomsnittligt antal hot som växer under hela deras tid. Grödor som angrips av många vanliga sjukdomar eller skadedjur får dem oftare (upp till 1,4 gånger), grödor med få hot mer sällan (ner till 0,5 gånger):" />
+        <text name="fh_help_origin_09" text="Vilket hot som dyker upp" />
+        <text name="fh_help_origin_10" text="När en smitta sker väljer modden ett av de hot som kan angripa grödan den dagen. Chansen för vart och ett står i proportion till dess tryck den dagen: hur vanligt det är gånger fältets risk, tiden på året och vädret. Exempel: på vete i maj i regnigt väder dyker svartpricksjuka eller mjöldagg upp oftast, medan svartrost, som är sällsynt och gillar värme, nästan aldrig gör det." />
+        <text name="fh_help_origin_11" text="Besprutning före smittan" />
+        <text name="fh_help_origin_12" text="Om fältet i smittögonblicket är besprutat med rätt medel på minst 90 % av sin areal misslyckas smittan och fältet får inget hot av den typen den här säsongen. Med mindre täckning kan hotet dyka upp, men bara på de delar som inte besprutades." />
+        <text name="fh_help_timing" text="Årstider och utvecklingsstadier" />
+        <text name="fh_help_timing_01" text="Varje sjukdom och varje skadedjur har sin tid: det angriper bara vissa månader och bara i vissa av grödans utvecklingsstadier. Inom den tiden har det en topp, då det är som farligast. Utanför sin tid dyker ett hot inte upp alls – det kan inte heller komma från ett grannfält." />
+        <text name="fh_help_timing_02" text="Utvecklingsstadier" />
+        <text name="fh_help_timing_04" text="Modden läser av stadiet från grödans tillväxtstadium i spelet: de första 20 % av tillväxttiden är uppkomst, upp till 45 % bladutveckling och bestockning, upp till 70 % stråskjutning eller knoppbildning, därefter axgång och blomning, och en gröda som är redo att skördas är mogen. Månaderna följer spelets kalender (årets första period är mars), så antalet dagar per period ändrar inte när hoten angriper." />
+        <text name="fh_help_timing_05" text="Kalender – när du ska vara försiktig" />
+        <text name="fh_help_timing_06" text="Huvudmånaderna är de månader då trycket från gruppen av hot på grödan är högst. Besprutning strax före dem förhindrar de flesta smittor." />
+        <text name="fh_help_farming" text="Hur du brukar jorden" />
+        <text name="fh_help_farming_01" text="Fältets risk är en multiplikator för smittrycket som kommer av hur du brukar fältet. Modden räknar ut den för varje hot för sig; fältinforutan visar den högsta sjukdoms- och skadedjursrisken och huvudorsaken. Multiplikatorerna i tabellerna multipliceras med varandra, och resultatet stannar alltid mellan 0,3 och 5." />
+        <text name="fh_help_farming_03" text="Gödsling" />
+        <text name="fh_help_farming_05" text="Jordbearbetning och ogräs" />
+        <text name="fh_help_farming_07" text="Värdena gäller ett helt försummat fält – delvis försummelse höjer risken i proportion. Bara fältarbete som är påslaget i spelinställningarna räknas: utan krav på plöjning ändrar utebliven plöjning ingenting. Modden kontrollerar fältet i 36 punkter och bara där grödan växer, så körspår och stigar över fältet räknas inte som försummelse. Stubb och vältning räknas som saknade först när tre fjärdedelar av fältet saknar dem. Stubb räknas bara efter en skörd på det här fältet och inte efter plöjning (inställningen ”Risk från stubb” stänger av det helt). I FS25 växer inget ogräs efter plöjning." />
+        <text name="fh_help_farming_08" text="Växtföljd och fånggrödor" />
+        <text name="fh_help_farming_10" text="Inställningen ”Skötselns inverkan” förstärker eller försvagar alla dessa faktorer på en gång. Ingen – varje fält har risk 1. Låg – skillnaderna är ungefär hälften så stora. Normal – som i tabellerna. Hög – skillnaderna är en och en halv gång så stora." />
+        <text name="fh_help_weather" text="Väder" />
+        <text name="fh_help_weather_01" text="Varje timme i spelet läser modden av temperaturen och om det regnar. I slutet av dagen räknar den ut dagens medeltemperatur och andelen timmar med regn. Fukten har ett minne: hälften kommer från den senaste dagen och hälften från dagarna innan, eftersom bladen förblir våta länge efter regn. Varje hot har en väderprofil – ett temperaturintervall och hur det hanterar regn." />
+        <text name="fh_help_weather_03" text="En temperatur utanför intervallet sänker trycket till 0,4 gånger, en temperatur i optimum höjer det till 1,2 gånger. Regn ändrar trycket från 0,4 till 1,8 gånger – uppåt för hot som gillar fukt, nedåt för dem som gillar torka. Tillsammans ändrar vädret trycket från 0,2 till 2,5 gånger. Exempel på multiplikatorer efter några dagar med sådant väder (röd – hotet växer, grön – det minskar):" />
+        <text name="fh_help_weather_05" text="Inställningen ”Vädrets inverkan”: Ingen – vädret räknas inte, Låg – mildare multiplikatorer, Normal – som i tabellen, Hög – kraftigare. Efter några varma, regniga dagar på sommaren ska du särskilt hålla ögonen på potatis och stråsäd i axgång, och under en torr, het sommar på skadedjur." />
+        <text name="fh_help_diseases" text="Sjukdomar" />
+        <text name="fh_help_diseases_01" text="Svampmedel bekämpar alla sjukdomar. Tabellerna visar hur vanlig en sjukdom är i Polen, vilka grödor den angriper, vilka månader den dyker upp och när den är som värst, i vilket utvecklingsstadium den gör mest skada och vad som hjälper den." />
+        <text name="fh_help_diseases_03" text="Stråsäd och majs" />
+        <text name="fh_help_diseases_05" text="Andra grödor" />
+        <text name="fh_help_diseases_07" text="Grödor från kartor som modden inte känner till kan få gråmögel och bladlöss. Lök från Highlands Fishing Expansion och från moddar känns igen automatiskt." />
+        <text name="fh_help_pests" text="Skadedjur" />
+        <text name="fh_help_pests_01" text="Insektsmedel bekämpar alla skadedjur. Tabellernas kolumner betyder samma sak som på sidan ”Sjukdomar”." />
+        <text name="fh_help_pests_02" text="Stråsäd och majs" />
+        <text name="fh_help_pests_04" text="Andra grödor" />
+        <text name="fh_help_progress" text="Hur ett hot utvecklas" />
+        <text name="fh_help_progress_01" text="Ett nytt hot är en eller två oregelbundna härdar med fransig kant och friska luckor inuti. Det börjar i det lindriga stadiet. Om du inte bekämpar det går det igenom dessa steg:" />
+        <text name="fh_help_progress_03" text="Förstörd gröda växer inte tillbaka och ger ingenting vid skörd. Att spruta i förväg eller direkt efter aviseringen är därför billigast. Besprutning i vilket stadium som helst tar bort hotet helt från de besprutade ställena." />
+        <text name="fh_help_spraying" text="Besprutning och skydd" />
+        <text name="fh_help_spraying_01" text="Medlen tillverkas av det polska företaget Opryskex: svampmedlet Grzybobój 250 EC (grön etikett) och insektsmedlet Robalex 100 CS (röd etikett). När du köper kan du i stället välja märket MST (Mafia Solec Team): Solectop 280 SC och Mafiozol 50 EW. De verkar likadant, bara etiketten skiljer sig. Du köper dem i butiken i flaskor på 1 l och dunkar på 5 l och 20 l. Ställ förpackningen bredvid sprutan och fyll den som från en pall. Spelet blandar inte koncentratet med vatten, så innehållet i en förpackning är all sprutvätska den ger. Ju större förpackning, desto billigare per hektar." />
+        <text name="fh_help_spraying_03" text="Hur skyddet fungerar" />
+        <text name="fh_help_spraying_05" text="Se upp" />
+        <text name="fh_help_spraying_06" text="– Spruta efter uppkomst – sådd och skörd tar bort skyddet.
+– Svampmedel skyddar inte mot skadedjur och insektsmedel inte mot sjukdomar. Fullt skydd kräver båda.
+– Missade kilar och vändtegar räknas: under 90 % täckning kan ett hot dyka upp på obesprutade remsor.
+– Medlen gödslar inte och dödar inte ogräs.
+– Med ett kortare skydd från besprutning (inställning) upphör hela fältets skydd så länge efter den senaste besprutningen." />
+        <text name="fh_help_map" text="Karta och fältinfo" />
+        <text name="fh_help_map_01" text="Fältinforutan" />
+        <text name="fh_help_map_02" text="När du står på ett fält visar fältinforutan:
+– Sjukdom och Skadedjur: det aktiva hotet och dess stadium (lindrig, måttlig, svår),
+– Sjukdomsrisk och Skadedjursrisk: låg, normal, förhöjd eller hög, och från förhöjd även huvudorsaken,
+– Sjukdomsskydd och Skadedjursskydd: hur stor del av fältet som är besprutad,
+– ett tips om vilket medel som bekämpar hotet." />
+        <text name="fh_help_map_03" text="Karta" />
+        <text name="fh_help_map_04" text="Välj sidan ”Växtskydd” i ESC &gt; Karta. Under dess rubrik byter en andra väljare med pilar mellan fem lager. Ett klick på en post i teckenförklaringen döljer den på kartan. Bara din gårds fält med en växande gröda visas. Klicka på ett markområde för att se hoten och skyddet på dess fält." />
+        <text name="fh_help_map_06" text="Färger för typerna av hot" />
+        <text name="fh_help_map_08" text="Minikarta" />
+        <text name="fh_help_map_09" text="Vänster Alt + \ byter minikartans lager: skydd, sjukdomar, skadedjur och inget lager. Du kan ändra tangenterna under spelet i ESC &gt; Inställningar &gt; Kontroller, posten ”Field Health – växtskyddslager på minikartan” (huvudmenyn visar inte moddarnas tangenter, eftersom moddar laddas med sparfilen)." />
+        <text name="fh_help_pf" text="Precision Farming" />
+        <text name="fh_help_pf_01" text="Med Precision Farming fungerar Field Health som ett tillägg till det och använder dess jordkartor. I stället för gödsling i allmänhet räknas kvävet jämfört med målet, och i stället för kalkning i allmänhet jordens pH." />
+        <text name="fh_help_pf_03" text="Det bästa skyddet är samma arbete som du gör för skörden: gödsling till målet, kalkning till optimalt pH och fånggrödor. Konsolkommandot fhPrecisionFarming skriver i loggen hur modden läser data från Precision Farming." />
+        <text name="fh_help_settings" text="Inställningar" />
+        <text name="fh_help_settings_01" text="Du hittar moddens inställningar i ESC &gt; Inställningar &gt; Spel, i avsnittet ”Field Health – sjukdomar och skadedjur”. De sparas med sparfilen. I flerspelarläge kan bara serverns administratör ändra dem. För markören över ett alternativ för att se dess beskrivning." />
+        <text name="fh_help_tips" text="Tips" />
+        <text name="fh_help_tips_01" text="En plan för friska fält" />
+        <text name="fh_help_tips_02" text="1. Gödsla efter behov, kalka och så inte samma gröda två år i rad. Så en fånggröda mellan huvudgrödorna.
+2. Spruta fältet med svampmedel och insektsmedel före hotens huvudmånader (sidan ”Årstider och utvecklingsstadier”). En gång per säsong räcker om du täcker minst 90 % av fältet.
+3. Kontrollera lagret ”Skydd” på kartan – gröna fält är skyddade mot båda typerna av hot.
+4. Spruta efter en avisering det nämnda fältet med det nämnda medlet innan hotet når det svåra stadiet.
+5. En AI-arbetare med svampmedel eller insektsmedel besprutar oskyddade fält helt och skyddade bara där det finns ett hot." />
+        <text name="fh_help_tips_03" text="Se upp" />
+        <text name="fh_help_tips_04" text="– Monokultur och ingen plöjning är de vanligaste orsakerna till hög risk, t.ex. vete efter vete utan plöjning hjälper svartpricksjuka, vetets bladfläcksjuka och fusarium.
+– Majs före vete höjer tydligt risken för fusarium, vall före potatis risken för knäpparlarver.
+– Flytgödsel och flytande gödsel ger frodig tillväxt, som mjöldagg, rost och bladlöss gillar.
+– En regnig sommar är tiden för bladmögel, svartpricksjuka och fusarium, en torr och het tiden för bladlöss, koloradoskalbaggar, tripsar och jordflylarver.
+– Raps har två farliga perioder: hösten (jordloppor, rapsbladstekel, torrröta) och våren (stjälkvivlar, rapsbaggar, bomullsmögel).
+– Ett hot i det måttliga eller svåra stadiet kan flytta över till ett angränsande spelarfält." />
+        <text name="fh_help_admin" text="För administratören" />
+        <text name="fh_help_admin_01" text="Konsolkommandon" />
+        <text name="fh_help_admin_03" text="Flerspelarläge, sparfiler och kompatibilitet" />
+        <text name="fh_help_admin_04" text="– Simuleringen körs på servern och spelarna ser resultaten. Inställningarna och kommandona fhSet, fhClear och fhDailyTick är bara för administratören.
+– Aviseringar går till spelarna på den gård som äger fältet, var och en på sitt eget språk.
+– Modden sparar sina data bara i två egna filer i sparfilens mapp: fieldHealth.xml och fieldHealthMap.grle. Den kan tas bort säkert – spelet hoppar över dessa filer, och bara medlens flaskor och dunkar försvinner från kartan.
+– Sparfiler från en tidigare version av modden konverteras till det nya formatet när de laddas.
+– Lök från Highlands Fishing Expansion och från moddar känns igen automatiskt – loggen säger det.
+– Använd inte en annan modd för växtsjukdomar (t.ex. Crop Diseases) samtidigt – Field Health varnar för det i loggen." />
+        <text name="fh_help_admin_05" text="Tack till" />
+        <text name="fh_help_admin_06" text="Field Health – upphovsperson: MatrikSky. Idén är inspirerad av modden ”Crop Diseases” av BMP. Flaskmodellen bygger på ”fertilizer Bottle” av shabanimate, dunkmodellen på ”#6 Plastic Canister” av hoxsvl (båda CC BY 4.0, sketchfab.com)." />
+        <text name="fh_help_tableLanguage" text="en" />
+
+
+
+
+
+
+
+
+
+
+    </texts>
+</l10n>

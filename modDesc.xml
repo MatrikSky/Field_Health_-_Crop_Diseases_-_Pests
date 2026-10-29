@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <modDesc descVersion="104">
     <author>MatrikSky</author>
-    <version>1.1.0.0</version>
+    <version>1.2.0.0</version>
     <title>
         <en>Field Health: Crop Diseases &amp; Pests</en>
         <pl>Zdrowie pól: choroby i szkodniki upraw</pl>
@@ -16,6 +16,13 @@
         <cz>Field Health: choroby a škůdci plodin</cz>
         <ro>Field Health: boli și dăunători ai culturilor</ro>
         <hu>Field Health: növénybetegségek és kártevők</hu>
+        <uk>Field Health: хвороби та шкідники посівів</uk>
+        <tr>Field Health: ürün hastalıkları ve zararlıları</tr>
+        <nl>Field Health: gewasziekten en plagen</nl>
+        <da>Field Health: plantesygdomme og skadedyr</da>
+        <sv>Field Health: växtsjukdomar och skadedjur</sv>
+        <no>Field Health: plantesykdommer og skadedyr</no>
+        <fi>Field Health: kasvitaudit ja tuholaiset</fi>
     </title>
     <description>
         <en><![CDATA[Field Health brings crop diseases and pests common in Poland to your fields – realistic, but friendly to casual play.
@@ -161,6 +168,83 @@ A károsítók szabálytalan gócokban jelennek meg, egyenetlenül terjednek, cs
 25 beállítás (esélyek, a gazdálkodás, az időjárás és a tarló hatása, rétek és takarmánynövények, lefolyás, gócméret, kár az állományban, a védelem időtartama és a dózisok, árak...), többjátékos támogatás, részletes útmutató a játék súgójában (ESC > Súgó). A mod csak saját fájlokat tesz a mentésbe, ezért bármikor eltávolítható.
 
 Az ötlet a BMP „Crop Diseases” nevű modjából származik. A flakon modellje shabanimate „fertilizer Bottle” modelljén, a kannáé hoxsvl „#6 Plastic Canister” modelljén alapul (mindkettő CC BY 4.0, sketchfab.com).]]></hu>
+        <uk><![CDATA[Field Health додає на ваші поля хвороби та шкідників посівів, поширені в Польщі, – реалістично, але дружньо до спокійної гри.
+
+44 загрози прив’язані до культур, які вони справді атакують, – 24 хвороби, з якими бореться фунгіцид (напр. борошниста роса зернових, септоріоз, бура та жовта іржа, фузаріоз, церкоспорельоз, сітчаста плямистість ячменю, фомоз, біла гниль, фітофтороз, церкоспороз буряку, несправжня борошниста роса цибулі), і 20 шкідників, з якими бореться інсектицид (напр. попелиці, п’явиці, ріпаковий квіткоїд, стеблові прихованохоботники, земляні блішки, колорадський жук, кукурудзяний метелик, цибулева муха, морквяна муха). Кожна атакує лише у свої місяці та стадії розвитку і найнебезпечніша у свій типовий час; поширені загрози з’являються набагато частіше за рідкісні, як-от стеблова іржа чи західний кукурудзяний жук.
+
+Навіть добре доглянуте поле може захворіти (типово 15 % для хвороб і 10 % для шкідників за сезон), тож фунгіцид та інсектицид потрібні. Має значення погода останніх днів: грибкові хвороби люблять дощ, більшість шкідників – теплі й сухі дні. Спосіб господарювання змінює ризик: гній і проміжні культури його знижують; гнойова жижа та рідкий азот сприяють борошнистій росі, іржі та попелицям; кукурудза перед пшеницею підвищує ризик фузаріозу, луки перед картоплею – дротяників; відсутність оранки, вапнування, подрібнення стерні, сівозміни чи боротьби з бур’янами теж його підвищують. З Precision Farming мод використовує азот, pH і тип ґрунту з його мап.
+
+Загрози з’являються нерівними осередками, ростуть нерівномірно, нищать посіви лише в сильній стадії й зрідка переходять на суміжне сусіднє поле. Обприскування прибирає їх і захищає поле до збирання. Фунгіцид та інсектицид продаються в пляшках 1 л і каністрах 5 л та 20 л. Сторінка мапи «Захист рослин» (п’ять шарів) і мінімапа (LAlt + \) показують захист, хвороби та шкідників на ваших полях, а панель інформації про поле – загрози, ризик і його причину.
+
+25 налаштувань (шанси, вплив догляду, погоди й стерні, луки та кормові культури, темп розвитку, розмір осередків, пошкодження посівів, тривалість захисту й норми, ціни...), підтримка мережевої гри, докладний посібник у довідці гри (ESC > Довідка). Мод додає до збереження лише власні файли, тож його можна будь-коли видалити.
+
+Ідея натхненна модом «Crop Diseases» від BMP. Модель пляшки створено на основі «fertilizer Bottle» від shabanimate, модель каністри – на основі «#6 Plastic Canister» від hoxsvl (обидві CC BY 4.0, sketchfab.com).]]></uk>
+        <tr><![CDATA[Field Health, Polonya'da yaygın olan ürün hastalıklarını ve zararlılarını tarlalarına getirir – gerçekçi ama rahat oyuna uygun şekilde.
+
+44 tehdit, gerçekten saldırdıkları ürünlere bağlıdır – fungisitle mücadele edilen 24 hastalık (örneğin tahıl küllemesi, septorya, kahverengi ve sarı pas, fusaryum, göz lekesi, arpa ağ benek hastalığı, Phoma, sklerotinya, patates mildiyösü, serkospora yaprak lekesi, soğanda yalancı külleme) ve insektisitle mücadele edilen 20 zararlı (örneğin yaprak bitleri, tahıl yaprak böcekleri, kolza çiçek böcekleri, gövde hortumluları, pire böcekleri, patates böcekleri, mısır kurdu, soğan sineği, havuç sineği). Her biri yalnızca kendi aylarında ve gelişme evrelerinde saldırır ve kendine özgü zamanında en tehlikelidir; yaygın tehditler, kara pas veya mısır kök kurdu gibi nadir olanlardan çok daha sık çıkar.
+
+İyi bakılan bir tarla bile tehdit alabilir (varsayılan olarak sezon başına hastalıklar için %15, zararlılar için %10), bu yüzden fungisit ve insektisit gereklidir. Son günlerin havası önemlidir: mantar hastalıkları yağmuru, çoğu zararlı sıcak ve kuru günleri sever. Tarımı nasıl yaptığın riski değiştirir: doğal gübre ve ara ürünler onu düşürür; bulamaç ve sıvı azot külleme, pas ve yaprak bitlerine yardım eder; buğdaydan önce mısır fusaryumu, patatesten önce çayır tel kurtlarını artırır; sürüm, kireçleme, anız parçalama, ekim nöbeti veya yabani ot mücadelesinin eksikliği de riski artırır. Hassas Tarım ile mod, onun haritalarındaki nitrojeni, pH'ı ve toprak tipini kullanır.
+
+Tehditler düzensiz odaklarda çıkar, eşit olmayan şekilde büyür, ürünü yalnızca şiddetli aşamada yok eder ve nadiren bitişik bir komşu tarlaya geçer. İlaçlama onları yok eder ve tarlayı hasada kadar korur. Fungisit ve insektisit 1 l şişelerde ve 5 l ile 20 l bidonlarda satılır. “Bitki koruma” harita sayfası (beş katman) ve mini harita (LAlt + \) tarlalarının korumasını, hastalıklarını ve zararlılarını gösterir; tarla bilgisi paneli ise tehditleri, riski ve nedenini gösterir.
+
+25 ayar (şanslar, bakımın, havanın ve anızın etkisi, çayırlar ve yem bitkileri, ilerleme, odak boyutu, ürün hasarı, ilaçlama süresi ve dozları, fiyatlar...), çok oyunculu destek, oyun içi yardımda ayrıntılı bir rehber (ESC > Yardım). Mod kayda yalnızca kendi dosyalarını ekler, bu yüzden istediğin zaman kaldırılabilir.
+
+Fikir, BMP'nin “Crop Diseases” modundan esinlenmiştir. Şişe modeli shabanimate'in “fertilizer Bottle” modeline, bidon modeli hoxsvl'nin “#6 Plastic Canister” modeline dayanır (ikisi de CC BY 4.0, sketchfab.com).]]></tr>
+        <nl><![CDATA[Field Health brengt gewasziekten en plagen die in Polen veel voorkomen naar je velden – realistisch, maar vriendelijk voor ontspannen spelen.
+
+44 bedreigingen zijn gekoppeld aan de gewassen die ze echt aanvallen – 24 ziekten die je met fungicide bestrijdt (bijv. meeldauw in granen, septoria, bruine en gele roest, fusarium, oogvlekkenziekte, netvlekkenziekte, Phoma, Sclerotinia, Phytophthora, Cercospora-bladvlekkenziekte, valse meeldauw in uien) en 20 plagen die je met insecticide bestrijdt (bijv. bladluizen, graanhaantjes, glanskevers, stengelsnuitkevers, aardvlooien, coloradokevers, maïsstengelboorder, uienvlieg, wortelvlieg). Elke bedreiging valt alleen aan in haar maanden en groeistadia en is het gevaarlijkst in haar typische tijd; veelvoorkomende bedreigingen verschijnen veel vaker dan zeldzame, zoals zwarte roest of de maïswortelkever.
+
+Zelfs een goed bewerkt veld kan een bedreiging krijgen (standaard 15% voor ziekten en 10% voor plagen per seizoen), dus fungicide en insecticide zijn nodig. Het weer van de laatste dagen telt mee: schimmelziekten houden van regen, de meeste plagen van warme, droge dagen. Hoe je boert verandert het risico: mest en groenbemesters verlagen het; drijfmest en vloeibare stikstof helpen meeldauw, roest en bladluizen; maïs vóór tarwe verhoogt fusarium, grasland vóór aardappelen ritnaalden; niet ploegen, niet bekalken, geen stoppelbewerking, geen vruchtwisseling of geen onkruidbestrijding verhogen het ook. Met Precisielandbouw gebruikt de mod stikstof, pH en bodemsoort van de kaarten ervan.
+
+Bedreigingen verschijnen in onregelmatige haarden, groeien ongelijkmatig, vernietigen gewas pas in het ernstige stadium en slaan soms over naar een aangrenzend veld. Spuiten verwijdert ze en beschermt het veld tot de oogst. Fungicide en insecticide worden verkocht in flessen van 1 l en jerrycans van 5 l en 20 l. De kaartpagina “Gewasbescherming” (vijf lagen) en de minikaart (LAlt + \) tonen de bescherming, ziekten en plagen van je velden; het veldinfovenster toont bedreigingen, het risico en de oorzaak.
+
+25 instellingen (kansen, invloed van de bewerking, het weer en stoppel, weiden en voedergewassen, verloop, grootte van de haarden, gewasschade, duur en dosering van de bespuiting, prijzen...), ondersteuning voor multiplayer, een uitgebreide gids in de help van het spel (ESC > Help). De mod voegt alleen eigen bestanden aan de savegame toe, dus je kunt hem altijd verwijderen.
+
+Idee geïnspireerd door de mod “Crop Diseases” van BMP. Model van de fles gebaseerd op “fertilizer Bottle” van shabanimate, model van de jerrycan op “#6 Plastic Canister” van hoxsvl (beide CC BY 4.0, sketchfab.com).]]></nl>
+        <da><![CDATA[Field Health bringer plantesygdomme og skadedyr, der er almindelige i Polen, ud på dine marker – realistisk, men venligt over for afslappet spil.
+
+44 trusler er knyttet til de afgrøder, de virkelig angriber – 24 sygdomme, der bekæmpes med svampemiddel (f.eks. meldug i korn, septoria, brun- og gulrust, fusarium, knækkefodsyge, bygbladplet, rodhalsråd, knoldbægersvamp, kartoffelskimmel, Cercospora-bladplet, falsk meldug i løg), og 20 skadedyr, der bekæmpes med insektmiddel (f.eks. bladlus, kornbladbiller, glimmerbøsser, stængelsnudebiller, jordlopper, coloradobiller, majsborer, løgflue, gulerodsflue). Hver af dem angriber kun i sine måneder og vækststadier og er farligst på sin typiske tid; almindelige trusler viser sig meget oftere end sjældne som sortrust eller majsrodbille.
+
+Selv en veldyrket mark kan få en trussel (som standard 15 % for sygdomme og 10 % for skadedyr pr. sæson), så svampemiddel og insektmiddel er nødvendige. Vejret de seneste dage betyder noget: svampesygdomme elsker regn, de fleste skadedyr varme og tørre dage. Måden, du dyrker på, ændrer risikoen: møg og efterafgrøder sænker den; gylle og flydende kvælstof fremmer meldug, rust og bladlus; majs før hvede øger fusarium, græsmark før kartofler smælderlarver; manglende pløjning, kalkning, findeling af stub, sædskifte eller ukrudtsbekæmpelse øger den også. Med Præcisionslandbrug bruger modden kvælstof, pH og jordtype fra dets kort.
+
+Truslerne viser sig i uregelmæssige pletter, vokser ujævnt, ødelægger først afgrøden i det alvorlige stadie og kan i sjældne tilfælde flytte over på en tilstødende nabomark. Sprøjtning fjerner dem og beskytter marken indtil høst. Svampemiddel og insektmiddel sælges i flasker på 1 l og dunke på 5 l og 20 l. Kortsiden “Plantebeskyttelse” (fem lag) og minikortet (LAlt + \) viser dine markers beskyttelse, sygdomme og skadedyr; markinfoboksen viser trusler, risiko og årsagen til den.
+
+25 indstillinger (chancer, dyrkningens, vejrets og stubbens indflydelse, enge og foderafgrøder, udvikling, pletternes størrelse, skade på afgrøden, sprøjtebeskyttelsens varighed og doser, priser...), understøttelse af multiplayer og en detaljeret vejledning i spillets hjælp (ESC > Hjælp). Modden tilføjer kun sine egne filer til det gemte spil, så den kan fjernes når som helst.
+
+Ideen er inspireret af modden “Crop Diseases” af BMP. Flaskemodellen er baseret på “fertilizer Bottle” af shabanimate, dunkmodellen på “#6 Plastic Canister” af hoxsvl (begge CC BY 4.0, sketchfab.com).]]></da>
+        <sv><![CDATA[Field Health tar med växtsjukdomar och skadedjur som är vanliga i Polen ut på dina fält – realistiskt, men vänligt för avslappnat spelande.
+
+44 hot är knutna till de grödor de verkligen angriper – 24 sjukdomar som bekämpas med svampmedel (t.ex. mjöldagg i stråsäd, svartpricksjuka, brunrost och gulrost, fusarium, stråknäckare, kornets bladfläcksjuka, torrröta, bomullsmögel, potatisbladmögel, Cercospora-bladfläck, falsk mjöldagg på lök) och 20 skadedjur som bekämpas med insektsmedel (t.ex. bladlöss, sädesbladbaggar, rapsbaggar, stjälkvivlar, jordloppor, koloradoskalbaggar, majsmott, lökfluga, morotsfluga). Varje hot angriper bara under sina månader och utvecklingsstadier och är farligast vid sin typiska tid; vanliga hot dyker upp mycket oftare än sällsynta som svartrost eller majsrotbagge.
+
+Även ett välskött fält kan få ett hot (som standard 15 % för sjukdomar och 10 % för skadedjur per säsong), så svampmedel och insektsmedel behövs. Vädret de senaste dagarna spelar roll: svampsjukdomar älskar regn, de flesta skadedjur varma och torra dagar. Hur du brukar jorden ändrar risken: naturgödsel och fånggrödor sänker den; flytgödsel och flytande kväve gynnar mjöldagg, rost och bladlöss; majs före vete höjer fusarium, vall före potatis knäpparlarver; utebliven plöjning, kalkning, stubbearbetning, växtföljd eller ogräsbekämpning höjer den också. Med Precision Farming använder modden kväve, pH och jordart från dess kartor.
+
+Hoten dyker upp i oregelbundna härdar, växer ojämnt, förstör grödan först i det svåra stadiet och kan i sällsynta fall flytta över till ett angränsande grannfält. Besprutning tar bort dem och skyddar fältet fram till skörd. Svampmedel och insektsmedel säljs i flaskor på 1 l och dunkar på 5 l och 20 l. Kartsidan ”Växtskydd” (fem lager) och minikartan (LAlt + \) visar dina fälts skydd, sjukdomar och skadedjur; fältinforutan visar hot, risk och dess orsak.
+
+25 inställningar (chanser, inverkan av skötsel, väder och stubb, ängar och fodergrödor, utveckling, härdarnas storlek, skador på grödan, skyddets längd och doser, priser...), stöd för flerspelarläge och en utförlig guide i spelets hjälp (ESC > Hjälp). Modden lägger bara till sina egna filer i sparfilen, så den kan tas bort när som helst.
+
+Idén är inspirerad av modden ”Crop Diseases” av BMP. Flaskmodellen bygger på ”fertilizer Bottle” av shabanimate, dunkmodellen på ”#6 Plastic Canister” av hoxsvl (båda CC BY 4.0, sketchfab.com).]]></sv>
+        <no><![CDATA[Field Health tar plantesykdommer og skadedyr som er vanlige i Polen, ut på åkrene dine – realistisk, men vennlig for avslappet spilling.
+
+44 trusler er knyttet til vekstene de virkelig angriper – 24 sykdommer som bekjempes med soppmiddel (f.eks. mjøldogg i korn, hvetebladprikk, brunrust og gulrust, fusarium, knekkefotsyke, byggbrunflekk, Phoma, storknolla, tørråte, Cercospora-bladflekk, falsk mjøldogg på løk) og 20 skadedyr som bekjempes med insektmiddel (f.eks. bladlus, kornbladbiller, rapsglansbiller, stengelsnutebiller, jordlopper, coloradobiller, maismott, løkflue, gulrotflue). Hver av dem angriper bare i sine måneder og utviklingsstadier og er farligst på sin typiske tid; vanlige trusler dukker opp mye oftere enn sjeldne som svartrust eller maisrotbille.
+
+Selv en godt stelt åker kan få en trussel (som standard 15 % for sykdommer og 10 % for skadedyr per sesong), så soppmiddel og insektmiddel trengs. Været de siste dagene betyr noe: soppsykdommer elsker regn, de fleste skadedyr varme og tørre dager. Måten du driver på, endrer risikoen: møkk og fangvekster senker den; slurry og flytende nitrogen fremmer mjøldogg, rust og bladlus; mais før hvete øker fusarium, eng før poteter smellerlarver; manglende pløying, kalking, stubbkutting, vekstskifte eller ugressbekjempelse øker den også. Med Presisjonsgårdbruk bruker modden nitrogen, pH og jordtype fra kartene der.
+
+Truslene dukker opp i uregelmessige flekker, vokser ujevnt, ødelegger avlingen først i det alvorlige stadiet og kan i sjeldne tilfeller flytte over til en tilgrensende naboåker. Sprøyting fjerner dem og verner åkeren fram til innhøsting. Soppmiddel og insektmiddel selges i flasker på 1 l og kanner på 5 l og 20 l. Kartsiden «Plantevern» (fem lag) og minikartet (LAlt + \) viser vern, sykdommer og skadedyr på åkrene dine; åkerinfoboksen viser trusler, risiko og årsaken til den.
+
+25 innstillinger (sjanser, innvirkning fra stell, vær og stubb, eng og fôrvekster, utvikling, flekkenes størrelse, skade på avlingen, vernets varighet og doser, priser...), støtte for flerspiller og en detaljert veiledning i spillets hjelp (ESC > Hjelp). Modden legger bare til egne filer i lagringen, så den kan fjernes når som helst.
+
+Ideen er inspirert av modden «Crop Diseases» av BMP. Flaskemodellen bygger på «fertilizer Bottle» av shabanimate, kannemodellen på «#6 Plastic Canister» av hoxsvl (begge CC BY 4.0, sketchfab.com).]]></no>
+        <fi><![CDATA[Field Health tuo pelloillesi Puolassa yleiset kasvitaudit ja tuholaiset – realistisesti, mutta rennolle pelaamiselle sopivasti.
+
+44 uhkaa on sidottu kasveihin, joihin ne todella hyökkäävät – 24 tautia, joita torjutaan fungisidilla (esim. viljojen härmä, vehnän lehtilaikku, ruskea- ja keltaruoste, fusarioosi, tyvilaikku, ohran verkkolaikku, Phoma, pahkahome, perunarutto, Cercospora-lehtilaikku, sipulin lehtihome), ja 20 tuholaista, joita torjutaan insektisidillä (esim. kirvat, viljanlehtikuoriaiset, rapsikuoriaiset, varsikärsäkkäät, kirpat, koloradonkuoriaiset, maissikoisa, sipulikärpänen, porkkanakärpänen). Jokainen hyökkää vain omina kuukausinaan ja kasvuvaiheissaan ja on vaarallisimmillaan tyypilliseen aikaansa; yleiset uhat ilmaantuvat paljon useammin kuin harvinaiset, kuten mustaruoste tai maissinjuurikuoriainen.
+
+Hyvinkin hoidettu pelto voi saada uhan (oletuksena 15 % taudeille ja 10 % tuholaisille kaudessa), joten fungisidia ja insektisidiä tarvitaan. Viime päivien sää vaikuttaa: sienitaudit rakastavat sadetta, useimmat tuholaiset lämpimiä ja kuivia päiviä. Viljelytapasi muuttaa riskiä: lanta ja kerääjäkasvit laskevat sitä; liete ja nestemäinen typpi suosivat härmää, ruostetta ja kirvoja; maissi ennen vehnää lisää fusarioosia, nurmi ennen perunaa lankamatoja; kynnön, kalkituksen, sängen silppuamisen, viljelykierron tai rikkakasvien torjunnan puuttuminen nostaa sitä myös. Täsmäviljelyn kanssa modi käyttää sen karttojen typpeä, pH:ta ja maalajia.
+
+Uhat ilmaantuvat epäsäännöllisinä pesäkkeinä, kasvavat epätasaisesti, tuhoavat kasvustoa vasta vakavassa asteessa ja voivat harvoin siirtyä viereiselle naapuripellolle. Ruiskutus poistaa ne ja suojaa peltoa korjuuseen asti. Fungisidia ja insektisidiä myydään 1 l:n pulloissa sekä 5 l:n ja 20 l:n kanistereissa. Karttasivu ”Kasvinsuojelu” (viisi tasoa) ja minikartta (LAlt + \) näyttävät peltojesi suojauksen, taudit ja tuholaiset; peltotietoruutu näyttää uhat, riskin ja sen syyn.
+
+25 asetusta (todennäköisyydet, hoidon, sään ja sängen vaikutus, niityt ja rehukasvit, eteneminen, pesäkkeiden koko, kasvustovahingot, suojan kesto ja annokset, hinnat...), moninpelituki ja yksityiskohtainen opas pelin ohjeissa (ESC > Ohje). Modi lisää tallennukseen vain omia tiedostojaan, joten sen voi poistaa milloin tahansa.
+
+Idea on saanut innoituksensa BMP:n modista ”Crop Diseases”. Pullon malli perustuu shabanimaten malliin ”fertilizer Bottle”, kanisterin malli hoxsvl:n malliin ”#6 Plastic Canister” (molemmat CC BY 4.0, sketchfab.com).]]></fi>
     </description>
     <iconFilename>icon_FieldHealth.dds</iconFilename>
     <multiplayer supported="true"/>
@@ -231,7 +315,7 @@ Az ötlet a BMP „Crop Diseases” nevű modjából származik. A flakon modell
                     <text text="$l10n_fh_help_intro_06" />
                 </paragraph>
                 <paragraph>
-                    <image filename="help/fieldHealthHelp_keyNumbers_pl.png" uvs="0px 0px 2048px 1464px" size="2048 2048" aspectRatio="0.71484" />
+                    <image filename="help/fieldHealthHelp_keyNumbers_pl.png" uvs="0px 0px 2048px 1552px" size="2048 2048" aspectRatio="0.75781" />
                 </paragraph>
                 <paragraph>
                     <title text="$l10n_fh_help_intro_08" />
@@ -276,7 +360,7 @@ Az ötlet a BMP „Crop Diseases” nevű modjából származik. A flakon modell
                     <title text="$l10n_fh_help_timing_02" />
                 </paragraph>
                 <paragraph>
-                    <image filename="help/fieldHealthHelp_stages_pl.png" uvs="0px 0px 2048px 860px" size="2048 1024" aspectRatio="0.41992" />
+                    <image filename="help/fieldHealthHelp_stages_pl.png" uvs="0px 0px 2048px 992px" size="2048 1024" aspectRatio="0.48438" />
                 </paragraph>
                 <paragraph>
                     <text text="$l10n_fh_help_timing_04" />
@@ -286,7 +370,7 @@ Az ötlet a BMP „Crop Diseases” nevű modjából származik. A flakon modell
                     <text text="$l10n_fh_help_timing_06" />
                 </paragraph>
                 <paragraph>
-                    <image filename="help/fieldHealthHelp_calendar_pl.png" uvs="0px 0px 2048px 1938px" size="2048 2048" aspectRatio="0.94629" />
+                    <image filename="help/fieldHealthHelp_calendar_pl.png" uvs="0px 0px 2048px 2290px" size="2048 4096" aspectRatio="1.11816" />
                 </paragraph>
             </page>
             <page title="$l10n_fh_help_farming" iconSliceId="fieldHealthHelp.soil">
@@ -294,19 +378,19 @@ Az ötlet a BMP „Crop Diseases” nevű modjából származik. A flakon modell
                     <text text="$l10n_fh_help_farming_01" />
                 </paragraph>
                 <paragraph>
-                    <image filename="help/fieldHealthHelp_riskLevels_pl.png" uvs="0px 0px 2048px 350px" size="2048 512" aspectRatio="0.1709" />
+                    <image filename="help/fieldHealthHelp_riskLevels_pl.png" uvs="0px 0px 2048px 482px" size="2048 512" aspectRatio="0.23535" />
                 </paragraph>
                 <paragraph>
                     <title text="$l10n_fh_help_farming_03" />
                 </paragraph>
                 <paragraph>
-                    <image filename="help/fieldHealthHelp_riskFertilizing_pl.png" uvs="0px 0px 2048px 876px" size="2048 1024" aspectRatio="0.42773" />
+                    <image filename="help/fieldHealthHelp_riskFertilizing_pl.png" uvs="0px 0px 2048px 964px" size="2048 1024" aspectRatio="0.4707" />
                 </paragraph>
                 <paragraph>
                     <title text="$l10n_fh_help_farming_05" />
                 </paragraph>
                 <paragraph>
-                    <image filename="help/fieldHealthHelp_riskSoil_pl.png" uvs="0px 0px 2048px 1148px" size="2048 2048" aspectRatio="0.56055" />
+                    <image filename="help/fieldHealthHelp_riskSoil_pl.png" uvs="0px 0px 2048px 1192px" size="2048 2048" aspectRatio="0.58203" />
                 </paragraph>
                 <paragraph>
                     <text text="$l10n_fh_help_farming_07" />
@@ -315,7 +399,7 @@ Az ötlet a BMP „Crop Diseases” nevű modjából származik. A flakon modell
                     <title text="$l10n_fh_help_farming_08" />
                 </paragraph>
                 <paragraph>
-                    <image filename="help/fieldHealthHelp_riskRotation_pl.png" uvs="0px 0px 2048px 1534px" size="2048 2048" aspectRatio="0.74902" />
+                    <image filename="help/fieldHealthHelp_riskRotation_pl.png" uvs="0px 0px 2048px 1666px" size="2048 2048" aspectRatio="0.81348" />
                 </paragraph>
                 <paragraph>
                     <text text="$l10n_fh_help_farming_10" />
@@ -326,13 +410,13 @@ Az ötlet a BMP „Crop Diseases” nevű modjából származik. A flakon modell
                     <text text="$l10n_fh_help_weather_01" />
                 </paragraph>
                 <paragraph>
-                    <image filename="help/fieldHealthHelp_weatherProfiles_pl.png" uvs="0px 0px 2048px 1746px" size="2048 2048" aspectRatio="0.85254" />
+                    <image filename="help/fieldHealthHelp_weatherProfiles_pl.png" uvs="0px 0px 2048px 1922px" size="2048 2048" aspectRatio="0.93848" />
                 </paragraph>
                 <paragraph>
                     <text text="$l10n_fh_help_weather_03" />
                 </paragraph>
                 <paragraph>
-                    <image filename="help/fieldHealthHelp_weatherExamples_pl.png" uvs="0px 0px 2048px 1068px" size="2048 2048" aspectRatio="0.52148" />
+                    <image filename="help/fieldHealthHelp_weatherExamples_pl.png" uvs="0px 0px 2048px 1244px" size="2048 2048" aspectRatio="0.60742" />
                 </paragraph>
                 <paragraph>
                     <text text="$l10n_fh_help_weather_05" />
@@ -343,19 +427,19 @@ Az ötlet a BMP „Crop Diseases” nevű modjából származik. A flakon modell
                     <text text="$l10n_fh_help_diseases_01" />
                 </paragraph>
                 <paragraph>
-                    <image filename="help/fieldHealthHelp_prevalenceScale_pl.png" uvs="0px 0px 2048px 394px" size="2048 512" aspectRatio="0.19238" />
+                    <image filename="help/fieldHealthHelp_prevalenceScale_pl.png" uvs="0px 0px 2048px 438px" size="2048 512" aspectRatio="0.21387" />
                 </paragraph>
                 <paragraph>
                     <title text="$l10n_fh_help_diseases_03" />
                 </paragraph>
                 <paragraph>
-                    <image filename="help/fieldHealthHelp_diseasesCereal_pl.png" uvs="0px 0px 2048px 2942px" size="2048 4096" aspectRatio="1.43652" />
+                    <image filename="help/fieldHealthHelp_diseasesCereal_pl.png" uvs="0px 0px 2048px 3250px" size="2048 4096" aspectRatio="1.58691" />
                 </paragraph>
                 <paragraph>
                     <title text="$l10n_fh_help_diseases_05" />
                 </paragraph>
                 <paragraph>
-                    <image filename="help/fieldHealthHelp_diseasesOther_pl.png" uvs="0px 0px 2048px 2398px" size="2048 4096" aspectRatio="1.1709" />
+                    <image filename="help/fieldHealthHelp_diseasesOther_pl.png" uvs="0px 0px 2048px 2706px" size="2048 4096" aspectRatio="1.32129" />
                 </paragraph>
                 <paragraph>
                     <text text="$l10n_fh_help_diseases_07" />
@@ -369,13 +453,13 @@ Az ötlet a BMP „Crop Diseases” nevű modjából származik. A flakon modell
                     <title text="$l10n_fh_help_pests_02" />
                 </paragraph>
                 <paragraph>
-                    <image filename="help/fieldHealthHelp_pestsCereal_pl.png" uvs="0px 0px 2048px 2064px" size="2048 4096" aspectRatio="1.00781" />
+                    <image filename="help/fieldHealthHelp_pestsCereal_pl.png" uvs="0px 0px 2048px 2152px" size="2048 4096" aspectRatio="1.05078" />
                 </paragraph>
                 <paragraph>
                     <title text="$l10n_fh_help_pests_04" />
                 </paragraph>
                 <paragraph>
-                    <image filename="help/fieldHealthHelp_pestsOther_pl.png" uvs="0px 0px 2048px 2512px" size="2048 4096" aspectRatio="1.22656" />
+                    <image filename="help/fieldHealthHelp_pestsOther_pl.png" uvs="0px 0px 2048px 2688px" size="2048 4096" aspectRatio="1.3125" />
                 </paragraph>
             </page>
             <page title="$l10n_fh_help_progress" iconSliceId="fieldHealthHelp.patch">
@@ -383,7 +467,7 @@ Az ötlet a BMP „Crop Diseases” nevű modjából származik. A flakon modell
                     <text text="$l10n_fh_help_progress_01" />
                 </paragraph>
                 <paragraph>
-                    <image filename="help/fieldHealthHelp_progress_pl.png" uvs="0px 0px 2048px 1194px" size="2048 2048" aspectRatio="0.58301" />
+                    <image filename="help/fieldHealthHelp_progress_pl.png" uvs="0px 0px 2048px 1370px" size="2048 2048" aspectRatio="0.66895" />
                 </paragraph>
                 <paragraph>
                     <text text="$l10n_fh_help_progress_03" />
@@ -400,7 +484,7 @@ Az ötlet a BMP „Crop Diseases” nevű modjából származik. A flakon modell
                     <title text="$l10n_fh_help_spraying_03" />
                 </paragraph>
                 <paragraph>
-                    <image filename="help/fieldHealthHelp_protection_pl.png" uvs="0px 0px 2048px 894px" size="2048 1024" aspectRatio="0.43652" />
+                    <image filename="help/fieldHealthHelp_protection_pl.png" uvs="0px 0px 2048px 982px" size="2048 1024" aspectRatio="0.47949" />
                 </paragraph>
                 <paragraph>
                     <title text="$l10n_fh_help_spraying_05" />
@@ -417,7 +501,7 @@ Az ötlet a BMP „Crop Diseases” nevű modjából származik. A flakon modell
                     <text text="$l10n_fh_help_map_04" />
                 </paragraph>
                 <paragraph>
-                    <image filename="help/fieldHealthHelp_legend_pl.png" uvs="0px 0px 2048px 718px" size="2048 1024" aspectRatio="0.35059" />
+                    <image filename="help/fieldHealthHelp_legend_pl.png" uvs="0px 0px 2048px 762px" size="2048 1024" aspectRatio="0.37207" />
                 </paragraph>
                 <paragraph>
                     <title text="$l10n_fh_help_map_06" />
@@ -435,7 +519,7 @@ Az ötlet a BMP „Crop Diseases” nevű modjából származik. A flakon modell
                     <text text="$l10n_fh_help_pf_01" />
                 </paragraph>
                 <paragraph>
-                    <image filename="help/fieldHealthHelp_pf_pl.png" uvs="0px 0px 2048px 850px" size="2048 1024" aspectRatio="0.41504" />
+                    <image filename="help/fieldHealthHelp_pf_pl.png" uvs="0px 0px 2048px 894px" size="2048 1024" aspectRatio="0.43652" />
                 </paragraph>
                 <paragraph>
                     <text text="$l10n_fh_help_pf_03" />
@@ -446,7 +530,7 @@ Az ötlet a BMP „Crop Diseases” nevű modjából származik. A flakon modell
                     <text text="$l10n_fh_help_settings_01" />
                 </paragraph>
                 <paragraph>
-                    <image filename="help/fieldHealthHelp_settings_pl.png" uvs="0px 0px 2048px 2788px" size="2048 4096" aspectRatio="1.36133" />
+                    <image filename="help/fieldHealthHelp_settings_pl.png" uvs="0px 0px 2048px 3008px" size="2048 4096" aspectRatio="1.46875" />
                 </paragraph>
             </page>
             <page title="$l10n_fh_help_tips" iconSliceId="fieldHealthHelp.tips">

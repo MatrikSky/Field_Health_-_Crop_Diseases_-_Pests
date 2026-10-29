@@ -372,7 +372,7 @@
 – Не используйте одновременно другой мод с болезнями культур (например, Crop Diseases) – Field Health предупредит об этом в логе." />
         <text name="fh_help_admin_05" text="Авторы" />
         <text name="fh_help_admin_06" text="Field Health – автор: MatrikSky. Идея взята из мода «Crop Diseases» от BMP. Модель бутылки основана на «fertilizer Bottle» от shabanimate, модель канистры – на «#6 Plastic Canister» от hoxsvl (обе CC BY 4.0, sketchfab.com)." />
-        <text name="fh_help_tableLanguage" text="en" />
+        <text name="fh_help_tableLanguage" text="ru" />
 
 
 
