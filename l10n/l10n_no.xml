@@ -163,8 +163,28 @@
         <!-- Settings -->
         <text name="fh_config_brand" text="Merke" />
         <text name="fh_settings_header" text="Field Health – sykdommer og skadedyr" />
-        <text name="fh_setting_enabled" text="Trusler mot avlingen" />
-        <text name="fh_setting_enabled_desc" text="Moddens hovedbryter. Når den er av, kommer det ingen nye sykdommer eller skadedyr, og de som finnes, slutter å utvikle seg og ødelegge avlingen. Sprøyting virker fortsatt, så du kan fjerne det som er igjen på åkrene dine." />
+        <text name="fh_settings_adminOnly" text="Bare administratoren kan endre disse innstillingene." />
+        <text name="fh_settings_section_general" text="Generelt" />
+        <text name="fh_settings_section_chances" text="Sjanse for trusler" />
+        <text name="fh_settings_section_development" text="Truslenes utvikling" />
+        <text name="fh_settings_section_spraying" text="Sprøyting og vern" />
+        <text name="fh_settings_section_prices" text="Priser" />
+        <text name="fh_settings_section_display" text="Visning" />
+        <text name="fh_setting_diseases" text="Sykdommer" />
+        <text name="fh_setting_diseases_desc" text="Om plantesykdommer er aktive. Av: ingen sykdommer dukker opp, de på åkrene dine forsvinner neste dag, og fungicid trengs ikke. Skadedyr påvirkes ikke." />
+        <text name="fh_setting_pests" text="Skadedyr" />
+        <text name="fh_setting_pests_desc" text="Om skadedyr er aktive. Av: ingen skadedyr dukker opp, de på åkrene dine forsvinner neste dag, og insekticid trengs ikke. Sykdommer påvirkes ikke." />
+        <text name="fh_setting_gracePeriod" text="Rolig start" />
+        <text name="fh_setting_gracePeriod_desc" text="Ingen nye sykdommer eller skadedyr i spillets første år, slik at du først kan få gården i gang. Første år og Første to år telles etter året i spillets kalender, så i et eldre lagret spill kan den rolige starten allerede være over. Trusler som allerede er på åkrene dine, utvikler seg som vanlig. Av: trusler kan dukke opp fra starten." />
+        <text name="fh_setting_precisionFarming" text="Data fra Presisjonsgårdbruk" />
+        <text name="fh_setting_precisionFarming_desc" text="Om nitrogen-, pH- og jordkartene fra Presisjonsgårdbruk endrer risikoen for trusler. Av: modden bruker i stedet åkerens grunndata fra spillet, som uten Presisjonsgårdbruk. Uten Presisjonsgårdbruk endrer denne innstillingen ingenting." />
+        <text name="fh_setting_aiSprayNeeded" text="AI sprøyter bare der det trengs" />
+        <text name="fh_setting_aiSprayNeeded_desc" text="På: AI-hjelpere med fungicid eller insekticid sprøyter bare voksende avling på åkrer som ikke er vernet ennå, og flekker med trusler, resten regnes som ferdig, noe som sparer middel. Av: de sprøyter hele åkeren, som med enhver annen væske." />
+        <text name="fh_setting_fieldInfoRisk" text="Risiko i åkerinfo" />
+        <text name="fh_setting_fieldInfoRisk_desc" text="Om åkerinfo viser åkerens risiko for sykdommer og skadedyr og hovedårsaken. Av: bare trusler og vern vises, så boksen blir kortere." />
+        <text name="fh_settings_tab" text="Field Health" />
+        <text name="fh_setting_enabled" text="Hele modden" />
+        <text name="fh_setting_enabled_desc" text="Slår Field Health på eller av. Av: ingen nye sykdommer eller skadedyr dukker opp, eksisterende slutter å utvikle seg og ødelegge avlingen, åkerinfo, åkerens opplysninger på kartet og minikartet viser ingenting fra modden, og AI-hjelpere sprøyter som uten den. Dataene for åkrene dine beholdes, så alt fortsetter når du slår modden på igjen." />
         <text name="fh_setting_diseaseChance" text="Sykdomssjanse per sesong" />
         <text name="fh_setting_diseaseChance_desc" text="Grunnsjansen for at en åker med vanlig stell får en sykdom i løpet av én sesong (fra såing til innhøsting). Den er bare et utgangspunkt: godt stell (møkk, fangvekster, vekstskifte, riktig pH og nitrogen) senker den, forsømmelse (ingen gjødsling, monokultur, ingen pløying, sur jord) øker den flere ganger. Sprøyting med soppmiddel før en sykdom viser seg, senker den til null fram til innhøsting. 0 % slår av sykdommer." />
         <text name="fh_setting_pestChance" text="Skadedyrsjanse per sesong" />
@@ -239,6 +259,8 @@
         <text name="fh_set_rarely" text="Sjelden" />
         <text name="fh_set_sometimes" text="Iblant" />
         <text name="fh_set_often" text="Ofte" />
+        <text name="fh_set_firstYear" text="Første år" />
+        <text name="fh_set_firstTwoYears" text="Første to år" />
 
         <!-- Shop -->
         <text name="fh_fillType_insecticide" text="Insektmiddel" />
@@ -346,7 +368,7 @@ En trussel dukker ikke opp på en tilfeldig dag. Hver dag regner modden ut smitt
         <text name="fh_help_pf_01" text="Med Presisjonsgårdbruk fungerer Field Health som en utvidelse av det og bruker jordkartene. I stedet for gjødsling generelt teller nitrogenet sammenlignet med målet, og i stedet for kalking generelt jordens pH." />
         <text name="fh_help_pf_03" text="Det beste vernet er det samme arbeidet du gjør for avlingen: gjødsling til målet, kalking til optimal pH og fangvekster. Konsollkommandoen fhPrecisionFarming skriver i loggen hvordan modden leser data fra Presisjonsgårdbruk." />
         <text name="fh_help_settings" text="Innstillinger" />
-        <text name="fh_help_settings_01" text="Du finner innstillingene for modden i ESC &gt; Innstillinger &gt; Spill, i delen «Field Health – sykdommer og skadedyr». De lagres med lagringen. I flerspiller kan bare serverens administrator endre dem. Hold pekeren over et valg for å se beskrivelsen." />
+        <text name="fh_help_settings_01" text="Du finner innstillingene for modden i ESC &gt; Innstillinger, på en egen fane, «Field Health», delt inn i deler. De lagres med lagringen. Alle spillere ser dem, men i flerspiller kan bare administratoren endre dem (på en dedikert server logger du først inn som administrator). Hold pekeren over et valg for å se beskrivelsen." />
         <text name="fh_help_tips" text="Tips" />
         <text name="fh_help_tips_01" text="En plan for friske åkre" />
         <text name="fh_help_tips_02" text="1. Gjødsle etter behov, kalk, og ikke så samme vekst to år på rad. Så en fangvekst mellom hovedvekstene.

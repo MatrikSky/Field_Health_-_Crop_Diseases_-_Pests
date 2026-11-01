@@ -163,8 +163,28 @@
         <!-- Settings -->
         <text name="fh_config_brand" text="Merkki" />
         <text name="fh_settings_header" text="Field Health – taudit ja tuholaiset" />
-        <text name="fh_setting_enabled" text="Kasvuston uhat" />
-        <text name="fh_setting_enabled_desc" text="Modin pääkytkin. Kun se on pois päältä, uusia tauteja tai tuholaisia ei ilmaannu, ja olemassa olevat lakkaavat kehittymästä ja tuhoamasta kasvustoa. Ruiskutus toimii yhä, joten voit poistaa sen, mitä pelloillesi on jäänyt." />
+        <text name="fh_settings_adminOnly" text="Vain ylläpitäjä voi muuttaa näitä asetuksia." />
+        <text name="fh_settings_section_general" text="Yleiset" />
+        <text name="fh_settings_section_chances" text="Uhkien todennäköisyys" />
+        <text name="fh_settings_section_development" text="Uhkien kehitys" />
+        <text name="fh_settings_section_spraying" text="Ruiskutus ja suojaus" />
+        <text name="fh_settings_section_prices" text="Hinnat" />
+        <text name="fh_settings_section_display" text="Näyttö" />
+        <text name="fh_setting_diseases" text="Taudit" />
+        <text name="fh_setting_diseases_desc" text="Ovatko kasvitaudit käytössä. Pois: tauteja ei tule, pelloillasi olevat häviävät seuraavana päivänä eikä fungisidia tarvita. Tuholaisiin tämä ei vaikuta." />
+        <text name="fh_setting_pests" text="Tuholaiset" />
+        <text name="fh_setting_pests_desc" text="Ovatko tuholaiset käytössä. Pois: tuholaisia ei tule, pelloillasi olevat häviävät seuraavana päivänä eikä insektisidiä tarvita. Tauteihin tämä ei vaikuta." />
+        <text name="fh_setting_gracePeriod" text="Rauhallinen alku" />
+        <text name="fh_setting_gracePeriod_desc" text="Pelin ensimmäisinä vuosina ei tule uusia tauteja eikä tuholaisia, joten voit ensin saada tilasi käyntiin. Ensimmäinen vuosi ja Kaksi ensimmäistä vuotta lasketaan pelin kalenterin vuoden mukaan, joten vanhemmassa tallennuksessa rauhallinen alku voi olla jo ohi. Pelloillasi jo olevat uhat kehittyvät tavalliseen tapaan. Pois: uhkia voi tulla heti alusta." />
+        <text name="fh_setting_precisionFarming" text="Täsmäviljelyn tiedot" />
+        <text name="fh_setting_precisionFarming_desc" text="Muuttavatko Täsmäviljelyn typpi-, pH- ja maaperäkartat uhkien riskiä. Pois: modi käyttää niiden sijaan pelin pellon perustietoja, kuten ilman Täsmäviljelyä. Ilman Täsmäviljelyä tämä asetus ei muuta mitään." />
+        <text name="fh_setting_aiSprayNeeded" text="AI ruiskuttaa vain tarvittaessa" />
+        <text name="fh_setting_aiSprayNeeded_desc" text="Päällä: fungisidia tai insektisidiä levittävät AI-työntekijät ruiskuttavat vain vielä suojaamattomien peltojen kasvavan kasvuston ja uhkien kohdat, loput lasketaan tehdyksi, mikä säästää ainetta. Pois: ne ruiskuttavat koko pellon kuten minkä tahansa muun nesteen." />
+        <text name="fh_setting_fieldInfoRisk" text="Riski peltotiedoissa" />
+        <text name="fh_setting_fieldInfoRisk_desc" text="Näyttävätkö peltotiedot pellon tauti- ja tuholaisriskin ja sen pääsyyn. Pois: näkyvät vain uhat ja suojaus, joten ruutu pysyy lyhyempänä." />
+        <text name="fh_settings_tab" text="Field Health" />
+        <text name="fh_setting_enabled" text="Koko modi" />
+        <text name="fh_setting_enabled_desc" text="Kytkee Field Healthin päälle tai pois. Pois: uusia tauteja tai tuholaisia ei tule, nykyiset lakkaavat kehittymästä ja tuhoamasta kasvustoa, peltotiedot, pellon tiedot kartalla ja minikartta eivät näytä modista mitään, ja AI-työntekijät ruiskuttavat kuin ilman sitä. Peltojesi tiedot säilyvät, joten kaikki jatkuu, kun kytket modin taas päälle." />
         <text name="fh_setting_diseaseChance" text="Taudin todennäköisyys kaudessa" />
         <text name="fh_setting_diseaseChance_desc" text="Perustodennäköisyys sille, että tavallisesti hoidettu pelto saa taudin yhden kauden aikana (kylvöstä korjuuseen). Se on vain lähtökohta: hyvä hoito (lanta, kerääjäkasvit, viljelykierto, oikea pH ja typpi) laskee sitä, laiminlyönti (ei lannoitusta, monokulttuuri, ei kyntöä, hapan maa) nostaa sitä moninkertaiseksi. Fungisidin ruiskutus ennen taudin ilmaantumista laskee sen nollaan korjuuseen asti. 0 % poistaa taudit käytöstä." />
         <text name="fh_setting_pestChance" text="Tuholaisten todennäköisyys kaudessa" />
@@ -239,6 +259,8 @@
         <text name="fh_set_rarely" text="Harvoin" />
         <text name="fh_set_sometimes" text="Joskus" />
         <text name="fh_set_often" text="Usein" />
+        <text name="fh_set_firstYear" text="Ensimmäinen vuosi" />
+        <text name="fh_set_firstTwoYears" text="Kaksi ensimmäistä vuotta" />
 
         <!-- Shop -->
         <text name="fh_fillType_insecticide" text="Insektisidi" />
@@ -346,7 +368,7 @@ Uhka ei ilmaannu satunnaisena päivänä. Joka päivä modi laskee pellon tartun
         <text name="fh_help_pf_01" text="Täsmäviljelyn kanssa Field Health toimii sen laajennuksena ja käyttää sen maaperäkarttoja. Yleisen lannoituksen sijaan lasketaan typpi tavoitteeseen verrattuna, ja yleisen kalkituksen sijaan maan pH." />
         <text name="fh_help_pf_03" text="Paras suoja on sama työ, jonka teet sadon eteen: lannoitus tavoitteeseen, kalkitus optimaaliseen pH:hon ja kerääjäkasvit. Konsolikomento fhPrecisionFarming kirjoittaa lokiin, miten modi lukee Täsmäviljelyn tietoja." />
         <text name="fh_help_settings" text="Asetukset" />
-        <text name="fh_help_settings_01" text="Modin asetukset löydät kohdasta ESC &gt; Asetukset &gt; Peli, osiosta ”Field Health – taudit ja tuholaiset”. Ne tallennetaan tallennuksen mukana. Moninpelissä vain palvelimen ylläpitäjä voi muuttaa niitä. Vie osoitin vaihtoehdon päälle nähdäksesi sen kuvauksen." />
+        <text name="fh_help_settings_01" text="Modin asetukset löydät kohdasta ESC &gt; Asetukset, omalta ”Field Health” -välilehdeltä, joka on jaettu osioihin. Ne tallennetaan tallennuksen mukana. Jokainen pelaaja näkee ne, mutta moninpelissä vain ylläpitäjä voi muuttaa niitä (omistetulla palvelimella kirjaudu ensin sisään ylläpitäjänä). Vie osoitin vaihtoehdon päälle nähdäksesi sen kuvauksen." />
         <text name="fh_help_tips" text="Vinkit" />
         <text name="fh_help_tips_01" text="Suunnitelma terveille pelloille" />
         <text name="fh_help_tips_02" text="1. Lannoita tarpeen mukaan, kalkitse äläkä kylvä samaa kasvia kahtena vuonna peräkkäin. Kylvä pääkasvien väliin kerääjäkasvi.

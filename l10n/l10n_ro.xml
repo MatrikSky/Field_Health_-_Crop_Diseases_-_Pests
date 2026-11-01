@@ -163,8 +163,28 @@
         <!-- Settings -->
         <text name="fh_config_brand" text="Marcă" />
         <text name="fh_settings_header" text="Field Health – boli și dăunători" />
-        <text name="fh_setting_enabled" text="Amenințări pentru culturi" />
-        <text name="fh_setting_enabled_desc" text="Comutatorul principal al modului. Când este dezactivat, nu mai apar boli sau dăunători noi, iar cele existente nu se mai dezvoltă și nu mai distrug culturile. Stropirea funcționează în continuare, așa că poți elimina ce a rămas pe parcele." />
+        <text name="fh_settings_adminOnly" text="Doar administratorul poate modifica aceste setări." />
+        <text name="fh_settings_section_general" text="General" />
+        <text name="fh_settings_section_chances" text="Șansa amenințărilor" />
+        <text name="fh_settings_section_development" text="Evoluția amenințărilor" />
+        <text name="fh_settings_section_spraying" text="Stropire și protecție" />
+        <text name="fh_settings_section_prices" text="Prețuri" />
+        <text name="fh_settings_section_display" text="Afișare" />
+        <text name="fh_setting_diseases" text="Boli" />
+        <text name="fh_setting_diseases_desc" text="Dacă bolile culturilor sunt active. Dezactivat: nu apar boli, cele de pe parcelele tale dispar a doua zi și fungicidul nu mai e necesar. Dăunătorii nu sunt afectați." />
+        <text name="fh_setting_pests" text="Dăunători" />
+        <text name="fh_setting_pests_desc" text="Dacă dăunătorii sunt activi. Dezactivat: nu apar dăunători, cei de pe parcelele tale dispar a doua zi și insecticidul nu mai e necesar. Bolile nu sunt afectate." />
+        <text name="fh_setting_gracePeriod" text="Început liniștit" />
+        <text name="fh_setting_gracePeriod_desc" text="Fără boli sau dăunători noi în primii ani de joc, ca să-ți poți pune mai întâi ferma pe picioare. Primul an și Primii doi ani se numără după anul din calendarul jocului, așa că într-o salvare mai veche începutul liniștit poate fi deja încheiat. Amenințările care sunt deja pe parcele evoluează normal. Dezactivat: amenințările pot apărea de la început." />
+        <text name="fh_setting_precisionFarming" text="Datele Agriculturii de precizie" />
+        <text name="fh_setting_precisionFarming_desc" text="Dacă hărțile de azot, pH și sol ale Agriculturii de precizie modifică riscul amenințărilor. Dezactivat: modul folosește în schimb datele de bază ale parcelei din joc, ca fără Agricultura de precizie. Fără Agricultura de precizie această setare nu schimbă nimic." />
+        <text name="fh_setting_aiSprayNeeded" text="IA stropește doar unde e nevoie" />
+        <text name="fh_setting_aiSprayNeeded_desc" text="Activat: ajutoarele IA cu fungicid sau insecticid stropesc doar culturile în creștere de pe parcelele încă neprotejate și focarele, restul contează ca făcut, ceea ce economisește produs. Dezactivat: stropesc toată parcela, ca cu orice alt lichid." />
+        <text name="fh_setting_fieldInfoRisk" text="Riscul în informațiile parcelei" />
+        <text name="fh_setting_fieldInfoRisk_desc" text="Dacă informațiile parcelei arată riscul de boli și dăunători al parcelei și cauza lui principală. Dezactivat: se văd doar amenințările și protecția, așa că fereastra rămâne mai scurtă." />
+        <text name="fh_settings_tab" text="Field Health" />
+        <text name="fh_setting_enabled" text="Tot modul" />
+        <text name="fh_setting_enabled_desc" text="Pornește sau oprește Field Health. Dezactivat: nu mai apar boli sau dăunători noi, cele existente nu mai evoluează și nu mai distrug culturile, informațiile parcelei, datele parcelei pe hartă și minimapa nu mai arată nimic din mod, iar ajutoarele IA stropesc ca fără el. Datele parcelelor tale se păstrează, așa că totul continuă când pornești din nou modul." />
         <text name="fh_setting_diseaseChance" text="Șansa de boală pe sezon" />
         <text name="fh_setting_diseaseChance_desc" text="Șansa de bază ca o parcelă lucrată normal să se îmbolnăvească într-un sezon (de la semănat la recoltare). Este doar un punct de plecare: o tehnologie bună (gunoi de grajd, culturi intermediare, rotația culturilor, pH și azot potrivite) o scade, neglijența (fără fertilizare, monocultură, fără arătură, sol acid) o crește de câteva ori. Stropirea cu fungicid înainte să apară o boală o reduce la zero până la recoltare. 0% dezactivează bolile." />
         <text name="fh_setting_pestChance" text="Șansa de dăunători pe sezon" />
@@ -239,6 +259,8 @@
         <text name="fh_set_rarely" text="Rar" />
         <text name="fh_set_sometimes" text="Uneori" />
         <text name="fh_set_often" text="Des" />
+        <text name="fh_set_firstYear" text="Primul an" />
+        <text name="fh_set_firstTwoYears" text="Primii doi ani" />
 
         <!-- Shop -->
         <text name="fh_fillType_insecticide" text="Insecticid" />
@@ -346,7 +368,7 @@ O amenințare nu apare într-o zi oarecare. În fiecare zi modul calculează pre
         <text name="fh_help_pf_01" text="Cu Agricultură de precizie, Field Health funcționează ca o extensie a lui și folosește hărțile lui de sol. În loc de fertilizare în general contează azotul comparat cu valoarea țintă, iar în loc de aplicarea varului în general, pH-ul solului." />
         <text name="fh_help_pf_03" text="Cea mai bună protecție este aceeași muncă pe care o faci pentru producție: fertilizare până la valoarea țintă, aplicarea varului până la pH-ul optim și culturi intermediare. Comanda de consolă fhPrecisionFarming scrie în log cum citește modul datele din Agricultură de precizie." />
         <text name="fh_help_settings" text="Setări" />
-        <text name="fh_help_settings_01" text="Setările modului se află în ESC &gt; Setări &gt; Joc, în secțiunea „Field Health – boli și dăunători”. Sunt salvate odată cu jocul. În multiplayer doar administratorul serverului le poate schimba. Treci cu mouse-ul peste o opțiune ca să vezi descrierea ei." />
+        <text name="fh_help_settings_01" text="Setările modului se află în ESC &gt; Setări, într-o filă proprie numită „Field Health”, împărțită în secțiuni. Sunt salvate odată cu jocul. Le vede orice jucător, dar în multiplayer doar administratorul le poate schimba (pe un server dedicat, conectează-te mai întâi ca administrator). Treci cu mouse-ul peste o opțiune ca să vezi descrierea ei." />
         <text name="fh_help_tips" text="Sfaturi" />
         <text name="fh_help_tips_01" text="Un plan pentru parcele sănătoase" />
         <text name="fh_help_tips_02" text="1. Fertilizează după nevoie, aplică var și nu semăna aceeași cultură doi ani la rând. Între culturile principale seamănă o cultură intermediară.

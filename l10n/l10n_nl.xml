@@ -163,8 +163,28 @@
         <!-- Settings -->
         <text name="fh_config_brand" text="Merk" />
         <text name="fh_settings_header" text="Field Health – ziekten en plagen" />
-        <text name="fh_setting_enabled" text="Gewasbedreigingen" />
-        <text name="fh_setting_enabled_desc" text="Hoofdschakelaar van de mod. Staat hij uit, dan verschijnen er geen nieuwe ziekten of plagen en ontwikkelen de bestaande zich niet verder en vernietigen ze geen gewas meer. Spuiten werkt nog wel, zodat je kunt opruimen wat er op je velden over is." />
+        <text name="fh_settings_adminOnly" text="Alleen de beheerder kan deze instellingen wijzigen." />
+        <text name="fh_settings_section_general" text="Algemeen" />
+        <text name="fh_settings_section_chances" text="Kans op bedreigingen" />
+        <text name="fh_settings_section_development" text="Ontwikkeling van bedreigingen" />
+        <text name="fh_settings_section_spraying" text="Spuiten en bescherming" />
+        <text name="fh_settings_section_prices" text="Prijzen" />
+        <text name="fh_settings_section_display" text="Weergave" />
+        <text name="fh_setting_diseases" text="Ziekten" />
+        <text name="fh_setting_diseases_desc" text="Of gewasziekten actief zijn. Uit: er verschijnen geen ziekten, die op je velden verdwijnen de volgende dag en fungicide is niet nodig. Plagen worden niet beïnvloed." />
+        <text name="fh_setting_pests" text="Plagen" />
+        <text name="fh_setting_pests_desc" text="Of plagen actief zijn. Uit: er verschijnen geen plagen, die op je velden verdwijnen de volgende dag en insecticide is niet nodig. Ziekten worden niet beïnvloed." />
+        <text name="fh_setting_gracePeriod" text="Rustige start" />
+        <text name="fh_setting_gracePeriod_desc" text="In de eerste jaren van het spel verschijnen geen nieuwe ziekten of plagen, zodat je eerst je boerderij op gang kunt brengen. Eerste jaar en Eerste twee jaar tellen volgens het jaar in de spelkalender, dus in een oudere opslag kan de rustige start al voorbij zijn. Bedreigingen die al op je velden staan, ontwikkelen zich gewoon verder. Uit: bedreigingen kunnen vanaf het begin verschijnen." />
+        <text name="fh_setting_precisionFarming" text="Gegevens van Precisielandbouw" />
+        <text name="fh_setting_precisionFarming_desc" text="Of de stikstof-, pH- en bodemkaarten van Precisielandbouw het risico op bedreigingen veranderen. Uit: de mod gebruikt in plaats daarvan de basisgegevens van het veld uit het spel, zoals zonder Precisielandbouw. Zonder Precisielandbouw verandert deze instelling niets." />
+        <text name="fh_setting_aiSprayNeeded" text="AI spuit alleen waar nodig" />
+        <text name="fh_setting_aiSprayNeeded_desc" text="Aan: AI-helpers met fungicide of insecticide spuiten alleen groeiende gewassen op velden die nog niet beschermd zijn en plekken met bedreigingen, de rest telt als klaar, wat middel bespaart. Uit: ze spuiten het hele veld, net als met elke andere vloeistof." />
+        <text name="fh_setting_fieldInfoRisk" text="Risico in de veldinfo" />
+        <text name="fh_setting_fieldInfoRisk_desc" text="Of de veldinfo het risico op ziekten en plagen van het veld en de belangrijkste oorzaak toont. Uit: alleen bedreigingen en bescherming worden getoond, zo blijft het venster korter." />
+        <text name="fh_settings_tab" text="Field Health" />
+        <text name="fh_setting_enabled" text="Volledige mod" />
+        <text name="fh_setting_enabled_desc" text="Zet Field Health aan of uit. Uit: er verschijnen geen nieuwe ziekten of plagen, bestaande ontwikkelen zich niet verder en vernietigen geen gewas meer, de veldinfo, de veldgegevens op de kaart en de minikaart tonen niets van de mod, en AI-helpers spuiten zoals zonder de mod. De gegevens van je velden blijven bewaard, dus alles gaat verder zodra je de mod weer aanzet." />
         <text name="fh_setting_diseaseChance" text="Ziektekans per seizoen" />
         <text name="fh_setting_diseaseChance_desc" text="Basiskans dat een normaal bewerkt veld in één seizoen (van zaaien tot oogsten) een ziekte krijgt. Dit is alleen een startpunt: goede zorg (mest, groenbemesters, vruchtwisseling, juiste pH en stikstof) verlaagt hem, verwaarlozing (geen bemesting, monocultuur, niet ploegen, zure bodem) verhoogt hem meerdere keren. Fungicide spuiten voordat een ziekte verschijnt, brengt hem tot de oogst terug naar nul. 0% schakelt ziekten uit." />
         <text name="fh_setting_pestChance" text="Plaagkans per seizoen" />
@@ -239,6 +259,8 @@
         <text name="fh_set_rarely" text="Zelden" />
         <text name="fh_set_sometimes" text="Soms" />
         <text name="fh_set_often" text="Vaak" />
+        <text name="fh_set_firstYear" text="Eerste jaar" />
+        <text name="fh_set_firstTwoYears" text="Eerste twee jaar" />
 
         <!-- Shop -->
         <text name="fh_fillType_insecticide" text="Insecticide" />
@@ -346,7 +368,7 @@ Een bedreiging verschijnt niet op een willekeurige dag. Elke dag berekent de mod
         <text name="fh_help_pf_01" text="Met Precisielandbouw werkt Field Health als uitbreiding ervan en gebruikt het de bodemkaarten. In plaats van bemesting in het algemeen telt de stikstof vergeleken met de streefwaarde, en in plaats van bekalking in het algemeen de pH van de bodem." />
         <text name="fh_help_pf_03" text="De beste bescherming is hetzelfde werk dat je voor de opbrengst doet: bemesten tot de streefwaarde, bekalken tot de optimale pH en groenbemesters. Het consolecommando fhPrecisionFarming schrijft in het logboek hoe de mod de gegevens van Precisielandbouw leest." />
         <text name="fh_help_settings" text="Instellingen" />
-        <text name="fh_help_settings_01" text="Je vindt de instellingen van de mod in ESC &gt; Instellingen &gt; Spel, in de sectie “Field Health – ziekten en plagen”. Ze worden met de savegame opgeslagen. In multiplayer kan alleen de beheerder van de server ze veranderen. Ga met de muis over een optie om de beschrijving te zien." />
+        <text name="fh_help_settings_01" text="Je vindt de instellingen van de mod in ESC &gt; Instellingen, op een eigen tabblad “Field Health”, verdeeld in secties. Ze worden met de savegame opgeslagen. Elke speler ziet ze, maar in multiplayer kan alleen de beheerder ze veranderen (op een dedicated server log je eerst in als beheerder). Ga met de muis over een optie om de beschrijving te zien." />
         <text name="fh_help_tips" text="Tips" />
         <text name="fh_help_tips_01" text="Een plan voor gezonde velden" />
         <text name="fh_help_tips_02" text="1. Bemest naar behoefte, bekalk en zaai niet twee jaar achter elkaar hetzelfde gewas. Zaai een groenbemester tussen de hoofdgewassen.

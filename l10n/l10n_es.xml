@@ -163,8 +163,28 @@
         <!-- Settings -->
         <text name="fh_config_brand" text="Marca" />
         <text name="fh_settings_header" text="Field Health – enfermedades y plagas" />
-        <text name="fh_setting_enabled" text="Amenazas para los cultivos" />
-        <text name="fh_setting_enabled_desc" text="Interruptor principal del mod. Si está desactivado, no aparecen nuevas enfermedades ni plagas, y las que ya hay dejan de desarrollarse y de destruir cultivos. La pulverización sigue funcionando, así que puedes eliminar lo que quede en tus campos." />
+        <text name="fh_settings_adminOnly" text="Solo el administrador puede cambiar estos ajustes." />
+        <text name="fh_settings_section_general" text="General" />
+        <text name="fh_settings_section_chances" text="Probabilidad de amenazas" />
+        <text name="fh_settings_section_development" text="Evolución de las amenazas" />
+        <text name="fh_settings_section_spraying" text="Pulverización y protección" />
+        <text name="fh_settings_section_prices" text="Precios" />
+        <text name="fh_settings_section_display" text="Visualización" />
+        <text name="fh_setting_diseases" text="Enfermedades" />
+        <text name="fh_setting_diseases_desc" text="Si las enfermedades de los cultivos están activas. Desactivado: no aparecen enfermedades, las de tus campos desaparecen al día siguiente y el fungicida no hace falta. Las plagas no se ven afectadas." />
+        <text name="fh_setting_pests" text="Plagas" />
+        <text name="fh_setting_pests_desc" text="Si las plagas están activas. Desactivado: no aparecen plagas, las de tus campos desaparecen al día siguiente y el insecticida no hace falta. Las enfermedades no se ven afectadas." />
+        <text name="fh_setting_gracePeriod" text="Inicio tranquilo" />
+        <text name="fh_setting_gracePeriod_desc" text="Sin enfermedades ni plagas nuevas en los primeros años de juego, para que primero puedas poner en marcha tu granja. Primer año y Dos primeros años se cuentan por el año del calendario del juego, así que en una partida antigua el inicio tranquilo puede haber terminado ya. Las amenazas que ya están en tus campos evolucionan con normalidad. Desactivado: las amenazas pueden aparecer desde el principio." />
+        <text name="fh_setting_precisionFarming" text="Datos de Precision Farming" />
+        <text name="fh_setting_precisionFarming_desc" text="Si los mapas de nitrógeno, pH y suelo de Precision Farming cambian el riesgo de amenazas. Desactivado: el mod usa en su lugar los datos básicos del campo del juego, como sin Precision Farming. Sin Precision Farming este ajuste no cambia nada." />
+        <text name="fh_setting_aiSprayNeeded" text="La IA solo pulveriza donde hace falta" />
+        <text name="fh_setting_aiSprayNeeded_desc" text="Activado: los ayudantes de IA con fungicida o insecticida pulverizan solo los cultivos en crecimiento de campos aún sin protección y las zonas con amenazas; el resto cuenta como hecho, lo que ahorra producto. Desactivado: pulverizan todo el campo, como con cualquier otro líquido." />
+        <text name="fh_setting_fieldInfoRisk" text="Riesgo en la información del campo" />
+        <text name="fh_setting_fieldInfoRisk_desc" text="Si el recuadro de información del campo muestra el riesgo de enfermedades y plagas del campo y su causa principal. Desactivado: solo se muestran las amenazas y la protección, así el recuadro queda más corto." />
+        <text name="fh_settings_tab" text="Field Health" />
+        <text name="fh_setting_enabled" text="Mod completo" />
+        <text name="fh_setting_enabled_desc" text="Activa o desactiva Field Health. Desactivado: no aparecen enfermedades ni plagas nuevas, las existentes dejan de evolucionar y de destruir cultivos, el recuadro de información del campo, los datos del campo en el mapa y el minimapa no muestran nada del mod, y los ayudantes de IA pulverizan como sin él. Los datos de tus campos se conservan, así que todo continúa cuando vuelves a activar el mod." />
         <text name="fh_setting_diseaseChance" text="Probabilidad de enfermedad por temporada" />
         <text name="fh_setting_diseaseChance_desc" text="Probabilidad base de que un campo cultivado con normalidad sufra una enfermedad durante una temporada (de la siembra a la cosecha). Es solo un punto de partida: un buen manejo (estiércol, cultivos intermedios, rotación, pH y nitrógeno adecuados) la reduce, y el descuido (sin abonar, monocultivo, sin arar, suelo ácido) la multiplica. Aplicar fungicida antes de que aparezca una enfermedad la reduce a cero hasta la cosecha. 0 % desactiva las enfermedades." />
         <text name="fh_setting_pestChance" text="Probabilidad de plagas por temporada" />
@@ -239,6 +259,8 @@
         <text name="fh_set_rarely" text="Rara vez" />
         <text name="fh_set_sometimes" text="A veces" />
         <text name="fh_set_often" text="A menudo" />
+        <text name="fh_set_firstYear" text="Primer año" />
+        <text name="fh_set_firstTwoYears" text="Dos primeros años" />
 
         <!-- Shop -->
         <text name="fh_fillType_insecticide" text="Insecticida" />
@@ -346,7 +368,7 @@ Una amenaza no aparece un día al azar. Cada día, el mod calcula la presión de
         <text name="fh_help_pf_01" text="Con Precision Farming, Field Health funciona como una extensión suya y usa sus mapas de suelo. En lugar del abonado en general cuenta el nitrógeno comparado con el objetivo, y en lugar del encalado en general, el pH del suelo." />
         <text name="fh_help_pf_03" text="La mejor protección es el mismo trabajo que haces por el rendimiento: abonar hasta el objetivo, encalar hasta el pH óptimo y sembrar cultivos intermedios. El comando de consola fhPrecisionFarming escribe en el log cómo lee el mod los datos de Precision Farming." />
         <text name="fh_help_settings" text="Ajustes" />
-        <text name="fh_help_settings_01" text="Los ajustes del mod están en ESC &gt; Ajustes &gt; Juego, en la sección «Field Health – enfermedades y plagas». Se guardan con la partida. En multijugador, solo el administrador del servidor puede cambiarlos. Pasa el cursor por una opción para ver su descripción." />
+        <text name="fh_help_settings_01" text="Los ajustes del mod están en ESC &gt; Ajustes, en una pestaña propia llamada «Field Health», dividida en secciones. Se guardan con la partida. Todos los jugadores los ven, pero en multijugador solo el administrador puede cambiarlos (en un servidor dedicado, inicia sesión primero como administrador). Pasa el cursor por una opción para ver su descripción." />
         <text name="fh_help_tips" text="Consejos" />
         <text name="fh_help_tips_01" text="Un plan para tener campos sanos" />
         <text name="fh_help_tips_02" text="1. Abona según las necesidades, encala y no siembres el mismo cultivo dos años seguidos. Siembra un cultivo intermedio entre los cultivos principales.

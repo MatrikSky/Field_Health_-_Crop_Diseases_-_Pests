@@ -73,11 +73,13 @@ end
 
 -- AI helpers with fungicide or insecticide treat growing crops of fields that
 -- are not protected yet and remaining threats; everything else counts as done.
+-- With the setting off, or that kind of threat switched off, they spray like
+-- without the mod.
 local getAIAreaOfVehicle = AIVehicleUtil.getAIAreaOfVehicle
 AIVehicleUtil.getAIAreaOfVehicle = function(vehicle, startX, startZ, widthX, widthZ, heightX, heightZ, ...)
     local area, total = getAIAreaOfVehicle(vehicle, startX, startZ, widthX, widthZ, heightX, heightZ, ...)
     local category = active() and FHProducts:getVehicleCategory(vehicle) or nil
-    if category == nil then
+    if category == nil or not FHSettings.isOn("aiSprayNeeded") or not FHSettings.isCategoryOn(category) then
         return area, total
     end
     local needed = FHUtil.protect("AI sprayer", FHSimulation.isSprayNeeded, FHSimulation, startX, startZ, widthX, widthZ, heightX, heightZ, category)
@@ -101,13 +103,13 @@ end
 ---------------------------------------------------------------------------
 
 PlayerHUDUpdater.fieldAddFarmland = Utils.appendedFunction(PlayerHUDUpdater.fieldAddFarmland, function(updater, data, box)
-    if FHSettings.isOn("fieldInfo") then
+    if FHSettings.isOn("enabled") and FHSettings.isOn("fieldInfo") then
         FHUtil.protect("field info", FHFieldInfo.addThreatLines, FHFieldInfo, box)
     end
 end)
 
 PlayerHUDUpdater.fieldAddField = Utils.appendedFunction(PlayerHUDUpdater.fieldAddField, function(updater, fieldState, box)
-    if FHSettings.isOn("fieldInfo") then
+    if FHSettings.isOn("enabled") and FHSettings.isOn("fieldInfo") then
         FHUtil.protect("field info", FHFieldInfo.addCropLines, FHFieldInfo, fieldState, box)
     end
 end)

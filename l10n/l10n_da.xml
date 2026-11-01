@@ -163,8 +163,28 @@
         <!-- Settings -->
         <text name="fh_config_brand" text="Mærke" />
         <text name="fh_settings_header" text="Field Health – sygdomme og skadedyr" />
-        <text name="fh_setting_enabled" text="Trusler mod afgrøden" />
-        <text name="fh_setting_enabled_desc" text="Moddens hovedkontakt. Når den er slået fra, kommer der ingen nye sygdomme eller skadedyr, og de eksisterende holder op med at udvikle sig og ødelægge afgrøden. Sprøjtning virker stadig, så du kan fjerne det, der er tilbage på dine marker." />
+        <text name="fh_settings_adminOnly" text="Kun administratoren kan ændre disse indstillinger." />
+        <text name="fh_settings_section_general" text="Generelt" />
+        <text name="fh_settings_section_chances" text="Chance for trusler" />
+        <text name="fh_settings_section_development" text="Truslernes udvikling" />
+        <text name="fh_settings_section_spraying" text="Sprøjtning og beskyttelse" />
+        <text name="fh_settings_section_prices" text="Priser" />
+        <text name="fh_settings_section_display" text="Visning" />
+        <text name="fh_setting_diseases" text="Sygdomme" />
+        <text name="fh_setting_diseases_desc" text="Om plantesygdomme er aktive. Fra: der opstår ingen sygdomme, dem på dine marker forsvinder dagen efter, og fungicid er ikke nødvendigt. Skadedyr påvirkes ikke." />
+        <text name="fh_setting_pests" text="Skadedyr" />
+        <text name="fh_setting_pests_desc" text="Om skadedyr er aktive. Fra: der opstår ingen skadedyr, dem på dine marker forsvinder dagen efter, og insekticid er ikke nødvendigt. Sygdomme påvirkes ikke." />
+        <text name="fh_setting_gracePeriod" text="Rolig start" />
+        <text name="fh_setting_gracePeriod_desc" text="Ingen nye sygdomme eller skadedyr i spillets første år, så du først kan få gang i gården. Første år og Første to år tælles efter året i spillets kalender, så i et ældre gemt spil kan den rolige start allerede være slut. Trusler, der allerede er på dine marker, udvikler sig som normalt. Fra: trusler kan opstå fra starten." />
+        <text name="fh_setting_precisionFarming" text="Data fra Præcisionslandbrug" />
+        <text name="fh_setting_precisionFarming_desc" text="Om kvælstof-, pH- og jordkortene fra Præcisionslandbrug ændrer risikoen for trusler. Fra: modden bruger i stedet markens grunddata fra spillet, som uden Præcisionslandbrug. Uden Præcisionslandbrug ændrer denne indstilling intet." />
+        <text name="fh_setting_aiSprayNeeded" text="AI sprøjter kun, hvor det trængs" />
+        <text name="fh_setting_aiSprayNeeded_desc" text="Til: AI-hjælpere med fungicid eller insekticid sprøjter kun voksende afgrøder på marker, der endnu ikke er beskyttet, og pletter med trusler, resten tæller som færdigt, hvilket sparer middel. Fra: de sprøjter hele marken som med enhver anden væske." />
+        <text name="fh_setting_fieldInfoRisk" text="Risiko i markinfo" />
+        <text name="fh_setting_fieldInfoRisk_desc" text="Om markinfo viser markens risiko for sygdomme og skadedyr og den vigtigste årsag. Fra: kun trusler og beskyttelse vises, så boksen bliver kortere." />
+        <text name="fh_settings_tab" text="Field Health" />
+        <text name="fh_setting_enabled" text="Hele modden" />
+        <text name="fh_setting_enabled_desc" text="Slår Field Health til eller fra. Fra: der opstår ingen nye sygdomme eller skadedyr, de eksisterende udvikler sig ikke længere og ødelægger ikke afgrøden, markinfo, markens oplysninger på kortet og minikortet viser intet fra modden, og AI-hjælpere sprøjter som uden den. Dine markers data bevares, så alt fortsætter, når du slår modden til igen." />
         <text name="fh_setting_diseaseChance" text="Sygdomschance pr. sæson" />
         <text name="fh_setting_diseaseChance_desc" text="Grundchancen for, at en normalt dyrket mark får en sygdom i løbet af én sæson (fra såning til høst). Det er kun et udgangspunkt: god dyrkning (møg, efterafgrøder, sædskifte, rigtig pH og kvælstof) sænker den, forsømmelse (ingen gødning, monokultur, ingen pløjning, sur jord) hæver den flere gange. Sprøjtning med svampemiddel, før en sygdom viser sig, sænker den til nul indtil høst. 0 % slår sygdomme fra." />
         <text name="fh_setting_pestChance" text="Skadedyrschance pr. sæson" />
@@ -239,6 +259,8 @@
         <text name="fh_set_rarely" text="Sjældent" />
         <text name="fh_set_sometimes" text="Nogle gange" />
         <text name="fh_set_often" text="Ofte" />
+        <text name="fh_set_firstYear" text="Første år" />
+        <text name="fh_set_firstTwoYears" text="Første to år" />
 
         <!-- Shop -->
         <text name="fh_fillType_insecticide" text="Insektmiddel" />
@@ -346,7 +368,7 @@ En trussel viser sig ikke på en tilfældig dag. Hver dag beregner modden smitte
         <text name="fh_help_pf_01" text="Med Præcisionslandbrug fungerer Field Health som en udvidelse af det og bruger dets jordkort. I stedet for gødskning generelt tæller kvælstoffet sammenlignet med målet, og i stedet for kalkning generelt jordens pH." />
         <text name="fh_help_pf_03" text="Den bedste beskyttelse er det samme arbejde, du gør for udbyttet: gødskning til målet, kalkning til optimal pH og efterafgrøder. Konsolkommandoen fhPrecisionFarming skriver i loggen, hvordan modden aflæser data fra Præcisionslandbrug." />
         <text name="fh_help_settings" text="Indstillinger" />
-        <text name="fh_help_settings_01" text="Du finder moddens indstillinger under ESC &gt; Indstillinger &gt; Spil i afsnittet “Field Health – sygdomme og skadedyr”. De gemmes med det gemte spil. I multiplayer kan kun serverens administrator ændre dem. Hold markøren over en mulighed for at se dens beskrivelse." />
+        <text name="fh_help_settings_01" text="Du finder moddens indstillinger under ESC &gt; Indstillinger på en egen fane, “Field Health”, delt op i afsnit. De gemmes med det gemte spil. Alle spillere kan se dem, men i multiplayer kan kun administratoren ændre dem (på en dedikeret server skal du først logge ind som administrator). Hold markøren over en mulighed for at se dens beskrivelse." />
         <text name="fh_help_tips" text="Tips" />
         <text name="fh_help_tips_01" text="En plan for sunde marker" />
         <text name="fh_help_tips_02" text="1. Gød efter behov, kalk, og så ikke den samme afgrøde to år i træk. Så en efterafgrøde mellem hovedafgrøderne.

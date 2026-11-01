@@ -163,8 +163,28 @@
         <!-- Settings -->
         <text name="fh_config_brand" text="Marka" />
         <text name="fh_settings_header" text="Field Health – hastalıklar ve zararlılar" />
-        <text name="fh_setting_enabled" text="Ürün tehditleri" />
-        <text name="fh_setting_enabled_desc" text="Modun ana anahtarı. Kapalıyken yeni hastalık ve zararlı çıkmaz, mevcut olanlar da gelişmeyi ve ürünü yok etmeyi bırakır. İlaçlama yine çalışır, böylece tarlalarında kalanları temizleyebilirsin." />
+        <text name="fh_settings_adminOnly" text="Bu ayarları yalnızca yönetici değiştirebilir." />
+        <text name="fh_settings_section_general" text="Genel" />
+        <text name="fh_settings_section_chances" text="Tehdit olasılığı" />
+        <text name="fh_settings_section_development" text="Tehditlerin gelişimi" />
+        <text name="fh_settings_section_spraying" text="İlaçlama ve koruma" />
+        <text name="fh_settings_section_prices" text="Fiyatlar" />
+        <text name="fh_settings_section_display" text="Görünüm" />
+        <text name="fh_setting_diseases" text="Hastalıklar" />
+        <text name="fh_setting_diseases_desc" text="Ürün hastalıklarının etkin olup olmadığı. Kapalı: hastalık çıkmaz, tarlalarındakiler ertesi gün kaybolur ve fungisite gerek kalmaz. Zararlılar bundan etkilenmez." />
+        <text name="fh_setting_pests" text="Zararlılar" />
+        <text name="fh_setting_pests_desc" text="Zararlıların etkin olup olmadığı. Kapalı: zararlı çıkmaz, tarlalarındakiler ertesi gün kaybolur ve insektisite gerek kalmaz. Hastalıklar bundan etkilenmez." />
+        <text name="fh_setting_gracePeriod" text="Sakin başlangıç" />
+        <text name="fh_setting_gracePeriod_desc" text="Oyunun ilk yıllarında yeni hastalık ve zararlı çıkmaz, böylece önce çiftliğini kurabilirsin. İlk yıl ve İlk iki yıl oyun takvimindeki yıla göre sayılır, yani eski bir kayıtta sakin başlangıç çoktan bitmiş olabilir. Tarlalarında zaten olan tehditler normal şekilde gelişir. Kapalı: tehditler en baştan çıkabilir." />
+        <text name="fh_setting_precisionFarming" text="Hassas Tarım verileri" />
+        <text name="fh_setting_precisionFarming_desc" text="Hassas Tarım'ın azot, pH ve toprak haritalarının tehdit riskini değiştirip değiştirmediği. Kapalı: mod bunların yerine oyunun temel tarla verilerini kullanır, Hassas Tarım yokmuş gibi. Hassas Tarım olmadan bu ayar hiçbir şeyi değiştirmez." />
+        <text name="fh_setting_aiSprayNeeded" text="YZ yalnızca gereken yeri ilaçlar" />
+        <text name="fh_setting_aiSprayNeeded_desc" text="Açık: fungisit veya insektisitli YZ işçileri yalnızca henüz korunmayan tarlalardaki büyüyen ürünleri ve tehdit olan yerleri ilaçlar, gerisi yapılmış sayılır ve böylece ilaçtan tasarruf edilir. Kapalı: başka herhangi bir sıvıda olduğu gibi bütün tarlayı ilaçlarlar." />
+        <text name="fh_setting_fieldInfoRisk" text="Tarla bilgisinde risk" />
+        <text name="fh_setting_fieldInfoRisk_desc" text="Tarla bilgisinin tarladaki hastalık ve zararlı riskini ve bunun ana nedenini gösterip göstermediği. Kapalı: yalnızca tehditler ve koruma görünür, böylece kutu daha kısa kalır." />
+        <text name="fh_settings_tab" text="Field Health" />
+        <text name="fh_setting_enabled" text="Modun tamamı" />
+        <text name="fh_setting_enabled_desc" text="Field Health'i açar veya kapatır. Kapalı: yeni hastalık ve zararlı çıkmaz, mevcut olanlar gelişmeyi ve ürünü yok etmeyi bırakır, tarla bilgisi, haritadaki tarla bilgileri ve mini harita moddan hiçbir şey göstermez, YZ işçileri de mod yokmuş gibi ilaçlar. Tarlalarının verileri korunur, modu yeniden açınca her şey kaldığı yerden devam eder." />
         <text name="fh_setting_diseaseChance" text="Sezon başına hastalık şansı" />
         <text name="fh_setting_diseaseChance_desc" text="Normal bakılan bir tarlanın bir sezonda (ekimden hasada kadar) hastalanma temel şansı. Bu yalnızca bir başlangıç noktası: iyi bakım (doğal gübre, ara ürünler, ekim nöbeti, doğru pH ve nitrojen) onu düşürür, ihmal (gübresizlik, monokültür, sürüm yapmamak, asidik toprak) birkaç kat artırır. Hastalık çıkmadan önce fungisit uygulamak şansı hasada kadar sıfıra indirir. %0 hastalıkları kapatır." />
         <text name="fh_setting_pestChance" text="Sezon başına zararlı şansı" />
@@ -239,6 +259,8 @@
         <text name="fh_set_rarely" text="Nadiren" />
         <text name="fh_set_sometimes" text="Bazen" />
         <text name="fh_set_often" text="Sık" />
+        <text name="fh_set_firstYear" text="İlk yıl" />
+        <text name="fh_set_firstTwoYears" text="İlk iki yıl" />
 
         <!-- Shop -->
         <text name="fh_fillType_insecticide" text="İnsektisit" />
@@ -346,7 +368,7 @@ Bir tehdit rastgele bir günde çıkmaz. Mod her gün tarladaki enfeksiyon bask�
         <text name="fh_help_pf_01" text="Hassas Tarım ile birlikte Field Health onun bir uzantısı gibi çalışır ve toprak haritalarını kullanır. Genel olarak gübreleme yerine hedefe göre nitrojen, genel olarak kireçleme yerine toprağın pH değeri sayılır." />
         <text name="fh_help_pf_03" text="En iyi koruma, verim için yaptığın işin aynısıdır: hedefe kadar gübreleme, en uygun pH'a kadar kireçleme ve ara ürünler. fhPrecisionFarming konsol komutu, modun Hassas Tarım verilerini nasıl okuduğunu günlüğe yazar." />
         <text name="fh_help_settings" text="Ayarlar" />
-        <text name="fh_help_settings_01" text="Modun ayarlarını ESC &gt; Ayarlar &gt; Oyun'da, “Field Health – hastalıklar ve zararlılar” bölümünde bulursun. Kayıtla birlikte saklanırlar. Çok oyunculu oyunda onları yalnızca sunucu yöneticisi değiştirebilir. Açıklamasını görmek için bir seçeneğin üzerine gel." />
+        <text name="fh_help_settings_01" text="Modun ayarlarını ESC &gt; Ayarlar'da, bölümlere ayrılmış kendi “Field Health” sekmesinde bulursun. Kayıtla birlikte saklanırlar. Her oyuncu onları görür, ama çok oyunculu oyunda yalnızca yönetici değiştirebilir (özel sunucuda önce yönetici olarak giriş yap). Açıklamasını görmek için bir seçeneğin üzerine gel." />
         <text name="fh_help_tips" text="İpuçları" />
         <text name="fh_help_tips_01" text="Sağlıklı tarlalar için bir plan" />
         <text name="fh_help_tips_02" text="1. İhtiyaca göre gübrele, kireçle ve aynı ürünü iki yıl üst üste ekme. Ana ürünler arasına ara ürün ek.

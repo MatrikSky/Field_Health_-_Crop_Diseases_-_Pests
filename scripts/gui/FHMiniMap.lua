@@ -110,7 +110,7 @@ local function isMinimap(map)
 end
 
 function FHMiniMap:drawOn(map)
-    if self.layerIndex == 0 or not isMinimap(map) or not self.overlay:isReady() then
+    if self.layerIndex == 0 or not FHSettings.isOn("enabled") or not isMinimap(map) or not self.overlay:isReady() then
         return
     end
     -- several hooks may call this in one frame

@@ -52,8 +52,19 @@ function FHFieldInfo:addThreatLines(box)
         return
     end
 
-    local anyThreat = false
+    -- kinds of threats switched off in the settings are left out
+    local categories = {}
     for _, category in ipairs(FHThreats.CATEGORIES) do
+        if FHSettings.isCategoryOn(category) then
+            categories[#categories + 1] = category
+        end
+    end
+    if #categories == 0 then
+        return
+    end
+
+    local anyThreat = false
+    for _, category in ipairs(categories) do
         local text = FHFieldInfo.threatText(entry, category)
         if text ~= nil then
             anyThreat = true
@@ -64,20 +75,26 @@ function FHFieldInfo:addThreatLines(box)
         box:addLine(FHUtil.text("fh_hud_threats"), FHUtil.text("fh_hud_none"))
     end
 
-    for _, category in ipairs(FHThreats.CATEGORIES) do
-        local slot = FHSimulation.SLOT[category]
-        local risk = entry[slot.risk] or 1
-        box:addLine(FHUtil.text(FHFieldInfo.LABELS[category].risk), FHFieldInfo.riskText(risk))
-        if entry[slot.cause] ~= nil and risk > FHFieldInfo.CAUSE_FROM then
-            box:addLine(FHUtil.text("fh_hud_cause"), FHUtil.text("fh_cause_" .. entry[slot.cause]))
+    if FHSettings.isOn("fieldInfoRisk") then
+        for _, category in ipairs(categories) do
+            local slot = FHSimulation.SLOT[category]
+            local risk = entry[slot.risk] or 1
+            box:addLine(FHUtil.text(FHFieldInfo.LABELS[category].risk), FHFieldInfo.riskText(risk))
+            if entry[slot.cause] ~= nil and risk > FHFieldInfo.CAUSE_FROM then
+                box:addLine(FHUtil.text("fh_hud_cause"), FHUtil.text("fh_cause_" .. entry[slot.cause]))
+            end
         end
     end
 
-    if (entry.diseaseProtection or 0) <= 0 and (entry.pestProtection or 0) <= 0 then
+    local anyProtection = false
+    for _, category in ipairs(categories) do
+        anyProtection = anyProtection or FHSimulation:getProtection(entry, category) > 0
+    end
+    if not anyProtection then
         box:addLine(FHUtil.text("fh_hud_protection"), FHUtil.text("fh_hud_none"))
         return
     end
-    for _, category in ipairs(FHThreats.CATEGORIES) do
+    for _, category in ipairs(categories) do
         local share = FHSimulation:getProtection(entry, category)
         local text = FHUtil.text("fh_hud_none")
         if share >= FHSettings.get("protectionThreshold") then

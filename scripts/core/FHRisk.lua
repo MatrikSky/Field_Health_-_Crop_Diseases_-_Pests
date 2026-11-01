@@ -184,7 +184,7 @@ function FHRisk.getFieldWork(snapshot, entry)
     local harvest = FHRisk.getHarvestFactors(snapshot)
     local work = {}
 
-    if FHPrecisionFarming.isActive() then
+    if FHPrecisionFarming.isActive() and FHSettings.isOn("precisionFarming") then
         -- Precision Farming keeps nitrogen and pH in its own maps; the vanilla
         -- levels say nothing then. Its maps give nitrogen deficit or excess
         -- (60 kg N/ha off target counts fully), soil acidity and soil type.

@@ -10,35 +10,49 @@ local PRICES_LARGE = {200, 300, 400, 500, 600, 700, 800, 900, 1000, 1200, 1500, 
 local CHANCES = {0, 0.05, 0.10, 0.15, 0.20, 0.25, 0.30, 0.40, 0.50}
 local RATES = {0.25, 0.5, 0.75, 1, 1.25, 1.5, 2}
 
+local ON_OFF = {"fh_set_on", "fh_set_off"}
+
 -- Each option is a list of values; the savegame keeps the value, the network
 -- and the menu use its index. format: "percent", "money" or a list of text keys.
+-- section: the part of the settings tab the option is shown in. Options added
+-- after 1.2 default to the behaviour before them, so older savegames play on
+-- the same way.
 FHSettings.OPTIONS = {
-    {name = "enabled", values = {1, 0}, format = {"fh_set_on", "fh_set_off"}, default = 1},
-    {name = "diseaseChance", values = CHANCES, format = "percent", default = 4},
-    {name = "pestChance", values = CHANCES, format = "percent", default = 3},
-    {name = "careInfluence", values = {0, 0.5, 1, 1.5}, format = {"fh_set_none", "fh_set_low", "fh_set_normal", "fh_set_high"}, default = 3},
-    {name = "weatherInfluence", values = {0, 0.5, 1, 1.5}, format = {"fh_set_none", "fh_set_low", "fh_set_normal", "fh_set_high"}, default = 3},
-    {name = "stubbleRisk", values = {1, 0}, format = {"fh_set_on", "fh_set_off"}, default = 1},
-    {name = "fodderCrops", values = {1, 0}, format = {"fh_set_on", "fh_set_off"}, default = 2},
-    {name = "progression", values = {1.0, 0.5, 0.25}, format = {"fh_set_slow", "fh_set_normalPace", "fh_set_fast"}, default = 2},
-    {name = "spread", values = {0.5, 1, 2}, format = {"fh_set_small", "fh_set_medium", "fh_set_large"}, default = 2},
-    {name = "patchSize", values = {0.6, 1, 1.5}, format = {"fh_set_patchSmall", "fh_set_patchNormal", "fh_set_patchLarge"}, default = 2},
-    {name = "neighbourSpread", values = {0, 0.5, 1, 2}, format = {"fh_set_off", "fh_set_rarely", "fh_set_sometimes", "fh_set_often"}, default = 3},
-    {name = "damage", values = {0, 1, 3, 6}, format = {"fh_set_off", "fh_set_damageLow", "fh_set_damageNormal", "fh_set_damageHigh"}, default = 3},
-    {name = "protectionThreshold", values = {0.75, 0.80, 0.85, 0.90, 0.95}, format = "percent", default = 4},
-    {name = "protectionDuration", values = {0, 2, 1, 0.5}, format = {"fh_set_untilHarvest", "fh_set_twoMonths", "fh_set_oneMonth", "fh_set_halfMonth"}, default = 1},
-    {name = "fungicideUsage", values = RATES, format = "percent", default = 4},
-    {name = "insecticideUsage", values = RATES, format = "percent", default = 4},
-    {name = "fungicidePrice", values = PRICES_SMALL, format = "money", default = 5},
-    {name = "insecticidePrice", values = PRICES_SMALL, format = "money", default = 8},
-    {name = "fungicideCanisterPrice", values = PRICES_MEDIUM, format = "money", default = 6},
-    {name = "insecticideCanisterPrice", values = PRICES_MEDIUM, format = "money", default = 9},
-    {name = "fungicideCanister20Price", values = PRICES_LARGE, format = "money", default = 7},
-    {name = "insecticideCanister20Price", values = PRICES_LARGE, format = "money", default = 10},
-    {name = "farmLimit", values = {0, 1, 2, 3, 5, 10}, format = {"fh_set_unlimited", "1", "2", "3", "5", "10"}, default = 1},
-    {name = "notifications", values = {1, 0}, format = {"fh_set_on", "fh_set_off"}, default = 1},
-    {name = "fieldInfo", values = {1, 0}, format = {"fh_set_on", "fh_set_off"}, default = 1}
+    {name = "enabled", section = "general", values = {1, 0}, format = ON_OFF, default = 1},
+    {name = "diseases", section = "general", values = {1, 0}, format = ON_OFF, default = 1},
+    {name = "pests", section = "general", values = {1, 0}, format = ON_OFF, default = 1},
+    {name = "gracePeriod", section = "general", values = {0, 1, 2}, format = {"fh_set_off", "fh_set_firstYear", "fh_set_firstTwoYears"}, default = 1},
+    {name = "fodderCrops", section = "general", values = {1, 0}, format = ON_OFF, default = 2},
+    {name = "farmLimit", section = "general", values = {0, 1, 2, 3, 5, 10}, format = {"fh_set_unlimited", "1", "2", "3", "5", "10"}, default = 1},
+    {name = "diseaseChance", section = "chances", values = CHANCES, format = "percent", default = 4},
+    {name = "pestChance", section = "chances", values = CHANCES, format = "percent", default = 3},
+    {name = "careInfluence", section = "chances", values = {0, 0.5, 1, 1.5}, format = {"fh_set_none", "fh_set_low", "fh_set_normal", "fh_set_high"}, default = 3},
+    {name = "weatherInfluence", section = "chances", values = {0, 0.5, 1, 1.5}, format = {"fh_set_none", "fh_set_low", "fh_set_normal", "fh_set_high"}, default = 3},
+    {name = "stubbleRisk", section = "chances", values = {1, 0}, format = ON_OFF, default = 1},
+    {name = "precisionFarming", section = "chances", values = {1, 0}, format = ON_OFF, default = 1},
+    {name = "progression", section = "development", values = {1.0, 0.5, 0.25}, format = {"fh_set_slow", "fh_set_normalPace", "fh_set_fast"}, default = 2},
+    {name = "spread", section = "development", values = {0.5, 1, 2}, format = {"fh_set_small", "fh_set_medium", "fh_set_large"}, default = 2},
+    {name = "patchSize", section = "development", values = {0.6, 1, 1.5}, format = {"fh_set_patchSmall", "fh_set_patchNormal", "fh_set_patchLarge"}, default = 2},
+    {name = "neighbourSpread", section = "development", values = {0, 0.5, 1, 2}, format = {"fh_set_off", "fh_set_rarely", "fh_set_sometimes", "fh_set_often"}, default = 3},
+    {name = "damage", section = "development", values = {0, 1, 3, 6}, format = {"fh_set_off", "fh_set_damageLow", "fh_set_damageNormal", "fh_set_damageHigh"}, default = 3},
+    {name = "protectionThreshold", section = "spraying", values = {0.75, 0.80, 0.85, 0.90, 0.95}, format = "percent", default = 4},
+    {name = "protectionDuration", section = "spraying", values = {0, 2, 1, 0.5}, format = {"fh_set_untilHarvest", "fh_set_twoMonths", "fh_set_oneMonth", "fh_set_halfMonth"}, default = 1},
+    {name = "fungicideUsage", section = "spraying", values = RATES, format = "percent", default = 4},
+    {name = "insecticideUsage", section = "spraying", values = RATES, format = "percent", default = 4},
+    {name = "aiSprayNeeded", section = "spraying", values = {1, 0}, format = ON_OFF, default = 1},
+    {name = "fungicidePrice", section = "prices", values = PRICES_SMALL, format = "money", default = 5},
+    {name = "insecticidePrice", section = "prices", values = PRICES_SMALL, format = "money", default = 8},
+    {name = "fungicideCanisterPrice", section = "prices", values = PRICES_MEDIUM, format = "money", default = 6},
+    {name = "insecticideCanisterPrice", section = "prices", values = PRICES_MEDIUM, format = "money", default = 9},
+    {name = "fungicideCanister20Price", section = "prices", values = PRICES_LARGE, format = "money", default = 7},
+    {name = "insecticideCanister20Price", section = "prices", values = PRICES_LARGE, format = "money", default = 10},
+    {name = "notifications", section = "display", values = {1, 0}, format = ON_OFF, default = 1},
+    {name = "fieldInfo", section = "display", values = {1, 0}, format = ON_OFF, default = 1},
+    {name = "fieldInfoRisk", section = "display", values = {1, 0}, format = ON_OFF, default = 1}
 }
+
+-- Parts of the settings tab, in this order (header text fh_settings_section_<name>).
+FHSettings.SECTIONS = {"general", "chances", "development", "spraying", "prices", "display"}
 
 local optionByName = {}
 for _, option in ipairs(FHSettings.OPTIONS) do
@@ -56,6 +70,11 @@ end
 
 function FHSettings.isOn(name)
     return FHSettings.get(name) == 1
+end
+
+-- Whether threats of a category ("disease" or "pest") are switched on.
+function FHSettings.isCategoryOn(category)
+    return FHSettings.isOn("enabled") and FHSettings.isOn(category == "disease" and "diseases" or "pests")
 end
 
 function FHSettings.getIndex(name)

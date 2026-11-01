@@ -54,7 +54,7 @@ Your fields finally come alive! Field Health adds crop diseases and pests to Far
 - 💧 **One spray cures it:** fungicide or insecticide removes the threat and protects the field until harvest. The AI helper only sprays where it's needed.
 - 🧴 **Real products:** 1 l bottles and 5 l and 20 l canisters with realistic labels from two brands, Opryskex and MST.
 - 🗺️ **A clear overview:** a map page with five layers, a minimap layer, field info lines and notifications.
-- ⚙️ **25 settings:** chances, speed, spread, damage, protection, usage and prices, all in the game menu.
+- ⚙️ **31 settings:** switch the whole mod, diseases or pests off, a calm start, chances, speed, spread, damage, protection, usage and prices, all in a Field Health tab in the game menu.
 - 🌍 **20 languages:** the game language is picked automatically.
 - 🔌 **Plays well with others:** Precision Farming, onions from the Highlands Fishing DLC, mod maps, multiplayer and safe savegames.
 
@@ -562,17 +562,22 @@ You get a notification about a new threat, about the severe stage and about a th
 
 ## 🔧 Settings
 
-You find the mod settings in **ESC > Settings > Game**, in the Field Health section. They are saved with the savegame, and in multiplayer only the server admin can change them. Hover over an option in the game to see its description.
+You find the mod settings in **ESC > Settings**, in their own **Field Health** tab, split into sections: general, chance of threats, development of threats, spraying and protection, prices and display. The first one switches the whole mod off, and diseases and pests can be switched off separately. The settings are saved with the savegame. Every player can see them, but in multiplayer only the admin can change them (on a dedicated server, log in as admin first). Hover over an option in the game to see its description.
 
 | Setting | Values | Default | What it changes |
 |---|---|---|---|
-| Crop threats | on or off | on | switches new threats on or off |
+| Whole mod | on or off | on | switches the whole mod on or off; the field data is kept |
+| Diseases | on or off | on | whether crop diseases are active at all |
+| Pests | on or off | on | whether pests are active at all |
+| Calm start | off, first year or first two years | off | no new threats in the first year or the first two years of the game |
+| Threats on meadows and fodder crops | on or off | off | whether meadows, grass, clover and alfalfa can get threats |
+| Threat limit per farm | unlimited, 1, 2, 3, 5 or 10 | unlimited | how many new threats one farm can get per year |
 | Disease chance per season | 0% to 50% | 15% | disease chance per season on a well farmed field |
 | Pest chance per season | 0% to 50% | 10% | pest chance per season on a well farmed field |
 | Influence of farming | none, low, normal or high | normal | how strongly the way you farm changes the risk |
 | Influence of weather | none, low, normal or high | normal | how strongly the weather of the last days changes the pressure |
 | Risk from stubble | on or off | on | whether unmulched stubble after harvest raises the risk (tramlines never count) |
-| Threats on meadows and fodder crops | on or off | off | whether meadows, grass, clover and alfalfa can get threats |
+| Precision Farming data | on or off | on | whether the nitrogen, pH and soil maps of Precision Farming change the risk |
 | Threat progression | slow, normal or fast | normal | how fast a threat gets worse: every month, half month or quarter of a month |
 | Threat spread | small, medium or large | medium | the largest share of the field a threat can cover: half, normal or twice as much |
 | Patch size | small, normal or large | normal | size of new outbreaks: 0.6 times, normal or 1.5 times |
@@ -582,15 +587,16 @@ You find the mod settings in **ESC > Settings > Game**, in the Field Health sect
 | Spray protection | until harvest, 2 months, 1 month or half a month | until harvest | how long spraying protects |
 | Fungicide rate | 25% to 200% | 100% | fungicide used per hectare; the effect stays the same |
 | Insecticide rate | 25% to 200% | 100% | insecticide used per hectare; the effect stays the same |
+| AI sprays only where needed | on or off | on | whether AI helpers spray only the fields and spots that need it |
 | Fungicide bottle price | 10 to 200 | 50 | shop price of the 1 l bottle |
 | Insecticide bottle price | 10 to 200 | 80 | shop price of the 1 l bottle |
 | Fungicide 5 l canister price | 50 to 600 | 220 | shop price of the 5 l canister |
 | Insecticide 5 l canister price | 50 to 600 | 350 | shop price of the 5 l canister |
 | Fungicide 20 l canister price | 200 to 2,000 | 800 | shop price of the 20 l canister |
 | Insecticide 20 l canister price | 200 to 2,000 | 1,200 | shop price of the 20 l canister |
-| Threat limit per farm | unlimited, 1, 2, 3, 5 or 10 | unlimited | how many new threats one farm can get per year |
 | Threat notifications | on or off | on | notifications about new and severe threats |
 | Field info lines | on or off | on | whether the field info box shows the data of the mod |
+| Risk in the field info | on or off | on | whether the field info box shows the risk and its cause |
 
 <p align="right"><a href="#-contents">⬆️ Back to contents</a></p>
 
@@ -870,6 +876,6 @@ And thanks to everyone who plays the mod, reports bugs and shares ideas.
 
 **Have fun and healthy fields!** 🌱
 
-<sub>Field Health 1.2.1.0 • made by MatrikSky</sub>
+<sub>Field Health 1.3.0.0 • made by MatrikSky</sub>
 
 </div>

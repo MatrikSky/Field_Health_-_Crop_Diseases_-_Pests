@@ -350,22 +350,31 @@ function FHSimulation:processDay(field)
         return
     end
 
-    -- a threat the crop can no longer get (e.g. fodder crops switched off) ends
+    -- a threat the crop can no longer get (e.g. fodder crops or its kind
+    -- switched off in the settings) ends
     for _, category in ipairs(FHThreats.CATEGORIES) do
         local threat = self:getActiveThreat(entry, category)
-        if threat ~= nil and not FHThreats.attacks(threat, snapshot.fruitName) then
+        if threat ~= nil and (not FHSettings.isCategoryOn(category) or not FHThreats.attacks(threat, snapshot.fruitName)) then
             FHFieldMap:removeThreat(field, threat.id)
             self:clearThreat(entry, category)
         end
     end
 
     for _, category in ipairs(FHThreats.CATEGORIES) do
-        if self:getActiveThreat(entry, category) ~= nil then
+        if not FHSettings.isCategoryOn(category) then
+            -- switched off: nothing builds up
+        elseif self:getActiveThreat(entry, category) ~= nil then
             self:advanceThreat(field, entry, category)
         else
             self:buildPressure(field, entry, snapshot, category, evaluations[category])
         end
     end
+end
+
+-- The calm start of a new game: no new threats in its first game years.
+function FHSimulation:isGracePeriod()
+    local years = FHSettings.get("gracePeriod")
+    return years > 0 and FHUtil.getYear() <= years
 end
 
 -- Share of the season pressure each threat of a crop gets: its prevalence
@@ -431,6 +440,10 @@ function FHSimulation:buildPressure(field, entry, snapshot, category, evaluation
     local fieldId = FHUtil.getFieldId(field)
     if self:getProtection(entry, category) >= FHSettings.get("protectionThreshold") then
         FHUtil.trace("field %s: %s infection stopped by spraying", tostring(fieldId), category)
+        return
+    end
+    if self:isGracePeriod() then
+        FHUtil.trace("field %s: %s infection skipped in the calm start of the game", tostring(fieldId), category)
         return
     end
     local farmId = FHUtil.getOwnerFarmId(field)
@@ -593,7 +606,7 @@ end
 -- fields with a crop the threat attacks in this growth stage and month, no
 -- threat of the kind yet this season and no full spray protection.
 function FHSimulation:infectNeighbour(field, threat, x, z)
-    if not FHUtil.isPlayerField(field) or not FHSettings.isOn("enabled") then
+    if not FHUtil.isPlayerField(field) or not FHSettings.isCategoryOn(threat.category) or self:isGracePeriod() then
         return false
     end
     local entry = self:getEntry(FHUtil.getFieldId(field))

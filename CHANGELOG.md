@@ -16,6 +16,27 @@ Versions have four numbers, **A.B.C.D**:
 Raising a number sets the numbers after it to 0: 1.2.3.4 → 1.3.0.0. When a version brings several kinds of changes, the highest one counts.
 **Every version loads the savegames of all earlier versions**, so nothing you own or set in the game is lost by an update.
 
+## [1.3.0.0] - 2026-11-01
+
+### Added
+
+- The settings have their own **Field Health** tab in ESC > Settings, split into sections: General, Chance of threats, Development of threats, Spraying and protection, Prices and Display.
+- New settings, 31 in total:
+  - **Diseases** and **Pests**: switch each kind of threat off on its own. Threats of that kind disappear from your fields the next day.
+  - **Calm start**: no new threats in the first year or the first two years of the game, so you can get your farm going first.
+  - **Precision Farming data**: decide whether its nitrogen, pH and soil maps change the risk.
+  - **AI sprays only where needed**: turn it off and AI helpers spray the whole field with fungicide and insecticide.
+  - **Risk in the field info**: hide the risk lines to keep the field info box short.
+
+### Changed
+
+- The first setting now switches off the whole mod: no new threats, existing ones stop, the field info, the field details on the map and the minimap show nothing of the mod, and AI helpers spray like without it. Your field data is kept for when you switch it back on.
+
+### Fixed
+
+- On dedicated servers players couldn't see the settings, because they were in the game's Game tab, which only admins see. Now every player sees them, and only the admin can change them.
+- When several mods add their own settings tabs, the row of tabs gets slightly smaller text so it fits on the screen instead of running over the buttons on the sides.
+
 ## [1.2.1.0] - 2026-10-29
 
 ### Changed
@@ -74,6 +95,7 @@ The first public release.
 - A map page "Crop protection" with five layers, a minimap layer (Left Alt + \\), field info lines, farmland info and notifications.
 - 25 settings in the game menu, Precision Farming support, onions of the Highlands Fishing DLC, full in-game help, English and Polish, multiplayer.
 
+[1.3.0.0]: https://github.com/MatrikSky/Field_Health_-_Crop_Diseases_-_Pests/releases/tag/v1.3.0.0
 [1.2.1.0]: https://github.com/MatrikSky/Field_Health_-_Crop_Diseases_-_Pests/releases/tag/v1.2.1.0
 [1.2.0.0]: https://github.com/MatrikSky/Field_Health_-_Crop_Diseases_-_Pests/releases/tag/v1.2.0.0
 [1.1.0.0]: https://github.com/MatrikSky/Field_Health_-_Crop_Diseases_-_Pests/releases/tag/v1.1.0.0

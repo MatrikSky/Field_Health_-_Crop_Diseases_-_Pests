@@ -163,8 +163,28 @@
         <!-- Ustawienia -->
         <text name="fh_config_brand" text="Marka" />
         <text name="fh_settings_header" text="Field Health – choroby i szkodniki" />
-        <text name="fh_setting_enabled" text="Zagrożenia upraw" />
-        <text name="fh_setting_enabled_desc" text="Główny włącznik moda. Po wyłączeniu na polach nie pojawią się nowe choroby ani szkodniki, a te, które już są, przestaną się rozwijać i niszczyć uprawę. Opryski działają dalej, więc możesz spokojnie usunąć to, co zostało na polach." />
+        <text name="fh_settings_adminOnly" text="Te ustawienia może zmieniać tylko administrator." />
+        <text name="fh_settings_section_general" text="Ogólne" />
+        <text name="fh_settings_section_chances" text="Szansa zagrożeń" />
+        <text name="fh_settings_section_development" text="Rozwój zagrożeń" />
+        <text name="fh_settings_section_spraying" text="Oprysk i ochrona" />
+        <text name="fh_settings_section_prices" text="Ceny" />
+        <text name="fh_settings_section_display" text="Wyświetlanie" />
+        <text name="fh_setting_diseases" text="Choroby" />
+        <text name="fh_setting_diseases_desc" text="Czy choroby upraw są aktywne. Wyłączone: choroby się nie pojawiają, te na twoich polach znikają następnego dnia i fungicyd nie jest potrzebny. Szkodników to nie dotyczy." />
+        <text name="fh_setting_pests" text="Szkodniki" />
+        <text name="fh_setting_pests_desc" text="Czy szkodniki są aktywne. Wyłączone: szkodniki się nie pojawiają, te na twoich polach znikają następnego dnia i insektycyd nie jest potrzebny. Chorób to nie dotyczy." />
+        <text name="fh_setting_gracePeriod" text="Spokojny start" />
+        <text name="fh_setting_gracePeriod_desc" text="Brak nowych chorób i szkodników w pierwszych latach gry, żebyś najpierw mógł rozkręcić gospodarstwo. Pierwszy rok i Pierwsze dwa lata liczą się według roku w kalendarzu gry, więc w starszym zapisie spokojny start mógł się już skończyć. Zagrożenia, które już są na polach, rozwijają się normalnie. Wyłączone: zagrożenia mogą się pojawić od początku." />
+        <text name="fh_setting_precisionFarming" text="Dane Precision Farming" />
+        <text name="fh_setting_precisionFarming_desc" text="Czy mapy azotu, pH i gleby z Precision Farming zmieniają ryzyko zagrożeń. Wyłączone: mod korzysta z podstawowych danych pola z gry, tak jak bez Precision Farming. Bez Precision Farming to ustawienie nic nie zmienia." />
+        <text name="fh_setting_aiSprayNeeded" text="AI pryska tylko tam, gdzie trzeba" />
+        <text name="fh_setting_aiSprayNeeded_desc" text="Włączone: pomocnicy AI z fungicydem lub insektycydem pryskają tylko rosnące uprawy na polach jeszcze niechronionych i miejsca z zagrożeniami, reszta liczy się jako zrobiona, co oszczędza środek. Wyłączone: pryskają całe pole, jak każdym innym płynem." />
+        <text name="fh_setting_fieldInfoRisk" text="Ryzyko w panelu pola" />
+        <text name="fh_setting_fieldInfoRisk_desc" text="Czy panel informacji o polu pokazuje ryzyko chorób i szkodników na polu oraz jego główną przyczynę. Wyłączone: widać tylko zagrożenia i ochronę, więc panel jest krótszy." />
+        <text name="fh_settings_tab" text="Field Health" />
+        <text name="fh_setting_enabled" text="Cały mod" />
+        <text name="fh_setting_enabled_desc" text="Włącza lub wyłącza Field Health. Wyłączony: nie pojawiają się nowe choroby ani szkodniki, istniejące przestają się rozwijać i niszczyć uprawy, panel informacji o polu, dane pola na mapie i minimapa nie pokazują nic z moda, a pomocnicy AI pryskają jak bez niego. Dane twoich pól zostają, więc po ponownym włączeniu wszystko toczy się dalej." />
         <text name="fh_setting_diseaseChance" text="Szansa na chorobę w sezonie" />
         <text name="fh_setting_diseaseChance_desc" text="Bazowa szansa, że pole prowadzone w normalny sposób zachoruje w ciągu jednego sezonu (od siewu do zbioru). To tylko punkt wyjścia: dobra uprawa (obornik, poplon, płodozmian, właściwe pH i azot) ją obniża, a zaniedbania (brak nawożenia, monokultura, brak orki, kwaśna gleba) podnoszą nawet kilka razy. Oprysk fungicydem przed pojawieniem się choroby zmniejsza ją do zera aż do zbioru. 0% wyłącza choroby." />
         <text name="fh_setting_pestChance" text="Szansa na szkodniki w sezonie" />
@@ -239,6 +259,8 @@
         <text name="fh_set_rarely" text="Rzadko" />
         <text name="fh_set_sometimes" text="Czasem" />
         <text name="fh_set_often" text="Często" />
+        <text name="fh_set_firstYear" text="Pierwszy rok" />
+        <text name="fh_set_firstTwoYears" text="Pierwsze dwa lata" />
 
         <!-- Sklep: płyny i opakowania -->
         <text name="fh_fillType_insecticide" text="Insektycyd" />
@@ -346,7 +368,7 @@ Zagrożenie nie pojawia się w przypadkowym dniu. Każdego dnia mod liczy dla po
         <text name="fh_help_pf_01" text="Jeśli masz Precision Farming, Field Health działa jak jego rozszerzenie i korzysta z jego map gleby. Zamiast ogólnego nawożenia liczy się wtedy azot w porównaniu z zaleceniem, a zamiast ogólnego wapnowania – pH gleby." />
         <text name="fh_help_pf_03" text="Najlepsza ochrona to ta sama praca, którą wykonujesz dla plonu: nawożenie zgodne z zaleceniem, wapnowanie do optymalnego pH i poplony. Komenda konsoli fhPrecisionFarming zapisuje w logu, jak mod odczytuje dane Precision Farming." />
         <text name="fh_help_settings" text="Ustawienia" />
-        <text name="fh_help_settings_01" text="Ustawienia moda znajdziesz w menu ESC &gt; Ustawienia &gt; Gra, w sekcji „Field Health – choroby i szkodniki”. Zapisują się razem z zapisem gry. W grze wieloosobowej zmienia je tylko administrator serwera. Po najechaniu na opcję zobaczysz jej opis." />
+        <text name="fh_help_settings_01" text="Ustawienia moda znajdziesz w menu ESC &gt; Ustawienia, w osobnej zakładce „Field Health”, podzielonej na sekcje. Zapisują się razem z zapisem gry. Widzi je każdy gracz, ale w grze wieloosobowej zmienia je tylko administrator (na serwerze dedykowanym najpierw zaloguj się jako administrator). Po najechaniu na opcję zobaczysz jej opis." />
         <text name="fh_help_tips" text="Porady" />
         <text name="fh_help_tips_01" text="Plan na zdrowe pola" />
         <text name="fh_help_tips_02" text="1. Nawóź zgodnie z potrzebami, wapnuj i nie siej tej samej rośliny dwa lata z rzędu. Między uprawami wysiewaj poplon.

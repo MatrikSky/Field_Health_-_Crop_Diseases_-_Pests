@@ -2,7 +2,7 @@
 -- in a fixed order and forwards the frame updates.
 FieldHealth = {}
 
-FieldHealth.VERSION = "1.2.1.0"
+FieldHealth.VERSION = "1.3.0.0"
 -- other mods that do the same job and would spray, colour and save twice
 FieldHealth.OVERLAPPING_MODS = {"FS25_CropDiseases_BMP", "FS25_CropDiseases"}
 
@@ -31,6 +31,7 @@ function FieldHealth:loadMap()
 
     FHUtil.protect("minimap", FHMiniMap.load, FHMiniMap)
     FHUtil.protect("console", FHConsole.register, FHConsole)
+    FHUtil.protect("settings page", FHSettingsPage.install, FHSettingsPage)
     self.gameStartPending = true
     FHUtil.log("Version %s loaded", FieldHealth.VERSION)
 end

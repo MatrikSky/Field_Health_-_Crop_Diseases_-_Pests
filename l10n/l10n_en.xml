@@ -163,8 +163,28 @@
         <!-- Settings -->
         <text name="fh_config_brand" text="Brand" />
         <text name="fh_settings_header" text="Field Health – diseases and pests" />
-        <text name="fh_setting_enabled" text="Crop threats" />
-        <text name="fh_setting_enabled_desc" text="Main switch of the mod. When it is off, no new diseases or pests appear, and the existing ones stop developing and destroying crops. Spraying still works, so you can remove what is left on your fields." />
+        <text name="fh_settings_adminOnly" text="Only the admin can change these settings." />
+        <text name="fh_settings_section_general" text="General" />
+        <text name="fh_settings_section_chances" text="Chance of threats" />
+        <text name="fh_settings_section_development" text="Development of threats" />
+        <text name="fh_settings_section_spraying" text="Spraying and protection" />
+        <text name="fh_settings_section_prices" text="Prices" />
+        <text name="fh_settings_section_display" text="Display" />
+        <text name="fh_setting_diseases" text="Diseases" />
+        <text name="fh_setting_diseases_desc" text="Whether crop diseases are active. Off: no diseases appear, the ones on your fields disappear the next day and fungicide is not needed. Pests are not affected." />
+        <text name="fh_setting_pests" text="Pests" />
+        <text name="fh_setting_pests_desc" text="Whether pests are active. Off: no pests appear, the ones on your fields disappear the next day and insecticide is not needed. Diseases are not affected." />
+        <text name="fh_setting_gracePeriod" text="Calm start" />
+        <text name="fh_setting_gracePeriod_desc" text="No new diseases or pests in the first years of the game, so you can get your farm going first. First year and First two years count by the year in the game calendar, so in an older savegame the calm start may already be over. Threats already on your fields develop as usual. Off: threats can appear from the start." />
+        <text name="fh_setting_precisionFarming" text="Precision Farming data" />
+        <text name="fh_setting_precisionFarming_desc" text="Whether the nitrogen, pH and soil maps of Precision Farming change the risk of threats. Off: the mod uses the basic field data of the game instead, as without Precision Farming. Without Precision Farming this setting changes nothing." />
+        <text name="fh_setting_aiSprayNeeded" text="AI sprays only where needed" />
+        <text name="fh_setting_aiSprayNeeded_desc" text="On: AI helpers with fungicide or insecticide spray only growing crops of fields that are not protected yet and spots with threats, the rest counts as done, which saves product. Off: they spray the whole field, like with any other liquid." />
+        <text name="fh_setting_fieldInfoRisk" text="Risk in the field info" />
+        <text name="fh_setting_fieldInfoRisk_desc" text="Whether the field info box shows the disease and pest risk of the field and its main cause. Off: only threats and protection are shown, so the box stays shorter." />
+        <text name="fh_settings_tab" text="Field Health" />
+        <text name="fh_setting_enabled" text="Whole mod" />
+        <text name="fh_setting_enabled_desc" text="Switches Field Health on or off. Off: no new diseases or pests appear, the existing ones stop developing and destroying crops, the field info box, the field details on the map and the minimap show nothing of the mod, and AI helpers spray like without it. The data of your fields is kept, so everything continues when you switch the mod on again." />
         <text name="fh_setting_diseaseChance" text="Disease chance per season" />
         <text name="fh_setting_diseaseChance_desc" text="Base chance that a normally farmed field gets a disease during one season (from sowing to harvest). It is only a starting point: good farming (manure, catch crops, crop rotation, right pH and nitrogen) lowers it, neglect (no fertilizer, monoculture, no plowing, acidic soil) raises it several times. Spraying fungicide before a disease appears reduces it to zero until harvest. 0% turns diseases off." />
         <text name="fh_setting_pestChance" text="Pest chance per season" />
@@ -239,6 +259,8 @@
         <text name="fh_set_rarely" text="Rarely" />
         <text name="fh_set_sometimes" text="Sometimes" />
         <text name="fh_set_often" text="Often" />
+        <text name="fh_set_firstYear" text="First year" />
+        <text name="fh_set_firstTwoYears" text="First two years" />
 
         <!-- Shop -->
         <text name="fh_fillType_insecticide" text="Insecticide" />
@@ -346,7 +368,7 @@ A threat does not appear on a random day. Every day the mod works out the infect
         <text name="fh_help_pf_01" text="With Precision Farming, Field Health works as its extension and uses its soil maps. Instead of fertilizing in general the nitrogen compared with the target counts, and instead of liming in general the soil pH." />
         <text name="fh_help_pf_03" text="The best protection is the same work you do for the yield: fertilizing to the target, liming to the optimal pH and catch crops. The console command fhPrecisionFarming writes to the log how the mod reads Precision Farming data." />
         <text name="fh_help_settings" text="Settings" />
-        <text name="fh_help_settings_01" text="You find the mod settings in ESC &gt; Settings &gt; Game, in the section “Field Health – diseases and pests”. They are saved with the savegame. In multiplayer only the server admin can change them. Move over an option to see its description." />
+        <text name="fh_help_settings_01" text="You find the mod settings in ESC &gt; Settings, in a tab of their own called “Field Health”, divided into sections. They are saved with the savegame. Every player can see them, but in multiplayer only the admin can change them (on a dedicated server, log in as admin first). Move over an option to see its description." />
         <text name="fh_help_tips" text="Tips" />
         <text name="fh_help_tips_01" text="A plan for healthy fields" />
         <text name="fh_help_tips_02" text="1. Fertilize as needed, lime and do not sow the same crop two years in a row. Sow a catch crop between main crops.

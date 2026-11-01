@@ -163,8 +163,28 @@
         <!-- Settings -->
         <text name="fh_config_brand" text="Marca" />
         <text name="fh_settings_header" text="Field Health – doenças e pragas" />
-        <text name="fh_setting_enabled" text="Ameaças às culturas" />
-        <text name="fh_setting_enabled_desc" text="Interruptor principal do mod. Quando está desligado, não aparecem novas doenças nem pragas, e as que já existem deixam de se desenvolver e de destruir as culturas. A pulverização continua a funcionar, por isso podes eliminar o que restar nos teus campos." />
+        <text name="fh_settings_adminOnly" text="Só o administrador pode alterar estas definições." />
+        <text name="fh_settings_section_general" text="Geral" />
+        <text name="fh_settings_section_chances" text="Probabilidade de ameaças" />
+        <text name="fh_settings_section_development" text="Evolução das ameaças" />
+        <text name="fh_settings_section_spraying" text="Pulverização e proteção" />
+        <text name="fh_settings_section_prices" text="Preços" />
+        <text name="fh_settings_section_display" text="Visualização" />
+        <text name="fh_setting_diseases" text="Doenças" />
+        <text name="fh_setting_diseases_desc" text="Se as doenças das culturas estão ativas. Desligado: não aparecem doenças, as dos teus campos desaparecem no dia seguinte e o fungicida deixa de ser necessário. As pragas não são afetadas." />
+        <text name="fh_setting_pests" text="Pragas" />
+        <text name="fh_setting_pests_desc" text="Se as pragas estão ativas. Desligado: não aparecem pragas, as dos teus campos desaparecem no dia seguinte e o inseticida deixa de ser necessário. As doenças não são afetadas." />
+        <text name="fh_setting_gracePeriod" text="Início tranquilo" />
+        <text name="fh_setting_gracePeriod_desc" text="Sem novas doenças nem pragas nos primeiros anos de jogo, para poderes primeiro pôr a quinta a andar. Primeiro ano e Dois primeiros anos contam pelo ano do calendário do jogo, por isso num jogo guardado mais antigo o início tranquilo pode já ter acabado. As ameaças que já estão nos teus campos evoluem normalmente. Desligado: as ameaças podem aparecer desde o início." />
+        <text name="fh_setting_precisionFarming" text="Dados do Precision Farming" />
+        <text name="fh_setting_precisionFarming_desc" text="Se os mapas de azoto, pH e solo do Precision Farming alteram o risco de ameaças. Desligado: o mod usa em vez disso os dados básicos do campo do jogo, como sem o Precision Farming. Sem o Precision Farming esta definição não muda nada." />
+        <text name="fh_setting_aiSprayNeeded" text="A IA só pulveriza onde é preciso" />
+        <text name="fh_setting_aiSprayNeeded_desc" text="Ligado: os trabalhadores IA com fungicida ou inseticida só pulverizam culturas em crescimento de campos ainda sem proteção e zonas com ameaças; o resto conta como feito, o que poupa produto. Desligado: pulverizam o campo inteiro, como com qualquer outro líquido." />
+        <text name="fh_setting_fieldInfoRisk" text="Risco nas informações do campo" />
+        <text name="fh_setting_fieldInfoRisk_desc" text="Se as informações do campo mostram o risco de doenças e pragas do campo e a sua causa principal. Desligado: só aparecem as ameaças e a proteção, e o quadro fica mais curto." />
+        <text name="fh_settings_tab" text="Field Health" />
+        <text name="fh_setting_enabled" text="Mod completo" />
+        <text name="fh_setting_enabled_desc" text="Liga ou desliga o Field Health. Desligado: não aparecem novas doenças nem pragas, as existentes deixam de evoluir e de destruir as culturas, as informações do campo, os dados do campo no mapa e o minimapa não mostram nada do mod, e os trabalhadores IA pulverizam como sem ele. Os dados dos teus campos são mantidos, por isso tudo continua quando voltas a ligar o mod." />
         <text name="fh_setting_diseaseChance" text="Probabilidade de doença por época" />
         <text name="fh_setting_diseaseChance_desc" text="Probabilidade base de um campo cultivado normalmente apanhar uma doença durante uma época (da sementeira à colheita). É apenas um ponto de partida: uma boa gestão (estrume, culturas de cobertura, rotação, pH e azoto adequados) redu-la, o desleixo (sem adubação, monocultura, sem lavoura, solo ácido) multiplica-a. Aplicar fungicida antes de surgir uma doença redu-la a zero até à colheita. 0% desativa as doenças." />
         <text name="fh_setting_pestChance" text="Probabilidade de pragas por época" />
@@ -239,6 +259,8 @@
         <text name="fh_set_rarely" text="Raramente" />
         <text name="fh_set_sometimes" text="Às vezes" />
         <text name="fh_set_often" text="Muitas vezes" />
+        <text name="fh_set_firstYear" text="Primeiro ano" />
+        <text name="fh_set_firstTwoYears" text="Dois primeiros anos" />
 
         <!-- Shop -->
         <text name="fh_fillType_insecticide" text="Inseticida" />
@@ -346,7 +368,7 @@ Uma ameaça não aparece num dia ao acaso. Todos os dias o mod calcula a pressã
         <text name="fh_help_pf_01" text="Com o Precision Farming, o Field Health funciona como uma extensão dele e usa os seus mapas do solo. Em vez da adubação em geral conta o azoto em comparação com o valor-alvo, e em vez da calagem em geral, o pH do solo." />
         <text name="fh_help_pf_03" text="A melhor proteção é o mesmo trabalho que fazes pela produção: adubar até ao valor-alvo, fazer a calagem até ao pH ótimo e semear culturas de cobertura. O comando de consola fhPrecisionFarming escreve no log como o mod lê os dados do Precision Farming." />
         <text name="fh_help_settings" text="Definições" />
-        <text name="fh_help_settings_01" text="As definições do mod estão em ESC &gt; Definições &gt; Jogo, na secção «Field Health – doenças e pragas». São guardadas com o jogo. No modo multijogador só o administrador do servidor as pode alterar. Passa o rato por cima de uma opção para ver a sua descrição." />
+        <text name="fh_help_settings_01" text="As definições do mod estão em ESC &gt; Definições, num separador próprio chamado «Field Health», dividido em secções. São guardadas com o jogo. Todos os jogadores as veem, mas no modo multijogador só o administrador as pode alterar (num servidor dedicado, inicia primeiro sessão como administrador). Passa o rato por cima de uma opção para ver a sua descrição." />
         <text name="fh_help_tips" text="Dicas" />
         <text name="fh_help_tips_01" text="Um plano para campos saudáveis" />
         <text name="fh_help_tips_02" text="1. Aduba conforme as necessidades, faz a calagem e não semeies a mesma cultura dois anos seguidos. Entre as culturas principais semeia uma cultura de cobertura.

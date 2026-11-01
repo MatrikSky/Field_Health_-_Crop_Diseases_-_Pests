@@ -163,8 +163,28 @@
         <!-- Settings -->
         <text name="fh_config_brand" text="Márka" />
         <text name="fh_settings_header" text="Field Health – betegségek és kártevők" />
-        <text name="fh_setting_enabled" text="Betegségek és kártevők" />
-        <text name="fh_setting_enabled_desc" text="A mod főkapcsolója. Kikapcsolva nem jelennek meg új betegségek és kártevők, a meglévők pedig nem fejlődnek tovább és nem pusztítják az állományt. A permetezés továbbra is működik, így eltüntetheted, ami a tábláidon maradt." />
+        <text name="fh_settings_adminOnly" text="Ezeket a beállításokat csak az adminisztrátor módosíthatja." />
+        <text name="fh_settings_section_general" text="Általános" />
+        <text name="fh_settings_section_chances" text="A károsítók esélye" />
+        <text name="fh_settings_section_development" text="A károsítók terjedése" />
+        <text name="fh_settings_section_spraying" text="Permetezés és védelem" />
+        <text name="fh_settings_section_prices" text="Árak" />
+        <text name="fh_settings_section_display" text="Megjelenítés" />
+        <text name="fh_setting_diseases" text="Betegségek" />
+        <text name="fh_setting_diseases_desc" text="Aktívak-e a növénybetegségek. Ki: nem jelennek meg betegségek, a tábláidon lévők másnap eltűnnek, és nincs szükség gombaölő szerre. A kártevőket ez nem érinti." />
+        <text name="fh_setting_pests" text="Kártevők" />
+        <text name="fh_setting_pests_desc" text="Aktívak-e a kártevők. Ki: nem jelennek meg kártevők, a tábláidon lévők másnap eltűnnek, és nincs szükség rovarölő szerre. A betegségeket ez nem érinti." />
+        <text name="fh_setting_gracePeriod" text="Nyugodt kezdés" />
+        <text name="fh_setting_gracePeriod_desc" text="A játék első éveiben nem jelennek meg új betegségek és kártevők, hogy először beindíthasd a gazdaságot. Az Első év és az Első két év a játék naptárának éve szerint számít, így egy régebbi mentésben a nyugodt kezdés már véget érhetett. A tábláidon már meglévő károsítók a szokásos módon fejlődnek. Ki: a károsítók a kezdettől megjelenhetnek." />
+        <text name="fh_setting_precisionFarming" text="A Precíziós gazdálkodás adatai" />
+        <text name="fh_setting_precisionFarming_desc" text="Módosítják-e a Precíziós gazdálkodás nitrogén-, pH- és talajtérképei a károsítók kockázatát. Ki: a mod helyettük a játék alapvető tábla-adatait használja, mint a Precíziós gazdálkodás nélkül. Precíziós gazdálkodás nélkül ez a beállítás semmit sem változtat." />
+        <text name="fh_setting_aiSprayNeeded" text="A gépi segítő csak ott permetez, ahol kell" />
+        <text name="fh_setting_aiSprayNeeded_desc" text="Be: a gombaölő vagy rovarölő szerrel dolgozó gépi segítők csak a még nem védett táblák növekvő növényzetét és a károsított foltokat permetezik, a többi késznek számít, így spórolnak a szerrel. Ki: az egész táblát lepermetezik, mint bármilyen más folyadékkal." />
+        <text name="fh_setting_fieldInfoRisk" text="Kockázat a tábla adataiban" />
+        <text name="fh_setting_fieldInfoRisk_desc" text="Mutassák-e a tábla adatai a tábla betegség- és kártevőkockázatát és annak fő okát. Ki: csak a károsítók és a védelem látszik, így az ablak rövidebb marad." />
+        <text name="fh_settings_tab" text="Field Health" />
+        <text name="fh_setting_enabled" text="A teljes mod" />
+        <text name="fh_setting_enabled_desc" text="Be- vagy kikapcsolja a Field Healtht. Ki: nem jelennek meg új betegségek és kártevők, a meglévők nem fejlődnek tovább és nem pusztítják a növényt, a tábla adatai, a tábla adatai a térképen és a minitérkép semmit sem mutat a modból, a gépi segítők pedig úgy permeteznek, mint nélküle. A táblák adatai megmaradnak, így újbóli bekapcsolás után minden folytatódik." />
         <text name="fh_setting_diseaseChance" text="Betegség esélye szezononként" />
         <text name="fh_setting_diseaseChance_desc" text="Annak alapesélye, hogy egy átlagosan művelt tábla egy szezon alatt (vetéstől betakarításig) megbetegszik. Ez csak kiindulópont: a jó gazdálkodás (istállótrágya, másodvetés, vetésforgó, megfelelő pH és nitrogén) csökkenti, az elhanyagolás (nincs trágyázás, monokultúra, nincs szántás, savanyú talaj) többszörösére növeli. Ha a betegség megjelenése előtt gombaölő szerrel permetezel, az esély betakarításig nullára csökken. A 0% kikapcsolja a betegségeket." />
         <text name="fh_setting_pestChance" text="Kártevők esélye szezononként" />
@@ -239,6 +259,8 @@
         <text name="fh_set_rarely" text="Ritkán" />
         <text name="fh_set_sometimes" text="Néha" />
         <text name="fh_set_often" text="Gyakran" />
+        <text name="fh_set_firstYear" text="Első év" />
+        <text name="fh_set_firstTwoYears" text="Első két év" />
 
         <!-- Shop -->
         <text name="fh_fillType_insecticide" text="Rovarölő szer" />
@@ -346,7 +368,7 @@ A fertőzés nem véletlenszerű napon jelenik meg. A mod minden nap kiszámolja
         <text name="fh_help_pf_01" text="A Precíziós gazdálkodással a Field Health annak bővítményeként működik, és használja a talajtérképeit. Általános trágyázás helyett a célértékhez mért nitrogén számít, általános meszezés helyett pedig a talaj pH-ja." />
         <text name="fh_help_pf_03" text="A legjobb védelem ugyanaz a munka, amit a hozamért is végzel: trágyázás a célértékig, meszezés az optimális pH-ig és másodvetés. Az fhPrecisionFarming konzolparancs a logba írja, hogyan olvassa a mod a Precíziós gazdálkodás adatait." />
         <text name="fh_help_settings" text="Beállítások" />
-        <text name="fh_help_settings_01" text="A mod beállításait az ESC &gt; Beállítások &gt; Játék menüben találod, a „Field Health – betegségek és kártevők” részben. A mentéssel együtt tárolódnak. Többjátékos módban csak a szerver adminisztrátora módosíthatja őket. Vidd az egeret egy opció fölé, hogy lásd a leírását." />
+        <text name="fh_help_settings_01" text="A mod beállításait az ESC &gt; Beállítások menüben találod, egy saját, „Field Health” nevű fülön, részekre osztva. A mentéssel együtt tárolódnak. Minden játékos látja őket, de többjátékos módban csak az adminisztrátor módosíthatja őket (dedikált szerveren előbb jelentkezz be adminisztrátorként). Vidd az egeret egy opció fölé, hogy lásd a leírását." />
         <text name="fh_help_tips" text="Tippek" />
         <text name="fh_help_tips_01" text="Terv az egészséges táblákért" />
         <text name="fh_help_tips_02" text="1. Trágyázz igény szerint, meszezz, és ne vesd ugyanazt a kultúrát két egymást követő évben. A fő kultúrák közé vess másodvetést.

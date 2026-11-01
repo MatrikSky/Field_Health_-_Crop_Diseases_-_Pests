@@ -163,8 +163,28 @@
         <!-- Settings -->
         <text name="fh_config_brand" text="Märke" />
         <text name="fh_settings_header" text="Field Health – sjukdomar och skadedjur" />
-        <text name="fh_setting_enabled" text="Hot mot grödan" />
-        <text name="fh_setting_enabled_desc" text="Moddens huvudbrytare. När den är avstängd uppstår inga nya sjukdomar eller skadedjur, och de befintliga slutar utvecklas och förstöra grödan. Besprutning fungerar fortfarande, så du kan ta bort det som finns kvar på dina fält." />
+        <text name="fh_settings_adminOnly" text="Bara administratören kan ändra de här inställningarna." />
+        <text name="fh_settings_section_general" text="Allmänt" />
+        <text name="fh_settings_section_chances" text="Risk för hot" />
+        <text name="fh_settings_section_development" text="Hotens utveckling" />
+        <text name="fh_settings_section_spraying" text="Besprutning och skydd" />
+        <text name="fh_settings_section_prices" text="Priser" />
+        <text name="fh_settings_section_display" text="Visning" />
+        <text name="fh_setting_diseases" text="Sjukdomar" />
+        <text name="fh_setting_diseases_desc" text="Om växtsjukdomar är aktiva. Av: inga sjukdomar uppstår, de på dina fält försvinner nästa dag och fungicid behövs inte. Skadedjur påverkas inte." />
+        <text name="fh_setting_pests" text="Skadedjur" />
+        <text name="fh_setting_pests_desc" text="Om skadedjur är aktiva. Av: inga skadedjur uppstår, de på dina fält försvinner nästa dag och insekticid behövs inte. Sjukdomar påverkas inte." />
+        <text name="fh_setting_gracePeriod" text="Lugn start" />
+        <text name="fh_setting_gracePeriod_desc" text="Inga nya sjukdomar eller skadedjur under spelets första år, så att du först kan få igång gården. Första året och Första två åren räknas efter året i spelets kalender, så i ett äldre sparat spel kan den lugna starten redan vara över. Hot som redan finns på dina fält utvecklas som vanligt. Av: hot kan uppstå från början." />
+        <text name="fh_setting_precisionFarming" text="Data från Precision Farming" />
+        <text name="fh_setting_precisionFarming_desc" text="Om kväve-, pH- och jordkartorna från Precision Farming ändrar risken för hot. Av: modden använder i stället fältets grunddata från spelet, som utan Precision Farming. Utan Precision Farming ändrar den här inställningen ingenting." />
+        <text name="fh_setting_aiSprayNeeded" text="AI besprutar bara där det behövs" />
+        <text name="fh_setting_aiSprayNeeded_desc" text="På: AI-arbetare med fungicid eller insekticid besprutar bara växande grödor på fält som ännu inte är skyddade och fläckar med hot, resten räknas som klart, vilket sparar medel. Av: de besprutar hela fältet, som med vilken annan vätska som helst." />
+        <text name="fh_setting_fieldInfoRisk" text="Risk i fältinfo" />
+        <text name="fh_setting_fieldInfoRisk_desc" text="Om fältinfo visar fältets risk för sjukdomar och skadedjur och den främsta orsaken. Av: bara hot och skydd visas, så rutan blir kortare." />
+        <text name="fh_settings_tab" text="Field Health" />
+        <text name="fh_setting_enabled" text="Hela modden" />
+        <text name="fh_setting_enabled_desc" text="Slår på eller av Field Health. Av: inga nya sjukdomar eller skadedjur uppstår, befintliga slutar utvecklas och förstöra grödan, fältinfo, fältets uppgifter på kartan och minikartan visar ingenting från modden, och AI-arbetare besprutar som utan den. Dina fälts data sparas, så allt fortsätter när du slår på modden igen." />
         <text name="fh_setting_diseaseChance" text="Sjukdomschans per säsong" />
         <text name="fh_setting_diseaseChance_desc" text="Grundchansen att ett normalt skött fält får en sjukdom under en säsong (från sådd till skörd). Den är bara en utgångspunkt: bra skötsel (naturgödsel, fånggrödor, växtföljd, rätt pH och kväve) sänker den, försummelse (ingen gödsling, monokultur, ingen plöjning, sur jord) höjer den flera gånger. Att spruta svampmedel innan en sjukdom syns sänker den till noll fram till skörd. 0 % stänger av sjukdomar." />
         <text name="fh_setting_pestChance" text="Skadedjurschans per säsong" />
@@ -239,6 +259,8 @@
         <text name="fh_set_rarely" text="Sällan" />
         <text name="fh_set_sometimes" text="Ibland" />
         <text name="fh_set_often" text="Ofta" />
+        <text name="fh_set_firstYear" text="Första året" />
+        <text name="fh_set_firstTwoYears" text="Första två åren" />
 
         <!-- Shop -->
         <text name="fh_fillType_insecticide" text="Insektsmedel" />
@@ -346,7 +368,7 @@ Ett hot dyker inte upp en slumpmässig dag. Varje dag räknar modden ut smittryc
         <text name="fh_help_pf_01" text="Med Precision Farming fungerar Field Health som ett tillägg till det och använder dess jordkartor. I stället för gödsling i allmänhet räknas kvävet jämfört med målet, och i stället för kalkning i allmänhet jordens pH." />
         <text name="fh_help_pf_03" text="Det bästa skyddet är samma arbete som du gör för skörden: gödsling till målet, kalkning till optimalt pH och fånggrödor. Konsolkommandot fhPrecisionFarming skriver i loggen hur modden läser data från Precision Farming." />
         <text name="fh_help_settings" text="Inställningar" />
-        <text name="fh_help_settings_01" text="Du hittar moddens inställningar i ESC &gt; Inställningar &gt; Spel, i avsnittet ”Field Health – sjukdomar och skadedjur”. De sparas med sparfilen. I flerspelarläge kan bara serverns administratör ändra dem. För markören över ett alternativ för att se dess beskrivning." />
+        <text name="fh_help_settings_01" text="Du hittar moddens inställningar i ESC &gt; Inställningar, på en egen flik, ”Field Health”, uppdelad i avsnitt. De sparas med sparfilen. Alla spelare ser dem, men i flerspelarläge kan bara administratören ändra dem (på en dedikerad server loggar du först in som administratör). För markören över ett alternativ för att se dess beskrivning." />
         <text name="fh_help_tips" text="Tips" />
         <text name="fh_help_tips_01" text="En plan för friska fält" />
         <text name="fh_help_tips_02" text="1. Gödsla efter behov, kalka och så inte samma gröda två år i rad. Så en fånggröda mellan huvudgrödorna.

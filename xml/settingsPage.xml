@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<!--
+    Field Health: the tab of the mod in ESC > Settings. FHSettingsPage moves the
+    tab and its page into the settings menu of the game and fills the layout:
+    one header per section and one row per setting, copied from the templates
+    below (the templates are removed afterwards). The tab text is set here, so the
+    tab and its background get their width when the file is loaded.
+-->
+<GUI name="FieldHealthSettings">
+    <GuiElement profile="fs25_menuContainer">
+        <BoxLayout profile="fs25_subCategorySelectorTabbedBox">
+            <Button profile="fs25_subCategorySelectorTabbedTab" id="fieldHealthTab" text="$l10n_fh_settings_tab" onClick="onClickTab">
+                <ThreePartBitmap profile="fs25_subCategorySelectorTabbedTabBg" name="background"/>
+            </Button>
+        </BoxLayout>
+
+        <GuiElement profile="fs25_subCategorySelectorTabbedContainer" id="fieldHealthPage">
+            <ScrollingLayout profile="fs25_settingsLayout" id="fieldHealthLayout">
+                <Text profile="fs25_settingsSectionHeader" name="sectionHeader" id="fieldHealthHeaderTemplate"/>
+                <Bitmap profile="fs25_multiTextOptionContainer" id="fieldHealthRowTemplate">
+                    <MultiTextOption profile="fs25_settingsMultiTextOption" id="fieldHealthOptionTemplate">
+                        <Text profile="fs25_multiTextOptionTooltip" name="ignore"/>
+                    </MultiTextOption>
+                    <Text profile="fs25_settingsMultiTextOptionTitle" name="title"/>
+                </Bitmap>
+            </ScrollingLayout>
+        </GuiElement>
+    </GuiElement>
+</GUI>

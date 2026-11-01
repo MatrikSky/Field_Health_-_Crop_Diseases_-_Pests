@@ -163,8 +163,28 @@
         <!-- Settings -->
         <text name="fh_config_brand" text="Marque" />
         <text name="fh_settings_header" text="Field Health – maladies et ravageurs" />
-        <text name="fh_setting_enabled" text="Menaces sur les cultures" />
-        <text name="fh_setting_enabled_desc" text="Interrupteur général du mod. Désactivé, plus aucune maladie ni aucun ravageur n'apparaît, et les menaces déjà présentes cessent de se développer et de détruire les cultures. Les traitements fonctionnent toujours : vous pouvez donc éliminer ce qui reste sur vos champs." />
+        <text name="fh_settings_adminOnly" text="Seul l'administrateur peut modifier ces paramètres." />
+        <text name="fh_settings_section_general" text="Général" />
+        <text name="fh_settings_section_chances" text="Probabilité des menaces" />
+        <text name="fh_settings_section_development" text="Évolution des menaces" />
+        <text name="fh_settings_section_spraying" text="Traitement et protection" />
+        <text name="fh_settings_section_prices" text="Prix" />
+        <text name="fh_settings_section_display" text="Affichage" />
+        <text name="fh_setting_diseases" text="Maladies" />
+        <text name="fh_setting_diseases_desc" text="Indique si les maladies des cultures sont actives. Désactivé : aucune maladie n'apparaît, celles de vos champs disparaissent le lendemain et le fongicide n'est plus nécessaire. Les ravageurs ne sont pas concernés." />
+        <text name="fh_setting_pests" text="Ravageurs" />
+        <text name="fh_setting_pests_desc" text="Indique si les ravageurs sont actifs. Désactivé : aucun ravageur n'apparaît, ceux de vos champs disparaissent le lendemain et l'insecticide n'est plus nécessaire. Les maladies ne sont pas concernées." />
+        <text name="fh_setting_gracePeriod" text="Début tranquille" />
+        <text name="fh_setting_gracePeriod_desc" text="Aucune nouvelle maladie ni aucun ravageur pendant les premières années de jeu, pour vous laisser lancer votre exploitation. Première année et Deux premières années se comptent selon l'année du calendrier du jeu : dans une ancienne sauvegarde, le début tranquille peut donc déjà être terminé. Les menaces déjà présentes sur vos champs évoluent normalement. Désactivé : les menaces peuvent apparaître dès le début." />
+        <text name="fh_setting_precisionFarming" text="Données de Precision Farming" />
+        <text name="fh_setting_precisionFarming_desc" text="Indique si les cartes d'azote, de pH et de sol de Precision Farming modifient le risque des menaces. Désactivé : le mod utilise à la place les données de base du champ, comme sans Precision Farming. Sans Precision Farming, ce paramètre ne change rien." />
+        <text name="fh_setting_aiSprayNeeded" text="L'IA ne traite que si nécessaire" />
+        <text name="fh_setting_aiSprayNeeded_desc" text="Activé : les ouvriers IA avec du fongicide ou de l'insecticide ne traitent que les cultures en croissance des champs pas encore protégés et les zones touchées par une menace ; le reste compte comme fait, ce qui économise le produit. Désactivé : ils traitent tout le champ, comme avec n'importe quel autre liquide." />
+        <text name="fh_setting_fieldInfoRisk" text="Risque dans les infos du champ" />
+        <text name="fh_setting_fieldInfoRisk_desc" text="Indique si le panneau d'infos du champ affiche le risque de maladies et de ravageurs du champ et sa cause principale. Désactivé : seules les menaces et la protection sont affichées, le panneau reste plus court." />
+        <text name="fh_settings_tab" text="Field Health" />
+        <text name="fh_setting_enabled" text="Mod entier" />
+        <text name="fh_setting_enabled_desc" text="Active ou désactive Field Health. Désactivé : aucune nouvelle maladie ni aucun ravageur n'apparaît, ceux qui existent cessent d'évoluer et de détruire les cultures, le panneau d'infos du champ, les infos du champ sur la carte et la mini-carte n'affichent plus rien du mod, et les ouvriers IA traitent comme sans lui. Les données de vos champs sont conservées : tout reprend dès que vous réactivez le mod." />
         <text name="fh_setting_diseaseChance" text="Probabilité de maladie par saison" />
         <text name="fh_setting_diseaseChance_desc" text="Probabilité de base qu'un champ cultivé normalement soit touché par une maladie au cours d'une saison (du semis à la récolte). Ce n'est qu'un point de départ : de bonnes pratiques (fumier, cultures intermédiaires, rotation, pH et azote adaptés) la réduisent, la négligence (pas d'engrais, monoculture, pas de labour, sol acide) la multiplie. Un traitement fongicide avant l'apparition d'une maladie la ramène à zéro jusqu'à la récolte. 0 % désactive les maladies." />
         <text name="fh_setting_pestChance" text="Probabilité de ravageurs par saison" />
@@ -239,6 +259,8 @@
         <text name="fh_set_rarely" text="Rarement" />
         <text name="fh_set_sometimes" text="Parfois" />
         <text name="fh_set_often" text="Souvent" />
+        <text name="fh_set_firstYear" text="Première année" />
+        <text name="fh_set_firstTwoYears" text="Deux premières années" />
 
         <!-- Shop -->
         <text name="fh_fillType_insecticide" text="Insecticide" />
@@ -346,7 +368,7 @@ Une menace n'apparaît pas un jour au hasard. Chaque jour, le mod calcule la pre
         <text name="fh_help_pf_01" text="Avec Precision Farming, Field Health fonctionne comme une extension de celui-ci et utilise ses cartes de sol. Au lieu de la fertilisation en général, c'est l'azote comparé à l'objectif qui compte, et au lieu du chaulage en général, le pH du sol." />
         <text name="fh_help_pf_03" text="La meilleure protection, c'est le même travail que pour le rendement : fertiliser jusqu'à l'objectif, chauler jusqu'au pH optimal et implanter des cultures intermédiaires. La commande de console fhPrecisionFarming écrit dans le log comment le mod lit les données de Precision Farming." />
         <text name="fh_help_settings" text="Paramètres" />
-        <text name="fh_help_settings_01" text="Les paramètres du mod se trouvent dans ESC &gt; Paramètres &gt; Jeu, dans la section « Field Health – maladies et ravageurs ». Ils sont enregistrés avec la sauvegarde. En multijoueur, seul l'administrateur du serveur peut les modifier. Survolez une option pour afficher sa description." />
+        <text name="fh_help_settings_01" text="Les paramètres du mod se trouvent dans ESC &gt; Paramètres, dans un onglet à part « Field Health », divisé en sections. Ils sont enregistrés avec la sauvegarde. Tous les joueurs les voient, mais en multijoueur seul l'administrateur peut les modifier (sur un serveur dédié, connectez-vous d'abord en tant qu'administrateur). Survolez une option pour afficher sa description." />
         <text name="fh_help_tips" text="Conseils" />
         <text name="fh_help_tips_01" text="Un plan pour des champs sains" />
         <text name="fh_help_tips_02" text="1. Fertilisez selon les besoins, chaulez et ne semez pas la même culture deux années de suite. Implantez une culture intermédiaire entre les cultures principales.

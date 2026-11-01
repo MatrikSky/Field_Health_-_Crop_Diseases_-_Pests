@@ -163,8 +163,28 @@
         <!-- Settings -->
         <text name="fh_config_brand" text="Marke" />
         <text name="fh_settings_header" text="Field Health – Krankheiten und Schädlinge" />
-        <text name="fh_setting_enabled" text="Krankheiten und Schädlinge" />
-        <text name="fh_setting_enabled_desc" text="Hauptschalter des Mods. Ist er aus, treten keine neuen Krankheiten und Schädlinge mehr auf, und vorhandener Befall entwickelt sich nicht weiter und zerstört keine Bestände mehr. Spritzen funktioniert weiterhin, sodass du Reste auf deinen Feldern beseitigen kannst." />
+        <text name="fh_settings_adminOnly" text="Nur der Admin kann diese Einstellungen ändern." />
+        <text name="fh_settings_section_general" text="Allgemein" />
+        <text name="fh_settings_section_chances" text="Befallswahrscheinlichkeit" />
+        <text name="fh_settings_section_development" text="Entwicklung des Befalls" />
+        <text name="fh_settings_section_spraying" text="Spritzung und Schutz" />
+        <text name="fh_settings_section_prices" text="Preise" />
+        <text name="fh_settings_section_display" text="Anzeige" />
+        <text name="fh_setting_diseases" text="Krankheiten" />
+        <text name="fh_setting_diseases_desc" text="Ob Pflanzenkrankheiten aktiv sind. Aus: Es entstehen keine Krankheiten, die auf deinen Feldern verschwinden am nächsten Tag, und Fungizid wird nicht gebraucht. Schädlinge betrifft das nicht." />
+        <text name="fh_setting_pests" text="Schädlinge" />
+        <text name="fh_setting_pests_desc" text="Ob Schädlinge aktiv sind. Aus: Es entstehen keine Schädlinge, die auf deinen Feldern verschwinden am nächsten Tag, und Insektizid wird nicht gebraucht. Krankheiten betrifft das nicht." />
+        <text name="fh_setting_gracePeriod" text="Ruhiger Start" />
+        <text name="fh_setting_gracePeriod_desc" text="Keine neuen Krankheiten oder Schädlinge in den ersten Spieljahren, damit du deinen Betrieb erst aufbauen kannst. Erstes Jahr und Erste zwei Jahre zählen nach dem Jahr im Spielkalender, in einem älteren Spielstand kann der ruhige Start also schon vorbei sein. Befall, der schon auf deinen Feldern ist, entwickelt sich normal. Aus: Befall kann von Anfang an auftreten." />
+        <text name="fh_setting_precisionFarming" text="Daten von Precision Farming" />
+        <text name="fh_setting_precisionFarming_desc" text="Ob die Stickstoff-, pH- und Bodenkarten von Precision Farming das Befallsrisiko verändern. Aus: Der Mod nutzt stattdessen die Grunddaten des Feldes aus dem Spiel, wie ohne Precision Farming. Ohne Precision Farming ändert diese Einstellung nichts." />
+        <text name="fh_setting_aiSprayNeeded" text="KI spritzt nur, wo nötig" />
+        <text name="fh_setting_aiSprayNeeded_desc" text="An: KI-Helfer mit Fungizid oder Insektizid spritzen nur wachsende Kulturen auf noch nicht geschützten Feldern und Stellen mit Befall, der Rest gilt als erledigt, das spart Mittel. Aus: Sie spritzen das ganze Feld, wie mit jeder anderen Flüssigkeit." />
+        <text name="fh_setting_fieldInfoRisk" text="Risiko in der Feldinfo" />
+        <text name="fh_setting_fieldInfoRisk_desc" text="Ob die Feldinfo das Krankheits- und Schädlingsrisiko des Feldes und seine Hauptursache zeigt. Aus: Nur Befall und Schutz werden gezeigt, die Feldinfo bleibt kürzer." />
+        <text name="fh_settings_tab" text="Field Health" />
+        <text name="fh_setting_enabled" text="Gesamter Mod" />
+        <text name="fh_setting_enabled_desc" text="Schaltet Field Health ein oder aus. Aus: Es entstehen keine neuen Krankheiten oder Schädlinge, bestehender Befall entwickelt sich nicht weiter und zerstört keine Kulturen mehr, Feldinfo, Feldangaben auf der Karte und Minikarte zeigen nichts vom Mod, und KI-Helfer spritzen wie ohne ihn. Die Daten deiner Felder bleiben erhalten, nach dem Einschalten geht alles weiter." />
         <text name="fh_setting_diseaseChance" text="Krankheitschance pro Saison" />
         <text name="fh_setting_diseaseChance_desc" text="Grundwahrscheinlichkeit, dass ein normal bewirtschaftetes Feld in einer Saison (von der Aussaat bis zur Ernte) erkrankt. Sie ist nur ein Ausgangswert: Gute Bewirtschaftung (Mist, Zwischenfrüchte, Fruchtfolge, passender pH-Wert und Stickstoff) senkt sie, Vernachlässigung (keine Düngung, Monokultur, kein Pflügen, saurer Boden) vervielfacht sie. Wer Fungizid spritzt, bevor eine Krankheit auftritt, senkt sie bis zur Ernte auf null. 0 % schaltet Krankheiten ab." />
         <text name="fh_setting_pestChance" text="Schädlingschance pro Saison" />
@@ -239,6 +259,8 @@
         <text name="fh_set_rarely" text="Selten" />
         <text name="fh_set_sometimes" text="Manchmal" />
         <text name="fh_set_often" text="Oft" />
+        <text name="fh_set_firstYear" text="Erstes Jahr" />
+        <text name="fh_set_firstTwoYears" text="Erste zwei Jahre" />
 
         <!-- Shop -->
         <text name="fh_fillType_insecticide" text="Insektizid" />
@@ -346,7 +368,7 @@ Befall tritt nicht an einem zufälligen Tag auf. Jeden Tag berechnet der Mod den
         <text name="fh_help_pf_01" text="Mit Precision Farming arbeitet Field Health als dessen Erweiterung und nutzt seine Bodenkarten. Statt der Düngung allgemein zählt der Stickstoff im Vergleich zum Sollwert und statt der Kalkung allgemein der pH-Wert des Bodens." />
         <text name="fh_help_pf_03" text="Der beste Schutz ist dieselbe Arbeit, die du für den Ertrag machst: Düngen auf den Sollwert, Kalken auf den optimalen pH-Wert und Zwischenfrüchte. Der Konsolenbefehl fhPrecisionFarming schreibt ins Log, wie der Mod die Daten von Precision Farming liest." />
         <text name="fh_help_settings" text="Einstellungen" />
-        <text name="fh_help_settings_01" text="Die Mod-Einstellungen findest du unter ESC &gt; Einstellungen &gt; Spiel im Abschnitt „Field Health – Krankheiten und Schädlinge“. Sie werden mit dem Spielstand gespeichert. Im Mehrspielermodus kann nur der Server-Admin sie ändern. Fahre mit der Maus über eine Option, um ihre Beschreibung zu sehen." />
+        <text name="fh_help_settings_01" text="Die Mod-Einstellungen findest du unter ESC &gt; Einstellungen in einem eigenen Reiter „Field Health“, der in Abschnitte gegliedert ist. Sie werden mit dem Spielstand gespeichert. Jeder Spieler sieht sie, im Mehrspielermodus kann sie aber nur der Admin ändern (auf einem dedizierten Server melde dich zuerst als Admin an). Fahre mit der Maus über eine Option, um ihre Beschreibung zu sehen." />
         <text name="fh_help_tips" text="Tipps" />
         <text name="fh_help_tips_01" text="Ein Plan für gesunde Felder" />
         <text name="fh_help_tips_02" text="1. Dünge nach Bedarf, kalke und säe nicht zwei Jahre hintereinander dieselbe Kultur. Säe zwischen den Hauptkulturen eine Zwischenfrucht.

@@ -59,20 +59,25 @@ end
 -- {label, value} pairs for a farmland; empty without growing crops.
 function FHFarmlandInfo.buildLines(farmlandId)
     local disease, pest = FHSimulation:getFarmlandProtection(farmlandId)
-    if disease == nil then
+    if disease == nil or not FHSettings.isOn("enabled") then
         return {}
     end
+    local diseasesOn, pestsOn = FHSettings.isCategoryOn("disease"), FHSettings.isCategoryOn("pest")
     local lines = {}
-    local diseaseThreat = threatOnFarmland(farmlandId, "disease")
-    local pestThreat = threatOnFarmland(farmlandId, "pest")
+    local diseaseThreat = diseasesOn and threatOnFarmland(farmlandId, "disease") or nil
+    local pestThreat = pestsOn and threatOnFarmland(farmlandId, "pest") or nil
     if diseaseThreat ~= nil then
         lines[#lines + 1] = {FHUtil.text("fh_map_diseaseLabel"), diseaseThreat}
     end
     if pestThreat ~= nil then
         lines[#lines + 1] = {FHUtil.text("fh_map_pestLabel"), pestThreat}
     end
-    lines[#lines + 1] = {FHUtil.text("fh_map_diseaseProtectionLabel"), protectionText(disease)}
-    lines[#lines + 1] = {FHUtil.text("fh_map_pestProtectionLabel"), protectionText(pest)}
+    if diseasesOn then
+        lines[#lines + 1] = {FHUtil.text("fh_map_diseaseProtectionLabel"), protectionText(disease)}
+    end
+    if pestsOn then
+        lines[#lines + 1] = {FHUtil.text("fh_map_pestProtectionLabel"), protectionText(pest)}
+    end
     return lines
 end
 

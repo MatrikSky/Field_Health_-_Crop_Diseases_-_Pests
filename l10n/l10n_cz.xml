@@ -163,8 +163,28 @@
         <!-- Settings -->
         <text name="fh_config_brand" text="Značka" />
         <text name="fh_settings_header" text="Field Health – choroby a škůdci" />
-        <text name="fh_setting_enabled" text="Choroby a škůdci" />
-        <text name="fh_setting_enabled_desc" text="Hlavní vypínač modu. Když je vypnutý, nové choroby ani škůdci se neobjevují a ti, kteří už na polích jsou, se přestanou šířit a ničit porosty. Postřik dál funguje, takže můžeš to, co zůstalo na polích, odstranit." />
+        <text name="fh_settings_adminOnly" text="Tato nastavení může měnit jen administrátor." />
+        <text name="fh_settings_section_general" text="Obecné" />
+        <text name="fh_settings_section_chances" text="Šance napadení" />
+        <text name="fh_settings_section_development" text="Vývoj napadení" />
+        <text name="fh_settings_section_spraying" text="Postřik a ochrana" />
+        <text name="fh_settings_section_prices" text="Ceny" />
+        <text name="fh_settings_section_display" text="Zobrazení" />
+        <text name="fh_setting_diseases" text="Choroby" />
+        <text name="fh_setting_diseases_desc" text="Zda jsou choroby plodin aktivní. Vypnuto: choroby se neobjevují, ty na tvých polích druhý den zmizí a fungicid není potřeba. Škůdců se to netýká." />
+        <text name="fh_setting_pests" text="Škůdci" />
+        <text name="fh_setting_pests_desc" text="Zda jsou škůdci aktivní. Vypnuto: škůdci se neobjevují, ti na tvých polích druhý den zmizí a insekticid není potřeba. Chorob se to netýká." />
+        <text name="fh_setting_gracePeriod" text="Klidný začátek" />
+        <text name="fh_setting_gracePeriod_desc" text="V prvních letech hry se neobjevují nové choroby ani škůdci, abys mohl nejdřív rozjet farmu. První rok a První dva roky se počítají podle roku v herním kalendáři, takže ve starší uložené hře už klidný začátek mohl skončit. Napadení, které už na polích je, se vyvíjí normálně. Vypnuto: napadení se může objevit od začátku." />
+        <text name="fh_setting_precisionFarming" text="Data Přesného farmaření" />
+        <text name="fh_setting_precisionFarming_desc" text="Zda mapy dusíku, pH a půdy z Přesného farmaření mění riziko napadení. Vypnuto: mód místo nich použije základní data pole ze hry, jako bez Přesného farmaření. Bez Přesného farmaření toto nastavení nic nemění." />
+        <text name="fh_setting_aiSprayNeeded" text="AI stříká jen tam, kde je třeba" />
+        <text name="fh_setting_aiSprayNeeded_desc" text="Zapnuto: AI pracovníci s fungicidem nebo insekticidem stříkají jen rostoucí plodiny na polích, která ještě nejsou chráněná, a místa s napadením, zbytek se počítá jako hotový, což šetří přípravek. Vypnuto: stříkají celé pole jako jakoukoli jinou kapalinou." />
+        <text name="fh_setting_fieldInfoRisk" text="Riziko v informacích o poli" />
+        <text name="fh_setting_fieldInfoRisk_desc" text="Zda informace o poli ukazují riziko chorob a škůdců na poli a jeho hlavní příčinu. Vypnuto: zobrazí se jen napadení a ochrana, takže je okno kratší." />
+        <text name="fh_settings_tab" text="Field Health" />
+        <text name="fh_setting_enabled" text="Celý mód" />
+        <text name="fh_setting_enabled_desc" text="Zapíná nebo vypíná Field Health. Vypnuto: neobjevují se nové choroby ani škůdci, stávající se přestanou vyvíjet a ničit plodiny, informace o poli, údaje pole na mapě a minimapa nic z módu neukazují a AI pracovníci stříkají jako bez něj. Data tvých polí zůstanou, takže po opětovném zapnutí vše pokračuje." />
         <text name="fh_setting_diseaseChance" text="Šance na chorobu za sezónu" />
         <text name="fh_setting_diseaseChance_desc" text="Základní šance, že běžně obhospodařované pole za jednu sezónu (od setí do sklizně) onemocní. Je to jen výchozí bod: dobrá agrotechnika (hnůj, meziplodiny, osevní postup, správné pH a dusík) ji snižuje, zanedbání (bez hnojení, monokultura, bez orby, kyselá půda) ji několikanásobně zvyšuje. Postřik fungicidem dřív, než se choroba objeví, ji do sklizně sníží na nulu. 0 % choroby vypne." />
         <text name="fh_setting_pestChance" text="Šance na škůdce za sezónu" />
@@ -239,6 +259,8 @@
         <text name="fh_set_rarely" text="Zřídka" />
         <text name="fh_set_sometimes" text="Občas" />
         <text name="fh_set_often" text="Často" />
+        <text name="fh_set_firstYear" text="První rok" />
+        <text name="fh_set_firstTwoYears" text="První dva roky" />
 
         <!-- Shop -->
         <text name="fh_fillType_insecticide" text="Insekticid" />
@@ -346,7 +368,7 @@ Napadení se neobjeví v náhodný den. Mod každý den spočítá infekční tl
         <text name="fh_help_pf_01" text="S Přesným farmařením funguje Field Health jako jeho rozšíření a používá jeho půdní mapy. Místo hnojení obecně se počítá dusík v porovnání s cílovou hodnotou a místo vápnění obecně pH půdy." />
         <text name="fh_help_pf_03" text="Nejlepší ochrana je stejná práce, kterou děláš pro výnos: hnojit na cílovou hodnotu, vápnit na optimální pH a sít meziplodiny. Příkaz konzole fhPrecisionFarming zapíše do logu, jak mod čte data Přesného farmaření." />
         <text name="fh_help_settings" text="Nastavení" />
-        <text name="fh_help_settings_01" text="Nastavení modu najdeš v ESC &gt; Nastavení &gt; Hra, v sekci „Field Health – choroby a škůdci“. Ukládají se s uloženou hrou. Ve hře více hráčů je může měnit jen správce serveru. Najeď myší na volbu, abys viděl její popis." />
+        <text name="fh_help_settings_01" text="Nastavení modu najdeš v ESC &gt; Nastavení, na vlastní záložce „Field Health“, rozdělené do sekcí. Ukládají se s uloženou hrou. Vidí je každý hráč, ale ve hře více hráčů je může měnit jen administrátor (na dedikovaném serveru se nejdřív přihlas jako administrátor). Najeď myší na volbu, abys viděl její popis." />
         <text name="fh_help_tips" text="Tipy" />
         <text name="fh_help_tips_01" text="Plán pro zdravá pole" />
         <text name="fh_help_tips_02" text="1. Hnoj podle potřeby, vápni a nesej stejnou plodinu dva roky po sobě. Mezi hlavní plodiny zařaď meziplodinu.
