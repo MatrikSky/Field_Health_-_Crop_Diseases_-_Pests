@@ -40,6 +40,8 @@ FHSettings.OPTIONS = {
     {name = "fungicideUsage", section = "spraying", values = RATES, format = "percent", default = 4},
     {name = "insecticideUsage", section = "spraying", values = RATES, format = "percent", default = 4},
     {name = "aiSprayNeeded", section = "spraying", values = {1, 0}, format = ON_OFF, default = 1},
+    {name = "preSowingSpray", section = "spraying", values = {1, 0}, format = ON_OFF, default = 2},
+    {name = "oneSpray", section = "spraying", values = {1, 0}, format = ON_OFF, default = 2},
     {name = "fungicidePrice", section = "prices", values = PRICES_SMALL, format = "money", default = 5},
     {name = "insecticidePrice", section = "prices", values = PRICES_SMALL, format = "money", default = 8},
     {name = "fungicideCanisterPrice", section = "prices", values = PRICES_MEDIUM, format = "money", default = 6},

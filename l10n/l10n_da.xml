@@ -180,6 +180,10 @@
         <text name="fh_setting_precisionFarming_desc" text="Om kvælstof-, pH- og jordkortene fra Præcisionslandbrug ændrer risikoen for trusler. Fra: modden bruger i stedet markens grunddata fra spillet, som uden Præcisionslandbrug. Uden Præcisionslandbrug ændrer denne indstilling intet." />
         <text name="fh_setting_aiSprayNeeded" text="AI sprøjter kun, hvor det trængs" />
         <text name="fh_setting_aiSprayNeeded_desc" text="Til: AI-hjælpere med fungicid eller insekticid sprøjter kun voksende afgrøder på marker, der endnu ikke er beskyttet, og pletter med trusler, resten tæller som færdigt, hvilket sparer middel. Fra: de sprøjter hele marken som med enhver anden væske." />
+        <text name="fh_setting_preSowingSpray" text="Sprøjtning før såning" />
+        <text name="fh_setting_preSowingSpray_desc" text="Til: sprøjtning med fungicid eller insekticid efter høst, før såning, beskytter den nye afgrøde. Fra: kun en sprøjtning tidligst dagen før såning beskytter den nye afgrøde." />
+        <text name="fh_setting_oneSpray" text="Én sprøjtning til alt" />
+        <text name="fh_setting_oneSpray_desc" text="Til: sprøjtning med fungicid eller insekticid helbreder og beskytter marken mod både sygdomme og skadedyr, én kørsel er nok. Fra: fungicid virker kun mod sygdomme og insekticid kun mod skadedyr." />
         <text name="fh_setting_fieldInfoRisk" text="Risiko i markinfo" />
         <text name="fh_setting_fieldInfoRisk_desc" text="Om markinfo viser markens risiko for sygdomme og skadedyr og den vigtigste årsag. Fra: kun trusler og beskyttelse vises, så boksen bliver kortere." />
         <text name="fh_settings_tab" text="Field Health" />
@@ -347,8 +351,8 @@ En trussel viser sig ikke på en tilfældig dag. Hver dag beregner modden smitte
         <text name="fh_help_spraying_01" text="Midlerne laves af det polske firma Opryskex: svampemidlet Grzybobój 250 EC (grøn etiket) og insektmidlet Robalex 100 CS (rød etiket). Når du køber, kan du i stedet vælge mærket MST (Mafia Solec Team): Solectop 280 SC og Mafiozol 50 EW. De virker ens, kun etiketten er forskellig. Du køber dem i butikken i flasker på 1 l og dunke på 5 l og 20 l. Stil emballagen ved siden af marksprøjten, og fyld den som fra en palle. Spillet blander ikke koncentratet med vand, så indholdet af en emballage er al den sprøjtevæske, den giver. Jo større emballage, jo billigere pr. hektar." />
         <text name="fh_help_spraying_03" text="Sådan virker beskyttelsen" />
         <text name="fh_help_spraying_05" text="Pas på" />
-        <text name="fh_help_spraying_06" text="– Sprøjt efter fremspiring – såning og høst fjerner beskyttelsen.
-– Svampemiddel beskytter ikke mod skadedyr, og insektmiddel ikke mod sygdomme. Fuld beskyttelse kræver begge.
+        <text name="fh_help_spraying_06" text="– Sprøjt tidligst dagen før såning, for såning og høst fjerner ældre beskyttelse. En tidligere sprøjtning tæller kun med indstillingen “Sprøjtning før såning”.
+– Svampemiddel beskytter ikke mod skadedyr, og insektmiddel ikke mod sygdomme. Fuld beskyttelse kræver begge. Med indstillingen “Én sprøjtning til alt” er ét af dem nok.
 – Oversete kiler og forager tæller: under 90 % dækning kan en trussel vise sig på usprøjtede striber.
 – Midlerne gøder ikke og dræber ikke ukrudt.
 – Med en kortere sprøjtebeskyttelse (indstilling) slutter hele markens beskyttelse så længe efter den seneste sprøjtning." />

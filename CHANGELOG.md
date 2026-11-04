@@ -16,6 +16,28 @@ Versions have four numbers, **A.B.C.D**:
 Raising a number sets the numbers after it to 0: 1.2.3.4 → 1.3.0.0. When a version brings several kinds of changes, the highest one counts.
 **Every version loads the savegames of all earlier versions**, so nothing you own or set in the game is lost by an update.
 
+## [1.4.0.0] - 2026-11-05
+
+### Added
+
+- New setting **Spraying before sowing** (off by default): spraying a bare field after the harvest protects the next crop. Without it, spraying counts from one day before sowing.
+- New setting **One spray for both** (off by default): fungicide or insecticide alone cures and protects against diseases and pests at once, for players who don't want to spray the same field twice. AI helpers then spray until both kinds of protection are there.
+- Fields split into parts with different crops are handled properly. The crop that started the season keeps the field while it still grows anywhere on it. Threats, crop damage and the protection share only count its parts, so you don't have to spray the other crop or bare strips. When it is harvested, the other crop takes over the field and keeps its spraying.
+- A clear warning in the log when the game could not register fungicide or insecticide because other mods already use all 255 fill types.
+
+### Changed
+
+- The expected harvest in the field info only counts the part of the field with that crop.
+- The spraying tips in the in-game help match the new settings.
+
+### Fixed
+
+- After discing or sowing, the mod could still see the old crop for a long time, because the game refreshes its field data only now and then. The field info then showed a risk from weeds or stubble of the old crop on a freshly sown field. Fields are now read directly.
+- Spraying right after sowing was lost when the mod noticed the sowing a moment later.
+- A field whose own spot was bare (a path, or sown only in part) looked empty, and spraying it didn't count.
+- On a crop that had only just come up, stubble and rolling were judged from one or two spots of the field.
+- Clicking the Field Health tab in the settings could open the page of another mod (e.g. Mud System) when several mods add their own tabs.
+
 ## [1.3.0.0] - 2026-11-01
 
 ### Added
@@ -95,6 +117,7 @@ The first public release.
 - A map page "Crop protection" with five layers, a minimap layer (Left Alt + \\), field info lines, farmland info and notifications.
 - 25 settings in the game menu, Precision Farming support, onions of the Highlands Fishing DLC, full in-game help, English and Polish, multiplayer.
 
+[1.4.0.0]: https://github.com/MatrikSky/Field_Health_-_Crop_Diseases_-_Pests/releases/tag/v1.4.0.0
 [1.3.0.0]: https://github.com/MatrikSky/Field_Health_-_Crop_Diseases_-_Pests/releases/tag/v1.3.0.0
 [1.2.1.0]: https://github.com/MatrikSky/Field_Health_-_Crop_Diseases_-_Pests/releases/tag/v1.2.1.0
 [1.2.0.0]: https://github.com/MatrikSky/Field_Health_-_Crop_Diseases_-_Pests/releases/tag/v1.2.0.0

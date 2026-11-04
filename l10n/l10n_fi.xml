@@ -180,6 +180,10 @@
         <text name="fh_setting_precisionFarming_desc" text="Muuttavatko Täsmäviljelyn typpi-, pH- ja maaperäkartat uhkien riskiä. Pois: modi käyttää niiden sijaan pelin pellon perustietoja, kuten ilman Täsmäviljelyä. Ilman Täsmäviljelyä tämä asetus ei muuta mitään." />
         <text name="fh_setting_aiSprayNeeded" text="AI ruiskuttaa vain tarvittaessa" />
         <text name="fh_setting_aiSprayNeeded_desc" text="Päällä: fungisidia tai insektisidiä levittävät AI-työntekijät ruiskuttavat vain vielä suojaamattomien peltojen kasvavan kasvuston ja uhkien kohdat, loput lasketaan tehdyksi, mikä säästää ainetta. Pois: ne ruiskuttavat koko pellon kuten minkä tahansa muun nesteen." />
+        <text name="fh_setting_preSowingSpray" text="Ruiskutus ennen kylvöä" />
+        <text name="fh_setting_preSowingSpray_desc" text="Päällä: fungisidi- tai insektisidiruiskutus sadonkorjuun jälkeen, ennen kylvöä, suojaa uuden kasvuston. Pois: uuden kasvuston suojaa vain aikaisintaan kylvöä edeltävänä päivänä tehty ruiskutus." />
+        <text name="fh_setting_oneSpray" text="Yksi ruiskutus kaikkeen" />
+        <text name="fh_setting_oneSpray_desc" text="Päällä: fungisidi- tai insektisidiruiskutus parantaa ja suojaa pellon sekä taudeilta että tuholaisilta kerralla, yksi ajokerta riittää. Pois: fungisidi tehoaa vain tauteihin ja insektisidi vain tuholaisiin." />
         <text name="fh_setting_fieldInfoRisk" text="Riski peltotiedoissa" />
         <text name="fh_setting_fieldInfoRisk_desc" text="Näyttävätkö peltotiedot pellon tauti- ja tuholaisriskin ja sen pääsyyn. Pois: näkyvät vain uhat ja suojaus, joten ruutu pysyy lyhyempänä." />
         <text name="fh_settings_tab" text="Field Health" />
@@ -347,8 +351,8 @@ Uhka ei ilmaannu satunnaisena päivänä. Joka päivä modi laskee pellon tartun
         <text name="fh_help_spraying_01" text="Aineita valmistaa puolalainen yritys Opryskex: fungisidi Grzybobój 250 EC (vihreä etiketti) ja insektisidi Robalex 100 CS (punainen etiketti). Ostaessasi voit valita niiden sijaan merkin MST (Mafia Solec Team): Solectop 280 SC ja Mafiozol 50 EW. Ne toimivat samoin, vain etiketti on eri. Ostat niitä kaupasta 1 l:n pulloissa sekä 5 l:n ja 20 l:n kanistereissa. Aseta pakkaus ruiskun viereen ja täytä ruisku kuin lavalta. Peli ei sekoita tiivistettä veteen, joten pakkauksen sisältö on kaikki siitä saatava ruiskutusneste. Mitä suurempi pakkaus, sitä halvempaa hehtaarilta." />
         <text name="fh_help_spraying_03" text="Miten suojaus toimii" />
         <text name="fh_help_spraying_05" text="Huomaa" />
-        <text name="fh_help_spraying_06" text="– Ruiskuta taimettumisen jälkeen – kylvö ja korjuu poistavat suojauksen.
-– Fungisidi ei suojaa tuholaisilta eikä insektisidi taudeilta. Täysi suojaus vaatii molemmat.
+        <text name="fh_help_spraying_06" text="– Ruiskuta aikaisintaan kylvöä edeltävänä päivänä, koska kylvö ja sadonkorjuu poistavat vanhemman suojan. Aiempi ruiskutus lasketaan vain asetuksella ”Ruiskutus ennen kylvöä”.
+– Fungisidi ei suojaa tuholaisilta eikä insektisidi taudeilta. Täysi suojaus vaatii molemmat. Asetuksella ”Yksi ruiskutus kaikkeen” toinen riittää.
 – Väliin jääneet kiilat ja päisteet lasketaan: alle 90 %:n peitolla uhka voi ilmaantua ruiskuttamattomille kaistoille.
 – Aineet eivät lannoita eivätkä tapa rikkakasveja.
 – Lyhyemmällä ruiskutuksen suojalla (asetus) koko pellon suojaus päättyy näin pitkän ajan kuluttua viimeisestä ruiskutuksesta." />

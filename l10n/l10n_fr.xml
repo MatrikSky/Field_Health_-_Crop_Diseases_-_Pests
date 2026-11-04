@@ -180,6 +180,10 @@
         <text name="fh_setting_precisionFarming_desc" text="Indique si les cartes d'azote, de pH et de sol de Precision Farming modifient le risque des menaces. Désactivé : le mod utilise à la place les données de base du champ, comme sans Precision Farming. Sans Precision Farming, ce paramètre ne change rien." />
         <text name="fh_setting_aiSprayNeeded" text="L'IA ne traite que si nécessaire" />
         <text name="fh_setting_aiSprayNeeded_desc" text="Activé : les ouvriers IA avec du fongicide ou de l'insecticide ne traitent que les cultures en croissance des champs pas encore protégés et les zones touchées par une menace ; le reste compte comme fait, ce qui économise le produit. Désactivé : ils traitent tout le champ, comme avec n'importe quel autre liquide." />
+        <text name="fh_setting_preSowingSpray" text="Traitement avant semis" />
+        <text name="fh_setting_preSowingSpray_desc" text="Activé : un traitement au fongicide ou à l'insecticide après la récolte, avant le semis, protège la nouvelle culture. Désactivé : seul un traitement fait au plus tôt la veille du semis protège la nouvelle culture." />
+        <text name="fh_setting_oneSpray" text="Un traitement pour tout" />
+        <text name="fh_setting_oneSpray_desc" text="Activé : un traitement au fongicide ou à l'insecticide soigne et protège le champ contre les maladies et les ravageurs à la fois, un seul passage suffit. Désactivé : le fongicide n'agit que sur les maladies et l'insecticide que sur les ravageurs." />
         <text name="fh_setting_fieldInfoRisk" text="Risque dans les infos du champ" />
         <text name="fh_setting_fieldInfoRisk_desc" text="Indique si le panneau d'infos du champ affiche le risque de maladies et de ravageurs du champ et sa cause principale. Désactivé : seules les menaces et la protection sont affichées, le panneau reste plus court." />
         <text name="fh_settings_tab" text="Field Health" />
@@ -347,8 +351,8 @@ Une menace n'apparaît pas un jour au hasard. Chaque jour, le mod calcule la pre
         <text name="fh_help_spraying_01" text="Les produits sont fabriqués par la société polonaise Opryskex : le fongicide Grzybobój 250 EC (étiquette verte) et l'insecticide Robalex 100 CS (étiquette rouge). À l'achat, vous pouvez choisir à la place la marque MST (Mafia Solec Team) : Solectop 280 SC et Mafiozol 50 EW. Ils agissent de la même façon, seule l'étiquette change. Vous les trouvez au magasin en flacons de 1 l et en bidons de 5 l et 20 l. Posez le conditionnement à côté du pulvérisateur et remplissez celui-ci comme depuis une palette. Le jeu ne mélange pas le concentré avec de l'eau : le contenu d'un conditionnement représente donc toute la bouillie qu'il permet de préparer. Plus le conditionnement est grand, moins il coûte à l'hectare." />
         <text name="fh_help_spraying_03" text="Fonctionnement de la protection" />
         <text name="fh_help_spraying_05" text="Attention" />
-        <text name="fh_help_spraying_06" text="– Traitez après la levée – le semis et la récolte suppriment la protection.
-– Le fongicide ne protège pas contre les ravageurs, ni l'insecticide contre les maladies. Une protection complète demande les deux.
+        <text name="fh_help_spraying_06" text="– Traitez au plus tôt la veille du semis, car le semis et la récolte suppriment la protection plus ancienne. Un traitement plus tôt ne compte qu'avec le paramètre « Traitement avant semis ».
+– Le fongicide ne protège pas contre les ravageurs, ni l'insecticide contre les maladies. Une protection complète demande les deux. Avec le paramètre « Un traitement pour tout », un seul suffit.
 – Les pointes et fourrières oubliées comptent : en dessous de 90 % de couverture, une menace peut apparaître sur les bandes non traitées.
 – Les produits ne fertilisent pas et ne détruisent pas les mauvaises herbes.
 – Avec une durée de protection plus courte (paramètre), la protection de tout le champ prend fin ce délai après le dernier traitement." />

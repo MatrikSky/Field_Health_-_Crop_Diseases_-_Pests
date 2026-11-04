@@ -180,6 +180,10 @@
         <text name="fh_setting_precisionFarming_desc" text="Om nitrogen-, pH- og jordkartene fra Presisjonsgårdbruk endrer risikoen for trusler. Av: modden bruker i stedet åkerens grunndata fra spillet, som uten Presisjonsgårdbruk. Uten Presisjonsgårdbruk endrer denne innstillingen ingenting." />
         <text name="fh_setting_aiSprayNeeded" text="AI sprøyter bare der det trengs" />
         <text name="fh_setting_aiSprayNeeded_desc" text="På: AI-hjelpere med fungicid eller insekticid sprøyter bare voksende avling på åkrer som ikke er vernet ennå, og flekker med trusler, resten regnes som ferdig, noe som sparer middel. Av: de sprøyter hele åkeren, som med enhver annen væske." />
+        <text name="fh_setting_preSowingSpray" text="Sprøyting før såing" />
+        <text name="fh_setting_preSowingSpray_desc" text="På: sprøyting med fungicid eller insekticid etter høsting, før såing, verner den nye avlingen. Av: bare sprøyting tidligst dagen før såing verner den nye avlingen." />
+        <text name="fh_setting_oneSpray" text="Én sprøyting for alt" />
+        <text name="fh_setting_oneSpray_desc" text="På: sprøyting med fungicid eller insekticid helbreder og verner åkeren mot både sykdommer og skadedyr, én kjøring er nok. Av: fungicid virker bare mot sykdommer og insekticid bare mot skadedyr." />
         <text name="fh_setting_fieldInfoRisk" text="Risiko i åkerinfo" />
         <text name="fh_setting_fieldInfoRisk_desc" text="Om åkerinfo viser åkerens risiko for sykdommer og skadedyr og hovedårsaken. Av: bare trusler og vern vises, så boksen blir kortere." />
         <text name="fh_settings_tab" text="Field Health" />
@@ -347,8 +351,8 @@ En trussel dukker ikke opp på en tilfeldig dag. Hver dag regner modden ut smitt
         <text name="fh_help_spraying_01" text="Midlene lages av det polske firmaet Opryskex: soppmiddelet Grzybobój 250 EC (grønn etikett) og insektmiddelet Robalex 100 CS (rød etikett). Når du kjøper, kan du i stedet velge merket MST (Mafia Solec Team): Solectop 280 SC og Mafiozol 50 EW. De virker likt, bare etiketten er forskjellig. Du kjøper dem i butikken i flasker på 1 l og kanner på 5 l og 20 l. Sett emballasjen ved siden av sprøyten og fyll den som fra en pall. Spillet blander ikke konsentratet med vann, så innholdet i en emballasje er all sprøytevæsken den gir. Jo større emballasje, desto billigere per hektar." />
         <text name="fh_help_spraying_03" text="Slik virker vernet" />
         <text name="fh_help_spraying_05" text="Pass på" />
-        <text name="fh_help_spraying_06" text="– Sprøyt etter spiring – såing og innhøsting fjerner vernet.
-– Soppmiddel verner ikke mot skadedyr, og insektmiddel ikke mot sykdommer. Fullt vern krever begge.
+        <text name="fh_help_spraying_06" text="– Sprøyt tidligst dagen før såing, for såing og høsting fjerner eldre vern. En tidligere sprøyting teller bare med innstillingen «Sprøyting før såing».
+– Soppmiddel verner ikke mot skadedyr, og insektmiddel ikke mot sykdommer. Fullt vern krever begge. Med innstillingen «Én sprøyting for alt» holder ett av dem.
 – Glemte kiler og vendeteiger teller: under 90 % dekning kan en trussel dukke opp på usprøytede striper.
 – Midlene gjødsler ikke og dreper ikke ugress.
 – Med kortere vern fra sprøyting (innstilling) slutter vernet av hele åkeren så lenge etter den siste sprøytingen." />

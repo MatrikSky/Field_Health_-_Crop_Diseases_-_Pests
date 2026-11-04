@@ -197,7 +197,9 @@ end
 -- Detects sowing and harvest; returns the entry and the field snapshot.
 function FHSimulation:checkSeason(field)
     local fieldId = FHUtil.getFieldId(field)
-    local snapshot = fieldId ~= nil and FHRisk.getFieldSnapshot(field) or nil
+    local known = fieldId ~= nil and self:getEntry(fieldId) or nil
+    local seasonCrop = known ~= nil and known.cropActive and known.cropFruitName or nil
+    local snapshot = fieldId ~= nil and FHRisk.getFieldSnapshot(field, seasonCrop) or nil
     if snapshot == nil then
         return nil
     end
@@ -226,16 +228,42 @@ function FHSimulation:startSeason(field, entry, snapshot)
         entry.catchCropPending = false
     end
 
+    -- the sowing is noticed with a short delay: a spraying of today or
+    -- yesterday already belongs to the new crop; with preSowingSpray also any
+    -- spraying of the bare field since the harvest (endSeason clears sprayDay)
+    local anyBareSpray = not entry.cropActive and FHSettings.isOn("preSowingSpray")
+    -- on a split field another crop takes over when the crop of the season is
+    -- gone (e.g. wheat harvested next to potatoes): its sprayed parts stay
+    -- protected. A main crop sown into a living catch crop does not inherit
+    -- the spraying of the catch crop.
+    local handover = entry.cropActive == true and not FHThreats.isCatchCrop(entry.cropFruitName, FHUtil.getFruitDesc(entry.cropFruitName))
     entry.cropFruitName = snapshot.fruitName
     entry.cropActive = true
     entry.activeDays = 0
+    local kept = {}
     for _, category in ipairs(FHThreats.CATEGORIES) do
         local slot = FHSimulation.SLOT[category]
         entry[slot.used] = false
         entry[slot.pressure] = 0
         entry[slot.target] = rollPressureTarget()
+        local sprayDay = entry[slot.sprayDay]
+        if handover and (entry[slot.protection] or 0) > 0 then
+            kept[category] = sprayDay or FHUtil.getDay()
+        elseif sprayDay ~= nil and (anyBareSpray or FHUtil.getDay() - sprayDay <= 1) then
+            kept[category] = sprayDay
+        end
     end
-    self:resetSeasonState(field, entry)
+    self:resetSeasonState(field, entry, kept)
+    local filter = handover and next(kept) ~= nil and self:getCropFilter(entry) or nil
+    if filter ~= nil then
+        FHFieldMap:removeProtectionOffCrop(field, filter)
+    end
+    if next(kept) ~= nil then
+        local fieldId = FHUtil.getFieldId(field)
+        if fieldId ~= nil then
+            self.rescans[fieldId] = FHSimulation.TUNING.rescanDelay
+        end
+    end
 end
 
 -- Fertilizer spread after the harvest belongs to the next crop.
@@ -246,17 +274,26 @@ function FHSimulation:endSeason(field, entry)
     self:resetSeasonState(field, entry)
 end
 
--- Threats and spray protection belong to one crop season.
-function FHSimulation:resetSeasonState(field, entry)
+-- Threats and spray protection belong to one crop season. keep: categories
+-- whose fresh spraying stays, mapped to its day.
+function FHSimulation:resetSeasonState(field, entry, keep)
+    keep = keep or {}
     for _, category in ipairs(FHThreats.CATEGORIES) do
         local slot = FHSimulation.SLOT[category]
         self:clearThreat(entry, category)
-        entry[slot.protection] = 0
-        entry[slot.sprayDay] = nil
+        if keep[category] == nil then
+            entry[slot.protection] = 0
+        end
+        entry[slot.sprayDay] = keep[category]
         entry[slot.risk] = 1
         entry[slot.cause] = nil
     end
-    FHFieldMap:resetField(field, true, true)
+    FHFieldMap:resetField(field, true, next(keep) == nil)
+    for _, category in ipairs(FHThreats.CATEGORIES) do
+        if next(keep) ~= nil and keep[category] == nil then
+            FHFieldMap:removeProtection(field, category)
+        end
+    end
 end
 
 function FHSimulation:watchSeasons(dt)
@@ -311,7 +348,22 @@ function FHSimulation:runDailyQueue()
         if field == nil then
             return
         end
+        FHFieldMap.cropFilter = nil
         self:processDay(field)
+        FHFieldMap.cropFilter = nil
+    end
+end
+
+-- Test of a world point for the crop of the season (FHFieldMap.cropFilter);
+-- nil when the crop is unknown, so nothing is filtered.
+function FHSimulation:getCropFilter(entry)
+    local desc = entry ~= nil and entry.cropActive and FHUtil.getFruitDesc(entry.cropFruitName) or nil
+    if desc == nil or desc.index == nil then
+        return nil
+    end
+    local fruitIndex = desc.index
+    return function(x, z)
+        return FHRisk.isCropAt(x, z, fruitIndex) ~= false
     end
 end
 
@@ -349,6 +401,7 @@ function FHSimulation:processDay(field)
     if not FHSettings.isOn("enabled") then
         return
     end
+    FHFieldMap.cropFilter = self:getCropFilter(entry)
 
     -- a threat the crop can no longer get (e.g. fodder crops or its kind
     -- switched off in the settings) ends
@@ -516,6 +569,9 @@ function FHSimulation:advanceThreat(field, entry, category)
     local slot = FHSimulation.SLOT[category]
     local threat = self:getActiveThreat(entry, category)
     local state = FHFieldMap:inspect(field, threat.id)
+    if state.infected > 0 and FHFieldMap.cropFilter ~= nil and FHFieldMap:removeThreatOffCrop(field, threat.id, FHFieldMap.cropFilter) > 0 then
+        state = FHFieldMap:inspect(field, threat.id)
+    end
     if state.infected == 0 then
         self:clearThreat(entry, category)
         return
@@ -616,7 +672,7 @@ function FHSimulation:infectNeighbour(field, threat, x, z)
         return false
     end
 
-    local snapshot = FHRisk.getFieldSnapshot(field)
+    local snapshot = FHRisk.getFieldSnapshot(field, entry.cropFruitName)
     if snapshot == nil or not snapshot.isActiveCrop or FHThreats.getTiming(threat, snapshot.stage, FHUtil.getMonth()) <= 0
         or not FHThreats.attacks(threat, snapshot.fruitName) then
         return false
@@ -625,7 +681,11 @@ function FHSimulation:infectNeighbour(field, threat, x, z)
     if not self:farmMayGetThreat(farmId) then
         return false
     end
-    if FHFieldMap:paintPatch(field, x, z, FHFieldMap.newPatch(self:rollPatchRadius(field) * 0.5), 1, threat.id) <= 0 then
+    local sourceFilter = FHFieldMap.cropFilter
+    FHFieldMap.cropFilter = self:getCropFilter(entry)
+    local placed = FHFieldMap:paintPatch(field, x, z, FHFieldMap.newPatch(self:rollPatchRadius(field) * 0.5), 1, threat.id)
+    FHFieldMap.cropFilter = sourceFilter
+    if placed <= 0 then
         return false
     end
 
@@ -687,16 +747,41 @@ function FHSimulation:getSprayMargin()
 end
 
 -- Every active sprayer section with insecticide or fungicide ends here.
+-- Kinds of threats a liquid of the category treats: its own, or both with
+-- the setting "one spray for both".
+function FHSimulation.getTreatedCategories(category)
+    if FHSettings.isOn("oneSpray") then
+        return FHThreats.CATEGORIES
+    end
+    return {category}
+end
+
+-- True when a liquid of the category treats a kind of threat that is on.
+function FHSimulation.treatsActiveCategory(category)
+    for _, treated in ipairs(FHSimulation.getTreatedCategories(category)) do
+        if FHSettings.isCategoryOn(treated) then
+            return true
+        end
+    end
+    return false
+end
+
 function FHSimulation:onSprayed(workArea, category)
     if self.fields == nil then
         return
     end
-    FHFieldMap:sprayWorkArea(workArea, self:getSprayMargin(), category)
+    local treated = FHSimulation.getTreatedCategories(category)
+    for _, kind in ipairs(treated) do
+        FHFieldMap:sprayWorkArea(workArea, self:getSprayMargin(), kind)
+    end
 
     local x, z = FHFieldMap.getWorkAreaCenter(workArea)
     local fieldId = FHUtil.getFieldId(x ~= nil and FHUtil.getFieldAt(x, z) or nil)
     if fieldId ~= nil then
-        self:getOrCreateEntry(fieldId)[FHSimulation.SLOT[category].sprayDay] = FHUtil.getDay()
+        local entry = self:getOrCreateEntry(fieldId)
+        for _, kind in ipairs(treated) do
+            entry[FHSimulation.SLOT[kind].sprayDay] = FHUtil.getDay()
+        end
         self.rescans[fieldId] = FHSimulation.TUNING.rescanDelay
     end
 end
@@ -721,8 +806,10 @@ function FHSimulation:rescan(fieldId)
         return
     end
 
-    entry.diseaseProtection, entry.pestProtection = FHFieldMap:getCoverage(field)
-    self:updateRisk(entry, FHRisk.getFieldSnapshot(field))
+    -- on a split field only the parts with the crop of the season count
+    local filter = FHRisk.isMixedField(field, entry.cropFruitName) and self:getCropFilter(entry) or nil
+    entry.diseaseProtection, entry.pestProtection = FHFieldMap:getCoverage(field, filter, 2)
+    self:updateRisk(entry, FHRisk.getFieldSnapshot(field, entry.cropFruitName))
     for _, category in ipairs(FHThreats.CATEGORIES) do
         local threat = self:getActiveThreat(entry, category)
         if threat ~= nil then
@@ -762,10 +849,13 @@ function FHSimulation:isSprayNeeded(sx, sz, wx, wz, hx, hz, category)
     if entry == nil or not entry.cropActive then
         return false
     end
-    if self:getProtection(entry, category) < FHSettings.get("protectionThreshold") then
-        return true
+    for _, kind in ipairs(FHSimulation.getTreatedCategories(category)) do
+        if FHSettings.isCategoryOn(kind) and (self:getProtection(entry, kind) < FHSettings.get("protectionThreshold")
+            or FHFieldMap:countThreatsInArea(sx, sz, wx, wz, hx, hz, kind) > 0) then
+            return true
+        end
     end
-    return FHFieldMap:countThreatsInArea(sx, sz, wx, wz, hx, hz, category) > 0
+    return false
 end
 
 -- Lowest protection of the growing fields of a farmland, nil without crops.

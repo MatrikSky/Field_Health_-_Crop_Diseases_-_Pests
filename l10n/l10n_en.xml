@@ -180,6 +180,10 @@
         <text name="fh_setting_precisionFarming_desc" text="Whether the nitrogen, pH and soil maps of Precision Farming change the risk of threats. Off: the mod uses the basic field data of the game instead, as without Precision Farming. Without Precision Farming this setting changes nothing." />
         <text name="fh_setting_aiSprayNeeded" text="AI sprays only where needed" />
         <text name="fh_setting_aiSprayNeeded_desc" text="On: AI helpers with fungicide or insecticide spray only growing crops of fields that are not protected yet and spots with threats, the rest counts as done, which saves product. Off: they spray the whole field, like with any other liquid." />
+        <text name="fh_setting_preSowingSpray" text="Spraying before sowing" />
+        <text name="fh_setting_preSowingSpray_desc" text="On: spraying fungicide or insecticide after the harvest, before you sow, protects the new crop. Off: only spraying done one day before sowing or later protects the new crop." />
+        <text name="fh_setting_oneSpray" text="One spray for both" />
+        <text name="fh_setting_oneSpray_desc" text="On: spraying fungicide or insecticide cures and protects the field against diseases and pests at once, so one pass is enough. Off: fungicide only works against diseases and insecticide only against pests." />
         <text name="fh_setting_fieldInfoRisk" text="Risk in the field info" />
         <text name="fh_setting_fieldInfoRisk_desc" text="Whether the field info box shows the disease and pest risk of the field and its main cause. Off: only threats and protection are shown, so the box stays shorter." />
         <text name="fh_settings_tab" text="Field Health" />
@@ -347,8 +351,8 @@ A threat does not appear on a random day. Every day the mod works out the infect
         <text name="fh_help_spraying_01" text="The products are made by the Polish company Opryskex: the fungicide Grzybobój 250 EC (green label) and the insecticide Robalex 100 CS (red label). When buying you can choose the MST brand (Mafia Solec Team) instead: Solectop 280 SC and Mafiozol 50 EW. They work the same, only the label differs. You buy them in the shop in 1 l bottles and in 5 l and 20 l canisters. Put the container next to the sprayer and fill it as from a pallet. The game does not mix the concentrate with water, so the content of a container is all the spray mixture it makes. The bigger the container, the cheaper per hectare." />
         <text name="fh_help_spraying_03" text="How protection works" />
         <text name="fh_help_spraying_05" text="Watch out" />
-        <text name="fh_help_spraying_06" text="– Spray after emergence – sowing and harvest remove the protection.
-– Fungicide does not protect against pests and insecticide not against diseases. Full protection needs both.
+        <text name="fh_help_spraying_06" text="– Spray one day before sowing at the earliest, because sowing and harvest remove older protection. Earlier spraying only counts with the setting “Spraying before sowing”.
+– Fungicide does not protect against pests and insecticide not against diseases. Full protection needs both. With the setting “One spray for both” one of them is enough.
 – Missed wedges and headlands count: below 90% coverage a threat can appear on unsprayed strips.
 – The products do not fertilize and do not kill weeds.
 – With a shorter spray protection (setting) the protection of the whole field ends that long after the last spraying." />

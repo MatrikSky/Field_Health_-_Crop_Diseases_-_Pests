@@ -7,9 +7,9 @@ function FHCropDamage.destroyAt(field, x, z, radius)
     if g_server == nil or field == nil or g_fruitTypeManager == nil or g_terrainNode == nil then
         return 0
     end
-    local fieldState = field:getFieldState()
-    local fruitIndex = fieldState ~= nil and fieldState.fruitTypeIndex or FruitType.UNKNOWN
-    local desc = fruitIndex ~= FruitType.UNKNOWN and g_fruitTypeManager:getFruitTypeByIndex(fruitIndex) or nil
+    -- the crop of the season, not whatever grows at the field's own point
+    local entry = FHSimulation:getEntry(FHUtil.getFieldId(field))
+    local desc = entry ~= nil and entry.cropActive and FHUtil.getFruitDesc(entry.cropFruitName) or nil
     if desc == nil or desc.terrainDataPlaneId == nil then
         return 0
     end
@@ -27,13 +27,15 @@ function FHCropDamage.destroyAt(field, x, z, radius)
         local shift = piece == 1 and 0 or radius * MathUtil.randomFloat(0.3, 0.7)
         local heading = MathUtil.randomFloat(0, math.pi * 2)
         local cx, cz = x + math.cos(heading) * shift, z + math.sin(heading) * shift
-
-        local turn = MathUtil.randomFloat(0, math.pi * 0.5)
-        local ux, uz = math.cos(turn) * size, math.sin(turn) * size
-        local sx, sz = cx - ux + uz, cz - uz - ux
-        modifier:setParallelogramWorldCoords(sx, sz, sx + 2 * ux, sz + 2 * uz, sx - 2 * uz, sz + 2 * ux, DensityCoordType.POINT_POINT_POINT)
-        local _, pieceChanged = modifier:executeSetWithStats(0, filter)
-        changed = changed + (pieceChanged or 0)
+        -- on a split field no piece lands on another crop
+        if FHFieldMap.cropFilter == nil or FHFieldMap.cropFilter(cx, cz) then
+            local turn = MathUtil.randomFloat(0, math.pi * 0.5)
+            local ux, uz = math.cos(turn) * size, math.sin(turn) * size
+            local sx, sz = cx - ux + uz, cz - uz - ux
+            modifier:setParallelogramWorldCoords(sx, sz, sx + 2 * ux, sz + 2 * uz, sx - 2 * uz, sz + 2 * ux, DensityCoordType.POINT_POINT_POINT)
+            local _, pieceChanged = modifier:executeSetWithStats(0, filter)
+            changed = changed + (pieceChanged or 0)
+        end
     end
     return changed
 end

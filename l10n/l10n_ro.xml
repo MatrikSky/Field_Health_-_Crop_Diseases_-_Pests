@@ -180,6 +180,10 @@
         <text name="fh_setting_precisionFarming_desc" text="Dacă hărțile de azot, pH și sol ale Agriculturii de precizie modifică riscul amenințărilor. Dezactivat: modul folosește în schimb datele de bază ale parcelei din joc, ca fără Agricultura de precizie. Fără Agricultura de precizie această setare nu schimbă nimic." />
         <text name="fh_setting_aiSprayNeeded" text="IA stropește doar unde e nevoie" />
         <text name="fh_setting_aiSprayNeeded_desc" text="Activat: ajutoarele IA cu fungicid sau insecticid stropesc doar culturile în creștere de pe parcelele încă neprotejate și focarele, restul contează ca făcut, ceea ce economisește produs. Dezactivat: stropesc toată parcela, ca cu orice alt lichid." />
+        <text name="fh_setting_preSowingSpray" text="Stropire înainte de semănat" />
+        <text name="fh_setting_preSowingSpray_desc" text="Activat: stropirea cu fungicid sau insecticid după recoltare, înainte de semănat, protejează noua cultură. Dezactivat: noua cultură e protejată doar de stropirea făcută cel mai devreme cu o zi înainte de semănat." />
+        <text name="fh_setting_oneSpray" text="O stropire pentru tot" />
+        <text name="fh_setting_oneSpray_desc" text="Activat: stropirea cu fungicid sau insecticid tratează și protejează parcela de boli și dăunători deodată, ajunge o singură trecere. Dezactivat: fungicidul acționează doar împotriva bolilor, iar insecticidul doar împotriva dăunătorilor." />
         <text name="fh_setting_fieldInfoRisk" text="Riscul în informațiile parcelei" />
         <text name="fh_setting_fieldInfoRisk_desc" text="Dacă informațiile parcelei arată riscul de boli și dăunători al parcelei și cauza lui principală. Dezactivat: se văd doar amenințările și protecția, așa că fereastra rămâne mai scurtă." />
         <text name="fh_settings_tab" text="Field Health" />
@@ -347,8 +351,8 @@ O amenințare nu apare într-o zi oarecare. În fiecare zi modul calculează pre
         <text name="fh_help_spraying_01" text="Produsele sunt fabricate de compania poloneză Opryskex: fungicidul Grzybobój 250 EC (etichetă verde) și insecticidul Robalex 100 CS (etichetă roșie). La cumpărare poți alege în locul ei marca MST (Mafia Solec Team): Solectop 280 SC și Mafiozol 50 EW. Acționează la fel, diferă doar eticheta. Le cumperi din magazin în sticle de 1 l și în canistre de 5 l și 20 l. Pune ambalajul lângă mașina de stropit și umple mașina ca de pe un palet. Jocul nu amestecă concentratul cu apă, așa că tot conținutul unui ambalaj este întreaga soluție pe care o dă. Cu cât ambalajul e mai mare, cu atât hectarul iese mai ieftin." />
         <text name="fh_help_spraying_03" text="Cum funcționează protecția" />
         <text name="fh_help_spraying_05" text="Atenție" />
-        <text name="fh_help_spraying_06" text="– Stropește după răsărire – semănatul și recoltarea anulează protecția.
-– Fungicidul nu protejează de dăunători, iar insecticidul nu protejează de boli. Pentru protecție completă ai nevoie de amândouă.
+        <text name="fh_help_spraying_06" text="– Stropește cel mai devreme cu o zi înainte de semănat, pentru că semănatul și recoltarea anulează protecția mai veche. O stropire mai timpurie contează doar cu setarea „Stropire înainte de semănat”.
+– Fungicidul nu protejează de dăunători, iar insecticidul nu protejează de boli. Pentru protecție completă ai nevoie de amândouă. Cu setarea „O stropire pentru tot” ajunge unul dintre ele.
 – Unghiurile și întoarcerile ratate contează: sub 90% acoperire o amenințare poate apărea pe fâșiile nestropite.
 – Produsele nu fertilizează și nu distrug buruienile.
 – Cu o protecție mai scurtă (setare), protecția întregii parcele se termină la acest interval după ultima stropire." />

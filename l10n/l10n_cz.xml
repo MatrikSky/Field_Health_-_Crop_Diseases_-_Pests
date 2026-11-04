@@ -180,6 +180,10 @@
         <text name="fh_setting_precisionFarming_desc" text="Zda mapy dusíku, pH a půdy z Přesného farmaření mění riziko napadení. Vypnuto: mód místo nich použije základní data pole ze hry, jako bez Přesného farmaření. Bez Přesného farmaření toto nastavení nic nemění." />
         <text name="fh_setting_aiSprayNeeded" text="AI stříká jen tam, kde je třeba" />
         <text name="fh_setting_aiSprayNeeded_desc" text="Zapnuto: AI pracovníci s fungicidem nebo insekticidem stříkají jen rostoucí plodiny na polích, která ještě nejsou chráněná, a místa s napadením, zbytek se počítá jako hotový, což šetří přípravek. Vypnuto: stříkají celé pole jako jakoukoli jinou kapalinou." />
+        <text name="fh_setting_preSowingSpray" text="Postřik před setím" />
+        <text name="fh_setting_preSowingSpray_desc" text="Zapnuto: postřik fungicidem nebo insekticidem po sklizni, ještě před setím, chrání novou plodinu. Vypnuto: novou plodinu chrání jen postřik provedený nejdříve den před setím." />
+        <text name="fh_setting_oneSpray" text="Jeden postřik na vše" />
+        <text name="fh_setting_oneSpray_desc" text="Zapnuto: postřik fungicidem nebo insekticidem léčí a chrání pole proti chorobám i škůdcům najednou, stačí jeden přejezd. Vypnuto: fungicid působí jen na choroby a insekticid jen na škůdce." />
         <text name="fh_setting_fieldInfoRisk" text="Riziko v informacích o poli" />
         <text name="fh_setting_fieldInfoRisk_desc" text="Zda informace o poli ukazují riziko chorob a škůdců na poli a jeho hlavní příčinu. Vypnuto: zobrazí se jen napadení a ochrana, takže je okno kratší." />
         <text name="fh_settings_tab" text="Field Health" />
@@ -347,8 +351,8 @@ Napadení se neobjeví v náhodný den. Mod každý den spočítá infekční tl
         <text name="fh_help_spraying_01" text="Přípravky vyrábí polská firma Opryskex: fungicid Grzybobój 250 EC (zelená etiketa) a insekticid Robalex 100 CS (červená etiketa). Při nákupu si místo ní můžeš vybrat značku MST (Mafia Solec Team): Solectop 280 SC a Mafiozol 50 EW. Působí stejně, liší se jen etiketou. V obchodě je koupíš v lahvích 1 l a v kanystrech 5 l a 20 l. Postav balení vedle postřikovače a naplň postřikovač jako z palety. Hra koncentrát nemíchá s vodou, takže obsah balení je rovnou celá postřiková jícha, která z něj vznikne. Čím větší balení, tím levnější hektar." />
         <text name="fh_help_spraying_03" text="Jak funguje ochrana" />
         <text name="fh_help_spraying_05" text="Pozor" />
-        <text name="fh_help_spraying_06" text="– Stříkej až po vzejití – setí a sklizeň ochranu ruší.
-– Fungicid nechrání proti škůdcům a insekticid proti chorobám. Pro plnou ochranu potřebuješ oba.
+        <text name="fh_help_spraying_06" text="– Stříkej nejdříve den před setím, protože setí a sklizeň ruší starší ochranu. Dřívější postřik se počítá jen s nastavením „Postřik před setím“.
+– Fungicid nechrání proti škůdcům a insekticid proti chorobám. Pro plnou ochranu potřebuješ oba. S nastavením „Jeden postřik na vše“ stačí jeden z nich.
 – Vynechané klíny a souvratě se počítají: pod 90 % pokrytí se napadení může objevit na nepostříkaných pruzích.
 – Přípravky nehnojí a neničí plevele.
 – Při kratší ochraně (nastavení) skončí ochrana celého pole tuto dobu po posledním postřiku." />

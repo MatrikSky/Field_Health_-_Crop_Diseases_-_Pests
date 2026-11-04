@@ -2,7 +2,7 @@
 -- in a fixed order and forwards the frame updates.
 FieldHealth = {}
 
-FieldHealth.VERSION = "1.3.0.0"
+FieldHealth.VERSION = "1.4.0.0"
 -- other mods that do the same job and would spray, colour and save twice
 FieldHealth.OVERLAPPING_MODS = {"FS25_CropDiseases_BMP", "FS25_CropDiseases"}
 

@@ -180,6 +180,10 @@
         <text name="fh_setting_precisionFarming_desc" text="Se os mapas de azoto, pH e solo do Precision Farming alteram o risco de ameaças. Desligado: o mod usa em vez disso os dados básicos do campo do jogo, como sem o Precision Farming. Sem o Precision Farming esta definição não muda nada." />
         <text name="fh_setting_aiSprayNeeded" text="A IA só pulveriza onde é preciso" />
         <text name="fh_setting_aiSprayNeeded_desc" text="Ligado: os trabalhadores IA com fungicida ou inseticida só pulverizam culturas em crescimento de campos ainda sem proteção e zonas com ameaças; o resto conta como feito, o que poupa produto. Desligado: pulverizam o campo inteiro, como com qualquer outro líquido." />
+        <text name="fh_setting_preSowingSpray" text="Pulverização antes da sementeira" />
+        <text name="fh_setting_preSowingSpray_desc" text="Ligado: pulverizar fungicida ou inseticida depois da colheita, antes da sementeira, protege a nova cultura. Desligado: só protege a nova cultura a pulverização feita a partir da véspera da sementeira." />
+        <text name="fh_setting_oneSpray" text="Uma pulverização para tudo" />
+        <text name="fh_setting_oneSpray_desc" text="Ligado: pulverizar fungicida ou inseticida trata e protege o campo contra doenças e pragas ao mesmo tempo, basta uma passagem. Desligado: o fungicida só atua contra doenças e o inseticida só contra pragas." />
         <text name="fh_setting_fieldInfoRisk" text="Risco nas informações do campo" />
         <text name="fh_setting_fieldInfoRisk_desc" text="Se as informações do campo mostram o risco de doenças e pragas do campo e a sua causa principal. Desligado: só aparecem as ameaças e a proteção, e o quadro fica mais curto." />
         <text name="fh_settings_tab" text="Field Health" />
@@ -347,8 +351,8 @@ Uma ameaça não aparece num dia ao acaso. Todos os dias o mod calcula a pressã
         <text name="fh_help_spraying_01" text="Os produtos são fabricados pela empresa polaca Opryskex: o fungicida Grzybobój 250 EC (rótulo verde) e o inseticida Robalex 100 CS (rótulo vermelho). Na compra podes escolher, em vez dela, a marca MST (Mafia Solec Team): Solectop 280 SC e Mafiozol 50 EW. Funcionam da mesma maneira, só o rótulo muda. Compram-se na loja em frascos de 1 l e em bidões de 5 l e 20 l. Coloca a embalagem junto ao pulverizador e enche o pulverizador como a partir de uma palete. O jogo não mistura o concentrado com água, por isso o conteúdo de uma embalagem é toda a calda que ela rende. Quanto maior a embalagem, mais barato fica por hectare." />
         <text name="fh_help_spraying_03" text="Como funciona a proteção" />
         <text name="fh_help_spraying_05" text="Atenção" />
-        <text name="fh_help_spraying_06" text="– Pulveriza depois da emergência – a sementeira e a colheita retiram a proteção.
-– O fungicida não protege contra pragas e o inseticida não protege contra doenças. Para uma proteção total são precisos os dois.
+        <text name="fh_help_spraying_06" text="– Pulveriza a partir da véspera da sementeira, porque a sementeira e a colheita retiram a proteção anterior. Uma pulverização mais cedo só conta com a definição «Pulverização antes da sementeira».
+– O fungicida não protege contra pragas e o inseticida não protege contra doenças. Para uma proteção total são precisos os dois. Com a definição «Uma pulverização para tudo» basta um deles.
 – Cunhas e cabeceiras esquecidas contam: abaixo de 90% de cobertura uma ameaça pode aparecer nas faixas não pulverizadas.
 – Os produtos não adubam nem eliminam as infestantes.
 – Com uma proteção mais curta (definição), a proteção de todo o campo termina esse tempo depois da última pulverização." />

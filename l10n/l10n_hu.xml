@@ -180,6 +180,10 @@
         <text name="fh_setting_precisionFarming_desc" text="Módosítják-e a Precíziós gazdálkodás nitrogén-, pH- és talajtérképei a károsítók kockázatát. Ki: a mod helyettük a játék alapvető tábla-adatait használja, mint a Precíziós gazdálkodás nélkül. Precíziós gazdálkodás nélkül ez a beállítás semmit sem változtat." />
         <text name="fh_setting_aiSprayNeeded" text="A gépi segítő csak ott permetez, ahol kell" />
         <text name="fh_setting_aiSprayNeeded_desc" text="Be: a gombaölő vagy rovarölő szerrel dolgozó gépi segítők csak a még nem védett táblák növekvő növényzetét és a károsított foltokat permetezik, a többi késznek számít, így spórolnak a szerrel. Ki: az egész táblát lepermetezik, mint bármilyen más folyadékkal." />
+        <text name="fh_setting_preSowingSpray" text="Permetezés vetés előtt" />
+        <text name="fh_setting_preSowingSpray_desc" text="Be: a betakarítás után, még vetés előtt végzett gombaölő vagy rovarölő permetezés védi az új kultúrát. Ki: az új kultúrát csak a legkorábban a vetés előtti napon végzett permetezés védi." />
+        <text name="fh_setting_oneSpray" text="Egy permetezés mindenre" />
+        <text name="fh_setting_oneSpray_desc" text="Be: a gombaölő vagy rovarölő permetezés egyszerre gyógyítja és védi a táblát a betegségek és a kártevők ellen, elég egy menet. Ki: a gombaölő szer csak a betegségek, a rovarölő szer csak a kártevők ellen hat." />
         <text name="fh_setting_fieldInfoRisk" text="Kockázat a tábla adataiban" />
         <text name="fh_setting_fieldInfoRisk_desc" text="Mutassák-e a tábla adatai a tábla betegség- és kártevőkockázatát és annak fő okát. Ki: csak a károsítók és a védelem látszik, így az ablak rövidebb marad." />
         <text name="fh_settings_tab" text="Field Health" />
@@ -347,8 +351,8 @@ A fertőzés nem véletlenszerű napon jelenik meg. A mod minden nap kiszámolja
         <text name="fh_help_spraying_01" text="A szereket a lengyel Opryskex cég gyártja: a Grzybobój 250 EC gombaölő szert (zöld címke) és a Robalex 100 CS rovarölő szert (piros címke). Vásárláskor helyette az MST (Mafia Solec Team) márkát is választhatod: Solectop 280 SC és Mafiozol 50 EW. Ugyanúgy hatnak, csak a címke más. A boltban 1 literes flakonban, valamint 5 és 20 literes kannában kaphatók. Tedd a kiszerelést a permetező mellé, és töltsd fel a permetezőt, mint egy raklapról. A játék nem keveri vízzel a koncentrátumot, így egy kiszerelés tartalma az összes permetlé, ami belőle lesz. Minél nagyobb a kiszerelés, annál olcsóbb egy hektár." />
         <text name="fh_help_spraying_03" text="Így működik a védelem" />
         <text name="fh_help_spraying_05" text="Figyelem" />
-        <text name="fh_help_spraying_06" text="– Kelés után permetezz – a vetés és a betakarítás megszünteti a védelmet.
-– A gombaölő szer nem véd a kártevők, a rovarölő szer pedig a betegségek ellen. A teljes védelemhez mindkettő kell.
+        <text name="fh_help_spraying_06" text="– Legkorábban a vetés előtti napon permetezz, mert a vetés és a betakarítás megszünteti a korábbi védelmet. A korábbi permetezés csak a „Permetezés vetés előtt” beállítással számít.
+– A gombaölő szer nem véd a kártevők, a rovarölő szer pedig a betegségek ellen. A teljes védelemhez mindkettő kell. Az „Egy permetezés mindenre” beállítással elég az egyik.
 – A kihagyott ékek és forgók is számítanak: 90% alatti fedettségnél a permetezetlen sávokon megjelenhet a fertőzés.
 – A szerek nem trágyáznak és nem irtják a gyomokat.
 – Rövidebb védelemnél (beállítás) az egész tábla védelme ennyi idővel az utolsó permetezés után véget ér." />

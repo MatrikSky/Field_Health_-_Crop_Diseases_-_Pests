@@ -54,7 +54,7 @@ Your fields finally come alive! Field Health adds crop diseases and pests to Far
 - 💧 **One spray cures it:** fungicide or insecticide removes the threat and protects the field until harvest. The AI helper only sprays where it's needed.
 - 🧴 **Real products:** 1 l bottles and 5 l and 20 l canisters with realistic labels from two brands, Opryskex and MST.
 - 🗺️ **A clear overview:** a map page with five layers, a minimap layer, field info lines and notifications.
-- ⚙️ **31 settings:** switch the whole mod, diseases or pests off, a calm start, chances, speed, spread, damage, protection, usage and prices, all in a Field Health tab in the game menu.
+- ⚙️ **33 settings:** switch the whole mod, diseases or pests off, a calm start, chances, speed, spread, damage, protection, usage and prices, all in a Field Health tab in the game menu.
 - 🌍 **20 languages:** the game language is picked automatically.
 - 🔌 **Plays well with others:** Precision Farming, onions from the Highlands Fishing DLC, mod maps, multiplayer and safe savegames.
 
@@ -588,6 +588,8 @@ You find the mod settings in **ESC > Settings**, in their own **Field Health** t
 | Fungicide rate | 25% to 200% | 100% | fungicide used per hectare; the effect stays the same |
 | Insecticide rate | 25% to 200% | 100% | insecticide used per hectare; the effect stays the same |
 | AI sprays only where needed | on or off | on | whether AI helpers spray only the fields and spots that need it |
+| Spraying before sowing | on or off | off | whether spraying a bare field after the harvest protects the next crop |
+| One spray for both | on or off | off | whether one spraying with either liquid protects against both diseases and pests |
 | Fungicide bottle price | 10 to 200 | 50 | shop price of the 1 l bottle |
 | Insecticide bottle price | 10 to 200 | 80 | shop price of the 1 l bottle |
 | Fungicide 5 l canister price | 50 to 600 | 220 | shop price of the 5 l canister |
@@ -876,6 +878,6 @@ And thanks to everyone who plays the mod, reports bugs and shares ideas.
 
 **Have fun and healthy fields!** 🌱
 
-<sub>Field Health 1.3.0.0 • made by MatrikSky</sub>
+<sub>Field Health 1.4.0.0 • made by MatrikSky</sub>
 
 </div>

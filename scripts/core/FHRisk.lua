@@ -78,19 +78,154 @@ local function classifyStage(desc, growthState)
     return nil, false
 end
 
-function FHRisk.getFieldSnapshot(field)
-    local fieldState = field ~= nil and field.getFieldState ~= nil and field:getFieldState() or nil
+-- A field can be split into parts with different crops; the game still sees
+-- one field. The mod follows one crop per field: the crop of the season stays
+-- while it grows anywhere on the grid, otherwise the crop of most points wins.
+FHRisk.CROP_SAMPLES = 6
+
+local function getFruitDesc(fruitIndex)
+    if fruitIndex == nil or fruitIndex == FruitType.UNKNOWN or g_fruitTypeManager == nil then
+        return nil
+    end
+    return g_fruitTypeManager:getFruitTypeByIndex(fruitIndex)
+end
+
+-- Fruit index and growth state at a world point, nil when it cannot be read.
+-- The density map lookup is cheap; FieldState is the fallback.
+function FHRisk.readCropAt(x, z)
+    local ok, fruitIndex, growthState = pcall(function()
+        if FSDensityMapUtil ~= nil and FSDensityMapUtil.getFruitTypeIndexAtWorldPos ~= nil then
+            return FSDensityMapUtil.getFruitTypeIndexAtWorldPos(x, z)
+        end
+        if FieldState ~= nil and FieldState.new ~= nil then
+            local state = FieldState.new()
+            state:update(x, z)
+            return state.fruitTypeIndex, state.growthState
+        end
+        return nil
+    end)
+    if not ok then
+        return nil
+    end
+    return fruitIndex, growthState
+end
+
+-- True when the crop grows at the point, false when something else is there,
+-- nil when the point cannot be read (then nothing is filtered out).
+function FHRisk.isCropAt(x, z, fruitIndex)
+    local index, growthState = FHRisk.readCropAt(x, z)
+    if index == nil then
+        return nil
+    end
+    if index ~= fruitIndex then
+        return false
+    end
+    local _, isActiveCrop = classifyStage(getFruitDesc(index), growthState or 0)
+    return isActiveCrop == true
+end
+
+-- Growing crops on a grid of the field: {[fruitIndex] = {count, desc,
+-- stages = {[stage] = count}}}, the number of points inside the field and of
+-- points with a growing crop.
+function FHRisk.surveyCrops(field)
+    local crops, points, cropPoints = {}, 0, 0
+    for _, point in ipairs(FHUtil.getSamplePoints(field, FHRisk.CROP_SAMPLES)) do
+        points = points + 1
+        local fruitIndex, growthState = FHRisk.readCropAt(point.x, point.z)
+        local desc = getFruitDesc(fruitIndex)
+        local stage, isActiveCrop = classifyStage(desc, growthState or 0)
+        if isActiveCrop and fruitIndex ~= nil then
+            cropPoints = cropPoints + 1
+            local crop = crops[fruitIndex]
+            if crop == nil then
+                crop = {count = 0, desc = desc, stages = {}}
+                crops[fruitIndex] = crop
+            end
+            crop.count = crop.count + 1
+            if stage ~= nil then
+                crop.stages[stage] = (crop.stages[stage] or 0) + 1
+            end
+        end
+    end
+    return crops, points, cropPoints
+end
+
+-- True when the crop does not grow on the whole grid of the field (other
+-- crops or bare parts). nil when the grid cannot be read.
+function FHRisk.isMixedField(field, fruitName)
+    local crops, points = FHRisk.surveyCrops(field)
+    if points == 0 then
+        return nil
+    end
+    for _, crop in pairs(crops) do
+        if crop.desc ~= nil and crop.desc.name == fruitName then
+            return crop.count < points
+        end
+    end
+    return true
+end
+
+local function mostCommon(counts)
+    local best, bestCount = nil, 0
+    for key, count in pairs(counts) do
+        if count > bestCount or (count == bestCount and best ~= nil and tostring(key) < tostring(best)) then
+            best, bestCount = key, count
+        end
+    end
+    return best
+end
+
+-- The state the game keeps for a field is refreshed only now and then, so
+-- after discing or sowing it can still show the old crop. The field's own
+-- point is read live instead; the kept state is the fallback.
+local function readLiveState(field)
+    if field == nil or field.posX == nil or field.posZ == nil or FieldState == nil or FieldState.new == nil then
+        return nil
+    end
+    local ok, state = pcall(function()
+        local live = FieldState.new()
+        live:update(field.posX, field.posZ)
+        return live
+    end)
+    return ok and state or nil
+end
+
+-- seasonFruitName: the crop of the running season, kept while it still grows
+-- somewhere on the field.
+function FHRisk.getFieldSnapshot(field, seasonFruitName)
+    local fieldState = readLiveState(field)
+    if fieldState == nil then
+        fieldState = field ~= nil and field.getFieldState ~= nil and field:getFieldState() or nil
+    end
     if fieldState == nil then
         return nil
     end
 
     local fruitIndex = fieldState.fruitTypeIndex or FruitType.UNKNOWN
-    local desc = nil
-    if fruitIndex ~= FruitType.UNKNOWN and g_fruitTypeManager ~= nil then
-        desc = g_fruitTypeManager:getFruitTypeByIndex(fruitIndex)
-    end
-
+    local desc = getFruitDesc(fruitIndex)
     local stage, isActiveCrop = classifyStage(desc, fieldState.growthState or 0)
+    local labelMatches = isActiveCrop and (seasonFruitName == nil or (desc ~= nil and desc.name == seasonFruitName))
+    if not labelMatches then
+        -- the field's own point is bare or has another crop than the season
+        local crops = FHRisk.surveyCrops(field)
+        local chosen = nil
+        for index, crop in pairs(crops) do
+            if seasonFruitName ~= nil and crop.desc ~= nil and crop.desc.name == seasonFruitName then
+                chosen = index
+            end
+        end
+        if chosen == nil and not isActiveCrop then
+            local counts = {}
+            for index, crop in pairs(crops) do
+                counts[index] = crop.count
+            end
+            chosen = mostCommon(counts)
+        end
+        if chosen ~= nil then
+            fruitIndex, desc = chosen, crops[chosen].desc
+            stage, isActiveCrop = mostCommon(crops[chosen].stages), true
+        end
+    end
     local fruitName = desc ~= nil and desc.name or nil
 
     return {
@@ -112,8 +247,10 @@ FHRisk.FACTOR_SAMPLES = 6
 -- missing: 0.5 for most work; stubble and rolling only when three quarters
 -- lack it, so tramlines and field paths never count as neglect.
 FHRisk.FACTOR_NEGLECT_SHARE = {stubble = 0.75, roller = 0.75}
--- Without readable crop points these are not judged from a single spot.
+-- With fewer crop points than this (a crop only just sown or emerging on part
+-- of the field) these are not judged: a few spots say nothing about the field.
 FHRisk.FACTOR_UNSURE = {stubble = true, roller = true}
+FHRisk.FACTOR_MIN_SAMPLES = 4
 
 local function readFactors(fieldState)
     if fieldState == nil or fieldState.getHarvestScaleFactors == nil then
@@ -149,8 +286,8 @@ function FHRisk.getHarvestFactors(snapshot)
         end
     end
     snapshot.harvestSamples = #samples
-    local unsure = #samples == 0
-    if unsure then
+    local unsure = #samples < FHRisk.FACTOR_MIN_SAMPLES
+    if #samples == 0 then
         samples = {readFactors(snapshot.fieldState) or {}}
     end
 

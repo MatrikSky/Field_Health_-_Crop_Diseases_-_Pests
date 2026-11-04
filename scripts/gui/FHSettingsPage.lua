@@ -11,7 +11,6 @@ FHSettingsPage.HEADER_ICON = "gui.icon_options_generalSettings2"
 -- the header of the menu is looked up by the game, so the title is also
 -- registered as a text of the game; without that the game's own title is used
 FHSettingsPage.HEADER_TEXT = "fieldHealth_settingsTitle"
-FHSettingsPage.HEADER_FALLBACK = "ui_settings"
 
 -- Receives the clicks of the loaded tab.
 local Controller = {}
@@ -160,10 +159,11 @@ function FHSettingsPage:install()
         InGameMenuSettingsFrame.HEADER_SLICES[position] = FHSettingsPage.HEADER_ICON
     end
     if InGameMenuSettingsFrame.HEADER_TITLES ~= nil then
+        -- without an own text the title of the game's first tab, a key that exists
         local own = setGameText(FHSettingsPage.HEADER_TEXT, FHUtil.text("fh_settings_tab"))
-        InGameMenuSettingsFrame.HEADER_TITLES[position] = own and FHSettingsPage.HEADER_TEXT or FHSettingsPage.HEADER_FALLBACK
+        InGameMenuSettingsFrame.HEADER_TITLES[position] = own and FHSettingsPage.HEADER_TEXT or InGameMenuSettingsFrame.HEADER_TITLES[1]
     end
-    self:updatePaging(frame)
+    self:updatePaging(frame, position)
 
     self:fill(controller, layout)
     removeTemplate(controller.fieldHealthRowTemplate)
@@ -225,22 +225,30 @@ function FHSettingsPage:fitTabs(frame)
     self.fittedTabs = #frame.subCategoryTabs
 end
 
--- The page selector of the menu needs one entry per tab.
-function FHSettingsPage:updatePaging(frame)
+-- The page selector of the menu lists the numbers of the visible tabs; its
+-- state is the place in that list, not the number of the tab (hidden tabs,
+-- or tabs of other mods added in between, make them differ).
+function FHSettingsPage.getPagingState(frame, position)
+    local paging = frame ~= nil and frame.subCategoryPaging or nil
+    for state, text in ipairs(paging ~= nil and paging.texts or {}) do
+        if tonumber(text) == position then
+            return state
+        end
+    end
+    return nil
+end
+
+function FHSettingsPage:updatePaging(frame, position)
     if frame.updateSubCategoryPages ~= nil then
         frame:updateSubCategoryPages()
     end
     local paging = frame.subCategoryPaging
-    if paging == nil or paging.texts == nil then
+    if paging == nil or paging.texts == nil or FHSettingsPage.getPagingState(frame, position) ~= nil then
         return
     end
     local texts = paging.texts
-    if #texts < #frame.subCategoryTabs then
-        for i = #texts + 1, #frame.subCategoryTabs do
-            texts[i] = tostring(i)
-        end
-        paging:setTexts(texts)
-    end
+    table.insert(texts, tostring(position))
+    paging:setTexts(texts)
 end
 
 function FHSettingsPage:registerFocus(frame, page, tab)
@@ -292,9 +300,17 @@ end
 function FHSettingsPage:select()
     local frame = self.frame
     local position = InGameMenuSettingsFrame.SUB_CATEGORY[FHSettingsPage.SUB_CATEGORY]
-    if frame ~= nil and position ~= nil and frame.subCategoryPaging ~= nil then
-        frame.subCategoryPaging:setState(position, true)
+    if frame == nil or position == nil or frame.subCategoryPaging == nil then
+        return
     end
+    -- the page list may have been rebuilt since: the entry of the tab is
+    -- added again if it went missing
+    local state = FHSettingsPage.getPagingState(frame, position)
+    if state == nil then
+        self:updatePaging(frame, position)
+        state = FHSettingsPage.getPagingState(frame, position)
+    end
+    frame.subCategoryPaging:setState(state or position, true)
 end
 
 -- Texts, states, the admin lock and the row colours.

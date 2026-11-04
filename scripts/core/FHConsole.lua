@@ -85,7 +85,7 @@ function FHConsole:cmdInfo(fieldArg)
 
     -- details per threat are only known on the server
     local field = g_server ~= nil and FHUtil.getField(fieldId) or nil
-    local snapshot = field ~= nil and FHRisk.getFieldSnapshot(field) or nil
+    local snapshot = field ~= nil and FHRisk.getFieldSnapshot(field, entry.cropActive and entry.cropFruitName or nil) or nil
     if snapshot ~= nil and snapshot.isActiveCrop then
         local work = FHRisk.getFieldWork(snapshot, entry)
         local parts = {}

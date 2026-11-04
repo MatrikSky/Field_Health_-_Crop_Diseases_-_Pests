@@ -180,6 +180,10 @@
         <text name="fh_setting_precisionFarming_desc" text="Ob die Stickstoff-, pH- und Bodenkarten von Precision Farming das Befallsrisiko verändern. Aus: Der Mod nutzt stattdessen die Grunddaten des Feldes aus dem Spiel, wie ohne Precision Farming. Ohne Precision Farming ändert diese Einstellung nichts." />
         <text name="fh_setting_aiSprayNeeded" text="KI spritzt nur, wo nötig" />
         <text name="fh_setting_aiSprayNeeded_desc" text="An: KI-Helfer mit Fungizid oder Insektizid spritzen nur wachsende Kulturen auf noch nicht geschützten Feldern und Stellen mit Befall, der Rest gilt als erledigt, das spart Mittel. Aus: Sie spritzen das ganze Feld, wie mit jeder anderen Flüssigkeit." />
+        <text name="fh_setting_preSowingSpray" text="Spritzen vor der Aussaat" />
+        <text name="fh_setting_preSowingSpray_desc" text="An: Eine Spritzung mit Fungizid oder Insektizid nach der Ernte, noch vor der Aussaat, schützt die neue Kultur. Aus: Nur eine Spritzung frühestens einen Tag vor der Aussaat schützt die neue Kultur." />
+        <text name="fh_setting_oneSpray" text="Eine Spritzung für alles" />
+        <text name="fh_setting_oneSpray_desc" text="An: Eine Spritzung mit Fungizid oder Insektizid heilt und schützt das Feld gleichzeitig vor Krankheiten und Schädlingen, eine Überfahrt reicht. Aus: Fungizid wirkt nur gegen Krankheiten und Insektizid nur gegen Schädlinge." />
         <text name="fh_setting_fieldInfoRisk" text="Risiko in der Feldinfo" />
         <text name="fh_setting_fieldInfoRisk_desc" text="Ob die Feldinfo das Krankheits- und Schädlingsrisiko des Feldes und seine Hauptursache zeigt. Aus: Nur Befall und Schutz werden gezeigt, die Feldinfo bleibt kürzer." />
         <text name="fh_settings_tab" text="Field Health" />
@@ -347,8 +351,8 @@ Befall tritt nicht an einem zufälligen Tag auf. Jeden Tag berechnet der Mod den
         <text name="fh_help_spraying_01" text="Die Mittel stammen von der polnischen Firma Opryskex: das Fungizid Grzybobój 250 EC (grünes Etikett) und das Insektizid Robalex 100 CS (rotes Etikett). Beim Kauf kannst du stattdessen die Marke MST (Mafia Solec Team) wählen: Solectop 280 SC und Mafiozol 50 EW. Sie wirken gleich, nur das Etikett ist anders. Du bekommst sie im Shop in 1-l-Flaschen sowie in 5-l- und 20-l-Kanistern. Stell das Gebinde neben die Feldspritze und befülle sie wie von einer Palette. Das Spiel mischt das Konzentrat nicht mit Wasser, der Inhalt eines Gebindes ist also die gesamte Spritzbrühe, die daraus entsteht. Je größer das Gebinde, desto günstiger pro Hektar." />
         <text name="fh_help_spraying_03" text="So funktioniert der Schutz" />
         <text name="fh_help_spraying_05" text="Achtung" />
-        <text name="fh_help_spraying_06" text="– Spritze nach dem Auflaufen – Aussaat und Ernte heben den Schutz auf.
-– Fungizid schützt nicht vor Schädlingen und Insektizid nicht vor Krankheiten. Für vollen Schutz brauchst du beides.
+        <text name="fh_help_spraying_06" text="– Spritze frühestens einen Tag vor der Aussaat, denn Aussaat und Ernte heben älteren Schutz auf. Eine frühere Spritzung zählt nur mit der Einstellung „Spritzen vor der Aussaat“.
+– Fungizid schützt nicht vor Schädlingen und Insektizid nicht vor Krankheiten. Für vollen Schutz brauchst du beides. Mit der Einstellung „Eine Spritzung für alles“ reicht eines davon.
 – Ausgelassene Keile und Vorgewende zählen: Unter 90 % Abdeckung kann Befall auf nicht gespritzten Streifen auftreten.
 – Die Mittel düngen nicht und bekämpfen kein Unkraut.
 – Bei kürzerer Schutzdauer (Einstellung) endet der Schutz des ganzen Feldes so lange nach der letzten Spritzung." />

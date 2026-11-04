@@ -27,11 +27,21 @@ FHProducts.EFFECT_SOURCES = {"HERBICIDE", "LIQUIDFERTILIZER"}
 function FHProducts:load()
     self.categoryOf = {}
     self.sprayTypes = {}
+    local missing = {}
     for name, liquid in pairs(FHProducts.LIQUIDS) do
         local index = g_fillTypeManager ~= nil and g_fillTypeManager:getFillTypeIndexByName(name) or nil
         if index ~= nil then
             self.categoryOf[index] = liquid.category
+        elseif g_fillTypeManager ~= nil then
+            table.insert(missing, name)
         end
+    end
+    if #missing > 0 then
+        -- the game skips fill types beyond its limit of 255 with an error that
+        -- does not name this mod; players then cannot fill the liquid anywhere
+        table.sort(missing)
+        FHUtil.log("Warning: the game did not register %s, most likely because other mods already use all 255 fill types. "
+            .. "Sprayers and containers cannot take it. Remove some mods that add fill types.", table.concat(missing, " and "))
     end
     FHUtil.protect("spray types", self.registerSprayTypes, self)
     FHUtil.protect("spray effects", self.borrowSprayEffects, self)

@@ -79,7 +79,7 @@ local getAIAreaOfVehicle = AIVehicleUtil.getAIAreaOfVehicle
 AIVehicleUtil.getAIAreaOfVehicle = function(vehicle, startX, startZ, widthX, widthZ, heightX, heightZ, ...)
     local area, total = getAIAreaOfVehicle(vehicle, startX, startZ, widthX, widthZ, heightX, heightZ, ...)
     local category = active() and FHProducts:getVehicleCategory(vehicle) or nil
-    if category == nil or not FHSettings.isOn("aiSprayNeeded") or not FHSettings.isCategoryOn(category) then
+    if category == nil or not FHSettings.isOn("aiSprayNeeded") or not FHSimulation.treatsActiveCategory(category) then
         return area, total
     end
     local needed = FHUtil.protect("AI sprayer", FHSimulation.isSprayNeeded, FHSimulation, startX, startZ, widthX, widthZ, heightX, heightZ, category)

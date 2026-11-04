@@ -180,6 +180,10 @@
         <text name="fh_setting_precisionFarming_desc" text="Czy mapy azotu, pH i gleby z Precision Farming zmieniają ryzyko zagrożeń. Wyłączone: mod korzysta z podstawowych danych pola z gry, tak jak bez Precision Farming. Bez Precision Farming to ustawienie nic nie zmienia." />
         <text name="fh_setting_aiSprayNeeded" text="AI pryska tylko tam, gdzie trzeba" />
         <text name="fh_setting_aiSprayNeeded_desc" text="Włączone: pomocnicy AI z fungicydem lub insektycydem pryskają tylko rosnące uprawy na polach jeszcze niechronionych i miejsca z zagrożeniami, reszta liczy się jako zrobiona, co oszczędza środek. Wyłączone: pryskają całe pole, jak każdym innym płynem." />
+        <text name="fh_setting_preSowingSpray" text="Oprysk przed siewem" />
+        <text name="fh_setting_preSowingSpray_desc" text="Włączone: oprysk fungicydem lub insektycydem po zbiorze, jeszcze przed siewem, chroni nową uprawę. Wyłączone: nową uprawę chroni tylko oprysk zrobiony najwcześniej dzień przed siewem." />
+        <text name="fh_setting_oneSpray" text="Jeden oprysk na wszystko" />
+        <text name="fh_setting_oneSpray_desc" text="Włączone: oprysk fungicydem albo insektycydem leczy i chroni pole przed chorobami i szkodnikami naraz, więc wystarczy jeden przejazd. Wyłączone: fungicyd działa tylko na choroby, a insektycyd tylko na szkodniki." />
         <text name="fh_setting_fieldInfoRisk" text="Ryzyko w panelu pola" />
         <text name="fh_setting_fieldInfoRisk_desc" text="Czy panel informacji o polu pokazuje ryzyko chorób i szkodników na polu oraz jego główną przyczynę. Wyłączone: widać tylko zagrożenia i ochronę, więc panel jest krótszy." />
         <text name="fh_settings_tab" text="Field Health" />
@@ -347,8 +351,8 @@ Zagrożenie nie pojawia się w przypadkowym dniu. Każdego dnia mod liczy dla po
         <text name="fh_help_spraying_01" text="Środki produkuje polska firma Opryskex: fungicyd Grzybobój 250 EC (zielona etykieta) i insektycyd Robalex 100 CS (czerwona etykieta). Przy zakupie możesz zamiast nich wybrać markę MST (Mafia Solec Team): Solectop 280 SC i Mafiozol 50 EW. Działają tak samo, różnią się tylko etykietą. Kupisz je w sklepie w butelkach 1 l oraz w bańkach 5 l i 20 l. Postaw opakowanie obok opryskiwacza i napełnij go tak jak z palety. Gra nie miesza koncentratu z wodą, dlatego pojemność opakowania to od razu cała ciecz robocza, którą da się z niego przygotować. Im większe opakowanie, tym taniej za hektar." />
         <text name="fh_help_spraying_03" text="Jak działa ochrona" />
         <text name="fh_help_spraying_05" text="Na co uważać" />
-        <text name="fh_help_spraying_06" text="– Pryskaj po wschodach – siew i zbiór kasują ochronę.
-– Fungicyd nie chroni przed szkodnikami, a insektycyd przed chorobami. Do pełnej ochrony potrzebne są oba.
+        <text name="fh_help_spraying_06" text="– Pryskaj najwcześniej dzień przed siewem, bo siew i zbiór kasują wcześniejszą ochronę. Wcześniejszy oprysk liczy się tylko z ustawieniem „Oprysk przed siewem”.
+– Fungicyd nie chroni przed szkodnikami, a insektycyd przed chorobami. Do pełnej ochrony potrzebne są oba. Z ustawieniem „Jeden oprysk na wszystko” wystarczy jeden z nich.
 – Pominięte kliny i uwrocia też się liczą: poniżej 90% pokrycia zagrożenie może pojawić się na nieopryskanych pasach.
 – Środki nie nawożą i nie zwalczają chwastów.
 – Przy krótszym czasie działania oprysku (ustawienie) ochrona całego pola wygasa po tym czasie od ostatniego oprysku." />

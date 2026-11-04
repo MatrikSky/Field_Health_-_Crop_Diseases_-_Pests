@@ -382,6 +382,14 @@ function FHUtil.getFillTypeName(fillTypeIndex)
     return fillType ~= nil and fillType.name or nil
 end
 
+function FHUtil.getFruitDesc(fruitName)
+    local fruitManager = g_fruitTypeManager
+    if fruitName == nil or fruitManager == nil or fruitManager.getFruitTypeByName == nil then
+        return nil
+    end
+    return fruitManager:getFruitTypeByName(fruitName)
+end
+
 -- Display name of a crop, e.g. "Wheat", from its fruit type name.
 function FHUtil.getCropTitle(fruitName)
     local fruitManager = g_fruitTypeManager

@@ -180,6 +180,10 @@
         <text name="fh_setting_precisionFarming_desc" text="Om kväve-, pH- och jordkartorna från Precision Farming ändrar risken för hot. Av: modden använder i stället fältets grunddata från spelet, som utan Precision Farming. Utan Precision Farming ändrar den här inställningen ingenting." />
         <text name="fh_setting_aiSprayNeeded" text="AI besprutar bara där det behövs" />
         <text name="fh_setting_aiSprayNeeded_desc" text="På: AI-arbetare med fungicid eller insekticid besprutar bara växande grödor på fält som ännu inte är skyddade och fläckar med hot, resten räknas som klart, vilket sparar medel. Av: de besprutar hela fältet, som med vilken annan vätska som helst." />
+        <text name="fh_setting_preSowingSpray" text="Besprutning före sådd" />
+        <text name="fh_setting_preSowingSpray_desc" text="På: besprutning med fungicid eller insekticid efter skörd, före sådd, skyddar den nya grödan. Av: bara en besprutning tidigast dagen före sådd skyddar den nya grödan." />
+        <text name="fh_setting_oneSpray" text="En besprutning för allt" />
+        <text name="fh_setting_oneSpray_desc" text="På: besprutning med fungicid eller insekticid botar och skyddar fältet mot både sjukdomar och skadedjur, en överfart räcker. Av: fungicid verkar bara mot sjukdomar och insekticid bara mot skadedjur." />
         <text name="fh_setting_fieldInfoRisk" text="Risk i fältinfo" />
         <text name="fh_setting_fieldInfoRisk_desc" text="Om fältinfo visar fältets risk för sjukdomar och skadedjur och den främsta orsaken. Av: bara hot och skydd visas, så rutan blir kortare." />
         <text name="fh_settings_tab" text="Field Health" />
@@ -347,8 +351,8 @@ Ett hot dyker inte upp en slumpmässig dag. Varje dag räknar modden ut smittryc
         <text name="fh_help_spraying_01" text="Medlen tillverkas av det polska företaget Opryskex: svampmedlet Grzybobój 250 EC (grön etikett) och insektsmedlet Robalex 100 CS (röd etikett). När du köper kan du i stället välja märket MST (Mafia Solec Team): Solectop 280 SC och Mafiozol 50 EW. De verkar likadant, bara etiketten skiljer sig. Du köper dem i butiken i flaskor på 1 l och dunkar på 5 l och 20 l. Ställ förpackningen bredvid sprutan och fyll den som från en pall. Spelet blandar inte koncentratet med vatten, så innehållet i en förpackning är all sprutvätska den ger. Ju större förpackning, desto billigare per hektar." />
         <text name="fh_help_spraying_03" text="Hur skyddet fungerar" />
         <text name="fh_help_spraying_05" text="Se upp" />
-        <text name="fh_help_spraying_06" text="– Spruta efter uppkomst – sådd och skörd tar bort skyddet.
-– Svampmedel skyddar inte mot skadedjur och insektsmedel inte mot sjukdomar. Fullt skydd kräver båda.
+        <text name="fh_help_spraying_06" text="– Spruta tidigast dagen före sådd, eftersom sådd och skörd tar bort äldre skydd. En tidigare besprutning räknas bara med inställningen ”Besprutning före sådd”.
+– Svampmedel skyddar inte mot skadedjur och insektsmedel inte mot sjukdomar. Fullt skydd kräver båda. Med inställningen ”En besprutning för allt” räcker ett av dem.
 – Missade kilar och vändtegar räknas: under 90 % täckning kan ett hot dyka upp på obesprutade remsor.
 – Medlen gödslar inte och dödar inte ogräs.
 – Med ett kortare skydd från besprutning (inställning) upphör hela fältets skydd så länge efter den senaste besprutningen." />

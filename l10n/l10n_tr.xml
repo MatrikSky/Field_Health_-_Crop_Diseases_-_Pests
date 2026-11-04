@@ -180,6 +180,10 @@
         <text name="fh_setting_precisionFarming_desc" text="Hassas Tarım'ın azot, pH ve toprak haritalarının tehdit riskini değiştirip değiştirmediği. Kapalı: mod bunların yerine oyunun temel tarla verilerini kullanır, Hassas Tarım yokmuş gibi. Hassas Tarım olmadan bu ayar hiçbir şeyi değiştirmez." />
         <text name="fh_setting_aiSprayNeeded" text="YZ yalnızca gereken yeri ilaçlar" />
         <text name="fh_setting_aiSprayNeeded_desc" text="Açık: fungisit veya insektisitli YZ işçileri yalnızca henüz korunmayan tarlalardaki büyüyen ürünleri ve tehdit olan yerleri ilaçlar, gerisi yapılmış sayılır ve böylece ilaçtan tasarruf edilir. Kapalı: başka herhangi bir sıvıda olduğu gibi bütün tarlayı ilaçlarlar." />
+        <text name="fh_setting_preSowingSpray" text="Ekimden önce ilaçlama" />
+        <text name="fh_setting_preSowingSpray_desc" text="Açık: hasattan sonra, ekimden önce yapılan fungisit veya insektisit ilaçlaması yeni ürünü korur. Kapalı: yeni ürünü yalnızca en erken ekimden bir gün önce yapılan ilaçlama korur." />
+        <text name="fh_setting_oneSpray" text="Her şeye tek ilaçlama" />
+        <text name="fh_setting_oneSpray_desc" text="Açık: fungisit veya insektisit ilaçlaması tarlayı hastalıklara ve zararlılara karşı aynı anda iyileştirir ve korur, tek geçiş yeter. Kapalı: fungisit yalnızca hastalıklara, insektisit yalnızca zararlılara karşı etkilidir." />
         <text name="fh_setting_fieldInfoRisk" text="Tarla bilgisinde risk" />
         <text name="fh_setting_fieldInfoRisk_desc" text="Tarla bilgisinin tarladaki hastalık ve zararlı riskini ve bunun ana nedenini gösterip göstermediği. Kapalı: yalnızca tehditler ve koruma görünür, böylece kutu daha kısa kalır." />
         <text name="fh_settings_tab" text="Field Health" />
@@ -347,8 +351,8 @@ Bir tehdit rastgele bir günde çıkmaz. Mod her gün tarladaki enfeksiyon bask�
         <text name="fh_help_spraying_01" text="Ürünleri Polonyalı Opryskex firması üretir: fungisit Grzybobój 250 EC (yeşil etiket) ve insektisit Robalex 100 CS (kırmızı etiket). Satın alırken bunların yerine MST markasını (Mafia Solec Team) seçebilirsin: Solectop 280 SC ve Mafiozol 50 EW. Aynı şekilde etki ederler, yalnızca etiket farklıdır. Mağazadan 1 l şişelerde ve 5 l ile 20 l bidonlarda alırsın. Kabı ilaçlama makinesinin yanına koy ve makineyi bir paletten doldurur gibi doldur. Oyun konsantreyi suyla karıştırmaz, bu yüzden bir kabın içeriği, ondan elde edilen ilaç karışımının tamamıdır. Kap ne kadar büyükse hektar başına o kadar ucuzdur." />
         <text name="fh_help_spraying_03" text="Koruma nasıl çalışır" />
         <text name="fh_help_spraying_05" text="Dikkat" />
-        <text name="fh_help_spraying_06" text="– Çıkıştan sonra ilaçla – ekim ve hasat korumayı kaldırır.
-– Fungisit zararlılara, insektisit de hastalıklara karşı korumaz. Tam koruma için ikisi de gerekir.
+        <text name="fh_help_spraying_06" text="– En erken ekimden bir gün önce ilaçla, çünkü ekim ve hasat eski korumayı kaldırır. Daha erken ilaçlama yalnızca “Ekimden önce ilaçlama” ayarıyla sayılır.
+– Fungisit zararlılara, insektisit de hastalıklara karşı korumaz. Tam koruma için ikisi de gerekir. “Her şeye tek ilaçlama” ayarıyla biri yeterlidir.
 – Kaçırılan kamalar ve tarla başları sayılır: %90'ın altındaki kaplamada ilaçlanmamış şeritlerde tehdit çıkabilir.
 – Ürünler gübre vermez ve yabani otları öldürmez.
 – Daha kısa bir ilaçlama korumasında (ayar) bütün tarlanın koruması son ilaçlamadan o kadar sonra biter." />

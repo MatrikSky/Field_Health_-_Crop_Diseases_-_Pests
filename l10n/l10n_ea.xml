@@ -180,6 +180,10 @@
         <text name="fh_setting_precisionFarming_desc" text="Si los mapas de nitrógeno, pH y suelo de Precision Farming cambian el riesgo de amenazas. Desactivado: el mod usa en su lugar los datos básicos del campo del juego, como sin Precision Farming. Sin Precision Farming esta opción no cambia nada." />
         <text name="fh_setting_aiSprayNeeded" text="La IA solo aplica donde hace falta" />
         <text name="fh_setting_aiSprayNeeded_desc" text="Activado: los ayudantes de IA con fungicida o insecticida aplican solo en cultivos en crecimiento de campos aún sin protección y en zonas con amenazas; el resto cuenta como hecho, lo que ahorra producto. Desactivado: aplican en todo el campo, como con cualquier otro líquido." />
+        <text name="fh_setting_preSowingSpray" text="Aplicación antes de la siembra" />
+        <text name="fh_setting_preSowingSpray_desc" text="Activado: una aplicación de fungicida o insecticida después de la cosecha, antes de sembrar, protege el nuevo cultivo. Desactivado: solo protege el nuevo cultivo la aplicación hecha a partir del día anterior a la siembra." />
+        <text name="fh_setting_oneSpray" text="Una aplicación para todo" />
+        <text name="fh_setting_oneSpray_desc" text="Activado: una aplicación de fungicida o insecticida cura y protege el campo contra enfermedades y plagas a la vez, basta con una pasada. Desactivado: el fungicida solo actúa contra las enfermedades y el insecticida solo contra las plagas." />
         <text name="fh_setting_fieldInfoRisk" text="Riesgo en la información del campo" />
         <text name="fh_setting_fieldInfoRisk_desc" text="Si el recuadro de información del campo muestra el riesgo de enfermedades y plagas del campo y su causa principal. Desactivado: solo se muestran las amenazas y la protección, así el recuadro queda más corto." />
         <text name="fh_settings_tab" text="Field Health" />
@@ -347,8 +351,8 @@ Una amenaza no aparece un día al azar. Cada día, el mod calcula la presión de
         <text name="fh_help_spraying_01" text="Los productos los fabrica la empresa polaca Opryskex: el fungicida Grzybobój 250 EC (etiqueta verde) y el insecticida Robalex 100 CS (etiqueta roja). Al comprarlos puedes elegir en su lugar la marca MST (Mafia Solec Team): Solectop 280 SC y Mafiozol 50 EW. Funcionan igual; solo cambia la etiqueta. Se compran en la tienda en botellas de 1 l y en bidones de 5 l y 20 l. Coloca el envase junto al pulverizador y llena el pulverizador como desde un pallet. El juego no mezcla el concentrado con agua, así que el contenido de un envase es todo el caldo que rinde. Cuanto más grande es el envase, más barato sale por hectárea." />
         <text name="fh_help_spraying_03" text="Cómo funciona la protección" />
         <text name="fh_help_spraying_05" text="Cuidado" />
-        <text name="fh_help_spraying_06" text="– Pulveriza después de la emergencia: la siembra y la cosecha eliminan la protección.
-– El fungicida no protege contra las plagas, ni el insecticida contra las enfermedades. Para una protección completa se necesitan los dos.
+        <text name="fh_help_spraying_06" text="– Aplica a partir del día anterior a la siembra, porque la siembra y la cosecha eliminan la protección anterior. Una aplicación más temprana solo cuenta con la opción “Aplicación antes de la siembra”.
+– El fungicida no protege contra las plagas, ni el insecticida contra las enfermedades. Para una protección completa se necesitan los dos. Con la opción “Una aplicación para todo” basta con uno.
 – Las cuñas y cabeceras olvidadas cuentan: por debajo del 90 % de cobertura, puede aparecer una amenaza en las franjas sin pulverizar.
 – Los productos no fertilizan ni eliminan las malezas.
 – Con una protección más corta (opción de configuración), la protección de todo el campo termina ese tiempo después de la última aplicación." />

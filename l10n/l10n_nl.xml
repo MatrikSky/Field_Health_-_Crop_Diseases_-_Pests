@@ -180,6 +180,10 @@
         <text name="fh_setting_precisionFarming_desc" text="Of de stikstof-, pH- en bodemkaarten van Precisielandbouw het risico op bedreigingen veranderen. Uit: de mod gebruikt in plaats daarvan de basisgegevens van het veld uit het spel, zoals zonder Precisielandbouw. Zonder Precisielandbouw verandert deze instelling niets." />
         <text name="fh_setting_aiSprayNeeded" text="AI spuit alleen waar nodig" />
         <text name="fh_setting_aiSprayNeeded_desc" text="Aan: AI-helpers met fungicide of insecticide spuiten alleen groeiende gewassen op velden die nog niet beschermd zijn en plekken met bedreigingen, de rest telt als klaar, wat middel bespaart. Uit: ze spuiten het hele veld, net als met elke andere vloeistof." />
+        <text name="fh_setting_preSowingSpray" text="Spuiten voor het zaaien" />
+        <text name="fh_setting_preSowingSpray_desc" text="Aan: spuiten met fungicide of insecticide na de oogst, nog voor het zaaien, beschermt het nieuwe gewas. Uit: alleen een bespuiting vanaf de dag voor het zaaien beschermt het nieuwe gewas." />
+        <text name="fh_setting_oneSpray" text="Eén bespuiting voor alles" />
+        <text name="fh_setting_oneSpray_desc" text="Aan: spuiten met fungicide of insecticide geneest en beschermt het veld tegelijk tegen ziekten en plagen, één werkgang is genoeg. Uit: fungicide werkt alleen tegen ziekten en insecticide alleen tegen plagen." />
         <text name="fh_setting_fieldInfoRisk" text="Risico in de veldinfo" />
         <text name="fh_setting_fieldInfoRisk_desc" text="Of de veldinfo het risico op ziekten en plagen van het veld en de belangrijkste oorzaak toont. Uit: alleen bedreigingen en bescherming worden getoond, zo blijft het venster korter." />
         <text name="fh_settings_tab" text="Field Health" />
@@ -347,8 +351,8 @@ Een bedreiging verschijnt niet op een willekeurige dag. Elke dag berekent de mod
         <text name="fh_help_spraying_01" text="De middelen worden gemaakt door het Poolse bedrijf Opryskex: de fungicide Grzybobój 250 EC (groen etiket) en de insecticide Robalex 100 CS (rood etiket). Bij het kopen kun je in plaats daarvan het merk MST (Mafia Solec Team) kiezen: Solectop 280 SC en Mafiozol 50 EW. Ze werken hetzelfde, alleen het etiket verschilt. Je koopt ze in de winkel in flessen van 1 l en jerrycans van 5 l en 20 l. Zet de verpakking naast de veldspuit en vul hem zoals vanaf een pallet. Het spel mengt het concentraat niet met water, dus de inhoud van een verpakking is alle spuitvloeistof die je ermee maakt. Hoe groter de verpakking, hoe goedkoper per hectare." />
         <text name="fh_help_spraying_03" text="Hoe de bescherming werkt" />
         <text name="fh_help_spraying_05" text="Let op" />
-        <text name="fh_help_spraying_06" text="– Spuit na de opkomst – zaaien en oogsten verwijderen de bescherming.
-– Fungicide beschermt niet tegen plagen en insecticide niet tegen ziekten. Volledige bescherming vraagt allebei.
+        <text name="fh_help_spraying_06" text="– Spuit op zijn vroegst de dag voor het zaaien, want zaaien en oogsten verwijderen oudere bescherming. Eerder spuiten telt alleen met de instelling “Spuiten voor het zaaien”.
+– Fungicide beschermt niet tegen plagen en insecticide niet tegen ziekten. Volledige bescherming vraagt allebei. Met de instelling “Eén bespuiting voor alles” is één ervan genoeg.
 – Gemiste spieën en kopakkers tellen mee: onder 90% bedekking kan een bedreiging op niet-bespoten stroken verschijnen.
 – De middelen bemesten niet en doden geen onkruid.
 – Met een kortere bescherming door spuiten (instelling) eindigt de bescherming van het hele veld zo lang na de laatste bespuiting." />

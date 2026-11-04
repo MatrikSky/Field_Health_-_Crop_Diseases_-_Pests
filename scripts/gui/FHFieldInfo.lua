@@ -110,6 +110,31 @@ local function areaHa(field)
     return field ~= nil and (field.areaHa or (field.getAreaHa ~= nil and field:getAreaHa())) or 0
 end
 
+-- Share of the field with the crop, for fields split into several crops.
+-- The box is refreshed often, so the grid is read at most every few seconds.
+FHFieldInfo.SHARE_REFRESH = 5000
+local shareCache = setmetatable({}, {__mode = "k"})
+
+function FHFieldInfo.getCropShare(field, fruitIndex)
+    local now = g_time or 0
+    local cached = shareCache[field]
+    if cached ~= nil and cached.fruitIndex == fruitIndex and now - cached.time < FHFieldInfo.SHARE_REFRESH then
+        return cached.share
+    end
+    local points, onCrop = 0, 0
+    for _, point in ipairs(FHUtil.getSamplePoints(field, FHRisk.CROP_SAMPLES)) do
+        local index = FHRisk.readCropAt(point.x, point.z)
+        points = points + 1
+        if index == fruitIndex then
+            onCrop = onCrop + 1
+        end
+    end
+    -- unreadable grid or a crop between the grid points: the whole field
+    local share = (points > 0 and onCrop > 0) and onCrop / points or 1
+    shareCache[field] = {fruitIndex = fruitIndex, time = now, share = share}
+    return share
+end
+
 -- Expected harvest of a ripe field: litres and tons per area unit.
 local function expectedHarvest(fieldState, field)
     local desc = fieldState ~= nil and g_fruitTypeManager ~= nil and g_fruitTypeManager:getFruitTypeByIndex(fieldState.fruitTypeIndex) or nil
@@ -118,7 +143,7 @@ local function expectedHarvest(fieldState, field)
         or growth < desc.minHarvestingGrowthState or growth > desc.maxHarvestingGrowthState then
         return nil
     end
-    local hectares, litresPerSqm = areaHa(field), desc.literPerSqm or 0
+    local hectares, litresPerSqm = areaHa(field) * FHFieldInfo.getCropShare(field, desc.index), desc.literPerSqm or 0
     if hectares <= 0 or litresPerSqm <= 0 then
         return nil
     end

@@ -199,9 +199,15 @@ end
 
 -- A threat may cover healthy cells and its own cells of lower severity;
 -- cells of another threat stay as they are.
+-- While the simulation works on a field it sets cropFilter(worldX, worldZ):
+-- threats only go where the crop of the season grows, not on parts of the
+-- field with another crop or bare soil.
 function FHFieldMap:canInfect(x, z, severity, threatId)
     local current, currentId = self:getThreat(x, z)
-    return current == 0 or (currentId == threatId and current < severity)
+    if current ~= 0 and (currentId ~= threatId or current >= severity) then
+        return false
+    end
+    return self.cropFilter == nil or self.cropFilter(self:toWorld(x, z))
 end
 
 function FHFieldMap:clearAll()
@@ -459,7 +465,15 @@ function FHFieldMap:inspect(field, threatId)
 end
 
 -- Sprayed share (0..1) of the field against diseases and against pests.
-function FHFieldMap:getCoverage(field)
+-- With isCrop(worldX, worldZ) only cells of the crop count, read on every
+-- stride-th cell in both directions to keep big fields cheap.
+function FHFieldMap:getCoverage(field, isCrop, stride)
+    if isCrop ~= nil then
+        local disease, pest = self:getCropCoverage(field, isCrop, stride or 1)
+        if disease ~= nil then
+            return disease, pest
+        end
+    end
     local disease, pest = 0, 0
     local cells = self:eachFieldCell(field, function(x, z)
         local protection = self:getProtection(x, z)
@@ -474,6 +488,51 @@ function FHFieldMap:getCoverage(field)
         return 0, 0
     end
     return disease / cells, pest / cells
+end
+
+-- nil when no cell of the crop is found.
+function FHFieldMap:getCropCoverage(field, isCrop, stride)
+    local disease, pest, cells = 0, 0, 0
+    self:eachFieldCell(field, function(x, z)
+        if x % stride == 0 and z % stride == 0 and isCrop(self:toWorld(x, z)) then
+            cells = cells + 1
+            local protection = self:getProtection(x, z)
+            if hasBit(protection, FHFieldMap.PROTECTION_BIT.disease) then
+                disease = disease + 1
+            end
+            if hasBit(protection, FHFieldMap.PROTECTION_BIT.pest) then
+                pest = pest + 1
+            end
+        end
+    end)
+    if cells == 0 then
+        return nil
+    end
+    return disease / cells, pest / cells
+end
+
+-- Protection stays only where the crop grows (a crop taking over a split
+-- field keeps the spraying of its own parts).
+function FHFieldMap:removeProtectionOffCrop(field, isCrop)
+    self:eachFieldCell(field, function(x, z)
+        if self:getProtection(x, z) > 0 and not isCrop(self:toWorld(x, z)) then
+            self:setProtection(x, z, 0)
+        end
+    end)
+end
+
+-- Threat cells where the crop no longer grows (harvested, plowed or sown
+-- with something else on a split field) are healed.
+function FHFieldMap:removeThreatOffCrop(field, threatId, isCrop)
+    local removed = 0
+    self:eachThreatCell(field, function(x, z)
+        local severity, cellThreatId = self:getThreat(x, z)
+        if severity > 0 and cellThreatId == threatId and not isCrop(self:toWorld(x, z)) then
+            self:setThreat(x, z, 0, 0)
+            removed = removed + 1
+        end
+    end)
+    return removed
 end
 
 -- Raises the cells of a threat to a severity. With share < 1 only cells where
@@ -520,7 +579,7 @@ function FHFieldMap:randomPoint(field, margin, category)
         local z = MathUtil.randomFloat(outline.minZ + margin, outline.maxZ - margin)
         if outline.polygon:getIsPosInside(x, z) then
             local cx, cz = self:toCell(x, z)
-            if category == nil or not self:isProtected(cx, cz, category) then
+            if (category == nil or not self:isProtected(cx, cz, category)) and (self.cropFilter == nil or self.cropFilter(x, z)) then
                 return x, z
             end
         end
