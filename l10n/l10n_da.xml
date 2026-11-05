@@ -303,7 +303,7 @@ Modden er realistisk, men tilgivende over for afslappet spil: en trussel dækker
 – Minikort: skift lag med venstre Alt + \.
 – Meddelelser: om en ny trussel, om det alvorlige stadie og om en trussel, der kom fra en nabomark." />
         <text name="fh_help_origin" text="Hvor truslerne kommer fra" />
-        <text name="fh_help_origin_01" text="Hver spillermark med en voksende afgrøde kan højst få én sygdom og én slags skadedyr pr. sæson. NPC-marker, poppel og efterafgrøder får aldrig trusler; enge, græs, kløver og lucerne kun, når det er slået til i indstillingerne.
+        <text name="fh_help_origin_01" text="Hver spillermark med en voksende afgrøde kan højst få én sygdom og én slags skadedyr pr. sæson. NPC-marker, poppel og efterafgrøder får aldrig trusler; enge, græs, kløver og lucerne kun, når det er slået til i indstillingerne. Bananer og kaffe fra DLC'en Beans &amp; Alpacas har deres egne sygdomme i DLC'en, så modden lader dem være.
 En trussel viser sig ikke på en tilfældig dag. Hver dag beregner modden smittetrykket på marken og lægger det til summen fra de foregående dage. Ved sæsonens start får marken en tilfældig modstandsgrænse – når summen af trykket passerer den, bliver marken smittet. Derfor viser en trussel sig tidligt i én sæson, sent i en anden og slet ikke i en tredje." />
         <text name="fh_help_origin_02" text="Hvad der driver trykket" />
         <text name="fh_help_origin_03" text="1. Grundchancen fra indstillingerne – som standard 15 % for en sygdom og 10 % for skadedyr over en sæson.

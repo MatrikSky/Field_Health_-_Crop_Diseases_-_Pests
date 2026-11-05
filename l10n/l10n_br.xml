@@ -303,7 +303,7 @@ O mod é realista, mas tranquilo para quem joga de forma casual: uma ameaça nun
 – Minimapa: troque a camada com Alt esquerdo + \.
 – Avisos: de uma nova ameaça, do estágio grave e de uma ameaça que veio de um campo vizinho." />
         <text name="fh_help_origin" text="De onde vêm as ameaças" />
-        <text name="fh_help_origin_01" text="Cada campo de jogador com uma cultura em crescimento pode ter no máximo uma doença e um tipo de praga por safra. Campos de NPCs, choupos e plantas de cobertura nunca têm ameaças; pastagens, capim, trevo e alfafa só se isso estiver ativado nas configurações.
+        <text name="fh_help_origin_01" text="Cada campo de jogador com uma cultura em crescimento pode ter no máximo uma doença e um tipo de praga por safra. Campos de NPCs, choupos e plantas de cobertura nunca têm ameaças; pastagens, capim, trevo e alfafa só se isso estiver ativado nas configurações. As bananas e o café do DLC Beans &amp; Alpacas têm doenças próprias no DLC, então o mod não mexe neles.
 Uma ameaça não aparece em um dia aleatório. Todos os dias o mod calcula a pressão de infecção no campo e soma com a dos dias anteriores. No começo da safra o campo recebe um limite de resistência aleatório – quando a soma da pressão passa dele, o campo é infectado. Por isso uma ameaça aparece cedo em uma safra, tarde em outra e nem aparece numa terceira." />
         <text name="fh_help_origin_02" text="O que aumenta a pressão" />
         <text name="fh_help_origin_03" text="1. A chance básica das configurações – por padrão 15% para uma doença e 10% para pragas por safra.

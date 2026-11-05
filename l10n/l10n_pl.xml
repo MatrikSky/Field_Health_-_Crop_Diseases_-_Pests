@@ -303,7 +303,7 @@ Mod jest realistyczny, ale wyrozumiały dla swobodnej gry: zagrożenie nigdy nie
 – Minimapa: warstwę przełączasz klawiszami Lewy Alt + \.
 – Powiadomienia: o nowym zagrożeniu, o stadium silnym i o zagrożeniu, które przeszło z sąsiedniego pola." />
         <text name="fh_help_origin" text="Skąd się biorą zagrożenia" />
-        <text name="fh_help_origin_01" text="Każde pole gracza z rosnącą uprawą może w jednym sezonie dostać najwyżej jedną chorobę i jeden rodzaj szkodników. Pola NPC, topola i poplony nie chorują, a łąki, trawy, koniczyna i lucerna – tylko po włączeniu tego w ustawieniach.
+        <text name="fh_help_origin_01" text="Każde pole gracza z rosnącą uprawą może w jednym sezonie dostać najwyżej jedną chorobę i jeden rodzaj szkodników. Pola NPC, topola i poplony nie chorują, a łąki, trawy, koniczyna i lucerna – tylko po włączeniu tego w ustawieniach. Banany i kawa z DLC Beans &amp; Alpacas mają w DLC własne choroby, więc mod ich nie rusza.
 Zagrożenie nie pojawia się w przypadkowym dniu. Każdego dnia mod liczy dla pola presję zakażenia i dodaje ją do sumy z poprzednich dni. Na początku sezonu pole dostaje losowy próg odporności – gdy suma presji go przekroczy, dochodzi do zakażenia. Dlatego w jednym sezonie zagrożenie pojawi się wcześnie, w innym późno, a w jeszcze innym wcale." />
         <text name="fh_help_origin_02" text="Co decyduje o presji" />
         <text name="fh_help_origin_03" text="1. Szansa bazowa z ustawień – domyślnie 15% na chorobę i 10% na szkodniki w ciągu sezonu.

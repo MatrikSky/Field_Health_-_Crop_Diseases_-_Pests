@@ -303,7 +303,7 @@ La mod è realistica ma indulgente con chi gioca in modo rilassato: un'avversit�
 – Minimappa: cambia livello con Alt sinistro + \.
 – Avvisi: per una nuova avversità, per lo stadio grave e per un'avversità arrivata da un campo vicino." />
         <text name="fh_help_origin" text="Da dove nascono le avversità" />
-        <text name="fh_help_origin_01" text="Ogni campo di un giocatore con una coltura in crescita può avere al massimo una malattia e un tipo di parassita per stagione. I campi degli NPC, il pioppo e le colture intercalari non hanno mai avversità; prati, erba, trifoglio ed erba medica solo se attivato nelle impostazioni.
+        <text name="fh_help_origin_01" text="Ogni campo di un giocatore con una coltura in crescita può avere al massimo una malattia e un tipo di parassita per stagione. I campi degli NPC, il pioppo e le colture intercalari non hanno mai avversità; prati, erba, trifoglio ed erba medica solo se attivato nelle impostazioni. Banane e caffè del DLC Beans &amp; Alpacas hanno malattie proprie nel DLC, quindi la mod non li tocca.
 Un'avversità non compare in un giorno a caso. Ogni giorno la mod calcola la pressione d'infezione sul campo e la somma a quella dei giorni precedenti. All'inizio della stagione il campo riceve una soglia di resistenza casuale: quando la somma della pressione la supera, il campo si infetta. Per questo un'avversità compare presto in una stagione, tardi in un'altra e in una terza per niente." />
         <text name="fh_help_origin_02" text="Che cosa fa salire la pressione" />
         <text name="fh_help_origin_03" text="1. La probabilità di base delle impostazioni: di default 15% per una malattia e 10% per i parassiti in una stagione.

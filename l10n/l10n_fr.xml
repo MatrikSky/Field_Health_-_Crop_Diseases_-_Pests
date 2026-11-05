@@ -303,7 +303,7 @@ Le mod est réaliste, mais indulgent pour une partie détendue : une menace ne c
 – Mini-carte : changez de couche avec Alt gauche + \.
 – Notifications : nouvelle menace, passage au stade grave et menace venue d'un champ voisin." />
         <text name="fh_help_origin" text="D'où viennent les menaces" />
-        <text name="fh_help_origin_01" text="Chaque champ d'un joueur avec une culture en croissance peut avoir au plus une maladie et un type de ravageur par saison. Les champs des PNJ, les peupliers et les cultures intermédiaires ne sont jamais touchés ; les prairies, l'herbe, le trèfle et la luzerne seulement si c'est activé dans les paramètres.
+        <text name="fh_help_origin_01" text="Chaque champ d'un joueur avec une culture en croissance peut avoir au plus une maladie et un type de ravageur par saison. Les champs des PNJ, les peupliers et les cultures intermédiaires ne sont jamais touchés ; les prairies, l'herbe, le trèfle et la luzerne seulement si c'est activé dans les paramètres. Les bananes et le café du DLC Beans &amp; Alpacas ont leurs propres maladies dans le DLC, le mod ne les touche donc pas.
 Une menace n'apparaît pas un jour au hasard. Chaque jour, le mod calcule la pression d'infection sur le champ et l'ajoute à la somme des jours précédents. Au début de la saison, le champ reçoit un seuil de résistance aléatoire – quand la somme de la pression le dépasse, le champ est infecté. C'est pourquoi une menace apparaît tôt une saison, tard une autre, et pas du tout une troisième." />
         <text name="fh_help_origin_02" text="Ce qui fait monter la pression" />
         <text name="fh_help_origin_03" text="1. La probabilité de base des paramètres – par défaut 15 % pour une maladie et 10 % pour les ravageurs sur une saison.

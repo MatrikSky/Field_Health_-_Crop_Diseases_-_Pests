@@ -303,7 +303,7 @@ Modden är realistisk men förlåtande för avslappnat spelande: ett hot täcker
 – Minikarta: byt lager med vänster Alt + \.
 – Aviseringar: om ett nytt hot, om det svåra stadiet och om ett hot som kom från ett grannfält." />
         <text name="fh_help_origin" text="Var hoten kommer ifrån" />
-        <text name="fh_help_origin_01" text="Varje spelarfält med en växande gröda kan få högst en sjukdom och en sorts skadedjur per säsong. NPC-fält, poppel och fånggrödor får aldrig hot; ängar, gräs, klöver och lusern bara när det är påslaget i inställningarna.
+        <text name="fh_help_origin_01" text="Varje spelarfält med en växande gröda kan få högst en sjukdom och en sorts skadedjur per säsong. NPC-fält, poppel och fånggrödor får aldrig hot; ängar, gräs, klöver och lusern bara när det är påslaget i inställningarna. Bananer och kaffe från DLC:n Beans &amp; Alpacas har egna sjukdomar i DLC:n, så modden låter dem vara.
 Ett hot dyker inte upp en slumpmässig dag. Varje dag räknar modden ut smittrycket på fältet och lägger det till summan av dagarna innan. I början av säsongen får fältet en slumpmässig motståndsgräns – när summan av trycket passerar den blir fältet smittat. Därför dyker ett hot upp tidigt en säsong, sent en annan och inte alls en tredje." />
         <text name="fh_help_origin_02" text="Vad som driver trycket" />
         <text name="fh_help_origin_03" text="1. Grundchansen från inställningarna – som standard 15 % för en sjukdom och 10 % för skadedjur över en säsong.

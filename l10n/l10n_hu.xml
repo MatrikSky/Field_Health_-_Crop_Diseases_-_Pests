@@ -303,7 +303,7 @@ A mod valósághű, de elnéző a nyugodt játékkal: egy fertőzés soha nem bo
 – Minitérkép: a réteget a bal Alt + \ billentyűkkel váltod.
 – Értesítések: új károsítóról, súlyos fokozatról és a szomszéd tábláról átterjedt fertőzésről." />
         <text name="fh_help_origin" text="Honnan jönnek a károsítók" />
-        <text name="fh_help_origin_01" text="Minden játékostábla, amelyen növény fejlődik, szezononként legfeljebb egy betegséget és egyfajta kártevőt kaphat. Az NPC-k táblái, a nyárfa és a másodvetések soha nem fertőződnek; a rétek, a fű, a lóhere és a lucerna csak akkor, ha ez be van kapcsolva a beállításokban.
+        <text name="fh_help_origin_01" text="Minden játékostábla, amelyen növény fejlődik, szezononként legfeljebb egy betegséget és egyfajta kártevőt kaphat. Az NPC-k táblái, a nyárfa és a másodvetések soha nem fertőződnek; a rétek, a fű, a lóhere és a lucerna csak akkor, ha ez be van kapcsolva a beállításokban. A Beans &amp; Alpacas DLC banánjának és kávéjának saját betegségei vannak a DLC-ben, ezért a mod nem nyúl hozzájuk.
 A fertőzés nem véletlenszerű napon jelenik meg. A mod minden nap kiszámolja a tábla fertőzési nyomását, és hozzáadja az előző napok összegéhez. A szezon elején a tábla véletlenszerű ellenállási küszöböt kap – ha a nyomás összege átlépi, a tábla megfertőződik. Ezért egy károsító az egyik szezonban korán, a másikban későn, a harmadikban pedig egyáltalán nem jelenik meg." />
         <text name="fh_help_origin_02" text="Mi befolyásolja a nyomást" />
         <text name="fh_help_origin_03" text="1. Az alapesély a beállításokból – alapértelmezés szerint szezononként 15% a betegségekre és 10% a kártevőkre.

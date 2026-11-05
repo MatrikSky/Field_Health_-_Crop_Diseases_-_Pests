@@ -94,16 +94,32 @@ function FHProducts:registerSprayTypes()
         local fillType = g_fillTypeManager:getFillTypeByName(name)
         if fillType ~= nil then
             local sprayType = g_sprayTypeManager:getSprayTypeByFillTypeIndex(fillType.index)
-                or g_sprayTypeManager:addSprayType(name, self.baseRate, "HERBICIDE", herbicide ~= nil and herbicide.sprayGroundType or nil, false)
-            if sprayType ~= nil then
-                sprayType.isHerbicide = false
-                sprayType.isFertilizer = false
-                sprayType.isLime = false
-                sprayType.sprayGroundType = 0
-                self.sprayTypes[name] = sprayType
+            if sprayType ~= nil and not sprayType.fieldHealthOwned then
+                -- a DLC or mod already sprays this liquid (e.g. the fungicide
+                -- for bananas and coffee of Beans & Alpacas): its spraying stays
+                -- as it is, the mod only adds its own protection
+                FHUtil.log("%s is already a spray type of the game, a DLC or another mod. Field Health leaves its spraying "
+                    .. "and rate as they are and only adds its own protection.", name)
+            else
+                sprayType = sprayType or g_sprayTypeManager:addSprayType(name, self.baseRate, "HERBICIDE", herbicide ~= nil and herbicide.sprayGroundType or nil, false)
+                if sprayType ~= nil then
+                    sprayType.fieldHealthOwned = true
+                    sprayType.isHerbicide = false
+                    sprayType.isFertilizer = false
+                    sprayType.isLime = false
+                    sprayType.sprayGroundType = 0
+                    self.sprayTypes[name] = sprayType
+                end
             end
         end
     end
+end
+
+-- True for a spray type the mod made itself: the game must not apply it to
+-- the ground (it would act like herbicide). Spray types of a DLC or another
+-- mod with the same liquid keep working as they do without this mod.
+function FHProducts:ownsSprayType(sprayType)
+    return type(sprayType) == "table" and sprayType.fieldHealthOwned == true
 end
 
 -- Sprayers show the spray with the material of the liquid in the tank. The

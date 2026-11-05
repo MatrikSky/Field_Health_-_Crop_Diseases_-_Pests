@@ -303,7 +303,7 @@ Mod gerçekçidir ama rahat oyun için hoşgörülüdür: bir tehdit asla bütü
 – Mini harita: katmanı Sol Alt + \ ile değiştir.
 – Bildirimler: yeni bir tehdit, şiddetli aşama ve komşu tarladan gelen bir tehdit hakkında." />
         <text name="fh_help_origin" text="Tehditler nereden gelir" />
-        <text name="fh_help_origin_01" text="Büyüyen ürünü olan her oyuncu tarlası bir sezonda en fazla bir hastalık ve bir tür zararlı alabilir. NPC tarlaları, kavak ve ara ürünler asla tehdit almaz; çayırlar, çim, yonca ve kaba yonca yalnızca ayarlarda açıldığında.
+        <text name="fh_help_origin_01" text="Büyüyen ürünü olan her oyuncu tarlası bir sezonda en fazla bir hastalık ve bir tür zararlı alabilir. NPC tarlaları, kavak ve ara ürünler asla tehdit almaz; çayırlar, çim, yonca ve kaba yonca yalnızca ayarlarda açıldığında. Beans &amp; Alpacas DLC'sindeki muz ve kahvenin DLC'de kendi hastalıkları vardır, bu yüzden mod onlara dokunmaz.
 Bir tehdit rastgele bir günde çıkmaz. Mod her gün tarladaki enfeksiyon baskısını hesaplar ve önceki günlerin toplamına ekler. Sezonun başında tarla rastgele bir direnç eşiği alır – baskı toplamı bu eşiği geçince tarlaya bulaşır. Bu yüzden bir tehdit bir sezon erken, başka bir sezon geç, üçüncü bir sezon hiç çıkmaz." />
         <text name="fh_help_origin_02" text="Baskıyı ne belirler" />
         <text name="fh_help_origin_03" text="1. Ayarlardaki temel şans – varsayılan olarak bir sezonda hastalık için %15, zararlılar için %10.

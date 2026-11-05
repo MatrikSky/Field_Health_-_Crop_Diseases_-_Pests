@@ -303,7 +303,7 @@ Der Mod ist realistisch, aber nachsichtig für entspanntes Spielen: Befall erfas
 – Minikarte: Ebene mit Alt links + \ umschalten.
 – Meldungen: über neuen Befall, über das starke Stadium und über Befall, der von einem Nachbarfeld übergegriffen hat." />
         <text name="fh_help_origin" text="Wie Befall entsteht" />
-        <text name="fh_help_origin_01" text="Jedes Spielerfeld mit wachsender Kultur kann pro Saison höchstens eine Krankheit und eine Schädlingsart bekommen. NPC-Felder, Pappeln und Zwischenfrüchte bekommen nie Befall; Wiesen, Gras, Klee und Luzerne nur, wenn das in den Einstellungen aktiviert ist.
+        <text name="fh_help_origin_01" text="Jedes Spielerfeld mit wachsender Kultur kann pro Saison höchstens eine Krankheit und eine Schädlingsart bekommen. NPC-Felder, Pappeln und Zwischenfrüchte bekommen nie Befall; Wiesen, Gras, Klee und Luzerne nur, wenn das in den Einstellungen aktiviert ist. Bananen und Kaffee aus dem DLC Beans &amp; Alpacas haben im DLC eigene Krankheiten, deshalb lässt der Mod sie aus.
 Befall tritt nicht an einem zufälligen Tag auf. Jeden Tag berechnet der Mod den Infektionsdruck auf dem Feld und addiert ihn zur Summe der Vortage. Zu Beginn der Saison bekommt das Feld eine zufällige Widerstandsschwelle – überschreitet die Summe des Drucks sie, wird das Feld infiziert. Deshalb tritt Befall in einer Saison früh auf, in einer anderen spät und in einer dritten gar nicht." />
         <text name="fh_help_origin_02" text="Was den Druck bestimmt" />
         <text name="fh_help_origin_03" text="1. Die Grundwahrscheinlichkeit aus den Einstellungen – standardmäßig 15 % für eine Krankheit und 10 % für Schädlinge pro Saison.

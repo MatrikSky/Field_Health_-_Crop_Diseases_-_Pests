@@ -303,7 +303,7 @@ Modden er realistisk, men tilgivende for avslappet spilling: en trussel dekker a
 – Minikart: bytt lag med venstre Alt + \.
 – Varsler: om en ny trussel, om det alvorlige stadiet og om en trussel som kom fra en naboåker." />
         <text name="fh_help_origin" text="Hvor truslene kommer fra" />
-        <text name="fh_help_origin_01" text="Hver spilleråker med en voksende avling kan få høyst én sykdom og én sort skadedyr per sesong. NPC-åkre, poppel og fangvekster får aldri trusler; eng, gress, kløver og luserne bare når det er slått på i innstillingene.
+        <text name="fh_help_origin_01" text="Hver spilleråker med en voksende avling kan få høyst én sykdom og én sort skadedyr per sesong. NPC-åkre, poppel og fangvekster får aldri trusler; eng, gress, kløver og luserne bare når det er slått på i innstillingene. Bananer og kaffe fra DLC-en Beans &amp; Alpacas har egne sykdommer i DLC-en, så modden lar dem være.
 En trussel dukker ikke opp på en tilfeldig dag. Hver dag regner modden ut smittepresset på åkeren og legger det til summen av dagene før. Ved starten av sesongen får åkeren en tilfeldig motstandsgrense – når summen av presset passerer den, blir åkeren smittet. Derfor dukker en trussel opp tidlig én sesong, sent en annen og ikke i det hele tatt en tredje." />
         <text name="fh_help_origin_02" text="Hva som driver presset" />
         <text name="fh_help_origin_03" text="1. Grunnsjansen fra innstillingene – som standard 15 % for en sykdom og 10 % for skadedyr over en sesong.

@@ -303,7 +303,7 @@ The mod is realistic but forgiving for casual play: a threat never covers the wh
 – Minimap: switch the layer with Left Alt + \.
 – Notifications: about a new threat, about the severe stage and about a threat that came from a neighbouring field." />
         <text name="fh_help_origin" text="Where threats come from" />
-        <text name="fh_help_origin_01" text="Every player field with a growing crop can get at most one disease and one kind of pest per season. NPC fields, poplar and catch crops never get threats; meadows, grass, clover and alfalfa only when enabled in the settings.
+        <text name="fh_help_origin_01" text="Every player field with a growing crop can get at most one disease and one kind of pest per season. NPC fields, poplar and catch crops never get threats; meadows, grass, clover and alfalfa only when enabled in the settings. Bananas and coffee from the Beans &amp; Alpacas DLC have diseases of their own in the DLC, so the mod leaves them alone.
 A threat does not appear on a random day. Every day the mod works out the infection pressure on the field and adds it to the sum of the days before. At the start of the season the field gets a random resistance threshold – when the sum of the pressure passes it, the field gets infected. That is why a threat appears early in one season, late in another and not at all in a third." />
         <text name="fh_help_origin_02" text="What drives the pressure" />
         <text name="fh_help_origin_03" text="1. The base chance from the settings – by default 15% for a disease and 10% for pests over a season.

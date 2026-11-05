@@ -303,7 +303,7 @@ El mod es realista, pero indulgente con el juego tranquilo: una amenaza nunca cu
 – Minimapa: cambia de capa con Alt izquierdo + \.
 – Avisos: de una amenaza nueva, de la fase grave y de una amenaza llegada desde un campo vecino." />
         <text name="fh_help_origin" text="De dónde vienen las amenazas" />
-        <text name="fh_help_origin_01" text="Cada campo de un jugador con un cultivo en crecimiento puede tener como mucho una enfermedad y un tipo de plaga por temporada. Los campos de los NPC, los álamos y los cultivos intermedios nunca tienen amenazas; los prados, la hierba, el trébol y la alfalfa, solo si se activa en los ajustes.
+        <text name="fh_help_origin_01" text="Cada campo de un jugador con un cultivo en crecimiento puede tener como mucho una enfermedad y un tipo de plaga por temporada. Los campos de los NPC, los álamos y los cultivos intermedios nunca tienen amenazas; los prados, la hierba, el trébol y la alfalfa, solo si se activa en los ajustes. Los plátanos y el café del DLC Beans &amp; Alpacas tienen sus propias enfermedades en el DLC, así que el mod no los toca.
 Una amenaza no aparece un día al azar. Cada día, el mod calcula la presión de infección en el campo y la suma a la de los días anteriores. Al empezar la temporada, el campo recibe un umbral de resistencia aleatorio: cuando la suma de la presión lo supera, el campo se infecta. Por eso una amenaza aparece pronto en una temporada, tarde en otra y en una tercera no aparece." />
         <text name="fh_help_origin_02" text="Qué hace subir la presión" />
         <text name="fh_help_origin_03" text="1. La probabilidad base de los ajustes: por defecto, 15 % para una enfermedad y 10 % para las plagas en una temporada.

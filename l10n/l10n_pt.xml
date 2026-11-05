@@ -303,7 +303,7 @@ O mod é realista, mas tolerante para quem joga de forma descontraída: uma amea
 – Minimapa: muda de camada com Alt esquerdo + \.
 – Avisos: de uma nova ameaça, da fase grave e de uma ameaça vinda de um campo vizinho." />
         <text name="fh_help_origin" text="De onde vêm as ameaças" />
-        <text name="fh_help_origin_01" text="Cada campo de um jogador com uma cultura em crescimento pode ter, no máximo, uma doença e um tipo de praga por época. Os campos dos NPC, o choupo e as culturas de cobertura nunca têm ameaças; os prados, a erva, o trevo e a luzerna só se isso estiver ativado nas definições.
+        <text name="fh_help_origin_01" text="Cada campo de um jogador com uma cultura em crescimento pode ter, no máximo, uma doença e um tipo de praga por época. Os campos dos NPC, o choupo e as culturas de cobertura nunca têm ameaças; os prados, a erva, o trevo e a luzerna só se isso estiver ativado nas definições. As bananas e o café do DLC Beans &amp; Alpacas têm doenças próprias no DLC, por isso o mod não lhes toca.
 Uma ameaça não aparece num dia ao acaso. Todos os dias o mod calcula a pressão de infeção no campo e soma-a à dos dias anteriores. No início da época o campo recebe um limiar de resistência aleatório – quando a soma da pressão o ultrapassa, o campo fica infetado. É por isso que uma ameaça aparece cedo numa época, tarde noutra e nem aparece numa terceira." />
         <text name="fh_help_origin_02" text="O que faz subir a pressão" />
         <text name="fh_help_origin_03" text="1. A probabilidade base das definições – por predefinição 15% para uma doença e 10% para pragas numa época.

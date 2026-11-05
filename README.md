@@ -120,11 +120,11 @@ These are the default values. The admin can change each of them in the settings 
 | Full protection of a field | at least 90% of the field sprayed with the product | Coverage for full protection |
 | Duration of the protection | until harvest | Spray protection |
 | Moving to a neighbouring field | in the severe stage a daily chance of 4% for pests and 2% for diseases | Spread to neighbouring fields |
-| Crops without threats | NPC fields, meadows, grass, clover, alfalfa, poplar and catch crops | Threats on meadows and fodder crops |
+| Crops without threats | NPC fields, meadows, grass, clover, alfalfa, poplar, catch crops, bananas and coffee | Threats on meadows and fodder crops |
 
 ### Where threats come from
 
-Every player field with a growing crop can get **at most one disease and one kind of pest per season**. NPC fields, poplar and catch crops never get threats. Meadows, grass, clover and alfalfa only get them if you turn that on in the settings.
+Every player field with a growing crop can get **at most one disease and one kind of pest per season**. NPC fields, poplar and catch crops never get threats, and neither do bananas and coffee of the Beans & Alpacas DLC, which have diseases of their own there. Meadows, grass, clover and alfalfa only get them if you turn that on in the settings.
 
 A threat doesn't appear on a random day. Every day the mod works out the infection pressure on the field and adds it to the days before. At the start of the season each field gets a random resistance threshold, and once the sum passes it, the field gets infected. That's why a threat can show up early in one season, late in another and not at all in a third.
 
@@ -878,6 +878,6 @@ And thanks to everyone who plays the mod, reports bugs and shares ideas.
 
 **Have fun and healthy fields!** 🌱
 
-<sub>Field Health 1.4.0.0 • made by MatrikSky</sub>
+<sub>Field Health 1.4.1.0 • made by MatrikSky</sub>
 
 </div>

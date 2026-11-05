@@ -303,7 +303,7 @@ Mod je realistický, ale shovívavý k pohodovému hraní: napadení nikdy nezab
 – Minimapa: vrstvu přepneš klávesami levý Alt + \.
 – Upozornění: na nové napadení, na silný stupeň a na napadení, které se přeneslo ze sousedního pole." />
         <text name="fh_help_origin" text="Odkud se berou hrozby" />
-        <text name="fh_help_origin_01" text="Každé pole hráče s rostoucí plodinou může za sezónu dostat nejvýš jednu chorobu a jeden druh škůdců. Pole NPC, topoly a meziplodiny nejsou napadeny nikdy; louky, tráva, jetel a vojtěška jen tehdy, když je to zapnuté v nastavení.
+        <text name="fh_help_origin_01" text="Každé pole hráče s rostoucí plodinou může za sezónu dostat nejvýš jednu chorobu a jeden druh škůdců. Pole NPC, topoly a meziplodiny nejsou napadeny nikdy; louky, tráva, jetel a vojtěška jen tehdy, když je to zapnuté v nastavení. Banány a káva z DLC Beans &amp; Alpacas mají v DLC vlastní choroby, proto je mod nechává být.
 Napadení se neobjeví v náhodný den. Mod každý den spočítá infekční tlak na poli a přičte ho k součtu z předchozích dnů. Na začátku sezóny dostane pole náhodnou hranici odolnosti – když ji součet tlaku překročí, pole se nakazí. Proto se napadení v jedné sezóně objeví brzy, v jiné pozdě a ve třetí vůbec." />
         <text name="fh_help_origin_02" text="Co ovlivňuje tlak" />
         <text name="fh_help_origin_03" text="1. Základní šance z nastavení – výchozí je 15 % pro chorobu a 10 % pro škůdce za sezónu.

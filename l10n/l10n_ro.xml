@@ -303,7 +303,7 @@ Modul este realist, dar îngăduitor cu jocul relaxat: o amenințare nu acoperă
 – Miniharta: schimbi stratul cu Alt stânga + \.
 – Notificări: despre o amenințare nouă, despre stadiul grav și despre o amenințare venită de pe o parcelă vecină." />
         <text name="fh_help_origin" text="De unde vin amenințările" />
-        <text name="fh_help_origin_01" text="Fiecare parcelă a unui jucător cu o cultură în creștere poate avea într-un sezon cel mult o boală și un tip de dăunător. Parcelele NPC, plopul și culturile intermediare nu au niciodată amenințări; pajiștile, iarba, trifoiul și lucerna doar dacă e activat în setări.
+        <text name="fh_help_origin_01" text="Fiecare parcelă a unui jucător cu o cultură în creștere poate avea într-un sezon cel mult o boală și un tip de dăunător. Parcelele NPC, plopul și culturile intermediare nu au niciodată amenințări; pajiștile, iarba, trifoiul și lucerna doar dacă e activat în setări. Bananele și cafeaua din DLC-ul Beans &amp; Alpacas au boli proprii în DLC, așa că modul nu le atinge.
 O amenințare nu apare într-o zi oarecare. În fiecare zi modul calculează presiunea de infecție pe parcelă și o adună la suma zilelor anterioare. La începutul sezonului parcela primește un prag de rezistență aleatoriu – când suma presiunii îl depășește, parcela se infectează. De aceea, într-un sezon o amenințare apare devreme, în altul târziu, iar în al treilea deloc." />
         <text name="fh_help_origin_02" text="Ce influențează presiunea" />
         <text name="fh_help_origin_03" text="1. Șansa de bază din setări – implicit 15% pentru o boală și 10% pentru dăunători pe sezon.

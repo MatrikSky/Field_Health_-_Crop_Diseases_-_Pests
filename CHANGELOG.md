@@ -16,6 +16,16 @@ Versions have four numbers, **A.B.C.D**:
 Raising a number sets the numbers after it to 0: 1.2.3.4 → 1.3.0.0. When a version brings several kinds of changes, the highest one counts.
 **Every version loads the savegames of all earlier versions**, so nothing you own or set in the game is lost by an update.
 
+## [1.4.1.0] - 2026-11-05
+
+### Changed
+
+- Bananas and coffee of the Beans & Alpacas DLC no longer get threats of this mod. The DLC has its own diseases for them, so they were getting two disease systems at once.
+
+### Fixed
+
+- Fungicide did not cure the banana and coffee diseases of the Beans & Alpacas DLC. The DLC uses a fungicide of the same name, and the mod kept its spraying from reaching the DLC. Now the mod leaves a fungicide or insecticide of a DLC or another mod working as it was made to, and only adds its own protection on top. The bottles and canisters of this mod and the fungicide of the DLC can be used for both.
+
 ## [1.4.0.0] - 2026-11-05
 
 ### Added
@@ -117,6 +127,7 @@ The first public release.
 - A map page "Crop protection" with five layers, a minimap layer (Left Alt + \\), field info lines, farmland info and notifications.
 - 25 settings in the game menu, Precision Farming support, onions of the Highlands Fishing DLC, full in-game help, English and Polish, multiplayer.
 
+[1.4.1.0]: https://github.com/MatrikSky/Field_Health_-_Crop_Diseases_-_Pests/releases/tag/v1.4.1.0
 [1.4.0.0]: https://github.com/MatrikSky/Field_Health_-_Crop_Diseases_-_Pests/releases/tag/v1.4.0.0
 [1.3.0.0]: https://github.com/MatrikSky/Field_Health_-_Crop_Diseases_-_Pests/releases/tag/v1.3.0.0
 [1.2.1.0]: https://github.com/MatrikSky/Field_Health_-_Crop_Diseases_-_Pests/releases/tag/v1.2.1.0

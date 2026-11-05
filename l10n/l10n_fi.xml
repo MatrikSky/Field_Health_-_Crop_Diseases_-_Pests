@@ -303,7 +303,7 @@ Modi on realistinen mutta anteeksiantava rennolle pelaamiselle: uhka ei koskaan 
 – Minikartta: vaihda tasoa näppäimillä vasen Alt + \.
 – Ilmoitukset: uudesta uhasta, vakavasta asteesta ja naapuripellolta tulleesta uhasta." />
         <text name="fh_help_origin" text="Mistä uhat tulevat" />
-        <text name="fh_help_origin_01" text="Jokainen pelaajan pelto, jolla kasvaa kasvusto, voi saada kaudessa enintään yhden taudin ja yhden tuholaislajin. NPC-pellot, poppeli ja kerääjäkasvit eivät koskaan saa uhkia; niityt, nurmi, apila ja sinimailanen vain, jos se on asetuksissa sallittu.
+        <text name="fh_help_origin_01" text="Jokainen pelaajan pelto, jolla kasvaa kasvusto, voi saada kaudessa enintään yhden taudin ja yhden tuholaislajin. NPC-pellot, poppeli ja kerääjäkasvit eivät koskaan saa uhkia; niityt, nurmi, apila ja sinimailanen vain, jos se on asetuksissa sallittu. Beans &amp; Alpacas -DLC:n banaaneilla ja kahvilla on DLC:ssä omat tautinsa, joten modi ei koske niihin.
 Uhka ei ilmaannu satunnaisena päivänä. Joka päivä modi laskee pellon tartuntapaineen ja lisää sen edellisten päivien summaan. Kauden alussa pelto saa satunnaisen vastustuskynnyksen – kun paineen summa ylittää sen, pelto saa tartunnan. Siksi uhka ilmaantuu yhtenä kautena aikaisin, toisena myöhään ja kolmantena ei lainkaan." />
         <text name="fh_help_origin_02" text="Mikä painetta ohjaa" />
         <text name="fh_help_origin_03" text="1. Perustodennäköisyys asetuksista – oletuksena 15 % taudille ja 10 % tuholaisille kauden aikana.

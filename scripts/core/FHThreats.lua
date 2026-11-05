@@ -57,7 +57,8 @@ FHThreats.CATCH_CROPS = set("OILSEEDRADISH")
 -- Regrowing crops: growing them again is no rotation mistake.
 FHThreats.PERENNIAL = set("GRASS", "FIELDGRASS", "MEADOW", "ALFALFA", "CLOVER", "GRAPE", "OLIVE", "POPLAR", "SUGARCANE")
 -- Grassland is not sprayed against diseases and pests.
-FHThreats.EXCLUDED = set("POPLAR", "OILSEEDRADISH", "GRASS", "FIELDGRASS", "MEADOW")
+-- BANANA and COFFEECHERRIES (Beans & Alpacas) have diseases of their own in the DLC
+FHThreats.EXCLUDED = set("POPLAR", "OILSEEDRADISH", "GRASS", "FIELDGRASS", "MEADOW", "BANANA", "COFFEECHERRIES")
 -- Meadows and fodder crops: threats only with the setting "fodderCrops".
 FHThreats.FODDER = set("GRASS", "FIELDGRASS", "MEADOW", "CLOVER", "ALFALFA")
 -- Threats of crops no entry below knows (e.g. new crops of a map).

@@ -57,11 +57,12 @@ end)
 
 -- Fungicide and insecticide neither fertilize nor kill weeds; other sprays
 -- are remembered per field, because the kind of fertilizer changes the risk.
+-- A liquid of the same name from a DLC or mod is passed on to the game.
 -- (These two game functions take no "self", so they are wrapped directly.)
 local updateSprayArea = FSDensityMapUtil.updateSprayArea
 FSDensityMapUtil.updateSprayArea = function(startX, startZ, widthX, widthZ, heightX, heightZ, sprayTypeIndex, ...)
     local sprayType = g_sprayTypeManager ~= nil and g_sprayTypeManager:getSprayTypeByIndex(sprayTypeIndex) or nil
-    if sprayType ~= nil and FHProducts:isLiquid(sprayType.fillType) then
+    if FHProducts:ownsSprayType(sprayType) then
         return 0, 0
     end
     if sprayType ~= nil and g_server ~= nil and active() then

@@ -303,7 +303,7 @@ De mod is realistisch maar vergevingsgezind voor ontspannen spelen: een bedreigi
 – Minikaart: wissel de laag met linker Alt + \.
 – Meldingen: over een nieuwe bedreiging, over het ernstige stadium en over een bedreiging die van een naburig veld kwam." />
         <text name="fh_help_origin" text="Waar bedreigingen vandaan komen" />
-        <text name="fh_help_origin_01" text="Elk veld van een speler met een groeiend gewas kan per seizoen hooguit één ziekte en één soort plaag krijgen. Velden van NPC's, populier en groenbemesters krijgen nooit bedreigingen; weiden, gras, klaver en luzerne alleen als dat in de instellingen is ingeschakeld.
+        <text name="fh_help_origin_01" text="Elk veld van een speler met een groeiend gewas kan per seizoen hooguit één ziekte en één soort plaag krijgen. Velden van NPC's, populier en groenbemesters krijgen nooit bedreigingen; weiden, gras, klaver en luzerne alleen als dat in de instellingen is ingeschakeld. Bananen en koffie uit de DLC Beans &amp; Alpacas hebben in de DLC hun eigen ziekten, dus de mod laat ze met rust.
 Een bedreiging verschijnt niet op een willekeurige dag. Elke dag berekent de mod de infectiedruk op het veld en telt die op bij de som van de dagen ervoor. Aan het begin van het seizoen krijgt het veld een willekeurige weerstandsdrempel – als de som van de druk die overschrijdt, raakt het veld besmet. Daarom verschijnt een bedreiging in het ene seizoen vroeg, in een ander laat en in een derde helemaal niet." />
         <text name="fh_help_origin_02" text="Wat de druk bepaalt" />
         <text name="fh_help_origin_03" text="1. De basiskans uit de instellingen – standaard 15% voor een ziekte en 10% voor plagen per seizoen.
