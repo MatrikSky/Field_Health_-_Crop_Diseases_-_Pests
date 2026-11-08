@@ -1,5 +1,7 @@
 <div align="center">
 
+🇬🇧 **English** &nbsp;•&nbsp; [🇵🇱 Polski](README.pl.md)
+
 <img src="docs/images/title.jpg" alt="Field Health: Crop Diseases &amp; Pests for Farming Simulator 25" width="100%">
 
 # Field Health: Crop Diseases & Pests
@@ -56,7 +58,7 @@ Your fields finally come alive! Field Health adds crop diseases and pests to Far
 - 🗺️ **A clear overview:** a map page with five layers, a minimap layer, field info lines and notifications.
 - ⚙️ **33 settings:** switch the whole mod, diseases or pests off, a calm start, chances, speed, spread, damage, protection, usage and prices, all in a Field Health tab in the game menu.
 - 🌍 **20 languages:** the game language is picked automatically.
-- 🔌 **Plays well with others:** Precision Farming, onions from the Highlands Fishing DLC, mod maps, multiplayer and safe savegames.
+- 🔌 **Plays well with others:** Precision Farming, onions from the Highlands Fishing DLC, the Beans & Alpacas DLC, mod maps, multiplayer and safe savegames.
 
 <p align="right"><a href="#-contents">⬆️ Back to contents</a></p>
 
@@ -496,8 +498,8 @@ You buy them in the shop in 1 l bottles and in 5 l and 20 l canisters. Put the c
 | Fertilizing and weeds | fungicide and insecticide do not fertilize and do not kill weeds |
 
 > [!WARNING]
-> - Spray **after emergence**, because sowing and harvest remove the protection.
-> - Fungicide doesn't protect against pests and insecticide doesn't protect against diseases. **For full protection you need both.**
+> - Spray **one day before sowing at the earliest**, because sowing and harvest remove older protection. Earlier spraying only counts with the setting *Spraying before sowing*.
+> - Fungicide doesn't protect against pests and insecticide doesn't protect against diseases. **For full protection you need both**, unless you turn on the setting *One spray for both*.
 > - Missed wedges and headlands count. Below 90% coverage a threat can appear on the strips you didn't spray.
 > - The products don't fertilize and don't kill weeds.
 > - With a shorter spray protection in the settings, the protection of the whole field ends that long after the last spraying.
@@ -640,6 +642,7 @@ The mod speaks English, Polish, French, German, Spanish (Spain and Latin America
 
 - **Precision Farming:** Field Health works as an extension of it and uses its soil maps. Instead of fertilizing in general, the nitrogen compared with the target counts, and instead of liming in general, the soil pH. The console command `fhPrecisionFarming` writes to the log how the mod reads the Precision Farming data.
 - **Highlands Fishing DLC:** its onions get their own diseases and pests. Onions from mods are recognised automatically too, and the log says so.
+- **Beans & Alpacas DLC:** its bananas and coffee keep the DLC's own diseases and get none from this mod. The DLC's fungicide works for both, and so do the bottles and canisters of Field Health.
 - **Maps and mod crops:** the mod works on any map. Crops it doesn't know can get grey mould and aphids.
 - **Multiplayer:** the simulation runs on the server and the players see the results. The settings and the commands `fhSet`, `fhClear` and `fhDailyTick` are for the admin only.
 - **Other mods:** every hook of Field Health calls the original game function, and an error in the mod is caught and written to the log, so it can't break the game. Sprayers and tanks from other mods accept the liquids, because they use the common names `FUNGICIDE` and `INSECTICIDE`.
@@ -793,7 +796,7 @@ No. It works on any map and in 20 languages. The diseases and pests are the comm
 <details>
 <summary><b>Does it work on my map and with mod crops?</b></summary>
 
-Yes. All crops of the base game and the onions from the Highlands Fishing DLC have their own threats. Crops from maps and mods that the mod doesn't know can get grey mould and aphids.
+Yes. All crops of the base game and the onions from the Highlands Fishing DLC have their own threats. Crops from maps and mods that the mod doesn't know can get grey mould and aphids. Bananas and coffee of the Beans & Alpacas DLC keep the diseases of the DLC.
 
 </details>
 
