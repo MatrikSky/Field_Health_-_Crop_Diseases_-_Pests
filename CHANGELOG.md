@@ -16,6 +16,25 @@ Versions have four numbers, **A.B.C.D**:
 Raising a number sets the numbers after it to 0: 1.2.3.4 → 1.3.0.0. When a version brings several kinds of changes, the highest one counts.
 **Every version loads the savegames of all earlier versions**, so nothing you own or set in the game is lost by an update.
 
+## [1.5.0.0] - 2026-11-24
+
+### Added
+
+- **Tips:** short tips at the bottom of the screen, one after another at random intervals. A few general tips cover what is special about the mod (checking fields, the products, when to spray, how farming and weather change the risk, AI helpers, settings) and skip the basics of the game. When a disease or pest shows up on your fields for the first time, a tip describes it: what causes it, what it does to the crop, when it is worst, what helps it and what to spray. Other tips come at the right moment: when you sit in a running tractor with a sprayer full of fungicide or insecticide (also when the sprayer was attached by hand with a mod), when you start spraying a field and when a threat reaches the severe stage. Each tip is shown once. A new **Tips** section in the settings lets every player turn them on or off, choose how often they come and start them over. The tip history is kept in the player's profile, not in the savegame.
+- New setting **Protection from growth stage** (section *Spraying and protection*): a crop ready to harvest gets no new threats, and threats already on it stop developing and no longer destroy crop, even on a field that was never sprayed. Nobody sprays a field that is about to be harvested. It is on by default, also in older savegames, and can start from flowering instead or be switched off. AI helpers don't spray such fields, and the map and the farmland box show them as protected.
+- New **Crops** section in the settings: the admin can switch off threats for any crop of the map that can get them. Threats already on such a crop end the next day. Crops of mod maps are listed too.
+- While you spray fungicide or insecticide and the minimap layer is off, the protection layer turns on by itself and goes off again a few seconds after spraying. Pressing the minimap key while spraying keeps your own choice.
+
+### Changed
+
+- The map and the minimap only show fields with a crop that can get threats. Meadows, grass, catch crops, bananas and coffee and crops switched off in the settings are no longer drawn as unprotected fields. On a field split into several crops only the part with the season's crop is drawn.
+- On a split field, a crop that cannot get threats (for example grass on part of the field) no longer holds the season against a crop that can.
+- The in-game help and the README now say clearly that you don't have to spray in advance: spraying after the notification is enough, a sick crop looks normal and only the severe stage destroys small patches. They also point to *Threat limit per farm*, *One spray for both* and the new Crops section.
+
+### Fixed
+
+- Spraying also counted cells next to the boom that never got any liquid, so a field could show as fully protected with thin unsprayed strips between passes or at its edges. Now a cell only counts when the boom really covers part of it.
+
 ## [1.4.1.0] - 2026-11-05
 
 ### Changed
@@ -127,6 +146,7 @@ The first public release.
 - A map page "Crop protection" with five layers, a minimap layer (Left Alt + \\), field info lines, farmland info and notifications.
 - 25 settings in the game menu, Precision Farming support, onions of the Highlands Fishing DLC, full in-game help, English and Polish, multiplayer.
 
+[1.5.0.0]: https://github.com/MatrikSky/Field_Health_-_Crop_Diseases_-_Pests/releases/tag/v1.5.0.0
 [1.4.1.0]: https://github.com/MatrikSky/Field_Health_-_Crop_Diseases_-_Pests/releases/tag/v1.4.1.0
 [1.4.0.0]: https://github.com/MatrikSky/Field_Health_-_Crop_Diseases_-_Pests/releases/tag/v1.4.0.0
 [1.3.0.0]: https://github.com/MatrikSky/Field_Health_-_Crop_Diseases_-_Pests/releases/tag/v1.3.0.0

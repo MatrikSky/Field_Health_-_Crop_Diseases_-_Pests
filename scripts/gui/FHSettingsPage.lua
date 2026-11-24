@@ -77,6 +77,16 @@ local function bind(option, name)
     end
 end
 
+-- A row whose value is handled here, not by FHSettings.
+local function onChange(option, callback)
+    option.onClickCallback = function(_, state)
+        if type(state) ~= "number" then
+            state = option:getState()
+        end
+        callback(state)
+    end
+end
+
 local function moveTo(element, parent)
     if element.parent ~= nil and element.parent.removeElement ~= nil then
         element.parent:removeElement(element)
@@ -89,9 +99,22 @@ local function removeTemplate(element)
     if element ~= nil and element.parent ~= nil and element.parent.removeElement ~= nil then
         element.parent:removeElement(element)
     end
+end
+
+local function deleteElement(element)
+    removeTemplate(element)
     if element ~= nil and element.delete ~= nil then
         element:delete()
     end
+end
+
+-- Names of the crops of the map, to see whether the crops section fits.
+local function cropKey(crops)
+    local names = {}
+    for _, crop in ipairs(crops) do
+        names[#names + 1] = crop.name
+    end
+    return table.concat(names, " ")
 end
 
 -- Registers a text in the game's own text table (the menu header reads it
@@ -124,6 +147,21 @@ function FHSettingsPage:install()
         self.frame, self.options, self.adminNote, self.layout = frame, saved.options, saved.adminNote, saved.layout
         for name, option in pairs(self.options) do
             bind(option, name)
+        end
+        -- another map may have other crops: the crops and tips sections are
+        -- built again for it
+        self.templates, self.dynamic = saved.templates, saved.dynamic
+        if self.templates ~= nil and saved.cropKey ~= cropKey(FHThreats.listMapCrops()) then
+            for _, element in ipairs(self.dynamic or {}) do
+                deleteElement(element)
+            end
+            self:fillDynamic(self.layout)
+            saved.dynamic, saved.cropKey = self.dynamic, self.cropKey
+            self.layout:invalidateLayout()
+            self:registerFocus(frame, saved.page, saved.tab)
+        else
+            self.cropOptions, self.tipOptions, self.cropKey = saved.cropOptions or {}, saved.tipOptions or {}, saved.cropKey
+            self:bindDynamic()
         end
         return true
     end
@@ -166,6 +204,9 @@ function FHSettingsPage:install()
     self:updatePaging(frame, position)
 
     self:fill(controller, layout)
+    -- kept for the crops section of another map
+    self.templates = {header = controller.fieldHealthHeaderTemplate, row = controller.fieldHealthRowTemplate}
+    self:fillDynamic(layout)
     removeTemplate(controller.fieldHealthRowTemplate)
     removeTemplate(controller.fieldHealthHeaderTemplate)
     layout:invalidateLayout()
@@ -177,6 +218,9 @@ function FHSettingsPage:install()
 
     self.frame, self.layout = frame, layout
     frame.fieldHealthSettings.options, frame.fieldHealthSettings.adminNote, frame.fieldHealthSettings.layout = self.options, self.adminNote, layout
+    local saved = frame.fieldHealthSettings
+    saved.templates, saved.dynamic, saved.cropKey, saved.page, saved.tab = self.templates, self.dynamic, self.cropKey, page, tab
+    saved.cropOptions, saved.tipOptions = self.cropOptions, self.tipOptions
     self:fitTabs(frame)
     return true
 end
@@ -296,6 +340,102 @@ function FHSettingsPage:fill(controller, layout)
     end
 end
 
+local function addHeader(template, layout, textKey, list)
+    local header = template:clone(layout)
+    clearCopy(header)
+    header:setText(FHUtil.text(textKey))
+    list[#list + 1] = header
+end
+
+local function addRow(template, layout, title, description, id, list)
+    local row = template:clone(layout)
+    clearCopy(row)
+    list[#list + 1] = row
+    local option = find(row, isOption)
+    local titleElement = find(row, function(element) return element.name == "title" end)
+    if option == nil or titleElement == nil then
+        return nil
+    end
+    titleElement:setText(title)
+    option.id = id
+    setDescription(option, description)
+    return option
+end
+
+-- Sections after the game settings: crops of the map (admin) and the tips
+-- (every player for himself, never locked).
+function FHSettingsPage:fillDynamic(layout)
+    local templates = self.templates
+    self.dynamic, self.cropOptions, self.tipOptions = {}, {}, {}
+    local crops = FHThreats.listMapCrops()
+    self.cropKey = cropKey(crops)
+    if #crops > 0 then
+        addHeader(templates.header, layout, "fh_settings_section_crops", self.dynamic)
+        for _, crop in ipairs(crops) do
+            local option = addRow(templates.row, layout, crop.title, FHUtil.text("fh_setting_crop_desc"), "fieldHealth_crop_" .. crop.name, self.dynamic)
+            if option ~= nil then
+                self.cropOptions[crop.name] = option
+            end
+        end
+    end
+    addHeader(templates.header, layout, "fh_settings_section_tips", self.dynamic)
+    for _, name in ipairs({"tips", "tipsFrequency", "tipsReset"}) do
+        local option = addRow(templates.row, layout, FHUtil.text("fh_setting_" .. name), FHUtil.text("fh_setting_" .. name .. "_desc"),
+            "fieldHealth_" .. name, self.dynamic)
+        if option ~= nil then
+            self.tipOptions[name] = option
+        end
+    end
+    self:bindDynamic()
+end
+
+function FHSettingsPage:bindDynamic()
+    for name, option in pairs(self.cropOptions or {}) do
+        bind(option, FHSettings.CROP_PREFIX .. name)
+    end
+    local tips = self.tipOptions or {}
+    if tips.tips ~= nil then
+        onChange(tips.tips, function(state) FHTips:setEnabled(state == 1) end)
+    end
+    if tips.tipsFrequency ~= nil then
+        onChange(tips.tipsFrequency, function(state) FHTips:setFrequency(state) end)
+    end
+    if tips.tipsReset ~= nil then
+        onChange(tips.tipsReset, function()
+            local option = tips.tipsReset
+            -- the dialog takes the mouse release, so the game would keep the
+            -- arrow held and click the row again and again (endless dialogs)
+            option.isLeftButtonPressed, option.isRightButtonPressed = false, false
+            option.wasContinuousTrigger = false
+            option.delayTime = math.huge
+            for _, button in ipairs({option.leftButtonElement, option.rightButtonElement}) do
+                if button ~= nil and button.setPressed ~= nil then
+                    button:setPressed(false)
+                end
+            end
+            option:setState(1)
+            FHSettingsPage.askTipsReset()
+        end)
+    end
+end
+
+function FHSettingsPage.askTipsReset()
+    if YesNoDialog == nil or YesNoDialog.show == nil then
+        FHTips:reset()
+        return
+    end
+    if FHSettingsPage.resetAsked then
+        return
+    end
+    FHSettingsPage.resetAsked = true
+    YesNoDialog.show(function(yes)
+        FHSettingsPage.resetAsked = false
+        if yes then
+            FHTips:reset()
+        end
+    end, nil, FHUtil.text("fh_tips_resetQuestion"), FHUtil.text("fh_tips_resetTitle"))
+end
+
 -- Shows the tab of the mod (click on it).
 function FHSettingsPage:select()
     local frame = self.frame
@@ -329,6 +469,29 @@ function FHSettingsPage:refresh()
                 option:setDisabled(not editable)
             end
         end
+    end
+    local onOff = {FHUtil.text("fh_set_on"), FHUtil.text("fh_set_off")}
+    for name, option in pairs(self.cropOptions or {}) do
+        option:setTexts(onOff)
+        option:setState(FHSettings.isCropOn(name) and 1 or 2)
+        if option.setDisabled ~= nil then
+            option:setDisabled(not editable)
+        end
+    end
+    local tips = self.tipOptions or {}
+    if tips.tips ~= nil then
+        tips.tips:setTexts(onOff)
+        tips.tips:setState(FHTips.enabled == false and 2 or 1)
+    end
+    if tips.tipsFrequency ~= nil then
+        tips.tipsFrequency:setTexts(FHTips:getFrequencyLabels())
+        tips.tipsFrequency:setState(FHTips.frequency or FHTips.DEFAULT_FREQUENCY)
+    end
+    if tips.tipsReset ~= nil then
+        -- two equal texts: either arrow is a click on the button
+        local reset = FHUtil.text("fh_tips_resetButton")
+        tips.tipsReset:setTexts({reset, reset})
+        tips.tipsReset:setState(1)
     end
     if self.adminNote ~= nil and self.adminNote.setVisible ~= nil then
         self.adminNote:setVisible(not editable)

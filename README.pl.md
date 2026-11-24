@@ -53,10 +53,11 @@ Twoje pola wreszcie żyją! Field Health dodaje do Farming Simulator 25 choroby 
 - 🦠 **44 prawdziwych zagrożeń:** 24 chorób i 20 szkodników, z którymi mierzą się rolnicy w całej Europie,[^poland] każde z własnymi uprawami, miesiącami i fazami wzrostu.
 - 🌦️ **Ryzyko zależy od Ciebie:** płodozmian, orka, wapnowanie, mulczowanie, nawożenie, walka z chwastami i pogoda z ostatnich dni zmieniają presję zakażenia.
 - 🧩 **Naturalne ogniska:** nieregularne łaty, które rosną, wysyłają z wiatrem małe nowe ogniska i mogą przeskoczyć na stykające się pole.
-- 💧 **Jeden oprysk leczy:** fungicyd albo insektycyd usuwa zagrożenie i chroni pole do zbioru. Pomocnik AI pryska tylko tam, gdzie trzeba.
+- 💧 **Jeden oprysk leczy:** fungicyd albo insektycyd usuwa zagrożenie i chroni pole do zbioru. Pomocnik AI pryska tylko tam, gdzie trzeba, a uprawa gotowa do zbioru jest chroniona bez oprysku.
 - 🧴 **Prawdziwe środki:** butelki 1 l oraz bańki 5 l i 20 l z realistycznymi etykietami dwóch marek, Opryskex i MST.
-- 🗺️ **Przejrzysty podgląd:** strona mapy z pięcioma warstwami, warstwa na minimapie, linie w panelu informacji o polu i powiadomienia.
-- ⚙️ **33 ustawienia:** wyłączenie całego moda, chorób albo szkodników, spokojny start, szanse, tempo, rozrost, szkody, ochrona, dawki i ceny, wszystko w zakładce Field Health w menu gry.
+- 🗺️ **Przejrzysty podgląd:** strona mapy z pięcioma warstwami, warstwa na minimapie, która sama włącza się podczas oprysku, linie w panelu informacji o polu i powiadomienia.
+- 💡 **Podpowiedzi:** krótkie podpowiedzi na dole ekranu tłumaczą to, co w modzie nowe, opisują każdą chorobę i każdego szkodnika, gdy pierwszy raz pojawi się na Twoich polach, i pomagają w odpowiedniej chwili (gotowy opryskiwacz, oprysk, stadium silne). Każdy gracz może je wyłączyć albo zacząć od nowa.
+- ⚙️ **34 ustawienia:** wyłączenie całego moda, chorób albo szkodników, spokojny start, szanse, tempo, rozrost, szkody, ochrona, dawki i ceny, wszystko w zakładce Field Health w menu gry. Admin może też wyłączyć zagrożenia wybranych upraw mapy.
 - 🌍 **20 języków:** język gry wybiera się automatycznie.
 - 🔌 **Dogaduje się z innymi:** Precision Farming, cebula z DLC Highlands Fishing, DLC Beans & Alpacas, mapy z modów, gra wieloosobowa i bezpieczne zapisy.
 
@@ -296,7 +297,7 @@ Mod odczytuje fazę ze stanu wzrostu uprawy w grze. Pierwsze 20% czasu wzrostu t
 <details>
 <summary><b>📅 Kalendarz: kiedy uważać</b></summary>
 
-Główne miesiące to te, w których presja na uprawę jest największa. Oprysk krótko przed nimi zapobiega większości zakażeń.
+Główne miesiące to te, w których presja na uprawę jest największa. Oprysk krótko przed nimi zapobiega większości zakażeń, ale nie jest konieczny: wystarczy oprysk po powiadomieniu.
 
 | Uprawa | Kiedy najczęściej pojawiają się choroby | Najczęstsze choroby | Kiedy najczęściej pojawiają się szkodniki | Najczęstsze szkodniki |
 |---|---|---|---|---|
@@ -462,7 +463,7 @@ Nowe zagrożenie to jedna albo dwie nieregularne łaty z poszarpanym brzegiem i 
 | Przejście na sąsiednie pole | od stadium średniego na stykające się pole gracza, jeśli rośnie na nim atakowana uprawa we właściwej porze i fazie, a pole nie jest w pełni chronione | do 8 m od brzegu pola. W stadium silnym codziennie 4% szansy dla szkodników i 2% dla chorób, w średnim połowa tego. Ustawienie „Przenoszenie na sąsiednie pola” mnoży szansę przez 0,5, 1 lub 2. |
 | Powiadomienia | o nowym zagrożeniu, o stadium silnym i o zagrożeniu, które przeszło z sąsiedniego pola | trafiają do graczy farmy, do której należy pole; można je wyłączyć w ustawieniach |
 
-Zniszczona uprawa nie odrasta i nic nie daje przy zbiorze, więc oprysk wcześniej albo zaraz po powiadomieniu wychodzi najtaniej. Oprysk w każdym stadium całkiem usuwa zagrożenie z opryskanych miejsc.
+Zniszczona uprawa nie odrasta i nic nie daje przy zbiorze, ale niszczy ją dopiero stadium silne, w małych łatach. Do tego czasu chora uprawa wygląda zwyczajnie. Nie musisz więc pryskać na zapas: wystarczy oprysk po powiadomieniu, bo przy domyślnym tempie stadium silne przychodzi po mniej więcej miesiącu gry albo później. Oprysk w każdym stadium całkiem usuwa zagrożenie z opryskanych miejsc.
 
 <p align="right"><a href="#-spis-treści">⬆️ Wróć do spisu treści</a></p>
 
@@ -519,7 +520,7 @@ Gdy jesteś na polu, panel informacji o polu pokazuje:
 
 ### Mapa
 
-W **ESC > Mapa** wybierz stronę **Ochrona roślin**. Tuż pod jej tytułem jest drugi wybór ze strzałkami, który przełącza pięć warstw. Kliknij pozycję legendy, żeby ukryć ją na mapie. Pokazane są tylko pola Twojego gospodarstwa z rosnącą uprawą. Kliknij działkę, żeby zobaczyć zagrożenia i ochronę jej pól.
+W **ESC > Mapa** wybierz stronę **Ochrona roślin**. Tuż pod jej tytułem jest drugi wybór ze strzałkami, który przełącza pięć warstw. Kliknij pozycję legendy, żeby ukryć ją na mapie. Pokazane są tylko pola Twojego gospodarstwa z rosnącą uprawą, która może chorować. Łąki, trawy, poplony i uprawy wyłączone w ustawieniach są ukryte, a na polu podzielonym na kilka upraw widać tylko uprawę sezonu. Kliknij działkę, żeby zobaczyć zagrożenia i ochronę jej pól.
 
 | Warstwa mapy | Kolor i jego znaczenie | Co zrobić |
 |---|---|---|
@@ -556,6 +557,8 @@ W **ESC > Mapa** wybierz stronę **Ochrona roślin**. Tuż pod jej tytułem jest
 
 <kbd>Lewy Alt</kbd> + <kbd>&#92;</kbd> przełącza warstwę na minimapie: ochrona, choroby, szkodniki i bez warstwy. Klawisze zmienisz w trakcie gry w **ESC > Ustawienia > Sterowanie**, szukaj warstwy Field Health na minimapie. Menu główne nie pokazuje klawiszy modów, bo mody wczytują się dopiero z zapisem.
 
+Gdy pryskasz fungicydem albo insektycydem, a warstwa na minimapie jest wyłączona, warstwa ochrony włącza się sama i znika kilka sekund po wyłączeniu opryskiwacza. Jeśli w trakcie oprysku naciśniesz klawisz, zostaje Twój wybór.
+
 ### Powiadomienia
 
 Dostajesz powiadomienie o nowym zagrożeniu, o stadium silnym i o zagrożeniu, które przeszło z sąsiedniego pola. Trafiają do graczy gospodarstwa, do którego należy pole, każdy w swoim języku, i możesz je wyłączyć w ustawieniach.
@@ -564,7 +567,7 @@ Dostajesz powiadomienie o nowym zagrożeniu, o stadium silnym i o zagrożeniu, k
 
 ## 🔧 Ustawienia
 
-Ustawienia moda znajdziesz w **ESC > Ustawienia**, we własnej zakładce **Field Health**, podzielone na sekcje: ogólne, szansa zagrożeń, rozwój zagrożeń, oprysk i ochrona, ceny oraz wyświetlanie. Pierwsze ustawienie wyłącza cały mod, a choroby i szkodniki można wyłączyć osobno. Ustawienia zapisują się razem z zapisem gry. Widzi je każdy gracz, ale w grze wieloosobowej zmieniać może tylko admin (na serwerze dedykowanym najpierw zaloguj się jako admin). Najedź w grze na opcję, żeby zobaczyć jej opis.
+Ustawienia moda znajdziesz w **ESC > Ustawienia**, we własnej zakładce **Field Health**, podzielone na sekcje: ogólne, szansa zagrożeń, rozwój zagrożeń, oprysk i ochrona, ceny, wyświetlanie, uprawy oraz podpowiedzi. Pierwsze ustawienie wyłącza cały mod, a choroby i szkodniki można wyłączyć osobno. Sekcja **Uprawy** wyłącza zagrożenia wybranych upraw mapy. Ustawienia zapisują się razem z zapisem gry, poza sekcją **Podpowiedzi**: należy ona do każdego gracza (włączenie, częstość, zaczęcie od nowa) i jest zapisywana w jego profilu. Widzi je każdy gracz, ale w grze wieloosobowej zmieniać może tylko admin (na serwerze dedykowanym najpierw zaloguj się jako admin). Najedź w grze na opcję, żeby zobaczyć jej opis.
 
 | Ustawienie | Możliwe wartości | Domyślnie | Co zmienia |
 |---|---|---|---|
@@ -591,6 +594,7 @@ Ustawienia moda znajdziesz w **ESC > Ustawienia**, we własnej zakładce **Field
 | Dawka insektycydu | od 25% do 200% | 100% | ile insektycydu zużywa się na hektar; skuteczność się nie zmienia |
 | AI pryska tylko tam, gdzie trzeba | włączone lub wyłączone | włączone | czy pomocnik AI pryska tylko pola i miejsca, które tego potrzebują |
 | Oprysk przed siewem | włączone lub wyłączone | wyłączone | czy oprysk pustego pola po zbiorze chroni następną uprawę |
+| Ochrona od fazy rozwoju | wyłączone, od kwitnienia lub gotowa do zbioru | gotowa do zbioru | od której fazy rozwoju uprawa nie dostaje nowych zagrożeń, a obecne przestają się rozwijać |
 | Jeden oprysk na wszystko | włączone lub wyłączone | wyłączone | czy jeden oprysk dowolnym środkiem chroni przed chorobami i szkodnikami naraz |
 | Cena butelki fungicydu | od 10 do 200 | 50 | cena butelki 1 l w sklepie |
 | Cena butelki insektycydu | od 10 do 200 | 80 | cena butelki 1 l w sklepie |
@@ -609,10 +613,11 @@ Ustawienia moda znajdziesz w **ESC > Ustawienia**, we własnej zakładce **Field
 **Plan na zdrowe pola**
 
 1. Nawoź według potrzeb, wapnuj i nie siej tej samej rośliny dwa lata z rzędu. Między uprawami głównymi wysiewaj poplon.
-2. Przed głównymi miesiącami zagrożeń ([kalendarz](#-choroby-i-szkodniki)) opryskaj pole fungicydem i insektycydem. Raz w sezonie wystarczy, jeśli pokryjesz co najmniej 90% pola.
+2. Nie musisz pryskać na zapas, wystarczy oprysk po powiadomieniu (punkt 4). Jeśli wolisz spokój, opryskaj pole fungicydem i insektycydem przed głównymi miesiącami zagrożeń ([kalendarz](#-choroby-i-szkodniki)). Raz w sezonie wystarczy, jeśli pokryjesz co najmniej 90% pola.
 3. Sprawdzaj warstwę *Ochrona* na mapie. Zielone pola są chronione przed oboma rodzajami zagrożeń.
 4. Po powiadomieniu opryskaj wskazane pole wskazanym środkiem, zanim zagrożenie dojdzie do stadium silnego.
 5. Pomocnik AI z fungicydem albo insektycydem pryska niechronione pola w całości, a chronione tylko tam, gdzie jest zagrożenie.
+6. Masz dużo pól? Ustaw *Limit zagrożeń w gospodarstwie* albo włącz *Jeden oprysk na wszystko*, a uprawy, które mają nie chorować, wyłącz w sekcji *Uprawy*.
 
 **Uważaj**
 
@@ -881,6 +886,6 @@ I dziękuję wszystkim, którzy grają w mod, zgłaszają błędy i dzielą się
 
 **Miłej gry i zdrowych pól!** 🌱
 
-<sub>Field Health 1.4.1.0 • autor: MatrikSky</sub>
+<sub>Field Health 1.5.0.0 • autor: MatrikSky</sub>
 
 </div>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <modDesc descVersion="104">
     <author>MatrikSky</author>
-    <version>1.4.1.0</version>
+    <version>1.5.0.0</version>
     <title>
         <en>Field Health: Crop Diseases &amp; Pests</en>
         <pl>Zdrowie pól: choroby i szkodniki upraw</pl>
@@ -25,7 +25,7 @@
         <fi>Field Health: kasvitaudit ja tuholaiset</fi>
     </title>
     <description>
-        <en><![CDATA[Field Health brings crop diseases and pests common in Poland to your fields – realistic, but friendly to casual play.
+        <en><![CDATA[Field Health brings common crop diseases and pests to your fields – realistic, but friendly to casual play.
 
 44 threats are tied to the crops they really attack – 24 diseases fought with fungicide (e.g. cereal powdery mildew, septoria, brown and yellow rust, fusarium, eyespot, net blotch, phoma, sclerotinia, late blight, cercospora leaf spot, downy mildew of onions) and 20 pests fought with insecticide (e.g. aphids, cereal leaf beetles, pollen beetles, stem weevils, flea beetles, Colorado potato beetles, European corn borer, onion fly, carrot fly). Each one attacks only in its months and growth stages and is most dangerous at its typical time; common threats appear much more often than rare ones such as stem rust or corn rootworm.
 
@@ -33,7 +33,9 @@ Even a well farmed field can get a threat (by default 15% diseases and 10% pests
 
 Threats appear in irregular patches, grow unevenly, destroy crop only when severe and can rarely move to a touching neighbour field. Spraying removes them and protects the field until harvest. Fungicide and insecticide are sold in 1 l bottles and 5 l and 20 l canisters. The map page "Crop protection" (five layers) and the minimap (LAlt + \) show protection, diseases and pests of your fields; the field info box shows threats, risk and its cause.
 
-33 settings (chances, influence of farming, weather and stubble, meadows and fodder crops, progression, patch size, crop damage, spray duration and rates, prices...), multiplayer support, a detailed guide in the in-game help (ESC > Help). The mod only adds its own files to the savegame, so it can be removed at any time.
+34 settings (chances, influence of farming, weather and stubble, meadows and fodder crops, progression, patch size, crop damage, spray duration and rates, prices...), multiplayer support, a detailed guide in the in-game help (ESC > Help). The mod only adds its own files to the savegame, so it can be removed at any time.
+
+Short tips at the bottom of the screen guide beginners step by step, and the admin can switch off threats for chosen crops.
 
 Idea inspired by the mod "Crop Diseases" by BMP. Bottle model based on "fertilizer Bottle" by shabanimate, canister model based on "#6 Plastic Canister" by hoxsvl (both CC BY 4.0, sketchfab.com).]]></en>
         <pl><![CDATA[Field Health przenosi na Twoje pola choroby i szkodniki typowe dla Polski – realistycznie, ale przyjaźnie dla swobodnej gry.
@@ -44,10 +46,12 @@ Nawet dobrze prowadzone pole może zachorować (domyślnie 15% choroby i 10% szk
 
 Zagrożenia pojawiają się w nieregularnych plamach, rosną nierówno, niszczą uprawę dopiero w silnym stadium i rzadko przechodzą na stykające się sąsiednie pole. Oprysk je usuwa i chroni pole do zbioru. Fungicyd i insektycyd kupisz w butelkach 1 l oraz bańkach 5 l i 20 l. Strona mapy „Ochrona roślin” (pięć warstw) i minimapa (LAlt + \) pokazują ochronę, choroby i szkodniki na Twoich polach, a panel informacji o polu – zagrożenia, ryzyko i jego przyczynę.
 
-33 ustawienia (szanse, wpływ uprawy, pogody i ścierniska, łąki i uprawy pastewne, tempo, wielkość ognisk, niszczenie uprawy, czas działania i dawki oprysków, ceny...), gra wieloosobowa, szczegółowy poradnik w pomocy w grze (ESC > Pomoc). Mod zapisuje w zapisie gry tylko własne pliki, więc można go w każdej chwili usunąć.
+34 ustawienia (szanse, wpływ uprawy, pogody i ścierniska, łąki i uprawy pastewne, tempo, wielkość ognisk, niszczenie uprawy, czas działania i dawki oprysków, ceny...), gra wieloosobowa, szczegółowy poradnik w pomocy w grze (ESC > Pomoc). Mod zapisuje w zapisie gry tylko własne pliki, więc można go w każdej chwili usunąć.
+
+Krótkie podpowiedzi na dole ekranu prowadzą początkujących krok po kroku, a administrator może wyłączyć zagrożenia wybranych upraw.
 
 Pomysł zaczerpnięty z moda „Crop Diseases” autorstwa BMP. Model butelki na podstawie „fertilizer Bottle” autorstwa shabanimate, model baniek na podstawie „#6 Plastic Canister” autorstwa hoxsvl (oba CC BY 4.0, sketchfab.com).]]></pl>
-        <fr><![CDATA[Field Health amène sur vos champs les maladies et les ravageurs des cultures courants en Pologne – de façon réaliste, mais adaptée à une partie détendue.
+        <fr><![CDATA[Field Health amène sur vos champs les maladies et les ravageurs courants des cultures – de façon réaliste, mais adaptée à une partie détendue.
 
 44 menaces sont liées aux cultures qu'elles attaquent réellement – 24 maladies combattues au fongicide (par ex. oïdium des céréales, septoriose, rouilles brune et jaune, fusariose, piétin-verse, helminthosporiose de l'orge, phoma, sclérotiniose, mildiou de la pomme de terre, cercosporiose de la betterave, mildiou de l'oignon) et 20 ravageurs combattus à l'insecticide (par ex. pucerons, lémas, méligèthes, charançons de la tige, altises, doryphores, pyrale du maïs, mouche de l'oignon, mouche de la carotte). Chacune n'attaque qu'à ses mois et à ses stades de croissance, et elle est la plus dangereuse à sa période typique ; les menaces courantes apparaissent bien plus souvent que les rares, comme la rouille noire ou la chrysomèle du maïs.
 
@@ -55,10 +59,12 @@ Même un champ bien cultivé peut être touché (par défaut 15 % pour les malad
 
 Les menaces apparaissent en foyers irréguliers, s'étendent de façon inégale, ne détruisent la culture qu'au stade grave et peuvent rarement passer sur un champ voisin contigu. Un traitement les élimine et protège le champ jusqu'à la récolte. Le fongicide et l'insecticide sont vendus en flacons de 1 l et en bidons de 5 l et 20 l. La page de carte « Protection des cultures » (cinq couches) et la mini-carte (LAlt + \) montrent la protection, les maladies et les ravageurs de vos champs ; le panneau d'infos du champ affiche les menaces, le risque et sa cause.
 
-33 paramètres (probabilités, influence des pratiques, de la météo et des chaumes, prairies et fourrages, évolution, taille des foyers, dégâts aux cultures, durée et doses des traitements, prix...), prise en charge du multijoueur, guide détaillé dans l'aide du jeu (ESC > Aide). Le mod n'ajoute que ses propres fichiers à la sauvegarde : vous pouvez donc le retirer à tout moment.
+34 paramètres (probabilités, influence des pratiques, de la météo et des chaumes, prairies et fourrages, évolution, taille des foyers, dégâts aux cultures, durée et doses des traitements, prix...), prise en charge du multijoueur, guide détaillé dans l'aide du jeu (ESC > Aide). Le mod n'ajoute que ses propres fichiers à la sauvegarde : vous pouvez donc le retirer à tout moment.
+
+De courtes astuces en bas de l'écran guident les débutants pas à pas, et l'admin peut désactiver les menaces de certaines cultures.
 
 Idée reprise du mod « Crop Diseases » de BMP. Modèle du flacon basé sur « fertilizer Bottle » de shabanimate, modèle du bidon basé sur « #6 Plastic Canister » de hoxsvl (tous deux CC BY 4.0, sketchfab.com).]]></fr>
-        <de><![CDATA[Field Health bringt Pflanzenkrankheiten und Schädlinge, die in Polen verbreitet sind, auf deine Felder – realistisch, aber freundlich für entspanntes Spielen.
+        <de><![CDATA[Field Health bringt verbreitete Pflanzenkrankheiten und Schädlinge auf deine Felder – realistisch, aber freundlich für entspanntes Spielen.
 
 44 Schaderreger sind an die Kulturen gebunden, die sie wirklich befallen – 24 Krankheiten, die mit Fungizid bekämpft werden (z. B. Echter Getreidemehltau, Septoria, Braun- und Gelbrost, Fusarium, Halmbruch, Netzflecken, Phoma, Weißstängeligkeit, Kraut- und Knollenfäule, Cercospora-Blattflecken, Falscher Mehltau an Zwiebeln), und 20 Schädlinge, die mit Insektizid bekämpft werden (z. B. Blattläuse, Getreidehähnchen, Rapsglanzkäfer, Stängelrüssler, Erdflöhe, Kartoffelkäfer, Maiszünsler, Zwiebelfliege, Möhrenfliege). Jeder greift nur in seinen Monaten und Wachstumsstadien an und ist zu seiner typischen Zeit am gefährlichsten; häufige Schaderreger treten viel öfter auf als seltene wie Schwarzrost oder Maiswurzelbohrer.
 
@@ -66,10 +72,12 @@ Auch ein gut bewirtschaftetes Feld kann befallen werden (standardmäßig 15 % Kr
 
 Befall tritt in unregelmäßigen Herden auf, wächst ungleichmäßig, zerstört den Bestand erst im starken Stadium und kann selten auf ein angrenzendes Nachbarfeld übergreifen. Spritzen beseitigt ihn und schützt das Feld bis zur Ernte. Fungizid und Insektizid gibt es in 1-l-Flaschen sowie 5-l- und 20-l-Kanistern. Die Kartenseite „Pflanzenschutz“ (fünf Ebenen) und die Minikarte (LAlt + \) zeigen Schutz, Krankheiten und Schädlinge deiner Felder; die Feldinfo zeigt Befall, Risiko und dessen Ursache.
 
-33 Einstellungen (Wahrscheinlichkeiten, Einfluss von Bewirtschaftung, Wetter und Stoppeln, Wiesen und Futterpflanzen, Befallsentwicklung, Herdgröße, Schäden am Bestand, Schutzdauer und Aufwandmengen, Preise...), Mehrspieler-Unterstützung, ausführliche Anleitung in der Spielhilfe (ESC > Hilfe). Der Mod legt nur eigene Dateien im Spielstand ab und kann daher jederzeit entfernt werden.
+34 Einstellungen (Wahrscheinlichkeiten, Einfluss von Bewirtschaftung, Wetter und Stoppeln, Wiesen und Futterpflanzen, Befallsentwicklung, Herdgröße, Schäden am Bestand, Schutzdauer und Aufwandmengen, Preise...), Mehrspieler-Unterstützung, ausführliche Anleitung in der Spielhilfe (ESC > Hilfe). Der Mod legt nur eigene Dateien im Spielstand ab und kann daher jederzeit entfernt werden.
+
+Kurze Tipps unten am Bildschirm führen Einsteiger Schritt für Schritt, und der Admin kann den Befall einzelner Kulturen ausschalten.
 
 Die Idee stammt aus dem Mod „Crop Diseases“ von BMP. Flaschenmodell basierend auf „fertilizer Bottle“ von shabanimate, Kanistermodell basierend auf „#6 Plastic Canister“ von hoxsvl (beide CC BY 4.0, sketchfab.com).]]></de>
-        <es><![CDATA[Field Health lleva a tus campos las enfermedades y plagas de los cultivos habituales en Polonia: realista, pero pensado para jugar con tranquilidad.
+        <es><![CDATA[Field Health lleva a tus campos las enfermedades y plagas habituales de los cultivos: realista, pero pensado para jugar con tranquilidad.
 
 44 amenazas ligadas a los cultivos que de verdad atacan: 24 enfermedades que se combaten con fungicida (p. ej., oídio de los cereales, septoriosis, roya parda y amarilla, fusariosis, mancha ocular, mancha en red, phoma, podredumbre blanca, mildiu de la patata, cercosporiosis de la remolacha, mildiu de la cebolla) y 20 plagas que se combaten con insecticida (p. ej., pulgones, lema, meligetes, gorgojos del tallo, pulguillas, escarabajo de la patata, taladro del maíz, mosca de la cebolla, mosca de la zanahoria). Cada una ataca solo en sus meses y fases de crecimiento, y es más peligrosa en su época típica; las amenazas comunes aparecen mucho más a menudo que las raras, como la roya negra o la diabrótica del maíz.
 
@@ -77,10 +85,12 @@ Incluso un campo bien cuidado puede enfermar (por defecto, 15 % de enfermedades 
 
 Las amenazas aparecen en focos irregulares, crecen de forma desigual, solo destruyen el cultivo en la fase grave y, rara vez, pasan a un campo vecino colindante. La pulverización las elimina y protege el campo hasta la cosecha. El fungicida y el insecticida se venden en botellas de 1 l y garrafas de 5 l y 20 l. La página del mapa «Protección de cultivos» (cinco capas) y el minimapa (LAlt + \) muestran la protección, las enfermedades y las plagas de tus campos; el recuadro de información del campo muestra las amenazas, el riesgo y su causa.
 
-33 ajustes (probabilidades, influencia del manejo, del tiempo y del rastrojo, prados y cultivos forrajeros, evolución, tamaño de los focos, daños al cultivo, duración y dosis de los tratamientos, precios...), compatible con multijugador y con una guía detallada en la ayuda del juego (ESC > Ayuda). El mod solo añade sus propios archivos a la partida guardada, así que puedes quitarlo cuando quieras.
+34 ajustes (probabilidades, influencia del manejo, del tiempo y del rastrojo, prados y cultivos forrajeros, evolución, tamaño de los focos, daños al cultivo, duración y dosis de los tratamientos, precios...), compatible con multijugador y con una guía detallada en la ayuda del juego (ESC > Ayuda). El mod solo añade sus propios archivos a la partida guardada, así que puedes quitarlo cuando quieras.
+
+Unos consejos breves en la parte inferior de la pantalla guían paso a paso a los principiantes, y el administrador puede desactivar las amenazas de algunos cultivos.
 
 Idea tomada del mod «Crop Diseases» de BMP. Modelo de la botella basado en «fertilizer Bottle» de shabanimate, modelo de la garrafa basado en «#6 Plastic Canister» de hoxsvl (ambos CC BY 4.0, sketchfab.com).]]></es>
-        <ea><![CDATA[Field Health lleva a tus campos las enfermedades y plagas de los cultivos habituales en Polonia: realista, pero pensado para jugar con tranquilidad.
+        <ea><![CDATA[Field Health lleva a tus campos las enfermedades y plagas habituales de los cultivos: realista, pero pensado para jugar con tranquilidad.
 
 44 amenazas ligadas a los cultivos que realmente atacan: 24 enfermedades que se combaten con fungicida (p. ej., oídio de los cereales, septoriosis, roya de la hoja y roya amarilla, fusariosis, mancha ocular, mancha en red, pie negro, moho blanco, tizón tardío de la papa, cercospora de la remolacha, mildiu de la cebolla) y 20 plagas que se combaten con insecticida (p. ej., pulgones, lema, escarabajo del polen, gorgojos del tallo, pulguillas, escarabajo de la papa, barrenador del maíz, mosca de la cebolla, mosca de la zanahoria). Cada una ataca solo en sus meses y etapas de crecimiento, y es más peligrosa en su época típica; las amenazas comunes aparecen mucho más seguido que las raras, como la roya del tallo o el gusano de la raíz del maíz.
 
@@ -88,10 +98,12 @@ Incluso un campo bien manejado puede enfermarse (por defecto, 15 % de enfermedad
 
 Las amenazas aparecen en focos irregulares, crecen de forma desigual, solo destruyen el cultivo en la etapa grave y, rara vez, pasan a un campo vecino colindante. La pulverización las elimina y protege el campo hasta la cosecha. El fungicida y el insecticida se venden en botellas de 1 l y bidones de 5 l y 20 l. La página del mapa “Protección de cultivos” (cinco capas) y el minimapa (LAlt + \) muestran la protección, las enfermedades y las plagas de tus campos; el recuadro de información del campo muestra las amenazas, el riesgo y su causa.
 
-33 opciones de configuración (probabilidades, influencia del manejo, del clima y del rastrojo, praderas y forrajes, evolución, tamaño de los focos, daños al cultivo, duración y dosis de las aplicaciones, precios...), compatible con multijugador y con una guía detallada en la ayuda del juego (ESC > Ayuda). El mod solo agrega sus propios archivos a la partida guardada, así que puedes quitarlo cuando quieras.
+34 opciones de configuración (probabilidades, influencia del manejo, del clima y del rastrojo, praderas y forrajes, evolución, tamaño de los focos, daños al cultivo, duración y dosis de las aplicaciones, precios...), compatible con multijugador y con una guía detallada en la ayuda del juego (ESC > Ayuda). El mod solo agrega sus propios archivos a la partida guardada, así que puedes quitarlo cuando quieras.
+
+Unos consejos breves en la parte inferior de la pantalla guían paso a paso a los principiantes, y el administrador puede desactivar las amenazas de algunos cultivos.
 
 Idea tomada del mod “Crop Diseases” de BMP. Modelo de la botella basado en “fertilizer Bottle” de shabanimate, modelo del bidón basado en “#6 Plastic Canister” de hoxsvl (ambos CC BY 4.0, sketchfab.com).]]></ea>
-        <pt><![CDATA[O Field Health traz para os teus campos as doenças e pragas das culturas comuns na Polónia – de forma realista, mas pensada para jogar descontraído.
+        <pt><![CDATA[O Field Health traz para os teus campos as doenças e pragas mais comuns das culturas – de forma realista, mas pensada para jogar descontraído.
 
 44 ameaças ligadas às culturas que realmente atacam – 24 doenças combatidas com fungicida (por ex. oídio dos cereais, septoriose, ferrugem castanha e amarela, fusariose, mancha ocular, mancha reticulada, phoma, esclerotínia, míldio da batateira, cercosporiose da beterraba, míldio da cebola) e 20 pragas combatidas com inseticida (por ex. afídeos, lema, meligetes, gorgulhos do caule, altises, escaravelho da batateira, broca do milho, mosca da cebola, mosca da cenoura). Cada uma ataca só nos seus meses e fases de crescimento e é mais perigosa na sua altura típica; as ameaças comuns aparecem muito mais vezes do que as raras, como a ferrugem negra ou a diabrótica do milho.
 
@@ -99,10 +111,12 @@ Até um campo bem cultivado pode ser atacado (por predefinição 15% de doenças
 
 As ameaças aparecem em focos irregulares, crescem de forma desigual, só destroem a cultura na fase grave e raramente passam para um campo vizinho que faça fronteira. A pulverização elimina-as e protege o campo até à colheita. O fungicida e o inseticida vendem-se em frascos de 1 l e bidões de 5 l e 20 l. A página do mapa «Proteção das culturas» (cinco camadas) e o minimapa (LAlt + \) mostram a proteção, as doenças e as pragas dos teus campos; o painel de informações do campo mostra as ameaças, o risco e a sua causa.
 
-33 definições (probabilidades, influência da gestão, do tempo e do restolho, prados e forragens, evolução, tamanho dos focos, danos na cultura, duração e doses da pulverização, preços...), multijogador, um guia detalhado na ajuda do jogo (ESC > Ajuda). O mod só acrescenta ficheiros próprios ao jogo guardado, por isso pode ser removido a qualquer momento.
+34 definições (probabilidades, influência da gestão, do tempo e do restolho, prados e forragens, evolução, tamanho dos focos, danos na cultura, duração e doses da pulverização, preços...), multijogador, um guia detalhado na ajuda do jogo (ESC > Ajuda). O mod só acrescenta ficheiros próprios ao jogo guardado, por isso pode ser removido a qualquer momento.
+
+Dicas curtas na parte de baixo do ecrã guiam os principiantes passo a passo, e o administrador pode desligar as ameaças de algumas culturas.
 
 Ideia retirada do mod «Crop Diseases» de BMP. Modelo do frasco baseado em «fertilizer Bottle» de shabanimate, modelo do bidão baseado em «#6 Plastic Canister» de hoxsvl (ambos CC BY 4.0, sketchfab.com).]]></pt>
-        <br><![CDATA[O Field Health traz para os seus campos as doenças e pragas das lavouras comuns na Polônia – de um jeito realista, mas tranquilo para quem joga de forma casual.
+        <br><![CDATA[O Field Health traz para os seus campos as doenças e pragas mais comuns das lavouras – de um jeito realista, mas tranquilo para quem joga de forma casual.
 
 44 ameaças ligadas às culturas que elas realmente atacam – 24 doenças combatidas com fungicida (por exemplo oídio dos cereais, septoriose, ferrugem-da-folha e ferrugem-amarela, fusariose, mancha-ocular, mancha-em-rede, canela-preta, mofo-branco, requeima, cercosporiose da beterraba, míldio da cebola) e 20 pragas combatidas com inseticida (por exemplo pulgões, lema, besouro-do-pólen, gorgulhos-do-caule, besouro-pulga, besouro-da-batata, broca-do-milho, mosca-da-cebola, mosca-da-cenoura). Cada uma ataca só nos seus meses e estágios de crescimento e é mais perigosa na sua época típica; ameaças comuns aparecem muito mais que as raras, como a ferrugem-do-colmo ou a larva-alfinete.
 
@@ -110,10 +124,12 @@ Até um campo bem conduzido pode ser atacado (por padrão 15% de doenças e 10% 
 
 As ameaças aparecem em reboleiras irregulares, crescem de forma desigual, só destroem a lavoura no estágio grave e raramente passam para um campo vizinho que encosta no seu. A pulverização elimina as ameaças e protege o campo até a colheita. O fungicida e o inseticida são vendidos em frascos de 1 l e galões de 5 l e 20 l. A página do mapa “Proteção de cultivos” (cinco camadas) e o minimapa (LAlt + \) mostram a proteção, as doenças e as pragas dos seus campos; o painel de informações do campo mostra as ameaças, o risco e a causa dele.
 
-33 configurações (chances, influência do manejo, do clima e da palhada, pastagens e forrageiras, evolução, tamanho das reboleiras, danos à lavoura, duração e doses da pulverização, preços...), multijogador e um guia detalhado na ajuda do jogo (ESC > Ajuda). O mod só adiciona arquivos próprios ao jogo salvo, então pode ser removido a qualquer momento.
+34 configurações (chances, influência do manejo, do clima e da palhada, pastagens e forrageiras, evolução, tamanho das reboleiras, danos à lavoura, duração e doses da pulverização, preços...), multijogador e um guia detalhado na ajuda do jogo (ESC > Ajuda). O mod só adiciona arquivos próprios ao jogo salvo, então pode ser removido a qualquer momento.
+
+Dicas curtas na parte de baixo da tela guiam os iniciantes passo a passo, e o administrador pode desligar as ameaças de algumas culturas.
 
 Ideia tirada do mod “Crop Diseases” de BMP. Modelo do frasco baseado em “fertilizer Bottle” de shabanimate, modelo do galão baseado em “#6 Plastic Canister” de hoxsvl (ambos CC BY 4.0, sketchfab.com).]]></br>
-        <it><![CDATA[Field Health porta sui tuoi campi le malattie e i parassiti delle colture diffusi in Polonia: realistico, ma pensato anche per chi gioca in modo rilassato.
+        <it><![CDATA[Field Health porta sui tuoi campi le malattie e i parassiti più diffusi delle colture: realistico, ma pensato anche per chi gioca in modo rilassato.
 
 44 avversità legate alle colture che attaccano davvero: 24 malattie da combattere con il fungicida (ad es. oidio dei cereali, septoriosi, ruggine bruna e gialla, fusariosi, mal del piede, maculatura reticolata, phoma, marciume bianco, peronospora della patata, cercosporiosi della barbabietola, peronospora della cipolla) e 20 parassiti da combattere con l'insetticida (ad es. afidi, lema, meligete, punteruoli del fusto, altiche, dorifora, piralide del mais, mosca della cipolla, mosca della carota). Ognuna attacca solo nei suoi mesi e nelle sue fasi di sviluppo ed è più pericolosa nel suo periodo tipico; le avversità comuni compaiono molto più spesso di quelle rare, come la ruggine nera o la diabrotica del mais.
 
@@ -121,10 +137,12 @@ Anche un campo ben coltivato può ammalarsi (di default 15% malattie e 10% paras
 
 Le avversità compaiono in focolai irregolari, crescono in modo disomogeneo, distruggono la coltura solo quando sono gravi e raramente passano a un campo vicino confinante. Il trattamento le elimina e protegge il campo fino al raccolto. Fungicida e insetticida si vendono in flaconi da 1 l e taniche da 5 l e 20 l. La pagina della mappa «Difesa delle colture» (cinque livelli) e la minimappa (LAlt + \) mostrano protezione, malattie e parassiti dei tuoi campi; il riquadro informazioni del campo mostra avversità, rischio e causa.
 
-33 impostazioni (probabilità, influenza di gestione, meteo e stoppie, prati e foraggere, evoluzione, dimensione dei focolai, danni alla coltura, durata e dosi dei trattamenti, prezzi...), supporto al multigiocatore, una guida dettagliata nell'aiuto del gioco (ESC > Aiuto). La mod aggiunge al salvataggio solo i propri file, quindi si può rimuovere in qualsiasi momento.
+34 impostazioni (probabilità, influenza di gestione, meteo e stoppie, prati e foraggere, evoluzione, dimensione dei focolai, danni alla coltura, durata e dosi dei trattamenti, prezzi...), supporto al multigiocatore, una guida dettagliata nell'aiuto del gioco (ESC > Aiuto). La mod aggiunge al salvataggio solo i propri file, quindi si può rimuovere in qualsiasi momento.
+
+Brevi suggerimenti in basso sullo schermo guidano i principianti passo per passo, e l'admin può disattivare le avversità di alcune colture.
 
 Idea presa dalla mod «Crop Diseases» di BMP. Modello del flacone basato su «fertilizer Bottle» di shabanimate, modello della tanica basato su «#6 Plastic Canister» di hoxsvl (entrambi CC BY 4.0, sketchfab.com).]]></it>
-        <ru><![CDATA[Field Health приносит на ваши поля болезни и вредителей культур, распространённые в Польше, – реалистично, но с оглядкой на спокойную игру.
+        <ru><![CDATA[Field Health приносит на ваши поля распространённые болезни и вредителей культур – реалистично, но с оглядкой на спокойную игру.
 
 44 угрозы привязаны к культурам, которые они действительно поражают: 24 болезни, с которыми борется фунгицид (например, мучнистая роса злаков, септориоз, бурая и жёлтая ржавчина, фузариоз, церкоспореллёз, сетчатая пятнистость, фомоз, белая гниль, фитофтороз, церкоспороз свёклы, ложная мучнистая роса лука), и 20 вредителей, с которыми борется инсектицид (например, тля, пьявица, рапсовый цветоед, стеблевые скрытнохоботники, блошки, колорадский жук, кукурузный мотылёк, луковая и морковная мухи). Каждая угроза нападает только в свои месяцы и фазы развития и опаснее всего в своё обычное время; частые угрозы появляются намного чаще редких, таких как стеблевая ржавчина или западный кукурузный жук.
 
@@ -132,10 +150,12 @@ Idea presa dalla mod «Crop Diseases» di BMP. Modello del flacone basato su «f
 
 Угрозы появляются неровными очагами, разрастаются неравномерно, уничтожают посевы только в сильной степени и изредка переходят на соприкасающееся соседнее поле. Опрыскивание уничтожает их и защищает поле до уборки. Фунгицид и инсектицид продаются в бутылках по 1 л и канистрах по 5 и 20 л. Страница карты «Защита растений» (пять слоёв) и мини-карта (LAlt + \) показывают защиту, болезни и вредителей на ваших полях; панель сведений о поле – угрозы, риск и его причину.
 
-33 настройки (вероятности, влияние агротехники, погоды и стерни, луга и кормовые культуры, развитие, размер очагов, ущерб посевам, срок защиты и нормы расхода, цены...), сетевая игра, подробное руководство во встроенной помощи (ESC > Помощь). Мод добавляет в сохранение только собственные файлы, поэтому его можно удалить в любой момент.
+34 настройки (вероятности, влияние агротехники, погоды и стерни, луга и кормовые культуры, развитие, размер очагов, ущерб посевам, срок защиты и нормы расхода, цены...), сетевая игра, подробное руководство во встроенной помощи (ESC > Помощь). Мод добавляет в сохранение только собственные файлы, поэтому его можно удалить в любой момент.
+
+Короткие подсказки внизу экрана шаг за шагом помогают новичкам, а админ может отключить угрозы для отдельных культур.
 
 Идея взята из мода «Crop Diseases» от BMP. Модель бутылки основана на «fertilizer Bottle» от shabanimate, модель канистры – на «#6 Plastic Canister» от hoxsvl (обе CC BY 4.0, sketchfab.com).]]></ru>
-        <cz><![CDATA[Field Health přináší na tvá pole choroby a škůdce plodin běžné v Polsku – realisticky, ale přátelsky k pohodovému hraní.
+        <cz><![CDATA[Field Health přináší na tvá pole běžné choroby a škůdce plodin – realisticky, ale přátelsky k pohodovému hraní.
 
 44 hrozeb je vázáno na plodiny, které opravdu napadají – 24 chorob, proti kterým působí fungicid (např. padlí obilnin, septorióza, rez pšeničná a plevová, fuzarióza, stéblolam, hnědá skvrnitost ječmene, fomová hniloba, hlízenka, plíseň bramborová, cerkosporióza řepy, plíseň cibule) a 20 škůdců, proti kterým působí insekticid (např. mšice, kohoutci, blýskáček řepkový, krytonosci, dřepčíci, mandelinka bramborová, zavíječ kukuřičný, květilka cibulová, pochmurnatka mrkvová). Každá hrozba útočí jen ve svých měsících a růstových fázích a nejnebezpečnější je ve své typické době; běžné hrozby se objevují mnohem častěji než vzácné, jako rez travní nebo bázlivec kukuřičný.
 
@@ -143,10 +163,12 @@ I dobře vedené pole může onemocnět (výchozí 15 % choroby a 10 % škůdci 
 
 Napadení se objevuje v nepravidelných ohniscích, roste nerovnoměrně, porost ničí až v silném stupni a jen zřídka se přenese na sousední pole, které se dotýká. Postřik ho odstraní a chrání pole až do sklizně. Fungicid a insekticid se prodávají v lahvích 1 l a v kanystrech 5 l a 20 l. Stránka mapy „Ochrana rostlin“ (pět vrstev) a minimapa (LAlt + \) ukazují ochranu, choroby a škůdce na tvých polích; panel informací o poli ukazuje napadení, riziko a jeho příčinu.
 
-33 nastavení (šance, vliv agrotechniky, počasí a strniště, louky a pícniny, průběh, velikost ohnisek, škody na porostu, délka ochrany a dávky postřiku, ceny...), hra více hráčů, podrobný návod v nápovědě hry (ESC > Nápověda). Mod do uložené hry přidává jen vlastní soubory, takže ho lze kdykoli odebrat.
+34 nastavení (šance, vliv agrotechniky, počasí a strniště, louky a pícniny, průběh, velikost ohnisek, škody na porostu, délka ochrany a dávky postřiku, ceny...), hra více hráčů, podrobný návod v nápovědě hry (ESC > Nápověda). Mod do uložené hry přidává jen vlastní soubory, takže ho lze kdykoli odebrat.
+
+Krátké tipy dole na obrazovce provedou začátečníky krok za krokem a admin může vypnout napadení vybraných plodin.
 
 Nápad převzat z modu „Crop Diseases“ od BMP. Model láhve vychází z „fertilizer Bottle“ od shabanimate, model kanystru z „#6 Plastic Canister“ od hoxsvl (oba CC BY 4.0, sketchfab.com).]]></cz>
-        <ro><![CDATA[Field Health aduce pe parcelele tale bolile și dăunătorii culturilor obișnuiți în Polonia – realist, dar prietenos cu jocul relaxat.
+        <ro><![CDATA[Field Health aduce pe parcelele tale bolile și dăunătorii obișnuiți ai culturilor – realist, dar prietenos cu jocul relaxat.
 
 44 de amenințări legate de culturile pe care le atacă cu adevărat – 24 de boli combătute cu fungicid (de ex. făinarea cerealelor, septorioza, rugina brună și galbenă, fuzarioza, frângerea paiului, pătarea în rețea, phoma, putregaiul alb, mana cartofului, cercosporioza sfeclei, mana cepei) și 20 de dăunători combătuți cu insecticid (de ex. afide, gândacul bălos, gândacul lucios al rapiței, gărgărițele tulpinilor, puricii de pământ, gândacul din Colorado, sfredelitorul porumbului, musca cepei, musca morcovului). Fiecare atacă doar în lunile și fazele sale de vegetație și este cea mai periculoasă în perioada sa tipică; amenințările frecvente apar mult mai des decât cele rare, ca rugina neagră sau viermele vestic al rădăcinilor de porumb.
 
@@ -154,10 +176,12 @@ Chiar și o parcelă bine lucrată se poate îmbolnăvi (implicit 15% boli și 1
 
 Amenințările apar în focare neregulate, cresc inegal, distrug cultura doar în stadiul grav și rareori trec pe o parcelă vecină lipită de a ta. Stropirea le elimină și protejează parcela până la recoltare. Fungicidul și insecticidul se vând în sticle de 1 l și canistre de 5 l și 20 l. Pagina hărții „Protecția plantelor” (cinci straturi) și miniharta (LAlt + \) arată protecția, bolile și dăunătorii de pe parcelele tale; panoul de informații al parcelei arată amenințările, riscul și cauza lui.
 
-33 de setări (șanse, influența tehnologiei, a vremii și a miriștii, pajiști și furaje, evoluție, mărimea focarelor, pagube la cultură, durata și dozele stropirii, prețuri...), multiplayer, un ghid detaliat în ajutorul din joc (ESC > Ajutor). Modul adaugă în jocul salvat doar fișierele lui, așa că poate fi eliminat oricând.
+34 de setări (șanse, influența tehnologiei, a vremii și a miriștii, pajiști și furaje, evoluție, mărimea focarelor, pagube la cultură, durata și dozele stropirii, prețuri...), multiplayer, un ghid detaliat în ajutorul din joc (ESC > Ajutor). Modul adaugă în jocul salvat doar fișierele lui, așa că poate fi eliminat oricând.
+
+Sfaturi scurte în partea de jos a ecranului îi ghidează pas cu pas pe începători, iar adminul poate opri amenințările unor culturi.
 
 Ideea preluată din modul „Crop Diseases” de BMP. Modelul sticlei are la bază „fertilizer Bottle” de shabanimate, modelul canistrei „#6 Plastic Canister” de hoxsvl (ambele CC BY 4.0, sketchfab.com).]]></ro>
-        <hu><![CDATA[A Field Health a Lengyelországban gyakori növénybetegségeket és kártevőket hozza el a tábláidra – valósághűen, de a nyugodt játékot sem feledve.
+        <hu><![CDATA[A Field Health a gyakori növénybetegségeket és kártevőket hozza el a tábláidra – valósághűen, de a nyugodt játékot sem feledve.
 
 44 károsító kötődik azokhoz a kultúrákhoz, amelyeket valóban megtámad – 24 betegség, amely ellen gombaölő szer kell (pl. gabona-lisztharmat, szeptória, barna és sárga rozsda, fuzáriózis, szemfoltosság, hálózatos levélfoltosság, fómás szárrák, fehérpenészes rothadás, burgonyavész, a répa cerkospórás levélfoltossága, hagymaperonoszpóra), és 20 kártevő, amely ellen rovarölő szer kell (pl. levéltetvek, vetésfehérítők, repcefénybogár, repceormányosok, földibolhák, burgonyabogár, kukoricamoly, hagymalégy, sárgarépalégy). Mindegyik csak a saját hónapjaiban és fejlődési szakaszaiban támad, és a rá jellemző időben a legveszélyesebb; a gyakori károsítók sokkal többször jelennek meg, mint a ritkák, például a szárrozsda vagy az amerikai kukoricabogár.
 
@@ -165,10 +189,12 @@ Még a jól művelt tábla is megfertőződhet (alapértelmezés szerint szezono
 
 A károsítók szabálytalan gócokban jelennek meg, egyenetlenül terjednek, csak súlyos fokozatban pusztítják az állományt, és ritkán átterjednek egy érintkező szomszéd táblára. A permetezés megszünteti őket, és betakarításig védi a táblát. A gombaölő és a rovarölő szer 1 literes flakonban, valamint 5 és 20 literes kannában kapható. A „Növényvédelem” térképoldal (öt réteg) és a minitérkép (LAlt + \) mutatja a tábláid védelmét, betegségeit és kártevőit; a tábla információs panelje a károsítókat, a kockázatot és annak okát.
 
-33 beállítás (esélyek, a gazdálkodás, az időjárás és a tarló hatása, rétek és takarmánynövények, lefolyás, gócméret, kár az állományban, a védelem időtartama és a dózisok, árak...), többjátékos támogatás, részletes útmutató a játék súgójában (ESC > Súgó). A mod csak saját fájlokat tesz a mentésbe, ezért bármikor eltávolítható.
+34 beállítás (esélyek, a gazdálkodás, az időjárás és a tarló hatása, rétek és takarmánynövények, lefolyás, gócméret, kár az állományban, a védelem időtartama és a dózisok, árak...), többjátékos támogatás, részletes útmutató a játék súgójában (ESC > Súgó). A mod csak saját fájlokat tesz a mentésbe, ezért bármikor eltávolítható.
+
+A képernyő alján megjelenő rövid tippek lépésről lépésre segítik a kezdőket, az admin pedig egyes növények károsítóit kikapcsolhatja.
 
 Az ötlet a BMP „Crop Diseases” nevű modjából származik. A flakon modellje shabanimate „fertilizer Bottle” modelljén, a kannáé hoxsvl „#6 Plastic Canister” modelljén alapul (mindkettő CC BY 4.0, sketchfab.com).]]></hu>
-        <uk><![CDATA[Field Health додає на ваші поля хвороби та шкідників посівів, поширені в Польщі, – реалістично, але дружньо до спокійної гри.
+        <uk><![CDATA[Field Health додає на ваші поля поширені хвороби та шкідників посівів – реалістично, але дружньо до спокійної гри.
 
 44 загрози прив’язані до культур, які вони справді атакують, – 24 хвороби, з якими бореться фунгіцид (напр. борошниста роса зернових, септоріоз, бура та жовта іржа, фузаріоз, церкоспорельоз, сітчаста плямистість ячменю, фомоз, біла гниль, фітофтороз, церкоспороз буряку, несправжня борошниста роса цибулі), і 20 шкідників, з якими бореться інсектицид (напр. попелиці, п’явиці, ріпаковий квіткоїд, стеблові прихованохоботники, земляні блішки, колорадський жук, кукурудзяний метелик, цибулева муха, морквяна муха). Кожна атакує лише у свої місяці та стадії розвитку і найнебезпечніша у свій типовий час; поширені загрози з’являються набагато частіше за рідкісні, як-от стеблова іржа чи західний кукурудзяний жук.
 
@@ -176,10 +202,12 @@ Az ötlet a BMP „Crop Diseases” nevű modjából származik. A flakon modell
 
 Загрози з’являються нерівними осередками, ростуть нерівномірно, нищать посіви лише в сильній стадії й зрідка переходять на суміжне сусіднє поле. Обприскування прибирає їх і захищає поле до збирання. Фунгіцид та інсектицид продаються в пляшках 1 л і каністрах 5 л та 20 л. Сторінка мапи «Захист рослин» (п’ять шарів) і мінімапа (LAlt + \) показують захист, хвороби та шкідників на ваших полях, а панель інформації про поле – загрози, ризик і його причину.
 
-33 налаштування (шанси, вплив догляду, погоди й стерні, луки та кормові культури, темп розвитку, розмір осередків, пошкодження посівів, тривалість захисту й норми, ціни...), підтримка мережевої гри, докладний посібник у довідці гри (ESC > Довідка). Мод додає до збереження лише власні файли, тож його можна будь-коли видалити.
+34 налаштування (шанси, вплив догляду, погоди й стерні, луки та кормові культури, темп розвитку, розмір осередків, пошкодження посівів, тривалість захисту й норми, ціни...), підтримка мережевої гри, докладний посібник у довідці гри (ESC > Довідка). Мод додає до збереження лише власні файли, тож його можна будь-коли видалити.
+
+Короткі підказки внизу екрана крок за кроком допомагають новачкам, а адмін може вимкнути загрози для окремих культур.
 
 Ідея натхненна модом «Crop Diseases» від BMP. Модель пляшки створено на основі «fertilizer Bottle» від shabanimate, модель каністри – на основі «#6 Plastic Canister» від hoxsvl (обидві CC BY 4.0, sketchfab.com).]]></uk>
-        <tr><![CDATA[Field Health, Polonya'da yaygın olan ürün hastalıklarını ve zararlılarını tarlalarına getirir – gerçekçi ama rahat oyuna uygun şekilde.
+        <tr><![CDATA[Field Health, yaygın ürün hastalıklarını ve zararlılarını tarlalarına getirir – gerçekçi ama rahat oyuna uygun şekilde.
 
 44 tehdit, gerçekten saldırdıkları ürünlere bağlıdır – fungisitle mücadele edilen 24 hastalık (örneğin tahıl küllemesi, septorya, kahverengi ve sarı pas, fusaryum, göz lekesi, arpa ağ benek hastalığı, Phoma, sklerotinya, patates mildiyösü, serkospora yaprak lekesi, soğanda yalancı külleme) ve insektisitle mücadele edilen 20 zararlı (örneğin yaprak bitleri, tahıl yaprak böcekleri, kolza çiçek böcekleri, gövde hortumluları, pire böcekleri, patates böcekleri, mısır kurdu, soğan sineği, havuç sineği). Her biri yalnızca kendi aylarında ve gelişme evrelerinde saldırır ve kendine özgü zamanında en tehlikelidir; yaygın tehditler, kara pas veya mısır kök kurdu gibi nadir olanlardan çok daha sık çıkar.
 
@@ -187,10 +215,12 @@ Az ötlet a BMP „Crop Diseases” nevű modjából származik. A flakon modell
 
 Tehditler düzensiz odaklarda çıkar, eşit olmayan şekilde büyür, ürünü yalnızca şiddetli aşamada yok eder ve nadiren bitişik bir komşu tarlaya geçer. İlaçlama onları yok eder ve tarlayı hasada kadar korur. Fungisit ve insektisit 1 l şişelerde ve 5 l ile 20 l bidonlarda satılır. “Bitki koruma” harita sayfası (beş katman) ve mini harita (LAlt + \) tarlalarının korumasını, hastalıklarını ve zararlılarını gösterir; tarla bilgisi paneli ise tehditleri, riski ve nedenini gösterir.
 
-33 ayar (şanslar, bakımın, havanın ve anızın etkisi, çayırlar ve yem bitkileri, ilerleme, odak boyutu, ürün hasarı, ilaçlama süresi ve dozları, fiyatlar...), çok oyunculu destek, oyun içi yardımda ayrıntılı bir rehber (ESC > Yardım). Mod kayda yalnızca kendi dosyalarını ekler, bu yüzden istediğin zaman kaldırılabilir.
+34 ayar (şanslar, bakımın, havanın ve anızın etkisi, çayırlar ve yem bitkileri, ilerleme, odak boyutu, ürün hasarı, ilaçlama süresi ve dozları, fiyatlar...), çok oyunculu destek, oyun içi yardımda ayrıntılı bir rehber (ESC > Yardım). Mod kayda yalnızca kendi dosyalarını ekler, bu yüzden istediğin zaman kaldırılabilir.
+
+Ekranın altındaki kısa ipuçları yeni başlayanlara adım adım yol gösterir, yönetici de bazı ürünlerin tehditlerini kapatabilir.
 
 Fikir, BMP'nin “Crop Diseases” modundan esinlenmiştir. Şişe modeli shabanimate'in “fertilizer Bottle” modeline, bidon modeli hoxsvl'nin “#6 Plastic Canister” modeline dayanır (ikisi de CC BY 4.0, sketchfab.com).]]></tr>
-        <nl><![CDATA[Field Health brengt gewasziekten en plagen die in Polen veel voorkomen naar je velden – realistisch, maar vriendelijk voor ontspannen spelen.
+        <nl><![CDATA[Field Health brengt veelvoorkomende gewasziekten en plagen naar je velden – realistisch, maar vriendelijk voor ontspannen spelen.
 
 44 bedreigingen zijn gekoppeld aan de gewassen die ze echt aanvallen – 24 ziekten die je met fungicide bestrijdt (bijv. meeldauw in granen, septoria, bruine en gele roest, fusarium, oogvlekkenziekte, netvlekkenziekte, Phoma, Sclerotinia, Phytophthora, Cercospora-bladvlekkenziekte, valse meeldauw in uien) en 20 plagen die je met insecticide bestrijdt (bijv. bladluizen, graanhaantjes, glanskevers, stengelsnuitkevers, aardvlooien, coloradokevers, maïsstengelboorder, uienvlieg, wortelvlieg). Elke bedreiging valt alleen aan in haar maanden en groeistadia en is het gevaarlijkst in haar typische tijd; veelvoorkomende bedreigingen verschijnen veel vaker dan zeldzame, zoals zwarte roest of de maïswortelkever.
 
@@ -198,10 +228,12 @@ Zelfs een goed bewerkt veld kan een bedreiging krijgen (standaard 15% voor ziekt
 
 Bedreigingen verschijnen in onregelmatige haarden, groeien ongelijkmatig, vernietigen gewas pas in het ernstige stadium en slaan soms over naar een aangrenzend veld. Spuiten verwijdert ze en beschermt het veld tot de oogst. Fungicide en insecticide worden verkocht in flessen van 1 l en jerrycans van 5 l en 20 l. De kaartpagina “Gewasbescherming” (vijf lagen) en de minikaart (LAlt + \) tonen de bescherming, ziekten en plagen van je velden; het veldinfovenster toont bedreigingen, het risico en de oorzaak.
 
-33 instellingen (kansen, invloed van de bewerking, het weer en stoppel, weiden en voedergewassen, verloop, grootte van de haarden, gewasschade, duur en dosering van de bespuiting, prijzen...), ondersteuning voor multiplayer, een uitgebreide gids in de help van het spel (ESC > Help). De mod voegt alleen eigen bestanden aan de savegame toe, dus je kunt hem altijd verwijderen.
+34 instellingen (kansen, invloed van de bewerking, het weer en stoppel, weiden en voedergewassen, verloop, grootte van de haarden, gewasschade, duur en dosering van de bespuiting, prijzen...), ondersteuning voor multiplayer, een uitgebreide gids in de help van het spel (ESC > Help). De mod voegt alleen eigen bestanden aan de savegame toe, dus je kunt hem altijd verwijderen.
+
+Korte tips onder in beeld helpen beginners stap voor stap op weg, en de admin kan bedreigingen voor bepaalde gewassen uitzetten.
 
 Idee geïnspireerd door de mod “Crop Diseases” van BMP. Model van de fles gebaseerd op “fertilizer Bottle” van shabanimate, model van de jerrycan op “#6 Plastic Canister” van hoxsvl (beide CC BY 4.0, sketchfab.com).]]></nl>
-        <da><![CDATA[Field Health bringer plantesygdomme og skadedyr, der er almindelige i Polen, ud på dine marker – realistisk, men venligt over for afslappet spil.
+        <da><![CDATA[Field Health bringer almindelige plantesygdomme og skadedyr ud på dine marker – realistisk, men venligt over for afslappet spil.
 
 44 trusler er knyttet til de afgrøder, de virkelig angriber – 24 sygdomme, der bekæmpes med svampemiddel (f.eks. meldug i korn, septoria, brun- og gulrust, fusarium, knækkefodsyge, bygbladplet, rodhalsråd, knoldbægersvamp, kartoffelskimmel, Cercospora-bladplet, falsk meldug i løg), og 20 skadedyr, der bekæmpes med insektmiddel (f.eks. bladlus, kornbladbiller, glimmerbøsser, stængelsnudebiller, jordlopper, coloradobiller, majsborer, løgflue, gulerodsflue). Hver af dem angriber kun i sine måneder og vækststadier og er farligst på sin typiske tid; almindelige trusler viser sig meget oftere end sjældne som sortrust eller majsrodbille.
 
@@ -209,10 +241,12 @@ Selv en veldyrket mark kan få en trussel (som standard 15 % for sygdomme og 10 
 
 Truslerne viser sig i uregelmæssige pletter, vokser ujævnt, ødelægger først afgrøden i det alvorlige stadie og kan i sjældne tilfælde flytte over på en tilstødende nabomark. Sprøjtning fjerner dem og beskytter marken indtil høst. Svampemiddel og insektmiddel sælges i flasker på 1 l og dunke på 5 l og 20 l. Kortsiden “Plantebeskyttelse” (fem lag) og minikortet (LAlt + \) viser dine markers beskyttelse, sygdomme og skadedyr; markinfoboksen viser trusler, risiko og årsagen til den.
 
-33 indstillinger (chancer, dyrkningens, vejrets og stubbens indflydelse, enge og foderafgrøder, udvikling, pletternes størrelse, skade på afgrøden, sprøjtebeskyttelsens varighed og doser, priser...), understøttelse af multiplayer og en detaljeret vejledning i spillets hjælp (ESC > Hjælp). Modden tilføjer kun sine egne filer til det gemte spil, så den kan fjernes når som helst.
+34 indstillinger (chancer, dyrkningens, vejrets og stubbens indflydelse, enge og foderafgrøder, udvikling, pletternes størrelse, skade på afgrøden, sprøjtebeskyttelsens varighed og doser, priser...), understøttelse af multiplayer og en detaljeret vejledning i spillets hjælp (ESC > Hjælp). Modden tilføjer kun sine egne filer til det gemte spil, så den kan fjernes når som helst.
+
+Korte tips nederst på skærmen guider begyndere trin for trin, og admin kan slå trusler fra for udvalgte afgrøder.
 
 Ideen er inspireret af modden “Crop Diseases” af BMP. Flaskemodellen er baseret på “fertilizer Bottle” af shabanimate, dunkmodellen på “#6 Plastic Canister” af hoxsvl (begge CC BY 4.0, sketchfab.com).]]></da>
-        <sv><![CDATA[Field Health tar med växtsjukdomar och skadedjur som är vanliga i Polen ut på dina fält – realistiskt, men vänligt för avslappnat spelande.
+        <sv><![CDATA[Field Health tar med vanliga växtsjukdomar och skadedjur ut på dina fält – realistiskt, men vänligt för avslappnat spelande.
 
 44 hot är knutna till de grödor de verkligen angriper – 24 sjukdomar som bekämpas med svampmedel (t.ex. mjöldagg i stråsäd, svartpricksjuka, brunrost och gulrost, fusarium, stråknäckare, kornets bladfläcksjuka, torrröta, bomullsmögel, potatisbladmögel, Cercospora-bladfläck, falsk mjöldagg på lök) och 20 skadedjur som bekämpas med insektsmedel (t.ex. bladlöss, sädesbladbaggar, rapsbaggar, stjälkvivlar, jordloppor, koloradoskalbaggar, majsmott, lökfluga, morotsfluga). Varje hot angriper bara under sina månader och utvecklingsstadier och är farligast vid sin typiska tid; vanliga hot dyker upp mycket oftare än sällsynta som svartrost eller majsrotbagge.
 
@@ -220,10 +254,12 @@ Ideen er inspireret af modden “Crop Diseases” af BMP. Flaskemodellen er base
 
 Hoten dyker upp i oregelbundna härdar, växer ojämnt, förstör grödan först i det svåra stadiet och kan i sällsynta fall flytta över till ett angränsande grannfält. Besprutning tar bort dem och skyddar fältet fram till skörd. Svampmedel och insektsmedel säljs i flaskor på 1 l och dunkar på 5 l och 20 l. Kartsidan ”Växtskydd” (fem lager) och minikartan (LAlt + \) visar dina fälts skydd, sjukdomar och skadedjur; fältinforutan visar hot, risk och dess orsak.
 
-33 inställningar (chanser, inverkan av skötsel, väder och stubb, ängar och fodergrödor, utveckling, härdarnas storlek, skador på grödan, skyddets längd och doser, priser...), stöd för flerspelarläge och en utförlig guide i spelets hjälp (ESC > Hjälp). Modden lägger bara till sina egna filer i sparfilen, så den kan tas bort när som helst.
+34 inställningar (chanser, inverkan av skötsel, väder och stubb, ängar och fodergrödor, utveckling, härdarnas storlek, skador på grödan, skyddets längd och doser, priser...), stöd för flerspelarläge och en utförlig guide i spelets hjälp (ESC > Hjälp). Modden lägger bara till sina egna filer i sparfilen, så den kan tas bort när som helst.
+
+Korta tips längst ned på skärmen guidar nybörjare steg för steg, och admin kan stänga av hot för valda grödor.
 
 Idén är inspirerad av modden ”Crop Diseases” av BMP. Flaskmodellen bygger på ”fertilizer Bottle” av shabanimate, dunkmodellen på ”#6 Plastic Canister” av hoxsvl (båda CC BY 4.0, sketchfab.com).]]></sv>
-        <no><![CDATA[Field Health tar plantesykdommer og skadedyr som er vanlige i Polen, ut på åkrene dine – realistisk, men vennlig for avslappet spilling.
+        <no><![CDATA[Field Health tar vanlige plantesykdommer og skadedyr ut på åkrene dine – realistisk, men vennlig for avslappet spilling.
 
 44 trusler er knyttet til vekstene de virkelig angriper – 24 sykdommer som bekjempes med soppmiddel (f.eks. mjøldogg i korn, hvetebladprikk, brunrust og gulrust, fusarium, knekkefotsyke, byggbrunflekk, Phoma, storknolla, tørråte, Cercospora-bladflekk, falsk mjøldogg på løk) og 20 skadedyr som bekjempes med insektmiddel (f.eks. bladlus, kornbladbiller, rapsglansbiller, stengelsnutebiller, jordlopper, coloradobiller, maismott, løkflue, gulrotflue). Hver av dem angriper bare i sine måneder og utviklingsstadier og er farligst på sin typiske tid; vanlige trusler dukker opp mye oftere enn sjeldne som svartrust eller maisrotbille.
 
@@ -231,10 +267,12 @@ Selv en godt stelt åker kan få en trussel (som standard 15 % for sykdommer og 
 
 Truslene dukker opp i uregelmessige flekker, vokser ujevnt, ødelegger avlingen først i det alvorlige stadiet og kan i sjeldne tilfeller flytte over til en tilgrensende naboåker. Sprøyting fjerner dem og verner åkeren fram til innhøsting. Soppmiddel og insektmiddel selges i flasker på 1 l og kanner på 5 l og 20 l. Kartsiden «Plantevern» (fem lag) og minikartet (LAlt + \) viser vern, sykdommer og skadedyr på åkrene dine; åkerinfoboksen viser trusler, risiko og årsaken til den.
 
-33 innstillinger (sjanser, innvirkning fra stell, vær og stubb, eng og fôrvekster, utvikling, flekkenes størrelse, skade på avlingen, vernets varighet og doser, priser...), støtte for flerspiller og en detaljert veiledning i spillets hjelp (ESC > Hjelp). Modden legger bare til egne filer i lagringen, så den kan fjernes når som helst.
+34 innstillinger (sjanser, innvirkning fra stell, vær og stubb, eng og fôrvekster, utvikling, flekkenes størrelse, skade på avlingen, vernets varighet og doser, priser...), støtte for flerspiller og en detaljert veiledning i spillets hjelp (ESC > Hjelp). Modden legger bare til egne filer i lagringen, så den kan fjernes når som helst.
+
+Korte tips nederst på skjermen viser nybegynnere vei steg for steg, og admin kan slå av trusler for utvalgte vekster.
 
 Ideen er inspirert av modden «Crop Diseases» av BMP. Flaskemodellen bygger på «fertilizer Bottle» av shabanimate, kannemodellen på «#6 Plastic Canister» av hoxsvl (begge CC BY 4.0, sketchfab.com).]]></no>
-        <fi><![CDATA[Field Health tuo pelloillesi Puolassa yleiset kasvitaudit ja tuholaiset – realistisesti, mutta rennolle pelaamiselle sopivasti.
+        <fi><![CDATA[Field Health tuo pelloillesi yleiset kasvitaudit ja tuholaiset – realistisesti, mutta rennolle pelaamiselle sopivasti.
 
 44 uhkaa on sidottu kasveihin, joihin ne todella hyökkäävät – 24 tautia, joita torjutaan fungisidilla (esim. viljojen härmä, vehnän lehtilaikku, ruskea- ja keltaruoste, fusarioosi, tyvilaikku, ohran verkkolaikku, Phoma, pahkahome, perunarutto, Cercospora-lehtilaikku, sipulin lehtihome), ja 20 tuholaista, joita torjutaan insektisidillä (esim. kirvat, viljanlehtikuoriaiset, rapsikuoriaiset, varsikärsäkkäät, kirpat, koloradonkuoriaiset, maissikoisa, sipulikärpänen, porkkanakärpänen). Jokainen hyökkää vain omina kuukausinaan ja kasvuvaiheissaan ja on vaarallisimmillaan tyypilliseen aikaansa; yleiset uhat ilmaantuvat paljon useammin kuin harvinaiset, kuten mustaruoste tai maissinjuurikuoriainen.
 
@@ -242,7 +280,9 @@ Hyvinkin hoidettu pelto voi saada uhan (oletuksena 15 % taudeille ja 10 % tuhola
 
 Uhat ilmaantuvat epäsäännöllisinä pesäkkeinä, kasvavat epätasaisesti, tuhoavat kasvustoa vasta vakavassa asteessa ja voivat harvoin siirtyä viereiselle naapuripellolle. Ruiskutus poistaa ne ja suojaa peltoa korjuuseen asti. Fungisidia ja insektisidiä myydään 1 l:n pulloissa sekä 5 l:n ja 20 l:n kanistereissa. Karttasivu ”Kasvinsuojelu” (viisi tasoa) ja minikartta (LAlt + \) näyttävät peltojesi suojauksen, taudit ja tuholaiset; peltotietoruutu näyttää uhat, riskin ja sen syyn.
 
-33 asetusta (todennäköisyydet, hoidon, sään ja sängen vaikutus, niityt ja rehukasvit, eteneminen, pesäkkeiden koko, kasvustovahingot, suojan kesto ja annokset, hinnat...), moninpelituki ja yksityiskohtainen opas pelin ohjeissa (ESC > Ohje). Modi lisää tallennukseen vain omia tiedostojaan, joten sen voi poistaa milloin tahansa.
+34 asetusta (todennäköisyydet, hoidon, sään ja sängen vaikutus, niityt ja rehukasvit, eteneminen, pesäkkeiden koko, kasvustovahingot, suojan kesto ja annokset, hinnat...), moninpelituki ja yksityiskohtainen opas pelin ohjeissa (ESC > Ohje). Modi lisää tallennukseen vain omia tiedostojaan, joten sen voi poistaa milloin tahansa.
+
+Lyhyet vinkit näytön alareunassa opastavat aloittelijoita askel askeleelta, ja ylläpitäjä voi poistaa uhat käytöstä valituilta kasveilta.
 
 Idea on saanut innoituksensa BMP:n modista ”Crop Diseases”. Pullon malli perustuu shabanimaten malliin ”fertilizer Bottle”, kanisterin malli hoxsvl:n malliin ”#6 Plastic Canister” (molemmat CC BY 4.0, sketchfab.com).]]></fi>
     </description>
@@ -293,6 +333,7 @@ Idea on saanut innoituksensa BMP:n modista ”Crop Diseases”. Pullon malli per
         <sourceFile filename="scripts/gui/FHMapPage.lua"/>
         <sourceFile filename="scripts/gui/FHFarmlandInfo.lua"/>
         <sourceFile filename="scripts/gui/FHMiniMap.lua"/>
+        <sourceFile filename="scripts/gui/FHTips.lua"/>
         <sourceFile filename="scripts/gui/FHSettingsPage.lua"/>
         <sourceFile filename="scripts/gui/FHHelp.lua"/>
         <sourceFile filename="scripts/FHHooks.lua"/>
@@ -530,7 +571,7 @@ Idea on saanut innoituksensa BMP:n modista ”Crop Diseases”. Pullon malli per
                     <text text="$l10n_fh_help_settings_01" />
                 </paragraph>
                 <paragraph>
-                    <image filename="help/fieldHealthHelp_settings_pl.png" uvs="0px 0px 2048px 3876px" size="2048 4096" aspectRatio="1.89258" />
+                    <image filename="help/fieldHealthHelp_settings_pl.png" uvs="0px 0px 2048px 4034px" size="2048 4096" aspectRatio="1.96973" />
                 </paragraph>
             </page>
             <page title="$l10n_fh_help_tips" iconSliceId="fieldHealthHelp.tips">

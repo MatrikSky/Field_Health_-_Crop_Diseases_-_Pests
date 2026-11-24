@@ -2,7 +2,7 @@
 -- in a fixed order and forwards the frame updates.
 FieldHealth = {}
 
-FieldHealth.VERSION = "1.4.1.0"
+FieldHealth.VERSION = "1.5.0.0"
 -- other mods that do the same job and would spray, colour and save twice
 FieldHealth.OVERLAPPING_MODS = {"FS25_CropDiseases_BMP", "FS25_CropDiseases"}
 
@@ -30,6 +30,7 @@ function FieldHealth:loadMap()
     end
 
     FHUtil.protect("minimap", FHMiniMap.load, FHMiniMap)
+    FHUtil.protect("tips", FHTips.load, FHTips)
     FHUtil.protect("console", FHConsole.register, FHConsole)
     FHUtil.protect("settings page", FHSettingsPage.install, FHSettingsPage)
     self.gameStartPending = true
@@ -82,6 +83,7 @@ end
 function FieldHealth:deleteMap()
     FHUtil.protect("console", FHConsole.unregister, FHConsole)
     FHUtil.protect("minimap", FHMiniMap.unload, FHMiniMap)
+    FHUtil.protect("tips", FHTips.unload, FHTips)
     FHUtil.protect("map page", FHMapPage.unload)
     FieldHealth.stop()
     FHUtil.resetFieldCache()
@@ -102,11 +104,13 @@ function FieldHealth:update(dt)
     FHUtil.protect("network", FHNetwork.update, FHNetwork, dt)
     FHUtil.protect("display map", FHDisplayMap.update, FHDisplayMap, dt)
     FHUtil.protect("minimap", FHMiniMap.update, FHMiniMap, dt)
+    FHUtil.protect("tips", FHTips.update, FHTips, dt)
 end
 
 function FieldHealth:draw()
     if not self.failed then
         FHUtil.protect("debug view", FHFieldMap.drawDebug, FHFieldMap)
+        FHUtil.protect("tips", FHTips.draw, FHTips)
     end
 end
 

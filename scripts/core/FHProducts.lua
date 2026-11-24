@@ -81,6 +81,29 @@ function FHProducts:getVehicleCategory(vehicle)
     return fillUnitIndex ~= nil and self:getCategory(vehicle:getFillUnitFillType(fillUnitIndex)) or nil
 end
 
+-- Sprayer with one of the liquids in the vehicle combination the local
+-- player sits in (also a self-propelled sprayer). Returns the sprayer (a
+-- turned on one first), whether it is turned on and the player's vehicle.
+function FHProducts:getLocalSprayer()
+    local player = g_localPlayer
+    local vehicle = player ~= nil and player.getCurrentVehicle ~= nil and player:getCurrentVehicle() or nil
+    if vehicle == nil then
+        return nil, false, nil
+    end
+    local rootVehicle = vehicle.getRootVehicle ~= nil and vehicle:getRootVehicle() or vehicle
+    local vehicles = rootVehicle.getChildVehicles ~= nil and rootVehicle:getChildVehicles() or {rootVehicle}
+    local found = nil
+    for _, child in pairs(vehicles) do
+        if self:getVehicleCategory(child) ~= nil then
+            if child.getIsTurnedOn ~= nil and child:getIsTurnedOn() then
+                return child, true, vehicle
+            end
+            found = found or child
+        end
+    end
+    return found, false, vehicle
+end
+
 -- The liquids are sprayed like herbicide (about 290 l/ha of ready mixture
 -- at 100%) but neither kill weeds nor fertilize.
 function FHProducts:registerSprayTypes()

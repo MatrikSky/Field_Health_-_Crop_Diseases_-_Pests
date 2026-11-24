@@ -204,15 +204,32 @@ function FHRisk.getFieldSnapshot(field, seasonFruitName)
     local fruitIndex = fieldState.fruitTypeIndex or FruitType.UNKNOWN
     local desc = getFruitDesc(fruitIndex)
     local stage, isActiveCrop = classifyStage(desc, fieldState.growthState or 0)
-    local labelMatches = isActiveCrop and (seasonFruitName == nil or (desc ~= nil and desc.name == seasonFruitName))
+    -- A crop without threats (grass, catch crop, a crop switched off in the
+    -- settings) must not hold a split field against a crop that can get them.
+    if seasonFruitName ~= nil and not FHThreats.canGetThreats(seasonFruitName) then
+        seasonFruitName = nil
+    end
+    local labelCanGet = desc ~= nil and FHThreats.canGetThreats(desc.name)
+    local labelMatches = isActiveCrop and labelCanGet
+        and (seasonFruitName == nil or (desc ~= nil and desc.name == seasonFruitName))
     if not labelMatches then
-        -- the field's own point is bare or has another crop than the season
+        -- the field's own point is bare, has another crop than the season or
+        -- a crop without threats
         local crops = FHRisk.surveyCrops(field)
         local chosen = nil
         for index, crop in pairs(crops) do
             if seasonFruitName ~= nil and crop.desc ~= nil and crop.desc.name == seasonFruitName then
                 chosen = index
             end
+        end
+        if chosen == nil and (not isActiveCrop or not labelCanGet) then
+            local counts = {}
+            for index, crop in pairs(crops) do
+                if crop.desc ~= nil and FHThreats.canGetThreats(crop.desc.name) then
+                    counts[index] = crop.count
+                end
+            end
+            chosen = mostCommon(counts)
         end
         if chosen == nil and not isActiveCrop then
             local counts = {}

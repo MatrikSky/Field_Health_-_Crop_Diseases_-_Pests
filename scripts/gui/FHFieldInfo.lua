@@ -86,7 +86,7 @@ function FHFieldInfo:addThreatLines(box)
         end
     end
 
-    local anyProtection = false
+    local anyProtection = entry.stageProtected == true
     for _, category in ipairs(categories) do
         anyProtection = anyProtection or FHSimulation:getProtection(entry, category) > 0
     end
@@ -97,7 +97,8 @@ function FHFieldInfo:addThreatLines(box)
     for _, category in ipairs(categories) do
         local share = FHSimulation:getProtection(entry, category)
         local text = FHUtil.text("fh_hud_none")
-        if share >= FHSettings.get("protectionThreshold") then
+        -- a crop in the protected growth stage needs no spraying
+        if entry.stageProtected or share >= FHSettings.get("protectionThreshold") then
             text = FHUtil.text("fh_hud_protected")
         elseif share > 0 then
             text = FHUtil.percent(share)

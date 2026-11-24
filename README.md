@@ -50,13 +50,14 @@
 
 Your fields finally come alive! Field Health adds crop diseases and pests to Farming Simulator 25. They show up on your fields during the season, grow, and if you don't deal with them they destroy part of the crop. The mod is realistic but forgiving: a threat never covers the whole field, the crop only gets destroyed at the worst stage, and one good spraying with each product protects the field until harvest.
 
-- 🦠 **44 real threats:** 24 diseases and 20 pests that farmers deal with across Europe,[^poland] each with its own crops, months and growth stages.
+- 🦠 **44 real threats:** 24 diseases and 20 pests that farmers deal with across Europe, each with its own crops, months and growth stages.
 - 🌦️ **Risk that depends on you:** crop rotation, plowing, liming, mulching, fertilizing, weed control and the weather of the last days all change the infection pressure.
 - 🧩 **Natural outbreaks:** irregular patches that grow, send small new patches downwind and can jump to a touching field.
-- 💧 **One spray cures it:** fungicide or insecticide removes the threat and protects the field until harvest. The AI helper only sprays where it's needed.
+- 💧 **One spray cures it:** fungicide or insecticide removes the threat and protects the field until harvest. The AI helper only sprays where it's needed, and a crop ready to harvest is protected without spraying.
 - 🧴 **Real products:** 1 l bottles and 5 l and 20 l canisters with realistic labels from two brands, Opryskex and MST.
-- 🗺️ **A clear overview:** a map page with five layers, a minimap layer, field info lines and notifications.
-- ⚙️ **33 settings:** switch the whole mod, diseases or pests off, a calm start, chances, speed, spread, damage, protection, usage and prices, all in a Field Health tab in the game menu.
+- 🗺️ **A clear overview:** a map page with five layers, a minimap layer that turns on by itself while you spray, field info lines and notifications.
+- 💡 **Tips:** short tips at the bottom of the screen explain what is special about the mod, describe each disease and pest when it first shows up on your fields and help at the right moment (a sprayer ready to go, spraying, the severe stage). Every player can turn them off or start them over.
+- ⚙️ **34 settings:** switch the whole mod, diseases or pests off, a calm start, chances, speed, spread, damage, protection, usage and prices, all in a Field Health tab in the game menu. The admin can also switch off threats for chosen crops of the map.
 - 🌍 **20 languages:** the game language is picked automatically.
 - 🔌 **Plays well with others:** Precision Farming, onions from the Highlands Fishing DLC, the Beans & Alpacas DLC, mod maps, multiplayer and safe savegames.
 
@@ -187,7 +188,7 @@ The table is for a crop with an average set of threats that grows through all of
 
 ## 🦠 Diseases & Pests
 
-There are **24 diseases**, fought with fungicide, and **20 pests**, fought with insecticide. Each threat attacks only its own crops, only in its months and growth stages, and has its own taste in weather. How common each threat is comes from data from Poland, where the mod was made:[^poland]
+There are **24 diseases**, fought with fungicide, and **20 pests**, fought with insecticide. Each threat attacks only its own crops, only in its months and growth stages, and has its own taste in weather. Some threats are common, others rare, and the scale below shows how often each kind appears:
 
 | How common | Weight when a threat is picked | What it means |
 |---|---|---|
@@ -296,7 +297,7 @@ The mod reads the stage from the crop's growth state in the game. The first 20% 
 <details>
 <summary><b>📅 Calendar: when to be careful</b></summary>
 
-The main months are the ones where the pressure on the crop is highest. Spraying shortly before them prevents most infections.
+The main months are the ones where the pressure on the crop is highest. Spraying shortly before them prevents most infections, but you don't have to: spraying after the notification is enough.
 
 | Crop | When diseases appear most | Most common diseases | When pests appear most | Most common pests |
 |---|---|---|---|---|
@@ -462,13 +463,13 @@ A new threat is one or two irregular patches with a ragged edge and some healthy
 | Moving to a neighbouring field | from the medium stage to a touching player field, if a crop the threat attacks grows there in the right time and stage and the field is not fully protected | up to 8 m from the field edge. In the severe stage a daily chance of 4% for pests and 2% for diseases, half of it in the medium stage. The setting “Spread to neighbouring fields” multiplies the chance by 0.5, 1 or 2. |
 | Notifications | about a new threat, about the severe stage and about a threat that came from a neighbouring field | they go to the players of the farm that owns the field; they can be switched off in the settings |
 
-Destroyed crop doesn't grow back and gives nothing at harvest, so spraying early or right after the notification is the cheapest way. Spraying at any stage removes the threat completely from the sprayed spots.
+Destroyed crop doesn't grow back and gives nothing at harvest, but only the severe stage destroys it, in small patches. Until then a sick crop looks normal. So you don't have to spray in advance: spraying after the notification is enough, because at the default pace the severe stage comes after about a game month or later. Spraying at any stage removes the threat completely from the sprayed spots.
 
 <p align="right"><a href="#-contents">⬆️ Back to contents</a></p>
 
 ## 💧 Spraying & Protection
 
-The products come from the (made up) Polish company **Opryskex**: the fungicide *Grzybobój 250 EC* with a green label and the insecticide *Robalex 100 CS* with a red label. When buying you can pick the **MST** brand (Mafia Solec Team) instead, with *Solectop 280 SC* and *Mafiozol 50 EW*. They work exactly the same, only the label is different.
+The products come from the (made up) company **Opryskex**: the fungicide *Grzybobój 250 EC* with a green label and the insecticide *Robalex 100 CS* with a red label. When buying you can pick the **MST** brand (Mafia Solec Team) instead, with *Solectop 280 SC* and *Mafiozol 50 EW*. They work exactly the same, only the label is different.
 
 <p align="center">
   <img src="docs/images/opryskex.jpg" alt="Opryskex products: bottles and canisters of Grzybobój and Robalex" width="49%">
@@ -519,7 +520,7 @@ While you're on a field, the field info box shows:
 
 ### Map
 
-In **ESC > Map** pick the page **Crop protection**. Right below its title there's a second selector with arrows that switches between five layers. Click a legend entry to hide it on the map. Only fields of your farm with a growing crop are shown. Click a farmland to see the threats and the protection of its fields.
+In **ESC > Map** pick the page **Crop protection**. Right below its title there's a second selector with arrows that switches between five layers. Click a legend entry to hide it on the map. Only fields of your farm with a growing crop that can get threats are shown. Meadows, grass, catch crops and crops switched off in the settings stay hidden, and on a field split into several crops only the season's crop is drawn. Click a farmland to see the threats and the protection of its fields.
 
 | Map layer | Colour and meaning | What to do |
 |---|---|---|
@@ -556,6 +557,8 @@ In **ESC > Map** pick the page **Crop protection**. Right below its title there'
 
 <kbd>Left Alt</kbd> + <kbd>&#92;</kbd> switches the minimap layer between protection, diseases, pests and no layer. You can change the keys during the game in **ESC > Settings > Controls**, look for the Field Health minimap layer. The main menu doesn't list mod keys, because mods are only loaded with the savegame.
 
+While you spray fungicide or insecticide and the minimap layer is off, the protection layer turns on by itself and goes off a few seconds after you turn the sprayer off. Press the key while spraying and your own choice stays.
+
 ### Notifications
 
 You get a notification about a new threat, about the severe stage and about a threat that came over from a neighbouring field. They go to the players of the farm that owns the field, each in their own language, and you can turn them off in the settings.
@@ -564,7 +567,7 @@ You get a notification about a new threat, about the severe stage and about a th
 
 ## 🔧 Settings
 
-You find the mod settings in **ESC > Settings**, in their own **Field Health** tab, split into sections: general, chance of threats, development of threats, spraying and protection, prices and display. The first one switches the whole mod off, and diseases and pests can be switched off separately. The settings are saved with the savegame. Every player can see them, but in multiplayer only the admin can change them (on a dedicated server, log in as admin first). Hover over an option in the game to see its description.
+You find the mod settings in **ESC > Settings**, in their own **Field Health** tab, split into sections: general, chance of threats, development of threats, spraying and protection, prices, display, crops and tips. The first one switches the whole mod off, and diseases and pests can be switched off separately. The **Crops** section switches off threats for chosen crops of the map. The settings are saved with the savegame, except the **Tips** section: it belongs to each player (on, off, how often, start over) and is kept in the player's profile. Every player can see them, but in multiplayer only the admin can change them (on a dedicated server, log in as admin first). Hover over an option in the game to see its description.
 
 | Setting | Values | Default | What it changes |
 |---|---|---|---|
@@ -591,6 +594,7 @@ You find the mod settings in **ESC > Settings**, in their own **Field Health** t
 | Insecticide rate | 25% to 200% | 100% | insecticide used per hectare; the effect stays the same |
 | AI sprays only where needed | on or off | on | whether AI helpers spray only the fields and spots that need it |
 | Spraying before sowing | on or off | off | whether spraying a bare field after the harvest protects the next crop |
+| Protection from growth stage | off, from flowering or ready to harvest | ready to harvest | from which growth stage the crop gets no new threats and its threats stop developing |
 | One spray for both | on or off | off | whether one spraying with either liquid protects against both diseases and pests |
 | Fungicide bottle price | 10 to 200 | 50 | shop price of the 1 l bottle |
 | Insecticide bottle price | 10 to 200 | 80 | shop price of the 1 l bottle |
@@ -609,10 +613,11 @@ You find the mod settings in **ESC > Settings**, in their own **Field Health** t
 **A plan for healthy fields**
 
 1. Fertilize as needed, lime, and don't sow the same crop two years in a row. Put a catch crop between main crops.
-2. Before the main months of the threats ([calendar](#-diseases--pests)) spray the field with fungicide and insecticide. Once per season is enough if you cover at least 90% of the field.
+2. You don't have to spray in advance, spraying after the notification is enough (point 4). If you prefer to be safe, spray the field with fungicide and insecticide before the main months of the threats ([calendar](#-diseases--pests)). Once per season is enough if you cover at least 90% of the field.
 3. Check the *Protection* layer on the map. Green fields are protected against both kinds of threats.
 4. After a notification, spray the named field with the named product before the threat reaches the severe stage.
 5. An AI worker with fungicide or insecticide sprays unprotected fields completely, and protected ones only where there's a threat.
+6. Lots of fields? Set *Threat limit per farm* or turn on *One spray for both*, and switch off crops that should not get threats in the *Crops* section.
 
 **Watch out**
 
@@ -787,9 +792,9 @@ No. Field Health is a separate mod, built from scratch. The concept was inspired
 </details>
 
 <details>
-<summary><b>Is the mod only for Poland?</b></summary>
+<summary><b>Does the mod fit my region?</b></summary>
 
-No. It works on any map and in 20 languages. The diseases and pests are the common ones farmers deal with across Europe and beyond: mildew, rust, septoria, fusarium, aphids, Colorado potato beetle, corn borer and more. Only how often each threat appears is based on data from Poland, and the product labels are in Polish for fun.
+Yes. It works on any map and in 20 languages. The diseases and pests are the common ones farmers deal with across Europe and beyond: mildew, rust, septoria, fusarium, aphids, Colorado potato beetle, corn borer and more.
 
 </details>
 
@@ -875,12 +880,10 @@ And thanks to everyone who plays the mod, reports bugs and shares ideas.
 
 <p align="right"><a href="#-contents">⬆️ Back to contents</a></p>
 
-[^poland]: How common each threat is follows data from Poland, where the mod was made. The threats themselves are found across Europe and in many other parts of the world.
-
 <div align="center">
 
 **Have fun and healthy fields!** 🌱
 
-<sub>Field Health 1.4.1.0 • made by MatrikSky</sub>
+<sub>Field Health 1.5.0.0 • made by MatrikSky</sub>
 
 </div>

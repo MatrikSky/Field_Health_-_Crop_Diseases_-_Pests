@@ -72,7 +72,10 @@ FHSimulation.ENTRY = {
     {name = "catchCropPending", type = "bool", default = false, save = true},
     {name = "catchCropBefore", type = "bool", default = false, save = true, net = true},
     {name = "fertilizerFlags", type = "int", default = 0, save = true, net = true},
-    {name = "activeDays", type = "int", default = 0, save = true, net = true}
+    {name = "activeDays", type = "int", default = 0, save = true, net = true},
+    -- the crop is in the protected growth stage (setting stageProtection);
+    -- worked out again on every check, so it is not saved
+    {name = "stageProtected", type = "bool", default = false, net = true}
 }
 for _, category in ipairs(FHThreats.CATEGORIES) do
     local slot = FHSimulation.SLOT[category]
@@ -212,7 +215,22 @@ function FHSimulation:checkSeason(field)
     elseif entry.cropActive then
         self:endSeason(field, entry)
     end
+    entry.stageProtected = entry.cropActive and snapshot.isActiveCrop and self:isStageProtected(snapshot.stage) or false
     return entry, snapshot
+end
+
+-- True from the growth stage chosen in the settings on.
+function FHSimulation:isStageProtected(stage)
+    local from = FHSettings.get("stageProtection")
+    if from <= 0 or stage == nil then
+        return false
+    end
+    for index, name in ipairs(FHThreats.STAGES) do
+        if name == stage then
+            return index >= from
+        end
+    end
+    return false
 end
 
 function FHSimulation:startSeason(field, entry, snapshot)
@@ -411,6 +429,12 @@ function FHSimulation:processDay(field)
             FHFieldMap:removeThreat(field, threat.id)
             self:clearThreat(entry, category)
         end
+    end
+
+    -- a crop in the protected stage gets no new threats, and threats already
+    -- there neither grow nor destroy crop
+    if entry.stageProtected then
+        return
     end
 
     for _, category in ipairs(FHThreats.CATEGORIES) do
@@ -667,7 +691,7 @@ function FHSimulation:infectNeighbour(field, threat, x, z)
     end
     local entry = self:getEntry(FHUtil.getFieldId(field))
     local slot = FHSimulation.SLOT[threat.category]
-    if entry == nil or not entry.cropActive or entry[slot.used] or self:getActiveThreat(entry, threat.category) ~= nil
+    if entry == nil or not entry.cropActive or entry.stageProtected or entry[slot.used] or self:getActiveThreat(entry, threat.category) ~= nil
         or self:getProtection(entry, threat.category) >= FHSettings.get("protectionThreshold") then
         return false
     end
@@ -741,9 +765,10 @@ end
 ---------------------------------------------------------------------------
 
 -- Cells touched at the edge of a work area count as sprayed, so treatment
--- leaves no thin stripes.
+-- leaves no thin stripes. A quarter cell is enough for that; a wider margin
+-- counted cells next to the work area that never got any liquid.
 function FHSimulation:getSprayMargin()
-    return math.max(0.75, FHFieldMap:getCellSize() * 0.75)
+    return math.max(0.75, FHFieldMap:getCellSize() * 0.25)
 end
 
 -- Every active sprayer section with insecticide or fungicide ends here.
@@ -846,7 +871,7 @@ function FHSimulation:isSprayNeeded(sx, sz, wx, wz, hx, hz, category)
         -- not looked at yet (right after loading): the game decides
         return nil
     end
-    if entry == nil or not entry.cropActive then
+    if entry == nil or not entry.cropActive or entry.stageProtected then
         return false
     end
     for _, kind in ipairs(FHSimulation.getTreatedCategories(category)) do
@@ -866,8 +891,10 @@ function FHSimulation:getFarmlandProtection(farmlandId)
             local entry = self:getEntry(FHUtil.getFieldId(field))
             if entry ~= nil and entry.cropActive then
                 found = true
-                disease = math.min(disease, entry.diseaseProtection or 0)
-                pest = math.min(pest, entry.pestProtection or 0)
+                if not entry.stageProtected then
+                    disease = math.min(disease, entry.diseaseProtection or 0)
+                    pest = math.min(pest, entry.pestProtection or 0)
+                end
             end
         end
     end
@@ -912,6 +939,9 @@ function FHSimulation:showAlert(message)
     local text = string.format(FHUtil.text(textKey), tostring(message.fieldId), FHUtil.getCropTitle(message.fruitName),
         FHUtil.text(threat.key), FHUtil.text(product))
     g_currentMission:addIngameNotification(FSBaseMission.INGAME_NOTIFICATION_CRITICAL, text)
+    if FHTips ~= nil and FHTips.onAlert ~= nil then
+        FHUtil.protect("tips", FHTips.onAlert, FHTips, message.kind, message.threatKey)
+    end
 end
 
 ---------------------------------------------------------------------------

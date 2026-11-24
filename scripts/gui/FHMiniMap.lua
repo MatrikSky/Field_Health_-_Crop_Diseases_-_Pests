@@ -1,9 +1,15 @@
 -- Field Health: layer on the HUD minimap. The key (default Left Alt + \)
--- switches between off, protection, diseases and pests.
+-- switches between off, protection, diseases and pests. While the player
+-- sprays one of the liquids and the minimap layer is off, the protection layer
+-- turns on by itself and off again after spraying; pressing the key during
+-- spraying leaves the choice to the player.
 FHMiniMap = {}
 
 FHMiniMap.ACTION = "FH_MINIMAP_LAYER"
 FHMiniMap.REFRESH_INTERVAL = 1000
+FHMiniMap.SPRAY_CHECK_INTERVAL = 500
+-- the automatic layer stays this long after the sprayer is turned off (ms)
+FHMiniMap.AUTO_HOLD = 8000
 
 FHMiniMap.overlay = FHMapLayers.newOverlay("fieldHealthMiniMap")
 FHMiniMap.layerIndex = 0
@@ -17,6 +23,10 @@ function FHMiniMap:load()
     self.needsInput = true
     self.hudHooked = false
     self.drawnAt = -1
+    self.autoShown = false
+    self.manual = false
+    self.sprayHold = 0
+    self.sprayTimer = 0
 end
 
 function FHMiniMap:unload()
@@ -28,11 +38,45 @@ function FHMiniMap:getLayer()
     return FHMapLayers.LIST[self.layerIndex]
 end
 
-function FHMiniMap:switchLayer()
-    self.layerIndex = (self.layerIndex + 1) % (FHMapLayers.MINIMAP_COUNT + 1)
+function FHMiniMap:setLayer(index)
+    self.layerIndex = index
     local layer = self:getLayer()
     if layer ~= nil then
         self.overlay:show(layer)
+    end
+end
+
+function FHMiniMap:switchLayer()
+    if self.sprayHold > 0 then
+        self.manual = true
+        self.autoShown = false
+    end
+    self:setLayer((self.layerIndex + 1) % (FHMapLayers.MINIMAP_COUNT + 1))
+end
+
+-- Protection layer while the local player sprays one of the liquids.
+function FHMiniMap:updateAutoLayer(dt)
+    self.sprayTimer = self.sprayTimer - dt
+    if self.sprayTimer > 0 then
+        return
+    end
+    local elapsed = FHMiniMap.SPRAY_CHECK_INTERVAL - self.sprayTimer
+    self.sprayTimer = FHMiniMap.SPRAY_CHECK_INTERVAL
+    local _, spraying = FHProducts:getLocalSprayer()
+    if spraying and FHSettings.isOn("enabled") then
+        self.sprayHold = FHMiniMap.AUTO_HOLD
+        if not self.manual and not self.autoShown and self.layerIndex == 0 then
+            self.autoShown = true
+            self:setLayer(1)
+        end
+    elseif self.sprayHold > 0 then
+        self.sprayHold = self.sprayHold - elapsed
+        if self.sprayHold <= 0 then
+            if self.autoShown and self.layerIndex == 1 then
+                self:setLayer(0)
+            end
+            self.autoShown, self.manual = false, false
+        end
     end
 end
 
@@ -82,6 +126,7 @@ function FHMiniMap:update(dt)
     if self.needsInput then
         self:addInput()
     end
+    self:updateAutoLayer(dt)
 
     if self.layerIndex > 0 then
         self.refreshTimer = self.refreshTimer - dt

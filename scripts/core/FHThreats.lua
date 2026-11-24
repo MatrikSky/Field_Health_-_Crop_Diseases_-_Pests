@@ -353,10 +353,16 @@ function FHThreats.detectCrops(fruitTypes)
 end
 
 -- Threats (of a category, or all) that can attack the crop at some time.
-function FHThreats.forCrop(fruitName, category)
+function FHThreats.forCrop(fruitName, category, ignoreCropSetting)
+    local mapName = fruitName
     fruitName = FHThreats.resolveCrop(fruitName)
     local result = {}
     if fruitName == nil or FHThreats.EXCLUDED[fruitName] then
+        return result
+    end
+    -- crops the admin switched off in the settings (section Crops)
+    if not ignoreCropSetting and FHSettings ~= nil and FHSettings.isCropOn ~= nil
+        and (not FHSettings.isCropOn(mapName) or not FHSettings.isCropOn(fruitName)) then
         return result
     end
     if FHThreats.FODDER[fruitName] and FHSettings ~= nil and not FHSettings.isOn("fodderCrops") then
@@ -378,6 +384,32 @@ function FHThreats.forCrop(fruitName, category)
         end
     end
     return result
+end
+
+-- True when the crop can get any threat (with the current settings).
+function FHThreats.canGetThreats(fruitName)
+    return #FHThreats.forCrop(fruitName) > 0
+end
+
+-- Crops of the map that can get threats, for the Crops section of the
+-- settings: {name, title}, sorted by title. Crops switched off there stay in
+-- the list, so they can be switched on again.
+function FHThreats.listMapCrops()
+    local manager = g_fruitTypeManager
+    if manager == nil then
+        return {}
+    end
+    local fruitTypes = manager.getFruitTypes ~= nil and manager:getFruitTypes() or manager.fruitTypes or {}
+    local list, seen = {}, {}
+    for _, desc in pairs(fruitTypes) do
+        local name = type(desc) == "table" and desc.name or nil
+        if name ~= nil and not seen[name] and #FHThreats.forCrop(name, nil, true) > 0 then
+            seen[name] = true
+            list[#list + 1] = {name = name, title = FHUtil.getCropTitle(name) or name}
+        end
+    end
+    table.sort(list, function(a, b) return a.title < b.title end)
+    return list
 end
 
 function FHThreats.attacks(threat, fruitName)

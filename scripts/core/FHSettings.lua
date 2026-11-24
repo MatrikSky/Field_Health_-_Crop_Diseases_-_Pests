@@ -41,6 +41,10 @@ FHSettings.OPTIONS = {
     {name = "insecticideUsage", section = "spraying", values = RATES, format = "percent", default = 4},
     {name = "aiSprayNeeded", section = "spraying", values = {1, 0}, format = ON_OFF, default = 1},
     {name = "preSowingSpray", section = "spraying", values = {1, 0}, format = ON_OFF, default = 2},
+    -- from this growth stage on (index in FHThreats.STAGES, 0 = off) a crop is
+    -- left alone: nobody sprays a field that is ready to harvest. On by default
+    -- at user request (1.5), also in older savegames.
+    {name = "stageProtection", section = "spraying", values = {0, 4, 5}, format = {"fh_set_off", "fh_set_fromFlowering", "fh_set_whenRipe"}, default = 3},
     {name = "oneSpray", section = "spraying", values = {1, 0}, format = ON_OFF, default = 2},
     {name = "fungicidePrice", section = "prices", values = PRICES_SMALL, format = "money", default = 5},
     {name = "insecticidePrice", section = "prices", values = PRICES_SMALL, format = "money", default = 8},
@@ -62,6 +66,10 @@ for _, option in ipairs(FHSettings.OPTIONS) do
 end
 
 FHSettings.selected = {}
+-- Crops the admin switched off (fruit name = true). Saved by name, so the list
+-- fits every map; a savegame without it keeps every crop on.
+FHSettings.cropsOff = {}
+FHSettings.CROP_PREFIX = "crop:"
 -- Called after any change (spray rates, shop prices); set by FHProducts.
 FHSettings.listeners = {}
 
@@ -77,6 +85,19 @@ end
 -- Whether threats of a category ("disease" or "pest") are switched on.
 function FHSettings.isCategoryOn(category)
     return FHSettings.isOn("enabled") and FHSettings.isOn(category == "disease" and "diseases" or "pests")
+end
+
+function FHSettings.isCropOn(fruitName)
+    return fruitName == nil or not FHSettings.cropsOff[fruitName]
+end
+
+local function sortedCropsOff()
+    local list = {}
+    for fruitName in pairs(FHSettings.cropsOff) do
+        list[#list + 1] = fruitName
+    end
+    table.sort(list)
+    return list
 end
 
 function FHSettings.getIndex(name)
@@ -96,6 +117,7 @@ function FHSettings.reset()
     for _, option in ipairs(FHSettings.OPTIONS) do
         FHSettings.selected[option.name] = option.default
     end
+    FHSettings.cropsOff = {}
     notify()
 end
 
@@ -121,6 +143,23 @@ end
 
 -- On the server: applies and sends to everyone. On a client: asks the server.
 function FHSettings.select(name, index)
+    -- "crop:<fruit name>": 1 = threats on, 2 = off
+    if string.sub(name, 1, #FHSettings.CROP_PREFIX) == FHSettings.CROP_PREFIX then
+        local fruitName = string.sub(name, #FHSettings.CROP_PREFIX + 1)
+        if fruitName == "" or (index ~= 1 and index ~= 2) then
+            return
+        end
+        if g_server == nil then
+            FHRequestEvent.sendSetting(name, index)
+            return
+        end
+        FHSettings.cropsOff[fruitName] = index == 2 or nil
+        notify()
+        if FHUtil.isMultiplayer() then
+            FHSyncEvent.broadcastSettings()
+        end
+        return
+    end
     local option = optionByName[name]
     if option == nil or option.values[index] == nil then
         return
@@ -145,6 +184,9 @@ function FHSettings.applyAll(indices)
             FHSettings.selected[name] = index
         end
     end
+    if indices.cropsOff ~= nil then
+        FHSettings.cropsOff = indices.cropsOff
+    end
     notify()
 end
 
@@ -153,6 +195,7 @@ function FHSettings.save(xmlFile, key)
     for _, option in ipairs(FHSettings.OPTIONS) do
         setXMLFloat(xmlFile, key .. "#" .. option.name, FHSettings.get(option.name))
     end
+    setXMLString(xmlFile, key .. ".crops#off", table.concat(sortedCropsOff(), " "))
 end
 
 function FHSettings.load(xmlFile, key)
@@ -169,6 +212,10 @@ function FHSettings.load(xmlFile, key)
             FHSettings.selected[option.name] = best
         end
     end
+    FHSettings.cropsOff = {}
+    for fruitName in string.gmatch(getXMLString(xmlFile, key .. ".crops#off") or "", "%S+") do
+        FHSettings.cropsOff[fruitName] = true
+    end
     notify()
 end
 
@@ -176,12 +223,21 @@ function FHSettings.writeStream(streamId)
     for _, option in ipairs(FHSettings.OPTIONS) do
         streamWriteUIntN(streamId, FHSettings.getIndex(option.name), FHSettings.INDEX_BITS)
     end
+    local cropsOff = sortedCropsOff()
+    streamWriteUIntN(streamId, math.min(#cropsOff, 255), 8)
+    for i = 1, math.min(#cropsOff, 255) do
+        streamWriteString(streamId, cropsOff[i])
+    end
 end
 
 function FHSettings.readStream(streamId)
     local indices = {}
     for _, option in ipairs(FHSettings.OPTIONS) do
         indices[option.name] = streamReadUIntN(streamId, FHSettings.INDEX_BITS)
+    end
+    indices.cropsOff = {}
+    for _ = 1, streamReadUIntN(streamId, 8) do
+        indices.cropsOff[streamReadString(streamId)] = true
     end
     return indices
 end
